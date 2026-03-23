@@ -1,0 +1,16 @@
+# Secretos
+.env
+
+# Base de Datos
+*.db
+*.db-journal
+
+# Informes y Logs
+*.html
+*.txt
+*.md
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
