@@ -30,7 +30,7 @@ def generate_report():
     SELECT 
         d.philibert_name, d.price, d.old_price, d.url, d.deal_source,
         g.name as bgg_name, g.bgg_id, g.rating, g.rank, d.is_accessory, d.is_expansion,
-        g.language_dependency, g.original_name
+        g.language_dependency, g.original_name, g.type
     FROM deals d
     INNER JOIN bgg_mapping m ON d.philibert_name = m.philibert_name
     INNER JOIN games g ON m.bgg_id = g.bgg_id
@@ -92,8 +92,8 @@ def generate_report():
                         <th onclick="sortTable(2)">Precio</th>
                         <th onclick="sortTable(3)" class="center">% Dto</th>
                         <th onclick="sortTable(4)" class="center">Fuente</th>
-                        <th onclick="sortTable(5)">BGG Matching (Original)</th>
-                        <th onclick="sortTable(6)" class="center">Idioma</th>
+                        <th onclick="sortTable(5)">Nombre BGG</th>
+                        <th onclick="sortTable(6)" class="center">Dependencia idioma</th>
                         <th onclick="sortTable(7)" class="center">⭐ Rating</th>
                         <th onclick="sortTable(8)" class="center">🏆 Rank</th>
                     </tr>
@@ -102,7 +102,7 @@ def generate_report():
     """
     
     for row in rows:
-        p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name = row
+        p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type = row
         
         p_display_name = p_name.replace(' - Occasion', '').strip()
         
@@ -117,8 +117,11 @@ def generate_report():
         if p_source == 'occasion': source_badge = f'<span class="badge-occasion">🏷️ OCCASION</span>'
         elif p_source == 'private': source_badge = f'<span class="badge-private">🔐 PRIVÉE</span>'
         
+        # Prioridad de categoría (BGG manda si existe el dato)
+        final_is_exp = is_exp or (g_type == 'boardgameexpansion')
+        
         if is_acc: cat_html = '<span class="type-accessory">🛠️ Accesorio</span>'
-        elif is_exp: cat_html = '<span class="type-expansion">➕ Expansión</span>'
+        elif final_is_exp: cat_html = '<span class="type-expansion">➕ Expansión</span>'
         else: cat_html = '<span class="type-base">📦 Juego Base</span>'
             
         bgg_url_link = f'https://boardgamegeek.com/boardgame/{b_id}'
