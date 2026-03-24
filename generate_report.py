@@ -1,24 +1,36 @@
 import sqlite3
 import os
 import datetime
+import shutil
 
 DB_PATH = r'c:\Datos\Luis\bgg\Phillibert\bgg_cache.db'
-REPORT_PATH = r'c:\Datos\Luis\bgg\Phillibert\ofertas_philibert.html'
+PUBLIC_DIR = r'c:\Datos\Luis\bgg\Phillibert\public'
+REPORT_PATH = os.path.join(PUBLIC_DIR, 'index.html')
+IMAGE_DEST_DIR = os.path.join(PUBLIC_DIR, 'assets', 'images')
 
 LANG_MAPPING = {
-    "No necessary in-game text": "Sin dependencia",
-    "Some necessary text - easily memorized or small crib sheet": "Baja dependencia",
-    "Moderate in-game text - needs crib sheet or paste ups": "Moderada dependencia",
-    "Extensive use of text - massive conversion needed to be playable": "Alta dependencia",
-    "Unplayable in another language": "Injugable en otro idioma"
+    "No necessary in-game text": "Sin",
+    "Some necessary text - easily memorized or small crib sheet": "Baja",
+    "Moderate in-game text - needs crib sheet or paste ups": "Moderada",
+    "Extensive use of text - massive conversion needed to be playable": "Alta",
+    "Unplayable in another language": "Injugable"
 }
+
+def color_weight(w):
+    try:
+        wf = float(w)
+        if wf <= 1.8: return "#27ae60" # Muy fácil (Verde)
+        if wf <= 2.8: return "#2ecc71" # Fácil (Verde claro)
+        if wf <= 3.6: return "#f39c12" # Medio (Naranja)
+        return "#e74c3c" # Difícil (Rojo)
+    except: return "#7f8c8d" # N/A
 
 def color_lang(dep):
     dep_low = dep.lower()
-    if "no necessary" in dep_low or "sin dependencia" in dep_low: return "#27ae60" # Verde
-    if "some necessary" in dep_low or "baja" in dep_low: return "#2980b9" # Azul
-    if "moderate" in dep_low or "moderada" in dep_low: return "#f39c12" # Naranja
-    if "extensive" in dep_low or "unplayable" in dep_low or "alta" in dep_low or "injugable" in dep_low: return "#e74c3c" # Rojo
+    if dep_low == "sin": return "#27ae60" # Verde
+    if dep_low == "baja": return "#2980b9" # Azul
+    if dep_low == "moderada": return "#f39c12" # Naranja
+    if dep_low in ["alta", "injugable"]: return "#e74c3c" # Rojo
     return "#7f8c8d"
 
 def generate_report():
@@ -30,7 +42,7 @@ def generate_report():
     SELECT 
         d.philibert_name, d.price, d.old_price, d.url, d.deal_source,
         g.name as bgg_name, g.bgg_id, g.rating, g.rank, d.is_accessory, d.is_expansion,
-        g.language_dependency, g.original_name, g.type
+        g.language_dependency, g.original_name, g.type, g.weight, g.min_players, g.max_players, g.best_players, d.image_local
     FROM deals d
     INNER JOIN bgg_mapping m ON d.philibert_name = m.philibert_name
     INNER JOIN games g ON m.bgg_id = g.bgg_id
@@ -46,7 +58,7 @@ def generate_report():
     <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Ofertas Philibert - Board Game Monitor</title>
+        <title>Ofertas Philibert - Monitor</title>
         <style>
             body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 25px; color: #333; }
             h1 { color: #2c3e50; text-align: center; }
@@ -72,12 +84,13 @@ def generate_report():
             .rank { color: #27ae60; font-weight: bold; }
             .rating { color: #f39c12; font-weight: bold; }
             .center { text-align: center; }
+            .game-img { width: 60px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         </style>
     </head>
     <body>
         <div class="container">
-            <h1>🔥 Philibert Board Game Monitor 🔥</h1>
-            <p style="text-align:center;">Mostrando <b>""" + str(len(rows)) + """</b> ofertas 100% verificadas del día: <b>""" + str(datetime.date.today()) + """</b></p>
+            <h1>🔥 Ofertas Philibert - Monitor 🔥</h1>
+            <p style="text-align:center;">Mostrando <b>""" + str(len(rows)) + """</b> ofertas verificadas el día: <b>""" + str(datetime.date.today()) + """</b></p>
             
             <div style="margin-bottom: 20px; text-align: center;">
                 <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar por nombre, categoría, idioma, fuente..." 
@@ -87,22 +100,25 @@ def generate_report():
             <table id="offersTable">
                 <thead>
                     <tr>
-                        <th onclick="sortTable(0)">Producto Philibert</th>
-                        <th onclick="sortTable(1)">Categoría</th>
-                        <th onclick="sortTable(2)">Precio</th>
-                        <th onclick="sortTable(3)" class="center">% Dto</th>
-                        <th onclick="sortTable(4)" class="center">Fuente</th>
-                        <th onclick="sortTable(5)">Nombre BGG</th>
-                        <th onclick="sortTable(6)" class="center">Dependencia idioma</th>
-                        <th onclick="sortTable(7)" class="center">⭐ Rating</th>
-                        <th onclick="sortTable(8)" class="center">🏆 Rank</th>
+                        <th class="center">Foto</th>
+                        <th onclick="sortTable(1)">Producto Philibert</th>
+                        <th onclick="sortTable(2)">Categoría</th>
+                        <th onclick="sortTable(3)">Precio</th>
+                        <th onclick="sortTable(4)" class="center">% Dto</th>
+                        <th onclick="sortTable(5)" class="center">Fuente</th>
+                        <th onclick="sortTable(6)">Nombre BGG</th>
+                        <th onclick="sortTable(7)" class="center">Dependencia idioma</th>
+                        <th onclick="sortTable(8)" class="center">⚙️ Peso</th>
+                        <th onclick="sortTable(9)" class="center">👥 Jugadores</th>
+                        <th onclick="sortTable(10)" class="center">⭐ Rating</th>
+                        <th onclick="sortTable(11)" class="center">🏆 Rank</th>
                     </tr>
                 </thead>
                 <tbody>
     """
     
     for row in rows:
-        p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type = row
+        p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type, g_wgt, min_p, max_p, best_p, img_local = row
         
         p_display_name = p_name.replace(' - Occasion', '').strip()
         
@@ -120,37 +136,50 @@ def generate_report():
         # Prioridad de categoría (BGG manda si existe el dato)
         final_is_exp = is_exp or (g_type == 'boardgameexpansion')
         
-        if is_acc: cat_html = '<span class="type-accessory">🛠️ Accesorio</span>'
-        elif final_is_exp: cat_html = '<span class="type-expansion">➕ Expansión</span>'
-        else: cat_html = '<span class="type-base">📦 Juego Base</span>'
+        if is_acc: cat_html = '<span class="type-accessory">Accesorio</span>'
+        elif final_is_exp: cat_html = '<span class="type-expansion">Expa</span>'
+        else: cat_html = '<span class="type-base">Base</span>'
             
         bgg_url_link = f'https://boardgamegeek.com/boardgame/{b_id}'
-        bgg_display = f'<a href="{bgg_url_link}" target="_blank">{b_name}</a>'
-        orig_display = f'<span class="orig-name">{o_name}</span>' if (o_name and o_name != b_name) else ""
-        
+        # BGG display (Original name only)
+        bgg_display = f'<a href="{bgg_url_link}" target="_blank">{o_name or b_name}</a>'
+
         # Traducción de Idioma
         l_dep_translated = LANG_MAPPING.get(l_dep, l_dep or "-")
         l_color = color_lang(l_dep_translated)
         l_dep_display = f'<span class="lang-dep" style="background-color:{l_color}">{l_dep_translated}</span>'
         
+        # New: Weight decoration
+        w_color = color_weight(g_wgt)
+        w_display = f'<span class="lang-dep" style="background-color:{w_color}; font-weight:bold;">{g_wgt or "N/A"}</span>'
+        
+        # New: Players decoration
+        p_range = f"{min_p}-{max_p}" if min_p != max_p else f"{min_p}"
+        p_best_str = f' <small style="color:#2980b9;">(Best: {best_p})</small>' if (best_p and best_p != "-") else ""
+        players_display = f"<b>{p_range}</b>{p_best_str}"
+
         rat_val = b_rating if (b_rating and b_rating != "N/A" and b_rating != "0.0") else "-"
         rnk_val = f"#{b_rank}" if (b_rank and b_rank != "N/A" and b_rank != "999999") else "-"
         
+        # Image Display (Relativa para portabilidad)
+        img_filename = os.path.basename(img_local) if img_local else ""
+        img_html = f'<img src="assets/images/{img_filename}" class="game-img">' if img_filename else '<div class="game-img" style="height:60px; background:#eee; display:flex; align-items:center; justify-content:center; color:#ccc;">📷</div>'
+
         html += f"""
-                    <tr>
-                        <td><a href="{p_url}" target="_blank">{p_display_name}</a></td>
-                        <td>{cat_html}</td>
-                        <td>
-                            <span class="price-old">{p_old if (p_old and p_old != "0€") else ""}</span>
-                            <span class="price-new">{p_price}</span>
-                        </td>
-                        <td class="center"><span class="discount-badge">-{discount}%</span></td>
-                        <td class="center">{source_badge}</td>
-                        <td>{bgg_display}{orig_display}</td>
-                        <td class="center">{l_dep_display}</td>
-                        <td class="center"><span class="rating">{rat_val}</span></td>
-                        <td class="center"><span class="rank">{rnk_val}</span></td>
-                    </tr>
+            <tr>
+                <td class="center">{img_html}</td>
+                <td><a href="{p_url}" target="_blank">{p_display_name}</a></td>
+                <td>{cat_html}</td>
+                <td data-sort="{val_new}"><span class="price-old">{p_old if p_old != '0€' else ''}</span><br><span class="price-new">{p_price}</span></td>
+                <td class="center" data-sort="{discount}"><span class="discount-badge">-{discount}%</span></td>
+                <td class="center">{source_badge}</td>
+                <td>{bgg_display}</td>
+                <td class="center">{l_dep_display}</td>
+                <td class="center">{w_display}</td>
+                <td class="center">{players_display}</td>
+                <td class="center" data-sort="{rat_val}"><b>{rat_val}</b></td>
+                <td class="center" data-sort="{(b_rank if b_rank != 'N/A' else '999999')}">{rnk_val}</td>
+            </tr>
         """
         
     html += """
@@ -181,29 +210,28 @@ def generate_report():
             }
 
             function sortTable(n) {
-                var table = document.getElementById("offersTable");
-                var rows = table.rows;
-                var switching = true, i, x, y, shouldSwitch, dir = "asc", switchcount = 0;
+                var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+                table = document.getElementById("offersTable");
+                switching = true;
+                dir = "asc"; 
                 while (switching) {
                     switching = false;
+                    rows = table.rows;
                     for (i = 1; i < (rows.length - 1); i++) {
                         shouldSwitch = false;
                         x = rows[i].getElementsByTagName("TD")[n];
                         y = rows[i + 1].getElementsByTagName("TD")[n];
-                        var xVal = x.textContent.trim().toLowerCase();
-                        var yVal = y.textContent.trim().toLowerCase();
                         
-                        if (n === 2 || n === 3 || n === 7 || n === 8) {
-                             xVal = xVal.replace(/[€%#]|not ranked|n\\/a/g, '').replace(',', '.').trim();
-                             yVal = yVal.replace(/[€%#]|not ranked|n\\/a/g, '').replace(',', '.').trim();
-                             if (n === 8) {
-                                  xVal = parseFloat(xVal) || 999999;
-                                  yVal = parseFloat(yVal) || 999999;
-                             } else {
-                                  xVal = parseFloat(xVal) || 0;
-                                  yVal = parseFloat(yVal) || 0;
-                             }
+                        var xVal = x.getAttribute("data-sort") || x.textContent.trim().toLowerCase();
+                        var yVal = y.getAttribute("data-sort") || y.textContent.trim().toLowerCase();
+                        // Si es numérico (Columnas 3, 4, 8, 9, 10, 11)
+                        if ([3, 4, 8, 9, 10, 11].includes(n)) {
+                            xVal = parseFloat(xVal.replace(/[€%#]|not ranked|n\\/a/g, '').replace(',', '.'));
+                            yVal = parseFloat(yVal.replace(/[€%#]|not ranked|n\\/a/g, '').replace(',', '.'));
+                            if (isNaN(xVal)) xVal = 999999;
+                            if (isNaN(yVal)) yVal = 999999;
                         }
+
                         if (dir == "asc") {
                             if (xVal > yVal) { shouldSwitch = true; break; }
                         } else if (dir == "desc") {
@@ -213,9 +241,12 @@ def generate_report():
                     if (shouldSwitch) {
                         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
                         switching = true;
-                        switchcount ++;
+                        switchcount ++;      
                     } else {
-                        if (switchcount == 0 && dir == "asc") { dir = "desc"; switching = true; }
+                        if (switchcount == 0 && dir == "asc") {
+                            dir = "desc";
+                            switching = true;
+                        }
                     }
                 }
             }
@@ -224,12 +255,30 @@ def generate_report():
     </html>
     """
     
+    # Aseguramos que la carpeta pública y la de imágenes existan
+    os.makedirs(IMAGE_DEST_DIR, exist_ok=True)
+    
     with open(REPORT_PATH, "w", encoding="utf-8") as f:
         f.write(html)
         f.flush()
         os.fsync(f.fileno())
         
-    print(f"Informe v1.7 con IDIOMAS y NOMBRES ORIGINALES generado en: {REPORT_PATH}")
+    print(f"Informe v2.1 (MODO DESPLIEGUE SEGURO) generado en: {REPORT_PATH}")
+    
+    # Copiamos solo las imágenes necesarias de las ofertas de hoy
+    print("Sincronizando imágenes en carpeta pública...")
+    count_img = 0
+    for row in rows:
+        img_absolute = row[18] # La columna 19 (índice 18) es image_local
+        if img_absolute and os.path.exists(img_absolute):
+            filename = os.path.basename(img_absolute)
+            dest = os.path.join(IMAGE_DEST_DIR, filename)
+            if not os.path.exists(dest):
+                shutil.copy2(img_absolute, dest)
+                count_img += 1
+                
+    print(f"✅ ¡CARPETA LISTA! Se han copiado {count_img} imágenes nuevas.")
+    print(f"🚀 Arrastra la carpeta '{PUBLIC_DIR}' a Netlify Drop para publicar.")
 
 if __name__ == "__main__":
     generate_report()

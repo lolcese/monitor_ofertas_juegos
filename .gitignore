@@ -2,11 +2,9 @@
 .env
 
 # Base de Datos
-*.db
 *.db-journal
 
 # Informes y Logs
-*.html
 *.txt
 *.md
 
