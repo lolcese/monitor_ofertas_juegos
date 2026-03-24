@@ -7,6 +7,8 @@ DB_PATH = r'c:\Datos\Luis\bgg\Phillibert\bgg_cache.db'
 PUBLIC_DIR = r'c:\Datos\Luis\bgg\Phillibert\public'
 REPORT_PATH = os.path.join(PUBLIC_DIR, 'index.html')
 IMAGE_DEST_DIR = os.path.join(PUBLIC_DIR, 'assets', 'images')
+FAVICON_SRC = r'c:\Datos\Luis\bgg\Phillibert\assets\favicon.png'
+FAVICON_DEST = os.path.join(PUBLIC_DIR, 'assets', 'favicon.png')
 
 LANG_MAPPING = {
     "No necessary in-game text": "Sin",
@@ -58,6 +60,7 @@ def generate_report():
     <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="assets/favicon.png">
         <title>Ofertas Philibert - Monitor</title>
         <style>
             body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 25px; color: #333; }
@@ -264,6 +267,10 @@ def generate_report():
     # Aseguramos que la carpeta pública y la de imágenes existan
     os.makedirs(IMAGE_DEST_DIR, exist_ok=True)
     
+    # Sincronizamos Favicon
+    if os.path.exists(FAVICON_SRC):
+        shutil.copy2(FAVICON_SRC, FAVICON_DEST)
+    
     with open(REPORT_PATH, "w", encoding="utf-8") as f:
         f.write(html)
         f.flush()
@@ -272,15 +279,24 @@ def generate_report():
     print(f"Informe v2.1 (MODO DESPLIEGUE SEGURO) generado en: {REPORT_PATH}")
     
     # Copiamos solo las imágenes necesarias de las ofertas de hoy
+    from philibert_core import IMG_DIR
     print("Sincronizando imágenes en carpeta pública...")
     count_img = 0
     for row in rows:
-        img_absolute = row[18] # La columna 19 (índice 18) es image_local
-        if img_absolute and os.path.exists(img_absolute):
-            filename = os.path.basename(img_absolute)
+        img_val = row[18] # La columna 19 (índice 18) es image_local
+        if not img_val: continue
+        
+        # Intentamos localizar el archivo (puede ser ruta absoluta o solo nombre)
+        if os.path.isabs(img_val):
+            img_src = img_val
+        else:
+            img_src = os.path.join(IMG_DIR, img_val)
+            
+        if os.path.exists(img_src):
+            filename = os.path.basename(img_src)
             dest = os.path.join(IMAGE_DEST_DIR, filename)
             if not os.path.exists(dest):
-                shutil.copy2(img_absolute, dest)
+                shutil.copy2(img_src, dest)
                 count_img += 1
                 
     print(f"PROCESAMIENTO COMPLETADO. Se han copiado {count_img} imágenes nuevas.")

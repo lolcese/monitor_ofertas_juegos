@@ -105,6 +105,21 @@ def log_failed_match(name, url, best_id, best_conf, candidates_dict, source='mat
     with open(LOG_PATH, 'a', encoding='utf-8') as f:
         f.write(f"\n--- {ts} | [{source.upper()}] '{name}' ---\nURL: {url}\nASIGNADO ID: {best_id} | Conf: {best_conf:.1f}%\n" + "-"*60 + "\n")
 
+def save_deal(cursor, philibert_name, price, old_price, url, is_accessory, is_expansion, source, condition="", img_url=None):
+    """Guarda una oferta en la base de datos y descarga su imagen de Philibert si existe."""
+    # Descargar imagen de Philibert si se proporciona
+    img_local = ""
+    if img_url:
+        # Generamos un nombre basado en el nombre de Philibert (limpio)
+        clean_name = "".join(c for c in philibert_name if c.isalnum() or c in (' ', '-', '_')).strip()
+        img_id = clean_name.replace(' ', '_').lower()
+        img_local = download_image(img_id, img_url)
+
+    cursor.execute("""
+        INSERT INTO deals (philibert_name, price, old_price, url, date_found, is_accessory, is_expansion, deal_source, condition, image_local)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (philibert_name, price, old_price, url, datetime.date.today(), is_accessory, is_expansion, source, condition, img_local))
+
 def init_db():
     with get_db_connection() as conn:
         conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (philibert_name TEXT PRIMARY KEY, bgg_id TEXT, last_search DATE, confidence REAL)')
