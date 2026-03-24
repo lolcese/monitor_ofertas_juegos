@@ -168,12 +168,18 @@ def fetch_details(bgg_id):
         res = requests.get(url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(res.content, 'xml')
         item = soup.find('item')
-        if not item: return "N/A", "N/A", "Unknown", "-", "", "N/A", 0, 0, "-"
-        stats = item.find('statistics'); rat, rnk = "N/A", "N/A"
+        if not item: return "N/A", "999999", "Unknown", "-", "", "N/A", 0, 0, "-"
+        
+        rat = "N/A"
+        rnk = "999999" # Default value for rank
+        
+        stats = item.find('statistics')
         if stats:
             avg = stats.find('average'); rat = f"{float(avg.get('value', 0)):.1f}" if avg else "N/A"
-            for r in stats.find_all('rank'):
-                if r.get('name') == 'boardgame': rnk = r.get('value', 'N/A'); break
+            
+            rank_tag = stats.find('rank', attrs={'name': 'boardgame'})
+            if rank_tag and rank_tag.get('value') and rank_tag['value'].isdigit():
+                rnk = rank_tag['value']
         
         o_name = (item.find('name', attrs={'type': 'primary'}) or item.find('name'))['value']
         l_dep = "-"

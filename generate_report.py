@@ -48,7 +48,7 @@ def generate_report():
     INNER JOIN games g ON m.bgg_id = g.bgg_id
     WHERE d.date_found = (SELECT MAX(date_found) FROM deals)
     AND m.confidence >= 95
-    ORDER BY d.deal_source DESC, d.philibert_name ASC
+    ORDER BY CASE WHEN g.rank = '999999' OR g.rank = 'N/A' OR g.rank IS NULL THEN 1 ELSE 0 END, CAST(g.rank AS INTEGER) ASC
     """
     c.execute(query)
     rows = c.fetchall()
@@ -85,12 +85,19 @@ def generate_report():
             .rating { color: #f39c12; font-weight: bold; }
             .center { text-align: center; }
             .game-img { width: 60px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            footer { margin-top: 30px; text-align: center; font-size: 0.9em; color: #7f8c8d; border-top: 1px solid #ddd; padding-top: 15px; }
+            .contact-btn { display: inline-block; background-color: #0088cc; color: white; padding: 6px 15px; border-radius: 20px; text-decoration: none; margin-left: 10px; font-weight: bold; }
+            .contact-btn:hover { background-color: #0077b5; text-decoration: none; }
         </style>
     </head>
     <body>
         <div class="container">
-            <h1>🔥 Ofertas Philibert - Monitor 🔥</h1>
-            <p style="text-align:center;">Mostrando <b>""" + str(len(rows)) + """</b> ofertas verificadas el día: <b>""" + str(datetime.date.today()) + """</b></p>
+            <h1>Ofertas Philibert - Monitor</h1>
+            <div style="text-align:center; margin-bottom: 25px;">
+                <span style="font-size: 0.9em; color: #7f8c8d;">Desarrollado por <b>Luis Olcese</b></span>
+                <a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a>
+            </div>
+            <p style="text-align:center; margin-bottom: 5px;">Mostrando <b>""" + str(len(rows)) + """</b> ofertas verificadas el día: <b>""" + str(datetime.date.today()) + """</b></p>
             
             <div style="margin-bottom: 20px; text-align: center;">
                 <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar por nombre, categoría, idioma, fuente..." 
@@ -100,7 +107,7 @@ def generate_report():
             <table id="offersTable">
                 <thead>
                     <tr>
-                        <th class="center">Foto</th>
+                        <th class="center">Imagen</th>
                         <th onclick="sortTable(1)">Producto Philibert</th>
                         <th onclick="sortTable(2)">Categoría</th>
                         <th onclick="sortTable(3)">Precio</th>
@@ -108,10 +115,10 @@ def generate_report():
                         <th onclick="sortTable(5)" class="center">Fuente</th>
                         <th onclick="sortTable(6)">Nombre BGG</th>
                         <th onclick="sortTable(7)" class="center">Dependencia idioma</th>
-                        <th onclick="sortTable(8)" class="center">⚙️ Peso</th>
-                        <th onclick="sortTable(9)" class="center">👥 Jugadores</th>
-                        <th onclick="sortTable(10)" class="center">⭐ Rating</th>
-                        <th onclick="sortTable(11)" class="center">🏆 Rank</th>
+                        <th onclick="sortTable(8)" class="center">Peso</th>
+                        <th onclick="sortTable(9)" class="center">Jugadores</th>
+                        <th onclick="sortTable(10)" class="center">Rating</th>
+                        <th onclick="sortTable(11)" class="center">Rank</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -129,9 +136,9 @@ def generate_report():
         except:
             discount = 0
             
-        source_badge = f'<span class="badge-flash">⚡ FLASH</span>'
-        if p_source == 'occasion': source_badge = f'<span class="badge-occasion">🏷️ OCCASION</span>'
-        elif p_source == 'private': source_badge = f'<span class="badge-private">🔐 PRIVÉE</span>'
+        source_badge = f'<span class="badge-flash">FLASH</span>'
+        if p_source == 'occasion': source_badge = f'<span class="badge-occasion">OCCASION</span>'
+        elif p_source == 'private': source_badge = f'<span class="badge-private">PRIVÉE</span>'
         
         # Prioridad de categoría (BGG manda si existe el dato)
         final_is_exp = is_exp or (g_type == 'boardgameexpansion')
@@ -155,8 +162,7 @@ def generate_report():
         
         # New: Players decoration
         p_range = f"{min_p}-{max_p}" if min_p != max_p else f"{min_p}"
-        p_best_str = f' <small style="color:#2980b9;">(Best: {best_p})</small>' if (best_p and best_p != "-") else ""
-        players_display = f"<b>{p_range}</b>{p_best_str}"
+        players_display = f"{p_range}"
 
         rat_val = b_rating if (b_rating and b_rating != "N/A" and b_rating != "0.0") else "-"
         rnk_val = f"#{b_rank}" if (b_rank and b_rank != "N/A" and b_rank != "999999") else "-"
@@ -177,8 +183,8 @@ def generate_report():
                 <td class="center">{l_dep_display}</td>
                 <td class="center">{w_display}</td>
                 <td class="center">{players_display}</td>
-                <td class="center" data-sort="{rat_val}"><b>{rat_val}</b></td>
-                <td class="center" data-sort="{(b_rank if b_rank != 'N/A' else '999999')}">{rnk_val}</td>
+                <td class="center" data-sort="{rat_val}">{rat_val}</td>
+                <td class="center" data-sort="{(b_rank if b_rank != 'N/A' else '999999')}"><b>{rnk_val}</b></td>
             </tr>
         """
         
@@ -277,8 +283,9 @@ def generate_report():
                 shutil.copy2(img_absolute, dest)
                 count_img += 1
                 
-    print(f"✅ ¡CARPETA LISTA! Se han copiado {count_img} imágenes nuevas.")
-    print(f"🚀 Arrastra la carpeta '{PUBLIC_DIR}' a Netlify Drop para publicar.")
+    print(f"PROCESAMIENTO COMPLETADO. Se han copiado {count_img} imágenes nuevas.")
+    print(f"Carpeta lista para publicar: {PUBLIC_DIR}")
+    print(f"Sube el contenido de 'public' a Netlify.")
 
 if __name__ == "__main__":
     generate_report()
