@@ -2,27 +2,30 @@ import sys
 import requests
 import re
 from bs4 import BeautifulSoup
-from philibert_core import get_db_connection, fetch_details, HEADERS, save_deal
+from monitor_core import get_db_connection, fetch_details, HEADERS_BGG as HEADERS, save_deal
 import datetime
 
-def manual_fix(phili_url, bgg_input):
-    # 0. Headers de navegador para evitar el 503
-    PHILI_HEADERS = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+def manual_fix(item_url, bgg_input):
+    # 0. Headers de navegador para evitar bloqueos
+    CUSTOM_HEADERS = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
     
     # 1. Extraer ID de BGG
     bgg_id = re.search(r'boardgame/(\d+)', bgg_input)
     bgg_id = bgg_id.group(1) if bgg_id else bgg_input
     
-    print(f"🔍 Identificando producto en Philibert...")
-    res = requests.get(phili_url, headers=PHILI_HEADERS, timeout=10)
+    print(f"🔍 Identificando producto en la URL proporcionada...")
+    res = requests.get(item_url, headers=CUSTOM_HEADERS, timeout=10)
     soup = BeautifulSoup(res.content, 'html.parser')
     
-    # Intentar pillar el nombre del H1 (que es el nombre oficial en la ficha)
-    title_tag = soup.find('h1', class_='item-title') or soup.find('h1')
+    # Buscamos el nombre en el H1 (compatible con Philibert y Miniature Market)
+    title_tag = soup.find('h1', class_='item-title') or \
+                soup.find('h1', class_='product-detail-name') or \
+                soup.find('h1')
+    
     if not title_tag:
-        print("❌ Error: No se pudo encontrar el título en la página de Philibert.")
+        print("❌ Error: No se pudo encontrar el título en la página.")
         return
     
     p_name = title_tag.text.strip()
@@ -54,6 +57,6 @@ def manual_fix(phili_url, bgg_input):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Uso: python manual_fix.py \"URL_PHILIBERT\" \"URL_BGG_O_ID\"")
+        print("Uso: python manual_fix.py \"URL_PRODUCTO\" \"URL_BGG_O_ID\"")
     else:
         manual_fix(sys.argv[1], sys.argv[2])

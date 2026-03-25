@@ -1,109 +1,213 @@
 import tkinter as tk
-from tkinter import messagebox, ttk
-import requests
-import re
-from bs4 import BeautifulSoup
-import datetime
+from tkinter import ttk, messagebox
 import sqlite3
+import datetime
+import webbrowser
+import re
 import os
+from PIL import Image, ImageTk
+from monitor_core import BGG_CACHE_DB, fetch_details, init_db, IMG_DIR
 
-# Importamos las utilidades del núcleo para no repetir lógica
-from philibert_core import fetch_details, get_db_connection
-
-def run_fix():
-    phili_url = entry_phili.get().strip()
-    bgg_input = entry_bgg.get().strip()
-    
-    if not phili_url or not bgg_input:
-        messagebox.showwarning("Faltan datos", "Por favor, introduce ambas URLs.")
-        return
-
-    try:
-        # 0. Headers de navegador para evitar el 503
-        PHILI_HEADERS = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-        }
+class ManualFixGUI:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Gestor de Mapeo BGG - Ofertas Actuales")
+        self.root.geometry("1100x750")
+        self.root.configure(bg="#f4f6f9")
         
-        lbl_status.config(text="🔍 Identificando producto...", foreground="#2980b9")
-        root.update_idletasks()
+        init_db()
+        self.setup_ui()
+        self.show_ignored_var.set(False) # Por defecto ocultar ignorados
+        self.load_data()
 
-        # 1. Extraer ID de BGG
-        bgg_id = re.search(r'boardgame/(\d+)', bgg_input)
-        bgg_id = bgg_id.group(1) if bgg_id else bgg_input
-        
-        # 2. Consultar Philibert
-        res = requests.get(phili_url, headers=PHILI_HEADERS, timeout=10)
-        res.raise_for_status()
-        soup = BeautifulSoup(res.content, 'html.parser')
-        
-        title_tag = soup.find('h1', class_='item-title') or soup.find('h1')
-        if not title_tag:
-            messagebox.showerror("Error", "No se pudo encontrar el título en Philibert.")
-            return
-        
-        p_name = title_tag.text.strip()
-        
-        # 3. Consultar BGG
-        lbl_status.config(text=f"🌐 Consultando BGG para {bgg_id}...", foreground="#8e44ad")
-        root.update_idletasks()
-        
-        rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(bgg_id)
-        
-        # 4. Guardar en Base de Datos
-        today = datetime.date.today().isoformat()
-        db_path = r'c:\Datos\Luis\bgg\Phillibert\bgg_cache.db'
-        conn = sqlite3.connect(db_path)
-        
-        # Mapeo
-        conn.execute('INSERT OR REPLACE INTO bgg_mapping (philibert_name, bgg_id, confidence, last_search) VALUES (?, ?, ?, ?)',
-                     (p_name, bgg_id, 100.0, today))
-        
-        # Juego
-        conn.execute('''
-            INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (bgg_id, o_name, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
-        
-        conn.commit()
-        conn.close()
-        
-        lbl_status.config(text=f"✅ Mapeo completado: '{o_name}'", foreground="#27ae60")
-        messagebox.showinfo("Éxito", f"'{p_name}' ahora está vinculado a '{o_name}'.\n\nRank: #{rnk}")
-        
-        # Limpiar campos
-        entry_phili.delete(0, tk.END)
-        entry_bgg.delete(0, tk.END)
+    def setup_ui(self):
+        # Panel Superior (Filtros)
+        filter_frame = tk.LabelFrame(self.root, text="🔍 Filtros de Búsqueda", bg="#f4f6f9", padx=10, pady=10)
+        filter_frame.pack(fill=tk.X, padx=15, pady=10)
 
-    except Exception as e:
-        lbl_status.config(text="❌ Error en el proceso", foreground="#c0392b")
-        messagebox.showerror("Error inesperado", str(e))
+        tk.Label(filter_frame, text="Nombre:", bg="#f4f6f9").pack(side=tk.LEFT)
+        self.filter_var = tk.StringVar()
+        self.filter_var.trace_add("write", lambda *args: self.load_data())
+        tk.Entry(filter_frame, textvariable=self.filter_var, width=35).pack(side=tk.LEFT, padx=10)
 
-# --- Interfaz Gráfica (Tkinter) ---
-root = tk.Tk()
-root.title("Monitor Philibert - Corrector de Mapeos")
-root.geometry("600x320")
-root.configure(bg="#f5f6f7")
+        self.only_failed_var = tk.BooleanVar(value=True)
+        tk.Checkbutton(filter_frame, text="Solo Fallidos/Sin ID", 
+                       variable=self.only_failed_var, command=self.load_data, bg="#f4f6f9").pack(side=tk.LEFT, padx=5)
 
-# Estilos Elegant
-style = ttk.Style()
-style.configure("TButton", font=("Segoe UI", 10, "bold"), padding=10)
-style.configure("TLabel", font=("Segoe UI", 10), background="#f5f6f7")
+        self.only_current_var = tk.BooleanVar(value=True)
+        tk.Checkbutton(filter_frame, text="Ofertas Actuales", 
+                       variable=self.only_current_var, command=self.load_data, bg="#f4f6f9", font=("Arial", 9, "bold")).pack(side=tk.LEFT, padx=5)
 
-frame = ttk.Frame(root, padding="30")
-frame.pack(fill=tk.BOTH, expand=True)
+        self.show_ignored_var = tk.BooleanVar(value=False)
+        tk.Checkbutton(filter_frame, text="Mostrar Ignorados", 
+                       variable=self.show_ignored_var, command=self.load_data, bg="#f4f6f9").pack(side=tk.LEFT, padx=5)
 
-ttk.Label(frame, text="URL del Producto en Philibert:").pack(anchor=tk.W, pady=(0,5))
-entry_phili = ttk.Entry(frame, width=70)
-entry_phili.pack(fill=tk.X, pady=(0,15))
+        self.only_zero_rating_var = tk.BooleanVar(value=False)
+        tk.Checkbutton(filter_frame, text="⭐ Rating 0/NA", 
+                       variable=self.only_zero_rating_var, command=self.load_data, bg="#f4f6f9", fg="#e67e22").pack(side=tk.LEFT, padx=5)
 
-ttk.Label(frame, text="URL / ID de BGG:").pack(anchor=tk.W, pady=(0,5))
-entry_bgg = ttk.Entry(frame, width=70)
-entry_bgg.pack(fill=tk.X, pady=(0,20))
+        tk.Button(filter_frame, text="Refrescar", command=self.load_data, bg="#3498db", fg="white").pack(side=tk.RIGHT)
 
-btn_fix = ttk.Button(frame, text="🔗 VINCULAR AHORA", command=run_fix)
-btn_fix.pack(pady=5)
+        # Panel Central
+        main_mid_frame = tk.Frame(self.root, bg="#f4f6f9")
+        main_mid_frame.pack(fill=tk.BOTH, expand=True, padx=15)
 
-lbl_status = ttk.Label(frame, text="Listo para mapear", font=("Segoe UI", 9, "italic"))
-lbl_status.pack(pady=10)
+        table_frame = tk.Frame(main_mid_frame)
+        table_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-root.mainloop()
+        cols = ("item_name", "bgg_id", "conf", "last")
+        self.tree = ttk.Treeview(table_frame, columns=cols, show="headings")
+        self.tree.heading("item_name", text="Nombre en Catálogo")
+        self.tree.heading("bgg_id", text="BGG ID")
+        self.tree.heading("conf", text="Confianza (%)")
+        self.tree.heading("last", text="Última Búsqueda/Encontrado")
+        
+        self.tree.column("item_name", width=400)
+        self.tree.column("bgg_id", width=100, anchor=tk.CENTER)
+        self.tree.column("conf", width=100, anchor=tk.CENTER)
+        self.tree.column("last", width=120, anchor=tk.CENTER)
+        
+        scrollbar = ttk.Scrollbar(table_frame, orient=tk.VERTICAL, command=self.tree.yview)
+        self.tree.configure(yscroll=scrollbar.set)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.tree.bind("<<TreeviewSelect>>", self.on_select)
+
+        # Pre-visualización (Derecha)
+        self.preview_frame = tk.LabelFrame(main_mid_frame, text="👀 Vista Previa", bg="#fff", padx=10, pady=10, width=300)
+        self.preview_frame.pack(side=tk.RIGHT, fill=tk.Y, padx=(10, 0))
+        self.preview_frame.pack_propagate(False)
+
+        self.img_label = tk.Label(self.preview_frame, bg="#eee", width=250, height=250)
+        self.img_label.pack(pady=5)
+        self.bgg_name_disp = tk.Label(self.preview_frame, text="BGG Name: -", bg="#fff", font=("Arial", 9, "bold"), wraplength=250)
+        self.bgg_name_disp.pack(pady=5)
+        self.link_store_btn = tk.Button(self.preview_frame, text="🛒 Ver en TIENDA", command=self.open_current_store_link, bg="#27ae60", fg="white", state='disabled', font=("Arial", 9, "bold"))
+        self.link_store_btn.pack(pady=5, fill=tk.X)
+        self.link_bgg_btn = tk.Button(self.preview_frame, text="🌐 Ver en BGG Site", command=self.open_current_bgg_site, bg="#e67e22", fg="white", state='disabled')
+        self.link_bgg_btn.pack(pady=5, fill=tk.X)
+
+        # Panel Inferior
+        self.form_frame = tk.LabelFrame(self.root, text="🛠️ Acciones de Datos", bg="#f4f6f9", padx=15, pady=15)
+        self.form_frame.pack(fill=tk.X, padx=15, pady=15)
+
+        tk.Label(self.form_frame, text="Producto Seleccionado:", bg="#f4f6f9", font=("Arial", 9, "bold")).grid(row=0, column=0, sticky=tk.W)
+        self.name_var = tk.StringVar()
+        tk.Entry(self.form_frame, textvariable=self.name_var, state='readonly', width=80).grid(row=0, column=1, columnspan=4, padx=10, pady=5, sticky=tk.W)
+
+        tk.Label(self.form_frame, text="Asignar BGG ID:", bg="#f4f6f9", font=("Arial", 9, "bold")).grid(row=1, column=0, sticky=tk.W)
+        self.bgg_var = tk.StringVar()
+        self.bgg_entry = tk.Entry(self.form_frame, textvariable=self.bgg_var, width=20, font=("Arial", 11))
+        self.bgg_entry.grid(row=1, column=1, padx=10, pady=10, sticky=tk.W)
+
+        tk.Button(self.form_frame, text="✅ GUARDAR MAPEO", command=self.save_mapping, bg="#27ae60", fg="white", font=("Arial", 10, "bold"), padx=15).grid(row=1, column=2, padx=5)
+        tk.Button(self.form_frame, text="🔍 Buscar en BGG", command=self.open_bgg_search, bg="#3498db", fg="white").grid(row=1, column=3, padx=5)
+        tk.Button(self.form_frame, text="🗑️ ELIMINAR DE DB", command=self.delete_from_db, bg="#c0392b", fg="white", font=("Arial", 9, "bold")).grid(row=1, column=4, padx=20)
+        tk.Button(self.form_frame, text="🚫 NO INCLUIR (Ignorar)", command=self.ignore_mapping, bg="#95a5a6", fg="white", font=("Arial", 9, "bold"), height=2).grid(row=2, column=1, columnspan=2, sticky=tk.W, padx=10, pady=10)
+
+        self.current_store_url = ""
+
+    def load_data(self):
+        for item in self.tree.get_children(): self.tree.delete(item)
+        search_filter = f"%{self.filter_var.get()}%"
+        with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
+            cursor = conn.cursor()
+            max_date = cursor.execute("SELECT MAX(date_found) FROM deals").fetchone()[0] or "1900-01-01"
+            
+            # Construimos la query usando LEFT JOIN desde deals para no perder productos sin bgg_mapping
+            where_parts = ["d.item_name LIKE ?"]
+            
+            if self.only_failed_var.get():
+                where_parts.append("(IFNULL(m.confidence,0) < 95 OR m.bgg_id IS NULL OR m.bgg_id = '')")
+            
+            if not self.show_ignored_var.get():
+                where_parts.append("(m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')")
+            
+            if self.only_current_var.get():
+                where_parts.append(f"d.date_found >= date('{max_date}', '-1 day')")
+            
+            if self.only_zero_rating_var.get():
+                where_parts.append("(g.rating = '0' OR g.rating = '0.0' OR g.rating = 'N/A' OR g.rating IS NULL)")
+            
+            where_clause = " AND ".join(where_parts)
+            
+            query = f"""
+                SELECT DISTINCT d.item_name, m.bgg_id, IFNULL(m.confidence,0), IFNULL(m.last_search, d.date_found)
+                FROM deals d
+                LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
+                LEFT JOIN games g ON m.bgg_id = g.bgg_id
+                WHERE {where_clause}
+                ORDER BY d.date_found DESC, m.last_search DESC LIMIT 400
+            """
+            
+            cursor.execute(query, (search_filter,))
+            for r in cursor.fetchall():
+                # mostramos como "-" si es NULL
+                v = list(r)
+                v[1] = v[1] if v[1] else "-"
+                v[2] = f"{int(v[2])}%" if v[2] else "0%"
+                self.tree.insert("", tk.END, values=v)
+
+    def on_select(self, event):
+        selected = self.tree.selection()
+        if not selected: return
+        vals = self.tree.item(selected[0])['values']
+        name = vals[0]
+        # Si vals[1] es "-", el ID está vacío
+        b_id = str(vals[1]) if (vals[1] and vals[1] != '-') else ""
+        self.name_var.set(name); self.bgg_var.set(b_id)
+        
+        self.current_store_url = ""; img_local = ""; bgg_name = "-"
+        with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
+            c = conn.cursor()
+            row_d = c.execute("SELECT url, image_local FROM deals WHERE item_name=? ORDER BY date_found DESC LIMIT 1", (name,)).fetchone()
+            if row_d: self.current_store_url, img_local = row_d
+            if b_id and b_id != 'IGNORED':
+                row_g = c.execute("SELECT original_name FROM games WHERE bgg_id=?", (b_id,)).fetchone()
+                if row_g: bgg_name = row_g[0]
+        self.bgg_name_disp.config(text=f"Nombre BGG:\n{bgg_name}")
+        self.link_store_btn.config(state='normal' if self.current_store_url else 'disabled')
+        self.link_bgg_btn.config(state='normal' if (b_id and b_id != 'IGNORED') else 'disabled')
+        self.img_label.config(image='')
+        if img_local:
+            ipath = os.path.join(IMG_DIR, img_local)
+            if os.path.exists(ipath):
+                try: pimg = Image.open(ipath); pimg.thumbnail((250, 250)); tkimg = ImageTk.PhotoImage(pimg); self.img_label.config(image=tkimg); self.img_label.image = tkimg
+                except: pass
+
+    def open_current_store_link(self):
+        if self.current_store_url: webbrowser.open(self.current_store_url)
+    def open_current_bgg_site(self):
+        v = self.bgg_var.get().strip(); 
+        if v and v != "IGNORED": webbrowser.open(f"https://boardgamegeek.com/boardgame/{v}")
+    def open_bgg_search(self):
+        n = self.name_var.get()
+        if n: webbrowser.open(f"https://boardgamegeek.com/search/boardgame?q={re.sub(r'\(.*?\)', '', n).strip().replace(' ', '+')}")
+
+    def save_mapping(self):
+        name = self.name_var.get(); new_id = self.bgg_var.get().strip()
+        if not name: return
+        with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
+            cursor = conn.cursor()
+            cursor.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", 
+                          (name, new_id, 100.0, datetime.date.today().isoformat()))
+            if new_id and new_id != "IGNORED":
+                details = fetch_details(new_id)
+                if details and details[4] != "Unknown":
+                    rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = details
+                    cursor.execute('INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', (new_id, o_name, rat, rnk, gt, datetime.date.today().isoformat(), l_dep, o_name, wgt, minp, maxp, bestp))
+            conn.commit()
+        self.load_data(); messagebox.showinfo("Éxito", "Mapeo guardado.")
+
+    def ignore_mapping(self):
+        if self.name_var.get(): self.bgg_var.set("IGNORED"); self.save_mapping()
+    def delete_from_db(self):
+        n = self.name_var.get()
+        if n and messagebox.askyesno("Confirmar", f"¿Eliminar '{n}'?"):
+            with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
+                conn.execute("DELETE FROM bgg_mapping WHERE item_name = ?", (n,))
+                conn.execute("DELETE FROM deals WHERE item_name = ?", (n,))
+            self.load_data()
+
+if __name__ == "__main__":
+    root = tk.Tk(); app = ManualFixGUI(root); root.mainloop()
