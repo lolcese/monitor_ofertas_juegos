@@ -182,7 +182,9 @@ class ManualFixGUI:
         if v and v != "IGNORED": webbrowser.open(f"https://boardgamegeek.com/boardgame/{v}")
     def open_bgg_search(self):
         n = self.name_var.get()
-        if n: webbrowser.open(f"https://boardgamegeek.com/search/boardgame?q={re.sub(r'\(.*?\)', '', n).strip().replace(' ', '+')}")
+        if n:
+            search_query = re.sub(r'\(.*?\)', '', n).strip().replace(' ', '+')
+            webbrowser.open(f"https://boardgamegeek.com/search/boardgame?q={search_query}")
 
     def save_mapping(self):
         name = self.name_var.get(); new_id = self.bgg_var.get().strip()

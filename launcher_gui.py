@@ -59,7 +59,7 @@ class ScraperLauncher:
             self.log(f">>> Iniciando: {' '.join(cmd)}")
             try:
                 if cmd[0] == "python": cmd.insert(1, "-u")
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding='utf-8', bufsize=1)
+                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
                 for line in process.stdout:
                     self.root.after(0, lambda l=line: self.log(l.strip()))
                 process.wait()

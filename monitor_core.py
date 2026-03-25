@@ -14,9 +14,10 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv('token')
 COOKIE = os.getenv('PHILIBERT_COOKIE')
-BGG_CACHE_DB = r'c:\Datos\Luis\bgg\Phillibert\bgg_cache.db'
-IMG_DIR = r'c:\Datos\Luis\bgg\Phillibert\assets\images'
-LOG_HTML_PATH = r'c:\Datos\Luis\bgg\Phillibert\coincidencias_fallidas.html'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BGG_CACHE_DB = os.path.join(BASE_DIR, 'bgg_cache.db')
+IMG_DIR = os.path.join(BASE_DIR, 'assets', 'images')
+LOG_HTML_PATH = os.path.join(BASE_DIR, 'coincidencias_fallidas.html')
 
 os.makedirs(IMG_DIR, exist_ok=True)
 

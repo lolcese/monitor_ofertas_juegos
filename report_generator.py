@@ -6,7 +6,8 @@ import time
 import re
 from monitor_core import BGG_CACHE_DB, IMG_DIR, init_db, fetch_details, download_image
 
-PUBLIC_DIR = r'c:\Datos\Luis\bgg\Phillibert\public'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PUBLIC_DIR = os.path.join(BASE_DIR, 'public')
 REPORT_PATH = os.path.join(PUBLIC_DIR, 'index.html')
 IMAGE_DEST_DIR = os.path.join(PUBLIC_DIR, 'assets', 'images')
 
@@ -164,7 +165,7 @@ def generate_report():
         .game-img {{ width: 60px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }}
         .contact-btn {{ display: inline-block; background-color: #0088cc; color: white; padding: 6px 15px; border-radius: 20px; text-decoration: none; font-weight: bold; margin-bottom: 25px; transition: transform 0.2s; }}
         .contact-btn:hover {{ transform: scale(1.05); color: white; }}
-        </style></head><body><div class="container"><h1>Monitor de Ofertas Multitienda</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div>{sum_h}<p style="text-align:center;">Mostrando <b>{len(rows)}</b> ofertas recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody>"""
+        </style></head><body><div class="container"><h1>Monitor de Ofertas Multitienda</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div>{sum_h}<p style="text-align:center;">Mostrando <b>{len(rows)}</b> ofertas recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Dep. idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody>"""
         
         h_body = ""
         plogo = '<img src="assets/Logo_Philibert.png" style="height:18px; display:block; margin: 0 auto 3px auto;">'

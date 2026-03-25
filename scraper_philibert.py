@@ -50,7 +50,7 @@ def scrape_philibert(source_key):
                 
             found_new = False
             for item in items:
-                a_tag = item.select_one('.product-name a')
+                a_tag = item.select_one('.s_title_block a') or item.select_one('.product-name a')
                 if not a_tag: continue
                 u = a_tag['href']
                 name = a_tag.text.strip()
@@ -61,12 +61,12 @@ def scrape_philibert(source_key):
                 
                 print(f"   Procesando: {name}...")
 
-                p_new_tag = item.select_one('.content_price .price')
-                p_old_tag = item.select_one('.content_price .old-price')
+                p_new_tag = item.select_one('.price_container .price') or item.select_one('.content_price .price')
+                p_old_tag = item.select_one('.price_container .old-price') or item.select_one('.content_price .old-price')
                 p_new = p_new_tag.text.strip() if p_new_tag else "0€"
                 p_old = p_old_tag.text.strip() if p_old_tag else p_new
                 
-                img_tag = item.select_one('.product-image-container img')
+                img_tag = item.select_one('.product_img_link img') or item.select_one('.product-image-container img')
                 img_url = img_tag['src'] if img_tag else ""
 
                 # Cache check
