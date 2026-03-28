@@ -75,6 +75,16 @@ def sync_images_to_public():
                 try:
                     shutil.copy2(src, dst)
                 except: pass
+        
+        # Sincronizar logos y favicon
+        logos = ["Logo_Philibert.png", "miniaturemarket_logo.jpeg", "planeton_logo.jpg", "favicon.png"]
+        for logo in logos:
+            src_l = os.path.join(BASE_DIR, "assets", logo)
+            dst_l = os.path.join(PUBLIC_DIR, "assets", logo)
+            os.makedirs(os.path.dirname(dst_l), exist_ok=True)
+            if os.path.exists(src_l) and not os.path.exists(dst_l):
+                try: shutil.copy2(src_l, dst_l)
+                except: pass
     finally:
         conn.close()
 
@@ -87,32 +97,52 @@ def generate_report():
         c = conn.cursor()
         query = """
         SELECT 
-            d.item_name, d.price, d.old_price, d.url, d.deal_source, 
-            IFNULL(g.name, d.item_name) as bgg_name, IFNULL(m.bgg_id, 'N/A') as bgg_id, 
-            IFNULL(g.rating, 'N/A') as rating, IFNULL(g.rank, '999999') as rank, 
-            d.is_accessory, d.is_expansion, IFNULL(g.language_dependency, '-') as language_dependency, 
+            d.item_name, 
+            d.price, 
+            d.old_price, 
+            d.url, 
+            CASE 
+                WHEN d.deal_source = 'mm_preorder' THEN 'mm_preorder'
+                WHEN d.deal_source LIKE 'mm_%%' THEN 'mm_deals'
+                WHEN d.deal_source IN ('flash', 'occasion', 'private') THEN d.deal_source
+                ELSE d.deal_source 
+            END as p_source_grouped, 
+            IFNULL(g.name, d.item_name) as bgg_name, 
+            IFNULL(m.bgg_id, 'N/A') as bgg_id, 
+            IFNULL(g.rating, 'N/A') as rating, 
+            IFNULL(g.rank, '999999') as rank, 
+            d.is_accessory, 
+            d.is_expansion, 
+            IFNULL(g.language_dependency, '-') as language_dependency, 
             IFNULL(g.original_name, d.item_name) as original_name, 
-            IFNULL(g.type, 'UNKNOWN') as bgg_type, IFNULL(g.weight, 'N/A') as weight, 
-            IFNULL(g.min_players, 0) as min_p, IFNULL(g.max_players, 0) as max_p, 
+            IFNULL(g.type, 'UNKNOWN') as bgg_type, 
+            IFNULL(g.weight, 'N/A') as weight, 
+            IFNULL(g.min_players, 0) as min_p, 
+            IFNULL(g.max_players, 0) as max_p, 
             IFNULL(g.best_players, '-') as best_p, 
-            d.image_local, d.date_found
+            d.image_local, 
+            MAX(d.date_found) as last_seen
         FROM deals d
         LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
         LEFT JOIN games g ON m.bgg_id = g.bgg_id
-        WHERE d.date_found = (SELECT MAX(date_found) FROM deals d2 WHERE d2.deal_source = d.deal_source)
-        AND d.date_found >= date('now', '-7 days')
+        WHERE d.date_found >= date('now', '-7 days')
         AND (m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')
         AND d.is_accessory = 0
+        GROUP BY d.item_name
         ORDER BY CASE WHEN g.rank = '999999' OR g.rank = 'N/A' OR g.rank IS NULL THEN 1 ELSE 0 END, CAST(g.rank AS INTEGER) ASC
         """
         rows = c.execute(query).fetchall()
-        st_counts = {'Philibert': 0, 'Miniature Market': 0}
+        st_counts = {'Philibert': 0, 'Miniature Market': 0, 'Planeton': 0}
         t_counts = {}
         for r in rows:
             src = str(r[4]).lower()
             if any(k in src for k in ['miniature', 'mm_', 'deals']):
                 st_counts['Miniature Market'] += 1
-                sk = 'mm_clearance' if 'clearance' in src else ('mm_backdoor' if 'backrooms' in src or 'backdoor' in src else 'mm_deals')
+                sk = 'mm_clearance' if 'clearance' in src else ('mm_backdoor' if ('backrooms' in src or 'backdoor' in src) else ('mm_sales' if 'sales' in src else ('mm_lastchance' if 'lastchance' in src else ('mm_markdown' if 'markdown' in src else ('mm_preorder' if 'preorder' in src else 'mm_daily')))))
+                t_counts[sk] = t_counts.get(sk, 0) + 1
+            elif 'planeton' in src:
+                st_counts['Planeton'] += 1
+                sk = 'planeton_preorder' if 'preorder' in src else 'planeton'
                 t_counts[sk] = t_counts.get(sk, 0) + 1
             else:
                 st_counts['Philibert'] += 1
@@ -121,11 +151,20 @@ def generate_report():
         conn.close()
                 
     phili_lbls = {'flash': 'FLASH', 'occasion': 'OCCASION', 'private': 'PRIVÉE'}
-    mm_lbls = {'mm_deals': 'MM DEALS', 'mm_backdoor': 'BACKDOOR', 'mm_clearance': 'CLEARANCE'}
+    mm_lbls = {
+        'mm_daily': 'MM DEAL', 
+        'mm_sales': 'MM SALES', 
+        'mm_backdoor': 'BACKDOOR', 
+        'mm_clearance': 'CLEARANCE',
+        'mm_lastchance': 'LAST CHANCE',
+        'mm_markdown': 'MARKDOWN',
+        'mm_preorder': 'PRE-ORDER'
+    }
     
     sum_h = '<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-bottom:25px;">'
     
     sum_h += '<div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;">'
+    sum_h += f'<img src="assets/Logo_Philibert.png" style="height:25px; display:block; margin:0 auto 10px auto;">'
     sum_h += f'<h3 style="margin-top:0; color:#003566; font-size:1em; border-bottom:2px solid #003566; padding-bottom:5px;">FR Philibert ({st_counts["Philibert"]})</h3><div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap;">'
     for k, l in phili_lbls.items():
         cnt = t_counts.get(k, 0)
@@ -134,12 +173,21 @@ def generate_report():
     sum_h += '</div></div>'
     
     sum_h += '<div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;">'
+    sum_h += f'<img src="assets/miniaturemarket_logo.jpeg" style="height:25px; display:block; margin:0 auto 10px auto;">'
     sum_h += f'<h3 style="margin-top:0; color:#e67e22; font-size:1em; border-bottom:2px solid #e67e22; padding-bottom:5px;">US Miniature Market ({st_counts["Miniature Market"]})</h3><div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap;">'
     for k, l in mm_lbls.items():
         cnt = t_counts.get(k, 0)
         if cnt > 0:
             short_l = l.replace('MM ', '')
             sum_h += f'<span class="badge-{k.replace("mm_","mm-")}" onclick="filterByCategory(\'{l.upper()}\')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">{short_l}: {cnt}</span>'
+    sum_h += '</div></div>'
+    
+    sum_h += '<div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;">'
+    sum_h += f'<img src="assets/planeton_logo.jpg" style="height:25px; display:block; margin:0 auto 10px auto;">'
+    sum_h += f'<h3 style="margin-top:0; color:#c0392b; font-size:1em; border-bottom:2px solid #c0392b; padding-bottom:5px;">Planeton Games ({st_counts["Planeton"]})</h3><div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap;">'
+    sum_h += f'<span class="badge-planeton" onclick="filterByCategory(\'PLANETON\')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">OFERTAS: {t_counts.get("planeton", 0)}</span>'
+    if t_counts.get('planeton_preorder', 0) > 0:
+        sum_h += f'<span class="badge-mm-preorder" onclick="filterByCategory(\'RESERVA\')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">RESERVAS: {t_counts["planeton_preorder"]}</span>'
     sum_h += '</div></div>'
     
     sum_h += '</div><div style="text-align:center; margin-bottom:15px;"><button onclick="filterByCategory(\'\')" style="background:#6c757d; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">Ver Todos los Resultados</button></div>'
@@ -157,12 +205,16 @@ def generate_report():
     .price-new {{ font-weight: bold; color: #e74c3c; font-size: 1.1em; }}
     .price-old {{ text-decoration: line-through; color: #95a5a6; font-size: 0.85em; margin-right: 5px; }}
     .discount-badge {{ background: #e74c3c; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold; font-size: 0.9em; }}
-    .badge-flash {{ background: #f1c40f; color: #333; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }}
-    .badge-occasion {{ background: #9b59b6; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }}
-    .badge-private {{ background: #2c3e50; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }}
-    .badge-mm-backdoor {{ background: #e67e22; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }}
-    .badge-mm-deals {{ background: #27ae60; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }}
-    .badge-mm-clearance {{ background: #c0392b; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }}
+    .badge-flash {{ background: #f1c40f; color: black; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-occasion {{ background: #9b59b6; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-private {{ background: #2c3e50; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-mm-daily, .badge-mm-deals, .badge-mm-sales {{ background: #27ae60; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-mm-backdoor {{ background: #e67e22; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-mm-clearance {{ background: #c0392b; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-mm-lastchance {{ background: #d35400; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-mm-markdown {{ background: #7f8c8d; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-mm-preorder {{ background: #16a085; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-planeton {{ background: #c0392b; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
     .type-base {{ color: #2980b9; font-weight: bold; font-size: 0.85em; }}
     .type-expansion {{ color: #d35400; font-weight: bold; font-size: 0.85em; }}
     .type-accessory {{ color: #7f8c8d; font-weight: bold; font-size: 0.85em; }}
@@ -179,6 +231,7 @@ def generate_report():
     h_body = ""
     plogo = '<img src="assets/Logo_Philibert.png" style="height:18px; display:block; margin: 0 auto 3px auto;">'
     mlogo = '<img src="assets/miniaturemarket_logo.jpeg" style="height:18px; display:block; margin: 0 auto 3px auto;">'
+    eslogo = '🇪🇸 '
     
     for row in rows:
         p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type, g_wgt, min_p, max_p, best_p, img_local, last_seen = row
@@ -194,7 +247,15 @@ def generate_report():
         elif sl == 'private': sb = f'{plogo}<span class="badge-private">PRIVÉE</span>'
         elif 'clearance' in sl: sb = f'{mlogo}<span class="badge-mm-clearance">CLEARANCE</span>'
         elif 'backrooms' in sl or 'backdoor' in sl: sb = f'{mlogo}<span class="badge-mm-backdoor">BACKDOOR</span>'
-        elif any(k in sl for k in ['miniature','mm_','deals']): sb = f'{mlogo}<span class="badge-mm-deals">MM DEALS</span>'
+        elif 'lastchance' in sl: sb = f'{mlogo}<span class="badge-mm-lastchance">LAST CHANCE</span>'
+        elif 'markdown' in sl: sb = f'{mlogo}<span class="badge-mm-markdown">MARKDOWN</span>'
+        elif 'preorder' in sl:
+            logo = '<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;">' if 'planeton' in sl else mlogo
+            text = 'RESERVA' if 'planeton' in sl else 'PRE-ORDER'
+            sb = f'{logo}<span class="badge-mm-preorder">{text}</span>'
+        elif 'planeton' in sl:
+            sb = f'<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;"><span class="badge-planeton">PLANETON</span>'
+        elif any(k in sl for k in ['miniature','mm_','daily','deals']): sb = f'{mlogo}<span class="badge-mm-deals">MM DEAL</span>'
         else: sb = p_source
         cat = '<span class="type-accessory">Accesorio</span>' if is_acc else ('<span class="type-expansion">Expa</span>' if (is_exp or g_type == 'BOARDGAMEEXPANSION') else '<span class="type-base">Base</span>')
         rat = b_rating if (b_rating and b_rating != "N/A" and b_rating != "Cargando...") else "-"

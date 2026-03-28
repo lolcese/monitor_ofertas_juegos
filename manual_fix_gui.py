@@ -57,10 +57,10 @@ class ManualFixGUI:
 
         cols = ("item_name", "bgg_id", "conf", "last")
         self.tree = ttk.Treeview(table_frame, columns=cols, show="headings", selectmode='extended')
-        self.tree.heading("item_name", text="Nombre en Catálogo")
-        self.tree.heading("bgg_id", text="BGG ID")
-        self.tree.heading("conf", text="Confianza (%)")
-        self.tree.heading("last", text="Última Búsqueda/Encontrado")
+        self.tree.heading("item_name", text="Nombre en Catálogo", command=lambda: self.treeview_sort_column("item_name", False))
+        self.tree.heading("bgg_id", text="BGG ID", command=lambda: self.treeview_sort_column("bgg_id", False))
+        self.tree.heading("conf", text="Confianza (%)", command=lambda: self.treeview_sort_column("conf", False))
+        self.tree.heading("last", text="Última Búsqueda/Encontrado", command=lambda: self.treeview_sort_column("last", False))
         
         self.tree.column("item_name", width=400)
         self.tree.column("bgg_id", width=100, anchor=tk.CENTER)
@@ -107,6 +107,25 @@ class ManualFixGUI:
         tk.Button(self.form_frame, text="🚫 NO INCLUIR (Ignorar)", command=self.ignore_mapping, bg="#95a5a6", fg="white", font=("Arial", 9, "bold"), height=2).grid(row=2, column=1, columnspan=2, sticky=tk.W, padx=10, pady=10)
 
         self.current_store_url = ""
+
+    def treeview_sort_column(self, col, reverse):
+        l = [(self.tree.set(k, col), k) for k in self.tree.get_children('')]
+        
+        def convert(val):
+            try:
+                # Quitar %, €, $ para ordenar numéricamente
+                clean_val = re.sub(r'[%€$]', '', val).strip()
+                if not clean_val or clean_val == "N/A": return -999999 if not reverse else 999999
+                return float(clean_val)
+            except:
+                return val.lower()
+
+        l.sort(key=lambda t: convert(t[0]), reverse=reverse)
+
+        for index, (val, k) in enumerate(l):
+            self.tree.move(k, '', index)
+
+        self.tree.heading(col, command=lambda: self.treeview_sort_column(col, not reverse))
 
     def load_data(self):
         for item in self.tree.get_children(): self.tree.delete(item)

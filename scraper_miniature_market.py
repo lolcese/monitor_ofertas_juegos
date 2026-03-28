@@ -1,32 +1,41 @@
 import sys
 import datetime
-import re
 import requests
 import time
+import re
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
-    HEADERS_GENERIC, save_deal, IGNORE_KEYWORDS
+    save_deal, NOISE_RE, IGNORE_KEYWORDS
 )
 
-MM_IGNORE = ['replacement','binder','sleeves','mat','token','card holder','bag','box','case','paint','miniature','mini','model','kit', 'puzzle']
+SITE_NAME = 'Miniature Market'
+# Filtrando por Board Games usando el property ID: 019262c7e0db711a97a94030d6103aa9
+BG_FILTER = "properties=019262c7e0db711a97a94030d6103aa9"
 
 SOURCES = {
-    'backdoor': "https://www.miniaturemarket.com/the-backrooms?order=name-asc&properties=019262c7e0db711a97a94030d6103aa9",
-    'deals': "https://www.miniaturemarket.com/deals.html?order=name-asc&properties=019262c7e0db711a97a94030d6103aa9",
-    'clearance': "https://www.miniaturemarket.com/deals/clearance.html?order=name-asc&properties=019262c7e0db711a97a94030d6103aa9"
+    'daily': f"https://www.miniaturemarket.com/dailydeal?{BG_FILTER}",
+    'sales': f"https://www.miniaturemarket.com/deals.html?{BG_FILTER}",
+    'backrooms': f"https://www.miniaturemarket.com/the-backrooms?{BG_FILTER}",
+    'clearance': f"https://www.miniaturemarket.com/deals/clearance.html?{BG_FILTER}",
+    'gameon': f"https://www.miniaturemarket.com/deals/game-on-weekend?{BG_FILTER}",
+    'lastchance': f"https://www.miniaturemarket.com/search?search=Last+Chance&{BG_FILTER}",
+    'markdown': f"https://www.miniaturemarket.com/search?search=Markdown&{BG_FILTER}",
+    'preorder': f"https://www.miniaturemarket.com/search?search=Pre-order&{BG_FILTER}"
 }
 
 def scrape_mm(source_key):
     if source_key not in SOURCES:
-        print(f"Fuente MM desconocida: {source_key}")
+        print(f"Fuente desconocida: {source_key}")
         return
-    
-    init_db()
-    today = datetime.date.today().isoformat()
+
     url_base = SOURCES[source_key]
+    today = datetime.date.today().isoformat()
     source_tag = f"mm_{source_key}"
     
+    print(f"--- [INICIO] Scraping {SITE_NAME} {source_key.upper()} (Filtro Board Games) ---")
+    
+    init_db()
     conn = get_db_connection()
     try:
         with conn:
@@ -35,52 +44,71 @@ def scrape_mm(source_key):
         conn.close()
 
     p = 1
-    seen = set()
-    print(f"--- [INICIO] Scraping Miniature Market {source_key.upper()} ---")
+    # Aumentado el límite de páginas ya que 'sales' tiene miles de productos
+    max_pages = 300 if source_key == 'sales' else 50
     
-    while True:
-        url = f"{url_base}&p={p}"
+    while p < max_pages:
+        # Ajustar paginación según si ya hay parámetros
+        if p == 1:
+            url = url_base
+        else:
+            sep = "&" if "?" in url_base else "?"
+            url = f"{url_base}{sep}p={p}"
+            
         print(f"Cargando página {p}: {url}")
         try:
-            res = requests.get(url, headers=HEADERS_GENERIC, timeout=15)
-            if res.status_code != 200: break
+            res = requests.get(url, timeout=15)
+            if res.status_code != 200: 
+                print(f"Página no disponible (Status {res.status_code})")
+                break
             
             soup = BeautifulSoup(res.content, 'html.parser')
-            # Selector de contenedor corregido
-            items = soup.select('.cms-listing-col')
-            if not items: break
+            
+            # Intentar detectar el layout automático
+            items = soup.select('.product-box')
+            layout = "box"
+            if not items:
+                items = soup.select('.product-item')
+                layout = "standard"
+            
+            if not items: 
+                print("No se encontraron productos con ningún layout conocido.")
+                break
                 
             found_new = False
             for item in items:
-                # 1. Filtro estricto de STOCK
-                if not item.select_one('.btn-buy'): continue
+                if layout == "box":
+                    a_tag = item.select_one('.product-name')
+                    if not a_tag: continue
+                    u = a_tag['href']
+                    name = a_tag.get('title', a_tag.text.strip())
+                    p_new_tag = item.select_one('.product-price')
+                    p_old_tag = item.select_one('.list-price-price')
+                    img_tag = item.select_one('img.product-image')
+                    img_url = img_tag['src'] if img_tag else ""
+                else: # Layout Standard (Legacy)
+                    a_tag = item.select_one('.product-item-link')
+                    if not a_tag: continue
+                    u = a_tag['href']
+                    name = a_tag.text.strip()
+                    p_new_tag = item.select_one('.price-wrapper .price')
+                    p_old_tag = item.select_one('.old-price .price')
+                    img_tag = item.select_one('img.product-image')
+                    img_url = img_tag['data-src'] if img_tag and img_tag.has_attr('data-src') else (img_tag['src'] if img_tag else "")
+                
+                # LIMPIEZA DE RUIDO EN EL NOMBRE
+                name = re.sub(r'\(Clearance\)|\(Last Chance\)|\(New Arrival\)|\(Preorder\)|\s*CASE\s*\(\d+\)', '', name, flags=re.I).strip()
+                
+                # FILTRO DE PALABRAS IGNORADAS (Antes de imprimir progreso)
+                if any(k.lower() in name.lower() for k in IGNORE_KEYWORDS):
+                    continue
 
-                # 2. Link y Nombre
-                a_tag = item.select_one('a.product-name')
-                if not a_tag: continue
-                
-                u = a_tag['href']
-                name = a_tag.text.strip()
-                
-                if u in seen: continue
-                seen.add(u)
+                print(f"   - Procesando: {name}")
+                search_name = name 
                 found_new = True
                 
-                print(f"   Procesando MM: {name}...")
-
-                lower_name = name.lower()
-                if any(k in lower_name for k in IGNORE_KEYWORDS) or any(k in lower_name for k in MM_IGNORE):
-                    continue
-                
-                p_new_tag = item.select_one('.product-price')
-                p_old_tag = item.select_one('.list-price-price')
                 p_new = p_new_tag.text.strip() if p_new_tag else "0$"
-                p_old = p_old_tag.text.strip() if p_old_tag else p_new 
-                
-                img_tag = item.select_one('img.product-image')
-                img_url = img_tag['data-src'] if img_tag and img_tag.has_attr('data-src') else (img_tag['src'] if img_tag else "")
-
-                search_name = re.sub(r'\(Clearance\)|\(Last Chance\)', '', name, flags=re.I).strip()
+                p_old = p_old_tag.text.strip() if p_old_tag else p_new
 
                 # Cache check
                 conn = get_db_connection()
@@ -94,9 +122,9 @@ def scrape_mm(source_key):
                     conn.close()
 
                 if cached:
-                    id_b, conf, real_n = cached[0], cached[1], search_name
+                    id_b, conf = cached
                 else:
-                    id_b, conf, real_n = fetch_bgg_id(search_name, u, source=source_tag)
+                    id_b, conf = fetch_bgg_id(search_name, u, source=source_tag)
                     conn = get_db_connection()
                     try:
                         with conn:
@@ -114,17 +142,22 @@ def scrape_mm(source_key):
                         save_deal(conn, name, p_new, p_old, u, False, is_exp, source_tag, "", img_url)
                         
                         if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
-                            rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
-                            conn.execute('''
-                                INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
-                                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
-                            ''', (id_b, real_n, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
+                            details = fetch_details(id_b)
+                            if details:
+                                rat, rnk, gt, l_dep, o_name, wgt, min_p, max_p, best_p = details
+                                conn.execute('''
+                                    INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
+                                    VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                                ''', (id_b, name, rat, rnk, gt, today, l_dep, o_name, wgt, min_p, max_p, best_p))
                 finally:
                     conn.close()
             
-            if not found_new: break
+            if not found_new and p > 10: # Para 'sales' no paramos tan pronto si solo hay basura en una pág, pero dudo que pases 10 págs de solo basura
+                 pass # Seguir si es necesario
+            
+            # Si no hay productos en absoluto (items vacíos), ya paró arriba.
             p += 1
-            time.sleep(1)
+            time.sleep(0.5)
         except Exception as e:
             print(f"Error scraping MM: {e}")
             break
@@ -133,4 +166,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         scrape_mm(sys.argv[1])
     else:
-        print("Uso: python scraper_miniature_market.py [backdoor|deals|clearance]")
+        print("Uso: python scraper_miniature_market.py [backrooms|daily|sales|clearance|gameon]")

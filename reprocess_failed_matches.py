@@ -11,7 +11,7 @@ def reprocess_failed_matches():
         # Seleccionamos juegos con 0% o sin ID que no estén en IGNORED
         query = """
         SELECT item_name FROM bgg_mapping 
-        WHERE (confidence < 40 OR bgg_id IS NULL OR bgg_id = '') 
+        WHERE (confidence < 50 OR bgg_id IS NULL OR bgg_id = '') 
         AND bgg_id != 'IGNORED'
         """
         failed = cursor.execute(query).fetchall()
