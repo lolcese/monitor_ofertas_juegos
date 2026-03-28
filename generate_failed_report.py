@@ -1,12 +1,13 @@
 import sqlite3
 import datetime
 import os
-from monitor_core import BGG_CACHE_DB, LOG_HTML_PATH
+from monitor_core import BGG_CACHE_DB, LOG_HTML_PATH, get_db_connection
 
 def generate_failed_report():
     print(f"Generando reporte de coincidencias fallidas en: {LOG_HTML_PATH}...")
     
-    with sqlite3.connect(BGG_CACHE_DB) as conn:
+    conn = get_db_connection()
+    try:
         cursor = conn.cursor()
         
         # Obtenemos productos de bgg_mapping con confianza baja o sin ID, cruzando con deals para tener la URL
@@ -21,6 +22,8 @@ def generate_failed_report():
         ORDER BY m.last_search DESC
         """
         failed = cursor.execute(query).fetchall()
+    finally:
+        conn.close()
         
     if not failed:
         with open(LOG_HTML_PATH, "w", encoding="utf-8") as f:

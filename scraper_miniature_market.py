@@ -27,9 +27,12 @@ def scrape_mm(source_key):
     url_base = SOURCES[source_key]
     source_tag = f"mm_{source_key}"
     
-    with get_db_connection() as conn:
-        conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_tag))
-        conn.commit()
+    conn = get_db_connection()
+    try:
+        with conn:
+            conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_tag))
+    finally:
+        conn.close()
 
     p = 1
     seen = set()
@@ -50,11 +53,9 @@ def scrape_mm(source_key):
             found_new = False
             for item in items:
                 # 1. Filtro estricto de STOCK
-                # Si no hay botón de compra (.btn-buy), lo ignoramos
-                if not item.select_one('.btn-buy'):
-                    continue
+                if not item.select_one('.btn-buy'): continue
 
-                # 2. Link y Nombre (Selector corregido)
+                # 2. Link y Nombre
                 a_tag = item.select_one('a.product-name')
                 if not a_tag: continue
                 
@@ -67,12 +68,10 @@ def scrape_mm(source_key):
                 
                 print(f"   Procesando MM: {name}...")
 
-                # Filtros rápidos
                 lower_name = name.lower()
                 if any(k in lower_name for k in IGNORE_KEYWORDS) or any(k in lower_name for k in MM_IGNORE):
                     continue
                 
-                # Precios (Selector corregido)
                 p_new_tag = item.select_one('.product-price')
                 p_old_tag = item.select_one('.list-price-price')
                 p_new = p_new_tag.text.strip() if p_new_tag else "0$"
@@ -81,39 +80,47 @@ def scrape_mm(source_key):
                 img_tag = item.select_one('img.product-image')
                 img_url = img_tag['data-src'] if img_tag and img_tag.has_attr('data-src') else (img_tag['src'] if img_tag else "")
 
-                # Limpieza de nombre para búsqueda BGG (sin alterar el nombre original para el reporte)
-                search_name = re.sub(r'\(Clearance\)', '', name, flags=re.I).strip()
+                search_name = re.sub(r'\(Clearance\)|\(Last Chance\)', '', name, flags=re.I).strip()
 
-                # Cache check (usamos el nombre completo original para que coincida con la tabla deals)
-                with get_db_connection() as conn:
+                # Cache check
+                conn = get_db_connection()
+                cached = None
+                try:
                     cached = conn.execute('''
                         SELECT bgg_id, confidence FROM bgg_mapping 
                         WHERE item_name=? AND (confidence >= 95 OR bgg_id = 'IGNORED' OR last_search >= ?)
                     ''', (name, (datetime.date.today() - datetime.timedelta(days=7)).isoformat())).fetchone()
+                finally:
+                    conn.close()
 
                 if cached:
                     id_b, conf, real_n = cached[0], cached[1], search_name
                 else:
                     id_b, conf, real_n = fetch_bgg_id(search_name, u, source=source_tag)
-                    # IMPORTANTE: Guardamos siempre, aunque id_b sea None (fallo), para evitar re-escaneo
-                    with get_db_connection() as conn: 
-                        conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)', (name, id_b, conf, today))
-                        conn.commit()
+                    conn = get_db_connection()
+                    try:
+                        with conn:
+                            conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)', (name, id_b, conf, today))
+                    finally:
+                        conn.close()
 
                 if id_b == "IGNORED": continue
 
                 # Save
-                with get_db_connection() as conn:
-                    is_exp = any(k in name.lower() for k in ['expansion','expansion','pack'])
-                    save_deal(conn, name, p_new, p_old, u, False, is_exp, source_tag, "", img_url)
-                    
-                    if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
-                        rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
-                        conn.execute('''
-                            INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
-                            VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
-                        ''', (id_b, real_n, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
-                conn.commit()
+                conn = get_db_connection()
+                try:
+                    with conn:
+                        is_exp = any(k in name.lower() for k in ['expansion','expansion','pack'])
+                        save_deal(conn, name, p_new, p_old, u, False, is_exp, source_tag, "", img_url)
+                        
+                        if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
+                            rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
+                            conn.execute('''
+                                INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
+                                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                            ''', (id_b, real_n, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
+                finally:
+                    conn.close()
             
             if not found_new: break
             p += 1

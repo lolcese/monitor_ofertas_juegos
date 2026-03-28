@@ -6,7 +6,7 @@ import webbrowser
 import re
 import os
 from PIL import Image, ImageTk
-from monitor_core import BGG_CACHE_DB, fetch_details, init_db, IMG_DIR
+from monitor_core import BGG_CACHE_DB, fetch_details, init_db, IMG_DIR, get_db_connection
 
 class ManualFixGUI:
     def __init__(self, root):
@@ -56,7 +56,7 @@ class ManualFixGUI:
         table_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         cols = ("item_name", "bgg_id", "conf", "last")
-        self.tree = ttk.Treeview(table_frame, columns=cols, show="headings")
+        self.tree = ttk.Treeview(table_frame, columns=cols, show="headings", selectmode='extended')
         self.tree.heading("item_name", text="Nombre en Catálogo")
         self.tree.heading("bgg_id", text="BGG ID")
         self.tree.heading("conf", text="Confianza (%)")
@@ -93,11 +93,12 @@ class ManualFixGUI:
 
         tk.Label(self.form_frame, text="Producto Seleccionado:", bg="#f4f6f9", font=("Arial", 9, "bold")).grid(row=0, column=0, sticky=tk.W)
         self.name_var = tk.StringVar()
-        tk.Entry(self.form_frame, textvariable=self.name_var, state='readonly', width=80).grid(row=0, column=1, columnspan=4, padx=10, pady=5, sticky=tk.W)
+        tk.Entry(self.form_frame, textvariable=self.name_var, state='readonly', width=70).grid(row=0, column=1, columnspan=3, padx=10, pady=5, sticky=tk.W)
+        tk.Button(self.form_frame, text="📋 COPIAR NOMBRE", command=self.copy_name, bg="#95a5a6", fg="white", font=("Arial", 8, "bold")).grid(row=0, column=4, padx=5, sticky=tk.W)
 
         tk.Label(self.form_frame, text="Asignar BGG ID:", bg="#f4f6f9", font=("Arial", 9, "bold")).grid(row=1, column=0, sticky=tk.W)
         self.bgg_var = tk.StringVar()
-        self.bgg_entry = tk.Entry(self.form_frame, textvariable=self.bgg_var, width=20, font=("Arial", 11))
+        self.bgg_entry = tk.Entry(self.form_frame, textvariable=self.bgg_var, width=30, font=("Arial", 11))
         self.bgg_entry.grid(row=1, column=1, padx=10, pady=10, sticky=tk.W)
 
         tk.Button(self.form_frame, text="✅ GUARDAR MAPEO", command=self.save_mapping, bg="#27ae60", fg="white", font=("Arial", 10, "bold"), padx=15).grid(row=1, column=2, padx=5)
@@ -110,7 +111,8 @@ class ManualFixGUI:
     def load_data(self):
         for item in self.tree.get_children(): self.tree.delete(item)
         search_filter = f"%{self.filter_var.get()}%"
-        with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
+        conn = get_db_connection()
+        try:
             cursor = conn.cursor()
             max_date = cursor.execute("SELECT MAX(date_found) FROM deals").fetchone()[0] or "1900-01-01"
             
@@ -124,7 +126,7 @@ class ManualFixGUI:
                 where_parts.append("(m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')")
             
             if self.only_current_var.get():
-                where_parts.append(f"d.date_found >= date('{max_date}', '-1 day')")
+                where_parts.append("d.date_found = (SELECT MAX(date_found) FROM deals d2 WHERE d2.deal_source = d.deal_source)")
             
             if self.only_zero_rating_var.get():
                 where_parts.append("(g.rating = '0' OR g.rating = '0.0' OR g.rating = 'N/A' OR g.rating IS NULL)")
@@ -147,6 +149,8 @@ class ManualFixGUI:
                 v[1] = v[1] if v[1] else "-"
                 v[2] = f"{int(v[2])}%" if v[2] else "0%"
                 self.tree.insert("", tk.END, values=v)
+        finally:
+            conn.close()
 
     def on_select(self, event):
         selected = self.tree.selection()
@@ -158,13 +162,16 @@ class ManualFixGUI:
         self.name_var.set(name); self.bgg_var.set(b_id)
         
         self.current_store_url = ""; img_local = ""; bgg_name = "-"
-        with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
+        conn = get_db_connection()
+        try:
             c = conn.cursor()
             row_d = c.execute("SELECT url, image_local FROM deals WHERE item_name=? ORDER BY date_found DESC LIMIT 1", (name,)).fetchone()
             if row_d: self.current_store_url, img_local = row_d
             if b_id and b_id != 'IGNORED':
                 row_g = c.execute("SELECT original_name FROM games WHERE bgg_id=?", (b_id,)).fetchone()
                 if row_g: bgg_name = row_g[0]
+        finally:
+            conn.close()
         self.bgg_name_disp.config(text=f"Nombre BGG:\n{bgg_name}")
         self.link_store_btn.config(state='normal' if self.current_store_url else 'disabled')
         self.link_bgg_btn.config(state='normal' if (b_id and b_id != 'IGNORED') else 'disabled')
@@ -174,6 +181,18 @@ class ManualFixGUI:
             if os.path.exists(ipath):
                 try: pimg = Image.open(ipath); pimg.thumbnail((250, 250)); tkimg = ImageTk.PhotoImage(pimg); self.img_label.config(image=tkimg); self.img_label.image = tkimg
                 except: pass
+
+    def copy_name(self):
+        name = self.name_var.get()
+        if name:
+            self.root.clipboard_clear()
+            self.root.clipboard_append(name)
+            self.status_bar_msg(f"'{name}' copiado.")
+
+    def status_bar_msg(self, msg):
+        # Usamos el título temporalmente o un messagebox discreto
+        self.root.title(f"Gestor de Mapeo BGG - {msg}")
+        self.root.after(3000, lambda: self.root.title("Gestor de Mapeo BGG - Ofertas Actuales"))
 
     def open_current_store_link(self):
         if self.current_store_url: webbrowser.open(self.current_store_url)
@@ -189,27 +208,61 @@ class ManualFixGUI:
     def save_mapping(self):
         name = self.name_var.get(); new_id = self.bgg_var.get().strip()
         if not name: return
-        with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
-            cursor = conn.cursor()
-            cursor.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", 
-                          (name, new_id, 100.0, datetime.date.today().isoformat()))
-            if new_id and new_id != "IGNORED":
-                details = fetch_details(new_id)
-                if details and details[4] != "Unknown":
-                    rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = details
-                    cursor.execute('INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', (new_id, o_name, rat, rnk, gt, datetime.date.today().isoformat(), l_dep, o_name, wgt, minp, maxp, bestp))
-            conn.commit()
+        
+        # Manejar URL si se pega una entera (soporta boardgame y boardgameexpansion)
+        if "boardgamegeek.com/" in new_id:
+            match = re.search(r'/boardgame(?:expansion)?/(\d+)', new_id)
+            if match:
+                new_id = match.group(1)
+                self.bgg_var.set(new_id)
+
+        conn = get_db_connection()
+        try:
+            with conn:
+                cursor = conn.cursor()
+                cursor.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", 
+                              (name, new_id, 100.0, datetime.date.today().isoformat()))
+                if new_id and new_id != "IGNORED":
+                    details = fetch_details(new_id)
+                    if details and details[4] != "Unknown":
+                        rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = details
+                        cursor.execute('INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', (new_id, o_name, rat, rnk, gt, datetime.date.today().isoformat(), l_dep, o_name, wgt, minp, maxp, bestp))
+        finally:
+            conn.close()
         self.load_data(); messagebox.showinfo("Éxito", "Mapeo guardado.")
 
     def ignore_mapping(self):
-        if self.name_var.get(): self.bgg_var.set("IGNORED"); self.save_mapping()
+        selected = self.tree.selection()
+        if not selected: return
+        
+        conn = get_db_connection()
+        try:
+            with conn:
+                for item in selected:
+                    name = self.tree.item(item)['values'][0]
+                    conn.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", 
+                                  (name, "IGNORED", 100.0, datetime.date.today().isoformat()))
+        finally:
+            conn.close()
+        self.load_data()
+        self.status_bar_msg(f"{len(selected)} items ignorados.")
+
     def delete_from_db(self):
-        n = self.name_var.get()
-        if n and messagebox.askyesno("Confirmar", f"¿Eliminar '{n}'?"):
-            with sqlite3.connect(BGG_CACHE_DB, timeout=30) as conn:
-                conn.execute("DELETE FROM bgg_mapping WHERE item_name = ?", (n,))
-                conn.execute("DELETE FROM deals WHERE item_name = ?", (n,))
+        selected = self.tree.selection()
+        if not selected: return
+        
+        if messagebox.askyesno("Confirmar", f"¿Eliminar {len(selected)} items seleccionados de la base de datos?"):
+            conn = get_db_connection()
+            try:
+                with conn:
+                    for item in selected:
+                        name = self.tree.item(item)['values'][0]
+                        conn.execute("DELETE FROM bgg_mapping WHERE item_name = ?", (name,))
+                        conn.execute("DELETE FROM deals WHERE item_name = ?", (name,))
+            finally:
+                conn.close()
             self.load_data()
+            self.status_bar_msg(f"{len(selected)} items eliminados.")
 
 if __name__ == "__main__":
     root = tk.Tk(); app = ManualFixGUI(root); root.mainloop()

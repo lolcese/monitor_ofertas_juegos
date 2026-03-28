@@ -25,9 +25,12 @@ def scrape_philibert(source_key):
     today = datetime.date.today().isoformat()
     url_base = SOURCES[source_key]
     
-    with get_db_connection() as conn:
-        conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
-        conn.commit()
+    conn = get_db_connection()
+    try:
+        with conn:
+            conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
+    finally:
+        conn.close()
 
     p = 1
     seen = set()
@@ -70,34 +73,45 @@ def scrape_philibert(source_key):
                 img_url = img_tag['src'] if img_tag else ""
 
                 # Cache check
-                with get_db_connection() as conn:
+                conn = get_db_connection()
+                cached = None
+                try:
                     cached = conn.execute('''
                         SELECT bgg_id, confidence FROM bgg_mapping 
                         WHERE item_name=? AND (confidence >= 95 OR bgg_id = 'IGNORED' OR last_search >= ?)
                     ''', (name, (datetime.date.today() - datetime.timedelta(days=7)).isoformat())).fetchone()
+                finally:
+                    conn.close()
 
                 if cached:
                     id_b, conf, real_n = cached[0], cached[1], name
                 else:
                     id_b, conf, real_n = fetch_bgg_id(name, u, source=source_key)
                     if not id_b: continue
-                    with get_db_connection() as conn: 
-                        conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)', (name, id_b, conf, today))
+                    conn = get_db_connection()
+                    try:
+                        with conn:
+                            conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)', (name, id_b, conf, today))
+                    finally:
+                        conn.close()
 
                 if id_b == "IGNORED": continue
 
-                with get_db_connection() as conn:
-                    # is_expansion check
-                    is_exp = any(k in name.lower() for k in ['extension','expansion','erweiterung','pack'])
-                    save_deal(conn, name, p_new, p_old, u, False, is_exp, source_key, "", img_url)
-                    
-                    if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
-                        rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
-                        conn.execute('''
-                            INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
-                            VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
-                        ''', (id_b, real_n, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
-                conn.commit()
+                conn = get_db_connection()
+                try:
+                    with conn:
+                        # is_expansion check
+                        is_exp = any(k in name.lower() for k in ['extension','expansion','erweiterung','pack'])
+                        save_deal(conn, name, p_new, p_old, u, False, is_exp, source_key, "", img_url)
+                        
+                        if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
+                            rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
+                            conn.execute('''
+                                INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
+                                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                            ''', (id_b, real_n, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
+                finally:
+                    conn.close()
             
             if not found_new: break
             p += 1

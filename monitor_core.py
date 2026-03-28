@@ -33,10 +33,13 @@ HEADERS_PHILI = HEADERS_GENERIC.copy()
 if COOKIE: HEADERS_PHILI["Cookie"] = COOKIE
 
 # --- Motor de Limpieza Pulido ---
-NOISE_RE = r'\b(core box|core game|jeu de base|boite de base|complete|bundle|big box|box|set|game|pack|edition|edicion|essentielle|essential|ancienne version|nouvelle version|en français|version|française|deluxe|collector|anniversary|impression|jeu|l\'âge|des|les|aux|de|la|le|extension|expansion|erw|erweiterung|printing|pression|copy|sundrop|standard|fr|en|de|es|promo|preorder|l\'aube|d\'un|stefan feld|uwe rosenberg|knizia|recharged|vital lacerda|lacerda|board game|jeu de plateau|token|tokens|galactic|galactic edition|card holder|standees|deck box|extra player pack|clearance|occasions?|flash sales?|sales?|backdoor|miniature market|philibert)\b'
+NOISE_RE = r'\b(core box|core game|jeu de base|boite de base|complete|bundle|big box|box|set|game|pack|edition|edicion|essentielle|essential|ancienne version|nouvelle version|en français|version|française|deluxe|collector|anniversary|impression|jeu|l\'âge|des|les|aux|de|la|le|extension|expansion|erw|erweiterung|printing|pression|copy|sundrop|standard|fr|en|de|es|promo|preorder|l\'aube|d\'un|stefan feld|uwe rosenberg|knizia|recharged|vital lacerda|lacerda|board game|jeu de plateau|token|tokens|galactic|galactic edition|card holder|standees|deck box|extra player pack|clearance|last chance|occasions?|flash sales?|sales?|backdoor|miniature market|philibert)\b'
 IGNORE_KEYWORDS = ['Jeu de Rôle', 'Jeu de Role', ' JDR', 'RPG', 'Livre de base', 'Warhammer', 'Citadel', 'Peinture', 'Pinceau', 'Colle']
 
-def get_db_connection(): return sqlite3.connect(BGG_CACHE_DB)
+def get_db_connection(timeout=60): 
+    conn = sqlite3.connect(BGG_CACHE_DB, timeout=timeout)
+    conn.execute("PRAGMA journal_mode=WAL") 
+    return conn
 def remove_accents(s): return "".join([c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c)]) if s else ""
 def norm_plain(s):
     if not s: return ""
@@ -60,11 +63,14 @@ def download_image(url, product_id, source=None):
     return ""
 
 def init_db():
-    with get_db_connection() as conn:
-        conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (item_name TEXT PRIMARY KEY, bgg_id TEXT, last_search DATE, confidence REAL)')
-        conn.execute('CREATE TABLE IF NOT EXISTS games (bgg_id TEXT PRIMARY KEY, name TEXT, last_updated DATE, rating TEXT, rank TEXT, type TEXT, language_dependency TEXT, original_name TEXT, weight TEXT, min_players INTEGER, max_players INTEGER, best_players TEXT)')
-        conn.execute('CREATE TABLE IF NOT EXISTS deals (item_name TEXT, price TEXT, old_price TEXT, url TEXT, date_found DATE, is_accessory BOOLEAN, is_expansion BOOLEAN, deal_source TEXT, condition TEXT, image_local TEXT, PRIMARY KEY (item_name, deal_source))')
-        conn.commit()
+    conn = get_db_connection()
+    try:
+        with conn:
+            conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (item_name TEXT PRIMARY KEY, bgg_id TEXT, last_search DATE, confidence REAL)')
+            conn.execute('CREATE TABLE IF NOT EXISTS games (bgg_id TEXT PRIMARY KEY, name TEXT, last_updated DATE, rating TEXT, rank TEXT, type TEXT, language_dependency TEXT, original_name TEXT, weight TEXT, min_players INTEGER, max_players INTEGER, best_players TEXT)')
+            conn.execute('CREATE TABLE IF NOT EXISTS deals (item_name TEXT, price TEXT, old_price TEXT, url TEXT, date_found DATE, is_accessory BOOLEAN, is_expansion BOOLEAN, deal_source TEXT, condition TEXT, image_local TEXT, PRIMARY KEY (item_name, deal_source))')
+    finally:
+        conn.close()
 
 def save_deal(cursor, item_name, price, old_price, url, is_accessory, is_expansion, source, condition="", img_url=None):
     today = datetime.date.today().isoformat(); img_local = ""
@@ -73,7 +79,7 @@ def save_deal(cursor, item_name, price, old_price, url, is_accessory, is_expansi
         img_local = download_image(img_url, clean_name, source='philibert' if 'phili' in source.lower() else 'generic')
     cursor.execute("INSERT OR REPLACE INTO deals (item_name, price, old_price, url, date_found, is_accessory, is_expansion, deal_source, condition, image_local) VALUES (?,?,?,?,?,?,?,?,?,?)", (item_name, price, old_price, url, today, is_accessory, is_expansion, source, condition, img_local))
 
-def fetch_bgg_id(game_name, phili_url, source='match'):
+def fetch_bgg_id(game_name, phili_url=None, source='match'):
     print(f"Buscando en BGG: '{game_name}'...")
     url = "https://boardgamegeek.com/xmlapi2/search"
     
@@ -81,15 +87,22 @@ def fetch_bgg_id(game_name, phili_url, source='match'):
     name_clean = re.sub(r'\(.*?\)|\[.*?\]', '', game_name) # Quitar todo lo que esté entre paréntesis
     name_clean = re.sub(NOISE_RE, '', name_clean, flags=re.I).strip()
     
+    # Estrategias de búsqueda: Nombre completo, Nombre hasta el primer : o -, y el nombre original
     strategies = [name_clean, game_name.strip()]
-    
+    if ':' in name_clean: strategies.append(name_clean.split(':')[0].strip())
+    if '-' in name_clean: strategies.append(name_clean.split('-')[0].strip())
+    # Para casos muy largos con ':' y '-', el nombre hasta el primer separador es útil
+    primera_parte = re.split(r'[:\-]', name_clean)[0].strip()
+    if len(primera_parte) > 5: strategies.append(primera_parte)
+
     target_plain = norm_plain(name_clean)
     target_words = set(re.findall(r'\w+', target_plain))
     
     best_item, best_score, best_confidence, best_real_name = None, -100, 0, ""
 
+    # Ordenamos estrategias por longitud descendente para intentar el match más preciso primero
     for q in sorted(list(set(strategies)), key=len, reverse=True):
-        if len(q) < 3: continue
+        if len(q) < 4: continue # Evitar búsquedas de 3 letras que devuelven miles de resultados
         time.sleep(random.uniform(2.5, 4.5)) # Pausa prudente
         try:
             res = requests.get(url, params={"query": q, "exact": 0}, headers=HEADERS_BGG, timeout=15)
@@ -98,7 +111,9 @@ def fetch_bgg_id(game_name, phili_url, source='match'):
                 items = soup.find_all('item')
                 for item in items[:25]:
                     b_id = item['id']
-                    b_orig = (item.find('name', attrs={'type': 'primary'}) or item.find('name'))['value']
+                    name_tag = item.find('name', attrs={'type': 'primary'}) or item.find('name')
+                    if not name_tag: continue
+                    b_orig = name_tag['value']
                     b_type = item.get('type', 'boardgame')
                     if b_type not in ['boardgame', 'boardgameexpansion']: continue
                     
@@ -120,11 +135,14 @@ def fetch_bgg_id(game_name, phili_url, source='match'):
                 print("Error 401: Token inválido.") ; break
             elif res.status_code == 429:
                 print("Error 429: Rate limit. Pausando 60s...") ; time.sleep(60)
+            
+            # Si ya tenemos un match muy bueno (>95% confianza y score alto), no seguimos con estrategias más cortas
+            if best_confidence >= 95 and best_score >= 80: break
         except Exception as e:
             print(f"Error en búsqueda: {e}")
             time.sleep(5)
             
-    return best_item, best_confidence, best_real_name
+    return best_item, best_confidence
 
 def fetch_details(bgg_id):
     if not bgg_id or bgg_id == "IGNORED": return "N/A", "999999", "Unknown", "-", "Unknown", "N/A", 0, 0, "-"
@@ -147,7 +165,8 @@ def fetch_details(bgg_id):
                     rank_tag = stats.find('rank', attrs={'name': 'boardgame'})
                     if rank_tag and rank_tag.get('value') and rank_tag['value'].isdigit(): rnk = rank_tag['value']
                 
-                o_name = (item.find('name', attrs={'type': 'primary'}) or item.find('name'))['value']
+                name_tag = item.find('name', attrs={'type': 'primary'}) or item.find('name')
+                o_name = name_tag['value'] if name_tag else "Unknown"
                 
                 l_dep = "-"
                 poll = item.find('poll', attrs={'name': 'language_dependence'})
