@@ -257,7 +257,7 @@ def generate_report():
             sb = f'<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;"><span class="badge-planeton">PLANETON</span>'
         elif any(k in sl for k in ['miniature','mm_','daily','deals']): sb = f'{mlogo}<span class="badge-mm-deals">MM DEAL</span>'
         else: sb = p_source
-        cat = '<span class="type-accessory">Accesorio</span>' if is_acc else ('<span class="type-expansion">Expa</span>' if (is_exp or g_type == 'BOARDGAMEEXPANSION') else '<span class="type-base">Base</span>')
+        cat = '<span class="type-accessory">Accesorio</span>' if is_acc else ('<span class="type-expansion">Expa</span>' if (is_exp or (g_type and g_type.upper() == 'BOARDGAMEEXPANSION')) else '<span class="type-base">Base</span>')
         rat = b_rating if (b_rating and b_rating != "N/A" and b_rating != "Cargando...") else "-"
         rnk = f"#{b_rank}" if (b_rank and b_rank != "999999" and b_rank != "-") else "-"
         img_h = f'<img src="assets/images/{os.path.basename(img_local)}" class="game-img">' if img_local else '<div class="game-img" style="height:60px; background:#eee;"></div>'
