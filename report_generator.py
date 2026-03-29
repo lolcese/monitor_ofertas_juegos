@@ -191,11 +191,13 @@ def generate_report():
     sum_h += '</div></div>'
     
     sum_h += '</div><div style="text-align:center; margin-bottom:15px;"><button onclick="filterByCategory(\'\')" style="background:#6c757d; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">Ver Todos los Resultados</button></div>'
-
+    
+    now_str = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     h_head = f"""<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><link rel="icon" type="image/png" href="assets/favicon.png"><title>Monitor de Ofertas Multitienda</title><style>
     body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 25px; color: #333; }}
     h1 {{ color: #2c3e50; text-align: center; margin-bottom: 5px; font-weight: 800; }}
-    .developed-by {{ text-align: center; margin-bottom: 25px; color: #7f8c8d; font-size: 0.9em; }}
+    .developed-by {{ text-align: center; margin-bottom: 5px; color: #7f8c8d; font-size: 0.9em; }}
+    .gen-date {{ text-align: center; margin-bottom: 25px; color: #95a5a6; font-size: 0.8em; font-style: italic; }}
     .container {{ background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 98%; margin: auto; }}
     table {{ width: 100%; border-collapse: collapse; margin-top: 20px; }}
     th {{ background-color: #3498db; color: white; cursor: pointer; padding: 12px; text-align: left; position: sticky; top: 0; z-index: 5; }}
@@ -226,7 +228,7 @@ def generate_report():
     .game-img {{ width: 60px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }}
     .contact-btn {{ display: inline-block; background-color: #0088cc; color: white; padding: 6px 15px; border-radius: 20px; text-decoration: none; font-weight: bold; margin-bottom: 25px; transition: transform 0.2s; }}
     .contact-btn:hover {{ transform: scale(1.05); color: white; }}
-    </style></head><body><div class="container"><h1>Monitor de Ofertas Multitienda</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div>{sum_h}<p style="text-align:center;">Mostrando <b>{len(rows)}</b> ofertas recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Dep. idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody>"""
+    </style></head><body><div class="container"><h1>Monitor de Ofertas Multitienda</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div class="gen-date">Generado el: {now_str}</div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div>{sum_h}<p style="text-align:center;">Mostrando <b>{len(rows)}</b> ofertas recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Dep. idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody>"""
     
     h_body = ""
     plogo = '<img src="assets/Logo_Philibert.png" style="height:18px; display:block; margin: 0 auto 3px auto;">'

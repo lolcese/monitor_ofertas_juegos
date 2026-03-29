@@ -6,7 +6,7 @@ import re
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
-    save_deal, NOISE_RE, IGNORE_KEYWORDS
+    save_deal, NOISE_RE, IGNORE_KEYWORDS, HEADERS_GENERIC
 )
 
 SITE_NAME = 'Miniature Market'
@@ -57,7 +57,7 @@ def scrape_mm(source_key):
             
         print(f"Cargando página {p}: {url}")
         try:
-            res = requests.get(url, timeout=15)
+            res = requests.get(url, headers=HEADERS_GENERIC, timeout=15)
             if res.status_code != 200: 
                 print(f"Página no disponible (Status {res.status_code})")
                 break
