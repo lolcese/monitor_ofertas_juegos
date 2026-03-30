@@ -10,6 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PUBLIC_DIR = os.path.join(BASE_DIR, 'public')
 REPORT_PATH = os.path.join(PUBLIC_DIR, 'index.html')
 IMAGE_DEST_DIR = os.path.join(PUBLIC_DIR, 'assets', 'images')
+HIGHLIGHTS_PATH = os.path.join(PUBLIC_DIR, 'highlights.html')
 
 LANG_MAPPING = {
     "No necessary in-game text": "Sin",
@@ -88,11 +89,15 @@ def sync_images_to_public():
     finally:
         conn.close()
 
-def generate_report():
-    ensure_all_games_fetched()
-    sync_images_to_public()
+def generate_report(is_highlights_only=False):
+    if not is_highlights_only:
+        ensure_all_games_fetched()
+        sync_images_to_public()
     
     conn = get_db_connection()
+    path_to_save = HIGHLIGHTS_PATH if is_highlights_only else REPORT_PATH
+    title_text = "JOYAS Y GANGAS (DESTACADOS)" if is_highlights_only else "Monitor de Ofertas Multitienda"
+
     try:
         c = conn.cursor()
         query = """
@@ -161,7 +166,18 @@ def generate_report():
         'mm_preorder': 'PRE-ORDER'
     }
     
+    # Filtro adicional en SQL para highlights si es necesario, 
+    # pero mejor lo hacemos con la lógica de Python para ser consistentes con el otro reporte
+    
+    # Sumario con filtros
     sum_h = '<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-bottom:25px;">'
+    
+    if not is_highlights_only:
+        # Botón de DESTACADOS - Solo informativo o nada
+        pass
+    else:
+        # Título simple para el de destacados
+        pass
     
     sum_h += '<div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;">'
     sum_h += f'<img src="assets/Logo_Philibert.png" style="height:25px; display:block; margin:0 auto 10px auto;">'
@@ -227,13 +243,12 @@ def generate_report():
     a:hover {{ text-decoration: underline; }}
     .game-img {{ width: 60px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }}
     .contact-btn {{ display: inline-block; background-color: #0088cc; color: white; padding: 6px 15px; border-radius: 20px; text-decoration: none; font-weight: bold; margin-bottom: 25px; transition: transform 0.2s; }}
-    .contact-btn:hover {{ transform: scale(1.05); color: white; }}
-    </style></head><body><div class="container"><h1>Monitor de Ofertas Multitienda</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div class="gen-date">Generado el: {now_str}</div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div>{sum_h}<p style="text-align:center;">Mostrando <b>{len(rows)}</b> ofertas recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Dep. idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody>"""
+    .contact-btn:hover {{ transform: scale(1.05); }}
+    </style></head><body><div class="container"><h1>{{title_text}}</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div class="gen-date">Generado el: {now_str}</div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div>{sum_h}<p style="text-align:center;">Mostrando <b>{{"DESTACADOS" if is_highlights_only else len(rows)}}</b> recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Dep. idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody>"""
     
     h_body = ""
     plogo = '<img src="assets/Logo_Philibert.png" style="height:18px; display:block; margin: 0 auto 3px auto;">'
     mlogo = '<img src="assets/miniaturemarket_logo.jpeg" style="height:18px; display:block; margin: 0 auto 3px auto;">'
-    eslogo = '🇪🇸 '
     
     for row in rows:
         p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type, g_wgt, min_p, max_p, best_p, img_local, last_seen = row
@@ -259,11 +274,26 @@ def generate_report():
             sb = f'<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;"><span class="badge-planeton">PLANETON</span>'
         elif any(k in sl for k in ['miniature','mm_','daily','deals']): sb = f'{mlogo}<span class="badge-mm-deals">MM DEAL</span>'
         else: sb = p_source
+        
+        # Lógica de Highlights (para el filtro JS)
+        is_highlight = False
+        try:
+            rat_f = float(rat) if (rat and rat != "-" and rat != "Cargando...") else 0
+            rnk_f = int(b_rank) if (b_rank and b_rank.isdigit()) else 999999
+            if rat_f >= 7.8 or rnk_f <= 1500 or disc >= 45:
+                is_highlight = True
+        except: pass
+        highlight_attr = 'data-highlight="true"' if is_highlight else 'data-highlight="false"'
+        highlight_star = '⭐' if is_highlight else ''
+
+        if is_highlights_only and not is_highlight:
+            continue
+
         cat = '<span class="type-accessory">Accesorio</span>' if is_acc else ('<span class="type-expansion">Expa</span>' if (is_exp or (g_type and g_type.upper() == 'BOARDGAMEEXPANSION')) else '<span class="type-base">Base</span>')
         rat = b_rating if (b_rating and b_rating != "N/A" and b_rating != "Cargando...") else "-"
         rnk = f"#{b_rank}" if (b_rank and b_rank != "999999" and b_rank != "-") else "-"
         img_h = f'<img src="assets/images/{os.path.basename(img_local)}" class="game-img">' if img_local else '<div class="game-img" style="height:60px; background:#eee;"></div>'
-        h_body += f"""<tr><td class="center">{img_h}</td><td><a href="{p_url}" target="_blank">{p_name}</a></td><td>{cat}</td><td data-sort="{vn}"><span class="price-old">{p_old if (p_old and p_old not in ['0€','0$']) else ''}</span><br><span class="price-new">{p_price}</span></td><td class="center" data-sort="{disc}"><span class="discount-badge">-{disc}%</span></td><td class="center">{sb}</td><td><a href="https://boardgamegeek.com/boardgame/{b_id}" target="_blank">{o_name or b_name}</a></td><td class="center"><span class="lang-dep" style="background-color:{color_lang(LANG_MAPPING.get(l_dep, l_dep or '-'))}">{LANG_MAPPING.get(l_dep, l_dep or "-")}</span></td><td class="center"><span class="lang-dep" style="background-color:{color_weight(g_wgt)}; font-weight:bold;">{g_wgt or "N/A"}</span></td><td class="center">{f"{min_p}-{max_p}" if (min_p and min_p != max_p) else f"{min_p or '-'}"}</td><td class="center" data-sort="{rat if rat != 'Cargando...' else '0'}"><span class="rating">{rat}</span></td><td class="center" data-sort="{b_rank}"><b>{rnk if rnk != '#999999' else '-'}</b></td></tr>"""
+        h_body += f"""<tr {highlight_attr}><td class="center">{img_h}</td><td>{highlight_star}<a href="{p_url}" target="_blank">{p_name}</a></td><td>{cat}</td><td data-sort="{vn}"><span class="price-old">{p_old if (p_old and p_old not in ['0€','0$']) else ''}</span><br><span class="price-new">{p_price}</span></td><td class="center" data-sort="{disc}"><span class="discount-badge">-{disc}%</span></td><td class="center">{sb}</td><td><a href="https://boardgamegeek.com/boardgame/{b_id}" target="_blank">{o_name or b_name}</a></td><td class="center"><span class="lang-dep" style="background-color:{color_lang(LANG_MAPPING.get(l_dep, l_dep or '-'))}">{LANG_MAPPING.get(l_dep, l_dep or "-")}</span></td><td class="center"><span class="lang-dep" style="background-color:{color_weight(g_wgt)}; font-weight:bold;">{g_wgt or "N/A"}</span></td><td class="center">{f"{min_p}-{max_p}" if (min_p and min_p != max_p) else f"{min_p or '-'}"}</td><td class="center" data-sort="{rat if rat != 'Cargando...' else '0'}"><span class="rating">{rat}</span></td><td class="center" data-sort="{b_rank}"><b>{rnk if rnk != '#999999' else '-'}</b></td></tr>"""
     
     h_foot = """</tbody></table></div><script>
     var rowData = [];
@@ -276,10 +306,18 @@ def generate_report():
             rowData.push({
                 el: row,
                 text: row.innerText.toUpperCase(),
+                isHighlight: row.getAttribute("data-highlight") === "true",
                 cells: Array.from(row.cells).map(c => c.getAttribute("data-sort") || c.textContent.trim())
             });
         });
     };
+
+    function filterHighlights() {
+        document.getElementById("searchInput").value = "";
+        rowData.forEach(item => {
+            item.el.style.display = item.isHighlight ? "" : "none";
+        });
+    }
 
     function filterTable() {
         clearTimeout(searchTimeout);
@@ -322,8 +360,9 @@ def generate_report():
     }
     </script></body></html>"""
     
-    with open(REPORT_PATH, "w", encoding="utf-8") as f: f.write(h_head + h_body + h_foot)
-    print(f"Reporte generado con éxito.")
+    with open(path_to_save, "w", encoding="utf-8") as f: f.write(h_head.replace('{{title_text}}', title_text) + h_body + h_foot)
+    print(f"Reporte generado con éxito en {path_to_save}.")
 
 if __name__ == "__main__":
-    generate_report()
+    generate_report(is_highlights_only=False)
+    generate_report(is_highlights_only=True)

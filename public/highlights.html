@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><link rel="icon" type="image/png" href="assets/favicon.png"><title>Monitor de Ofertas Multitienda</title><style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 25px; color: #333; }
+    h1 { color: #2c3e50; text-align: center; margin-bottom: 5px; font-weight: 800; }
+    .developed-by { text-align: center; margin-bottom: 5px; color: #7f8c8d; font-size: 0.9em; }
+    .gen-date { text-align: center; margin-bottom: 25px; color: #95a5a6; font-size: 0.8em; font-style: italic; }
+    .container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 98%; margin: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th { background-color: #3498db; color: white; cursor: pointer; padding: 12px; text-align: left; position: sticky; top: 0; z-index: 5; }
+    th:hover { background-color: #2980b9; }
+    td { border-bottom: 1px solid #ddd; padding: 12px; vertical-align: middle; }
+    tr:hover { background-color: #f1f1f1; }
+    .price-new { font-weight: bold; color: #e74c3c; font-size: 1.1em; }
+    .price-old { text-decoration: line-through; color: #95a5a6; font-size: 0.85em; margin-right: 5px; }
+    .discount-badge { background: #e74c3c; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold; font-size: 0.9em; }
+    .badge-flash { background: #f1c40f; color: black; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-occasion { background: #9b59b6; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-private { background: #2c3e50; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-mm-daily, .badge-mm-deals, .badge-mm-sales { background: #27ae60; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-mm-backdoor { background: #e67e22; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-mm-clearance { background: #c0392b; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-mm-lastchance { background: #d35400; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-mm-markdown { background: #7f8c8d; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-mm-preorder { background: #16a085; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .badge-planeton { background: #c0392b; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }
+    .type-base { color: #2980b9; font-weight: bold; font-size: 0.85em; }
+    .type-expansion { color: #d35400; font-weight: bold; font-size: 0.85em; }
+    .type-accessory { color: #7f8c8d; font-weight: bold; font-size: 0.85em; }
+    .lang-dep { font-size: 0.75em; font-weight: bold; padding: 2px 5px; border-radius: 3px; color: white; display: inline-block; margin-top: 5px; }
+    .rating { color: #f39c12; font-weight: bold; }
+    .center { text-align: center; }
+    a { text-decoration: none; color: #3498db; }
+    a:hover { text-decoration: underline; }
+    .game-img { width: 60px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .contact-btn { display: inline-block; background-color: #0088cc; color: white; padding: 6px 15px; border-radius: 20px; text-decoration: none; font-weight: bold; margin-bottom: 25px; transition: transform 0.2s; }
+    .contact-btn:hover { transform: scale(1.05); }
+    </style></head><body><div class="container"><h1>{title_text}</h1><div class="developed-by">Desarrollado por <b>Luis Olcese</b></div><div class="gen-date">Generado el: 30/03/2026 19:56:56</div><div style="text-align:center;"><a href="https://t.me/Luis_Olcese" target="_blank" class="contact-btn">✉️ Contactar en Telegram</a></div><div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-bottom:25px;"><div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;"><img src="assets/Logo_Philibert.png" style="height:25px; display:block; margin:0 auto 10px auto;"><h3 style="margin-top:0; color:#003566; font-size:1em; border-bottom:2px solid #003566; padding-bottom:5px;">FR Philibert (247)</h3><div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap;"><span class="badge-flash" onclick="filterByCategory('FLASH')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">FLASH: 87</span><span class="badge-occasion" onclick="filterByCategory('OCCASION')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">OCCASION: 129</span><span class="badge-private" onclick="filterByCategory('PRIVÉE')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">PRIVÉE: 31</span></div></div><div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;"><img src="assets/miniaturemarket_logo.jpeg" style="height:25px; display:block; margin:0 auto 10px auto;"><h3 style="margin-top:0; color:#e67e22; font-size:1em; border-bottom:2px solid #e67e22; padding-bottom:5px;">US Miniature Market (1706)</h3><div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap;"><span class="badge-mm-daily" onclick="filterByCategory('MM DEAL')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">DEAL: 1341</span><span class="badge-mm-preorder" onclick="filterByCategory('PRE-ORDER')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">PRE-ORDER: 365</span></div></div><div style="background:#f8f9fa; border:1px solid #dee2e6; border-radius:12px; padding:15px; min-width:300px; text-align:center;"><img src="assets/planeton_logo.jpg" style="height:25px; display:block; margin:0 auto 10px auto;"><h3 style="margin-top:0; color:#c0392b; font-size:1em; border-bottom:2px solid #c0392b; padding-bottom:5px;">Planeton Games (180)</h3><div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap;"><span class="badge-planeton" onclick="filterByCategory('PLANETON')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">OFERTAS: 119</span><span class="badge-mm-preorder" onclick="filterByCategory('RESERVA')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">RESERVAS: 61</span></div></div></div><div style="text-align:center; margin-bottom:15px;"><button onclick="filterByCategory('')" style="background:#6c757d; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">Ver Todos los Resultados</button></div><p style="text-align:center;">Mostrando <b>{"DESTACADOS" if is_highlights_only else len(rows)}</b> recientemente</p><div style="margin-bottom: 20px; text-align: center;"><input type="text" id="searchInput" onkeyup="filterTable()" placeholder="🔍 Buscar nombre, categoría, fuente, idioma..." style="padding: 14px; width: 60%; border-radius: 8px; border: 1px solid #ddd; font-size: 1em;"></div><table id="offersTable"><thead><tr><th class="center">Imagen</th><th onclick="sortTable(1)">Producto</th><th onclick="sortTable(2)">Categoría</th><th onclick="sortTable(3)">Precio</th><th onclick="sortTable(4)" class="center">% Dto</th><th onclick="sortTable(5)" class="center">Fuente</th><th onclick="sortTable(6)">BGG Name</th><th onclick="sortTable(7)" class="center">Dep. idioma</th><th onclick="sortTable(8)" class="center">Peso</th><th onclick="sortTable(9)" class="center">Jugadores</th><th onclick="sortTable(10)" class="center">Rating</th><th onclick="sortTable(11)" class="center">Rank</th></tr></thead><tbody></tbody></table></div><script>
+    var rowData = [];
+    var searchTimeout;
+    
+    // Inicializar caché de filas al cargar
+    window.onload = function() {
+        var rows = document.querySelectorAll("#offersTable tbody tr");
+        rows.forEach(row => {
+            rowData.push({
+                el: row,
+                text: row.innerText.toUpperCase(),
+                isHighlight: row.getAttribute("data-highlight") === "true",
+                cells: Array.from(row.cells).map(c => c.getAttribute("data-sort") || c.textContent.trim())
+            });
+        });
+    };
+
+    function filterHighlights() {
+        document.getElementById("searchInput").value = "";
+        rowData.forEach(item => {
+            item.el.style.display = item.isHighlight ? "" : "none";
+        });
+    }
+
+    function filterTable() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            var f = document.getElementById("searchInput").value.toUpperCase();
+            rowData.forEach(item => {
+                item.el.style.display = item.text.includes(f) ? "" : "none";
+            });
+        }, 150);
+    }
+
+    function filterByCategory(cat) {
+        document.getElementById("searchInput").value = cat;
+        // Sin debounce para clicks en botones de categoría
+        var f = cat.toUpperCase();
+        rowData.forEach(item => {
+            item.el.style.display = item.text.includes(f) ? "" : "none";
+        });
+    }
+
+    function sortTable(n) {
+        var t = document.getElementById("offersTable");
+        var b = t.tBodies[0];
+        var d = t.getAttribute("sort-dir-" + n) === "asc" ? -1 : 1;
+        
+        // Ordenar el array de caché para mayor velocidad
+        rowData.sort((a, b) => {
+            var x = a.cells[n], y = b.cells[n];
+            var fX = parseFloat(x), fY = parseFloat(y);
+            if (!isNaN(fX) && !isNaN(fY)) return (fX - fY) * d;
+            return x.localeCompare(y, undefined, {numeric: true, sensitivity: 'base'}) * d;
+        });
+
+        // Aplicar a DOM en un solo fragmento para evitar reflows continuos
+        var fragment = document.createDocumentFragment();
+        rowData.forEach(item => fragment.appendChild(item.el));
+        b.appendChild(fragment);
+
+        t.setAttribute("sort-dir-" + n, d === 1 ? "asc" : "desc");
+    }
+    </script></body></html>
