@@ -4,7 +4,6 @@
 # Base de Datos
 *.db-journal
 *.sqlite
-*.db
 
 # Informes y Logs
 *.txt
