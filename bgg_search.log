@@ -5595,3 +5595,69 @@ Estrategias: ['Massive Darkness 2 - Kit  Mise à Jour', 'Massive Darkness 2 - Ki
     Query: site:boardgamegeek.com/boardgame Massive Darkness 2 - Kit de Mise à Jour
 FALLIDO: No se encontró ninguna coincidencia aceptable.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ansagrams: Travel Edition' ---
+Estrategias: ['Ansagrams: Travel', 'Ansagrams: Travel Edition', 'Ansagrams']
+  > Probando query: 'Ansagrams: Travel Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Ansagrams: Travel'
+    Encontrados 0 resultados.
+  > Probando query: 'Ansagrams'
+    Encontrados 1 resultados.
+    - Candidato: [365248] Ansagrams (Conf: 50.0%, Score: 72.0)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Ansagrams: Travel Edition
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Marvel Battleworld: Series 2 - Captain Marvel Mega Pack' ---
+Estrategias: ['Marvel', 'Marvel Battleworld: Series 2', 'Marvel Battleworld: Series 2 - Captain Marvel Mega Pack', 'Marvel Battleworld', 'Marvel Battleworld: Series 2 - Captain Marvel Mega']
+  > Probando query: 'Marvel Battleworld: Series 2 - Captain Marvel Mega Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel Battleworld: Series 2 - Captain Marvel Mega'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel Battleworld: Series 2'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel Battleworld'
+    Encontrados 10 resultados.
+    - Candidato: [311020] Marvel Battleworld (Conf: 33.3%, Score: 55.4)
+    - Candidato: [311022] Marvel Battleworld Battle Ball (Conf: 33.3%, Score: 59.7)
+    - Candidato: [311167] Marvel Battleworld Mega Pack (Conf: 50.0%, Score: 61.3)
+    - Candidato: [359937] Marvel Battleworld Series 3: Ultimate Armory Battleball (Conf: 50.0%, Score: 67.3)
+    - Candidato: [320008] Marvel Battleworld: Series 1 Thanos Ship Showdown (Conf: 50.0%, Score: 63.2)
+    - Candidato: [354445] Marvel Battleworld: Treachery at Twilight Talon Fighter (Conf: 33.3%, Score: 55.4)
+    - Candidato: [354446] Marvel Battleworld: Treachery at Twilight The Collector's Tower (Conf: 33.3%, Score: 49.5)
+    - Candidato: [320008] Marvel Battleworld: Series 1 Thanos Ship Showdown (Conf: 50.0%, Score: 63.2)
+    - Candidato: [354445] Marvel Battleworld: Treachery at Twilight Talon Fighter (Conf: 33.3%, Score: 55.4)
+    - Candidato: [354446] Marvel Battleworld: Treachery at Twilight The Collector's Tower (Conf: 33.3%, Score: 49.5)
+  > Probando query: 'Marvel'
+    Encontrados 1193 resultados.
+    - Candidato: [253618] 5-Minute Marvel (Conf: 16.7%, Score: 32.3)
+    - Candidato: [460246] Adventurous: Marvel Expansions (Conf: 16.7%, Score: 42.1)
+    - Candidato: [368048] Apples to Apples Express: Marvel Edition (Conf: 16.7%, Score: 39.5)
+    - Candidato: [324739] Apples to Apples: Marvel (Conf: 16.7%, Score: 42.9)
+    - Candidato: [452834] Artistry: Marvelous Mucha Mini Expansion (Conf: 0.0%, Score: 37.2)
+    - Candidato: [439420] Aspens: Majestic Marvels (Conf: 16.7%, Score: 34.3)
+    - Candidato: [24025] Attacktix  Battle Figure Game: Marvel (Conf: 16.7%, Score: 43.9)
+    - Candidato: [382136] Captain Marvel's Own Game SHAZAM! (Conf: 33.3%, Score: 45.6)
+    - Candidato: [269564] Captain Marvel: Secret Skrulls (Conf: 33.3%, Score: 42.1)
+    - Candidato: [273710] Captain Marvel: Secret Skrulls – Kree Fighter (Conf: 33.3%, Score: 38.2)
+    - Candidato: [273711] Captain Marvel: Secret Skrulls – Skrull Stun Gun (Conf: 33.3%, Score: 37.0)
+    - Candidato: [4143] Cara a Cara? Marvel Heroes (Conf: 16.7%, Score: 47.2)
+    - Candidato: [199937] The Card Game of Oz: The Marvelous Land of Oz (Conf: 0.0%, Score: 30.8)
+    - Candidato: [182077] Cardline: Marvel (Conf: 16.7%, Score: 38.7)
+    - Candidato: [357180] Cards Against Marvel (Conf: 16.7%, Score: 47.8)
+    - Candidato: [386620] Charlie and the Chocolate Factory: Marvellous Maths Games (Conf: 0.0%, Score: 38.8)
+    - Candidato: [5432] Chutes and Ladders Marvel Super Hero Squad (Conf: 16.7%, Score: 36.0)
+    - Candidato: [22958] Clout: Marvel (Conf: 16.7%, Score: 30.5)
+    - Candidato: [433795] Clue Junior Marvel Avengers (Conf: 16.7%, Score: 37.8)
+    - Candidato: [441343] Clue Junior: Marvel Avengers – Loki's Big Trick! (Conf: 16.7%, Score: 30.8)
+    - Candidato: [220774] Codenames: Marvel (Conf: 16.7%, Score: 31.7)
+    - Candidato: [63268] Dobble Marvel (Conf: 16.7%, Score: 33.3)
+    - Candidato: [258394] Doctor Smuglfreud's Marvelous Machine (Conf: 0.0%, Score: 40.5)
+    - Candidato: [17568] Eamonn Andrews Presents The Great Marvello (Conf: 16.7%, Score: 31.5)
+    - Candidato: [337500] Funkoverse Strategy Game: Marvel 100 (Conf: 16.7%, Score: 39.0)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Marvel Battleworld: Series 2 - Captain Marvel Mega Pack
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
