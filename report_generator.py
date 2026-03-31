@@ -42,7 +42,7 @@ def ensure_all_games_fetched():
     conn = get_db_connection()
     try:
         cursor = conn.cursor()
-        cursor.execute("SELECT DISTINCT m.bgg_id, m.item_name FROM bgg_mapping m JOIN deals d ON m.item_name = d.item_name LEFT JOIN games g ON m.bgg_id = g.bgg_id WHERE (g.bgg_id IS NULL OR g.original_name = 'Unknown') AND m.confidence >= 95 AND m.bgg_id != 'IGNORED'")
+        cursor.execute("SELECT DISTINCT m.bgg_id, m.item_name FROM bgg_mapping m JOIN deals d ON m.item_name = d.item_name LEFT JOIN games g ON m.bgg_id = g.bgg_id WHERE (g.bgg_id IS NULL OR g.original_name = 'Unknown') AND m.confidence >= 95 AND m.bgg_id NOT IN ('IGNORED', 'WAITING') AND m.bgg_id glob '[0-9]*'")
         missing_bgg = cursor.fetchall()
         for b_id, item_name in missing_bgg:
             rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(b_id)

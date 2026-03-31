@@ -3717,3 +3717,1881 @@ Estrategias: ['Final Girl: Series 3 Feature Film - The Marrek Murders', 'Final G
     Query: site:boardgamegeek.com/boardgame Final Girl: Series 3 Feature Film - The Marrek Murders
 GANADOR: ID 432909 con 44.4% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tiki Tatoo' ---
+Estrategias: ['Tiki Tatoo']
+  > Probando query: 'Tiki Tatoo'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Tiki Tatoo
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '4D Build : Casque Iron Man' ---
+Estrategias: ['4D Build', '4D Build : Casque Iron Man']
+  > Probando query: '4D Build : Casque Iron Man'
+    Encontrados 0 resultados.
+  > Probando query: '4D Build'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame 4D Build : Casque Iron Man
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Syncro Extension Chapitre 3 - La Menace Venue de l'Océan' ---
+Estrategias: ["Syncro Extension Chapitre 3 - La Menace Venue de l'Océan", "Syncro Extension Chapitre 3 -  Menace Venue  l'Océan", 'Syncro Extension Chapitre 3']
+  > Probando query: 'Syncro Extension Chapitre 3 - La Menace Venue de l'Océan'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro Extension Chapitre 3 -  Menace Venue  l'Océan'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro Extension Chapitre 3'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Syncro Extension Chapitre 3 - La Menace Venue de l'Océan
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Détective Charlie - Enquête au Musée' ---
+Estrategias: ['Détective Charlie - Enquête au Musée', 'Détective Charlie']
+  > Probando query: 'Détective Charlie - Enquête au Musée'
+    Encontrados 0 resultados.
+  > Probando query: 'Détective Charlie'
+    Encontrados 6 resultados.
+    - Candidato: [304450] Detective Charlie (Conf: 40.0%, Score: 66.7)
+    - Candidato: [464572] Detective Charlie: Manor Mysteries (Conf: 40.0%, Score: 65.7)
+    - Candidato: [434656] Détective Charlie: Calendrier de l'Avent – Qui a volé l'étoile de Noël? (Conf: 40.0%, Score: 55.4)
+    - Candidato: [361631] Détective Charlie: part en vacances (Conf: 40.0%, Score: 64.7)
+    - Candidato: [13624] The Great Charlie Chan Detective Mystery Game (Conf: 40.0%, Score: 40.5)
+    - Candidato: [361631] Détective Charlie: part en vacances (Conf: 40.0%, Score: 64.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Détective Charlie - Enquête au Musée
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 304450 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tu Tires Tu Gagnes' ---
+Estrategias: ['Tu Tires Tu Gagnes']
+  > Probando query: 'Tu Tires Tu Gagnes'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Tu Tires Tu Gagnes
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Stargrave - Data Vault Scenario Set' ---
+Estrategias: ['Stargrave - Data Vault Scenario Set', 'Stargrave', 'Stargrave - Data Vault Scenario']
+  > Probando query: 'Stargrave - Data Vault Scenario Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Stargrave - Data Vault Scenario'
+    Encontrados 0 resultados.
+  > Probando query: 'Stargrave'
+    Encontrados 17 resultados.
+    - Candidato: [403762] Stargrave: Bold Endeavour (Conf: 25.0%, Score: 60.4)
+    - Candidato: [424011] Stargrave: Dead or Alive (Conf: 25.0%, Score: 57.7)
+    - Candidato: [337679] Stargrave: Dead or Alive – Bounty Hunting Solo Scenario Generator (Conf: 50.0%, Score: 54.9)
+    - Candidato: [444041] Stargrave: Death Vector (Conf: 25.0%, Score: 66.7)
+    - Candidato: [372918] Stargrave: Hope Eternal (Conf: 25.0%, Score: 54.9)
+    - Candidato: [346984] Stargrave: Quarantine 37 (Conf: 25.0%, Score: 53.8)
+    - Candidato: [322283] Stargrave: Science Fiction Wargames in the Ravaged Galaxy (Conf: 25.0%, Score: 40.0)
+    - Candidato: [385572] Stargrave: Side Hustle (Conf: 25.0%, Score: 56.0)
+    - Candidato: [363499] Stargrave: The Last Prospector (Conf: 25.0%, Score: 55.2)
+    - Candidato: [403762] Stargrave: Bold Endeavour (Conf: 25.0%, Score: 60.4)
+    - Candidato: [424011] Stargrave: Dead or Alive (Conf: 25.0%, Score: 57.7)
+    - Candidato: [337679] Stargrave: Dead or Alive – Bounty Hunting Solo Scenario Generator (Conf: 50.0%, Score: 54.9)
+    - Candidato: [444041] Stargrave: Death Vector (Conf: 25.0%, Score: 66.7)
+    - Candidato: [372918] Stargrave: Hope Eternal (Conf: 25.0%, Score: 54.9)
+    - Candidato: [346984] Stargrave: Quarantine 37 (Conf: 25.0%, Score: 53.8)
+    - Candidato: [385572] Stargrave: Side Hustle (Conf: 25.0%, Score: 56.0)
+    - Candidato: [363499] Stargrave: The Last Prospector (Conf: 25.0%, Score: 55.2)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Stargrave - Data Vault Scenario Set
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 337679 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '7TV - Dire Wolf A' ---
+Estrategias: ['7TV', '7TV - Dire Wolf A']
+  > Probando query: '7TV - Dire Wolf A'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame 7TV - Dire Wolf A
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Orkenburg Signs' ---
+Estrategias: ['Orkenburg Signs']
+  > Probando query: 'Orkenburg Signs'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Orkenburg Signs
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dvergr Commando Medic' ---
+Estrategias: ['Dvergr Commando Medic']
+  > Probando query: 'Dvergr Commando Medic'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Dvergr Commando Medic
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Broom Rack' ---
+Estrategias: ['Broom Rack']
+  > Probando query: 'Broom Rack'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Broom Rack
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Orc Vehicle Crew: Bionic Gunner' ---
+Estrategias: ['Orc Vehicle Crew', 'Orc Vehicle Crew: Bionic Gunner']
+  > Probando query: 'Orc Vehicle Crew: Bionic Gunner'
+    Encontrados 0 resultados.
+  > Probando query: 'Orc Vehicle Crew'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Orc Vehicle Crew: Bionic Gunner
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hive City Habitat' ---
+Estrategias: ['Hive City Habitat']
+  > Probando query: 'Hive City Habitat'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Hive City Habitat
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dvergr Commando One Minute of Silence' ---
+Estrategias: ['Dvergr Commando One Minute of Silence']
+  > Probando query: 'Dvergr Commando One Minute of Silence'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Dvergr Commando One Minute of Silence
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Conjudingo CM1 CM2' ---
+Estrategias: ['Conjudingo CM1 CM2']
+  > Probando query: 'Conjudingo CM1 CM2'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Conjudingo CM1 CM2
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Woodland Scenics - Basswood' ---
+Estrategias: ['Woodland Scenics', 'Woodland Scenics - Basswood']
+  > Probando query: 'Woodland Scenics - Basswood'
+    Encontrados 0 resultados.
+  > Probando query: 'Woodland Scenics'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Woodland Scenics - Basswood
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Logidingo' ---
+Estrategias: ['Logidingo']
+  > Probando query: 'Logidingo'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Logidingo
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Loco’Cotte' ---
+Estrategias: ['Loco’Cotte']
+  > Probando query: 'Loco’Cotte'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Loco’Cotte
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Motifs en Folie' ---
+Estrategias: ['Motifs  Folie', 'Motifs en Folie']
+  > Probando query: 'Motifs en Folie'
+    Encontrados 0 resultados.
+  > Probando query: 'Motifs  Folie'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Motifs en Folie
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dobble Marvel Emoji' ---
+Estrategias: ['Dobble Marvel Emoji']
+  > Probando query: 'Dobble Marvel Emoji'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Dobble Marvel Emoji
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dobble Teams' ---
+Estrategias: ['Dobble Teams']
+  > Probando query: 'Dobble Teams'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Dobble Teams
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'BrainBox Pocket : L'Espace' ---
+Estrategias: ["BrainBox Pocket : L'Espace", 'BrainBox Pocket']
+  > Probando query: 'BrainBox Pocket : L'Espace'
+    Encontrados 0 resultados.
+  > Probando query: 'BrainBox Pocket'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame BrainBox Pocket : L'Espace
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'La Réussite - Dirler' ---
+Estrategias: ['Réussite - Dirler', 'Réussite', 'La Réussite - Dirler']
+  > Probando query: 'La Réussite - Dirler'
+    Encontrados 0 resultados.
+  > Probando query: 'Réussite - Dirler'
+    Encontrados 0 resultados.
+  > Probando query: 'Réussite'
+    Encontrados 1 resultados.
+    - Candidato: [4382] La Course à la réussite (Conf: 50.0%, Score: 42.1)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame La Réussite - Dirler
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 4382 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Panic Lab - Boite carton' ---
+Estrategias: ['Panic Lab - Boite carton', 'Panic Lab']
+  > Probando query: 'Panic Lab - Boite carton'
+    Encontrados 0 resultados.
+  > Probando query: 'Panic Lab'
+    Encontrados 5 resultados.
+    - Candidato: [121073] Panic Lab (Conf: 50.0%, Score: 58.1)
+    - Candidato: [213222] Panic Lab: Shower (Conf: 50.0%, Score: 68.4)
+    - Candidato: [236735] Panic Lab: U-turn (Conf: 50.0%, Score: 68.4)
+    - Candidato: [213222] Panic Lab: Shower (Conf: 50.0%, Score: 68.4)
+    - Candidato: [236735] Panic Lab: U-turn (Conf: 50.0%, Score: 68.4)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Panic Lab - Boite carton
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 236735 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Labyrinthe 13 cm' ---
+Estrategias: ['Labyrinthe 13 cm']
+  > Probando query: 'Labyrinthe 13 cm'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Labyrinthe 13 cm
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fléchettes Laiton Noir Candyland Steel 21g' ---
+Estrategias: ['Fléchettes Laiton Noir Candyland Steel 21g']
+  > Probando query: 'Fléchettes Laiton Noir Candyland Steel 21g'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Fléchettes Laiton Noir Candyland Steel 21g
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fléchettes Nickel - Turbo 24g' ---
+Estrategias: ['Fléchettes Nickel - Turbo 24g', 'Fléchettes Nickel']
+  > Probando query: 'Fléchettes Nickel - Turbo 24g'
+    Encontrados 0 resultados.
+  > Probando query: 'Fléchettes Nickel'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Fléchettes Nickel - Turbo 24g
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Age of Sigmar : Daughters of Khaine - Maleneth Sorcelame' ---
+Estrategias: ['Age of Sigmar : Daughters of Khaine - Maleneth Sorcelame', 'Age of Sigmar', 'Age of Sigmar : Daughters of Khaine']
+  > Probando query: 'Age of Sigmar : Daughters of Khaine - Maleneth Sorcelame'
+    Encontrados 0 resultados.
+  > Probando query: 'Age of Sigmar : Daughters of Khaine'
+    Encontrados 8 resultados.
+    - Candidato: [356476] Warhammer Age of Sigmar (Second Edition): Order Battletome – Daughters of Khaine (Conf: 71.4%, Score: 52.0)
+    - Candidato: [417802] Warhammer Age of Sigmar: Order Battletome – Daughters of Khaine (Conf: 71.4%, Score: 58.9)
+    - Candidato: [286860] Warhammer Age of Sigmar: Warcry – Daughters of Khaine (Conf: 71.4%, Score: 64.7)
+    - Candidato: [364046] Warhammer Age of Sigmar: Warcry – Daughters of Khaine (Conf: 71.4%, Score: 64.7)
+    - Candidato: [356476] Warhammer Age of Sigmar (Second Edition): Order Battletome – Daughters of Khaine (Conf: 71.4%, Score: 52.0)
+    - Candidato: [417802] Warhammer Age of Sigmar: Order Battletome – Daughters of Khaine (Conf: 71.4%, Score: 58.9)
+    - Candidato: [286860] Warhammer Age of Sigmar: Warcry – Daughters of Khaine (Conf: 71.4%, Score: 64.7)
+    - Candidato: [364046] Warhammer Age of Sigmar: Warcry – Daughters of Khaine (Conf: 71.4%, Score: 64.7)
+  > Probando query: 'Age of Sigmar'
+    Encontrados 429 resultados.
+    - Candidato: [242892] Getting Started with Warhammer: Age of Sigmar (Conf: 42.9%, Score: 27.1)
+    - Candidato: [41034] Munchkin Warhammer Age of Sigmar: Besichtige die Reiche der Sterblichen (Conf: 42.9%, Score: 36.1)
+    - Candidato: [54434] Munchkin Warhammer Age of Sigmar: Kill-O-Meter (Conf: 42.9%, Score: 35.1)
+    - Candidato: [314581] Munchkin Warhammer Age of Sigmar: Lightning Dice (Conf: 42.9%, Score: 44.4)
+    - Candidato: [275273] Munchkin Warhammer: Age of Sigmar (Conf: 42.9%, Score: 31.0)
+    - Candidato: [319258] Munchkin Warhammer: Age of Sigmar – Chaos and Order (Conf: 42.9%, Score: 34.0)
+    - Candidato: [303644] Munchkin Warhammer: Age of Sigmar – Death and Destruction (Conf: 42.9%, Score: 39.6)
+    - Candidato: [434165] Munchkin Warhammer: Age of Sigmar – Dire Domains (Conf: 42.9%, Score: 45.4)
+    - Candidato: [352361] Munchkin Warhammer: Age of Sigmar – Guts and Gory (Conf: 42.9%, Score: 42.9)
+    - Candidato: [24733] The Official Munchkin Warhammer Age of Sigmar Bookmark of Chaos Theory! (Conf: 42.9%, Score: 44.3)
+    - Candidato: [180241] Warhammer Age of Sigmar (Conf: 42.9%, Score: 34.7)
+    - Candidato: [454951] Warhammer Age of Sigmar (Fourth Edition): Chaos Battletome – Blades of Khorne (Conf: 42.9%, Score: 43.5)
+    - Candidato: [454952] Warhammer Age of Sigmar (Fourth Edition): Chaos Battletome – Slaves To Darkness (Conf: 42.9%, Score: 39.7)
+    - Candidato: [425091] Warhammer Age Of Sigmar (Fourth Edition): Core Rules (Conf: 42.9%, Score: 47.5)
+    - Candidato: [454946] Warhammer Age of Sigmar (Fourth Edition): Death Battletome – Nighthaunt (Conf: 42.9%, Score: 39.0)
+    - Candidato: [454948] Warhammer Age of Sigmar (Fourth Edition): Death Battletome – Soulblight Gravelords (Conf: 42.9%, Score: 37.2)
+    - Candidato: [455828] Warhammer Age of Sigmar (Fourth Edition): Destruction Battletome – Gloomspite Gitz (Conf: 42.9%, Score: 37.2)
+    - Candidato: [455827] Warhammer Age of Sigmar (Fourth Edition): Order Battletome – Stormcast Eternals (Conf: 42.9%, Score: 36.5)
+    - Candidato: [256422] Warhammer Age of Sigmar (Second Edition) Core Rules (Conf: 42.9%, Score: 43.6)
+    - Candidato: [338217] Warhammer Age of Sigmar (Second Edition): Broken Realms – Be'lakor (Conf: 42.9%, Score: 40.7)
+    - Candidato: [340605] Warhammer Age of Sigmar (Second Edition): Broken Realms – Kragnos (Conf: 42.9%, Score: 35.7)
+    - Candidato: [325899] Warhammer Age of Sigmar (Second Edition): Broken Realms – Morathi (Conf: 42.9%, Score: 39.3)
+    - Candidato: [335515] Warhammer Age of Sigmar (Second Edition): Broken Realms – Teclis (Conf: 42.9%, Score: 34.2)
+    - Candidato: [310698] Warhammer Age of Sigmar (Second Edition): Chaos Battletome – Beasts of Chaos (Conf: 42.9%, Score: 42.3)
+    - Candidato: [278764] Warhammer Age of Sigmar (Second Edition): Chaos Battletome – Blades of Khorne (Conf: 42.9%, Score: 43.5)
+GANADOR: ID 364046 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flesh & Blood - Compendium of Rathe - 24 Booster Display' ---
+Estrategias: ['Flesh & Blood - Compendium of Rathe - 24 Booster Display', 'Flesh & Blood']
+  > Probando query: 'Flesh & Blood - Compendium of Rathe - 24 Booster Display'
+    Encontrados 0 resultados.
+  > Probando query: 'Flesh & Blood'
+    Encontrados 34 resultados.
+    - Candidato: [293348] Flesh and Blood (Conf: 25.0%, Score: 33.8)
+    - Candidato: [400486] Flesh and Blood Round the Table (Conf: 25.0%, Score: 54.3)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 25.0%, Score: 45.6)
+    - Candidato: [361425] Flesh and Blood: Classic Battles – Rhinar vs Dorinthea (Conf: 25.0%, Score: 41.6)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 37.5%, Score: 46.9)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 25.0%, Score: 43.0)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 25.0%, Score: 46.6)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 25.0%, Score: 45.9)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 25.0%, Score: 48.1)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 25.0%, Score: 47.5)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 25.0%, Score: 43.9)
+    - Candidato: [431980] Flesh and Blood: Monarch (Conf: 25.0%, Score: 38.4)
+    - Candidato: [431988] Flesh and Blood: Outsiders (Conf: 25.0%, Score: 45.3)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 25.0%, Score: 55.4)
+    - Candidato: [348588] Flesh and Blood: Tales of Aria (Conf: 37.5%, Score: 48.1)
+    - Candidato: [431984] Flesh and Blood: Uprising (Conf: 25.0%, Score: 43.2)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 37.5%, Score: 58.5)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 25.0%, Score: 45.6)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 37.5%, Score: 46.9)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 25.0%, Score: 43.0)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 25.0%, Score: 46.6)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 25.0%, Score: 45.9)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 25.0%, Score: 48.1)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 25.0%, Score: 47.5)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 25.0%, Score: 55.4)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Flesh & Blood - Compendium of Rathe - 24 Booster Display
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 419610 con 37.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rangement Safe & Sound - Star Wars Legion : Mousse pour 2 x TL-TT' ---
+Estrategias: ['Rangement Safe & Sound', 'Rangement Safe & Sound - Star Wars Legion : Mousse pour 2 x TL-TT', 'Rangement Safe & Sound - Star Wars Legion']
+  > Probando query: 'Rangement Safe & Sound - Star Wars Legion : Mousse pour 2 x TL-TT'
+    Encontrados 0 resultados.
+  > Probando query: 'Rangement Safe & Sound - Star Wars Legion'
+    Encontrados 0 resultados.
+  > Probando query: 'Rangement Safe & Sound'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Rangement Safe & Sound - Star Wars Legion : Mousse pour 2 x TL-TT
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rangement Safe & Sound - Star Wars Legion : Mousse pour 1 x Plateforme de Soutien d'Infanterie' ---
+Estrategias: ["Rangement Safe & Sound - Star Wars Legion : Mousse pour 1 x Plateforme de Soutien d'Infanterie", 'Rangement Safe & Sound - Star Wars Legion', "Rangement Safe & Sound - Star Wars Legion : Mousse pour 1 x Plateforme  Soutien d'Infanterie", 'Rangement Safe & Sound']
+  > Probando query: 'Rangement Safe & Sound - Star Wars Legion : Mousse pour 1 x Plateforme de Soutien d'Infanterie'
+    Encontrados 0 resultados.
+  > Probando query: 'Rangement Safe & Sound - Star Wars Legion : Mousse pour 1 x Plateforme  Soutien d'Infanterie'
+    Encontrados 0 resultados.
+  > Probando query: 'Rangement Safe & Sound - Star Wars Legion'
+    Encontrados 0 resultados.
+  > Probando query: 'Rangement Safe & Sound'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Rangement Safe & Sound - Star Wars Legion : Mousse pour 1 x Plateforme de Soutien d'Infanterie
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Orichalque - Mode Solo' ---
+Estrategias: ['Orichalque', 'Orichalque - Mode Solo']
+  > Probando query: 'Orichalque - Mode Solo'
+    Encontrados 0 resultados.
+  > Probando query: 'Orichalque'
+    Encontrados 3 resultados.
+    - Candidato: [355888] Orichalque (Conf: 33.3%, Score: 66.7)
+    - Candidato: [373056] Orichalque: Règles du jeu solo (Conf: 66.7%, Score: 73.5)
+    - Candidato: [373056] Orichalque: Règles du jeu solo (Conf: 66.7%, Score: 73.5)
+GANADOR: ID 373056 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dungeon Academy : Extension Le Désert Des Illusions' ---
+Estrategias: ['Dungeon Academy', 'Dungeon Academy : Extension Le Désert Des Illusions', 'Dungeon Academy : Extension  Désert  Illusions']
+  > Probando query: 'Dungeon Academy : Extension Le Désert Des Illusions'
+    Encontrados 0 resultados.
+  > Probando query: 'Dungeon Academy : Extension  Désert  Illusions'
+    Encontrados 0 resultados.
+  > Probando query: 'Dungeon Academy'
+    Encontrados 23 resultados.
+    - Candidato: [275840] Dungeon Academy (Conf: 40.0%, Score: 52.6)
+    - Candidato: [299473] Dungeon Academy: Punchboard (Conf: 40.0%, Score: 55.9)
+    - Candidato: [316254] Dungeon Academy: The Desert of Illusions (Conf: 80.0%, Score: 84.0)
+    - Candidato: [328010] Dungeon Academy: The Forbidden Mountain (Conf: 40.0%, Score: 52.5)
+    - Candidato: [316086] Dungeon Academy: The Lost Forest (Conf: 40.0%, Score: 60.3)
+    - Candidato: [299473] Dungeon Academy: Punchboard (Conf: 40.0%, Score: 55.9)
+    - Candidato: [316254] Dungeon Academy: The Desert of Illusions (Conf: 80.0%, Score: 84.0)
+    - Candidato: [328010] Dungeon Academy: The Forbidden Mountain (Conf: 40.0%, Score: 52.5)
+    - Candidato: [316086] Dungeon Academy: The Lost Forest (Conf: 40.0%, Score: 60.3)
+GANADOR: ID 316254 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Oh Hisse la Sosig !' ---
+Estrategias: ['Oh Hisse la Sosig !', 'Oh Hisse  Sosig !']
+  > Probando query: 'Oh Hisse la Sosig !'
+    Encontrados 0 resultados.
+  > Probando query: 'Oh Hisse  Sosig !'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Oh Hisse la Sosig !
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Nanogame BOG' ---
+Estrategias: ['Nanogame BOG']
+  > Probando query: 'Nanogame BOG'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Nanogame BOG
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'AI : 100% Humain' ---
+Estrategias: ['AI', 'AI : 100% Humain']
+  > Probando query: 'AI : 100% Humain'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame AI : 100% Humain
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dobble Sports' ---
+Estrategias: ['Dobble Sports']
+  > Probando query: 'Dobble Sports'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Dobble Sports
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Le Trône de Fer : le Jeu de Figurines -  Archers Bolton' ---
+Estrategias: ['Trône  Fer', 'Trône  Fer :    Figurines -  Archers Bolton', 'Trône  Fer :    Figurines', 'Le Trône de Fer : le Jeu de Figurines -  Archers Bolton']
+  > Probando query: 'Le Trône de Fer : le Jeu de Figurines -  Archers Bolton'
+    Encontrados 0 resultados.
+  > Probando query: 'Trône  Fer :    Figurines -  Archers Bolton'
+    Encontrados 0 resultados.
+  > Probando query: 'Trône  Fer :    Figurines'
+    Encontrados 235 resultados.
+    - Candidato: [348024] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Garde de Nuit (Conf: 60.0%, Score: 42.4)
+    - Candidato: [348013] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Barathéon (Conf: 60.0%, Score: 43.0)
+    - Candidato: [348025] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Lannister (Conf: 60.0%, Score: 39.7)
+    - Candidato: [348027] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Stark (Conf: 60.0%, Score: 37.6)
+    - Candidato: [348016] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Targaryen (Conf: 60.0%, Score: 39.7)
+    - Candidato: [348019] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Neutres (Conf: 60.0%, Score: 46.4)
+    - Candidato: [348021] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Peuple Libre (Conf: 60.0%, Score: 44.4)
+    - Candidato: [356621] Le Trône de Fer: Jeu de Figurines –  Cogneurs Mormont (Conf: 60.0%, Score: 67.5)
+    - Candidato: [362576] Le Trône de Fer: Jeu de Figurines – Guet de Port-Lannis (Conf: 60.0%, Score: 51.2)
+    - Candidato: [362577] Le Trône de Fer: Jeu de Figurines – Héros Lannister 3 (Conf: 60.0%, Score: 64.3)
+    - Candidato: [362575] Le Trône de Fer: Jeu de Figurines – Héros Stark 3 (Conf: 60.0%, Score: 65.0)
+    - Candidato: [362578] Le Trône de Fer: Jeu de Figurines – Les Noyés (Conf: 60.0%, Score: 63.2)
+    - Candidato: [362579] Le Trône de Fer: Jeu de Figurines – Oursières de la Grêve Glacée (Conf: 60.0%, Score: 54.7)
+    - Candidato: [341252] Le Trône de Fer: le Jeu de Figurines – Affranchis (Conf: 60.0%, Score: 62.5)
+    - Candidato: [288024] Le Trône de Fer: le Jeu de Figurines – Arbalétriers Constructeurs (Conf: 60.0%, Score: 58.3)
+    - Candidato: [374617] Le Trône de Fer: le Jeu de Figurines – Arbalétriers de la Compagnie Dorée (Conf: 60.0%, Score: 53.8)
+    - Candidato: [248186] Le Trône de Fer: le Jeu de Figurines – Arbalétriers Lannister (Conf: 60.0%, Score: 60.9)
+    - Candidato: [294874] Le Trône de Fer: le Jeu de Figurines – Archers Corbeaux Tornade (Conf: 80.0%, Score: 68.1)
+    - Candidato: [361505] Le Trône de Fer: le Jeu de Figurines – Archers Fer-Nés (Conf: 80.0%, Score: 68.2)
+    - Candidato: [279061] Le Trône de Fer: le Jeu de Figurines – Berserkers de la Maison Omble (Conf: 60.0%, Score: 56.6)
+    - Candidato: [248183] Le Trône de Fer: le Jeu de Figurines – Bouclier Liges Tully (Conf: 60.0%, Score: 57.8)
+    - Candidato: [223376] Le Trône de Fer: le Jeu de Figurines – Boîte de base Stark contre Lannister (Conf: 60.0%, Score: 47.2)
+    - Candidato: [348477] Le Trône de Fer: le Jeu de Figurines – Brigands de la Maison Clegane (Conf: 60.0%, Score: 52.5)
+    - Candidato: [380863] Le Trône de Fer: le Jeu de Figurines – Bêtes d'Airain (Conf: 60.0%, Score: 57.1)
+    - Candidato: [361501] Le Trône de Fer: le Jeu de Figurines – Cavaliers de Hautjardin (Conf: 60.0%, Score: 58.1)
+  > Probando query: 'Trône  Fer'
+    Encontrados 496 resultados.
+    - Candidato: [179601] Le Trône de Fer: Le jeu de cartes (Seconde Édition) – Prendre le Noir (Conf: 40.0%, Score: 36.7)
+    - Candidato: [65250] Le Trone de Fer: une Epee dans les Tenebres (Conf: 40.0%, Score: 47.4)
+    - Candidato: [6472] Le Trône de Fer (Conf: 40.0%, Score: 36.7)
+    - Candidato: [129976] Le Trône de Fer (Conf: 40.0%, Score: 36.7)
+    - Candidato: [348024] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Garde de Nuit (Conf: 60.0%, Score: 42.4)
+    - Candidato: [348013] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Barathéon (Conf: 60.0%, Score: 43.0)
+    - Candidato: [348025] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Lannister (Conf: 60.0%, Score: 39.7)
+    - Candidato: [348027] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Stark (Conf: 60.0%, Score: 37.6)
+    - Candidato: [348016] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Maison Targaryen (Conf: 60.0%, Score: 39.7)
+    - Candidato: [348019] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Neutres (Conf: 60.0%, Score: 46.4)
+    - Candidato: [348021] Le Trône de Fer : le Jeu de Figurines – Paquet de Mise à jour Edition 2021 : Peuple Libre (Conf: 60.0%, Score: 44.4)
+    - Candidato: [51130] Le Trône de Fer JCE: La Bataille de la Néra (Conf: 40.0%, Score: 36.8)
+    - Candidato: [251492] Le Trône de Fer JCE: Seconde Édition – Garde de Nuit Deck d'introduction (Conf: 40.0%, Score: 38.8)
+    - Candidato: [251485] Le Trône de Fer JCE: Seconde Édition – Maison Lannister Deck d'introductio (Conf: 40.0%, Score: 32.4)
+    - Candidato: [251490] Le Trône de Fer JCE: Seconde Édition – Maison Martell Deck d'introduction (Conf: 40.0%, Score: 36.5)
+    - Candidato: [251484] Le Trône de Fer JCE: Seconde Édition – Maison Stark Deck d'introduction (Conf: 40.0%, Score: 37.3)
+    - Candidato: [40780] Le Trône de Fer: Anciens ennemis (Conf: 40.0%, Score: 43.1)
+    - Candidato: [346199] Le Trône de Fer: B'Twixt (Conf: 40.0%, Score: 42.1)
+    - Candidato: [229218] Le Trône de fer: Catan – Les frères jurés de la garde (Conf: 40.0%, Score: 40.5)
+    - Candidato: [259396] Le Trône de fer: Catan – Les frères jurés de la garde: Extension pour 5 et 6 joueurs (Conf: 40.0%, Score: 33.3)
+    - Candidato: [39953] Le Trône de Fer: JCE (Conf: 40.0%, Score: 41.5)
+    - Candidato: [89802] Le Trône de Fer: JCE – Les Portes de la Citadelle (Conf: 40.0%, Score: 47.5)
+    - Candidato: [356621] Le Trône de Fer: Jeu de Figurines –  Cogneurs Mormont (Conf: 60.0%, Score: 67.5)
+    - Candidato: [362576] Le Trône de Fer: Jeu de Figurines – Guet de Port-Lannis (Conf: 60.0%, Score: 51.2)
+    - Candidato: [362577] Le Trône de Fer: Jeu de Figurines – Héros Lannister 3 (Conf: 60.0%, Score: 64.3)
+GANADOR: ID 361505 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'L'Île des Chats - Explore & Draw Promos' ---
+Estrategias: ["L'Île  Chats - Explore & Draw Promos", "L'Île des Chats - Explore & Draw Promos", "L'Île  Chats"]
+  > Probando query: 'L'Île des Chats - Explore & Draw Promos'
+    Encontrados 0 resultados.
+  > Probando query: 'L'Île  Chats - Explore & Draw Promos'
+    Encontrados 0 resultados.
+  > Probando query: 'L'Île  Chats'
+    Encontrados 18 resultados.
+    - Candidato: [329836] L'ile Des Chats: Pack Promo #1 (Conf: 66.7%, Score: 67.8)
+    - Candidato: [329835] L'ile Des Chats: Pack Promo #2 (Conf: 66.7%, Score: 67.8)
+    - Candidato: [328910] L'ile Des Chats: Pack Promo #3 (Conf: 66.7%, Score: 67.8)
+    - Candidato: [281259] L'Île des Chats (Conf: 50.0%, Score: 47.8)
+    - Candidato: [287361] L'Île des Chats: Derniers Arrivants (Conf: 50.0%, Score: 58.5)
+    - Candidato: [338021] L'Île des Chats: Pack de bateaux (Conf: 50.0%, Score: 51.6)
+    - Candidato: [287362] L'Île des Chats: Pack Kickstarter (Conf: 50.0%, Score: 44.4)
+    - Candidato: [338020] L'île des chats: Bêtes + Chatons (Conf: 50.0%, Score: 50.0)
+    - Candidato: [338460] L'île des chats: Explore & draw (Conf: 83.3%, Score: 81.4)
+    - Candidato: [338022] L'île des chats: Pack kickstarter 2 (Conf: 50.0%, Score: 46.2)
+    - Candidato: [329836] L'ile Des Chats: Pack Promo #1 (Conf: 66.7%, Score: 67.8)
+    - Candidato: [329835] L'ile Des Chats: Pack Promo #2 (Conf: 66.7%, Score: 67.8)
+    - Candidato: [328910] L'ile Des Chats: Pack Promo #3 (Conf: 66.7%, Score: 67.8)
+    - Candidato: [287361] L'Île des Chats: Derniers Arrivants (Conf: 50.0%, Score: 58.5)
+    - Candidato: [338021] L'Île des Chats: Pack de bateaux (Conf: 50.0%, Score: 51.6)
+    - Candidato: [287362] L'Île des Chats: Pack Kickstarter (Conf: 50.0%, Score: 44.4)
+    - Candidato: [338020] L'île des chats: Bêtes + Chatons (Conf: 50.0%, Score: 50.0)
+    - Candidato: [338022] L'île des chats: Pack kickstarter 2 (Conf: 50.0%, Score: 46.2)
+GANADOR: ID 338460 con 83.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Le Cliché du Siècle - Extension : Avant-Première' ---
+Estrategias: ['Cliché du Siècle - Extension : Avant-Première', 'Cliché du Siècle', 'Cliché du Siècle - Extension', 'Le Cliché du Siècle - Extension : Avant-Première']
+  > Probando query: 'Le Cliché du Siècle - Extension : Avant-Première'
+    Encontrados 0 resultados.
+  > Probando query: 'Cliché du Siècle - Extension : Avant-Première'
+    Encontrados 0 resultados.
+  > Probando query: 'Cliché du Siècle - Extension'
+    Encontrados 2 resultados.
+    - Candidato: [353562] Le Cliché du Siècle: Extension Sherlock (Conf: 66.7%, Score: 73.4)
+    - Candidato: [353562] Le Cliché du Siècle: Extension Sherlock (Conf: 66.7%, Score: 73.4)
+  > Probando query: 'Cliché du Siècle'
+    Encontrados 7 resultados.
+    - Candidato: [299963] Le Cliché du Siècle (Conf: 50.0%, Score: 53.3)
+    - Candidato: [324333] Le Cliché du Siècle: Avant-Première (Conf: 83.3%, Score: 82.7)
+    - Candidato: [353562] Le Cliché du Siècle: Extension Sherlock (Conf: 66.7%, Score: 73.4)
+    - Candidato: [324330] Le Cliché du Siècle: Photo de Groupe (Conf: 50.0%, Score: 50.0)
+    - Candidato: [324333] Le Cliché du Siècle: Avant-Première (Conf: 83.3%, Score: 82.7)
+    - Candidato: [353562] Le Cliché du Siècle: Extension Sherlock (Conf: 66.7%, Score: 73.4)
+    - Candidato: [324330] Le Cliché du Siècle: Photo de Groupe (Conf: 50.0%, Score: 50.0)
+GANADOR: ID 324333 con 83.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '4D Build : Casque Iron Man' ---
+Estrategias: ['4D Build', '4D Build : Casque Iron Man', 'Build']
+  > Probando query: '4D Build : Casque Iron Man'
+    Encontrados 0 resultados.
+  > Probando query: '4D Build'
+    Encontrados 0 resultados.
+  > Probando query: 'Build'
+    Encontrados 1370 resultados.
+    - Candidato: [190024] 100 Swords: The Chroma Dragon's Dungeon Builder Set (Conf: 20.0%, Score: 27.0)
+    - Candidato: [190026] 100 Swords: The Darkness Dungeon Builder Set (Conf: 20.0%, Score: 29.9)
+    - Candidato: [216576] 100 Swords: The Gardenin' Elm's Dungeon Builder Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [190020] 100 Swords: The Glowing Plasmapede's Dungeon Builder Set (Conf: 20.0%, Score: 25.3)
+    - Candidato: [213270] 100 Swords: The Great Garuda's Dungeon Builder Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [216577] 100 Swords: The Heads of the Hydra Dungeon Builder Set (Conf: 20.0%, Score: 26.0)
+    - Candidato: [213271] 100 Swords: The Hive Empress's Dungeon Builder Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [190022] 100 Swords: The Magic Computer's Dungeon Builder Set (Conf: 20.0%, Score: 26.7)
+    - Candidato: [7823] 1837: Rail Building in the Austro-Hungarian Empire (Conf: 0.0%, Score: 30.1)
+    - Candidato: [245223] 1883: Building Railroads in Northern Italy (Conf: 0.0%, Score: 43.1)
+    - Candidato: [37081] 18IA: Building Iowa's Railroads (Conf: 0.0%, Score: 40.7)
+    - Candidato: [114386] 18PA: The Dawn of Rail – Empire Building From The Seaboard to the Ohio (Conf: 0.0%, Score: 26.4)
+    - Candidato: [377721] 99 More BUILDZI Towers (Conf: 20.0%, Score: 34.8)
+    - Candidato: [211171] Above and Below: G@mebox Building Promo Card (Conf: 0.0%, Score: 32.8)
+    - Candidato: [208201] Above and Below: Watch It Played Building Promo Card (Conf: 0.0%, Score: 29.3)
+    - Candidato: [352843] Adventure Builder (Conf: 20.0%, Score: 43.9)
+    - Candidato: [261591] Age of Towers: Building Set (Conf: 0.0%, Score: 36.0)
+    - Candidato: [145355] Agricola: All Creatures Big and Small – Even More Buildings Big and Small (Conf: 0.0%, Score: 25.5)
+    - Candidato: [130752] Agricola: All Creatures Big and Small – More Buildings Big and Small (Conf: 0.0%, Score: 27.0)
+    - Candidato: [430259] Alhambra: Building Sites (Conf: 0.0%, Score: 38.3)
+    - Candidato: [252420] Alhambra: Designers' Expansion – Alhambra Zoo / Buildings of Power / Travelling Craftsmen (Conf: 0.0%, Score: 24.8)
+    - Candidato: [252424] Alhambra: Designers' Expansion – Extensions / The New Building Ground (Conf: 0.0%, Score: 25.3)
+    - Candidato: [276836] Alhambra: Designers' Expansion – The Personal Building Markets / Caliph's Guidlines / Treasures (Conf: 0.0%, Score: 28.8)
+    - Candidato: [109139] Alhambra: Queenie 1 – The Magical Buildings (Conf: 0.0%, Score: 21.9)
+    - Candidato: [149274] Amerigo Queenie 3: Special Production Buildings and Tokens (Conf: 0.0%, Score: 24.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame 4D Build : Casque Iron Man
+GANADOR: ID 352843 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dark Venture: Neoprene Dashboard Set' ---
+Estrategias: ['Dark Venture', 'Dark Venture: Neoprene Dashboard', 'Dark Venture: Neoprene Dashboard Set']
+  > Probando query: 'Dark Venture: Neoprene Dashboard Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Dark Venture: Neoprene Dashboard'
+    Encontrados 0 resultados.
+  > Probando query: 'Dark Venture'
+    Encontrados 21 resultados.
+    - Candidato: [228412] Dark Venture (Conf: 50.0%, Score: 55.8)
+    - Candidato: [298163] Dark Venture: Battle of the Ancients (Conf: 50.0%, Score: 51.5)
+    - Candidato: [326176] Dark Venture: Battle of the Ancients – Beasts and Eggmen (Conf: 50.0%, Score: 50.0)
+    - Candidato: [448453] Dark Venture: Battle of the Ancients – Ghosts and Robots (Conf: 50.0%, Score: 47.6)
+    - Candidato: [326174] Dark Venture: Battle of the Ancients – Kings and Heroes (Conf: 50.0%, Score: 43.4)
+    - Candidato: [379312] Dark Venture: Beasts & Monsters Mini-Expansion (Conf: 50.0%, Score: 48.6)
+    - Candidato: [379331] Dark Venture: CRAWL! (Conf: 50.0%, Score: 61.2)
+    - Candidato: [379309] Dark Venture: Khrag Pit Arena (Conf: 50.0%, Score: 61.0)
+    - Candidato: [379311] Dark Venture: The Alderkang Mini-Expansion (Conf: 50.0%, Score: 52.8)
+    - Candidato: [266197] Dark Venture: Vile Invaders (Conf: 50.0%, Score: 59.6)
+    - Candidato: [166418] Darkrock Ventures (Conf: 25.0%, Score: 54.2)
+    - Candidato: [208856] Darkrock Ventures: Expansion Pack #1 (Conf: 25.0%, Score: 52.3)
+    - Candidato: [326176] Dark Venture: Battle of the Ancients – Beasts and Eggmen (Conf: 50.0%, Score: 50.0)
+    - Candidato: [448453] Dark Venture: Battle of the Ancients – Ghosts and Robots (Conf: 50.0%, Score: 47.6)
+    - Candidato: [326174] Dark Venture: Battle of the Ancients – Kings and Heroes (Conf: 50.0%, Score: 43.4)
+    - Candidato: [379312] Dark Venture: Beasts & Monsters Mini-Expansion (Conf: 50.0%, Score: 48.6)
+    - Candidato: [379331] Dark Venture: CRAWL! (Conf: 50.0%, Score: 61.2)
+    - Candidato: [379309] Dark Venture: Khrag Pit Arena (Conf: 50.0%, Score: 61.0)
+    - Candidato: [379311] Dark Venture: The Alderkang Mini-Expansion (Conf: 50.0%, Score: 52.8)
+    - Candidato: [266197] Dark Venture: Vile Invaders (Conf: 50.0%, Score: 59.6)
+    - Candidato: [208856] Darkrock Ventures: Expansion Pack #1 (Conf: 25.0%, Score: 52.3)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Dark Venture: Neoprene Dashboard Set
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 379331 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Syncro Extension Chapitre 3 - La Menace Venue de l'Océan' ---
+Estrategias: ['Syncro', "Syncro  Chapitre 3 -  Menace Venue  l'Océan", 'Syncro  Chapitre 3', "Syncro Extension Chapitre 3 - La Menace Venue de l'Océan"]
+  > Probando query: 'Syncro Extension Chapitre 3 - La Menace Venue de l'Océan'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro  Chapitre 3 -  Menace Venue  l'Océan'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro  Chapitre 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro'
+    Encontrados 5 resultados.
+    - Candidato: [407214] Syncro (Conf: 14.3%, Score: 27.3)
+    - Candidato: [438663] Syncro: Extension Chapitre III – La Menace Venue de l'Océan (Conf: 85.7%, Score: 78.7)
+    - Candidato: [21227] Syncrohearts (Conf: 0.0%, Score: 36.0)
+    - Candidato: [356988] Syncron (Conf: 14.3%, Score: 31.1)
+    - Candidato: [438663] Syncro: Extension Chapitre III – La Menace Venue de l'Océan (Conf: 85.7%, Score: 78.7)
+GANADOR: ID 438663 con 85.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Frostpunk : The Board Game - Dreadnought Expansion' ---
+Estrategias: ['Frostpunk', 'Frostpunk : The  - Dreadnought', 'Frostpunk : The Board Game - Dreadnought Expansion', 'Frostpunk : The']
+  > Probando query: 'Frostpunk : The Board Game - Dreadnought Expansion'
+    Encontrados 0 resultados.
+  > Probando query: 'Frostpunk : The  - Dreadnought'
+    Encontrados 0 resultados.
+  > Probando query: 'Frostpunk : The'
+    Encontrados 10 resultados.
+    - Candidato: [311988] Frostpunk: The Board Game (Conf: 66.7%, Score: 65.3)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 66.7%, Score: 55.7)
+    - Candidato: [420948] Side Quest: Frostpunk (Conf: 33.3%, Score: 40.0)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 66.7%, Score: 55.7)
+  > Probando query: 'Frostpunk'
+    Encontrados 10 resultados.
+    - Candidato: [311988] Frostpunk: The Board Game (Conf: 66.7%, Score: 65.3)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 66.7%, Score: 55.7)
+    - Candidato: [420948] Side Quest: Frostpunk (Conf: 33.3%, Score: 40.0)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 66.7%, Score: 55.7)
+GANADOR: ID 311988 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Age of Steam Deluxe: Map Expansion Volume III' ---
+Estrategias: ['Age of Steam', 'Age of Steam Deluxe: Map Expansion Volume III', 'Age of Steam : Map Volume III']
+  > Probando query: 'Age of Steam Deluxe: Map Expansion Volume III'
+    Encontrados 0 resultados.
+  > Probando query: 'Age of Steam : Map Volume III'
+    Encontrados 0 resultados.
+  > Probando query: 'Age of Steam'
+    Encontrados 385 resultados.
+    - Candidato: [49743] 18Steam (fan expansion for Age of Steam) (Conf: 50.0%, Score: 36.9)
+    - Candidato: [4098] Age of Steam (Conf: 50.0%, Score: 61.5)
+    - Candidato: [445893] Age of Steam Deluxe Expansion: Beer & Pretzels / Reversteam (Conf: 50.0%, Score: 44.4)
+    - Candidato: [303949] Age of Steam Deluxe Expansion: Detroit Bankruptcy & Heavy Cardboard Maps (Conf: 66.7%, Score: 33.3)
+    - Candidato: [294765] Age of Steam Deluxe Expansion: Hungary & Finland Maps (Conf: 66.7%, Score: 41.6)
+    - Candidato: [294606] Age of Steam Deluxe Expansion: New England/Pittsburgh & Switzerland Maps (Conf: 66.7%, Score: 33.3)
+    - Candidato: [362228] Age of Steam Deluxe: Expansion Volume I (Conf: 66.7%, Score: 70.8)
+    - Candidato: [362227] Age of Steam Deluxe: Expansion Volume II (Conf: 66.7%, Score: 72.7)
+    - Candidato: [378715] Age of Steam Deluxe: Expansion Volume III (Conf: 83.3%, Score: 74.6)
+    - Candidato: [396948] Age of Steam Deluxe: Expansion Volume IV (Conf: 66.7%, Score: 69.7)
+    - Candidato: [444517] Age of Steam Deluxe: Expansion Volume V (Conf: 66.7%, Score: 67.7)
+    - Candidato: [445086] Age of Steam Deluxe: Expansion Volume VI (Conf: 66.7%, Score: 69.7)
+    - Candidato: [6356] Age of Steam Expansion #1: England & Ireland (Conf: 50.0%, Score: 53.7)
+    - Candidato: [8845] Age of Steam Expansion #2: Western United States and Germany (Conf: 50.0%, Score: 35.3)
+    - Candidato: [14183] Age of Steam Expansion #3: Scandinavia and Korea (Conf: 50.0%, Score: 49.3)
+    - Candidato: [13925] Age of Steam Expansion #4: France and Italy (Conf: 50.0%, Score: 52.9)
+    - Candidato: [23189] Age of Steam Expansion: 1830's Pennsylvania / Northern California (Conf: 50.0%, Score: 44.9)
+    - Candidato: [47687] Age of Steam Expansion: 1867 Georgia Reconstruction, South Carolina & Oklahoma Land Rush (Conf: 50.0%, Score: 32.4)
+    - Candidato: [64119] Age of Steam Expansion: 1890 Berlin (Conf: 50.0%, Score: 55.7)
+    - Candidato: [388407] Age of Steam Expansion: 18xxBelgium – The Road to Mechelen (Conf: 50.0%, Score: 48.8)
+    - Candidato: [25612] Age of Steam Expansion: 20,000 Rails Under the Sea (Conf: 50.0%, Score: 50.0)
+    - Candidato: [428373] Age of Steam Expansion: 23 Wards of Tōkyō, Ōita Hot Spring Town & The Lost City of Dwarka (Conf: 50.0%, Score: 35.7)
+    - Candidato: [101082] Age of Steam Expansion: African Diamond Mines & Taiwan Cube Factories (Conf: 50.0%, Score: 43.0)
+    - Candidato: [144896] Age of Steam Expansion: Airlines / The Mediterranean (Conf: 50.0%, Score: 50.0)
+    - Candidato: [47686] Age of Steam Expansion: Alabama Railways, Antebellum Louisiana & Four Corners (Conf: 50.0%, Score: 40.0)
+GANADOR: ID 378715 con 83.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Frostpunk : The Board Game - Timber City Expansion' ---
+Estrategias: ['Frostpunk : The  - Timber City', 'Frostpunk : The Board Game - Timber City Expansion', 'Frostpunk', 'Frostpunk : The']
+  > Probando query: 'Frostpunk : The Board Game - Timber City Expansion'
+    Encontrados 0 resultados.
+  > Probando query: 'Frostpunk : The  - Timber City'
+    Encontrados 0 resultados.
+  > Probando query: 'Frostpunk : The'
+    Encontrados 10 resultados.
+    - Candidato: [311988] Frostpunk: The Board Game (Conf: 50.0%, Score: 65.3)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 50.0%, Score: 55.7)
+    - Candidato: [420948] Side Quest: Frostpunk (Conf: 25.0%, Score: 40.0)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 50.0%, Score: 55.7)
+  > Probando query: 'Frostpunk'
+    Encontrados 10 resultados.
+    - Candidato: [311988] Frostpunk: The Board Game (Conf: 50.0%, Score: 65.3)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 50.0%, Score: 55.7)
+    - Candidato: [420948] Side Quest: Frostpunk (Conf: 25.0%, Score: 40.0)
+    - Candidato: [323382] Frostpunk: The Board Game – Frostlander (Conf: 50.0%, Score: 55.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Frostpunk : The Board Game - Timber City Expansion
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 311988 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamegenic - Keyforge : Premium Chain Tracker' ---
+Estrategias: ['Gamegenic - Keyforge', 'Gamegenic - Keyforge\xa0: Premium Chain Tracker', 'Gamegenic']
+  > Probando query: 'Gamegenic - Keyforge : Premium Chain Tracker'
+    Encontrados 0 resultados.
+  > Probando query: 'Gamegenic - Keyforge'
+    Encontrados 0 resultados.
+  > Probando query: 'Gamegenic'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Gamegenic - Keyforge : Premium Chain Tracker
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pitchgames Cornhole' ---
+Estrategias: ['Pitchgames Cornhole']
+  > Probando query: 'Pitchgames Cornhole'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Pitchgames Cornhole
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '4D Build : Casque Iron Man' ---
+Estrategias: ['4D Build : Casque Iron Man', 'Build', '4D Build']
+  > Probando query: '4D Build : Casque Iron Man'
+    Encontrados 0 resultados.
+  > Probando query: '4D Build'
+    Encontrados 0 resultados.
+  > Probando query: 'Build'
+    Encontrados 1370 resultados.
+    - Candidato: [190024] 100 Swords: The Chroma Dragon's Dungeon Builder Set (Conf: 20.0%, Score: 27.0)
+    - Candidato: [190026] 100 Swords: The Darkness Dungeon Builder Set (Conf: 20.0%, Score: 29.9)
+    - Candidato: [216576] 100 Swords: The Gardenin' Elm's Dungeon Builder Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [190020] 100 Swords: The Glowing Plasmapede's Dungeon Builder Set (Conf: 20.0%, Score: 25.3)
+    - Candidato: [213270] 100 Swords: The Great Garuda's Dungeon Builder Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [216577] 100 Swords: The Heads of the Hydra Dungeon Builder Set (Conf: 20.0%, Score: 26.0)
+    - Candidato: [213271] 100 Swords: The Hive Empress's Dungeon Builder Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [190022] 100 Swords: The Magic Computer's Dungeon Builder Set (Conf: 20.0%, Score: 26.7)
+    - Candidato: [7823] 1837: Rail Building in the Austro-Hungarian Empire (Conf: 0.0%, Score: 30.1)
+    - Candidato: [245223] 1883: Building Railroads in Northern Italy (Conf: 0.0%, Score: 43.1)
+    - Candidato: [37081] 18IA: Building Iowa's Railroads (Conf: 0.0%, Score: 40.7)
+    - Candidato: [114386] 18PA: The Dawn of Rail – Empire Building From The Seaboard to the Ohio (Conf: 0.0%, Score: 26.4)
+    - Candidato: [377721] 99 More BUILDZI Towers (Conf: 20.0%, Score: 34.8)
+    - Candidato: [211171] Above and Below: G@mebox Building Promo Card (Conf: 0.0%, Score: 32.8)
+    - Candidato: [208201] Above and Below: Watch It Played Building Promo Card (Conf: 0.0%, Score: 29.3)
+    - Candidato: [352843] Adventure Builder (Conf: 20.0%, Score: 43.9)
+    - Candidato: [261591] Age of Towers: Building Set (Conf: 0.0%, Score: 36.0)
+    - Candidato: [145355] Agricola: All Creatures Big and Small – Even More Buildings Big and Small (Conf: 0.0%, Score: 25.5)
+    - Candidato: [130752] Agricola: All Creatures Big and Small – More Buildings Big and Small (Conf: 0.0%, Score: 27.0)
+    - Candidato: [430259] Alhambra: Building Sites (Conf: 0.0%, Score: 38.3)
+    - Candidato: [252420] Alhambra: Designers' Expansion – Alhambra Zoo / Buildings of Power / Travelling Craftsmen (Conf: 0.0%, Score: 24.8)
+    - Candidato: [252424] Alhambra: Designers' Expansion – Extensions / The New Building Ground (Conf: 0.0%, Score: 25.3)
+    - Candidato: [276836] Alhambra: Designers' Expansion – The Personal Building Markets / Caliph's Guidlines / Treasures (Conf: 0.0%, Score: 28.8)
+    - Candidato: [109139] Alhambra: Queenie 1 – The Magical Buildings (Conf: 0.0%, Score: 21.9)
+    - Candidato: [149274] Amerigo Queenie 3: Special Production Buildings and Tokens (Conf: 0.0%, Score: 24.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame 4D Build : Casque Iron Man
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Paris : Ville Lumière - Eiffel' ---
+Estrategias: ['Paris', 'Paris : Ville Lumière - Eiffel', 'Paris : Ville Lumière']
+  > Probando query: 'Paris : Ville Lumière - Eiffel'
+    Encontrados 0 resultados.
+  > Probando query: 'Paris : Ville Lumière'
+    Encontrados 1 resultados.
+    - Candidato: [276498] Paris: Ville Lumière (Conf: 75.0%, Score: 84.4)
+  > Probando query: 'Paris'
+    Encontrados 228 resultados.
+    - Candidato: [367031] 1914: Nach Paris (Conf: 25.0%, Score: 24.4)
+    - Candidato: [26301] 2ème D.B. 'II' Paris (Conf: 25.0%, Score: 23.3)
+    - Candidato: [125541] 6 jours de Paris (Conf: 25.0%, Score: 23.8)
+    - Candidato: [404865] Adventure Games: Books – Die Wölfe von Paris (Conf: 25.0%, Score: 14.9)
+    - Candidato: [74712] Age of Steam Expansion: Paris & Moscow (Conf: 25.0%, Score: 23.0)
+    - Candidato: [340030] Les Apaches de Paris (Conf: 25.0%, Score: 21.7)
+    - Candidato: [456188] ASL Action Pack #21: Blitzkrieg to Paris (Conf: 25.0%, Score: 15.6)
+    - Candidato: [153368] La Bataille de Paris: 1814, Le Crépuscule de l'Aigle (Conf: 25.0%, Score: 39.5)
+    - Candidato: [232983] Brainbox: Paris (Conf: 25.0%, Score: 25.0)
+    - Candidato: [193690] Breakout to Paris: Operation Blücher, May-June 1918 (Conf: 25.0%, Score: 26.7)
+    - Candidato: [436124] Cities: Paris/Nancy Promo (Conf: 25.0%, Score: 32.0)
+    - Candidato: [325429] Citytrip Paris (Conf: 25.0%, Score: 25.0)
+    - Candidato: [67240] Clue: Secrets in Paris (Conf: 25.0%, Score: 21.3)
+    - Candidato: [420289] Cold Case Detectives: Fall #2 – Vermisst In Paris 1967 (Conf: 25.0%, Score: 15.8)
+    - Candidato: [269160] Colors of Paris (Conf: 25.0%, Score: 24.4)
+    - Candidato: [303414] Colors of Paris: Promo Tiles (Conf: 25.0%, Score: 34.0)
+    - Candidato: [303245] Combat Command: Poland to Paris – Army Lists for September 1939 to July 1940 (Conf: 25.0%, Score: 26.3)
+    - Candidato: [410193] Complete Murder Mystery: Carefully crafted in Paris (Conf: 25.0%, Score: 13.2)
+    - Candidato: [336968] A Day in Paris (Conf: 25.0%, Score: 25.0)
+    - Candidato: [34823] El desafío del desierto PARIS-DAKAR (Conf: 25.0%, Score: 23.0)
+    - Candidato: [14320] Les dessous de la ville, Paris souterrain (Conf: 50.0%, Score: 36.4)
+    - Candidato: [28435] Destination Paris (Conf: 25.0%, Score: 23.3)
+    - Candidato: [320819] Dinner in Paris (Conf: 25.0%, Score: 24.4)
+    - Candidato: [347140] Dinner in Paris: Battle of the Chefs (Conf: 25.0%, Score: 42.6)
+    - Candidato: [421660] Disparition à Paris: Le jeu (Conf: 25.0%, Score: 38.5)
+GANADOR: ID 276498 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Syncro Extension Chapitre 3 - La Menace Venue de l'Océan' ---
+Estrategias: ['Syncro  Chapitre 3', "Syncro  Chapitre 3 -  Menace Venue  l'Océan", "Syncro Extension Chapitre 3 - La Menace Venue de l'Océan", 'Syncro']
+  > Probando query: 'Syncro Extension Chapitre 3 - La Menace Venue de l'Océan'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro  Chapitre 3 -  Menace Venue  l'Océan'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro  Chapitre 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Syncro'
+    Encontrados 5 resultados.
+    - Candidato: [407214] Syncro (Conf: 14.3%, Score: 27.3)
+    - Candidato: [438663] Syncro: Extension Chapitre III – La Menace Venue de l'Océan (Conf: 85.7%, Score: 78.7)
+    - Candidato: [21227] Syncrohearts (Conf: 0.0%, Score: 36.0)
+    - Candidato: [356988] Syncron (Conf: 14.3%, Score: 31.1)
+    - Candidato: [438663] Syncro: Extension Chapitre III – La Menace Venue de l'Océan (Conf: 85.7%, Score: 78.7)
+GANADOR: ID 438663 con 85.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Nemesis - Kings' ---
+Estrategias: ['Nemesis', 'Nemesis - Kings']
+  > Probando query: 'Nemesis - Kings'
+    Encontrados 0 resultados.
+  > Probando query: 'Nemesis'
+    Encontrados 203 resultados.
+    - Candidato: [200959] 1813: Napoleon's Nemesis (Conf: 50.0%, Score: 38.9)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 50.0%, Score: 46.7)
+    - Candidato: [434325] Aeon Trespass: Doom of Pythagora's Nemesis Expansion (Conf: 50.0%, Score: 31.2)
+    - Candidato: [434327] Aeon Trespass: Lelegean Justice Nemesis Expansion (Conf: 50.0%, Score: 32.8)
+    - Candidato: [434320] Aeon Trespass: Prime Nietzschean Major Nemesis (Conf: 50.0%, Score: 24.1)
+    - Candidato: [381298] Animus: Nemesis (Conf: 50.0%, Score: 51.9)
+    - Candidato: [328271] Core Worlds: Nemesis (Conf: 50.0%, Score: 43.8)
+    - Candidato: [362882] DC Deck-Building Game: Nemesis Promo Pack (Conf: 50.0%, Score: 34.0)
+    - Candidato: [409575] Divinity Original Sin: Nemesis Expansion (Conf: 50.0%, Score: 38.5)
+    - Candidato: [366788] Doctor Who: Nemesis (Conf: 50.0%, Score: 45.2)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 50.0%, Score: 33.9)
+    - Candidato: [10667] Hybrid: Expansion 1 – Nemesis (Conf: 50.0%, Score: 35.9)
+    - Candidato: [213016] Kreus: Châtiment de Némésis (Conf: 50.0%, Score: 35.9)
+    - Candidato: [190566] Krosmaster: Arena – Nemesis Samurai (Conf: 50.0%, Score: 40.0)
+    - Candidato: [244912] Lords of Hellas: Nemesis Promo Adrestia (Conf: 50.0%, Score: 35.3)
+    - Candidato: [239751] Magic: The Gathering – Nemesis (Conf: 50.0%, Score: 35.0)
+    - Candidato: [292488] Mystic Vale: Nemesis (Conf: 50.0%, Score: 43.8)
+    - Candidato: [259133] Mythic Wars: Nemesis (Conf: 50.0%, Score: 43.8)
+    - Candidato: [3481] Nemesis (Conf: 50.0%, Score: 70.0)
+    - Candidato: [20818] Nemesis (Conf: 50.0%, Score: 70.0)
+    - Candidato: [167355] Nemesis (Conf: 50.0%, Score: 70.0)
+    - Candidato: [406548] Nemesis Collectible Card Game (Conf: 50.0%, Score: 47.6)
+    - Candidato: [210233] The Nemesis Crown (Conf: 50.0%, Score: 60.0)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 32.8)
+    - Candidato: [295927] Nemesis: Achievement Cards (Conf: 50.0%, Score: 57.9)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Nemesis - Kings
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 167355 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Massive Darkness 2 - Kit de Mise à Jour' ---
+Estrategias: ['Massive Darkness 2 - Kit de Mise à Jour', 'Massive Darkness 2 - Kit  Mise à Jour', 'Massive Darkness 2']
+  > Probando query: 'Massive Darkness 2 - Kit de Mise à Jour'
+    Encontrados 0 resultados.
+  > Probando query: 'Massive Darkness 2 - Kit  Mise à Jour'
+    Encontrados 0 resultados.
+  > Probando query: 'Massive Darkness 2'
+    Encontrados 37 resultados.
+    - Candidato: [318370] Massive Darkness 2: Darkbringer Pack (Conf: 42.9%, Score: 66.7)
+    - Candidato: [317942] Massive Darkness 2: Enemy Box – Demon Dragon (Conf: 42.9%, Score: 64.0)
+    - Candidato: [318367] Massive Darkness 2: Enemy Box – Feyfolk (Conf: 42.9%, Score: 57.1)
+    - Candidato: [317946] Massive Darkness 2: Enemy Box – Four Horsemen (Conf: 42.9%, Score: 63.2)
+    - Candidato: [317945] Massive Darkness 2: Enemy Box – Gates of Hell (Conf: 42.9%, Score: 57.9)
+    - Candidato: [318369] Massive Darkness 2: Enemy Box – Rainbow Crossing (Conf: 42.9%, Score: 55.7)
+    - Candidato: [317947] Massive Darkness 2: Enemy Box – War of Souls (Conf: 42.9%, Score: 61.3)
+    - Candidato: [317844] Massive Darkness 2: Heavenfall (Conf: 42.9%, Score: 66.7)
+    - Candidato: [315610] Massive Darkness 2: Hellscape (Conf: 42.9%, Score: 67.7)
+    - Candidato: [451472] Massive Darkness 2: Hellscape – Mythical Clast (Conf: 42.9%, Score: 59.7)
+    - Candidato: [318366] Massive Darkness 2: Heroes & Monster Set – Bards & Tinkerers vs Metal Angel (Conf: 42.9%, Score: 49.0)
+    - Candidato: [317949] Massive Darkness 2: Heroes & Monster Set – Druids vs Beelzebub (Conf: 42.9%, Score: 54.9)
+    - Candidato: [318364] Massive Darkness 2: Heroes & Monster Set – Monks & Necromancers vs The Paragon (Conf: 42.9%, Score: 51.4)
+    - Candidato: [362664] Massive Darkness 2: Ingenious Shield Promo Card (Conf: 42.9%, Score: 60.0)
+    - Candidato: [318379] Massive Darkness 2: Massive Darkness Upgrade Pack (Conf: 42.9%, Score: 63.4)
+    - Candidato: [377042] Massive Darkness 2: Sorcerer's Hat Promo Card (Conf: 42.9%, Score: 64.1)
+    - Candidato: [446755] Massive Darkness 2: Table Leg Promo Card (Conf: 42.9%, Score: 65.8)
+    - Candidato: [348091] Massive Darkness 2: Zombicide Fantasy Crossover Pack (Conf: 42.9%, Score: 63.5)
+    - Candidato: [386359] Massive Darkness 2: Zombicide White Death Crossover Pack (Conf: 42.9%, Score: 60.7)
+    - Candidato: [318370] Massive Darkness 2: Darkbringer Pack (Conf: 42.9%, Score: 66.7)
+    - Candidato: [317942] Massive Darkness 2: Enemy Box – Demon Dragon (Conf: 42.9%, Score: 64.0)
+    - Candidato: [318367] Massive Darkness 2: Enemy Box – Feyfolk (Conf: 42.9%, Score: 57.1)
+    - Candidato: [317946] Massive Darkness 2: Enemy Box – Four Horsemen (Conf: 42.9%, Score: 63.2)
+    - Candidato: [317945] Massive Darkness 2: Enemy Box – Gates of Hell (Conf: 42.9%, Score: 57.9)
+    - Candidato: [318369] Massive Darkness 2: Enemy Box – Rainbow Crossing (Conf: 42.9%, Score: 55.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Massive Darkness 2 - Kit de Mise à Jour
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 315610 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Biques à Bord' ---
+Estrategias: ['Biques à Bord']
+  > Probando query: 'Biques à Bord'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Biques à Bord
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Mille Bornes - Sonic Pocket' ---
+Estrategias: ['Mille Bornes - Sonic Pocket', 'Mille Bornes']
+  > Probando query: 'Mille Bornes - Sonic Pocket'
+    Encontrados 0 resultados.
+  > Probando query: 'Mille Bornes'
+    Encontrados 10 resultados.
+    - Candidato: [590] Mille Bornes (Conf: 50.0%, Score: 64.9)
+    - Candidato: [143618] Mille Bornes Express (Conf: 50.0%, Score: 62.2)
+    - Candidato: [120618] Mille Bornes Express (Conf: 50.0%, Score: 62.2)
+    - Candidato: [439950] Mille Bornes Rush (Conf: 50.0%, Score: 66.7)
+    - Candidato: [123505] Mille Bornes sur un Plateau (Conf: 50.0%, Score: 69.2)
+    - Candidato: [207686] Mille Bornes: Edition spéciale Sécurité Routière (Conf: 50.0%, Score: 55.6)
+    - Candidato: [313925] Mille Bornes: Mario Kart (Conf: 50.0%, Score: 70.8)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Mille Bornes - Sonic Pocket
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 313925 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars Unlimited : Passage en Vitesse Lumière - Boite de 24 Boosters' ---
+Estrategias: ['Star Wars Unlimited : Passage  Vitesse Lumière - Boite  24 Boosters', 'Star Wars Unlimited : Passage  Vitesse Lumière', 'Star Wars Unlimited', 'Star Wars Unlimited : Passage en Vitesse Lumière - Boite de 24 Boosters']
+  > Probando query: 'Star Wars Unlimited : Passage en Vitesse Lumière - Boite de 24 Boosters'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Passage  Vitesse Lumière - Boite  24 Boosters'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Passage  Vitesse Lumière'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited'
+    Encontrados 20 resultados.
+    - Candidato: [387866] Star Wars: Unlimited (Conf: 33.3%, Score: 47.5)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 33.3%, Score: 54.7)
+    - Candidato: [452742] Star Wars: Unlimited – Intro Battle: Hoth (Conf: 33.3%, Score: 49.0)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 33.3%, Score: 56.6)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 33.3%, Score: 53.5)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 33.3%, Score: 51.5)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 33.3%, Score: 49.0)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 33.3%, Score: 56.6)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 33.3%, Score: 51.4)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 33.3%, Score: 54.7)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 33.3%, Score: 56.6)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 33.3%, Score: 53.5)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 33.3%, Score: 51.5)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 33.3%, Score: 49.0)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 33.3%, Score: 56.6)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 33.3%, Score: 51.4)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Star Wars Unlimited : Passage en Vitesse Lumière - Boite de 24 Boosters
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 438395 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars Unlimited : Passage en Vitesse Lumière - Booster' ---
+Estrategias: ['Star Wars Unlimited : Passage en Vitesse Lumière - Booster', 'Star Wars Unlimited : Passage  Vitesse Lumière', 'Star Wars Unlimited', 'Star Wars Unlimited : Passage  Vitesse Lumière - Booster']
+  > Probando query: 'Star Wars Unlimited : Passage en Vitesse Lumière - Booster'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Passage  Vitesse Lumière - Booster'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Passage  Vitesse Lumière'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited'
+    Encontrados 20 resultados.
+    - Candidato: [387866] Star Wars: Unlimited (Conf: 42.9%, Score: 54.3)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 42.9%, Score: 61.2)
+    - Candidato: [452742] Star Wars: Unlimited – Intro Battle: Hoth (Conf: 42.9%, Score: 54.5)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 42.9%, Score: 62.9)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 42.9%, Score: 59.3)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 42.9%, Score: 57.5)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 42.9%, Score: 54.3)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 42.9%, Score: 62.9)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 42.9%, Score: 54.7)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 42.9%, Score: 61.2)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 42.9%, Score: 62.9)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 42.9%, Score: 59.3)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 42.9%, Score: 57.5)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 42.9%, Score: 54.3)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 42.9%, Score: 62.9)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 42.9%, Score: 54.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Star Wars Unlimited : Passage en Vitesse Lumière - Booster
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+GANADOR: ID 438395 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Disney Sorcerer's Arena : Alliances Epiques - Frissons Garantis' ---
+Estrategias: ["Disney Sorcerer's Arena : Alliances Epiques", "Disney Sorcerer's Arena : Alliances Epiques - Frissons Garantis", "Disney Sorcerer's Arena"]
+  > Probando query: 'Disney Sorcerer's Arena : Alliances Epiques - Frissons Garantis'
+    Encontrados 0 resultados.
+  > Probando query: 'Disney Sorcerer's Arena : Alliances Epiques'
+    Encontrados 0 resultados.
+  > Probando query: 'Disney Sorcerer's Arena'
+    Encontrados 9 resultados.
+    - Candidato: [357746] Disney Sorcerer's Arena: Epic Alliances Core Set (Conf: 62.5%, Score: 69.8)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 62.5%, Score: 67.3)
+    - Candidato: [380645] Disney Sorcerer's Arena: Epic Alliances – Leading the Charge (Conf: 62.5%, Score: 69.0)
+    - Candidato: [365581] Disney Sorcerer's Arena: Epic Alliances – Thrills & Chills (Conf: 62.5%, Score: 69.6)
+    - Candidato: [363203] Disney Sorcerer's Arena: Epic Alliances – Turning the Tide (Conf: 62.5%, Score: 66.7)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 62.5%, Score: 67.3)
+    - Candidato: [380645] Disney Sorcerer's Arena: Epic Alliances – Leading the Charge (Conf: 62.5%, Score: 69.0)
+    - Candidato: [365581] Disney Sorcerer's Arena: Epic Alliances – Thrills & Chills (Conf: 62.5%, Score: 69.6)
+    - Candidato: [363203] Disney Sorcerer's Arena: Epic Alliances – Turning the Tide (Conf: 62.5%, Score: 66.7)
+GANADOR: ID 357746 con 62.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Agricola Big Box 2 Joueurs - Les Fermiers De La Lande' ---
+Estrategias: ['Agricola Big Box 2 Joueurs - Les Fermiers De La Lande', 'Agricola  2 Joueurs', 'Agricola  2 Joueurs -  Fermiers   Lande']
+  > Probando query: 'Agricola Big Box 2 Joueurs - Les Fermiers De La Lande'
+    Encontrados 0 resultados.
+  > Probando query: 'Agricola  2 Joueurs -  Fermiers   Lande'
+    Encontrados 0 resultados.
+  > Probando query: 'Agricola  2 Joueurs'
+    Encontrados 1 resultados.
+    - Candidato: [255262] Agricola 2 joueurs: La Big Box (Conf: 60.0%, Score: 67.7)
+GANADOR: ID 255262 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'V-Sabotage - Pack de Tuiles Objectif' ---
+Estrategias: ['V-Sabotage - Pack de Tuiles Objectif', 'V-Sabotage -   Tuiles Objectif', 'V']
+  > Probando query: 'V-Sabotage - Pack de Tuiles Objectif'
+    Encontrados 0 resultados.
+  > Probando query: 'V-Sabotage -   Tuiles Objectif'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame V-Sabotage - Pack de Tuiles Objectif
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num_results'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Barbaric: Monster Promo Cards Bundle' ---
+Estrategias: ['Barbaric: Monster  Cards', 'Barbaric', 'Barbaric: Monster Promo Cards Bundle']
+  > Probando query: 'Barbaric: Monster Promo Cards Bundle'
+    Encontrados 0 resultados.
+  > Probando query: 'Barbaric: Monster  Cards'
+    Encontrados 0 resultados.
+  > Probando query: 'Barbaric'
+    Encontrados 18 resultados.
+    - Candidato: [367710] Barbaric: After the Apocalypse (Conf: 33.3%, Score: 62.7)
+    - Candidato: [433659] Barbaric: Heart of the Grand Canyon (Conf: 33.3%, Score: 50.0)
+    - Candidato: [433658] Barbaric: Into the Lost Jungle (Conf: 33.3%, Score: 51.0)
+    - Candidato: [433660] Barbaric: The Challenger (Conf: 33.3%, Score: 53.3)
+    - Candidato: [24733] The Official Munchkin Conan Bookmark of Barbaric Bludgeoning! (Conf: 33.3%, Score: 26.8)
+    - Candidato: [433660] Barbaric: The Challenger (Conf: 33.3%, Score: 53.3)
+    - Candidato: [24733] The Official Munchkin Conan Bookmark of Barbaric Bludgeoning! (Conf: 33.3%, Score: 26.8)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Barbaric: Monster Promo Cards Bundle
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Barbaric: Atomic Coin' ---
+Estrategias: ['Barbaric: Atomic Coin', 'Barbaric']
+  > Probando query: 'Barbaric: Atomic Coin'
+    Encontrados 0 resultados.
+  > Probando query: 'Barbaric'
+    Encontrados 18 resultados.
+    - Candidato: [367710] Barbaric: After the Apocalypse (Conf: 33.3%, Score: 53.1)
+    - Candidato: [433659] Barbaric: Heart of the Grand Canyon (Conf: 33.3%, Score: 59.3)
+    - Candidato: [433658] Barbaric: Into the Lost Jungle (Conf: 33.3%, Score: 57.1)
+    - Candidato: [433660] Barbaric: The Challenger (Conf: 33.3%, Score: 60.5)
+    - Candidato: [24733] The Official Munchkin Conan Bookmark of Barbaric Bludgeoning! (Conf: 33.3%, Score: 30.0)
+    - Candidato: [433660] Barbaric: The Challenger (Conf: 33.3%, Score: 60.5)
+    - Candidato: [24733] The Official Munchkin Conan Bookmark of Barbaric Bludgeoning! (Conf: 33.3%, Score: 30.0)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Barbaric: Atomic Coin
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Sologic - Finish Logic' ---
+Estrategias: ['Sologic', 'Sologic - Finish Logic']
+  > Probando query: 'Sologic - Finish Logic'
+    Encontrados 0 resultados.
+  > Probando query: 'Sologic'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Sologic - Finish Logic
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tokaido - Edition 5e Anniversaire' ---
+Estrategias: ['Tokaido -  5e Anniversaire', 'Tokaido', 'Tokaido - Edition 5e Anniversaire']
+  > Probando query: 'Tokaido - Edition 5e Anniversaire'
+    Encontrados 0 resultados.
+  > Probando query: 'Tokaido -  5e Anniversaire'
+    Encontrados 0 resultados.
+  > Probando query: 'Tokaido'
+    Encontrados 24 resultados.
+    - Candidato: [443243] Rolling Realms: Tokaido Promo Pack (Conf: 33.3%, Score: 35.7)
+    - Candidato: [123540] Tokaido (Conf: 33.3%, Score: 46.7)
+    - Candidato: [363183] Tokaido Duo (Conf: 33.3%, Score: 47.1)
+    - Candidato: [454203] Tokaido Duo: Automa Solo Mode (Conf: 33.3%, Score: 43.1)
+    - Candidato: [155731] Tokaido: Collector's Edition (Conf: 33.3%, Score: 44.0)
+    - Candidato: [144384] Tokaido: Crossroads (Conf: 33.3%, Score: 48.8)
+    - Candidato: [454910] Tokaido: Crossroads & Matsuri (Conf: 33.3%, Score: 44.9)
+    - Candidato: [186375] Tokaido: Deluxe Edition (Conf: 33.3%, Score: 48.9)
+    - Candidato: [149772] Tokaido: Eriku (Conf: 33.3%, Score: 61.1)
+    - Candidato: [157816] Tokaido: Felicia (Conf: 33.3%, Score: 52.6)
+    - Candidato: [171503] Tokaido: Matsuri (Conf: 33.3%, Score: 52.6)
+    - Candidato: [443806] Tokaido: Solo Pack (Conf: 33.3%, Score: 50.0)
+    - Candidato: [132479] Tokaido: The New Encounters (Conf: 33.3%, Score: 61.2)
+    - Candidato: [443243] Rolling Realms: Tokaido Promo Pack (Conf: 33.3%, Score: 35.7)
+    - Candidato: [454203] Tokaido Duo: Automa Solo Mode (Conf: 33.3%, Score: 43.1)
+    - Candidato: [144384] Tokaido: Crossroads (Conf: 33.3%, Score: 48.8)
+    - Candidato: [454910] Tokaido: Crossroads & Matsuri (Conf: 33.3%, Score: 44.9)
+    - Candidato: [149772] Tokaido: Eriku (Conf: 33.3%, Score: 61.1)
+    - Candidato: [157816] Tokaido: Felicia (Conf: 33.3%, Score: 52.6)
+    - Candidato: [171503] Tokaido: Matsuri (Conf: 33.3%, Score: 52.6)
+    - Candidato: [443806] Tokaido: Solo Pack (Conf: 33.3%, Score: 50.0)
+    - Candidato: [132479] Tokaido: The New Encounters (Conf: 33.3%, Score: 61.2)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Tokaido - Edition 5e Anniversaire
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamme Logic - Birds' ---
+Estrategias: ['Gamme', 'Gamme Logic', 'Gamme Logic - Birds']
+  > Probando query: 'Gamme Logic - Birds'
+    Encontrados 0 resultados.
+  > Probando query: 'Gamme Logic'
+    Encontrados 0 resultados.
+  > Probando query: 'Gamme'
+    Encontrados 3 resultados.
+    - Candidato: [10799] Gammel Jomfru (Conf: 33.3%, Score: 53.3)
+    - Candidato: [28127] Gammelgäddan (Conf: 0.0%, Score: 55.2)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Gamme Logic - Birds
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamme Logic - Hôtel' ---
+Estrategias: ['Gamme', 'Gamme Logic', 'Gamme Logic - Hôtel']
+  > Probando query: 'Gamme Logic - Hôtel'
+    Encontrados 0 resultados.
+  > Probando query: 'Gamme Logic'
+    Encontrados 0 resultados.
+  > Probando query: 'Gamme'
+    Encontrados 3 resultados.
+    - Candidato: [10799] Gammel Jomfru (Conf: 33.3%, Score: 46.7)
+    - Candidato: [28127] Gammelgäddan (Conf: 0.0%, Score: 48.3)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Gamme Logic - Hôtel
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'AracKhan Wars - Set 4 plateaux joueurs' ---
+Estrategias: ['AracKhan Wars -  4 plateaux joueurs', 'AracKhan', 'AracKhan Wars - Set 4 plateaux joueurs', 'AracKhan Wars']
+  > Probando query: 'AracKhan Wars - Set 4 plateaux joueurs'
+    Encontrados 0 resultados.
+  > Probando query: 'AracKhan Wars -  4 plateaux joueurs'
+    Encontrados 0 resultados.
+  > Probando query: 'AracKhan Wars'
+    Encontrados 8 resultados.
+    - Candidato: [440816] AracKhan Wars: A Trail of Ashes (Conf: 40.0%, Score: 61.3)
+    - Candidato: [440815] AracKhan Wars: Moving Shadow (Conf: 40.0%, Score: 57.6)
+    - Candidato: [301387] AracKhan Wars: Rise of the Grey Order (Conf: 40.0%, Score: 61.8)
+    - Candidato: [440731] AracKhan Wars: Singing Iron (Conf: 40.0%, Score: 55.2)
+    - Candidato: [442359] AracKhan Wars: The Song of Destiny Core-Box (Conf: 40.0%, Score: 48.6)
+    - Candidato: [440816] AracKhan Wars: A Trail of Ashes (Conf: 40.0%, Score: 61.3)
+    - Candidato: [440815] AracKhan Wars: Moving Shadow (Conf: 40.0%, Score: 57.6)
+    - Candidato: [440731] AracKhan Wars: Singing Iron (Conf: 40.0%, Score: 55.2)
+  > Probando query: 'AracKhan'
+    Encontrados 8 resultados.
+    - Candidato: [440816] AracKhan Wars: A Trail of Ashes (Conf: 40.0%, Score: 61.3)
+    - Candidato: [440815] AracKhan Wars: Moving Shadow (Conf: 40.0%, Score: 57.6)
+    - Candidato: [301387] AracKhan Wars: Rise of the Grey Order (Conf: 40.0%, Score: 61.8)
+    - Candidato: [440731] AracKhan Wars: Singing Iron (Conf: 40.0%, Score: 55.2)
+    - Candidato: [442359] AracKhan Wars: The Song of Destiny Core-Box (Conf: 40.0%, Score: 48.6)
+    - Candidato: [440816] AracKhan Wars: A Trail of Ashes (Conf: 40.0%, Score: 61.3)
+    - Candidato: [440815] AracKhan Wars: Moving Shadow (Conf: 40.0%, Score: 57.6)
+    - Candidato: [440731] AracKhan Wars: Singing Iron (Conf: 40.0%, Score: 55.2)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame AracKhan Wars - Set 4 plateaux joueurs
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°3 : Corsé' ---
+Estrategias: ['Tchatbox N°3', 'Tchatbox N°3 : Corsé', 'Tchatbox']
+  > Probando query: 'Tchatbox N°3 : Corsé'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°3'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Tchatbox N°3 : Corsé
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°2 : Ambré' ---
+Estrategias: ['Tchatbox N°2', 'Tchatbox N°2 : Ambré', 'Tchatbox']
+  > Probando query: 'Tchatbox N°2 : Ambré'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°2'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Tchatbox N°2 : Ambré
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Café de Fleur : L'art de la Marqueterie' ---
+Estrategias: ["Café de Fleur : L'art de la Marqueterie", 'Café  Fleur', "Café  Fleur : L'art   Marqueterie", 'Café']
+  > Probando query: 'Café de Fleur : L'art de la Marqueterie'
+    Encontrados 0 resultados.
+  > Probando query: 'Café  Fleur : L'art   Marqueterie'
+    Encontrados 0 resultados.
+  > Probando query: 'Café  Fleur'
+    Encontrados 1 resultados.
+    - Candidato: [422126] Café de Fleur (Conf: 40.0%, Score: 48.8)
+  > Probando query: 'Café'
+    Encontrados 148 resultados.
+    - Candidato: [394751] 3 Minute Crazy Café (Conf: 20.0%, Score: 17.0)
+    - Candidato: [293561] Alien Café (Conf: 20.0%, Score: 21.1)
+    - Candidato: [99700] Appian Way Cafe (Conf: 20.0%, Score: 18.6)
+    - Candidato: [95051] Atomic Cafe 1957 (Conf: 20.0%, Score: 22.7)
+    - Candidato: [274611] Benjamin Blümchen: Café Blümchen (Conf: 20.0%, Score: 23.7)
+    - Candidato: [274688] Board Game Cafe Frenzy (Conf: 20.0%, Score: 28.0)
+    - Candidato: [290772] Board Game Cafe Frenzy: Kickstarter Promo Pack (Conf: 20.0%, Score: 35.6)
+    - Candidato: [316625] Cafe Chaos (Conf: 20.0%, Score: 31.6)
+    - Candidato: [352926] Cafe Chaos: Animator Pack (Conf: 20.0%, Score: 30.8)
+    - Candidato: [352928] Cafe Chaos: Junk Food Pack (Conf: 20.0%, Score: 30.2)
+    - Candidato: [352931] Cafe Chaos: Royal Pack (Conf: 20.0%, Score: 36.7)
+    - Candidato: [352930] Cafe Chaos: Sooubway Pack (Conf: 20.0%, Score: 30.8)
+    - Candidato: [312521] Cafe Christa (Conf: 20.0%, Score: 35.0)
+    - Candidato: [80813] Cafe Pronto (Conf: 20.0%, Score: 35.9)
+    - Candidato: [358048] Cafe Rush (Conf: 20.0%, Score: 32.4)
+    - Candidato: [358580] Cafe Rush: Table for Two (Conf: 20.0%, Score: 39.2)
+    - Candidato: [284936] Café (Conf: 20.0%, Score: 25.0)
+    - Candidato: [406498] Café Baras (Conf: 20.0%, Score: 42.1)
+    - Candidato: [427545] Café Baras: Equipment Micro-Expansion (Conf: 20.0%, Score: 37.5)
+    - Candidato: [377061] Café Barista (Conf: 20.0%, Score: 45.0)
+    - Candidato: [450703] Café da Tarde (Conf: 20.0%, Score: 43.9)
+    - Candidato: [422126] Café de Fleur (Conf: 40.0%, Score: 48.8)
+    - Candidato: [377738] Café del Gatto (Conf: 20.0%, Score: 52.4)
+    - Candidato: [235623] Café Express (Conf: 20.0%, Score: 40.0)
+    - Candidato: [218957] Café Fatal (Conf: 20.0%, Score: 36.8)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Café de Fleur : L'art de la Marqueterie
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°1 : Léger' ---
+Estrategias: ['Tchatbox', 'Tchatbox N°1', 'Tchatbox N°1 : Léger']
+  > Probando query: 'Tchatbox N°1 : Léger'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°1'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Tchatbox N°1 : Léger
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Great Race - Tuiles Amérique du Sud' ---
+Estrategias: ['Great', 'The Great Race', 'The Great Race - Tuiles Amérique du Sud']
+  > Probando query: 'The Great Race - Tuiles Amérique du Sud'
+    Encontrados 0 resultados.
+  > Probando query: 'The Great Race'
+    Encontrados 63 resultados.
+    - Candidato: [296483] The Great Race (Conf: 42.9%, Score: 54.9)
+    - Candidato: [2788] The Great Race (Conf: 42.9%, Score: 54.9)
+    - Candidato: [126553] ARK: The Great Race (Conf: 42.9%, Score: 50.9)
+    - Candidato: [2302] Bill Oddie's Great Bird Race Game (Conf: 28.6%, Score: 45.7)
+    - Candidato: [120042] Champion of the Great Cat-Race (Conf: 42.9%, Score: 41.8)
+    - Candidato: [142116] Champion of the Great Horse-Race (Conf: 42.9%, Score: 40.6)
+    - Candidato: [193212] Chariot Race: The Great Chariot Race (Conf: 42.9%, Score: 38.9)
+    - Candidato: [244605] Cultists of Cthulhu: The Great Race of Yith (Conf: 42.9%, Score: 40.5)
+    - Candidato: [180422] The Great Air Race (Conf: 42.9%, Score: 50.9)
+    - Candidato: [142095] The Great Aleph Beis Race Game (Conf: 42.9%, Score: 53.7)
+    - Candidato: [12721] The Great Armadillo Race (Conf: 42.9%, Score: 45.9)
+    - Candidato: [406878] The Great Australian International Car Race Game (Conf: 42.9%, Score: 42.4)
+    - Candidato: [449] The Great Balloon Race (Conf: 42.9%, Score: 47.5)
+    - Candidato: [37040] The Great Chlén Race (Conf: 42.9%, Score: 49.1)
+    - Candidato: [215004] The Great Dragon Race (Conf: 42.9%, Score: 48.3)
+    - Candidato: [174685] The Great Dreidel Race! (Conf: 42.9%, Score: 47.5)
+    - Candidato: [1744] The Great Face Race (Conf: 42.9%, Score: 50.0)
+    - Candidato: [32274] The Great Obstacle Race Game (Conf: 42.9%, Score: 55.4)
+    - Candidato: [337889] The Great Race 2 (Conf: 42.9%, Score: 56.6)
+    - Candidato: [332683] The Great Race: Duel (Conf: 42.9%, Score: 60.7)
+    - Candidato: [416307] The Great Race: Expansion 1 (Conf: 42.9%, Score: 54.0)
+    - Candidato: [337927] The Great Race: Expansion 2 (Conf: 42.9%, Score: 54.0)
+    - Candidato: [417339] The Great Race: Indian Crew (Conf: 42.9%, Score: 54.0)
+    - Candidato: [416905] The Great Race: Swiss Crew (Conf: 42.9%, Score: 61.3)
+    - Candidato: [416587] The Great Race: Wild West & Far East expansion (Conf: 42.9%, Score: 57.5)
+  > Probando query: 'Great'
+    Encontrados 1545 resultados.
+    - Candidato: [213270] 100 Swords: The Great Garuda's Dungeon Builder Set (Conf: 28.6%, Score: 48.8)
+    - Candidato: [35863] The 15 Greatest Board Games in the World (Conf: 14.3%, Score: 49.4)
+    - Candidato: [260645] 1565: St. Elmo's Pay – The Great Siege of Malta (Conf: 28.6%, Score: 35.0)
+    - Candidato: [340281] 1812!: War on the Great Lakes Frontier (Conf: 28.6%, Score: 43.8)
+    - Candidato: [193867] 1822: The Railways of Great Britain (Conf: 28.6%, Score: 33.8)
+    - Candidato: [245532] 18GB: The Railways of Great Britain (Conf: 28.6%, Score: 33.8)
+    - Candidato: [249190] 18NW: Railroading in the "Great Northwest" (Conf: 28.6%, Score: 36.8)
+    - Candidato: [293846] 18NYC: The Great American Subway (Conf: 28.6%, Score: 52.9)
+    - Candidato: [306256] 18TraXX 2020: Great Plains Railroading (Conf: 14.3%, Score: 37.8)
+    - Candidato: [307526] 1914: The First Battles in the West – Great War Scenarios 2 (Conf: 28.6%, Score: 34.4)
+    - Candidato: [307525] 1918: The War in France & Italy – Great War Scenarios 1 (Conf: 28.6%, Score: 36.8)
+    - Candidato: [430428] 5 Towers: Great Powers (Conf: 14.3%, Score: 41.4)
+    - Candidato: [374984] 63: The Great Game of Welsh Politics (Conf: 28.6%, Score: 41.7)
+    - Candidato: [447859] 7 Wonders: The Great Wall (Conf: 28.6%, Score: 39.3)
+    - Candidato: [90729] Addict: The Great Interactive Game (Conf: 28.6%, Score: 51.4)
+    - Candidato: [287878] Adventures in Valyriah: Chapter One – The Great Forest (Conf: 28.6%, Score: 29.5)
+    - Candidato: [38840] Age of Battles: Rome – The Great Battles (Conf: 28.6%, Score: 40.5)
+    - Candidato: [84622] Age of Frederick the Great (Conf: 28.6%, Score: 28.6)
+    - Candidato: [121285] Age of Industry Expansion: Great Lakes & South Africa (Conf: 14.3%, Score: 36.8)
+    - Candidato: [102158] Age of Steam Expansion: Great Britain (Conf: 14.3%, Score: 30.1)
+    - Candidato: [306701] Age of Valor: Before the Leaves Fall, the Great War 1914 (Conf: 28.6%, Score: 26.4)
+    - Candidato: [15654] Akron-Canton's Great Blizzard travel Game (Conf: 14.3%, Score: 38.5)
+    - Candidato: [1726] Alexander the Great (Conf: 28.6%, Score: 32.1)
+    - Candidato: [30664] Alexander the Great (Conf: 28.6%, Score: 32.1)
+    - Candidato: [113603] Alexander the Great in Italy (Conf: 28.6%, Score: 36.9)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame The Great Race - Tuiles Amérique du Sud
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Palets pour Passe Trappe - Table à élastique - Grand Modèle' ---
+Estrategias: ['Palets pour Passe Trappe', 'Palets', 'Palets pour Passe Trappe - Table à élastique - Grand Modèle']
+  > Probando query: 'Palets pour Passe Trappe - Table à élastique - Grand Modèle'
+    Encontrados 0 resultados.
+  > Probando query: 'Palets pour Passe Trappe'
+    Encontrados 0 resultados.
+  > Probando query: 'Palets'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Palets pour Passe Trappe - Table à élastique - Grand Modèle
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bicycle - Tokidoki Sports Noir' ---
+Estrategias: ['Bicycle', 'Bicycle - Tokidoki Sports Noir']
+  > Probando query: 'Bicycle - Tokidoki Sports Noir'
+    Encontrados 0 resultados.
+  > Probando query: 'Bicycle'
+    Encontrados 25 resultados.
+    - Candidato: [2398] Bicycle (Conf: 25.0%, Score: 40.0)
+    - Candidato: [17104] Bicycle Canasta Games (Conf: 25.0%, Score: 44.9)
+    - Candidato: [6887] Bicycle Enhanced Playing Cards (Conf: 25.0%, Score: 37.9)
+    - Candidato: [16044] The Bicycle Game (Conf: 25.0%, Score: 36.4)
+    - Candidato: [30802] Bicycle Moto Cross Challenge Action Game (Conf: 25.0%, Score: 47.1)
+    - Candidato: [20993] Bicycle Official Rules of Card Games (Conf: 25.0%, Score: 53.1)
+    - Candidato: [31965] Bicycle Race (Conf: 25.0%, Score: 45.0)
+    - Candidato: [148380] Bicycle Race (Conf: 25.0%, Score: 45.0)
+    - Candidato: [152551] Bicycle Race (Conf: 25.0%, Score: 45.0)
+    - Candidato: [289556] The Bicycle Race (Conf: 25.0%, Score: 40.9)
+    - Candidato: [26086] Bicycle Race: A Game for the Wheelmen (Conf: 25.0%, Score: 43.8)
+    - Candidato: [7289] Bicycle Tour: All Over the Place (Conf: 25.0%, Score: 44.1)
+    - Candidato: [202421] Bicycleclub (Conf: 0.0%, Score: 35.9)
+    - Candidato: [9699] Cabbage Patch Kids Bicycle Race Game (Conf: 25.0%, Score: 28.1)
+    - Candidato: [169549] Century Run Bicycle Game (Conf: 25.0%, Score: 30.8)
+    - Candidato: [13510] The Junior Bicycle Game (Conf: 25.0%, Score: 31.4)
+    - Candidato: [26938] The National Bicycle Game (Conf: 25.0%, Score: 30.2)
+    - Candidato: [66778] The New Bicycle Game (Conf: 25.0%, Score: 33.3)
+    - Candidato: [24942] New Merry Bicycle Game (Conf: 25.0%, Score: 32.0)
+    - Candidato: [32511] Slow Bicycle Race (Conf: 25.0%, Score: 40.0)
+    - Candidato: [256516] Stages: Can you win a Grand Tour Bicycle Race? (Conf: 25.0%, Score: 25.0)
+    - Candidato: [181116] Le Tour du Monde a Bicyclette (Conf: 25.0%, Score: 31.6)
+    - Candidato: [7645] Winning: The Bicycle Race Game (Conf: 25.0%, Score: 31.6)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Bicycle - Tokidoki Sports Noir
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Welcome - Extension Camion de Glaces et Zombies' ---
+Estrategias: ['Welcome', 'Welcome -  Camion  Glaces et Zombies', 'Welcome - Extension Camion de Glaces et Zombies']
+  > Probando query: 'Welcome - Extension Camion de Glaces et Zombies'
+    Encontrados 0 resultados.
+  > Probando query: 'Welcome -  Camion  Glaces et Zombies'
+    Encontrados 0 resultados.
+  > Probando query: 'Welcome'
+    Encontrados 313 resultados.
+    - Candidato: [383658] BattleTech: Welcome to the Nebula California (Conf: 20.0%, Score: 37.3)
+    - Candidato: [396589] Boxtop Pinball: Welcome to Las Vegas (Conf: 20.0%, Score: 47.8)
+    - Candidato: [117959] Casino: Welcome to Fabulous Las Vegas, Nevada (Conf: 20.0%, Score: 48.0)
+    - Candidato: [307726] Chain Mail: Welcome to Darkhill – Adventure Kit (Conf: 20.0%, Score: 34.2)
+    - Candidato: [258089] Chronicles of Crime: Welcome to Redview (Conf: 20.0%, Score: 37.1)
+    - Candidato: [238086] Daniel Tiger's Neighborhood: Welcome to Main Street Game (Conf: 20.0%, Score: 41.4)
+    - Candidato: [319086] Doomtown: Welcome to Deadwood (Conf: 20.0%, Score: 36.7)
+    - Candidato: [462542] Double Feature: Harsh Shadows / Welcome to Reckoning (Conf: 20.0%, Score: 29.6)
+    - Candidato: [43428] Elvis Welcomes You to His World (Conf: 20.0%, Score: 38.1)
+    - Candidato: [216961] Escape Room: The Game – Welcome to Funland (Conf: 20.0%, Score: 33.8)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 20.0%, Score: 28.1)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 20.0%, Score: 31.2)
+    - Candidato: [252027] FootballFans: Welcome to Russia (Conf: 20.0%, Score: 29.0)
+    - Candidato: [458901] From the Other Side: Welcome to Dying (Conf: 20.0%, Score: 32.4)
+    - Candidato: [152908] Goosebumps: Welcome to HorrorLand (Conf: 20.0%, Score: 37.5)
+    - Candidato: [212839] Heroes Welcome (Conf: 20.0%, Score: 30.4)
+    - Candidato: [263376] Heroes Welcome: Kickbacks Expansion (Conf: 20.0%, Score: 39.4)
+    - Candidato: [163769] Infamy: Welcome to The Big Smoke (Conf: 20.0%, Score: 47.6)
+    - Candidato: [463] Magic: The Gathering – Welcome Deck (Conf: 20.0%, Score: 28.1)
+    - Candidato: [319135] Nightmare Horror Adventures: Welcome to Crafton Mansion (Conf: 20.0%, Score: 32.6)
+    - Candidato: [298527] Radiant: Roster Expansion #1 – Welcome to the Arena (Conf: 20.0%, Score: 27.8)
+    - Candidato: [270972] Ringmaster: Welcome to the Big Top (Conf: 20.0%, Score: 43.1)
+    - Candidato: [34078] TANKS you're welcome (Conf: 20.0%, Score: 26.9)
+    - Candidato: [12343] Trivial Pursuit: Welcome to America Edition (Conf: 20.0%, Score: 35.1)
+    - Candidato: [363337] Welcome Aboard, Captain (Conf: 20.0%, Score: 44.4)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Welcome - Extension Camion de Glaces et Zombies
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Welcome - Extension Halloween Et Lumières De Noël' ---
+Estrategias: ['Welcome', 'Welcome - Extension Halloween Et Lumières De Noël', 'Welcome -  Halloween Et Lumières  Noël']
+  > Probando query: 'Welcome - Extension Halloween Et Lumières De Noël'
+    Encontrados 0 resultados.
+  > Probando query: 'Welcome -  Halloween Et Lumières  Noël'
+    Encontrados 0 resultados.
+  > Probando query: 'Welcome'
+    Encontrados 313 resultados.
+    - Candidato: [383658] BattleTech: Welcome to the Nebula California (Conf: 20.0%, Score: 36.4)
+    - Candidato: [396589] Boxtop Pinball: Welcome to Las Vegas (Conf: 20.0%, Score: 40.6)
+    - Candidato: [117959] Casino: Welcome to Fabulous Las Vegas, Nevada (Conf: 20.0%, Score: 46.8)
+    - Candidato: [307726] Chain Mail: Welcome to Darkhill – Adventure Kit (Conf: 20.0%, Score: 46.2)
+    - Candidato: [258089] Chronicles of Crime: Welcome to Redview (Conf: 20.0%, Score: 33.3)
+    - Candidato: [238086] Daniel Tiger's Neighborhood: Welcome to Main Street Game (Conf: 20.0%, Score: 36.0)
+    - Candidato: [319086] Doomtown: Welcome to Deadwood (Conf: 20.0%, Score: 35.5)
+    - Candidato: [462542] Double Feature: Harsh Shadows / Welcome to Reckoning (Conf: 20.0%, Score: 31.3)
+    - Candidato: [43428] Elvis Welcomes You to His World (Conf: 20.0%, Score: 43.1)
+    - Candidato: [216961] Escape Room: The Game – Welcome to Funland (Conf: 20.0%, Score: 27.4)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 20.0%, Score: 27.3)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 20.0%, Score: 30.3)
+    - Candidato: [252027] FootballFans: Welcome to Russia (Conf: 20.0%, Score: 28.1)
+    - Candidato: [458901] From the Other Side: Welcome to Dying (Conf: 20.0%, Score: 28.6)
+    - Candidato: [152908] Goosebumps: Welcome to HorrorLand (Conf: 20.0%, Score: 33.3)
+    - Candidato: [212839] Heroes Welcome (Conf: 20.0%, Score: 29.2)
+    - Candidato: [263376] Heroes Welcome: Kickbacks Expansion (Conf: 20.0%, Score: 38.2)
+    - Candidato: [163769] Infamy: Welcome to The Big Smoke (Conf: 20.0%, Score: 33.8)
+    - Candidato: [463] Magic: The Gathering – Welcome Deck (Conf: 20.0%, Score: 27.3)
+    - Candidato: [319135] Nightmare Horror Adventures: Welcome to Crafton Mansion (Conf: 20.0%, Score: 34.1)
+    - Candidato: [298527] Radiant: Roster Expansion #1 – Welcome to the Arena (Conf: 20.0%, Score: 29.6)
+    - Candidato: [270972] Ringmaster: Welcome to the Big Top (Conf: 20.0%, Score: 29.9)
+    - Candidato: [34078] TANKS you're welcome (Conf: 20.0%, Score: 25.9)
+    - Candidato: [12343] Trivial Pursuit: Welcome to America Edition (Conf: 20.0%, Score: 39.5)
+    - Candidato: [363337] Welcome Aboard, Captain (Conf: 20.0%, Score: 39.3)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Welcome - Extension Halloween Et Lumières De Noël
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cloudspire: New Gameplay Bundle' ---
+Estrategias: ['Cloudspire: New Gameplay', 'Cloudspire', 'Cloudspire: New Gameplay Bundle']
+  > Probando query: 'Cloudspire: New Gameplay Bundle'
+    Encontrados 0 resultados.
+  > Probando query: 'Cloudspire: New Gameplay'
+    Encontrados 0 resultados.
+  > Probando query: 'Cloudspire'
+    Encontrados 33 resultados.
+    - Candidato: [430683] 20 Strong: Cloudspire (Conf: 33.3%, Score: 46.5)
+    - Candidato: [262211] Cloudspire (Conf: 33.3%, Score: 60.6)
+    - Candidato: [307731] Cloudspire: Ankar's Plunder – Bonus Scenarios & Skirmishes (Conf: 33.3%, Score: 42.1)
+    - Candidato: [458648] Cloudspire: Bonus Bounty Promo Cards (Conf: 33.3%, Score: 48.3)
+    - Candidato: [330281] Cloudspire: Claus Spire (Conf: 33.3%, Score: 57.8)
+    - Candidato: [329156] Cloudspire: Cloud Spider (Conf: 33.3%, Score: 52.2)
+    - Candidato: [402428] Cloudspire: Crosspire Landmark (Conf: 33.3%, Score: 57.7)
+    - Candidato: [269415] Cloudspire: Griege – Faction Expansion (Conf: 33.3%, Score: 48.3)
+    - Candidato: [430306] Cloudspire: Harbinger (Conf: 33.3%, Score: 60.5)
+    - Candidato: [307729] Cloudspire: Hero's Bounty Pack (Conf: 33.3%, Score: 53.8)
+    - Candidato: [306621] Cloudspire: Horizon's Wrath – Faction Expansion (Conf: 33.3%, Score: 41.8)
+    - Candidato: [430681] Cloudspire: Keel – Faction Expansion (Conf: 33.3%, Score: 50.0)
+    - Candidato: [269416] Cloudspire: Portal Seekers – Content Expansion (Conf: 33.3%, Score: 45.5)
+    - Candidato: [430682] Cloudspire: Shada – Faction Expansion (Conf: 33.3%, Score: 49.1)
+    - Candidato: [430680] Cloudspire: The Graft – Faction Expansion (Conf: 33.3%, Score: 59.0)
+    - Candidato: [306623] Cloudspire: The Uprising – Faction/Content Expansion (Conf: 33.3%, Score: 41.7)
+    - Candidato: [286241] Cloudspire: Timothy III, Esq. (Conf: 33.3%, Score: 49.0)
+    - Candidato: [430683] 20 Strong: Cloudspire (Conf: 33.3%, Score: 46.5)
+    - Candidato: [307731] Cloudspire: Ankar's Plunder – Bonus Scenarios & Skirmishes (Conf: 33.3%, Score: 42.1)
+    - Candidato: [458648] Cloudspire: Bonus Bounty Promo Cards (Conf: 33.3%, Score: 48.3)
+    - Candidato: [330281] Cloudspire: Claus Spire (Conf: 33.3%, Score: 57.8)
+    - Candidato: [329156] Cloudspire: Cloud Spider (Conf: 33.3%, Score: 52.2)
+    - Candidato: [402428] Cloudspire: Crosspire Landmark (Conf: 33.3%, Score: 57.7)
+    - Candidato: [269415] Cloudspire: Griege – Faction Expansion (Conf: 33.3%, Score: 48.3)
+    - Candidato: [430306] Cloudspire: Harbinger (Conf: 33.3%, Score: 60.5)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Cloudspire: New Gameplay Bundle
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Wall: Crime Under the Spotlights' ---
+Estrategias: ['Wall', 'The Wall: Crime Under the Spotlights', 'The Wall']
+  > Probando query: 'The Wall: Crime Under the Spotlights'
+    Encontrados 0 resultados.
+  > Probando query: 'The Wall'
+    Encontrados 607 resultados.
+    - Candidato: [433083] The Wall (Conf: 40.0%, Score: 37.2)
+    - Candidato: [260813] The Wall (Conf: 40.0%, Score: 37.2)
+    - Candidato: [104420] The Wall (Conf: 40.0%, Score: 37.2)
+    - Candidato: [8050] The Wall (Conf: 40.0%, Score: 37.2)
+    - Candidato: [226255] 1920 Wall Street (Conf: 20.0%, Score: 39.2)
+    - Candidato: [447859] 7 Wonders: The Great Wall (Conf: 40.0%, Score: 27.1)
+    - Candidato: [355890] After the Empire: Tower Walls Promo Card (Conf: 40.0%, Score: 29.7)
+    - Candidato: [99690] Age of Steam Expansion: Moon and Berlin Wall (Conf: 20.0%, Score: 17.9)
+    - Candidato: [38261] Age of Steam Expansion: Washington DC and The Berlin Wall (Conf: 40.0%, Score: 17.6)
+    - Candidato: [65007] American Gladiators: The Wall (Conf: 40.0%, Score: 25.4)
+    - Candidato: [403796] Ancient Blood: The Order of Vampire Hunters – Wallachian Clan Expansion (Conf: 20.0%, Score: 23.3)
+    - Candidato: [158793] Atlantic Wall: D-Day to Falaise (Conf: 20.0%, Score: 36.9)
+    - Candidato: [5485] Atlantic Wall: The Invasion of Europe June 1944 (Conf: 40.0%, Score: 32.1)
+    - Candidato: [29376] The Battle of Adobe Walls, November 25, 1864 (Conf: 40.0%, Score: 36.4)
+    - Candidato: [29005] Battue: Walls of Tarsos (Conf: 20.0%, Score: 45.6)
+    - Candidato: [328174] Behind The Wall (Conf: 40.0%, Score: 32.0)
+    - Candidato: [13858] Beyond Hadrian's Wall (Conf: 20.0%, Score: 21.4)
+    - Candidato: [270684] Beyond The Wall (Conf: 40.0%, Score: 32.0)
+    - Candidato: [311403] Black Wall Street: The Board Game (Conf: 40.0%, Score: 47.8)
+    - Candidato: [284128] Brutality Character Pack: Rong'oth, Demon King, Spiked wall & Limestone wall ruins (Conf: 20.0%, Score: 23.2)
+    - Candidato: [430026] Build That Wall (Conf: 20.0%, Score: 28.0)
+    - Candidato: [31221] Bulls and Bears: The Great Wall St. Game (Conf: 40.0%, Score: 30.1)
+    - Candidato: [27423] By the Walls of Constantinople (Conf: 40.0%, Score: 36.9)
+    - Candidato: [456258] Capital: 1929 – Wall Street (Conf: 20.0%, Score: 37.3)
+    - Candidato: [302138] Castle Dukes: Within The Walls (Conf: 40.0%, Score: 28.1)
+  > Probando query: 'Wall'
+    Encontrados 607 resultados.
+    - Candidato: [226255] 1920 Wall Street (Conf: 20.0%, Score: 39.2)
+    - Candidato: [447859] 7 Wonders: The Great Wall (Conf: 40.0%, Score: 27.1)
+    - Candidato: [355890] After the Empire: Tower Walls Promo Card (Conf: 40.0%, Score: 29.7)
+    - Candidato: [99690] Age of Steam Expansion: Moon and Berlin Wall (Conf: 20.0%, Score: 17.9)
+    - Candidato: [38261] Age of Steam Expansion: Washington DC and The Berlin Wall (Conf: 40.0%, Score: 17.6)
+    - Candidato: [65007] American Gladiators: The Wall (Conf: 40.0%, Score: 25.4)
+    - Candidato: [403796] Ancient Blood: The Order of Vampire Hunters – Wallachian Clan Expansion (Conf: 20.0%, Score: 23.3)
+    - Candidato: [158793] Atlantic Wall: D-Day to Falaise (Conf: 20.0%, Score: 36.9)
+    - Candidato: [5485] Atlantic Wall: The Invasion of Europe June 1944 (Conf: 40.0%, Score: 32.1)
+    - Candidato: [29376] The Battle of Adobe Walls, November 25, 1864 (Conf: 40.0%, Score: 36.4)
+    - Candidato: [29005] Battue: Walls of Tarsos (Conf: 20.0%, Score: 45.6)
+    - Candidato: [328174] Behind The Wall (Conf: 40.0%, Score: 32.0)
+    - Candidato: [13858] Beyond Hadrian's Wall (Conf: 20.0%, Score: 21.4)
+    - Candidato: [270684] Beyond The Wall (Conf: 40.0%, Score: 32.0)
+    - Candidato: [311403] Black Wall Street: The Board Game (Conf: 40.0%, Score: 47.8)
+    - Candidato: [284128] Brutality Character Pack: Rong'oth, Demon King, Spiked wall & Limestone wall ruins (Conf: 20.0%, Score: 23.2)
+    - Candidato: [430026] Build That Wall (Conf: 20.0%, Score: 28.0)
+    - Candidato: [31221] Bulls and Bears: The Great Wall St. Game (Conf: 40.0%, Score: 30.1)
+    - Candidato: [27423] By the Walls of Constantinople (Conf: 40.0%, Score: 36.9)
+    - Candidato: [456258] Capital: 1929 – Wall Street (Conf: 20.0%, Score: 37.3)
+    - Candidato: [302138] Castle Dukes: Within The Walls (Conf: 40.0%, Score: 28.1)
+    - Candidato: [378048] Chin-Chan-Walla (Conf: 20.0%, Score: 24.0)
+    - Candidato: [234131] Clank!: Wishing Wall Promo Card (Conf: 20.0%, Score: 31.2)
+    - Candidato: [358053] Click! The Great Wall (Conf: 40.0%, Score: 29.1)
+    - Candidato: [50443] Crash, Bang, Wallop! (Conf: 0.0%, Score: 26.9)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame The Wall: Crime Under the Spotlights
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Legendary: DC Comics Deck Building Game Core Set' ---
+Estrategias: ['Legendary: DC Comics Deck Building  Core', 'Legendary', 'Legendary: DC Comics Deck Building Game Core Set']
+  > Probando query: 'Legendary: DC Comics Deck Building Game Core Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Legendary: DC Comics Deck Building  Core'
+    Encontrados 0 resultados.
+  > Probando query: 'Legendary'
+    Encontrados 679 resultados.
+    - Candidato: [433610] 2D6 Legendary Dungeon (Conf: 16.7%, Score: 50.8)
+    - Candidato: [24997] Advanced Legendary Battles (Conf: 16.7%, Score: 34.4)
+    - Candidato: [309701] Arena: The Contest – Legendary Box (Conf: 16.7%, Score: 31.9)
+    - Candidato: [263780] Aristeia!: Legendary Bahadurs (Conf: 16.7%, Score: 36.9)
+    - Candidato: [426268] Barrage: The Legendary Box (Conf: 16.7%, Score: 34.9)
+    - Candidato: [316491] Battlefold: Lion Heart Legendary Sword (Conf: 16.7%, Score: 34.7)
+    - Candidato: [428833] BattleTech: Legendary Mechwarriors II (Conf: 16.7%, Score: 43.2)
+    - Candidato: [428835] BattleTech: Legendary MechWarriors III (Conf: 16.7%, Score: 42.7)
+    - Candidato: [349462] BattleTech: Legendary MechWarriors Pack (Conf: 16.7%, Score: 42.1)
+    - Candidato: [349957] BattleTech: Salvage Box – Legendary (Conf: 16.7%, Score: 25.7)
+    - Candidato: [428877] BattleTech: Salvage Box – Legendary II & III (Conf: 16.7%, Score: 36.4)
+    - Candidato: [423380] Black Rose Wars: Legendary Scenario – It's a Trap! (Conf: 16.7%, Score: 40.5)
+    - Candidato: [417912] Blade Rondo: The Legendary Set (Conf: 16.7%, Score: 35.8)
+    - Candidato: [209310] Blood Eagle: Skirmish Wargaming in the Legendary Dark Ages (Conf: 16.7%, Score: 31.6)
+    - Candidato: [454228] Bloodwork: Vorgrimm the Earth-Shaker Legendary Expansion (Conf: 16.7%, Score: 25.8)
+    - Candidato: [230646] Broadsword: A Game of Legendary Heroes and Epic Adventure (Conf: 16.7%, Score: 38.3)
+    - Candidato: [380619] Cyclades: Legendary Edition (Conf: 16.7%, Score: 43.8)
+    - Candidato: [467602] Cyclades: Legendary Edition – Extension Maelström (Conf: 16.7%, Score: 33.3)
+    - Candidato: [304895] D-Day Dice (Second Edition): Legendary Units – Board Game Geeks & Grognards (Conf: 16.7%, Score: 34.0)
+    - Candidato: [153723] Dr. McNinja's Legendary Showdown (Conf: 16.7%, Score: 37.7)
+    - Candidato: [339774] Dungeon Universalis: Bestiary Cards & Legendary Encounters (Conf: 16.7%, Score: 28.0)
+    - Candidato: [293675] Dwar7s Winter: The Legendary Expansion (Conf: 16.7%, Score: 32.0)
+    - Candidato: [370650] Dwar7s: Legendary Forest (Conf: 16.7%, Score: 42.6)
+    - Candidato: [294526] Dwar7s: The Legendary Conversion Pack (Conf: 16.7%, Score: 43.2)
+    - Candidato: [431236] Dwellings of Eldervale: Legendary Upgrade Kit (Conf: 16.7%, Score: 34.1)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Legendary: DC Comics Deck Building Game Core Set
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars 2E: Thornhold Drey Faction Deck' ---
+Estrategias: ['Summoner Wars 2E: Thornhold Drey Faction Deck', 'Summoner Wars 2E', 'Summoner']
+  > Probando query: 'Summoner Wars 2E: Thornhold Drey Faction Deck'
+    Encontrados 0 resultados.
+  > Probando query: 'Summoner Wars 2E'
+    Encontrados 1 resultados.
+    - Candidato: [332800] Summoner Wars (2e édition): Master Set (Conf: 42.9%, Score: 60.8)
+  > Probando query: 'Summoner'
+    Encontrados 271 resultados.
+    - Candidato: [191660] Age of Summoners (Conf: 14.3%, Score: 30.0)
+    - Candidato: [426344] Aventuria: Summoner of the Elements (Conf: 14.3%, Score: 35.9)
+    - Candidato: [182617] BattleCON: Takeshi Weapon Summoner (Conf: 14.3%, Score: 20.8)
+    - Candidato: [69092] Chezz Tactic Summoner Master (Conf: 14.3%, Score: 30.6)
+    - Candidato: [423389] Demon Summoner (Conf: 14.3%, Score: 27.6)
+    - Candidato: [252544] Dice Summoners (Conf: 14.3%, Score: 31.0)
+    - Candidato: [464218] Dragon Summoners (Conf: 14.3%, Score: 30.0)
+    - Candidato: [150513] Dwarven Miner: Summoner Patron Card (Conf: 14.3%, Score: 38.5)
+    - Candidato: [356370] グレート・サマナー (Great Summoner) (Conf: 14.3%, Score: 27.6)
+    - Candidato: [380337] Llamas Unleased: Llama Summoner Promo Card (Conf: 14.3%, Score: 28.2)
+    - Candidato: [453087] Not Enough Mana: Spellsmiths & Summoners (Conf: 14.3%, Score: 22.2)
+    - Candidato: [255383] Overworld: Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [217385] Pathfinder Adventure Card Game: Class Deck – Summoner (Conf: 28.6%, Score: 17.0)
+    - Candidato: [415128] Piri Piri Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [173959] The Red Dragon Inn: Allies – Zariah the Summoner (Conf: 14.3%, Score: 18.0)
+    - Candidato: [262222] Six Sided Summoner (Conf: 14.3%, Score: 25.8)
+    - Candidato: [381197] Six Sided Summoner (Conf: 14.3%, Score: 25.8)
+    - Candidato: [205798] The Summoner (Conf: 14.3%, Score: 28.6)
+    - Candidato: [345098] Summoner Duel (Conf: 14.3%, Score: 38.6)
+    - Candidato: [33869] Summoner Master (Conf: 14.3%, Score: 37.3)
+    - Candidato: [41144] Summoner Trinity (Conf: 14.3%, Score: 40.0)
+    - Candidato: [58281] Summoner Wars (Conf: 28.6%, Score: 45.6)
+    - Candidato: [332800] Summoner Wars (Second Edition) (Conf: 28.6%, Score: 66.7)
+    - Candidato: [376864] Summoner Wars (Second Edition): Ashia the Silent Promo Card (Conf: 28.6%, Score: 52.0)
+    - Candidato: [374552] Summoner Wars (Second Edition): Blacksaber Promo Card (Conf: 28.6%, Score: 57.4)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Summoner Wars 2E: Thornhold Drey Faction Deck
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck' ---
+Estrategias: ['Summoner Wars 2E', 'Summoner', 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck']
+  > Probando query: 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck'
+    Encontrados 0 resultados.
+  > Probando query: 'Summoner Wars 2E'
+    Encontrados 1 resultados.
+    - Candidato: [332800] Summoner Wars (2e édition): Master Set (Conf: 42.9%, Score: 58.5)
+  > Probando query: 'Summoner'
+    Encontrados 271 resultados.
+    - Candidato: [191660] Age of Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [426344] Aventuria: Summoner of the Elements (Conf: 14.3%, Score: 37.0)
+    - Candidato: [182617] BattleCON: Takeshi Weapon Summoner (Conf: 14.3%, Score: 20.0)
+    - Candidato: [69092] Chezz Tactic Summoner Master (Conf: 14.3%, Score: 34.7)
+    - Candidato: [423389] Demon Summoner (Conf: 14.3%, Score: 26.2)
+    - Candidato: [252544] Dice Summoners (Conf: 14.3%, Score: 29.5)
+    - Candidato: [464218] Dragon Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [150513] Dwarven Miner: Summoner Patron Card (Conf: 14.3%, Score: 37.0)
+    - Candidato: [356370] グレート・サマナー (Great Summoner) (Conf: 14.3%, Score: 26.2)
+    - Candidato: [380337] Llamas Unleased: Llama Summoner Promo Card (Conf: 14.3%, Score: 27.3)
+    - Candidato: [453087] Not Enough Mana: Spellsmiths & Summoners (Conf: 14.3%, Score: 21.4)
+    - Candidato: [255383] Overworld: Summoners (Conf: 14.3%, Score: 27.3)
+    - Candidato: [217385] Pathfinder Adventure Card Game: Class Deck – Summoner (Conf: 28.6%, Score: 16.5)
+    - Candidato: [415128] Piri Piri Summoners (Conf: 14.3%, Score: 27.3)
+    - Candidato: [173959] The Red Dragon Inn: Allies – Zariah the Summoner (Conf: 14.3%, Score: 17.4)
+    - Candidato: [262222] Six Sided Summoner (Conf: 14.3%, Score: 24.6)
+    - Candidato: [381197] Six Sided Summoner (Conf: 14.3%, Score: 24.6)
+    - Candidato: [205798] The Summoner (Conf: 14.3%, Score: 27.1)
+    - Candidato: [345098] Summoner Duel (Conf: 14.3%, Score: 36.7)
+    - Candidato: [33869] Summoner Master (Conf: 14.3%, Score: 41.9)
+    - Candidato: [41144] Summoner Trinity (Conf: 14.3%, Score: 38.1)
+    - Candidato: [58281] Summoner Wars (Conf: 28.6%, Score: 43.3)
+    - Candidato: [332800] Summoner Wars (Second Edition) (Conf: 28.6%, Score: 58.7)
+    - Candidato: [376864] Summoner Wars (Second Edition): Ashia the Silent Promo Card (Conf: 28.6%, Score: 46.6)
+    - Candidato: [374552] Summoner Wars (Second Edition): Blacksaber Promo Card (Conf: 28.6%, Score: 51.5)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Summoner Wars 2E: Moonsteppe Wolves Faction Deck
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Murder We Wrote: A True Crime Podcast Party Game' ---
+Estrategias: ['Murder', 'Murder We Wrote: A True Crime Podcast Party Game', 'Murder We Wrote: A True Crime Podcast Party', 'Murder We Wrote']
+  > Probando query: 'Murder We Wrote: A True Crime Podcast Party Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Murder We Wrote: A True Crime Podcast Party'
+    Encontrados 0 resultados.
+  > Probando query: 'Murder We Wrote'
+    Encontrados 4 resultados.
+    - Candidato: [392698] Murder We Wrote (Conf: 37.5%, Score: 52.6)
+    - Candidato: [392699] Murder We Wrote: Travel Edition (Conf: 37.5%, Score: 61.1)
+  > Probando query: 'Murder'
+    Encontrados 956 resultados.
+    - Candidato: [462934] 1980s Murder (Conf: 12.5%, Score: 22.2)
+    - Candidato: [38747] Accused! Getting Away With Murder? (Conf: 12.5%, Score: 16.2)
+    - Candidato: [411563] Alibi: Murder on the Nile (Conf: 12.5%, Score: 30.3)
+    - Candidato: [264994] American Civil War 101: Not War but Murder – Miniature Rules for the American Civil War (Conf: 12.5%, Score: 34.9)
+    - Candidato: [284354] Arkham Horror: The Card Game – Murder at the Excelsior Hotel: Scenario Pack (Conf: 12.5%, Score: 37.2)
+    - Candidato: [225729] Arkham Noir: Case #1 – The Witch Cult Murders (Conf: 12.5%, Score: 16.9)
+    - Candidato: [23143] The Black Magick Murder (Conf: 12.5%, Score: 18.5)
+    - Candidato: [357870] Black Stories: Murder, Mishaps & Mayhem (Conf: 12.5%, Score: 23.4)
+    - Candidato: [23121] The Boneyard Murder! (Conf: 12.5%, Score: 19.7)
+    - Candidato: [366933] British Royals Murder Mystery (Conf: 12.5%, Score: 31.0)
+    - Candidato: [262933] Button Men: Murderers (Conf: 0.0%, Score: 29.0)
+    - Candidato: [165006] Castle: The Detective Card Game – Murder Board Promo (Conf: 12.5%, Score: 26.4)
+    - Candidato: [343704] Chromaville Cold Case: A Murder Mystery (Conf: 25.0%, Score: 27.5)
+    - Candidato: [144093] Chung Ling Soo Murder Mystery (Conf: 12.5%, Score: 31.0)
+    - Candidato: [5858] Clue II: Murder in Disguise VCR Mystery Game (Conf: 12.5%, Score: 37.6)
+    - Candidato: [1294] Cluedo: Miss Fisher's Murder Mysteries Edition (Conf: 12.5%, Score: 32.2)
+    - Candidato: [7712] Cluedo: Passport to Murder (Conf: 12.5%, Score: 17.9)
+    - Candidato: [338549] Cold Case: A Pinch of Murder (Conf: 25.0%, Score: 17.4)
+    - Candidato: [365691] Cold Case: Murder with Interest (Conf: 12.5%, Score: 41.7)
+    - Candidato: [363164] Complete Murder Mystery Night (Conf: 12.5%, Score: 31.0)
+    - Candidato: [379922] Complete Murder Mystery: Aboard the RMS Titania (Conf: 12.5%, Score: 34.1)
+    - Candidato: [410193] Complete Murder Mystery: Carefully crafted in Paris (Conf: 12.5%, Score: 45.7)
+    - Candidato: [360254] Complete Murder Mystery: Murder at the Tower of London (Conf: 12.5%, Score: 29.5)
+    - Candidato: [280430] Crimes in History: H. H. Holmes' Murder Castle (Conf: 25.0%, Score: 26.2)
+    - Candidato: [329098] Crimes in History: H. H. Holmes' Murder Castle (Conf: 25.0%, Score: 26.2)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Murder We Wrote: A True Crime Podcast Party Game
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Final Girl: Series 3 Feature Film - The Marrek Murders' ---
+Estrategias: ['Final Girl: Series 3 Feature Film', 'Final', 'Final Girl: Series 3 Feature Film - The Marrek Murders', 'Final Girl']
+  > Probando query: 'Final Girl: Series 3 Feature Film - The Marrek Murders'
+    Encontrados 0 resultados.
+  > Probando query: 'Final Girl: Series 3 Feature Film'
+    Encontrados 0 resultados.
+  > Probando query: 'Final Girl'
+    Encontrados 100 resultados.
+    - Candidato: [343602] Don't Look Back: Final Girls Expansion (Conf: 22.2%, Score: 34.1)
+    - Candidato: [277659] Final Girl (Conf: 22.2%, Score: 32.8)
+    - Candidato: [438604] Final Girl: A Demon in the Shadows (Conf: 33.3%, Score: 50.0)
+    - Candidato: [354777] Final Girl: A Knock at the Door (Conf: 33.3%, Score: 51.9)
+    - Candidato: [438601] Final Girl: A Rotten Harvest (Conf: 22.2%, Score: 41.0)
+    - Candidato: [440178] Final Girl: Accessories (Conf: 22.2%, Score: 43.8)
+    - Candidato: [438599] Final Girl: Bad Times at Buddyland (Conf: 22.2%, Score: 50.0)
+    - Candidato: [426353] Final Girl: Bleeding Heart (Conf: 22.2%, Score: 44.7)
+    - Candidato: [361216] Final Girl: Box of Props (Conf: 22.2%, Score: 32.4)
+    - Candidato: [307686] Final Girl: Carnage at the Carnival (Conf: 33.3%, Score: 51.8)
+    - Candidato: [402686] Final Girl: Carolyn's Revenge (Conf: 22.2%, Score: 45.6)
+    - Candidato: [401734] Final Girl: Don't Make a Sound (Conf: 22.2%, Score: 50.0)
+    - Candidato: [310175] Final Girl: Frightmare on Maple Lane (Conf: 22.2%, Score: 53.5)
+    - Candidato: [432907] Final Girl: Grandma's Grudge (Conf: 22.2%, Score: 38.5)
+    - Candidato: [438625] Final Girl: Guest Stars (Conf: 22.2%, Score: 49.3)
+    - Candidato: [401727] Final Girl: Hell to Pay (Conf: 22.2%, Score: 46.6)
+    - Candidato: [354775] Final Girl: Into the Void (Conf: 33.3%, Score: 50.7)
+    - Candidato: [438609] Final Girl: Julie Promo Pack (Conf: 22.2%, Score: 43.6)
+    - Candidato: [354817] Final Girl: Lore & Scenario Book – Series 1 (Conf: 33.3%, Score: 40.4)
+    - Candidato: [382625] Final Girl: Lore & Scenario Book – Series 2 (Conf: 33.3%, Score: 40.4)
+    - Candidato: [432909] Final Girl: Lore & Scenario Book – Series 3 (Conf: 44.4%, Score: 42.7)
+    - Candidato: [354779] Final Girl: Madness in the Dark (Conf: 33.3%, Score: 56.8)
+    - Candidato: [438608] Final Girl: Meg Promo Pack (Conf: 22.2%, Score: 42.1)
+    - Candidato: [354778] Final Girl: Once Upon a Full Moon (Conf: 22.2%, Score: 45.8)
+    - Candidato: [354776] Final Girl: Panic at Station 2891 (Conf: 22.2%, Score: 43.4)
+  > Probando query: 'Final'
+    Encontrados 997 resultados.
+    - Candidato: [321678] The 7th Citadel: The Final Throne (Conf: 22.2%, Score: 21.7)
+    - Candidato: [42106] Abe Xavier's Final Exam (Conf: 11.1%, Score: 24.3)
+    - Candidato: [12532] Abuse: The Final Insult (Conf: 22.2%, Score: 24.7)
+    - Candidato: [380564] Al Final del Arcoíris (Conf: 11.1%, Score: 25.0)
+    - Candidato: [377402] The Alamo: Final Assault (Conf: 22.2%, Score: 21.6)
+    - Candidato: [133748] All Things Zombie: Final Fade Out (Conf: 11.1%, Score: 26.5)
+    - Candidato: [303146] Anthology of Armor: A Final Combat Supplement (Conf: 11.1%, Score: 23.2)
+    - Candidato: [285773] Arkham Horror: Final Hour (Conf: 11.1%, Score: 21.3)
+    - Candidato: [12053] ASL Comp: Berlin Final Days (Conf: 11.1%, Score: 18.2)
+    - Candidato: [5420] Assassin: The Final Game (Conf: 22.2%, Score: 21.6)
+    - Candidato: [458521] Batalla Final (Conf: 11.1%, Score: 15.6)
+    - Candidato: [30328] Battleground: La conquista final (Conf: 11.1%, Score: 12.2)
+    - Candidato: [377565] Battles in the East 2: Uman Pocket and Guderian's Final Blitzkrieg (Conf: 22.2%, Score: 17.2)
+    - Candidato: [121363] BattleTech: Jihad – Final Reckoning (Conf: 11.1%, Score: 21.7)
+    - Candidato: [333905] Berlin I: Final Victory (Conf: 11.1%, Score: 21.9)
+    - Candidato: [206997] Boss Monster: Final Form! Promo Card (Conf: 11.1%, Score: 30.6)
+    - Candidato: [303154] Chef-du-Pont: WWII Skirmish Scenarios for Final Combat (Conf: 11.1%, Score: 15.4)
+    - Candidato: [404470] Chilli or Chunder: Pepper X Finale (Conf: 11.1%, Score: 14.3)
+    - Candidato: [108012] Collapsible D: The Final Minutes of the Titanic (Conf: 22.2%, Score: 35.1)
+    - Candidato: [294788] Conqueror: Final Conquest (Conf: 11.1%, Score: 24.0)
+    - Candidato: [13618] Crucible: Conquest of the Final Realm (Conf: 22.2%, Score: 25.3)
+    - Candidato: [11958] Cup Final (Conf: 11.1%, Score: 16.7)
+    - Candidato: [452046] The Cup Final (Conf: 22.2%, Score: 15.6)
+    - Candidato: [11600] Cup Final (Conf: 11.1%, Score: 16.7)
+    - Candidato: [123417] Cup Final (Conf: 11.1%, Score: 16.7)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Final Girl: Series 3 Feature Film - The Marrek Murders
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Détective Charlie - Enquête au Musée' ---
+Estrategias: ['Détective Charlie', 'Détective', 'Détective Charlie - Enquête au Musée']
+  > Probando query: 'Détective Charlie - Enquête au Musée'
+    Encontrados 0 resultados.
+  > Probando query: 'Détective Charlie'
+    Encontrados 6 resultados.
+    - Candidato: [304450] Detective Charlie (Conf: 40.0%, Score: 66.7)
+    - Candidato: [464572] Detective Charlie: Manor Mysteries (Conf: 40.0%, Score: 65.7)
+    - Candidato: [434656] Détective Charlie: Calendrier de l'Avent – Qui a volé l'étoile de Noël? (Conf: 40.0%, Score: 55.4)
+    - Candidato: [361631] Détective Charlie: part en vacances (Conf: 40.0%, Score: 64.7)
+    - Candidato: [13624] The Great Charlie Chan Detective Mystery Game (Conf: 40.0%, Score: 40.5)
+    - Candidato: [361631] Détective Charlie: part en vacances (Conf: 40.0%, Score: 64.7)
+  > Probando query: 'Détective'
+    Encontrados 454 resultados.
+    - Candidato: [1275] 221B Baker Street: The Master Detective Game (Conf: 20.0%, Score: 31.2)
+    - Candidato: [94151] 221B Baker Street: The Master Detective Game – Set #2 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94153] 221B Baker Street: The Master Detective Game – Set #3 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94154] 221B Baker Street: The Master Detective Game – Set #4 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94155] 221B Baker Street: The Master Detective Game – Set #5 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94156] 221B Baker Street: The Master Detective Game – Set #6 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94157] 221B Baker Street: The Master Detective Game – Set #7 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94158] 221B Baker Street: The Master Detective Game – Set #8 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [94159] 221B Baker Street: The Master Detective Game – Set #9 (Conf: 20.0%, Score: 38.6)
+    - Candidato: [206172] 221B: A Story Driven Detective Game (Conf: 20.0%, Score: 35.3)
+    - Candidato: [123406] Ace Detective (Conf: 20.0%, Score: 38.3)
+    - Candidato: [126599] Ace Detective: Strange Tales (Conf: 20.0%, Score: 49.2)
+    - Candidato: [132041] Additional Sherlock Holmes Cases for 221B Baker Street, The Master Detective Game (Conf: 20.0%, Score: 21.1)
+    - Candidato: [10854] Adventure Cards: Detectives (Conf: 20.0%, Score: 33.3)
+    - Candidato: [14706] Alphabet Detective (Conf: 20.0%, Score: 34.6)
+    - Candidato: [176115] Bad Detectives (Conf: 20.0%, Score: 41.7)
+    - Candidato: [13482] Baretta: The Street Detective Game (Conf: 20.0%, Score: 35.8)
+    - Candidato: [388521] Be The Detective: The Dual (Conf: 20.0%, Score: 50.8)
+    - Candidato: [35516] Benji Detective Game (Conf: 20.0%, Score: 44.4)
+    - Candidato: [329632] Black Stories Junior: Detective Stories (Conf: 20.0%, Score: 38.9)
+    - Candidato: [453412] Bug Detectives: The Epipocalypse (Conf: 20.0%, Score: 52.3)
+    - Candidato: [134962] Cassette Juego: Detective y Ladron (Conf: 20.0%, Score: 38.8)
+    - Candidato: [131389] Castle: The Detective Card Game (Conf: 20.0%, Score: 43.8)
+    - Candidato: [165006] Castle: The Detective Card Game – Murder Board Promo (Conf: 20.0%, Score: 43.4)
+    - Candidato: [356951] Cat Detective (Conf: 20.0%, Score: 38.3)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Détective Charlie - Enquête au Musée
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Massive Darkness 2 - Kit de Mise à Jour' ---
+Estrategias: ['Massive Darkness 2 - Kit  Mise à Jour', 'Massive Darkness 2 - Kit de Mise à Jour', 'Massive Darkness 2', 'Massive']
+  > Probando query: 'Massive Darkness 2 - Kit de Mise à Jour'
+    Encontrados 0 resultados.
+  > Probando query: 'Massive Darkness 2 - Kit  Mise à Jour'
+    Encontrados 0 resultados.
+  > Probando query: 'Massive Darkness 2'
+    Encontrados 37 resultados.
+    - Candidato: [318370] Massive Darkness 2: Darkbringer Pack (Conf: 42.9%, Score: 66.7)
+    - Candidato: [317942] Massive Darkness 2: Enemy Box – Demon Dragon (Conf: 42.9%, Score: 64.0)
+    - Candidato: [318367] Massive Darkness 2: Enemy Box – Feyfolk (Conf: 42.9%, Score: 57.1)
+    - Candidato: [317946] Massive Darkness 2: Enemy Box – Four Horsemen (Conf: 42.9%, Score: 63.2)
+    - Candidato: [317945] Massive Darkness 2: Enemy Box – Gates of Hell (Conf: 42.9%, Score: 57.9)
+    - Candidato: [318369] Massive Darkness 2: Enemy Box – Rainbow Crossing (Conf: 42.9%, Score: 55.7)
+    - Candidato: [317947] Massive Darkness 2: Enemy Box – War of Souls (Conf: 42.9%, Score: 61.3)
+    - Candidato: [317844] Massive Darkness 2: Heavenfall (Conf: 42.9%, Score: 66.7)
+    - Candidato: [315610] Massive Darkness 2: Hellscape (Conf: 42.9%, Score: 67.7)
+    - Candidato: [451472] Massive Darkness 2: Hellscape – Mythical Clast (Conf: 42.9%, Score: 59.7)
+    - Candidato: [318366] Massive Darkness 2: Heroes & Monster Set – Bards & Tinkerers vs Metal Angel (Conf: 42.9%, Score: 49.0)
+    - Candidato: [317949] Massive Darkness 2: Heroes & Monster Set – Druids vs Beelzebub (Conf: 42.9%, Score: 54.9)
+    - Candidato: [318364] Massive Darkness 2: Heroes & Monster Set – Monks & Necromancers vs The Paragon (Conf: 42.9%, Score: 51.4)
+    - Candidato: [362664] Massive Darkness 2: Ingenious Shield Promo Card (Conf: 42.9%, Score: 60.0)
+    - Candidato: [318379] Massive Darkness 2: Massive Darkness Upgrade Pack (Conf: 42.9%, Score: 63.4)
+    - Candidato: [377042] Massive Darkness 2: Sorcerer's Hat Promo Card (Conf: 42.9%, Score: 64.1)
+    - Candidato: [446755] Massive Darkness 2: Table Leg Promo Card (Conf: 42.9%, Score: 65.8)
+    - Candidato: [348091] Massive Darkness 2: Zombicide Fantasy Crossover Pack (Conf: 42.9%, Score: 63.5)
+    - Candidato: [386359] Massive Darkness 2: Zombicide White Death Crossover Pack (Conf: 42.9%, Score: 60.7)
+    - Candidato: [318370] Massive Darkness 2: Darkbringer Pack (Conf: 42.9%, Score: 66.7)
+    - Candidato: [317942] Massive Darkness 2: Enemy Box – Demon Dragon (Conf: 42.9%, Score: 64.0)
+    - Candidato: [318367] Massive Darkness 2: Enemy Box – Feyfolk (Conf: 42.9%, Score: 57.1)
+    - Candidato: [317946] Massive Darkness 2: Enemy Box – Four Horsemen (Conf: 42.9%, Score: 63.2)
+    - Candidato: [317945] Massive Darkness 2: Enemy Box – Gates of Hell (Conf: 42.9%, Score: 57.9)
+    - Candidato: [318369] Massive Darkness 2: Enemy Box – Rainbow Crossing (Conf: 42.9%, Score: 55.7)
+  > Probando query: 'Massive'
+    Encontrados 106 resultados.
+    - Candidato: [16287] Flotilla: Starship Combat on a Massive Scale (Conf: 28.6%, Score: 26.0)
+    - Candidato: [301844] MACE: Massive Armored Combat Elements – Marks I Through X (Conf: 14.3%, Score: 40.9)
+    - Candidato: [285272] Massive Core (Conf: 14.3%, Score: 43.5)
+    - Candidato: [197070] Massive Darkness (Conf: 28.6%, Score: 64.0)
+    - Candidato: [318370] Massive Darkness 2: Darkbringer Pack (Conf: 42.9%, Score: 66.7)
+    - Candidato: [317942] Massive Darkness 2: Enemy Box – Demon Dragon (Conf: 42.9%, Score: 64.0)
+    - Candidato: [318367] Massive Darkness 2: Enemy Box – Feyfolk (Conf: 42.9%, Score: 57.1)
+    - Candidato: [317946] Massive Darkness 2: Enemy Box – Four Horsemen (Conf: 42.9%, Score: 63.2)
+    - Candidato: [317945] Massive Darkness 2: Enemy Box – Gates of Hell (Conf: 42.9%, Score: 57.9)
+    - Candidato: [318369] Massive Darkness 2: Enemy Box – Rainbow Crossing (Conf: 42.9%, Score: 55.7)
+    - Candidato: [317947] Massive Darkness 2: Enemy Box – War of Souls (Conf: 42.9%, Score: 61.3)
+    - Candidato: [317844] Massive Darkness 2: Heavenfall (Conf: 42.9%, Score: 66.7)
+    - Candidato: [315610] Massive Darkness 2: Hellscape (Conf: 42.9%, Score: 67.7)
+    - Candidato: [451472] Massive Darkness 2: Hellscape – Mythical Clast (Conf: 42.9%, Score: 59.7)
+    - Candidato: [318366] Massive Darkness 2: Heroes & Monster Set – Bards & Tinkerers vs Metal Angel (Conf: 42.9%, Score: 49.0)
+    - Candidato: [317949] Massive Darkness 2: Heroes & Monster Set – Druids vs Beelzebub (Conf: 42.9%, Score: 54.9)
+    - Candidato: [318364] Massive Darkness 2: Heroes & Monster Set – Monks & Necromancers vs The Paragon (Conf: 42.9%, Score: 51.4)
+    - Candidato: [362664] Massive Darkness 2: Ingenious Shield Promo Card (Conf: 42.9%, Score: 60.0)
+    - Candidato: [318379] Massive Darkness 2: Massive Darkness Upgrade Pack (Conf: 42.9%, Score: 63.4)
+    - Candidato: [377042] Massive Darkness 2: Sorcerer's Hat Promo Card (Conf: 42.9%, Score: 64.1)
+    - Candidato: [446755] Massive Darkness 2: Table Leg Promo Card (Conf: 42.9%, Score: 65.8)
+    - Candidato: [348091] Massive Darkness 2: Zombicide Fantasy Crossover Pack (Conf: 42.9%, Score: 63.5)
+    - Candidato: [386359] Massive Darkness 2: Zombicide White Death Crossover Pack (Conf: 42.9%, Score: 60.7)
+    - Candidato: [232977] Massive Darkness: A Quest of Crystal & Lava (Conf: 42.9%, Score: 62.2)
+    - Candidato: [236775] Massive Darkness: Black Plague Crossover Set (Conf: 28.6%, Score: 54.5)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Massive Darkness 2 - Kit de Mise à Jour
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------

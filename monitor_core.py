@@ -40,7 +40,7 @@ HEADERS_PHILI = HEADERS_GENERIC.copy()
 if COOKIE: HEADERS_PHILI["Cookie"] = COOKIE
 
 # --- Motor de Limpieza Pulido ---
-NOISE_RE = r'\b(core box|core game|jeu de base|boite de base|complete|bundle|big box|box|set|game|pack|edition|edicion|essentielle|essential|ancienne version|nouvelle version|en français|version|française|deluxe|collector|anniversary|impression|jeu|l\'âge|des|les|aux|de|la|le|(\+?\s*)?expansi[oó]n|erw|erweiterung|printing|pression|copy|sundrop|standard|fr|en|de|es|promo|preorder|l\'aube|d\'un|stefan feld|uwe rosenberg|knizia|recharged|vital lacerda|lacerda|board game|jeu de plateau|token|tokens|galactic|galactic edition|card holder|standees|deck box|extra player pack|clearance|last chance|occasions?|flash sales?|sales?|backdoor|miniature market|philibert|case|case\s*\(\d+\)|\d+(st|nd|rd|th)(\s+edition)?)\b'
+NOISE_RE = r'\b(core box|core game|jeu de base|boite de base|complete|bundle|big box|box|set|game|pack|edition|edicion|essentielle|essential|ancienne version|nouvelle version|en français|version|française|extension|expansion|deluxe|collector|anniversary|impression|jeu|l\'âge|des|les|aux|de|la|le|(\+?\s*)?expansi[oó]n|erw|erweiterung|printing|pression|copy|sundrop|standard|fr|en|de|es|promo|preorder|l\'aube|d\'un|stefan feld|uwe rosenberg|knizia|recharged|vital lacerda|lacerda|board game|jeu de plateau|token|tokens|galactic|galactic edition|card holder|standees|deck box|extra player pack|clearance|last chance|occasions?|flash sales?|sales?|backdoor|miniature market|philibert|case|case\s*\(\d+\)|\d+(st|nd|rd|th)(\s+edition)?)\b'
 IGNORE_KEYWORDS = ['Jeu de Rôle', 'Jeu de Role', ' JDR', 'RPG', 'Livre de base', 'Warhammer', 'Citadel', 'Peinture', 'Pinceau', 'Colle', 'Puzzle', 'Puzzles', '1000 Pièces', '500 Pièces', 'Neoprene Mat', 'Playmat', 'Play Mat', 'Tapis', 'Insert', 'Inserts', 'Sleeves', 'Gaming Mat', 'Game Mat', 'Protector', 'Protege-cartes', 'Supplément', 'Scénario', 'Scénarios', 'Ecran', 'Écran', 'MJ', 'Livre de règles']
 
 def get_db_connection(timeout=60): 
@@ -97,8 +97,14 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
     strategies = [name_clean, game_name.strip()]
     if ':' in name_clean: strategies.append(name_clean.split(':')[0].strip())
     if '-' in name_clean: strategies.append(name_clean.split('-')[0].strip())
-    primera_parte = re.split(r'[:\-]', name_clean)[0].strip()
+    
+    parts = re.split(r'[:\-]', name_clean)
+    primera_parte = parts[0].strip()
     if len(primera_parte) > 5: strategies.append(primera_parte)
+    
+    # Estrategia agresiva: primera palabra significativa si no hay resultados
+    words = [w for w in re.findall(r'\w+', name_clean) if len(w) > 3]
+    if words: strategies.append(words[0])
 
     log(f"Estrategias: {list(set(strategies))}")
     
@@ -158,7 +164,8 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
             from googlesearch import search
             query = f'site:boardgamegeek.com/boardgame {game_name}'
             log(f"    Query: {query}")
-            for url in search(query, num_results=5, lang="en"):
+            # Fix: googlesearch v3 uses 'num' instead of 'num_results', and 'stop' for total results
+            for url in search(query, num=5, stop=5, pause=2.0, lang="en"):
                 if 'boardgameaccessory' in url or 'rpgitem' in url:
                     log(f"    SKIPPING Non-Game: {url}")
                     continue
@@ -178,9 +185,10 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
         except Exception as ge:
             log(f"    Fallo búsqueda Google: {str(ge)}")
 
-    if best_item:
+    if best_item and best_confidence >= 60:
         log(f"GANADOR: ID {best_item} con {best_confidence:.1f}% confianza.")
     else:
+        best_item = None
         log("FALLIDO: No se encontró ninguna coincidencia aceptable.")
     log("-" * 50)
     
@@ -192,7 +200,7 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
     return best_item, best_confidence
 
 def fetch_details(bgg_id):
-    if not bgg_id or bgg_id == "IGNORED": return "N/A", "999999", "Unknown", "-", "Unknown", "N/A", 0, 0, "-"
+    if not bgg_id or bgg_id in ["IGNORED", "WAITING"] or not str(bgg_id).isdigit(): return "N/A", "999999", "Unknown", "-", "Unknown", "N/A", 0, 0, "-"
     print(f"Bajando detalles BGG ID {bgg_id}...")
     url = f"https://boardgamegeek.com/xmlapi2/thing?id={bgg_id}&stats=1"
     

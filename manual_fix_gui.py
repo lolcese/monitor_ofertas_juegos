@@ -42,6 +42,10 @@ class ManualFixGUI:
         tk.Checkbutton(filter_frame, text="Mostrar Ignorados", 
                        variable=self.show_ignored_var, command=self.load_data, bg="#f4f6f9").pack(side=tk.LEFT, padx=5)
 
+        self.show_waiting_var = tk.BooleanVar(value=False)
+        tk.Checkbutton(filter_frame, text="⏳ Mostrar en Espera", 
+                       variable=self.show_waiting_var, command=self.load_data, bg="#f4f6f9").pack(side=tk.LEFT, padx=5)
+
         self.only_zero_rating_var = tk.BooleanVar(value=False)
         tk.Checkbutton(filter_frame, text="⭐ Rating 0/NA", 
                        variable=self.only_zero_rating_var, command=self.load_data, bg="#f4f6f9", fg="#e67e22").pack(side=tk.LEFT, padx=5)
@@ -104,7 +108,8 @@ class ManualFixGUI:
         tk.Button(self.form_frame, text="✅ GUARDAR MAPEO", command=self.save_mapping, bg="#27ae60", fg="white", font=("Arial", 10, "bold"), padx=15).grid(row=1, column=2, padx=5)
         tk.Button(self.form_frame, text="🔍 Buscar en BGG", command=self.open_bgg_search, bg="#3498db", fg="white").grid(row=1, column=3, padx=5)
         tk.Button(self.form_frame, text="🗑️ ELIMINAR DE DB", command=self.delete_from_db, bg="#c0392b", fg="white", font=("Arial", 9, "bold")).grid(row=1, column=4, padx=20)
-        tk.Button(self.form_frame, text="🚫 NO INCLUIR (Ignorar)", command=self.ignore_mapping, bg="#95a5a6", fg="white", font=("Arial", 9, "bold"), height=2).grid(row=2, column=1, columnspan=2, sticky=tk.W, padx=10, pady=10)
+        tk.Button(self.form_frame, text="🚫 NO INCLUIR (Ignorar)", command=self.ignore_mapping, bg="#95a5a6", fg="white", font=("Arial", 9, "bold"), height=2).grid(row=2, column=1, sticky=tk.W, padx=10, pady=10)
+        tk.Button(self.form_frame, text="⏳ ESPERAR (Muy Nuevo)", command=self.wait_mapping, bg="#f39c12", fg="white", font=("Arial", 9, "bold"), height=2).grid(row=2, column=2, sticky=tk.W, padx=10, pady=10)
 
         self.current_store_url = ""
 
@@ -143,6 +148,9 @@ class ManualFixGUI:
             
             if not self.show_ignored_var.get():
                 where_parts.append("(m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')")
+
+            if not self.show_waiting_var.get():
+                where_parts.append("(m.bgg_id IS NULL OR m.bgg_id != 'WAITING')")
             
             if self.only_current_var.get():
                 where_parts.append("d.date_found = (SELECT MAX(date_found) FROM deals d2 WHERE d2.deal_source = d.deal_source)")
@@ -186,14 +194,16 @@ class ManualFixGUI:
             c = conn.cursor()
             row_d = c.execute("SELECT url, image_local FROM deals WHERE item_name=? ORDER BY date_found DESC LIMIT 1", (name,)).fetchone()
             if row_d: self.current_store_url, img_local = row_d
-            if b_id and b_id != 'IGNORED':
+            if b_id and b_id not in ['IGNORED', 'WAITING']:
                 row_g = c.execute("SELECT original_name FROM games WHERE bgg_id=?", (b_id,)).fetchone()
                 if row_g: bgg_name = row_g[0]
+            elif b_id == 'WAITING':
+                bgg_name = "⏳ EN ESPERA (Muy Nuevo)"
         finally:
             conn.close()
         self.bgg_name_disp.config(text=f"Nombre BGG:\n{bgg_name}")
         self.link_store_btn.config(state='normal' if self.current_store_url else 'disabled')
-        self.link_bgg_btn.config(state='normal' if (b_id and b_id != 'IGNORED') else 'disabled')
+        self.link_bgg_btn.config(state='normal' if (b_id and b_id not in ['IGNORED', 'WAITING']) else 'disabled')
         self.img_label.config(image='')
         if img_local:
             ipath = os.path.join(IMG_DIR, img_local)
@@ -217,7 +227,7 @@ class ManualFixGUI:
         if self.current_store_url: webbrowser.open(self.current_store_url)
     def open_current_bgg_site(self):
         v = self.bgg_var.get().strip(); 
-        if v and v != "IGNORED": webbrowser.open(f"https://boardgamegeek.com/boardgame/{v}")
+        if v and v not in ["IGNORED", "WAITING"]: webbrowser.open(f"https://boardgamegeek.com/boardgame/{v}")
     def open_bgg_search(self):
         n = self.name_var.get()
         if n:
@@ -265,6 +275,22 @@ class ManualFixGUI:
             conn.close()
         self.load_data()
         self.status_bar_msg(f"{len(selected)} items ignorados.")
+
+    def wait_mapping(self):
+        selected = self.tree.selection()
+        if not selected: return
+        
+        conn = get_db_connection()
+        try:
+            with conn:
+                for item in selected:
+                    name = self.tree.item(item)['values'][0]
+                    conn.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", 
+                                  (name, "WAITING", 100.0, datetime.date.today().isoformat()))
+        finally:
+            conn.close()
+        self.load_data()
+        self.status_bar_msg(f"{len(selected)} items marcados en espera.")
 
     def delete_from_db(self):
         selected = self.tree.selection()

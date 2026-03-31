@@ -12,7 +12,7 @@ def reprocess_failed_matches():
         query = """
         SELECT item_name FROM bgg_mapping 
         WHERE (confidence < 50 OR bgg_id IS NULL OR bgg_id = '') 
-        AND bgg_id != 'IGNORED'
+        AND bgg_id NOT IN ('IGNORED', 'WAITING')
         """
         failed = cursor.execute(query).fetchall()
         print(f"Encontrados {len(failed)} juegos para reintentar.")
