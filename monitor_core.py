@@ -79,8 +79,7 @@ def save_deal(cursor, item_name, price, old_price, url, is_accessory, is_expansi
         img_local = download_image(img_url, clean_name, source='philibert' if 'phili' in source.lower() else 'generic')
     
     # 1. Buscar si ya existe para conservar su fecha original de aparición
-    cursor.execute("SELECT date_first_seen FROM deals WHERE url = ? AND deal_source = ?", (url, source))
-    existing = cursor.fetchone()
+    existing = cursor.execute("SELECT date_first_seen FROM deals WHERE url = ? AND deal_source = ?", (url, source)).fetchone()
     first_seen = existing[0] if (existing and existing[0]) else today
     
     # 2. Prevenir duplicados por URL (si el nombre cambió pero la URL es la misma)

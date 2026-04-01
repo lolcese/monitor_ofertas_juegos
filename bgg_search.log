@@ -5661,3 +5661,250 @@ Estrategias: ['Marvel', 'Marvel Battleworld: Series 2', 'Marvel Battleworld: Ser
     Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
 FALLIDO: No se encontró ninguna coincidencia aceptable.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Vudhulhu' ---
+Estrategias: ['Vudhulhu']
+  > Probando query: 'Vudhulhu'
+    Encontrados 0 resultados.
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Vudhulhu
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Starship Interstellar - Antimatter' ---
+Estrategias: ['Starship Interstellar - Antimatter', 'Starship', 'Starship Interstellar']
+  > Probando query: 'Starship Interstellar - Antimatter'
+    Encontrados 0 resultados.
+  > Probando query: 'Starship Interstellar'
+    Encontrados 10 resultados.
+    - Candidato: [334827] Starship Interstellar (Conf: 66.7%, Score: 79.2)
+    - Candidato: [417676] Starship Interstellar: Anti Matter (Conf: 66.7%, Score: 98.5)
+    - Candidato: [417677] Starship Interstellar: Danger from Kuiper (Conf: 66.7%, Score: 72.2)
+    - Candidato: [417678] Starship Interstellar: Halley's Comet (Conf: 66.7%, Score: 70.6)
+    - Candidato: [436464] Starship Interstellar: Stretch Goals Box (Conf: 66.7%, Score: 64.8)
+    - Candidato: [417676] Starship Interstellar: Anti Matter (Conf: 66.7%, Score: 98.5)
+    - Candidato: [417677] Starship Interstellar: Danger from Kuiper (Conf: 66.7%, Score: 72.2)
+    - Candidato: [417678] Starship Interstellar: Halley's Comet (Conf: 66.7%, Score: 70.6)
+    - Candidato: [436464] Starship Interstellar: Stretch Goals Box (Conf: 66.7%, Score: 64.8)
+  > Probando query: 'Starship'
+    Encontrados 675 resultados.
+    - Candidato: [239564] AVA Starship (Conf: 33.3%, Score: 36.4)
+    - Candidato: [32778] Basic Starship Combat System (Conf: 33.3%, Score: 46.7)
+    - Candidato: [325468] Battlestar Galactica: Starship Battles – Additional Counter Set (Conf: 33.3%, Score: 34.8)
+    - Candidato: [283872] Battlestar Galactica: Starship Battles – Boomer Raptor (Conf: 33.3%, Score: 33.7)
+    - Candidato: [283873] Battlestar Galactica: Starship Battles – Cylon Heavy Raider (Combat/Transport) (Conf: 33.3%, Score: 26.7)
+    - Candidato: [283874] Battlestar Galactica: Starship Battles – Cylon Heavy Raider (Veteran) (Conf: 33.3%, Score: 31.2)
+    - Candidato: [271432] Battlestar Galactica: Starship Battles – Cylon Raider (Conf: 33.3%, Score: 34.1)
+    - Candidato: [322666] Battlestar Galactica: Starship Battles – Faster Than Light (Conf: 33.3%, Score: 36.8)
+    - Candidato: [283876] Battlestar Galactica: Starship Battles – Heavy Raider (Captured) (Conf: 33.3%, Score: 30.8)
+    - Candidato: [283870] Battlestar Galactica: Starship Battles – Raptor (Assault/Combat) (Conf: 33.3%, Score: 44.0)
+    - Candidato: [283720] Battlestar Galactica: Starship Battles – Raptor (SAR/ECM) (Conf: 33.3%, Score: 40.5)
+    - Candidato: [271431] Battlestar Galactica: Starship Battles – Scar Cylon Raider (Conf: 33.3%, Score: 43.7)
+    - Candidato: [328472] Battlestar Galactica: Starship Battles – Starbuck Promo (Conf: 33.3%, Score: 33.3)
+    - Candidato: [271428] Battlestar Galactica: Starship Battles – Starbuck: Captured Raider (Conf: 33.3%, Score: 29.8)
+    - Candidato: [271429] Battlestar Galactica: Starship Battles – Starbuck: Viper MK. II (Conf: 33.3%, Score: 31.1)
+    - Candidato: [250821] Battlestar Galactica: Starship Battles – Starter Set (Conf: 33.3%, Score: 34.6)
+    - Candidato: [300303] Battlestar Galactica: Starship Battles – Viper MK VII (Apollo) (Conf: 33.3%, Score: 31.5)
+    - Candidato: [300306] Battlestar Galactica: Starship Battles – Viper MK VII (Pegasus) (Conf: 33.3%, Score: 31.1)
+    - Candidato: [300304] Battlestar Galactica: Starship Battles – Viper MK VII (Pegasus/Veteran) (Conf: 33.3%, Score: 30.6)
+    - Candidato: [271433] Battlestar Galactica: Starship Battles – Viper MK. II (Conf: 33.3%, Score: 34.6)
+    - Candidato: [308949] Battlestations: The Starships (Conf: 33.3%, Score: 30.0)
+    - Candidato: [61268] Canine Troopers (fan expansion for Starship Troopers) (Conf: 33.3%, Score: 31.3)
+    - Candidato: [286006] Charge!: Rules for Starship Fleet Miniatures (Conf: 33.3%, Score: 40.5)
+    - Candidato: [354969] Darkstar: Tactical Starship Combat in the 26th Century (Conf: 33.3%, Score: 42.4)
+    - Candidato: [57647] Dog Fight: Starship Edition (Conf: 33.3%, Score: 41.4)
+GANADOR: ID 417676 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pampero - Nouveaux Horizons' ---
+Estrategias: ['Pampero', 'Pampero - Nouveaux Horizons']
+  > Probando query: 'Pampero - Nouveaux Horizons'
+    Encontrados 0 resultados.
+  > Probando query: 'Pampero'
+    Encontrados 12 resultados.
+    - Candidato: [387774] Admiral Pampero (Conf: 33.3%, Score: 35.0)
+    - Candidato: [304510] Pampero (Conf: 33.3%, Score: 43.8)
+    - Candidato: [403056] Pampero: Clear Skies (Conf: 33.3%, Score: 59.1)
+    - Candidato: [373470] Pampero: Nature (Conf: 33.3%, Score: 56.4)
+    - Candidato: [436028] Pampero: Project Verne (Conf: 33.3%, Score: 56.5)
+    - Candidato: [428439] Pampero: Promo Action Card and Scoring Card (Conf: 33.3%, Score: 44.8)
+    - Candidato: [424681] Pampero: Windfarm Connection Tiles (Conf: 33.3%, Score: 48.3)
+    - Candidato: [403056] Pampero: Clear Skies (Conf: 33.3%, Score: 59.1)
+    - Candidato: [373470] Pampero: Nature (Conf: 33.3%, Score: 56.4)
+    - Candidato: [436028] Pampero: Project Verne (Conf: 33.3%, Score: 56.5)
+    - Candidato: [428439] Pampero: Promo Action Card and Scoring Card (Conf: 33.3%, Score: 44.8)
+    - Candidato: [424681] Pampero: Windfarm Connection Tiles (Conf: 33.3%, Score: 48.3)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Pampero - Nouveaux Horizons
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Black Rose Wars : Renaissance - Boîte de Base' ---
+Estrategias: ['Black Rose Wars : Renaissance - Boîte  Base', 'Black Rose Wars : Renaissance - Boîte de Base', 'Black Rose Wars', 'Black Rose Wars : Renaissance', 'Black']
+  > Probando query: 'Black Rose Wars : Renaissance - Boîte de Base'
+    Encontrados 0 resultados.
+  > Probando query: 'Black Rose Wars : Renaissance - Boîte  Base'
+    Encontrados 0 resultados.
+  > Probando query: 'Black Rose Wars : Renaissance'
+    Encontrados 9 resultados.
+    - Candidato: [342444] Black Rose Wars: Renaissance (Conf: 66.7%, Score: 83.1)
+    - Candidato: [412687] Black Rose Wars: Renaissance – Apocalypse (Conf: 66.7%, Score: 84.2)
+    - Candidato: [412689] Black Rose Wars: Renaissance – L'Éveil de Gaïa (Conf: 66.7%, Score: 79.0)
+    - Candidato: [414160] Black Rose Wars: Renaissance – La Terreur de la Forge (Conf: 66.7%, Score: 75.0)
+    - Candidato: [414161] Black Rose Wars: Renaissance – Masque Funèbre (Conf: 66.7%, Score: 80.0)
+    - Candidato: [412687] Black Rose Wars: Renaissance – Apocalypse (Conf: 66.7%, Score: 84.2)
+    - Candidato: [412689] Black Rose Wars: Renaissance – L'Éveil de Gaïa (Conf: 66.7%, Score: 79.0)
+    - Candidato: [414160] Black Rose Wars: Renaissance – La Terreur de la Forge (Conf: 66.7%, Score: 75.0)
+    - Candidato: [414161] Black Rose Wars: Renaissance – Masque Funèbre (Conf: 66.7%, Score: 80.0)
+  > Probando query: 'Black Rose Wars'
+    Encontrados 101 resultados.
+    - Candidato: [403989] Ancient Blood: The Order of Vampire Hunters – Black Rose Wars Rebirth Crossover (Conf: 50.0%, Score: 38.6)
+    - Candidato: [239942] Black Rose Wars (Conf: 50.0%, Score: 56.6)
+    - Candidato: [328888] Black Rose Wars: Alma Mater Studiorum Promo Card (Conf: 50.0%, Score: 54.1)
+    - Candidato: [270955] Black Rose Wars: Armageddon Promo Card (Conf: 50.0%, Score: 53.3)
+    - Candidato: [327628] Black Rose Wars: Black Lymph Promo Card (Conf: 50.0%, Score: 47.4)
+    - Candidato: [420750] Black Rose Wars: Christmas School (Conf: 50.0%, Score: 62.9)
+    - Candidato: [267919] Black Rose Wars: Crono Expansion (Conf: 50.0%, Score: 60.9)
+    - Candidato: [350052] Black Rose Wars: Cthully Forgotten Evocation Promo Set (Conf: 50.0%, Score: 59.3)
+    - Candidato: [452214] Black Rose Wars: Duel – Kami (Conf: 50.0%, Score: 60.3)
+    - Candidato: [450568] Black Rose Wars: Duel – Kami Preorder Promo Pack (Conf: 50.0%, Score: 48.2)
+    - Candidato: [395907] Black Rose Wars: Duel – Lex (Conf: 50.0%, Score: 58.1)
+    - Candidato: [410773] Black Rose Wars: Duel – Lex: Prismatic Cage Preorder Promo (Conf: 50.0%, Score: 45.7)
+    - Candidato: [430702] Black Rose Wars: Duel – Void (Conf: 50.0%, Score: 63.5)
+    - Candidato: [430729] Black Rose Wars: Duel – Void Preorder Promo (Conf: 50.0%, Score: 53.8)
+    - Candidato: [397815] Black Rose Wars: Dungeonology Rocca Civetta Promo Cards (Conf: 50.0%, Score: 43.5)
+    - Candidato: [269412] Black Rose Wars: Familiar Cerberus (Conf: 50.0%, Score: 62.0)
+    - Candidato: [269413] Black Rose Wars: Familiar Draco (Conf: 50.0%, Score: 58.8)
+    - Candidato: [269410] Black Rose Wars: Familiar Griffin (Conf: 50.0%, Score: 51.4)
+    - Candidato: [269411] Black Rose Wars: Familiar Hydra (Conf: 50.0%, Score: 52.9)
+    - Candidato: [269414] Black Rose Wars: Hidden Thorns (Conf: 50.0%, Score: 56.7)
+    - Candidato: [268797] Black Rose Wars: Inferno (Conf: 50.0%, Score: 62.3)
+    - Candidato: [423380] Black Rose Wars: Legendary Scenario – It's a Trap! (Conf: 50.0%, Score: 61.9)
+    - Candidato: [431330] Black Rose Wars: LMS 10th Anniversary three Event cards Promo (Conf: 50.0%, Score: 42.9)
+    - Candidato: [419788] Black Rose Wars: Magician Pack (Conf: 50.0%, Score: 62.7)
+    - Candidato: [438707] Black Rose Wars: Magister Box (Conf: 50.0%, Score: 69.7)
+  > Probando query: 'Black'
+    Encontrados 1932 resultados.
+    - Candidato: [130716] 13 Black Cats (Conf: 16.7%, Score: 27.5)
+    - Candidato: [204761] A.D.A.P.T.: Black Bio-Mech Expansion Pack (Conf: 16.7%, Score: 33.8)
+    - Candidato: [455933] A.S.H.E.S.: Blackout Protocol (Conf: 0.0%, Score: 30.8)
+    - Candidato: [121455] Admiral of the Black (Conf: 16.7%, Score: 17.2)
+    - Candidato: [440805] The Adventures of Conan: Queen of the Black Coast Expansion (Conf: 16.7%, Score: 25.0)
+    - Candidato: [169814] AEG Black Friday Black Box (Conf: 16.7%, Score: 40.6)
+    - Candidato: [188818] AEG Black Friday Black Box 2015 (Conf: 16.7%, Score: 40.6)
+    - Candidato: [69703] AEG Black Friday Black Box 2016 (Conf: 16.7%, Score: 40.6)
+    - Candidato: [442205] Aeon Trespass: Odyssey – Blackbeak Pursuer (Conf: 0.0%, Score: 23.4)
+    - Candidato: [467989] Agent Black (Conf: 16.7%, Score: 20.4)
+    - Candidato: [151173] The Agents: Black Ops (Conf: 16.7%, Score: 27.6)
+    - Candidato: [360329] Al Casino 6 Black Hearts (Conf: 16.7%, Score: 32.3)
+    - Candidato: [213815] All Things Zombie: Miniatures – Fade to Black (Conf: 16.7%, Score: 12.5)
+    - Candidato: [403989] Ancient Blood: The Order of Vampire Hunters – Black Rose Wars Rebirth Crossover (Conf: 50.0%, Score: 38.6)
+    - Candidato: [97848] Anima Tactics: Black Sun Box Set (Conf: 16.7%, Score: 40.6)
+    - Candidato: [114270] Anima Tactics: Samiel, The Black Lion (Conf: 16.7%, Score: 21.9)
+    - Candidato: [366585] Anno Domini: BLACK (Conf: 16.7%, Score: 18.2)
+    - Candidato: [368808] Answer This: Black (Conf: 16.7%, Score: 18.2)
+    - Candidato: [366786] Arcadia Quest: Black Newt (Conf: 16.7%, Score: 29.0)
+    - Candidato: [198522] Archer: Once You Go Blackmail... (Conf: 0.0%, Score: 21.2)
+    - Candidato: [37008] Arkham Horror: The Black Goat of the Woods Expansion (Conf: 16.7%, Score: 36.0)
+    - Candidato: [276291] Arkham Horror: The Card Game – Before the Black Throne: Mythos Pack (Conf: 16.7%, Score: 27.7)
+    - Candidato: [239330] Arkham Horror: The Card Game – Black Stars Rise: Mythos Pack (Conf: 16.7%, Score: 40.4)
+    - Candidato: [247404] Arkham Horror: The Card Game – To Fight the Black Wind Novella with Carolyn Fern Promo Cards (Conf: 16.7%, Score: 20.5)
+    - Candidato: [401153] Around the World with Black Emanuelle (Conf: 16.7%, Score: 29.3)
+GANADOR: ID 412687 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'DEI: Divide Et Impera' ---
+Estrategias: ['DEI: Divide Et Impera', 'Divide', 'DEI']
+  > Probando query: 'DEI: Divide Et Impera'
+    Encontrados 0 resultados.
+  > Probando query: 'Divide'
+    Encontrados 155 resultados.
+    - Candidato: [130037] 24 Game: Primer Multiply/Divide (Conf: 25.0%, Score: 36.0)
+    - Candidato: [147887] Allegiance: A Realm Divided (Conf: 25.0%, Score: 39.1)
+    - Candidato: [362438] BattleTech: Dominions Divided (Conf: 25.0%, Score: 37.5)
+    - Candidato: [136090] The Beggars Divide Game (Conf: 25.0%, Score: 46.5)
+    - Candidato: [62362] Brothers Divided: Skirmishes in the Gettysburg Campaign (Conf: 25.0%, Score: 40.5)
+    - Candidato: [356882] Build Divide (Conf: 25.0%, Score: 50.0)
+    - Candidato: [138338] Continental Divide (Conf: 25.0%, Score: 42.1)
+    - Candidato: [461585] D.E.I Divide et Impera: Heritage Mode expansion (Conf: 75.0%, Score: 60.6)
+    - Candidato: [286158] D.E.I.: Divide et Impera (Conf: 75.0%, Score: 95.2)
+    - Candidato: [424304] D.E.I.: Divide et Impera – Candy Boost Pack (Conf: 75.0%, Score: 67.8)
+    - Candidato: [370357] D.E.I.: Divide et Impera – Cash & Rad (Conf: 75.0%, Score: 78.4)
+    - Candidato: [377999] D.E.I.: Divide et Impera – Christmas in Old London (Conf: 75.0%, Score: 60.6)
+    - Candidato: [402706] D.E.I.: Divide et Impera – Faith & Anarchy (Conf: 75.0%, Score: 71.4)
+    - Candidato: [370361] D.E.I.: Divide et Impera – Mad & Max (Conf: 75.0%, Score: 80.0)
+    - Candidato: [370355] D.E.I.: Divide et Impera – Old London (Conf: 75.0%, Score: 75.5)
+    - Candidato: [370360] D.E.I.: Divide et Impera – Penny Boom (Conf: 75.0%, Score: 75.5)
+    - Candidato: [435917] D.E.I.: Divide et Impera – Talent Scout Promo Mission Card (Conf: 75.0%, Score: 54.1)
+    - Candidato: [370358] D.E.I.: Divide et Impera – The Citadel (Conf: 75.0%, Score: 74.1)
+    - Candidato: [370356] D.E.I.: Divide et Impera – White Death (Conf: 75.0%, Score: 74.1)
+    - Candidato: [447944] D.E.I: Divide et Impera – Ashes Special 11 Riot! Mini Expansion (Conf: 75.0%, Score: 50.6)
+    - Candidato: [431333] D.E.I: Divide et Impera – LMS 10th Anniversary Black Market Action Cards Promo (Conf: 75.0%, Score: 42.1)
+    - Candidato: [237972] DAR: Divide And Rule (Conf: 25.0%, Score: 51.3)
+    - Candidato: [15685] Diadochoi: A Divided Uncompleted Empire (Conf: 25.0%, Score: 48.3)
+    - Candidato: [453449] Divide (Conf: 25.0%, Score: 46.2)
+    - Candidato: [417980] Divide & Conker (Conf: 25.0%, Score: 54.5)
+GANADOR: ID 286158 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Roll Player : Extension Démons et Familiers Big Box VF' ---
+Estrategias: ['Roll Player : Extension Démons et Familiers Big Box VF', 'Roll Player', 'Roll Player :  Démons et Familiers  VF', 'Roll']
+  > Probando query: 'Roll Player : Extension Démons et Familiers Big Box VF'
+    Encontrados 0 resultados.
+  > Probando query: 'Roll Player :  Démons et Familiers  VF'
+    Encontrados 0 resultados.
+  > Probando query: 'Roll Player'
+    Encontrados 40 resultados.
+    - Candidato: [263918] Cartografii: O poveste în universul "Roll Player" (Conf: 33.3%, Score: 27.5)
+    - Candidato: [302884] Cartographers: A Roll Player Tale – Ambush Promo Pack (Conf: 33.3%, Score: 40.5)
+    - Candidato: [273353] Cartographers: A Roll Player Tale – Skills Mini Expansion (Conf: 33.3%, Score: 36.4)
+    - Candidato: [299561] Charge Stations: A Science Fiction Roll + Write War Game for 1 Player (Conf: 33.3%, Score: 22.0)
+    - Candidato: [240855] Lockup: A Roll Player Tale (Conf: 33.3%, Score: 44.1)
+    - Candidato: [169426] Roll Player (Conf: 33.3%, Score: 48.9)
+    - Candidato: [254708] Roll Player Adventures (Conf: 33.3%, Score: 57.1)
+    - Candidato: [372105] Roll Player Adventures: Gulpax's Secret (Conf: 33.3%, Score: 52.8)
+    - Candidato: [446722] Roll Player Adventures: Lost Characters Pack (Conf: 33.3%, Score: 62.3)
+    - Candidato: [312235] Roll Player Adventures: Nefras's Judgement (Conf: 33.3%, Score: 45.3)
+    - Candidato: [446720] Roll Player Adventures: Silver Threads of Fate (Conf: 33.3%, Score: 58.2)
+    - Candidato: [351928] Roll Player: 3 Card Promo Pack (Conf: 33.3%, Score: 54.0)
+    - Candidato: [287567] Roll Player: Cartographer Backstory Promo Card (Conf: 33.3%, Score: 45.6)
+    - Candidato: [214327] Roll Player: Cursed Ring Promo Card (Conf: 33.3%, Score: 52.9)
+    - Candidato: [255601] Roll Player: Fiends & Familiars (Conf: 50.0%, Score: 74.2)
+    - Candidato: [209484] Roll Player: Frogkin Promo Punchboard (Conf: 33.3%, Score: 48.6)
+    - Candidato: [288793] Roll Player: Lenticular Monster Cards Promo Pack (Conf: 33.3%, Score: 54.3)
+    - Candidato: [261336] Roll Player: Lockup Pack (Conf: 33.3%, Score: 52.6)
+    - Candidato: [269572] Roll Player: Minotaur Promo Punchboard (Conf: 33.3%, Score: 47.9)
+    - Candidato: [213360] Roll Player: Monsters & Minions (Conf: 33.3%, Score: 67.7)
+    - Candidato: [313054] Roll Player: Ring of Charity Promo Card (Conf: 33.3%, Score: 47.2)
+    - Candidato: [397212] Rolling Realms: Roll Player Promo Pack (Conf: 33.3%, Score: 45.1)
+    - Candidato: [302884] Cartographers: A Roll Player Tale – Ambush Promo Pack (Conf: 33.3%, Score: 40.5)
+    - Candidato: [273353] Cartographers: A Roll Player Tale – Skills Mini Expansion (Conf: 33.3%, Score: 36.4)
+    - Candidato: [372105] Roll Player Adventures: Gulpax's Secret (Conf: 33.3%, Score: 52.8)
+  > Probando query: 'Roll'
+    Encontrados 1811 resultados.
+    - Candidato: [320958] 1942 Flip Roll & Write (Conf: 16.7%, Score: 22.2)
+    - Candidato: [260218] 1st & Roll (Conf: 16.7%, Score: 19.0)
+    - Candidato: [462468] 24/7 Rally: Roll & Control (Conf: 16.7%, Score: 31.6)
+    - Candidato: [354050] A.E.G.I.S Wildmoves: Roll n' Fight (Conf: 16.7%, Score: 27.3)
+    - Candidato: [370965] AEGIS Roll Out! (Conf: 16.7%, Score: 29.2)
+    - Candidato: [313274] Alhambra: Roll & Write (Conf: 16.7%, Score: 22.6)
+    - Candidato: [264015] Altiplano: Rollenkarte Reiter (Conf: 0.0%, Score: 22.6)
+    - Candidato: [405866] Arctic Roll (Conf: 16.7%, Score: 17.8)
+    - Candidato: [14872] Ball-Roll (Conf: 16.7%, Score: 18.6)
+    - Candidato: [77221] Bank Roll (Conf: 16.7%, Score: 18.6)
+    - Candidato: [451427] BANK ROLL (Conf: 16.7%, Score: 18.6)
+    - Candidato: [452018] Bare Bones: High Roller Expansion Pack (Conf: 0.0%, Score: 33.8)
+    - Candidato: [274498] Base Roll (Conf: 16.7%, Score: 18.6)
+    - Candidato: [68948] Batalha Rock & Roll: Beta (Conf: 16.7%, Score: 28.6)
+    - Candidato: [259413] Battle Board Roller (Conf: 0.0%, Score: 22.6)
+    - Candidato: [172375] Battle Roll (Conf: 16.7%, Score: 17.8)
+    - Candidato: [194565] Battle Roller (Conf: 0.0%, Score: 25.5)
+    - Candidato: [352587] BattleTech: MapPack – Rolling Hills 1 (Conf: 0.0%, Score: 23.5)
+    - Candidato: [352585] BattleTech: MapPack – Rolling Hills 2 (Conf: 0.0%, Score: 23.5)
+    - Candidato: [60049] BattleTech: Rolling Thunder (Conf: 0.0%, Score: 23.3)
+    - Candidato: [29077] Bay City Rollers On Tour (Conf: 0.0%, Score: 27.6)
+    - Candidato: [451822] Beat the Parents: Let's Roll (Conf: 16.7%, Score: 13.1)
+    - Candidato: [21889] Beginning Language Roll & Learn Pocket Cubes (Conf: 16.7%, Score: 31.6)
+    - Candidato: [21886] Beginning Math Roll & Learn Pocket Cubes (Conf: 16.7%, Score: 33.3)
+    - Candidato: [445608] Behemoth: A Solo Roll-&-Write Boss Fight Game (Conf: 16.7%, Score: 39.5)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Roll Player : Extension Démons et Familiers Big Box VF
+    Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
