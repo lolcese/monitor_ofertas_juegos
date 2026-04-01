@@ -5908,3 +5908,19 @@ Estrategias: ['Roll Player : Extension Démons et Familiers Big Box VF', 'Roll P
     Fallo búsqueda Google: search() got an unexpected keyword argument 'num'
 FALLIDO: No se encontró ninguna coincidencia aceptable.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Binho Classic: U.S. Soccer Stripes Edition' ---
+Estrategias: ['Binho Classic: U.S. Soccer Stripes', 'Binho Classic', 'Binho Classic: U.S. Soccer Stripes Edition', 'Binho']
+  > Probando query: 'Binho Classic: U.S. Soccer Stripes Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Binho Classic: U.S. Soccer Stripes'
+    Encontrados 0 resultados.
+  > Probando query: 'Binho Classic'
+    Encontrados 1 resultados.
+    - Candidato: [301480] Biñho Classic (Conf: 33.3%, Score: 57.8)
+  > Probando query: 'Binho'
+    Encontrados 1 resultados.
+    - Candidato: [301480] Biñho Classic (Conf: 33.3%, Score: 57.8)
+  > Intentando búsqueda via Google (site:boardgamegeek.com)...
+    Query: site:boardgamegeek.com/boardgame Binho Classic: U.S. Soccer Stripes Edition
+FALLIDO: No se encontró ninguna coincidencia aceptable.
+--------------------------------------------------
