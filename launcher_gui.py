@@ -43,6 +43,10 @@ class ScraperLauncher:
         self.lbl_private = tk.Label(phili_frame, text="...", **self.style_date)
         self.lbl_private.grid(row=2, column=1, padx=5, sticky="w")
 
+        tk.Button(phili_frame, text="Précommandes", command=lambda: self.run_task("Philibert Pre-orders", ["python", "scraper_philibert.py", "preorder"]), bg="#16a085", fg="white", **self.style_btn).grid(row=3, column=0, pady=2, sticky="w")
+        self.lbl_phili_pre = tk.Label(phili_frame, text="...", **self.style_date)
+        self.lbl_phili_pre.grid(row=3, column=1, padx=5, sticky="w")
+
         planeton_frame = tk.LabelFrame(col1_frame, text="🇪🇸 Planeton Games", bg="#f0f2f5", font=("Arial", 11, "bold"), padx=10, pady=5)
         planeton_frame.pack(fill=tk.X, pady=5)
 
@@ -131,6 +135,7 @@ class ScraperLauncher:
             self.lbl_flash.config(text=f"Último: {dates.get('flash', 'N/A')}")
             self.lbl_occasion.config(text=f"Último: {dates.get('occasion', 'N/A')}")
             self.lbl_private.config(text=f"Último: {dates.get('private', 'N/A')}")
+            self.lbl_phili_pre.config(text=f"Último: {dates.get('preorder', 'N/A')}")
             
             self.lbl_mm_daily.config(text=f"Último: {dates.get('mm_daily', 'N/A')}")
             self.lbl_mm_sales.config(text=f"Último: {dates.get('mm_sales', 'N/A')}")
@@ -178,6 +183,7 @@ class ScraperLauncher:
             ("Philibert Flash", ["python", "scraper_philibert.py", "flash"]),
             ("Philibert Occasions", ["python", "scraper_philibert.py", "occasion"]),
             ("Philibert Private", ["python", "scraper_philibert.py", "private"]),
+            ("Philibert Pre-orders", ["python", "scraper_philibert.py", "preorder"]),
             ("MM Daily", ["python", "scraper_miniature_market.py", "daily"]),
             ("MM Sales", ["python", "scraper_miniature_market.py", "sales"]),
             ("MM Clearance", ["python", "scraper_miniature_market.py", "clearance"]),

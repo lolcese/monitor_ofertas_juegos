@@ -108,6 +108,8 @@ def generate_report(is_highlights_only=False):
             d.url, 
             CASE 
                 WHEN d.deal_source = 'mm_preorder' THEN 'mm_preorder'
+                WHEN d.deal_source = 'preorder' THEN 'preorder'
+                WHEN d.deal_source = 'planeton_preorder' THEN 'planeton_preorder'
                 WHEN d.deal_source LIKE 'mm_%%' THEN 'mm_deals'
                 WHEN d.deal_source IN ('flash', 'occasion', 'private') THEN d.deal_source
                 ELSE d.deal_source 
@@ -153,10 +155,13 @@ def generate_report(is_highlights_only=False):
             else:
                 st_counts['Philibert'] += 1
                 t_counts[src] = t_counts.get(src, 0) + 1
+        
+        # Conteo de Preventas Globales
+        pre_counts = t_counts.get('preorder', 0) + t_counts.get('mm_preorder', 0) + t_counts.get('planeton_preorder', 0)
     finally:
         conn.close()
                 
-    phili_lbls = {'flash': 'FLASH', 'occasion': 'OCCASION', 'private': 'PRIVÉE'}
+    phili_lbls = {'flash': 'FLASH', 'occasion': 'OCCASION', 'private': 'PRIVÉE', 'preorder': 'PRE-ORDRE'}
     mm_lbls = {
         'mm_daily': 'MM DEAL', 
         'mm_sales': 'MM SALES', 
@@ -206,6 +211,14 @@ def generate_report(is_highlights_only=False):
     if t_counts.get('planeton_preorder', 0) > 0:
         sum_h += f'<span class="badge-mm-preorder" onclick="filterByCategory(\'RESERVA\')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">RESERVAS: {t_counts["planeton_preorder"]}</span>'
     sum_h += '</div></div>'
+
+    # BOX DE PREVENTAS UNIFICADO (CUARTA COLUMNA)
+    if pre_counts > 0:
+        sum_h += f'<div style="background:#e8f8f5; border:2px solid #16a085; border-radius:12px; padding:15px; min-width:300px; text-align:center;">'
+        sum_h += f'<h3 style="margin-top:0; color:#16a085; font-size:1.1em; border-bottom:2px solid #16a085; padding-bottom:5px;">🚀 PREVENTAS GLOBALES ({pre_counts})</h3>'
+        sum_h += f'<div style="display:flex; justify-content:center; gap:5px; flex-wrap:wrap; margin-top:10px;">'
+        sum_h += f'<span class="badge-mm-preorder" onclick="filterByCategory(\'PREVENTA\')" style="cursor:pointer; padding: 8px 20px; border-radius:20px; font-weight:bold; font-size:1em;" title="Ver todas las preventas">VER TODO PREVENTA</span>'
+        sum_h += '</div></div>'
     
     sum_h += '</div><div style="text-align:center; margin-bottom:15px; display:flex; justify-content:center; gap:10px;">'
     sum_h += '<button onclick="filterByCategory(\'\')" style="background:#6c757d; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">Ver Todos</button>'
@@ -278,9 +291,11 @@ def generate_report(is_highlights_only=False):
         elif 'lastchance' in sl: sb = f'{mlogo}<span class="badge-mm-lastchance">LAST CHANCE</span>'
         elif 'markdown' in sl: sb = f'{mlogo}<span class="badge-mm-markdown">MARKDOWN</span>'
         elif 'preorder' in sl:
-            logo = '<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;">' if 'planeton' in sl else mlogo
-            text = 'RESERVA' if 'planeton' in sl else 'PRE-ORDER'
-            sb = f'{logo}<span class="badge-mm-preorder">{text}</span>'
+            is_phili = (sl == 'preorder')
+            logo = '<img src="assets/Logo_Philibert.png" style="height:18px; display:block; margin: 0 auto 3px auto;">' if is_phili else ('<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;">' if 'planeton' in sl else mlogo)
+            text = 'PRE-ORDRE' if is_phili else ('RESERVA' if 'planeton' in sl else 'PRE-ORDER')
+            # Agregamos "PREVENTA" al badge oculto para que el filtro global funcione
+            sb = f'{logo}<span class="badge-mm-preorder">{text}</span><span style="display:none;">PREVENTA</span>'
         elif 'planeton' in sl:
             sb = f'<img src="assets/planeton_logo.jpg" style="height:18px; display:block; margin: 0 auto 3px auto;"><span class="badge-planeton">PLANETON</span>'
         elif any(k in sl for k in ['miniature','mm_','daily','deals']): sb = f'{mlogo}<span class="badge-mm-deals">MM DEAL</span>'
@@ -321,7 +336,7 @@ def generate_report(is_highlights_only=False):
         rows.forEach(row => {
             rowData.push({
                 el: row,
-                text: row.innerText.toUpperCase(),
+                text: row.textContent.toUpperCase(),
                 isHighlight: row.getAttribute("data-highlight") === "true",
                 cells: Array.from(row.cells).map(c => c.getAttribute("data-sort") || c.textContent.trim())
             });

@@ -14,7 +14,8 @@ SITE_NAME = 'Philibert'
 SOURCES = {
     'flash': "https://www.philibertnet.com/fr/flash-sales",
     'occasion': "https://www.philibertnet.com/fr/214-occasions",
-    'private': "https://www.philibertnet.com/fr/15007-ventes-privees"
+    'private': "https://www.philibertnet.com/fr/15007-ventes-privees",
+    'preorder': "https://www.philibertnet.com/fr/578-precommandes"
 }
 
 def scrape_philibert(source_key):
@@ -161,4 +162,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         scrape_philibert(sys.argv[1])
     else:
-        print("Uso: python scraper_philibert.py [flash|occasion|private]")
+        print("Uso: python scraper_philibert.py [flash|occasion|private|preorder]")
