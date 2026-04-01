@@ -78,10 +78,16 @@ def save_deal(cursor, item_name, price, old_price, url, is_accessory, is_expansi
         clean_name = re.sub(r'[^a-zA-Z0-9_\-]', '_', item_name).lower()
         img_local = download_image(img_url, clean_name, source='philibert' if 'phili' in source.lower() else 'generic')
     
-    # Prevenir duplicados por URL (si el nombre cambió pero la URL es la misma)
+    # 1. Buscar si ya existe para conservar su fecha original de aparición
+    cursor.execute("SELECT date_first_seen FROM deals WHERE url = ? AND deal_source = ?", (url, source))
+    existing = cursor.fetchone()
+    first_seen = existing[0] if (existing and existing[0]) else today
+    
+    # 2. Prevenir duplicados por URL (si el nombre cambió pero la URL es la misma)
     cursor.execute("DELETE FROM deals WHERE url = ? AND deal_source = ?", (url, source))
     
-    cursor.execute("INSERT OR REPLACE INTO deals (item_name, price, old_price, url, date_found, is_accessory, is_expansion, deal_source, condition, image_local) VALUES (?,?,?,?,?,?,?,?,?,?)", (item_name, price, old_price, url, today, is_accessory, is_expansion, source, condition, img_local))
+    # 3. Guardar el deal, manteniendo la fecha original (o la de hoy si es nuevo)
+    cursor.execute("INSERT OR REPLACE INTO deals (item_name, price, old_price, url, date_found, is_accessory, is_expansion, deal_source, condition, image_local, date_first_seen) VALUES (?,?,?,?,?,?,?,?,?,?,?)", (item_name, price, old_price, url, today, is_accessory, is_expansion, source, condition, img_local, first_seen))
 
 def fetch_bgg_id(game_name, phili_url=None, source='match'):
     buffer = []
@@ -266,7 +272,11 @@ def init_db():
     conn = get_db_connection()
     try:
         with conn:
-            conn.execute('CREATE TABLE IF NOT EXISTS deals (item_name TEXT, price TEXT, old_price TEXT, url TEXT, date_found DATE, is_accessory INTEGER, is_expansion INTEGER, deal_source TEXT, condition TEXT, image_local TEXT, PRIMARY KEY (item_name, deal_source, date_found))')
+            conn.execute('CREATE TABLE IF NOT EXISTS deals (item_name TEXT, price TEXT, old_price TEXT, url TEXT, date_found DATE, is_accessory INTEGER, is_expansion INTEGER, deal_source TEXT, condition TEXT, image_local TEXT, date_first_seen DATE, PRIMARY KEY (item_name, deal_source, date_found))')
+            # Migración: Añadir columna si no existe
+            try: conn.execute('ALTER TABLE deals ADD COLUMN date_first_seen DATE')
+            except sqlite3.OperationalError: pass
+            
             conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (item_name TEXT PRIMARY KEY, bgg_id TEXT, confidence FLOAT, last_search DATE)')
             conn.execute('CREATE TABLE IF NOT EXISTS games (bgg_id TEXT PRIMARY KEY, name TEXT, rating TEXT, rank TEXT, type TEXT, last_updated DATE, language_dependency TEXT, original_name TEXT, weight TEXT, min_players INTEGER, max_players INTEGER, best_players TEXT)')
     finally:

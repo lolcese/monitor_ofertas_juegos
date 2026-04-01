@@ -126,7 +126,8 @@ def generate_report(is_highlights_only=False):
             IFNULL(g.max_players, 0) as max_p, 
             IFNULL(g.best_players, '-') as best_p, 
             d.image_local, 
-            MAX(d.date_found) as last_seen
+            MAX(d.date_found) as last_seen,
+            MAX(d.date_first_seen) as first_seen
         FROM deals d
         LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
         LEFT JOIN games g ON m.bgg_id = g.bgg_id
@@ -206,7 +207,10 @@ def generate_report(is_highlights_only=False):
         sum_h += f'<span class="badge-mm-preorder" onclick="filterByCategory(\'RESERVA\')" style="cursor:pointer; padding: 5px 12px; border-radius:6px; font-weight:bold; font-size:0.9em;" title="Click para filtrar">RESERVAS: {t_counts["planeton_preorder"]}</span>'
     sum_h += '</div></div>'
     
-    sum_h += '</div><div style="text-align:center; margin-bottom:15px;"><button onclick="filterByCategory(\'\')" style="background:#6c757d; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">Ver Todos los Resultados</button></div>'
+    sum_h += '</div><div style="text-align:center; margin-bottom:15px; display:flex; justify-content:center; gap:10px;">'
+    sum_h += '<button onclick="filterByCategory(\'\')" style="background:#6c757d; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">Ver Todos</button>'
+    sum_h += f'<button onclick="filterNew()" style="background:#27ae60; color:white; border:none; padding:5px 15px; border-radius:20px; cursor:pointer; font-weight:bold; font-size:0.85em;">✨ NUEVOS HOY</button>'
+    sum_h += '</div>'
     
     now_str = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     h_head = f"""<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><link rel="icon" type="image/png" href="assets/favicon.png"><title>{{title_text}}</title><style>
@@ -233,6 +237,8 @@ def generate_report(is_highlights_only=False):
     .badge-mm-markdown {{ background: #7f8c8d; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
     .badge-mm-preorder {{ background: #16a085; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
     .badge-planeton {{ background: #c0392b; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; white-space: nowrap; }}
+    .badge-new-deal {{ background: #27ae60; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; animation: pulse 2s infinite; }}
+    @keyframes pulse {{ 0% {{ opacity: 1; }} 50% {{ opacity: 0.7; }} 100% {{ opacity: 1; }} }}
     .type-base {{ color: #2980b9; font-weight: bold; font-size: 0.85em; }}
     .type-expansion {{ color: #d35400; font-weight: bold; font-size: 0.85em; }}
     .type-accessory {{ color: #7f8c8d; font-weight: bold; font-size: 0.85em; }}
@@ -254,8 +260,9 @@ def generate_report(is_highlights_only=False):
     plogo = '<img src="assets/Logo_Philibert.png" style="height:18px; display:block; margin: 0 auto 3px auto;">'
     mlogo = '<img src="assets/miniaturemarket_logo.jpeg" style="height:18px; display:block; margin: 0 auto 3px auto;">'
     
+    today_iso = datetime.date.today().isoformat()
     for row in rows:
-        p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type, g_wgt, min_p, max_p, best_p, img_local, last_seen = row
+        p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rating, b_rank, is_acc, is_exp, l_dep, o_name, g_type, g_wgt, min_p, max_p, best_p, img_local, last_seen, first_seen = row
         p_name = re.sub(r'\(Clearance\)|\(Last Chance\)| - Occasion', '', p_name, flags=re.I).strip()
         try:
             vn = float(p_price.replace('€','').replace('$','').replace(',','.').strip())
@@ -290,6 +297,11 @@ def generate_report(is_highlights_only=False):
         highlight_attr = 'data-highlight="true"' if is_highlight else 'data-highlight="false"'
         highlight_star = '⭐' if is_highlight else ''
 
+        # Lógica de Nuevo Hoy
+        is_new = (first_seen == today_iso)
+        new_attr = 'data-new="true"' if is_new else 'data-new="false"'
+        new_badge = '<span class="badge-new-deal" title="Apareció por primera vez hoy">¡NUEVO!</span> ' if is_new else ''
+
         if is_highlights_only and not is_highlight:
             continue
 
@@ -297,7 +309,7 @@ def generate_report(is_highlights_only=False):
         rat = b_rating if (b_rating and b_rating != "N/A" and b_rating != "Cargando...") else "-"
         rnk = f"#{b_rank}" if (b_rank and b_rank != "999999" and b_rank != "-") else "-"
         img_h = f'<img src="assets/images/{os.path.basename(img_local)}" class="game-img">' if img_local else '<div class="game-img" style="height:60px; background:#eee;"></div>'
-        h_body += f"""<tr {highlight_attr}><td class="center">{img_h}</td><td>{highlight_star}<a href="{p_url}" target="_blank">{p_name}</a></td><td>{cat}</td><td data-sort="{vn}"><span class="price-old">{p_old if (p_old and p_old not in ['0€','0$']) else ''}</span><br><span class="price-new">{p_price}</span></td><td class="center" data-sort="{disc}"><span class="discount-badge">-{disc}%</span></td><td class="center">{sb}</td><td><a href="https://boardgamegeek.com/boardgame/{b_id}" target="_blank">{o_name or b_name}</a></td><td class="center"><span class="lang-dep" style="background-color:{color_lang(LANG_MAPPING.get(l_dep, l_dep or '-'))}">{LANG_MAPPING.get(l_dep, l_dep or "-")}</span></td><td class="center"><span class="lang-dep" style="background-color:{color_weight(g_wgt)}; font-weight:bold;">{g_wgt or "N/A"}</span></td><td class="center">{f"{min_p}-{max_p}" if (min_p and min_p != max_p) else f"{min_p or '-'}"}</td><td class="center" data-sort="{rat if rat != 'Cargando...' else '0'}"><span class="rating">{rat}</span></td><td class="center" data-sort="{b_rank}"><b>{rnk if rnk != '#999999' else '-'}</b></td></tr>"""
+        h_body += f"""<tr {highlight_attr} {new_attr}><td class="center">{img_h}</td><td>{new_badge}{highlight_star}<a href="{p_url}" target="_blank">{p_name}</a></td><td>{cat}</td><td data-sort="{vn}"><span class="price-old">{p_old if (p_old and p_old not in ['0€','0$']) else ''}</span><br><span class="price-new">{p_price}</span></td><td class="center" data-sort="{disc}"><span class="discount-badge">-{disc}%</span></td><td class="center">{sb}</td><td><a href="https://boardgamegeek.com/boardgame/{b_id}" target="_blank">{o_name or b_name}</a></td><td class="center"><span class="lang-dep" style="background-color:{color_lang(LANG_MAPPING.get(l_dep, l_dep or '-'))}">{LANG_MAPPING.get(l_dep, l_dep or "-")}</span></td><td class="center"><span class="lang-dep" style="background-color:{color_weight(g_wgt)}; font-weight:bold;">{g_wgt or "N/A"}</span></td><td class="center">{f"{min_p}-{max_p}" if (min_p and min_p != max_p) else f"{min_p or '-'}"}</td><td class="center" data-sort="{rat if rat != 'Cargando...' else '0'}"><span class="rating">{rat}</span></td><td class="center" data-sort="{b_rank}"><b>{rnk if rnk != '#999999' else '-'}</b></td></tr>"""
     
     h_foot = """</tbody></table></div><script>
     var rowData = [];
@@ -320,6 +332,14 @@ def generate_report(is_highlights_only=False):
         document.getElementById("searchInput").value = "";
         rowData.forEach(item => {
             item.el.style.display = item.isHighlight ? "" : "none";
+        });
+    }
+
+    function filterNew() {
+        document.getElementById("searchInput").value = "";
+        rowData.forEach(item => {
+            var isNew = item.el.getAttribute("data-new") === "true";
+            item.el.style.display = isNew ? "" : "none";
         });
     }
 
