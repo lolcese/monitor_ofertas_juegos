@@ -301,12 +301,12 @@ def generate_report(is_highlights_only=False):
         elif any(k in sl for k in ['miniature','mm_','daily','deals']): sb = f'{mlogo}<span class="badge-mm-deals">MM DEAL</span>'
         else: sb = p_source
         
-        # Lógica de Highlights (para el filtro JS)
+        # Lógica de Highlights
         is_highlight = False
         try:
-            rat_f = float(rat) if (rat and rat != "-" and rat != "Cargando...") else 0
-            rnk_f = int(b_rank) if (b_rank and b_rank.isdigit()) else 999999
-            if rat_f >= 7.8 or rnk_f <= 1500 or disc >= 45:
+            rat_f = float(b_rating) if (b_rating and b_rating != "-" and b_rating != "N/A" and b_rating != "Cargando...") else 0
+            rnk_f = int(b_rank) if (b_rank and str(b_rank).isdigit()) else 999999
+            if rat_f >= 7.8 or (rnk_f <= 1500 and rnk_f > 0) or disc >= 45:
                 is_highlight = True
         except: pass
         highlight_attr = 'data-highlight="true"' if is_highlight else 'data-highlight="false"'
