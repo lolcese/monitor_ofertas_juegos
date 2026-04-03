@@ -97,13 +97,17 @@ def generate_report():
             IFNULL(g.original_name, d.item_name) as original_name, IFNULL(g.type, 'UNKNOWN') as bgg_type, 
             IFNULL(g.weight, 'N/A') as weight, IFNULL(g.min_players, 0) as min_p, 
             IFNULL(g.max_players, 0) as max_p, IFNULL(g.best_players, '-') as best_p, 
-            d.image_local, MAX(d.date_found) as last_seen, MAX(d.date_first_seen) as first_seen
+            d.image_local, d.date_found as last_seen, d.date_first_seen as first_seen
         FROM deals d
+        INNER JOIN (
+            SELECT deal_source, MAX(date_found) as latest_date 
+            FROM deals 
+            GROUP BY deal_source
+        ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
         LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
         LEFT JOIN games g ON m.bgg_id = g.bgg_id
-        WHERE d.date_found >= date('now', '-7 days')
-        AND (m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')
-        GROUP BY d.item_name
+        WHERE (m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')
+        GROUP BY d.item_name, d.deal_source
         ORDER BY CASE WHEN g.rank = '999999' OR g.rank = 'N/A' OR g.rank IS NULL THEN 1 ELSE 0 END, CAST(g.rank AS INTEGER) ASC
         """
         all_rows = c.execute(query).fetchall()
