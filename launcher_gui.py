@@ -5,12 +5,13 @@ import subprocess
 import threading
 import os
 import sys
+import webbrowser
 
 class ScraperLauncher:
     def __init__(self, root):
         self.root = root
         self.root.title("BGG DEAL MONITOR - Dashboard (Light)")
-        self.root.geometry("1100x700")
+        self.root.geometry("1150x750")
         self.root.configure(bg="#f8f9fa")
 
         # Configuración de colores (MODO CLARO)
@@ -22,11 +23,32 @@ class ScraperLauncher:
             "success": "#27ae60",
             "warning": "#f39c12",
             "danger": "#e74c3c",
-            "border": "#dee2e6"
+            "border": "#dee2e6",
+            "web": "#dee2e6"
         }
         
         self.style_btn = {"font": ("Segoe UI", 9, "bold"), "width": 18, "pady": 4, "cursor": "hand2", "relief": "flat"}
+        self.style_web = {"font": ("Segoe UI", 8, "bold"), "width": 5, "pady": 2, "cursor": "hand2", "relief": "flat", "bg": "#dee2e6", "fg": "#2c3e50"}
         self.style_date = {"font": ("Segoe UI", 8), "bg": "#ffffff", "fg": "#6c757d"}
+        
+        # Mapeo de URLs
+        self.URLS = {
+            'phili_flash': "https://www.philibertnet.com/fr/flash-sales",
+            'phili_occasion': "https://www.philibertnet.com/fr/214-occasions",
+            'phili_private': "https://www.philibertnet.com/fr/15007-ventes-privees",
+            'phili_preorder': "https://www.philibertnet.com/fr/578-precommandes",
+            'mm_daily': "https://www.miniaturemarket.com/dailydeal?properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_sales': "https://www.miniaturemarket.com/deals.html?properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_backrooms': "https://www.miniaturemarket.com/the-backrooms?properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_clearance': "https://www.miniaturemarket.com/deals/clearance.html?properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_gameon': "https://www.miniaturemarket.com/deals/game-on-weekend?properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_lastchance': "https://www.miniaturemarket.com/search?search=Last+Chance&properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_markdown': "https://www.miniaturemarket.com/search?search=Markdown&properties=019262c7e0db711a97a94030d6103aa9",
+            'mm_preorder': "https://www.miniaturemarket.com/search?search=Pre-order&properties=019262c7e0db711a97a94030d6103aa9",
+            'planeton': "https://www.planetongames.com/es/ofertas-195",
+            'planeton_preorder': "https://www.planetongames.com/es/proximamente-192",
+            'planeton_catalog': "https://www.planetongames.com/es/juegos-de-mesa-divertidos-10/s-1/idioma_del_juego-juegos_de_mesa_divertidos/en_stock-si"
+        }
         
         self.load_logos()
         
@@ -38,7 +60,7 @@ class ScraperLauncher:
         header_frame = tk.Frame(main_frame, bg=self.colors["bg"])
         header_frame.pack(fill=tk.X, pady=(0, 10))
         
-        tk.Label(header_frame, text="🛡️ BGG MONITOR", font=("Segoe UI", 20, "bold"), bg=self.colors["bg"], fg=self.colors["text"]).pack(side=tk.LEFT)
+        tk.Label(header_frame, text="BGG MONITOR", font=("Segoe UI", 20, "bold"), bg=self.colors["bg"], fg=self.colors["text"]).pack(side=tk.LEFT)
         self.status_ball = tk.Label(header_frame, text="●", font=("Arial", 14), bg=self.colors["bg"], fg=self.colors["success"])
         self.status_ball.pack(side=tk.RIGHT, padx=5)
         self.status_lbl = tk.Label(header_frame, text="SISTEMA LISTO", font=("Segoe UI", 10, "bold"), bg=self.colors["bg"], fg=self.colors["text"])
@@ -86,10 +108,14 @@ class ScraperLauncher:
                 self.logos[key] = ImageTk.PhotoImage(img)
             except: self.logos[key] = None
 
+    def visit_url(self, key):
+        url = self.URLS.get(key)
+        if url: webbrowser.open(url)
+
     def create_phili_card(self, parent):
         card = tk.LabelFrame(parent, text=" 🇫🇷 PHILIBERT ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
         card.pack(fill=tk.X, pady=(0, 10))
-        if self.logos["phili"]: tk.Label(card, image=self.logos["phili"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=2, pady=(0,5))
+        if self.logos["phili"]: tk.Label(card, image=self.logos["phili"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=3, pady=(0,5))
         
         tasks = [("FLASH Sales", "flash", "#f1c40f", "black", "lbl_flash"), ("Occasions", "occasion", "#8e44ad", "white", "lbl_occasion"), 
                  ("Ventes Privées", "private", "#2c3e50", "white", "lbl_private"), ("Précommandes", "preorder", "#16a085", "white", "lbl_phili_pre")]
@@ -97,36 +123,44 @@ class ScraperLauncher:
         for i, (txt, arg, bg, fg, lbl_attr) in enumerate(tasks):
             btn = tk.Button(card, text=txt, bg=bg, fg=fg, **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"Phili {t}", ["python", "scraper_philibert.py", a]))
             btn.grid(row=i+1, column=0, pady=2, sticky="w")
+            tk.Button(card, text="WEB", **self.style_web, command=lambda a=f"phili_{arg}": self.visit_url(a)).grid(row=i+1, column=1, padx=5)
             lbl = tk.Label(card, text="...", **self.style_date)
-            lbl.grid(row=i+1, column=1, padx=10, sticky="w")
+            lbl.grid(row=i+1, column=2, padx=10, sticky="w")
             setattr(self, lbl_attr, lbl)
 
     def create_planeton_card(self, parent):
         card = tk.LabelFrame(parent, text=" 🇪🇸 PLANETON ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
         card.pack(fill=tk.X)
-        if self.logos["planeton"]: tk.Label(card, image=self.logos["planeton"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=2, pady=(0,5))
+        if self.logos["planeton"]: tk.Label(card, image=self.logos["planeton"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=3, pady=(0,5))
         
         tk.Button(card, text="Ofertas", bg="#e74c3c", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Ofertas", ["python", "scraper_planeton.py"])).grid(row=1, column=0, pady=2, sticky="w")
-        self.lbl_planeton = tk.Label(card, text="...", **self.style_date); self.lbl_planeton.grid(row=1, column=1, padx=10, sticky="w")
+        tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton")).grid(row=1, column=1, padx=5)
+        self.lbl_planeton = tk.Label(card, text="...", **self.style_date); self.lbl_planeton.grid(row=1, column=2, padx=10, sticky="w")
         
         tk.Button(card, text="Próximamente", bg="#c0392b", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Próximamente", ["python", "scraper_planeton.py", "preorder"])).grid(row=2, column=0, pady=2, sticky="w")
-        self.lbl_planeton_pre = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_pre.grid(row=2, column=1, padx=10, sticky="w")
+        tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton_preorder")).grid(row=2, column=1, padx=5)
+        self.lbl_planeton_pre = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_pre.grid(row=2, column=2, padx=10, sticky="w")
 
         tk.Button(card, text="Catálogo Completo", bg="#3498db", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Catálogo", ["python", "scraper_planeton.py", "catalog"])).grid(row=3, column=0, pady=2, sticky="w")
-        self.lbl_planeton_cat = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_cat.grid(row=3, column=1, padx=10, sticky="w")
+        tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton_catalog")).grid(row=3, column=1, padx=5)
+        self.lbl_planeton_cat = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_cat.grid(row=3, column=2, padx=10, sticky="w")
 
     def create_mm_card(self, parent):
         card = tk.LabelFrame(parent, text=" 🇺🇸 MINIATURE MARKET ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
         card.pack(fill=tk.BOTH, expand=True)
-        if self.logos["mm"]: tk.Label(card, image=self.logos["mm"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=4, pady=(0,5))
+        if self.logos["mm"]: tk.Label(card, image=self.logos["mm"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=6, pady=(0,5))
         
         mm_tasks = [("Daily Deal", "daily", "#27ae60", "lbl_mm_daily"), ("All Sales", "sales", "#2980b9", "lbl_mm_sales"), 
                     ("The Backrooms", "backrooms", "#e67e22", "lbl_mm_backrooms"), ("Clearance", "clearance", "#c0392b", "lbl_mm_clearance"),
                     ("Game On", "gameon", "#34495e", "lbl_mm_gameon"), ("Last Chance", "lastchance", "#d35400", "lbl_mm_lastchance"),
                     ("Markdown", "markdown", "#7f8c8d", "lbl_mm_markdown"), ("Pre-orders", "preorder", "#16a085", "lbl_mm_preorder")]
         for i, (txt, arg, bg, lbl_attr) in enumerate(mm_tasks):
-            r, c = divmod(i, 2); btn = tk.Button(card, text=txt, bg=bg, fg="white", **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"MM {t}", ["python", "scraper_miniature_market.py", a]))
-            btn.grid(row=r+1, column=c*2, pady=3, padx=5, sticky="w"); lbl = tk.Label(card, text="...", **self.style_date); lbl.grid(row=r+1, column=c*2+1, padx=2, sticky="w")
+            r, c = divmod(i, 2)
+            btn = tk.Button(card, text=txt, bg=bg, fg="white", **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"MM {t}", ["python", "scraper_miniature_market.py", a]))
+            btn.grid(row=r+1, column=c*3, pady=3, padx=5, sticky="w")
+            tk.Button(card, text="WEB", **self.style_web, command=lambda a=f"mm_{arg}": self.visit_url(a)).grid(row=r+1, column=c*3+1, padx=2)
+            lbl = tk.Label(card, text="...", **self.style_date)
+            lbl.grid(row=r+1, column=c*3+2, padx=2, sticky="w")
             setattr(self, lbl_attr, lbl)
 
     def create_tools_panel(self, parent):
@@ -183,7 +217,6 @@ class ScraperLauncher:
         threading.Thread(target=worker, daemon=True).start()
 
     def run_all_scrapers(self):
-        # Definición de tareas para la sincronización total (EXCLUYE Catálogo Planeton por lentitud)
         tasks = [
             ("Phili Flash", ["python", "scraper_philibert.py", "flash"]),
             ("Phili Occasions", ["python", "scraper_philibert.py", "occasion"]),

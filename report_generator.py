@@ -90,24 +90,27 @@ def generate_report():
         c = conn.cursor()
         query = """
         SELECT 
-            d.item_name, d.price, d.old_price, d.url, d.deal_source,
-            IFNULL(g.name, d.item_name) as bgg_name, IFNULL(m.bgg_id, '0') as bgg_id, 
+            t.item_name, t.price, t.old_price, t.url, t.deal_source,
+            IFNULL(g.name, t.item_name) as bgg_name, IFNULL(m.bgg_id, '0') as bgg_id, 
             IFNULL(g.rating, 'N/A') as rating, IFNULL(g.rank, '999999') as rank, 
-            d.is_accessory, d.is_expansion, IFNULL(g.language_dependency, '-') as language_dependency, 
-            IFNULL(g.original_name, d.item_name) as original_name, IFNULL(g.type, 'UNKNOWN') as bgg_type, 
+            t.is_accessory, t.is_expansion, IFNULL(g.language_dependency, '-') as language_dependency, 
+            IFNULL(g.original_name, t.item_name) as original_name, IFNULL(g.type, 'UNKNOWN') as bgg_type, 
             IFNULL(g.weight, 'N/A') as weight, IFNULL(g.min_players, 0) as min_p, 
             IFNULL(g.max_players, 0) as max_p, IFNULL(g.best_players, '-') as best_p, 
-            d.image_local, d.date_found as last_seen, d.date_first_seen as first_seen
-        FROM deals d
-        INNER JOIN (
-            SELECT deal_source, MAX(date_found) as latest_date 
-            FROM deals 
-            GROUP BY deal_source
-        ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
-        LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
+            t.image_local, t.date_found as last_seen, t.date_first_seen as first_seen
+        FROM (
+            SELECT d.*, 
+                   ROW_NUMBER() OVER (PARTITION BY d.url ORDER BY CAST(REPLACE(REPLACE(d.price, '€', ''), '$', '') AS FLOAT) ASC) as rn
+            FROM deals d
+            INNER JOIN (
+                SELECT deal_source, MAX(date_found) as latest_date 
+                FROM deals 
+                GROUP BY deal_source
+            ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
+        ) t
+        LEFT JOIN bgg_mapping m ON t.item_name = m.item_name
         LEFT JOIN games g ON m.bgg_id = g.bgg_id
-        WHERE (m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')
-        GROUP BY d.item_name, d.deal_source
+        WHERE t.rn = 1 AND (m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')
         ORDER BY CASE WHEN g.rank = '999999' OR g.rank = 'N/A' OR g.rank IS NULL THEN 1 ELSE 0 END, CAST(g.rank AS INTEGER) ASC
         """
         all_rows = c.execute(query).fetchall()
