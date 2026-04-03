@@ -33,7 +33,7 @@ def scrape_mm(source_key):
     today = datetime.date.today().isoformat()
     source_tag = f"mm_{source_key}"
     
-    print(f"--- [INICIO] Scraping {SITE_NAME} {source_key.upper()} (Filtro Board Games) ---")
+    print(f"\n🚀 [MM] Iniciando sección: {source_key.upper()}")
     
     init_db()
     conn = get_db_connection()
@@ -44,22 +44,20 @@ def scrape_mm(source_key):
         conn.close()
 
     p = 1
-    # Aumentado el límite de páginas ya que 'sales' tiene miles de productos
     max_pages = 300 if source_key == 'sales' else 50
     
     while p < max_pages:
-        # Ajustar paginación según si ya hay parámetros
         if p == 1:
             url = url_base
         else:
             sep = "&" if "?" in url_base else "?"
             url = f"{url_base}{sep}p={p}"
             
-        print(f"Cargando página {p}: {url}")
+        print(f"▶️ [MM] Página {p} - Cargando...")
         try:
             res = requests.get(url, headers=HEADERS_GENERIC, timeout=15)
             if res.status_code != 200: 
-                print(f"Página no disponible (Status {res.status_code})")
+                print(f"❌ [MM] Página no disponible (Status {res.status_code})")
                 break
             
             soup = BeautifulSoup(res.content, 'html.parser')
@@ -103,14 +101,7 @@ def scrape_mm(source_key):
                 if any(k.lower() in name.lower() for k in IGNORE_KEYWORDS):
                     continue
 
-                print(f"   - Procesando: {name}")
-                search_name = name 
-                found_new = True
-                
-                p_new = p_new_tag.text.strip() if p_new_tag else "0$"
-                p_old = p_old_tag.text.strip() if p_old_tag else p_new
-
-                # Cache check
+                # CACHÉ / IGNORED CHECK (Antes de imprimir progreso)
                 conn = get_db_connection()
                 cached = None
                 try:
@@ -121,18 +112,58 @@ def scrape_mm(source_key):
                 finally:
                     conn.close()
 
-                if cached:
-                    id_b, conf = cached
-                else:
-                    id_b, conf = fetch_bgg_id(search_name, u, source=source_tag)
-                    conn = get_db_connection()
-                    try:
-                        with conn:
-                            conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)', (name, id_b, conf, today))
-                    finally:
-                        conn.close()
+                if cached and cached[0] == "IGNORED":
+                    continue
 
-                if id_b == "IGNORED": continue
+                print(f"   📦 [MM] Procesando: {name}")
+                search_name = name 
+                found_new = True
+                
+                # Precios
+                p_new = p_new_tag.text.strip() if p_new_tag else "0$"
+                p_old = p_old_tag.text.strip() if p_old_tag else p_new
+
+                # 5. Mapeo BGG - OPTIMIZACION TOTAL
+                id_b = None
+                conf = 0
+                
+                # Memoria Local
+                conn_c = get_db_connection()
+                try:
+                    m_res = conn_c.execute("SELECT bgg_id, confidence, candidate_id FROM bgg_mapping WHERE item_name = ?", (name,)).fetchone()
+                    if m_res:
+                        bid_c, conf_c, cand_c = m_res
+                        # Éxito previo: ID Real + Datos Games
+                        if str(bid_c).isdigit():
+                            g_res = conn_c.execute("SELECT bgg_id FROM games WHERE bgg_id = ?", (bid_c,)).fetchone()
+                            if g_res:
+                                id_b, conf = bid_c, conf_c
+                                # print(f"      [OK] Mapeado MM local: {id_b}")
+                        
+                        # Sugerencia previa: WAITING pero con Candidato
+                        if not id_b and cand_c:
+                            id_b, conf = (cand_c, conf_c) if (bid_c == 'WAITING' or bid_c == 'N/A') else (bid_c, conf_c)
+                finally: conn_c.close()
+
+                if not id_b:
+                    id_b, conf = fetch_bgg_id(search_name, u, source=source_tag)
+                    # Bajamos detalles solo si el match es de confianza
+                    if id_b and str(id_b).isdigit() and conf >= 95:
+                        fetch_details(id_b)
+
+                # Clasificación Segura
+                final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else 'WAITING'
+                cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
+                
+                # Actualizar Mapeo Central
+                conn_u = get_db_connection()
+                try:
+                    with conn_u:
+                        conn_u.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
+                finally: conn_u.close()
+                id_b = final_id
+
+                if id_b in ["IGNORED", "WAITING"]: continue
 
                 # Save
                 conn = get_db_connection()

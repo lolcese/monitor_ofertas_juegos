@@ -56,19 +56,40 @@ def norm_plain(s):
     s = re.sub(r'[^a-z0-9 ]', ' ', s)
     return " ".join(s.split())
 
+from PIL import Image
+from io import BytesIO
+
 def download_image(url, name, source='generic'):
     if not url: return None
+    # Usar siempre extensión .jpg para simplicidad en el sistema de guardado
     clean_name = re.sub(r'[^a-z0-9]', '_', name.lower())
     filename = f"{clean_name}.jpg"
-    path = os.path.join(IMG_DIR, filename)
-    if os.path.exists(path): return filename
+    final_path = os.path.join(IMG_DIR, filename)
+    
+    if os.path.exists(final_path): return filename
+    
     try:
-        res = requests.get(url, headers=HEADERS_GENERIC, stream=True, timeout=10)
+        res = requests.get(url, headers=HEADERS_GENERIC, timeout=10)
         if res.status_code == 200:
-            with open(path, 'wb') as f:
-                for chunk in res.iter_content(1024): f.write(chunk)
+            # Procesar imagen con Pillow
+            img = Image.open(BytesIO(res.content))
+            
+            # Convertir a RGB (por si es RGBA/PNG)
+            if img.mode in ("RGBA", "P"):
+                img = img.convert("RGB")
+            
+            # Redimensionar si es muy grande (máximo 200px de ancho para las miniaturas)
+            target_width = 200
+            if img.width > target_width:
+                w_percent = (target_width / float(img.width))
+                h_size = int((float(img.height) * float(w_percent)))
+                img = img.resize((target_width, h_size), Image.Resampling.LANCZOS)
+            
+            # Guardar con compresión JPEG
+            img.save(final_path, "JPEG", quality=70, optimize=True)
             return filename
-    except: pass
+    except Exception as e:
+        print(f"Error descargando/procesando imagen {url}: {e}")
     return None
 
 def save_deal(cursor, item_name, price, old_price, url, is_accessory, is_expansion, source, condition="", img_url=None):
@@ -91,9 +112,22 @@ def save_deal(cursor, item_name, price, old_price, url, is_accessory, is_expansi
 def fetch_bgg_id(game_name, phili_url=None, source='match'):
     buffer = []
     def log(m): buffer.append(m)
-    
-    log(f"--- INICIO BÚSQUEDA: '{game_name}' ---")
     url = "https://boardgamegeek.com/xmlapi2/search"
+    
+    # --- 0. CACHE LOCAL: Evitar buscar lo que ya conocemos ---
+    conn = get_db_connection()
+    try:
+        res_cache = conn.execute("SELECT bgg_id, confidence, candidate_id FROM bgg_mapping WHERE item_name = ?", (game_name,)).fetchone()
+        if res_cache:
+            bid, conf, cand = res_cache
+            # Solo devolvemos caché si es un ID firme (95%+) o está IGNORADO
+            if (str(bid).isdigit() and conf >= 95) or bid == 'IGNORED':
+                return bid, conf
+            # Si tiene un candidato pero no es firme, permitimos que el resto del código busque en Google
+    except: pass
+    finally: conn.close()
+
+    log(f"--- INICIO BÚSQUEDA: '{game_name}' ---")
     
     # 1. Limpieza inicial pulida
     name_clean = re.sub(r'\(.*?\)|\[.*?\]', '', game_name)
@@ -163,41 +197,12 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
             log(f"    ERROR: {str(e)}")
             continue
     
-    if best_confidence <= 50:
-        log(f"  > Intentando búsqueda via Google (site:boardgamegeek.com)...")
-        try:
-            from googlesearch import search
-            query = f'site:boardgamegeek.com/boardgame {game_name}'
-            log(f"    Query: {query}")
-            # Fix: googlesearch v3 uses 'num' instead of 'num_results', and 'stop' for total results
-            for url in search(query, num=5, stop=5, pause=2.0, lang="en"):
-                if 'boardgameaccessory' in url or 'rpgitem' in url:
-                    log(f"    SKIPPING Non-Game: {url}")
-                    continue
-                # Capturar ID desde URL tipo: .../boardgame/XXXXX/name
-                match = re.search(r'boardgame/(\d+)', url)
-                if match:
-                    g_id = match.group(1)
-                    log(f"    Encontrado ID via Google: {g_id} (URL: {url})")
-                    # Validamos el ID bajando sus detalles mínimos
-                    log(f"    Validando ID {g_id}...")
-                    details = fetch_details(g_id)
-                    if details and details[4] != "Unknown":
-                        best_item = g_id
-                        best_confidence = 85 # Confianza alta por Google + Validación
-                        log(f"    ID {g_id} validado correctamente.")
-                        break
-        except Exception as ge:
-            log(f"    Fallo búsqueda Google: {str(ge)}")
-
-    if best_item and best_confidence >= 60:
+    if best_item:
         log(f"GANADOR: ID {best_item} con {best_confidence:.1f}% confianza.")
     else:
-        best_item = None
-        log("FALLIDO: No se encontró ninguna coincidencia aceptable.")
+        log("FALLIDO: No se encontró ninguna coincidencia.")
     log("-" * 50)
     
-    # SOLO guardar en log si la confianza NO es 100%
     if best_confidence < 100:
         for m in buffer:
             log_search(m)
@@ -206,7 +211,7 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
 
 def fetch_details(bgg_id):
     if not bgg_id or bgg_id in ["IGNORED", "WAITING"] or not str(bgg_id).isdigit(): return "N/A", "999999", "Unknown", "-", "Unknown", "N/A", 0, 0, "-"
-    print(f"Bajando detalles BGG ID {bgg_id}...")
+    # print(f"Bajando detalles BGG ID {bgg_id}...")
     url = f"https://boardgamegeek.com/xmlapi2/thing?id={bgg_id}&stats=1"
     
     for attempt in range(3):
@@ -276,7 +281,8 @@ def init_db():
             try: conn.execute('ALTER TABLE deals ADD COLUMN date_first_seen DATE')
             except sqlite3.OperationalError: pass
             
-            conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (item_name TEXT PRIMARY KEY, bgg_id TEXT, confidence FLOAT, last_search DATE)')
+            conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (item_name TEXT PRIMARY KEY, bgg_id TEXT, confidence FLOAT, last_search DATE, candidate_id TEXT)')
             conn.execute('CREATE TABLE IF NOT EXISTS games (bgg_id TEXT PRIMARY KEY, name TEXT, rating TEXT, rank TEXT, type TEXT, last_updated DATE, language_dependency TEXT, original_name TEXT, weight TEXT, min_players INTEGER, max_players INTEGER, best_players TEXT)')
+            conn.execute('CREATE INDEX IF NOT EXISTS idx_mapping_name ON bgg_mapping(item_name)')
     finally:
         conn.close()

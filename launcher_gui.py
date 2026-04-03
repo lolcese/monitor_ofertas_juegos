@@ -1,5 +1,6 @@
 import tkinter as tk
-from tkinter import scrolledtext, messagebox
+from tkinter import scrolledtext, messagebox, ttk
+from PIL import Image, ImageTk
 import subprocess
 import threading
 import os
@@ -8,226 +9,218 @@ import sys
 class ScraperLauncher:
     def __init__(self, root):
         self.root = root
-        self.root.title("Monitor de Ofertas BGG - Panel de Control")
-        self.root.geometry("1100x680")
-        self.root.configure(bg="#f0f2f5")
+        self.root.title("BGG DEAL MONITOR - Dashboard (Light)")
+        self.root.geometry("1100x700")
+        self.root.configure(bg="#f8f9fa")
 
-        # Estilos
-        self.style_btn = {"font": ("Arial", 10, "bold"), "width": 20, "pady": 5}
-        self.style_date = {"font": ("Arial", 8), "bg": "#f0f2f5", "fg": "#7f8c8d"}
+        # Configuración de colores (MODO CLARO)
+        self.colors = {
+            "bg": "#f8f9fa",
+            "card": "#ffffff",
+            "text": "#2c3e50",
+            "accent": "#3498db",
+            "success": "#27ae60",
+            "warning": "#f39c12",
+            "danger": "#e74c3c",
+            "border": "#dee2e6"
+        }
         
-        # UI
-        main_frame = tk.Frame(root, bg="#f0f2f5")
-        main_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
-
-        # CONTENEDOR SUPERIOR (Tiendas)
-        top_frame = tk.Frame(main_frame, bg="#f0f2f5")
-        top_frame.pack(fill=tk.X, expand=False)
-
-        # Columna 1: Philibert + Planeton
-        col1_frame = tk.Frame(top_frame, bg="#f0f2f5")
-        col1_frame.pack(side=tk.LEFT, fill=tk.Y, padx=5)
-
-        phili_frame = tk.LabelFrame(col1_frame, text="🇫🇷 Philibert", bg="#f0f2f5", font=("Arial", 11, "bold"), padx=10, pady=5)
-        phili_frame.pack(fill=tk.X, pady=5)
+        self.style_btn = {"font": ("Segoe UI", 9, "bold"), "width": 18, "pady": 4, "cursor": "hand2", "relief": "flat"}
+        self.style_date = {"font": ("Segoe UI", 8), "bg": "#ffffff", "fg": "#6c757d"}
         
-        tk.Button(phili_frame, text="FLASH Sales", command=lambda: self.run_task("Philibert Flash", ["python", "scraper_philibert.py", "flash"]), bg="#f1c40f", **self.style_btn).grid(row=0, column=0, pady=2, sticky="w")
-        self.lbl_flash = tk.Label(phili_frame, text="...", **self.style_date)
-        self.lbl_flash.grid(row=0, column=1, padx=5, sticky="w")
-
-        tk.Button(phili_frame, text="Occasions", command=lambda: self.run_task("Philibert Occasions", ["python", "scraper_philibert.py", "occasion"]), bg="#9b59b6", fg="white", **self.style_btn).grid(row=1, column=0, pady=2, sticky="w")
-        self.lbl_occasion = tk.Label(phili_frame, text="...", **self.style_date)
-        self.lbl_occasion.grid(row=1, column=1, padx=5, sticky="w")
-
-        tk.Button(phili_frame, text="Ventes Privées", command=lambda: self.run_task("Philibert Private", ["python", "scraper_philibert.py", "private"]), bg="#2c3e50", fg="white", **self.style_btn).grid(row=2, column=0, pady=2, sticky="w")
-        self.lbl_private = tk.Label(phili_frame, text="...", **self.style_date)
-        self.lbl_private.grid(row=2, column=1, padx=5, sticky="w")
-
-        tk.Button(phili_frame, text="Précommandes", command=lambda: self.run_task("Philibert Pre-orders", ["python", "scraper_philibert.py", "preorder"]), bg="#16a085", fg="white", **self.style_btn).grid(row=3, column=0, pady=2, sticky="w")
-        self.lbl_phili_pre = tk.Label(phili_frame, text="...", **self.style_date)
-        self.lbl_phili_pre.grid(row=3, column=1, padx=5, sticky="w")
-
-        planeton_frame = tk.LabelFrame(col1_frame, text="🇪🇸 Planeton Games", bg="#f0f2f5", font=("Arial", 11, "bold"), padx=10, pady=5)
-        planeton_frame.pack(fill=tk.X, pady=5)
-
-        tk.Button(planeton_frame, text="Ofertas", command=lambda: self.run_task("Planeton Ofertas", ["python", "scraper_planeton.py"]), bg="#e74c3c", fg="white", **self.style_btn).grid(row=0, column=0, pady=2, sticky="w")
-        self.lbl_planeton = tk.Label(planeton_frame, text="...", **self.style_date)
-        self.lbl_planeton.grid(row=0, column=1, padx=5, sticky="w")
-
-        tk.Button(planeton_frame, text="Próximamente", command=lambda: self.run_task("Planeton Próximamente", ["python", "scraper_planeton.py", "preorder"]), bg="#c0392b", fg="white", **self.style_btn).grid(row=1, column=0, pady=2, sticky="w")
-        self.lbl_planeton_pre = tk.Label(planeton_frame, text="...", **self.style_date)
-        self.lbl_planeton_pre.grid(row=1, column=1, padx=5, sticky="w")
-
-        # Columna 2: Miniature Market (En 2 columnas internas)
-        mm_frame = tk.LabelFrame(top_frame, text="🇺🇸 Miniature Market", bg="#f0f2f5", font=("Arial", 11, "bold"), padx=10, pady=5)
-        mm_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
+        self.load_logos()
         
-        # MM Columna A
-        tk.Button(mm_frame, text="Daily Deal", command=lambda: self.run_task("MM Daily", ["python", "scraper_miniature_market.py", "daily"]), bg="#27ae60", fg="white", **self.style_btn).grid(row=0, column=0, pady=2, sticky="w")
-        self.lbl_mm_daily = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_daily.grid(row=0, column=1, padx=5, sticky="w")
+        # --- UI LAYOUT ---
+        main_frame = tk.Frame(root, bg=self.colors["bg"])
+        main_frame.pack(fill=tk.BOTH, expand=True, padx=15, pady=10)
 
-        tk.Button(mm_frame, text="All Sales", command=lambda: self.run_task("MM Sales", ["python", "scraper_miniature_market.py", "sales"]), bg="#2980b9", fg="white", **self.style_btn).grid(row=1, column=0, pady=2, sticky="w")
-        self.lbl_mm_sales = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_sales.grid(row=1, column=1, padx=5, sticky="w")
-
-        tk.Button(mm_frame, text="The Backrooms", command=lambda: self.run_task("The Backrooms", ["python", "scraper_miniature_market.py", "backrooms"]), bg="#e67e22", fg="white", **self.style_btn).grid(row=2, column=0, pady=2, sticky="w")
-        self.lbl_mm_backrooms = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_backrooms.grid(row=2, column=1, padx=5, sticky="w")
-
-        tk.Button(mm_frame, text="Clearance", command=lambda: self.run_task("MM Clearance", ["python", "scraper_miniature_market.py", "clearance"]), bg="#c0392b", fg="white", **self.style_btn).grid(row=3, column=0, pady=2, sticky="w")
-        self.lbl_mm_clearance = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_clearance.grid(row=3, column=1, padx=5, sticky="w")
-
-        # MM Columna B
-        tk.Button(mm_frame, text="Game On Weekend", command=lambda: self.run_task("Game On Weekend", ["python", "scraper_miniature_market.py", "gameon"]), bg="#34495e", fg="white", **self.style_btn).grid(row=0, column=2, pady=2, sticky="w")
-        self.lbl_mm_gameon = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_gameon.grid(row=0, column=3, padx=5, sticky="w")
-
-        tk.Button(mm_frame, text="Last Chance", command=lambda: self.run_task("MM Last Chance", ["python", "scraper_miniature_market.py", "lastchance"]), bg="#d35400", fg="white", **self.style_btn).grid(row=1, column=2, pady=2, sticky="w")
-        self.lbl_mm_lastchance = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_lastchance.grid(row=1, column=3, padx=5, sticky="w")
-
-        tk.Button(mm_frame, text="Markdown", command=lambda: self.run_task("MM Markdown", ["python", "scraper_miniature_market.py", "markdown"]), bg="#7f8c8d", fg="white", **self.style_btn).grid(row=2, column=2, pady=2, sticky="w")
-        self.lbl_mm_markdown = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_markdown.grid(row=2, column=3, padx=5, sticky="w")
-
-        tk.Button(mm_frame, text="Pre-orders", command=lambda: self.run_task("Pre-orders", ["python", "scraper_miniature_market.py", "preorder"]), bg="#16a085", fg="white", **self.style_btn).grid(row=3, column=2, pady=2, sticky="w")
-        self.lbl_mm_preorder = tk.Label(mm_frame, text="...", **self.style_date)
-        self.lbl_mm_preorder.grid(row=3, column=3, padx=5, sticky="w")
-
-        # CONTENEDOR INFERIOR (Herramientas + Log)
-        bottom_frame = tk.Frame(main_frame, bg="#f0f2f5")
-        bottom_frame.pack(fill=tk.BOTH, expand=True, pady=10)
-
-        tools_frame = tk.LabelFrame(bottom_frame, text="📊 Herramientas", bg="#f0f2f5", font=("Arial", 11, "bold"), padx=10, pady=5)
-        tools_frame.pack(side=tk.LEFT, fill=tk.Y, padx=5)
-
-        tk.Button(tools_frame, text="🚀 EJECUTAR TODO EL PROCESO", 
-                  command=self.run_all_scrapers, bg="#2ecc71", fg="white", font=("Arial", 10, "bold"), width=35, height=2).pack(pady=5)
+        # CABECERA
+        header_frame = tk.Frame(main_frame, bg=self.colors["bg"])
+        header_frame.pack(fill=tk.X, pady=(0, 10))
         
-        tk.Button(tools_frame, text="GENERAR REPORTE HTML", command=lambda: self.run_task("Reporte", ["python", "report_generator.py"]), bg="#3498db", fg="white", font=("Arial", 9, "bold"), width=35).pack(pady=2)
-        tk.Button(tools_frame, text="REPORTE OFERTAS FINALIZADAS", command=lambda: self.run_task("Reporte Inactivo", ["python", "generate_inactive_report.py"]), bg="#95a5a6", fg="white", font=("Arial", 9, "bold"), width=35).pack(pady=2)
-        tk.Button(tools_frame, text="GESTOR DE FALLOS BGG", command=lambda: self.run_task("Mapping", ["python", "manual_fix_gui.py"]), bg="#c0392b", fg="white", font=("Arial", 9, "bold"), width=35).pack(pady=2)
-        tk.Button(tools_frame, text="REINTENTAR COINCIDENCIAS", command=lambda: self.run_task("Re-procesar", ["python", "reprocess_failed_matches.py"]), bg="#2c3e50", fg="white", font=("Arial", 9, "bold"), width=35).pack(pady=2)
+        tk.Label(header_frame, text="🛡️ BGG MONITOR", font=("Segoe UI", 20, "bold"), bg=self.colors["bg"], fg=self.colors["text"]).pack(side=tk.LEFT)
+        self.status_ball = tk.Label(header_frame, text="●", font=("Arial", 14), bg=self.colors["bg"], fg=self.colors["success"])
+        self.status_ball.pack(side=tk.RIGHT, padx=5)
+        self.status_lbl = tk.Label(header_frame, text="SISTEMA LISTO", font=("Segoe UI", 10, "bold"), bg=self.colors["bg"], fg=self.colors["text"])
+        self.status_lbl.pack(side=tk.RIGHT)
 
-        # Consola Log (A la derecha de herramientas)
-        log_frame = tk.LabelFrame(bottom_frame, text="📝 Log de Actividad", bg="#f0f2f5", font=("Arial", 11, "bold"), padx=5, pady=5)
-        log_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5)
+        # ZONA DE TIENDAS
+        shops_container = tk.Frame(main_frame, bg=self.colors["bg"])
+        shops_container.pack(fill=tk.X, expand=False)
+        
+        col1 = tk.Frame(shops_container, bg=self.colors["bg"])
+        col1.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 10))
+        self.create_phili_card(col1)
+        self.create_planeton_card(col1)
 
-        self.log_area = scrolledtext.ScrolledText(log_frame, height=10, font=("Consolas", 9), bg="#1e1e1e", fg="#d4d4d4")
+        col2 = tk.Frame(shops_container, bg=self.colors["bg"])
+        col2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.create_mm_card(col2)
+
+        # ZONA INFERIOR
+        bottom_frame = tk.Frame(main_frame, bg=self.colors["bg"])
+        bottom_frame.pack(fill=tk.BOTH, expand=True, pady=(10, 0))
+
+        # HERRAMIENTAS
+        tools_frame = tk.LabelFrame(bottom_frame, text=" ACCIONES ", bg=self.colors["bg"], fg=self.colors["accent"], font=("Segoe UI", 10, "bold"), padx=10, pady=10, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
+        tools_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 10))
+        self.create_tools_panel(tools_frame)
+
+        # CONSOLA LOG
+        log_frame = tk.LabelFrame(bottom_frame, text=" REGISTRO ", bg=self.colors["bg"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=5, pady=5)
+        log_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        self.log_area = scrolledtext.ScrolledText(log_frame, height=5, font=("Consolas", 9), bg="#ffffff", fg="#495057", relief="flat", highlightthickness=1, highlightbackground="#dee2e6")
         self.log_area.pack(fill=tk.BOTH, expand=True)
 
-        self.status_lbl = tk.Label(root, text="Listo.", bd=1, relief=tk.SUNKEN, anchor=tk.W)
-        self.status_lbl.pack(side=tk.BOTTOM, fill=tk.X)
-
         self.update_sync_labels()
+
+    def load_logos(self):
+        self.logos = {}
+        assets_dir = os.path.join(os.path.dirname(__file__), "assets")
+        logo_files = {"phili": "Logo_Philibert.png", "mm": "miniaturemarket_logo.jpeg", "planeton": "planeton_logo.jpg"}
+        for key, name in logo_files.items():
+            try:
+                img = Image.open(os.path.join(assets_dir, name))
+                img.thumbnail((100, 30), Image.Resampling.LANCZOS)
+                self.logos[key] = ImageTk.PhotoImage(img)
+            except: self.logos[key] = None
+
+    def create_phili_card(self, parent):
+        card = tk.LabelFrame(parent, text=" 🇫🇷 PHILIBERT ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
+        card.pack(fill=tk.X, pady=(0, 10))
+        if self.logos["phili"]: tk.Label(card, image=self.logos["phili"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=2, pady=(0,5))
+        
+        tasks = [("FLASH Sales", "flash", "#f1c40f", "black", "lbl_flash"), ("Occasions", "occasion", "#8e44ad", "white", "lbl_occasion"), 
+                 ("Ventes Privées", "private", "#2c3e50", "white", "lbl_private"), ("Précommandes", "preorder", "#16a085", "white", "lbl_phili_pre")]
+        
+        for i, (txt, arg, bg, fg, lbl_attr) in enumerate(tasks):
+            btn = tk.Button(card, text=txt, bg=bg, fg=fg, **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"Phili {t}", ["python", "scraper_philibert.py", a]))
+            btn.grid(row=i+1, column=0, pady=2, sticky="w")
+            lbl = tk.Label(card, text="...", **self.style_date)
+            lbl.grid(row=i+1, column=1, padx=10, sticky="w")
+            setattr(self, lbl_attr, lbl)
+
+    def create_planeton_card(self, parent):
+        card = tk.LabelFrame(parent, text=" 🇪🇸 PLANETON ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
+        card.pack(fill=tk.X)
+        if self.logos["planeton"]: tk.Label(card, image=self.logos["planeton"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=2, pady=(0,5))
+        
+        tk.Button(card, text="Ofertas", bg="#e74c3c", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Ofertas", ["python", "scraper_planeton.py"])).grid(row=1, column=0, pady=2, sticky="w")
+        self.lbl_planeton = tk.Label(card, text="...", **self.style_date); self.lbl_planeton.grid(row=1, column=1, padx=10, sticky="w")
+        
+        tk.Button(card, text="Próximamente", bg="#c0392b", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Próximamente", ["python", "scraper_planeton.py", "preorder"])).grid(row=2, column=0, pady=2, sticky="w")
+        self.lbl_planeton_pre = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_pre.grid(row=2, column=1, padx=10, sticky="w")
+
+        tk.Button(card, text="Catálogo Completo", bg="#3498db", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Catálogo", ["python", "scraper_planeton.py", "catalog"])).grid(row=3, column=0, pady=2, sticky="w")
+        self.lbl_planeton_cat = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_cat.grid(row=3, column=1, padx=10, sticky="w")
+
+    def create_mm_card(self, parent):
+        card = tk.LabelFrame(parent, text=" 🇺🇸 MINIATURE MARKET ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
+        card.pack(fill=tk.BOTH, expand=True)
+        if self.logos["mm"]: tk.Label(card, image=self.logos["mm"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=4, pady=(0,5))
+        
+        mm_tasks = [("Daily Deal", "daily", "#27ae60", "lbl_mm_daily"), ("All Sales", "sales", "#2980b9", "lbl_mm_sales"), 
+                    ("The Backrooms", "backrooms", "#e67e22", "lbl_mm_backrooms"), ("Clearance", "clearance", "#c0392b", "lbl_mm_clearance"),
+                    ("Game On", "gameon", "#34495e", "lbl_mm_gameon"), ("Last Chance", "lastchance", "#d35400", "lbl_mm_lastchance"),
+                    ("Markdown", "markdown", "#7f8c8d", "lbl_mm_markdown"), ("Pre-orders", "preorder", "#16a085", "lbl_mm_preorder")]
+        for i, (txt, arg, bg, lbl_attr) in enumerate(mm_tasks):
+            r, c = divmod(i, 2); btn = tk.Button(card, text=txt, bg=bg, fg="white", **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"MM {t}", ["python", "scraper_miniature_market.py", a]))
+            btn.grid(row=r+1, column=c*2, pady=3, padx=5, sticky="w"); lbl = tk.Label(card, text="...", **self.style_date); lbl.grid(row=r+1, column=c*2+1, padx=2, sticky="w")
+            setattr(self, lbl_attr, lbl)
+
+    def create_tools_panel(self, parent):
+        tk.Button(parent, text="🚀 EJECUTAR TODO", bg=self.colors["success"], fg="white", font=("Segoe UI", 10, "bold"), relief="flat", height=2, cursor="hand2", command=self.run_all_scrapers).pack(fill=tk.X, pady=(0, 10))
+        
+        tool_row = tk.Frame(parent, bg=self.colors["bg"])
+        tool_row.pack(fill=tk.X)
+        tk.Button(tool_row, text="📊 REPORTE", bg=self.colors["accent"], fg="white", font=("Segoe UI", 8, "bold"), width=12, pady=6, relief="flat", command=lambda: self.run_task("Reporte", ["python", "report_generator.py"])).pack(side=tk.LEFT, expand=True, padx=1)
+        tk.Button(tool_row, text="🔧 GESTOR", bg="#e67e22", fg="white", font=("Segoe UI", 8, "bold"), width=12, pady=6, relief="flat", command=lambda: self.run_task("Mapping", ["python", "manual_fix_gui.py"])).pack(side=tk.LEFT, expand=True, padx=1)
+        tk.Button(tool_row, text="⌛ FIN", bg="#95a5a6", fg="white", font=("Segoe UI", 8, "bold"), width=10, pady=6, relief="flat", command=lambda: self.run_task("Reporte Inactivo", ["python", "generate_inactive_report.py"])).pack(side=tk.LEFT, expand=True, padx=1)
+
+        tk.Button(parent, text="🔄 REINICIAR MATCHES", bg="#6c757d", fg="white", font=("Segoe UI", 8, "bold"), relief="flat", pady=4, command=lambda: self.run_task("Re-procesar", ["python", "reprocess_failed_matches.py"])).pack(fill=tk.X, pady=(10, 2))
+        
+        tk.Label(parent, text="", bg=self.colors["bg"]).pack(expand=True)
+        tk.Button(parent, text="🌎 PUBLICAR GITHUB", bg="#10ac84", fg="white", font=("Segoe UI", 11, "bold"), height=2, relief="flat", cursor="hand2", command=lambda: self.run_task("GitHub Push", ["python", "deploy_to_github.py"])).pack(fill=tk.X)
 
     def update_sync_labels(self):
         try:
             from monitor_core import get_db_connection
             conn = get_db_connection()
-            rows = conn.execute("SELECT deal_source, MAX(date_found) FROM deals GROUP BY deal_source").fetchall()
-            conn.close()
-            
+            rows = conn.execute("SELECT deal_source, MAX(date_found) FROM deals GROUP BY deal_source").fetchall(); conn.close()
             dates = {row[0]: row[1] for row in rows}
-            
-            self.lbl_flash.config(text=f"Último: {dates.get('flash', 'N/A')}")
-            self.lbl_occasion.config(text=f"Último: {dates.get('occasion', 'N/A')}")
-            self.lbl_private.config(text=f"Último: {dates.get('private', 'N/A')}")
-            self.lbl_phili_pre.config(text=f"Último: {dates.get('preorder', 'N/A')}")
-            
-            self.lbl_mm_daily.config(text=f"Último: {dates.get('mm_daily', 'N/A')}")
-            self.lbl_mm_sales.config(text=f"Último: {dates.get('mm_sales', 'N/A')}")
-            self.lbl_mm_backrooms.config(text=f"Último: {dates.get('mm_backrooms', 'N/A')}")
-            self.lbl_mm_clearance.config(text=f"Último: {dates.get('mm_clearance', 'N/A')}")
-            self.lbl_mm_gameon.config(text=f"Último: {dates.get('mm_gameon', 'N/A')}")
-            self.lbl_mm_lastchance.config(text=f"Último: {dates.get('mm_lastchance', 'N/A')}")
-            self.lbl_mm_markdown.config(text=f"Último: {dates.get('mm_markdown', 'N/A')}")
-            self.lbl_mm_preorder.config(text=f"Último: {dates.get('mm_preorder', 'N/A')}")
-            self.lbl_planeton.config(text=f"Último: {dates.get('planeton', 'N/A')}")
-            self.lbl_planeton_pre.config(text=f"Último: {dates.get('planeton_preorder', 'N/A')}")
-        except Exception as e:
-            print(f"Error actualizando etiquetas: {e}")
+            mapping = {'flash': self.lbl_flash, 'occasion': self.lbl_occasion, 'private': self.lbl_private, 'preorder': self.lbl_phili_pre,
+                       'mm_daily': self.lbl_mm_daily, 'mm_sales': self.lbl_mm_sales, 'mm_backrooms': self.lbl_mm_backrooms, 'mm_clearance': self.lbl_mm_clearance, 
+                       'mm_gameon': self.lbl_mm_gameon, 'mm_lastchance': self.lbl_mm_lastchance, 'mm_markdown': self.lbl_mm_markdown, 'mm_preorder': self.lbl_mm_preorder,
+                       'planeton': self.lbl_planeton, 'planeton_preorder': self.lbl_planeton_pre, 'planeton_catalog': self.lbl_planeton_cat}
+            for key, lbl in mapping.items(): lbl.config(text=f"S: {dates.get(key, 'N/A')}")
+        except: pass
 
-    def log(self, text):
+    def log(self, text, clear=False):
+        if clear:
+            self.log_area.delete('1.0', tk.END)
         self.log_area.insert(tk.END, text + "\n")
         self.log_area.see(tk.END)
 
     def run_task(self, name, cmd):
         def worker():
-            self.root.after(0, lambda: self.status_lbl.config(text=f"Ejecutando: {name}..."))
-            self.log(f">>> Iniciando: {' '.join(cmd)}")
+            from datetime import datetime
+            self.root.after(0, lambda: self.status_lbl.config(text=f"TRABAJANDO...", fg=self.colors["warning"]))
+            self.root.after(0, lambda: self.status_ball.config(fg=self.colors["warning"]))
+            self.root.after(0, lambda: self.log(f"=== INICIO: {name.upper()} ({datetime.now().strftime('%H:%M:%S')}) ===", clear=True))
             try:
-                if cmd[0] == "python": cmd.insert(1, "-u")
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
-                for line in process.stdout:
-                    self.root.after(0, lambda l=line: self.log(l.strip()))
-                process.wait()
-                if process.returncode == 0:
-                    self.log(f"<<< Finalizado correctamente.")
-                    self.root.after(0, lambda: self.status_lbl.config(text="Tarea completada."))
-                else:
-                    self.log(f"<<< Finalizado con errores (Code: {process.returncode})")
-                    self.root.after(0, lambda: self.status_lbl.config(text="Error detectado."))
-                
-                # Actualizar etiquetas después de cualquier tarea
+                cmd_run = list(cmd)
+                if cmd_run[0] == "python": cmd_run.insert(1, "-u")
+                proc = subprocess.Popen(cmd_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
+                for line in proc.stdout: self.root.after(0, lambda l=line: self.log(l.strip()))
+                proc.wait()
+                self.root.after(0, lambda: self.log(f"\n=== FINALIZADO: {name.upper()} ({datetime.now().strftime('%H:%M:%S')}) ==="))
+                self.root.after(0, lambda: self.status_lbl.config(text="LISTO", fg=self.colors["text"]))
+                self.root.after(0, lambda: self.status_ball.config(fg=self.colors["success"]))
                 self.root.after(0, self.update_sync_labels)
             except Exception as e:
-                self.log(f"Error fatal: {str(e)}")
-                self.root.after(0, lambda: self.status_lbl.config(text="Error de ejecución."))
+                self.root.after(0, lambda ex=e: self.log(f"ERROR EN TAREA: {ex}"))
         threading.Thread(target=worker, daemon=True).start()
 
     def run_all_scrapers(self):
+        # Definición de tareas para la sincronización total (EXCLUYE Catálogo Planeton por lentitud)
         tasks = [
-            ("Philibert Flash", ["python", "scraper_philibert.py", "flash"]),
-            ("Philibert Occasions", ["python", "scraper_philibert.py", "occasion"]),
-            ("Philibert Private", ["python", "scraper_philibert.py", "private"]),
-            ("Philibert Pre-orders", ["python", "scraper_philibert.py", "preorder"]),
+            ("Phili Flash", ["python", "scraper_philibert.py", "flash"]),
+            ("Phili Occasions", ["python", "scraper_philibert.py", "occasion"]),
+            ("Phili Private", ["python", "scraper_philibert.py", "private"]),
+            ("Phili Preorder", ["python", "scraper_philibert.py", "preorder"]),
             ("MM Daily", ["python", "scraper_miniature_market.py", "daily"]),
             ("MM Sales", ["python", "scraper_miniature_market.py", "sales"]),
             ("MM Clearance", ["python", "scraper_miniature_market.py", "clearance"]),
-            ("MM Preorders", ["python", "scraper_miniature_market.py", "preorder"]),
+            ("MM GameOn", ["python", "scraper_miniature_market.py", "gameon"]),
+            ("MM LastChance", ["python", "scraper_miniature_market.py", "lastchance"]),
+            ("MM Markdown", ["python", "scraper_miniature_market.py", "markdown"]),
+            ("MM Preorder", ["python", "scraper_miniature_market.py", "preorder"]),
             ("Planeton Ofertas", ["python", "scraper_planeton.py"]),
-            ("Planeton Próximamente", ["python", "scraper_planeton.py", "preorder"]),
-            ("Generando Reporte", ["python", "report_generator.py"])
+            ("Planeton Preorder", ["python", "scraper_planeton.py", "preorder"]),
+            ("Reporte Final", ["python", "report_generator.py"])
         ]
-        
         def worker():
-            self.root.after(0, lambda: self.status_lbl.config(text="Ejecutando proceso completo..."))
-            self.log("="*60)
-            self.log(" INICIANDO SINCRONIZACIÓN GLOBAL ")
-            self.log("="*60)
+            from datetime import datetime
+            self.root.after(0, lambda: self.status_lbl.config(text="SINCRO GLOBAL", fg=self.colors["warning"]))
+            self.root.after(0, lambda: self.status_ball.config(fg=self.colors["warning"]))
+            self.root.after(0, lambda: self.log(f"=== INICIANDO SINCRONIZACION TOTAL ({datetime.now().strftime('%H:%M:%S')}) ===", clear=True))
             
             for name, cmd in tasks:
-                self.log(f"\n>>> [SECUENCIA] Iniciando: {name}")
                 try:
-                    # Insertar -u para salida sin buffer
+                    self.root.after(0, lambda n=name: self.log(f"\n--- PROCESANDO: {n} ---"))
                     cmd_to_run = list(cmd)
                     if cmd_to_run[0] == "python": cmd_to_run.insert(1, "-u")
-                    
-                    process = subprocess.Popen(cmd_to_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
-                    for line in process.stdout:
-                        self.root.after(0, lambda l=line: self.log(l.strip()))
-                    process.wait()
-                    
-                    if process.returncode == 0:
-                        self.log(f"--- {name} completado con éxito.")
-                    else:
-                        self.log(f"--- {name} finalizó con código {process.returncode}.")
-                    
-                    self.root.after(0, self.update_sync_labels)
+                    proc = subprocess.Popen(cmd_to_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
+                    for line in proc.stdout: self.root.after(0, lambda l=line: self.log(l.strip()))
+                    proc.wait(); self.root.after(0, self.update_sync_labels)
                 except Exception as e:
-                    self.log(f"Error en {name}: {str(e)}")
+                    self.root.after(0, lambda ex=e: self.log(f"Error en {name}: {ex}"))
             
-            self.log("\n" + "="*60)
-            self.log(" PROCESO GLOBAL FINALIZADO ")
-            self.log("="*60)
-            self.root.after(0, lambda: self.status_lbl.config(text="Proceso global terminado."))
-
+            self.root.after(0, lambda: self.log(f"\n=== SINCRONIZACION FINALIZADA ({datetime.now().strftime('%H:%M:%S')}) ==="))
+            self.root.after(0, lambda: self.status_lbl.config(text="LISTO", fg=self.colors["text"]))
+            self.root.after(0, lambda: self.status_ball.config(fg=self.colors["success"]))
         threading.Thread(target=worker, daemon=True).start()
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = ScraperLauncher(root)
-    root.mainloop()
+    root = tk.Tk(); app = ScraperLauncher(root); root.mainloop()

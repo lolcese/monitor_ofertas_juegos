@@ -1,66 +1,77 @@
 import sqlite3
+import os
 import re
-from monitor_core import get_db_connection, NOISE_RE
 
-def clean_db():
-    conn = get_db_connection()
-    cursor = conn.cursor()
+db_path = r'c:\Datos\Luis\bgg\monitor_ofertas_juegos\bgg_cache.db'
+if not os.path.exists(db_path):
+    print(f"Error: La DB {db_path} no existe.")
+    exit(1)
+
+def normalize_name(name):
+    # Reemplaza múltiples espacios por uno solo y quita espacios en extremos
+    if not name: return ""
+    return " ".join(str(name).split())
+
+conn = sqlite3.connect(db_path)
+c = conn.cursor()
+
+print("--- INICIANDO LIMPIEZA PROFUNDA DE NOMBRES ---")
+
+# 1. Limpieza de bgg_mapping (item_name es PRIMARY KEY)
+try:
+    mappings = c.execute("SELECT item_name, bgg_id, confidence, last_search, candidate_id FROM bgg_mapping").fetchall()
+    to_delete = []
+    to_update = []
     
-    # Patrones de ruido (incluyendo los nuevos añadidos)
-    # Algunos ya están en NOISE_RE pero para estar seguros los detallamos
-    PATS = [
-        r'\(Clearance\)', r'\(Last Chance\)', r'\(New Arrival\)', r'\(Preorder\)',
-        r' - Occasion', r'\s*CASE\s*\(\d+\)', r'\s*\d+(st|nd|rd|th)\s+edition',
-        r'\(.*?edition\)', r'\[.*?edition\]',
-        r'PREVENTA', r'RESERVALO', r'ver fecha'
-    ]
-    COMBINED = re.compile('|'.join(PATS), re.I)
+    seen_norm = {} # norm_name -> (original_name, bgg_id, conf)
     
-    print(">>> Iniciando limpieza profunda de nombres en la base de datos...")
-    
-    # 1. Obtener todos los mapeos actuales para evitar duplicados al renombrar
-    # (Si renombramos "Juego (Clearance)" a "Juego" y "Juego" ya existía)
-    mapping_changes = []
-    
-    # Primero Deals
-    print("   Limpiando tabla 'deals'...")
-    rows = cursor.execute("SELECT rowid, item_name FROM deals").fetchall()
-    d_count = 0
-    for rowid, name in rows:
-        new_name = COMBINED.sub('', name).strip()
-        new_name = " ".join(new_name.split()) # Quitar espacios dobles
-        if new_name != name:
-            try:
-                cursor.execute("UPDATE deals SET item_name = ? WHERE rowid = ?", (new_name, rowid))
-                d_count += 1
-            except sqlite3.IntegrityError:
-                # Colisión: ya existe un registro con el nombre limpio para esta fuente/fecha
-                cursor.execute("DELETE FROM deals WHERE rowid = ?", (rowid,))
+    for row in mappings:
+        orig = row[0]
+        norm = normalize_name(orig)
+        bid, conf, last, cand = row[1:]
+        
+        if norm not in seen_norm:
+            seen_norm[norm] = row
+            if norm != orig:
+                # No existe el normalizado, pero este tiene espacios raros -> Renombrar
+                to_update.append((norm, orig))
+        else:
+            # Duplicado encontrado!
+            prev_row = seen_norm[norm]
+            # Decidir cual es mejor (el que tenga ID numerico o mayor confianza)
+            prev_v = 100 if str(prev_row[1]).isdigit() else int(prev_row[2] or 0)
+            curr_v = 100 if str(bid).isdigit() else int(conf or 0)
             
-    # Luego BGG Mapping
-    print("   Limpiando tabla 'bgg_mapping' y unificando registros...")
-    m_count = 0
-    rows = cursor.execute("SELECT item_name, bgg_id, confidence, last_search FROM bgg_mapping").fetchall()
-    for name, b_id, conf, ls in rows:
-        new_name = COMBINED.sub('', name).strip()
-        new_name = " ".join(new_name.split())
-        if new_name != name:
-            # Intentar actualizar. Si falla por UNIQUE, nos quedamos con el mejor (el que ya existía o este)
-            try:
-                cursor.execute("UPDATE bgg_mapping SET item_name = ? WHERE item_name = ?", (new_name, name))
-                m_count += 1
-            except sqlite3.IntegrityError:
-                # Ya existe un registro con el nombre limpio. 
-                # Si el actual tiene ID pero el existente no, podríamos priorizar, 
-                # pero por simplicidad borramos el ruidoso para que mande el limpio.
-                cursor.execute("DELETE FROM bgg_mapping WHERE item_name = ?", (name,))
-                m_count += 1
+            if curr_v > prev_v:
+                # El nuevo es mejor, borramos el viejo y actualizamos el mapa
+                to_delete.append(prev_row[0])
+                seen_norm[norm] = row
+                if norm != orig: to_update.append((norm, orig))
+            else:
+                # El viejo es mejor, borramos este
+                to_delete.append(orig)
 
+    print(f"BGG MAPPING: {len(to_delete)} duplicados a borrar, {len(to_update)} nombres a limpiar.")
+    
+    for d in to_delete: c.execute("DELETE FROM bgg_mapping WHERE item_name = ?", (d,))
+    for n, o in to_update: 
+        try:
+            c.execute("UPDATE OR IGNORE bgg_mapping SET item_name = ? WHERE item_name = ?", (n, o))
+        except sqlite3.IntegrityError:
+            # Si al renombrar choca con otro, simplemente lo borramos (ya lo habremos consolidado en el paso anterior idealmente)
+            c.execute("DELETE FROM bgg_mapping WHERE item_name = ?", (o,))
+
+    # 2. Limpieza de DEALS (Actualizar nombres normalizados)
+    deals = c.execute("SELECT DISTINCT item_name FROM deals").fetchall()
+    for (d_name,) in deals:
+        n_name = normalize_name(d_name)
+        if n_name != d_name:
+            c.execute("UPDATE deals SET item_name = ? WHERE item_name = ?", (n_name, d_name))
+
+    print("Limpieza finalizada con éxito.")
     conn.commit()
+except Exception as e:
+    print(f"Error durante la limpieza: {e}")
+    conn.rollback()
+finally:
     conn.close()
-    print(f"\n>>> Limpieza finalizada.")
-    print(f"    - Deals actualizados: {d_count}")
-    print(f"    - Mappings unificados: {m_count}")
-
-if __name__ == "__main__":
-    clean_db()

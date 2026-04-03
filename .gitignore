@@ -5,9 +5,9 @@
 *.db-journal
 *.sqlite
 
-# Informes y Logs
-*.txt
-*.md
+# # Informes y Logs
+# *.txt
+# *.md
 
 # Python
 __pycache__/

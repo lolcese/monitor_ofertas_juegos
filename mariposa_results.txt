@@ -1,0 +1,9 @@
+
+--- [DEALS] ---
+('Maldición Mariposa - Juego escape Terror', '22,50\xa0€', '25,00\xa0€', '2026-04-02', 'planeton_catalog', None)
+
+--- [BGG MAPPING] ---
+('Maldición Mariposa - Juego escape Terror', 'WAITING', '2026-04-02', 40.0, '113294')
+
+--- [GAMES (BGG DATA)] ---
+No hay IDs numéricos mapeados para este juego aún.
