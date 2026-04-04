@@ -1,0 +1,327 @@
+--- INICIO BÚSQUEDA: 'Looney Tunes: Hunting Wabbits' ---
+Estrategias: ['Looney', 'Looney Tunes: Hunting Wabbits', 'Looney Tunes']
+  > Probando query: 'Looney Tunes: Hunting Wabbits'
+    Encontrados 0 resultados.
+  > Probando query: 'Looney Tunes'
+    Encontrados 36 resultados.
+    - Candidato: [17801] Looney  Tunes  4-Toon Race (Conf: 50.0%, Score: 61.5)
+    - Candidato: [39820] Looney Tunes (Conf: 50.0%, Score: 60.0)
+    - Candidato: [262316] Looney Tunes Balloon Game (Conf: 50.0%, Score: 60.4)
+    - Candidato: [2394] Looney Tunes Dominoes (Conf: 50.0%, Score: 65.3)
+    - Candidato: [21389] Looney Tunes Happy Families (Conf: 50.0%, Score: 61.8)
+    - Candidato: [54895] Looney Tunes Interactive Quiz (Conf: 50.0%, Score: 63.2)
+    - Candidato: [85827] Looney Tunes Mastermind Towers (Conf: 50.0%, Score: 65.5)
+    - Candidato: [328862] Looney Tunes Mayhem (Conf: 50.0%, Score: 59.6)
+    - Candidato: [369952] Looney Tunes Mayhem Extras (Conf: 50.0%, Score: 63.0)
+    - Candidato: [369953] Looney Tunes Mayhem: 4-Figure Pack (Conf: 50.0%, Score: 55.7)
+    - Candidato: [10799] Looney Tunes Odd Card Out (Conf: 50.0%, Score: 56.6)
+    - Candidato: [188572] The Looney Tunes Show Run Tweety Run Game (Conf: 50.0%, Score: 58.0)
+    - Candidato: [10231] Looney Tunes Smush 'Em (Conf: 50.0%, Score: 61.2)
+    - Candidato: [2120] Looney Tunes Trading Card Game (Conf: 50.0%, Score: 65.5)
+    - Candidato: [363055] Looney Tunes: Looney Boom (Conf: 50.0%, Score: 61.5)
+    - Candidato: [3020] Monopoly: Looney Tunes (Conf: 50.0%, Score: 49.0)
+    - Candidato: [192322] Rory's Story Cubes: Looney Tunes (Conf: 50.0%, Score: 40.7)
+    - Candidato: [452919] Turista Americano Looney Tunes (Conf: 50.0%, Score: 41.4)
+    - Candidato: [369952] Looney Tunes Mayhem Extras (Conf: 50.0%, Score: 63.0)
+    - Candidato: [369953] Looney Tunes Mayhem: 4-Figure Pack (Conf: 50.0%, Score: 55.7)
+  > Probando query: 'Looney'
+    Encontrados 54 resultados.
+    - Candidato: [305323] Choose One!: Fluxx or Looney Pyramids (Conf: 25.0%, Score: 25.4)
+    - Candidato: [44489] Fluxx: Andy Looney Promo Card (Conf: 25.0%, Score: 32.1)
+    - Candidato: [17801] Looney  Tunes  4-Toon Race (Conf: 50.0%, Score: 61.5)
+    - Candidato: [18730] Looney Bin (Conf: 25.0%, Score: 47.4)
+    - Candidato: [38328] The Looney Bin (Conf: 25.0%, Score: 42.9)
+    - Candidato: [42270] Looney Bin: The North Wing (Conf: 25.0%, Score: 49.1)
+    - Candidato: [460032] Looney Dejarik (Conf: 25.0%, Score: 42.9)
+    - Candidato: [152424] Looney Labs Mammoth Fun Pack (Conf: 25.0%, Score: 42.9)
+    - Candidato: [21663] Looney Laundry (Conf: 25.0%, Score: 42.9)
+    - Candidato: [318] Looney Leo (Conf: 25.0%, Score: 42.1)
+    - Candidato: [25423] Looney Ludo (Conf: 25.0%, Score: 41.0)
+    - Candidato: [39820] Looney Tunes (Conf: 50.0%, Score: 60.0)
+    - Candidato: [262316] Looney Tunes Balloon Game (Conf: 50.0%, Score: 60.4)
+    - Candidato: [2394] Looney Tunes Dominoes (Conf: 50.0%, Score: 65.3)
+    - Candidato: [21389] Looney Tunes Happy Families (Conf: 50.0%, Score: 61.8)
+    - Candidato: [54895] Looney Tunes Interactive Quiz (Conf: 50.0%, Score: 63.2)
+    - Candidato: [85827] Looney Tunes Mastermind Towers (Conf: 50.0%, Score: 65.5)
+    - Candidato: [328862] Looney Tunes Mayhem (Conf: 50.0%, Score: 59.6)
+    - Candidato: [369952] Looney Tunes Mayhem Extras (Conf: 50.0%, Score: 63.0)
+    - Candidato: [369953] Looney Tunes Mayhem: 4-Figure Pack (Conf: 50.0%, Score: 55.7)
+    - Candidato: [10799] Looney Tunes Odd Card Out (Conf: 50.0%, Score: 56.6)
+    - Candidato: [188572] The Looney Tunes Show Run Tweety Run Game (Conf: 50.0%, Score: 58.0)
+    - Candidato: [10231] Looney Tunes Smush 'Em (Conf: 50.0%, Score: 61.2)
+    - Candidato: [2120] Looney Tunes Trading Card Game (Conf: 50.0%, Score: 65.5)
+    - Candidato: [363055] Looney Tunes: Looney Boom (Conf: 50.0%, Score: 61.5)
+GANADOR: ID 85827 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Game of Thrones: Masters of Intrigue' ---
+Estrategias: ['of Thrones', 'Thrones', 'of Thrones: Masters of Intrigue', 'Game of Thrones: Masters of Intrigue']
+  > Probando query: 'Game of Thrones: Masters of Intrigue'
+    Encontrados 0 resultados.
+  > Probando query: 'of Thrones: Masters of Intrigue'
+    Encontrados 0 resultados.
+  > Probando query: 'of Thrones'
+    Encontrados 488 resultados.
+    - Candidato: [151709] 4 Thrones (Conf: 25.0%, Score: 41.0)
+    - Candidato: [198328] Clue: Game of Thrones (Conf: 50.0%, Score: 40.0)
+    - Candidato: [363759] Deathly Thrones (Conf: 25.0%, Score: 35.6)
+    - Candidato: [329544] Flip-it: Musical Thrones (Conf: 25.0%, Score: 34.0)
+    - Candidato: [313292] Funkoverse Strategy Game: Game of Thrones 100 (Conf: 50.0%, Score: 29.7)
+    - Candidato: [6472] A Game of Thrones (Conf: 50.0%, Score: 42.6)
+    - Candidato: [4286] A Game of Thrones Collectible Card Game (Conf: 50.0%, Score: 37.7)
+    - Candidato: [310049] Game of Thrones Trivia Game: Seasons 5-8 Expansion (Conf: 50.0%, Score: 40.5)
+    - Candidato: [10873] A Game of Thrones: A Clash of Kings Expansion (Conf: 50.0%, Score: 54.1)
+    - Candidato: [19400] A Game of Thrones: A Storm of Swords Expansion (Conf: 50.0%, Score: 56.0)
+    - Candidato: [346199] A Game of Thrones: B'Twixt (Conf: 50.0%, Score: 50.9)
+    - Candidato: [229218] A Game of Thrones: Catan – Brotherhood of the Watch (Conf: 50.0%, Score: 53.8)
+    - Candidato: [259396] A Game of Thrones: Catan – Brotherhood of the Watch: 5-6 Player Extension (Conf: 50.0%, Score: 42.4)
+    - Candidato: [282492] A Game of Thrones: Catan – Brotherhood of the Watch: Bran Stark Promo (Conf: 50.0%, Score: 46.3)
+    - Candidato: [279058] A Game of Thrones: Catan – Brotherhood of the Watch: Hodor Promo (Conf: 50.0%, Score: 46.7)
+    - Candidato: [264009] A Game of Thrones: Catan – Brotherhood of the Watch: Minor Houses of the North Promo (Conf: 50.0%, Score: 41.8)
+    - Candidato: [205610] A Game of Thrones: Hand of the King (Conf: 50.0%, Score: 59.4)
+    - Candidato: [275530] Game of Thrones: Oathbreaker (Conf: 50.0%, Score: 52.6)
+    - Candidato: [283370] Game of Thrones: Oathbreaker – Jon Snow/Sansa Stark Character Board (Conf: 50.0%, Score: 40.4)
+    - Candidato: [103343] A Game of Thrones: The Board Game (Second Edition) (Conf: 50.0%, Score: 41.6)
+    - Candidato: [124693] A Game of Thrones: The Board Game (Second Edition) – A Dance with Dragons (Conf: 50.0%, Score: 28.6)
+    - Candidato: [140261] A Game of Thrones: The Board Game (Second Edition) – A Feast for Crows (Conf: 50.0%, Score: 35.8)
+    - Candidato: [257496] A Game of Thrones: The Board Game (Second Edition) – Mother of Dragons (Conf: 50.0%, Score: 44.2)
+    - Candidato: [39953] A Game of Thrones: The Card Game (Conf: 50.0%, Score: 42.6)
+    - Candidato: [129976] Game of Thrones: The Card Game (Conf: 50.0%, Score: 44.1)
+  > Probando query: 'Thrones'
+    Encontrados 488 resultados.
+    - Candidato: [151709] 4 Thrones (Conf: 25.0%, Score: 41.0)
+    - Candidato: [198328] Clue: Game of Thrones (Conf: 50.0%, Score: 40.0)
+    - Candidato: [363759] Deathly Thrones (Conf: 25.0%, Score: 35.6)
+    - Candidato: [329544] Flip-it: Musical Thrones (Conf: 25.0%, Score: 34.0)
+    - Candidato: [313292] Funkoverse Strategy Game: Game of Thrones 100 (Conf: 50.0%, Score: 29.7)
+    - Candidato: [6472] A Game of Thrones (Conf: 50.0%, Score: 42.6)
+    - Candidato: [4286] A Game of Thrones Collectible Card Game (Conf: 50.0%, Score: 37.7)
+    - Candidato: [310049] Game of Thrones Trivia Game: Seasons 5-8 Expansion (Conf: 50.0%, Score: 40.5)
+    - Candidato: [10873] A Game of Thrones: A Clash of Kings Expansion (Conf: 50.0%, Score: 54.1)
+    - Candidato: [19400] A Game of Thrones: A Storm of Swords Expansion (Conf: 50.0%, Score: 56.0)
+    - Candidato: [346199] A Game of Thrones: B'Twixt (Conf: 50.0%, Score: 50.9)
+    - Candidato: [229218] A Game of Thrones: Catan – Brotherhood of the Watch (Conf: 50.0%, Score: 53.8)
+    - Candidato: [259396] A Game of Thrones: Catan – Brotherhood of the Watch: 5-6 Player Extension (Conf: 50.0%, Score: 42.4)
+    - Candidato: [282492] A Game of Thrones: Catan – Brotherhood of the Watch: Bran Stark Promo (Conf: 50.0%, Score: 46.3)
+    - Candidato: [279058] A Game of Thrones: Catan – Brotherhood of the Watch: Hodor Promo (Conf: 50.0%, Score: 46.7)
+    - Candidato: [264009] A Game of Thrones: Catan – Brotherhood of the Watch: Minor Houses of the North Promo (Conf: 50.0%, Score: 41.8)
+    - Candidato: [205610] A Game of Thrones: Hand of the King (Conf: 50.0%, Score: 59.4)
+    - Candidato: [275530] Game of Thrones: Oathbreaker (Conf: 50.0%, Score: 52.6)
+    - Candidato: [283370] Game of Thrones: Oathbreaker – Jon Snow/Sansa Stark Character Board (Conf: 50.0%, Score: 40.4)
+    - Candidato: [103343] A Game of Thrones: The Board Game (Second Edition) (Conf: 50.0%, Score: 41.6)
+    - Candidato: [124693] A Game of Thrones: The Board Game (Second Edition) – A Dance with Dragons (Conf: 50.0%, Score: 28.6)
+    - Candidato: [140261] A Game of Thrones: The Board Game (Second Edition) – A Feast for Crows (Conf: 50.0%, Score: 35.8)
+    - Candidato: [257496] A Game of Thrones: The Board Game (Second Edition) – Mother of Dragons (Conf: 50.0%, Score: 44.2)
+    - Candidato: [39953] A Game of Thrones: The Card Game (Conf: 50.0%, Score: 42.6)
+    - Candidato: [129976] Game of Thrones: The Card Game (Conf: 50.0%, Score: 44.1)
+GANADOR: ID 205610 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars 2E: Thornhold Drey Faction Deck' ---
+Estrategias: ['Summoner Wars 2E', 'Summoner Wars 2E: Thornhold Drey Faction Deck', 'Summoner']
+  > Probando query: 'Summoner Wars 2E: Thornhold Drey Faction Deck'
+    Encontrados 0 resultados.
+  > Probando query: 'Summoner Wars 2E'
+    Encontrados 1 resultados.
+    - Candidato: [332800] Summoner Wars (2e édition): Master Set (Conf: 42.9%, Score: 60.8)
+  > Probando query: 'Summoner'
+    Encontrados 271 resultados.
+    - Candidato: [191660] Age of Summoners (Conf: 14.3%, Score: 30.0)
+    - Candidato: [426344] Aventuria: Summoner of the Elements (Conf: 14.3%, Score: 35.9)
+    - Candidato: [182617] BattleCON: Takeshi Weapon Summoner (Conf: 14.3%, Score: 20.8)
+    - Candidato: [69092] Chezz Tactic Summoner Master (Conf: 14.3%, Score: 30.6)
+    - Candidato: [423389] Demon Summoner (Conf: 14.3%, Score: 27.6)
+    - Candidato: [252544] Dice Summoners (Conf: 14.3%, Score: 31.0)
+    - Candidato: [464218] Dragon Summoners (Conf: 14.3%, Score: 30.0)
+    - Candidato: [150513] Dwarven Miner: Summoner Patron Card (Conf: 14.3%, Score: 38.5)
+    - Candidato: [356370] グレート・サマナー (Great Summoner) (Conf: 14.3%, Score: 27.6)
+    - Candidato: [380337] Llamas Unleased: Llama Summoner Promo Card (Conf: 14.3%, Score: 28.2)
+    - Candidato: [453087] Not Enough Mana: Spellsmiths & Summoners (Conf: 14.3%, Score: 22.2)
+    - Candidato: [255383] Overworld: Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [217385] Pathfinder Adventure Card Game: Class Deck – Summoner (Conf: 28.6%, Score: 17.0)
+    - Candidato: [415128] Piri Piri Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [173959] The Red Dragon Inn: Allies – Zariah the Summoner (Conf: 14.3%, Score: 18.0)
+    - Candidato: [262222] Six Sided Summoner (Conf: 14.3%, Score: 25.8)
+    - Candidato: [381197] Six Sided Summoner (Conf: 14.3%, Score: 25.8)
+    - Candidato: [205798] The Summoner (Conf: 14.3%, Score: 28.6)
+    - Candidato: [345098] Summoner Duel (Conf: 14.3%, Score: 38.6)
+    - Candidato: [33869] Summoner Master (Conf: 14.3%, Score: 37.3)
+    - Candidato: [41144] Summoner Trinity (Conf: 14.3%, Score: 40.0)
+    - Candidato: [58281] Summoner Wars (Conf: 28.6%, Score: 45.6)
+    - Candidato: [332800] Summoner Wars (Second Edition) (Conf: 28.6%, Score: 66.7)
+    - Candidato: [376864] Summoner Wars (Second Edition): Ashia the Silent Promo Card (Conf: 28.6%, Score: 52.0)
+    - Candidato: [374552] Summoner Wars (Second Edition): Blacksaber Promo Card (Conf: 28.6%, Score: 57.4)
+GANADOR: ID 332800 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck' ---
+Estrategias: ['Summoner Wars 2E: Moonsteppe Wolves Faction Deck', 'Summoner Wars 2E', 'Summoner']
+  > Probando query: 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck'
+    Encontrados 0 resultados.
+  > Probando query: 'Summoner Wars 2E'
+    Encontrados 1 resultados.
+    - Candidato: [332800] Summoner Wars (2e édition): Master Set (Conf: 42.9%, Score: 58.5)
+  > Probando query: 'Summoner'
+    Encontrados 271 resultados.
+    - Candidato: [191660] Age of Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [426344] Aventuria: Summoner of the Elements (Conf: 14.3%, Score: 37.0)
+    - Candidato: [182617] BattleCON: Takeshi Weapon Summoner (Conf: 14.3%, Score: 20.0)
+    - Candidato: [69092] Chezz Tactic Summoner Master (Conf: 14.3%, Score: 34.7)
+    - Candidato: [423389] Demon Summoner (Conf: 14.3%, Score: 26.2)
+    - Candidato: [252544] Dice Summoners (Conf: 14.3%, Score: 29.5)
+    - Candidato: [464218] Dragon Summoners (Conf: 14.3%, Score: 28.6)
+    - Candidato: [150513] Dwarven Miner: Summoner Patron Card (Conf: 14.3%, Score: 37.0)
+    - Candidato: [356370] グレート・サマナー (Great Summoner) (Conf: 14.3%, Score: 26.2)
+    - Candidato: [380337] Llamas Unleased: Llama Summoner Promo Card (Conf: 14.3%, Score: 27.3)
+    - Candidato: [453087] Not Enough Mana: Spellsmiths & Summoners (Conf: 14.3%, Score: 21.4)
+    - Candidato: [255383] Overworld: Summoners (Conf: 14.3%, Score: 27.3)
+    - Candidato: [217385] Pathfinder Adventure Card Game: Class Deck – Summoner (Conf: 28.6%, Score: 16.5)
+    - Candidato: [415128] Piri Piri Summoners (Conf: 14.3%, Score: 27.3)
+    - Candidato: [173959] The Red Dragon Inn: Allies – Zariah the Summoner (Conf: 14.3%, Score: 17.4)
+    - Candidato: [262222] Six Sided Summoner (Conf: 14.3%, Score: 24.6)
+    - Candidato: [381197] Six Sided Summoner (Conf: 14.3%, Score: 24.6)
+    - Candidato: [205798] The Summoner (Conf: 14.3%, Score: 27.1)
+    - Candidato: [345098] Summoner Duel (Conf: 14.3%, Score: 36.7)
+    - Candidato: [33869] Summoner Master (Conf: 14.3%, Score: 41.9)
+    - Candidato: [41144] Summoner Trinity (Conf: 14.3%, Score: 38.1)
+    - Candidato: [58281] Summoner Wars (Conf: 28.6%, Score: 43.3)
+    - Candidato: [332800] Summoner Wars (Second Edition) (Conf: 28.6%, Score: 58.7)
+    - Candidato: [376864] Summoner Wars (Second Edition): Ashia the Silent Promo Card (Conf: 28.6%, Score: 46.6)
+    - Candidato: [374552] Summoner Wars (Second Edition): Blacksaber Promo Card (Conf: 28.6%, Score: 51.5)
+GANADOR: ID 332800 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Mini Rogue: Glittering Throne Expansion Pack' ---
+Estrategias: ['Mini', 'Mini Rogue: Glittering Throne', 'Mini Rogue', 'Mini Rogue: Glittering Throne Expansion Pack']
+  > Probando query: 'Mini Rogue: Glittering Throne Expansion Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Mini Rogue: Glittering Throne'
+    Encontrados 0 resultados.
+  > Probando query: 'Mini Rogue'
+    Encontrados 36 resultados.
+    - Candidato: [138035] 2000AD: Rogue Trooper Miniatures Game (Conf: 25.0%, Score: 43.8)
+    - Candidato: [311715] Mini Rogue (Conf: 50.0%, Score: 52.6)
+    - Candidato: [199242] Mini Rogue: A Roguelike Microgame (Conf: 50.0%, Score: 63.3)
+    - Candidato: [420356] Mini Rogue: Beyond the Portal (Conf: 50.0%, Score: 60.7)
+    - Candidato: [363396] Mini Rogue: Coaster Expansion (Conf: 50.0%, Score: 60.7)
+    - Candidato: [367690] Mini Rogue: Death Bat & Fence Promo cards (Conf: 50.0%, Score: 48.5)
+    - Candidato: [311719] Mini Rogue: Depths of Damnation (Conf: 50.0%, Score: 55.2)
+    - Candidato: [434978] Mini Rogue: Folk Lore Cards (Conf: 50.0%, Score: 51.9)
+    - Candidato: [420358] Mini Rogue: Forgotten Guardians (Conf: 50.0%, Score: 62.1)
+    - Candidato: [424603] Mini Rogue: Literature-Inspired Lore Cards (Conf: 50.0%, Score: 60.9)
+    - Candidato: [418367] Mini Rogue: Mountain of Torments (Conf: 50.0%, Score: 61.0)
+    - Candidato: [394450] Mini Rogue: Sentinel & Crypt Promo Cards (Conf: 50.0%, Score: 55.4)
+    - Candidato: [417020] Mini Rogue: The Council (Conf: 50.0%, Score: 60.0)
+    - Candidato: [430284] Mini Rogue: The Creeping Death & The Long Stretch Promo Cards (Conf: 50.0%, Score: 51.2)
+    - Candidato: [455233] Mini Rogue: The Huntress and the Ferret (Conf: 50.0%, Score: 60.6)
+    - Candidato: [424498] Mini Rogue: The Occultist and The Tinkerer (Conf: 50.0%, Score: 58.0)
+    - Candidato: [311717] Mini Rogue: The Old Gods (Conf: 50.0%, Score: 54.9)
+    - Candidato: [424602] Mini Rogue: Treasure Map (Conf: 50.0%, Score: 58.8)
+    - Candidato: [355878] Mini Rogue: Wolf & Forge Promo cards (Conf: 50.0%, Score: 52.5)
+    - Candidato: [288286] Mini Space Rogue (Conf: 50.0%, Score: 45.5)
+    - Candidato: [420356] Mini Rogue: Beyond the Portal (Conf: 50.0%, Score: 60.7)
+    - Candidato: [363396] Mini Rogue: Coaster Expansion (Conf: 50.0%, Score: 60.7)
+    - Candidato: [367690] Mini Rogue: Death Bat & Fence Promo cards (Conf: 50.0%, Score: 48.5)
+    - Candidato: [311719] Mini Rogue: Depths of Damnation (Conf: 50.0%, Score: 55.2)
+    - Candidato: [434978] Mini Rogue: Folk Lore Cards (Conf: 50.0%, Score: 51.9)
+  > Probando query: 'Mini'
+    Encontrados 1585 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 25.0%, Score: 19.4)
+    - Candidato: [396072] 0-100 Familj: Mini (Conf: 25.0%, Score: 17.8)
+    - Candidato: [432272] 0-100 Party: Mini (Conf: 25.0%, Score: 18.2)
+    - Candidato: [424892] 0-100 Sverige: Mini (Conf: 25.0%, Score: 17.4)
+    - Candidato: [396073] 0-100 Vit: Mini (Conf: 25.0%, Score: 19.0)
+    - Candidato: [255936] 1676: Miniatures Skirmish Battles in the Time of King Philip's War (Conf: 0.0%, Score: 34.4)
+    - Candidato: [453874] 1840: Vienna Tramways Mini-Variant (Conf: 25.0%, Score: 29.5)
+    - Candidato: [340705] 1846: The Race for the Midwest – Mini-Expansion (Conf: 25.0%, Score: 25.0)
+    - Candidato: [194456] 1879: Minis Corebook (Conf: 25.0%, Score: 34.0)
+    - Candidato: [444735] 1918: A First World War Miniatures Game (Conf: 0.0%, Score: 27.3)
+    - Candidato: [138035] 2000AD: Rogue Trooper Miniatures Game (Conf: 25.0%, Score: 43.8)
+    - Candidato: [423824] 3 of a Kind: Mini Bookmark Version (Conf: 25.0%, Score: 39.3)
+    - Candidato: [243093] 5 Second Rule Mini Game (Conf: 25.0%, Score: 27.5)
+    - Candidato: [461052] 5 Second Rule Mini: Family Edition (Conf: 25.0%, Score: 36.1)
+    - Candidato: [352847] 5 Surprise Mini Brands!: Mini Market Dash! Game (Conf: 25.0%, Score: 27.8)
+    - Candidato: [381153] 5 Surprise Mini Brands!: Supermarket Race Game (Conf: 25.0%, Score: 30.6)
+    - Candidato: [211853] 8-Bit Mini Mafia/Werewolf (Conf: 25.0%, Score: 34.0)
+    - Candidato: [421498] 99 Ninja: Mini Promo Expansion (Conf: 25.0%, Score: 38.6)
+    - Candidato: [355108] A.D.E.L.E.: Kickstarter Mini Expansion (Conf: 25.0%, Score: 28.1)
+    - Candidato: [526] Abalone Mini (Conf: 25.0%, Score: 20.0)
+    - Candidato: [388060] ABC / Animal Bird Fish Mini Card Games (Conf: 25.0%, Score: 28.1)
+    - Candidato: [412931] ABC Warriors: The Miniatures Game – Rulebook (Conf: 0.0%, Score: 23.2)
+    - Candidato: [413267] Aeon Trespass: Last Stand of the Gegenees Mini Expansion (Conf: 25.0%, Score: 21.7)
+    - Candidato: [217005] Afterglow Miniatures Game (Conf: 0.0%, Score: 34.0)
+    - Candidato: [301364] The Age of Eagles (2nd Edition): The Napoleonic Wars in Miniature Based on Fire & Fury (Conf: 0.0%, Score: 22.0)
+GANADOR: ID 199242 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hero Realms: Watery Graves Campaign Deck (Ruin of Thandar Part 3)' ---
+Estrategias: ['Hero Realms', 'Hero Realms: Watery Graves Campaign Deck (Ruin of Thandar Part 3)', 'Hero', 'Hero Realms: Watery Graves Campaign Deck']
+  > Probando query: 'Hero Realms: Watery Graves Campaign Deck (Ruin of Thandar Part 3)'
+    Encontrados 0 resultados.
+  > Probando query: 'Hero Realms: Watery Graves Campaign Deck'
+    Encontrados 0 resultados.
+  > Probando query: 'Hero Realms'
+    Encontrados 146 resultados.
+    - Candidato: [342669] Epic Heroes: Skirmish Gaming in the Realms of Fantasy – A supplement to Brink of Battle (Conf: 16.7%, Score: 24.4)
+    - Candidato: [198994] Hero Realms (Conf: 33.3%, Score: 44.0)
+    - Candidato: [378136] Hero Realms Dungeons (Conf: 33.3%, Score: 47.5)
+    - Candidato: [203982] Hero Realms: 5 Magic Item Treasure Cards (Conf: 33.3%, Score: 56.4)
+    - Candidato: [318691] Hero Realms: 5 Personaggi – Chierico, Guerriero, Ladro, Mago, Ranger (Conf: 33.3%, Score: 38.0)
+    - Candidato: [379129] Hero Realms: Adventure Deck – Bard (Conf: 50.0%, Score: 60.0)
+    - Candidato: [379116] Hero Realms: Adventure Deck – Cleric (Conf: 50.0%, Score: 58.3)
+    - Candidato: [379128] Hero Realms: Adventure Deck – Druid (Conf: 50.0%, Score: 59.2)
+    - Candidato: [379120] Hero Realms: Adventure Deck – Fighter (Conf: 50.0%, Score: 57.5)
+    - Candidato: [379126] Hero Realms: Adventure Deck – Monk (Conf: 50.0%, Score: 60.0)
+    - Candidato: [379127] Hero Realms: Adventure Deck – Necromancer (Conf: 50.0%, Score: 54.5)
+    - Candidato: [379125] Hero Realms: Adventure Deck – Ranger (Conf: 50.0%, Score: 58.3)
+    - Candidato: [379124] Hero Realms: Adventure Deck – Thief (Conf: 50.0%, Score: 59.2)
+    - Candidato: [379118] Hero Realms: Adventure Deck – Wizard (Conf: 50.0%, Score: 58.3)
+    - Candidato: [308184] Hero Realms: Adventure Storage Box (Conf: 33.3%, Score: 55.6)
+    - Candidato: [265272] Hero Realms: Ancestry (Conf: 33.3%, Score: 54.2)
+    - Candidato: [202865] Hero Realms: Bloodfang Promo Card (Conf: 33.3%, Score: 50.7)
+    - Candidato: [202102] Hero Realms: Boss Deck – Lich (Conf: 50.0%, Score: 55.4)
+    - Candidato: [202101] Hero Realms: Boss Deck – The Dragon (Conf: 50.0%, Score: 50.7)
+    - Candidato: [203075] Hero Realms: Centurion Promo & 4 Legionnaire Cards (Conf: 33.3%, Score: 41.9)
+    - Candidato: [379058] Hero Realms: Character Pack – Bard (Conf: 33.3%, Score: 60.0)
+    - Candidato: [202103] Hero Realms: Character Pack – Cleric (Conf: 33.3%, Score: 61.1)
+    - Candidato: [379059] Hero Realms: Character Pack – Druid (Conf: 33.3%, Score: 59.2)
+    - Candidato: [202104] Hero Realms: Character Pack – Fighter (Conf: 33.3%, Score: 60.3)
+    - Candidato: [379060] Hero Realms: Character Pack – Monk (Conf: 33.3%, Score: 60.0)
+  > Probando query: 'Hero'
+    Encontrados 2502 resultados.
+    - Candidato: [444922] 13 Heroes (Conf: 0.0%, Score: 25.0)
+    - Candidato: [335492] 7 Moons: Heroes of Dragon Reach (Conf: 0.0%, Score: 26.1)
+    - Candidato: [163595] 8-bit Action Hero: Jungle Adventures (Conf: 16.7%, Score: 21.6)
+    - Candidato: [57691] 800 Heroes: Defense of Sihang Warehouse (Conf: 0.0%, Score: 31.2)
+    - Candidato: [427027] 99 Heroes (Conf: 0.0%, Score: 25.0)
+    - Candidato: [350066] The Acts: Heroes of the Faith (Conf: 0.0%, Score: 26.9)
+    - Candidato: [384192] Advanced Dungeon Hero (fan expansion for Dungeon Hero) (Conf: 16.7%, Score: 22.0)
+    - Candidato: [1758] Advanced Heroquest (Conf: 0.0%, Score: 21.1)
+    - Candidato: [1759] Advanced Heroquest: Terror in the Dark (Conf: 0.0%, Score: 36.8)
+    - Candidato: [182544] Advanced Song of Blades and Heroes (Conf: 0.0%, Score: 16.4)
+    - Candidato: [208740] Advanced Song of Blades and Heroes: Axe and Brimstone (Conf: 0.0%, Score: 24.2)
+    - Candidato: [121750] Adventure 1: The Mountain Keep (fan expansion for HeroQuest) (Conf: 0.0%, Score: 12.5)
+    - Candidato: [123656] Adventure 2: Slaves Of Zargon (fan expansion for HeroQuest) (Conf: 0.0%, Score: 33.7)
+    - Candidato: [123743] Adventure 3: The Lost Books (fan expansion for HeroQuest) (Conf: 0.0%, Score: 12.9)
+    - Candidato: [124371] Adventure 4: In The King's Service (fan expansion for HeroQuest) (Conf: 0.0%, Score: 12.0)
+    - Candidato: [125085] Adventure 5: Beyond Grin's Crag – Kellar's Keep 2 (fan expansion for HeroQuest) (Conf: 0.0%, Score: 10.6)
+    - Candidato: [125088] Adventure 6: Resurrection – Return of the Witch Lord 2 (fan expansion for HeroQuest) (Conf: 0.0%, Score: 10.2)
+    - Candidato: [127057] Adventure 7: The Rescue of Princess Millandriell (fan expansion for HeroQuest) (Conf: 0.0%, Score: 10.5)
+    - Candidato: [127059] Adventure 8: The Horror Inside the Ancient Halls of Sunca (fan expansion for HeroQuest) (Conf: 0.0%, Score: 9.8)
+    - Candidato: [10854] Adventure Cards: Heroes (Conf: 0.0%, Score: 19.7)
+    - Candidato: [282119] Adventure Tactics: Domianne's Tower – Hero Pack 1 (Conf: 16.7%, Score: 21.2)
+    - Candidato: [172619] Adventure Time Card Wars: Hero Pack #1 (Conf: 16.7%, Score: 24.0)
+    - Candidato: [442198] Aeon Trespass: Odyssey – Spartan Herodotus (Conf: 0.0%, Score: 12.8)
+    - Candidato: [10631] Age of Heroes (Conf: 0.0%, Score: 23.1)
+    - Candidato: [13267] Age of Heroes (Conf: 0.0%, Score: 23.1)
+GANADOR: ID 379129 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cersei Lannister' ---
+Estrategias: ['Cersei Lannister', 'Cersei']
+  > Probando query: 'Cersei Lannister'
+    Encontrados 0 resultados.
+  > Probando query: 'Cersei'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Melisandre' ---
+Estrategias: ['Melisandre']
+  > Probando query: 'Melisandre'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------

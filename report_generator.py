@@ -110,7 +110,7 @@ def generate_report():
         ) t
         LEFT JOIN bgg_mapping m ON t.item_name = m.item_name
         LEFT JOIN games g ON m.bgg_id = g.bgg_id
-        WHERE t.rn = 1 AND (m.bgg_id IS NULL OR m.bgg_id != 'IGNORED')
+        WHERE t.rn = 1 AND (m.bgg_id IS NULL OR m.bgg_id NOT IN ('IGNORED', 'WAITING'))
         ORDER BY CASE WHEN g.rank = '999999' OR g.rank = 'N/A' OR g.rank IS NULL THEN 1 ELSE 0 END, CAST(g.rank AS INTEGER) ASC
         """
         all_rows = c.execute(query).fetchall()
@@ -133,19 +133,12 @@ def generate_report():
             else: 
                 sg = "PH"; sk = src if src in ['flash','occasion','private','preorder'] else 'flash'
             
-            is_high = False
-            try:
-                rf = float(b_rat) if (b_rat != "N/A" and b_rat != "-") else 0
-                bf = int(b_rank) if str(b_rank).isdigit() else 999999
-                if rf >= 7.8 or (bf <= 1500 and bf > 0) or disc >= 45: is_high = True
-            except: pass
-
             return {
                 "n": p_name_clean, "p": p_price, "o": p_old, "u": p_url, "s": p_source, "sg": sg, "sk": sk,
                 "bn": o_name or b_name, "bid": b_id, "rat": b_rat, "rnk": b_rank, 
                 "cat_l": cat_l, "cat_c": cat_c, "ld": LANG_MAPPING.get(l_dep, l_dep or "-"), "ldc": color_lang(l_dep),
                 "w": g_wgt, "wc": color_weight(g_wgt), "pl": f"{min_p}-{max_p}" if min_p != max_p else str(min_p),
-                "img": os.path.basename(img) if img else "", "d": disc, "high": is_high, "new": (first == today_iso), "vn": vn
+                "img": os.path.basename(img) if img else "", "d": disc, "new": (first == today_iso), "vn": vn
             }
 
         # Separar datos
@@ -170,7 +163,7 @@ def generate_report():
                     deals_data.append(item)
 
         # Generar archivos
-        write_html(REPORT_PATH, deals_data, "Monitor de OFERTAS y Joyas", is_catalog=False)
+        write_html(REPORT_PATH, deals_data, "Monitor de OFERTAS", is_catalog=False)
         write_html(PLANETON_PATH, catalog_planeton_data, "Catálogo Completo PLANETON GAMES", is_catalog=True)
 
     finally:
@@ -252,7 +245,6 @@ def write_html(path, data, title, is_catalog=False):
         .game-img {{ height: 50px; border-radius: 5px; }}
         .badge {{ display: inline-block; padding: 2px 6px; border-radius: 4px; color: white; font-size: 0.65em; font-weight: bold; vertical-align: middle; margin-right: 3px; }}
         .badge-new {{ background: #27ae60; animation: pulse 2s infinite; border-radius: 20px; }}
-        .badge-high {{ background: #f39c12; border-radius: 50%; padding: 2px 4px; }}
         .badge-flash {{ background: #f1c40f; color: black; }} .badge-occasion {{ background: #9b59b6; }} .badge-private {{ background: #2c3e50; }}
         .badge-preorder, .badge-mm-preorder, .badge-planeton-preorder {{ background: #16a085; }}
         .badge-mm-deals, .badge-mm-clearance {{ background: #27ae60; }}
@@ -285,7 +277,6 @@ def write_html(path, data, title, is_catalog=False):
             <div class="filter-buttons">
                 <button id="btn-all" onclick="clearFilters()" class="active">Ver Todos</button>
                 <button id="btn-new" onclick="filterType('new')">✨ NUEVOS</button>
-                <button id="btn-high" onclick="filterType('high')">⭐ JOYAS</button>
                 <button id="btn-pre" onclick="filterType('pre')">🚀 PREVENTAS</button>
             </div>
         </div>
@@ -331,7 +322,7 @@ def write_html(path, data, title, is_catalog=False):
                 
                 h += `<div class="table-row" style="top: ${{i * ROW_HEIGHT}}px; height: ${{ROW_HEIGHT}}px;">
                     <div class="col col-img">${{it.img ? `<img src="assets/images/${{it.img}}" class="game-img">` : ''}}</div>
-                    <div class="col col-name"><a href="${{it.u}}" target="_blank">${{it.new ? '<span class="badge badge-new">NUEVO</span>' : ''}}${{it.high ? '<span class="badge badge-high">⭐</span>' : ''}}${{it.n}}</a></div>
+                    <div class="col col-name"><a href="${{it.u}}" target="_blank">${{it.new ? '<span class="badge badge-new">NUEVO</span>' : ''}}${{it.n}}</a></div>
                     <div class="col col-cat" style="font-size:0.7em">${{it.cat_l}}</div>
                     <div class="col col-price"><span class="price-old">${{it.o || ''}}</span><span class="price-new">${{it.p}}</span></div>
                     <div class="col col-disc"><span style="background:#e74c3c;color:white;padding:2px 5px;border-radius:20px;font-size:0.8em">-${{it.d}}%</span></div>
@@ -367,7 +358,6 @@ def write_html(path, data, title, is_catalog=False):
         function filterType(t) {{
             document.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
             if (t==='new') {{ filteredOffers = allOffers.filter(o => o.new); document.getElementById('btn-new').classList.add('active'); }}
-            else if (t==='high') {{ filteredOffers = allOffers.filter(o => o.high); document.getElementById('btn-high').classList.add('active'); }}
             else if (t==='pre') {{ filteredOffers = allOffers.filter(o => o.sk.includes('preorder')); document.getElementById('btn-pre').classList.add('active'); }}
             container.scrollTop = 0; render();
         }}

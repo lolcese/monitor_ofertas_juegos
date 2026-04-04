@@ -120,10 +120,9 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
         res_cache = conn.execute("SELECT bgg_id, confidence, candidate_id FROM bgg_mapping WHERE item_name = ?", (game_name,)).fetchone()
         if res_cache:
             bid, conf, cand = res_cache
-            # Solo devolvemos caché si es un ID firme (95%+) o está IGNORADO
-            if (str(bid).isdigit() and conf >= 95) or bid == 'IGNORED':
+            # Solo devolvemos caché si es un ID firme (95%+), IGNORADO o EN ESPERA (WAITING)
+            if (str(bid).isdigit() and conf >= 95) or bid in ['IGNORED', 'WAITING']:
                 return bid, conf
-            # Si tiene un candidato pero no es firme, permitimos que el resto del código busque en Google
     except: pass
     finally: conn.close()
 
