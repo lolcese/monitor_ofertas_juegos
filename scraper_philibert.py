@@ -100,10 +100,8 @@ def scrape_philibert(source_key):
                 if u in seen: continue
                 seen.add(u)
                 found_new = True
-
-                if u in seen: continue
-                seen.add(u)
-                found_new = True
+                
+                print(f"   📦 [PHILIBERT] Procesando: {name}")
                 
                 p_new_tag = item.select_one('.price:not(.old-price)') or item.select_one('.current-price')
                 p_old_tag = item.select_one('.old-price') or item.select_one('.regular-price')

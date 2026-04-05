@@ -125,7 +125,7 @@ def scrape_planeton(target='planeton'):
                         if g_res:
                             id_b = cached[0]
                             conf = cached[1]
-                            print(f"      [OK] Mapeo local encontrado: {id_b}")
+                            # print(f"      [OK] Mapeo local encontrado: {id_b}")
                     
                     if not id_b:
                         id_b, conf = fetch_bgg_id(name, u, source=source_tag)
@@ -152,7 +152,7 @@ def scrape_planeton(target='planeton'):
                 finally:
                     conn.close()
             
-            time.sleep(1.5) # Pausa obligatoria tras cada producto (respeto al servidor)
+            time.sleep(0.1) # Pausa mínima para no estresar el servidor pero procesar rápido
                 
         except Exception as e:
             print(f"❌ [PLANETON] Error en página {page}: {e}")
