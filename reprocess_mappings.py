@@ -3,7 +3,7 @@ import time
 from monitor_core import get_db_connection, fetch_bgg_id, init_db
 
 def reprocess_pending():
-    print("🚀 Iniciando REPROCESAMIENTO de candidatos pendientes...")
+    print("[REPROCESS] Iniciando REPROCESAMIENTO de candidatos pendientes...")
     init_db()
     conn = get_db_connection()
     today = "2026-04-02"
@@ -29,23 +29,24 @@ def reprocess_pending():
             # IMPORTANTE: fetch_bgg_id ahora devuelve (best_id, confidence) sin filtrar por 95%
             id_b, conf = fetch_bgg_id(name)
             
-            if id_b and id_b != 'N/A':
+            if id_b and str(id_b).isdigit():
                 with conn:
-                    # Si la confianza es alta (>=95), lo mapeamos de una vez
                     if conf >= 95:
-                        print(f"      ✅ Mapeo automático directo: {id_b} ({conf}%)")
+                        print(f"      [OK] Mapeo automático directo: {id_b} ({conf}%)")
                         conn.execute("UPDATE bgg_mapping SET bgg_id=?, confidence=?, last_search=?, candidate_id=NULL WHERE item_name=?", (id_b, conf, today, name))
                     else:
-                        print(f"      💡 Candidato encontrado: {id_b} ({conf}%)")
+                        print(f"      [SUG] Candidato encontrado: {id_b} ({conf}%)")
                         conn.execute("UPDATE bgg_mapping SET bgg_id='WAITING', confidence=?, last_search=?, candidate_id=? WHERE item_name=?", (conf, today, id_b, name))
             else:
-                print(f"      ❌ No se encontró ningún candidato.")
+                print(f"      [ERR] No se encontró ningún candidato.")
+                with conn:
+                    conn.execute("UPDATE bgg_mapping SET bgg_id='N/A', confidence=0, last_search=?, candidate_id=NULL WHERE item_name=?", (today, name))
             
             time.sleep(2) # Respeto a la API de BGG
             
     finally:
         conn.close()
-        print("\n✅ Reprocesamiento finalizado. ¡Ya puedes abrir el Gestor Manual!")
+        print("\n[OK] Reprocesamiento finalizado. ¡Ya puedes abrir el Gestor Manual!")
 
 if __name__ == "__main__":
     reprocess_pending()

@@ -19,7 +19,7 @@ def scrape_planeton(target='planeton'):
     base_url = URLS.get(target, URLS['planeton'])
     source_tag = target
     
-    print(f"\n🚀 [PLANETON] Iniciando sección: {target.upper()}")
+    print(f"\n[PLANETON] Iniciando sección: {target.upper()}")
     today = datetime.date.today().isoformat()
     
     page = 1
@@ -28,7 +28,7 @@ def scrape_planeton(target='planeton'):
     
     while True: # Paginación automática hasta que no haya más productos
         url = f"{base_url}?page={page}"
-        print(f"▶️ [PLANETON] Página {page} - Cargando...")
+        print(f"-> [PLANETON] Página {page} - Cargando...")
         
         try:
             res = requests.get(url, headers=HEADERS_GENERIC, timeout=15)
@@ -113,7 +113,7 @@ def scrape_planeton(target='planeton'):
                     if img_url and not img_url.startswith('http'):
                         img_url = "https://www.planetongames.com" + img_url
 
-                    print(f"   📦 [PLANETON] Procesando: {name}")
+                    print(f"   [ITEM] [PLANETON] Procesando: {name}")
                     
                     # 5. Mapeo BGG con Lógica de Candidatos
                     id_b = None
@@ -130,8 +130,9 @@ def scrape_planeton(target='planeton'):
                     if not id_b:
                         id_b, conf = fetch_bgg_id(name, u, source=source_tag)
                         # Si la confianza es baja, lo marcamos como WAITING y guardamos el candidato
-                        final_id = id_b if conf >= 95 else 'WAITING'
-                        cand_id = id_b if conf < 95 else None
+                        # Pero si no hay candidatos (conf 0), lo marcamos como N/A
+                        final_id = id_b if conf >= 95 else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
+                        cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
                         
                         with conn:
                             conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
@@ -155,13 +156,13 @@ def scrape_planeton(target='planeton'):
             time.sleep(0.1) # Pausa mínima para no estresar el servidor pero procesar rápido
                 
         except Exception as e:
-            print(f"❌ [PLANETON] Error en página {page}: {e}")
+            print(f"[ERR] [PLANETON] Error en página {page}: {e}")
             break
             
         page += 1
         time.sleep(3) # Cooldown entre páginas
 
-    print(f"\n✅ [PLANETON] {target} finalizado. Total: {total_new}")
+    print(f"\n[OK] [PLANETON] {target} finalizado. Total: {total_new}")
 
 if __name__ == "__main__":
     import sys

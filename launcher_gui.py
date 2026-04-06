@@ -205,7 +205,12 @@ class ScraperLauncher:
             try:
                 cmd_run = list(cmd)
                 if cmd_run[0] == "python": cmd_run.insert(1, "-u")
-                proc = subprocess.Popen(cmd_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
+                
+                # Forzar UTF-8 para evitar UnicodeEncodeError en Windows
+                env = os.environ.copy()
+                env["PYTHONIOENCODING"] = "utf-8"
+                
+                proc = subprocess.Popen(cmd_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1, env=env)
                 for line in proc.stdout: self.root.after(0, lambda l=line: self.log(l.strip()))
                 proc.wait()
                 self.root.after(0, lambda: self.log(f"\n=== FINALIZADO: {name.upper()} ({datetime.now().strftime('%H:%M:%S')}) ==="))
@@ -244,7 +249,12 @@ class ScraperLauncher:
                     self.root.after(0, lambda n=name: self.log(f"\n--- PROCESANDO: {n} ---"))
                     cmd_to_run = list(cmd)
                     if cmd_to_run[0] == "python": cmd_to_run.insert(1, "-u")
-                    proc = subprocess.Popen(cmd_to_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1)
+                    
+                    # Forzar UTF-8
+                    env = os.environ.copy()
+                    env["PYTHONIOENCODING"] = "utf-8"
+                    
+                    proc = subprocess.Popen(cmd_to_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1, env=env)
                     for line in proc.stdout: self.root.after(0, lambda l=line: self.log(l.strip()))
                     proc.wait(); self.root.after(0, self.update_sync_labels)
                 except Exception as e:

@@ -26,7 +26,7 @@ def scrape_philibert(source_key):
     url_base = SOURCES[source_key]
     today = datetime.date.today().isoformat()
     
-    print(f"\n🚀 [PHILIBERT] Iniciando sección: {source_key.upper()}")
+    print(f"\n[PHILIBERT] Iniciando sección: {source_key.upper()}")
     
     init_db()
     
@@ -45,7 +45,7 @@ def scrape_philibert(source_key):
         else:
             url = f"{url_base}?p={p}"
         
-        print(f"▶️ [PHILIBERT] Página {p} - Cargando...")
+        print(f"-> [PHILIBERT] Página {p} - Cargando...")
         try:
             res = requests.get(url, headers=HEADERS_PHILI, timeout=15)
             if res.status_code != 200: break
@@ -88,7 +88,7 @@ def scrape_philibert(source_key):
                                     # Palabras clave de categorías que NO son juegos de mesa
                                     if any(kw in text for kw in ['jeux de rôle', 'wargames de figurines', 'accessoires', 'peinture', 'modélisme', 'pinceaux', 'scénographie', 'terrains']):
                                         is_rpg = True
-                                        print(f"      🚫 [PHILIBERT] Filtro Categoría: {bc.text.strip().split('>')[-1].strip()}")
+                                        print(f"      [FILTER] Philibert Filtro Categoría: {bc.text.strip().split('>')[-1].strip()}")
                                         with conn_id:
                                             conn_id.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", (name, 'IGNORED', 100, today))
                         except: pass
@@ -101,7 +101,7 @@ def scrape_philibert(source_key):
                 seen.add(u)
                 found_new = True
                 
-                print(f"   📦 [PHILIBERT] Procesando: {name}")
+                print(f"   [ITEM] Philibert Procesando: {name}")
                 
                 p_new_tag = item.select_one('.price:not(.old-price)') or item.select_one('.current-price')
                 p_old_tag = item.select_one('.old-price') or item.select_one('.regular-price')
@@ -141,8 +141,8 @@ def scrape_philibert(source_key):
                     if id_b and str(id_b).isdigit() and conf >= 95:
                         fetch_details(id_b)
 
-                # Clasificacion Segura
-                final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else 'WAITING'
+                # Clasificación Segura: Solo WAITING si hay un candidato pero con baja confianza
+                final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
                 cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
                 
                 # Actualizar Mapeo

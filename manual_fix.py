@@ -15,7 +15,7 @@ def manual_fix(item_url, bgg_input):
     bgg_id = re.search(r'boardgame/(\d+)', bgg_input)
     bgg_id = bgg_id.group(1) if bgg_id else bgg_input
     
-    print(f"🔍 Identificando producto en la URL proporcionada...")
+    print(f"[SEARCH] Identificando producto en la URL proporcionada...")
     res = requests.get(item_url, headers=CUSTOM_HEADERS, timeout=10)
     soup = BeautifulSoup(res.content, 'html.parser')
     
@@ -25,14 +25,14 @@ def manual_fix(item_url, bgg_input):
                 soup.find('h1')
     
     if not title_tag:
-        print("❌ Error: No se pudo encontrar el título en la página.")
+        print("[ERR] Error: No se pudo encontrar el título en la página.")
         return
     
     p_name = title_tag.text.strip()
-    print(f"🎯 Producto detectado: '{p_name}'")
+    print(f"[FOUND] Producto detectado: '{p_name}'")
     
     # 2. Obtener detalles de BGG
-    print(f"🌐 Consultando BGG para el ID {bgg_id}...")
+    print(f"[BGG] Consultando BGG para el ID {bgg_id}...")
     rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(bgg_id)
     
     # 3. Guardar en la base de datos
@@ -52,7 +52,7 @@ def manual_fix(item_url, bgg_input):
         
         conn.commit()
     
-    print(f"✅ ¡ÉXITO! '{p_name}' ahora está vinculado a '{o_name}' (#{rnk})")
+    print(f"[OK] ¡ÉXITO! '{p_name}' ahora está vinculado a '{o_name}' (#{rnk})")
     print(f"Recuerda ejecutar 'python generate_report.py' para ver los cambios.")
 
 if __name__ == "__main__":

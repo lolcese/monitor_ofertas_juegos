@@ -96,7 +96,7 @@ def generate_failed_report():
 
     with open(LOG_HTML_PATH, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"✅ Reporte generado: {len(failed)} fallos encontrados.")
+    print(f"[OK] Reporte generado: {len(failed)} fallos encontrados.")
 
 if __name__ == "__main__":
     generate_failed_report()

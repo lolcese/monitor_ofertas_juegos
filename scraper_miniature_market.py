@@ -33,7 +33,7 @@ def scrape_mm(source_key):
     today = datetime.date.today().isoformat()
     source_tag = f"mm_{source_key}"
     
-    print(f"\n🚀 [MM] Iniciando sección: {source_key.upper()}")
+    print(f"\n[MM] Iniciando sección: {source_key.upper()}")
     
     init_db()
     conn = get_db_connection()
@@ -53,11 +53,11 @@ def scrape_mm(source_key):
             sep = "&" if "?" in url_base else "?"
             url = f"{url_base}{sep}p={p}"
             
-        print(f"▶️ [MM] Página {p} - Cargando...")
+        print(f"-> [MM] Página {p} - Cargando...")
         try:
             res = requests.get(url, headers=HEADERS_GENERIC, timeout=15)
             if res.status_code != 200: 
-                print(f"❌ [MM] Página no disponible (Status {res.status_code})")
+                print(f"[ERR] [MM] Página no disponible (Status {res.status_code})")
                 break
             
             soup = BeautifulSoup(res.content, 'html.parser')
@@ -115,7 +115,7 @@ def scrape_mm(source_key):
                 if cached and cached[0] == "IGNORED":
                     continue
 
-                print(f"   📦 [MM] Procesando: {name}")
+                print(f"   [ITEM] [MM] Procesando: {name}")
                 search_name = name 
                 found_new = True
                 
@@ -151,8 +151,8 @@ def scrape_mm(source_key):
                     if id_b and str(id_b).isdigit() and conf >= 95:
                         fetch_details(id_b)
 
-                # Clasificación Segura
-                final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else 'WAITING'
+                # Clasificación Segura: Solo WAITING si hay un candidato pero con baja confianza
+                final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
                 cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
                 
                 # Actualizar Mapeo Central
