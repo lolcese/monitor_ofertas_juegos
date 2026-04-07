@@ -16,7 +16,8 @@ def generate_failed_report():
             m.item_name, m.bgg_id, m.confidence, m.last_search, d.url, d.deal_source
         FROM bgg_mapping m
         JOIN deals d ON m.item_name = d.item_name
-        WHERE (m.confidence < 95 OR m.bgg_id IS NULL)
+        WHERE (m.confidence < 95 OR m.bgg_id IS NULL OR m.bgg_id = '')
+        AND m.bgg_id NOT IN ('WAITING', 'IGNORED')
         AND d.date_found >= (SELECT date(MAX(date_found), '-1 day') FROM deals)
         GROUP BY m.item_name
         ORDER BY m.last_search DESC

@@ -210,7 +210,7 @@ class ScraperLauncher:
                 env = os.environ.copy()
                 env["PYTHONIOENCODING"] = "utf-8"
                 
-                proc = subprocess.Popen(cmd_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1, env=env)
+                proc = subprocess.Popen(cmd_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1, env=env, encoding='utf-8')
                 for line in proc.stdout: self.root.after(0, lambda l=line: self.log(l.strip()))
                 proc.wait()
                 self.root.after(0, lambda: self.log(f"\n=== FINALIZADO: {name.upper()} ({datetime.now().strftime('%H:%M:%S')}) ==="))
@@ -254,7 +254,7 @@ class ScraperLauncher:
                     env = os.environ.copy()
                     env["PYTHONIOENCODING"] = "utf-8"
                     
-                    proc = subprocess.Popen(cmd_to_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1, env=env)
+                    proc = subprocess.Popen(cmd_to_run, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace', bufsize=1, env=env, encoding='utf-8')
                     for line in proc.stdout: self.root.after(0, lambda l=line: self.log(l.strip()))
                     proc.wait(); self.root.after(0, self.update_sync_labels)
                 except Exception as e:

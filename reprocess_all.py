@@ -16,6 +16,7 @@ def reprocess_all_unmapped():
             FROM deals d
             LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
             WHERE (m.bgg_id IS NULL OR m.bgg_id = 'N/A' OR m.bgg_id = '')
+            AND (m.bgg_id NOT IN ('WAITING', 'IGNORED') OR m.bgg_id IS NULL)
             AND d.date_found >= date('now', '-7 days')
             GROUP BY d.item_name
         """)

@@ -65,10 +65,10 @@ class ManualFixGUI:
 
         self.tabs = {}
         tab_configs = [
-            ("wait", "⏳ ESPERA (Yo)", "Solo los marcados por ti"),
-            ("nosug", "⚠️ SIN SUGERENCIA", "Sin rastro en BGG"),
-            ("high", "🔥 ALTA (>80%)", "Pareo casi seguro"),
-            ("low", "🔍 REVISAR (<80%)", "Dudosos / Pendientes")
+            ("wait", "⏳ ESPERANDO", "Juegos en espera"),
+            ("mapped", "✅ YA MAPEADOS", "Confirmados (100%)"),
+            ("ignored", "🚫 IGNORADOS", "Ignorados"),
+            ("review", "🔍 REVISAR", "Pendientes de revisión")
         ]
         
         for key, label, tooltip in tab_configs:
@@ -134,23 +134,21 @@ class ManualFixGUI:
             tab_idx = self.notebook.index(self.notebook.select())
         except: return
         
-        keys = ["wait", "nosug", "high", "low"]
-        tab_names = ["⏳ ESPERA", "⚠️ SIN SUG.", "🔥 ALTA (>80%)", "🔍 REVISAR (<80%)"]
+        keys = ["wait", "mapped", "ignored", "review"]
+        tab_names = ["⏳ ESPERANDO", "✅ YA MAPEADOS", "🚫 IGNORADOS", "🔍 REVISAR"]
         s = f"%{self.filter_var.get()}%"
         
         conn = get_db_connection()
         try:
-            pending_cond = "(m.confidence < 100 OR m.bgg_id IS NULL OR m.bgg_id IN ('WAITING', 'N/A', '', '-'))"
-            base_wh = f"d.item_name LIKE ? AND d.date_found >= date('now', '-15 days') AND {pending_cond}"
-            
             # 1. ACTUALIZAR CONTADORES DE PESTAÑAS
             for i, key in enumerate(keys):
-                if key == "wait": wh_c = f"{base_wh} AND m.bgg_id = 'WAITING' AND m.confidence = 0"
-                elif key == "nosug": wh_c = f"{base_wh} AND (m.candidate_id IS NULL OR m.candidate_id='') AND (m.bgg_id IS NULL OR m.bgg_id IN ('N/A', '', '-'))"
-                elif key == "high": wh_c = f"{base_wh} AND m.confidence > 80 AND m.candidate_id IS NOT NULL"
-                else: wh_c = f"{base_wh} AND m.confidence <= 80 AND m.confidence > 0 AND m.candidate_id IS NOT NULL"
+                if key == "wait": wh_c = "m.bgg_id = 'WAITING'"
+                elif key == "mapped": wh_c = "m.bgg_id GLOB '[0-9]*' AND m.confidence = 100"
+                elif key == "ignored": wh_c = "m.bgg_id = 'IGNORED'"
+                else: # review
+                     wh_c = "(m.bgg_id IS NULL OR m.bgg_id NOT IN ('WAITING', 'IGNORED')) AND (m.confidence < 100 OR m.bgg_id NOT GLOB '[0-9]*')"
                 
-                count = conn.execute(f"SELECT COUNT(DISTINCT d.item_name) FROM deals d LEFT JOIN bgg_mapping m ON d.item_name=m.item_name WHERE {wh_c}", (s,)).fetchone()[0]
+                count = conn.execute(f"SELECT COUNT(DISTINCT d.item_name) FROM deals d LEFT JOIN bgg_mapping m ON d.item_name=m.item_name WHERE d.item_name LIKE ? AND d.date_found >= date('now', '-15 days') AND {wh_c}", (s,)).fetchone()[0]
                 self.notebook.tab(i, text=f"{tab_names[i]} ({count})")
 
             # 2. CARGAR DATA DE PESTAÑA ACTUAL
@@ -158,10 +156,12 @@ class ManualFixGUI:
             tree = self.tabs[current_key]
             for i in tree.get_children(): tree.delete(i)
             
-            if current_key == "wait": wh = f"{base_wh} AND m.bgg_id = 'WAITING' AND m.confidence = 0"
-            elif current_key == "nosug": wh = f"{base_wh} AND (m.candidate_id IS NULL OR m.candidate_id='') AND (m.bgg_id IS NULL OR m.bgg_id IN ('N/A', '', '-'))"
-            elif current_key == "high": wh = f"{base_wh} AND m.confidence > 80 AND m.candidate_id IS NOT NULL"
-            else: wh = f"{base_wh} AND m.confidence <= 80 AND m.confidence > 0 AND m.candidate_id IS NOT NULL"
+            base_wh = "d.item_name LIKE ? AND d.date_found >= date('now', '-15 days')"
+            if current_key == "wait": wh = f"{base_wh} AND m.bgg_id = 'WAITING'"
+            elif current_key == "mapped": wh = f"{base_wh} AND m.bgg_id GLOB '[0-9]*' AND m.confidence = 100"
+            elif current_key == "ignored": wh = f"{base_wh} AND m.bgg_id = 'IGNORED'"
+            else: # review
+                wh = f"{base_wh} AND (m.bgg_id IS NULL OR m.bgg_id NOT IN ('WAITING', 'IGNORED')) AND (m.confidence < 100 OR m.bgg_id NOT GLOB '[0-9]*')"
 
             q = f"SELECT DISTINCT d.item_name, m.bgg_id, IFNULL(m.confidence,0), MAX(d.date_found), m.candidate_id FROM deals d LEFT JOIN bgg_mapping m ON d.item_name=m.item_name WHERE {wh} GROUP BY d.item_name ORDER BY d.date_found DESC LIMIT 300"
             
@@ -284,7 +284,7 @@ class ManualFixGUI:
 
     def ignore(self):
         # MODO MASIVO: Obtener todos los seleccionados
-        keys = ["wait", "nosug", "high", "low"]
+        keys = ["wait", "mapped", "ignored", "review"]
         tab_idx = self.notebook.index(self.notebook.select())
         current_tree = self.tabs[keys[tab_idx]]
         
@@ -303,7 +303,7 @@ class ManualFixGUI:
 
     def wait(self):
         # MODO MASIVO
-        keys = ["wait", "nosug", "high", "low"]
+        keys = ["wait", "mapped", "ignored", "review"]
         tab_idx = self.notebook.index(self.notebook.select())
         current_tree = self.tabs[keys[tab_idx]]
         
