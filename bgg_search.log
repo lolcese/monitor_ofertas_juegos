@@ -3449,3 +3449,38 @@ Estrategias: ['W40K :  Lame Vestige', 'W40K', 'W40K : La Lame Vestige']
     Encontrados 0 resultados.
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'ATO 36 Defeat Into Victory: The Final Campaigns in Burma' ---
+Estrategias: ['ATO 36 Defeat Into Victory', 'Defeat', 'ATO 36 Defeat Into Victory: The Final Campaigns in Burma']
+  > Probando query: 'ATO 36 Defeat Into Victory: The Final Campaigns in Burma'
+    Encontrados 0 resultados.
+  > Probando query: 'ATO 36 Defeat Into Victory'
+    Encontrados 0 resultados.
+  > Probando query: 'Defeat'
+    Encontrados 46 resultados.
+    - Candidato: [223590] Battles on the Ice: Defeats of the Livonian Order at Peipus and Karuse (Conf: 20.0%, Score: 48.4)
+    - Candidato: [153600] Braddock's Defeat: The Battle of Monongahela (Conf: 20.0%, Score: 40.8)
+    - Candidato: [102145] Defeat Into Victory: The Final Campaigns in Burma (Conf: 80.0%, Score: 93.2)
+    - Candidato: [353996] The Defeat of Medusa (Conf: 20.0%, Score: 34.7)
+    - Candidato: [305473] Defeat the Monster Twice (Conf: 20.0%, Score: 40.5)
+    - Candidato: [376512] Defeat the Threat! (Conf: 20.0%, Score: 33.3)
+    - Candidato: [396241] Defeat the Threat!   THE FIRST GUNSHIP (Conf: 20.0%, Score: 51.1)
+    - Candidato: [319410] DOS: Defeat O.D.I.N. System (Conf: 10.0%, Score: 40.0)
+    - Candidato: [72591] Fall of the Philippines: MacArthur's Defeat, 1941 (Conf: 20.0%, Score: 21.6)
+    - Candidato: [301513] Fireball Forward: Rommel's First Defeat – Operation: Crusader Scenario Book (Conf: 10.0%, Score: 23.8)
+    - Candidato: [265246] France '40: Victory or Defeat (Conf: 20.0%, Score: 29.3)
+    - Candidato: [356282] Harry Potter: House Cup Competition – Defeat a Dementor Promo (Conf: 10.0%, Score: 31.9)
+    - Candidato: [401920] Heralds of Defeat (Conf: 10.0%, Score: 25.0)
+    - Candidato: [26735] Hideyoshi's Greatest Defeat (Conf: 10.0%, Score: 22.0)
+    - Candidato: [2456] The Hobbit: The Defeat of Smaug (Conf: 20.0%, Score: 37.6)
+    - Candidato: [5394] Kolin: Frederick's First Defeat – June 18, 1757 (Conf: 10.0%, Score: 26.5)
+    - Candidato: [115313] Lock ‘n Load: In Defeat, Defiance (Conf: 20.0%, Score: 35.3)
+    - Candidato: [281410] MacArthur's Defeat: The Battle For Luzon (Conf: 20.0%, Score: 36.2)
+    - Candidato: [159351] Magic: The Gathering Challenge Deck – Defeat a God (Conf: 20.0%, Score: 23.5)
+    - Candidato: [73252] Marengo: Morning Defeat, Afternoon Victory (Conf: 20.0%, Score: 44.2)
+    - Candidato: [13881] Marengo: Morning Defeat. Afternoon Victory (Conf: 20.0%, Score: 44.2)
+    - Candidato: [251568] One-Minute Washita River: Custer faces defeat and disaster in 1868 (Conf: 20.0%, Score: 30.0)
+    - Candidato: [451709] Red Victory, White Defeat: The Campaign of Tsaritsyn, June 1918-January 1920 (Conf: 40.0%, Score: 43.8)
+    - Candidato: [38598] Sea Dogs Attack! The Defeat of the Spanish Armada (1588 AD) (Conf: 20.0%, Score: 45.0)
+    - Candidato: [129434] Silent Hill: Defeated (Conf: 10.0%, Score: 26.7)
+GANADOR: ID 102145 con 80.0% confianza.
+--------------------------------------------------
