@@ -123,45 +123,49 @@ def scrape_mm(source_key):
                 p_new = p_new_tag.text.strip() if p_new_tag else "0$"
                 p_old = p_old_tag.text.strip() if p_old_tag else p_new
 
-                # 5. Mapeo BGG - OPTIMIZACION TOTAL
+                # 5. Mapeo BGG - OPTIMIZACION TOTAL & RESPETO A MANUALES
                 id_b = None
                 conf = 0
+                is_final = False
                 
-                # Memoria Local
                 conn_c = get_db_connection()
                 try:
                     m_res = conn_c.execute("SELECT bgg_id, confidence, candidate_id FROM bgg_mapping WHERE item_name = ?", (name,)).fetchone()
                     if m_res:
                         bid_c, conf_c, cand_c = m_res
-                        # Éxito previo: ID Real + Datos Games
-                        if str(bid_c).isdigit():
+                        # 1. Si es WAITING, IGNORED o MANUAL (100%), lo usamos tal cual y marcamos como final
+                        if bid_c in ['WAITING', 'IGNORED'] or conf_c == 100:
+                            id_b, conf = bid_c, conf_c
+                            is_final = True
+                        # 2. Si es un éxito automatizado previo (ID real + datos descargados)
+                        elif str(bid_c).isdigit():
                             g_res = conn_c.execute("SELECT bgg_id FROM games WHERE bgg_id = ?", (bid_c,)).fetchone()
-                            if g_res:
-                                id_b, conf = bid_c, conf_c
-                                # print(f"      [OK] Mapeado MM local: {id_b}")
-                        
-                        # Sugerencia previa: WAITING pero con Candidato
-                        if not id_b and cand_c:
-                            id_b, conf = (cand_c, conf_c) if (bid_c == 'WAITING' or bid_c == 'N/A') else (bid_c, conf_c)
+                            if g_res: id_b, conf = bid_c, conf_c
+                        # 3. Sugerencia previa
+                        elif cand_c:
+                            id_b, conf = (cand_c, conf_c)
                 finally: conn_c.close()
 
-                if not id_b:
+                if not id_b and not is_final:
                     id_b, conf = fetch_bgg_id(search_name, u, source=source_tag)
-                    # Bajamos detalles solo si el match es de confianza
                     if id_b and str(id_b).isdigit() and conf >= 95:
                         fetch_details(id_b)
 
-                # Clasificación Segura: Solo WAITING si hay un candidato pero con baja confianza
-                final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
-                cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
-                
-                # Actualizar Mapeo Central
-                conn_u = get_db_connection()
-                try:
-                    with conn_u:
-                        conn_u.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
-                finally: conn_u.close()
-                id_b = final_id
+                # Clasificación Final
+                if not is_final:
+                    if id_b in ['WAITING', 'IGNORED']:
+                        final_id = id_b
+                    else:
+                        final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
+                    
+                    cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
+                    
+                    conn_u = get_db_connection()
+                    try:
+                        with conn_u:
+                            conn_u.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
+                    finally: conn_u.close()
+                    id_b = final_id
 
                 if id_b in ["IGNORED", "WAITING"]: continue
 

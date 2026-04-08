@@ -229,6 +229,7 @@ class ScraperLauncher:
             ("Phili Preorder", ["python", "scraper_philibert.py", "preorder"]),
             ("MM Daily", ["python", "scraper_miniature_market.py", "daily"]),
             ("MM Sales", ["python", "scraper_miniature_market.py", "sales"]),
+            ("MM Backrooms", ["python", "scraper_miniature_market.py", "backrooms"]),
             ("MM Clearance", ["python", "scraper_miniature_market.py", "clearance"]),
             ("MM GameOn", ["python", "scraper_miniature_market.py", "gameon"]),
             ("MM LastChance", ["python", "scraper_miniature_market.py", "lastchance"]),

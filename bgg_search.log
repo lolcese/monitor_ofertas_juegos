@@ -3484,3 +3484,692 @@ Estrategias: ['ATO 36 Defeat Into Victory', 'Defeat', 'ATO 36 Defeat Into Victor
     - Candidato: [129434] Silent Hill: Defeated (Conf: 10.0%, Score: 26.7)
 GANADOR: ID 102145 con 80.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Micro Mutants : Russoptères VS Araknoïdes' ---
+Estrategias: ['Micro Mutants', 'Micro Mutants : Russoptères VS Araknoïdes', 'Micro']
+  > Probando query: 'Micro Mutants : Russoptères VS Araknoïdes'
+    Encontrados 0 resultados.
+  > Probando query: 'Micro Mutants'
+    Encontrados 14 resultados.
+    - Candidato: [2316] Micro Mutants: Arachnides/Russoptères (Conf: 60.0%, Score: 66.7)
+    - Candidato: [31056] Micro Mutants: Evolution (Conf: 40.0%, Score: 54.8)
+    - Candidato: [70877] Micro Mutants: Invasion (Conf: 40.0%, Score: 55.7)
+    - Candidato: [180909] Micro Mutants: Les Terrains! (Conf: 40.0%, Score: 67.7)
+    - Candidato: [70877] Micro Mutants: Invasion (Conf: 40.0%, Score: 55.7)
+    - Candidato: [180909] Micro Mutants: Les Terrains! (Conf: 40.0%, Score: 67.7)
+  > Probando query: 'Micro'
+    Encontrados 943 resultados.
+    - Candidato: [383517] 1001 Odysseys: A Day at the Beach Microadventure (Conf: 0.0%, Score: 25.6)
+    - Candidato: [180779] AFL Micro-Figure Game (Conf: 20.0%, Score: 40.0)
+    - Candidato: [407979] Agropolis/Combopolis: Micro Extension (Conf: 20.0%, Score: 26.7)
+    - Candidato: [464282] Aquaria: Microflora Dial Promo (Conf: 0.0%, Score: 26.5)
+    - Candidato: [21858] Battle for Stalingrad Micro Game (Conf: 20.0%, Score: 22.5)
+    - Candidato: [9394] Battles with Micro-Tanks (Conf: 20.0%, Score: 31.7)
+    - Candidato: [299193] Beer & Pretzels Game: Modern Micro Armour (Conf: 20.0%, Score: 23.4)
+    - Candidato: [299192] Beer & Pretzels Game: WWII Micro Armour (Conf: 20.0%, Score: 24.0)
+    - Candidato: [331354] Beyblade V-Force: Micro Tops Battling Game (Conf: 20.0%, Score: 27.5)
+    - Candidato: [397221] BIG 1: Pack O Game Micro Expansion (Conf: 20.0%, Score: 30.6)
+    - Candidato: [397223] BIG 2: Pack O Game Micro Expansion (Conf: 20.0%, Score: 30.6)
+    - Candidato: [223115] BIOTIX: Microbes Mini Expansion (Conf: 0.0%, Score: 29.0)
+    - Candidato: [154703] Board with Life: The Metagame (The Microgame) (Conf: 0.0%, Score: 17.3)
+    - Candidato: [43275] Brutes Miniatures Microgame (Conf: 0.0%, Score: 21.2)
+    - Candidato: [427545] Café Baras: Equipment Micro-Expansion (Conf: 20.0%, Score: 29.3)
+    - Candidato: [231274] The City of Kings: Dexterity Micro Expansion (Conf: 20.0%, Score: 26.8)
+    - Candidato: [175238] A Colmeia: Micro-game (Conf: 20.0%, Score: 27.1)
+    - Candidato: [3792] Countermoves Generic Microgame Engine (Conf: 0.0%, Score: 21.1)
+    - Candidato: [359207] Creature Comforts: Dreams Come True Micro-Expansion (Conf: 20.0%, Score: 24.7)
+    - Candidato: [359206] Creature Comforts: Talents Micro-Expansion (Conf: 20.0%, Score: 27.5)
+    - Candidato: [312398] Crusader vs Skeleton: A Micro Chapbook Wargame (Conf: 40.0%, Score: 28.6)
+    - Candidato: [420724] La Crypte de Sedlec: Micro Extension (Conf: 20.0%, Score: 27.0)
+    - Candidato: [271148] Cytosis: Microscope Promo Card (Conf: 0.0%, Score: 41.2)
+    - Candidato: [429247] Datos No Opiniones: Demo Jugable – Microexpansión (Conf: 0.0%, Score: 23.5)
+    - Candidato: [333432] Diamant: Treason! Micro-Expansion (Conf: 20.0%, Score: 31.4)
+GANADOR: ID 2316 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Penguins on Ice' ---
+Estrategias: ['Penguins on Ice', 'Penguins']
+  > Probando query: 'Penguins on Ice'
+    Encontrados 0 resultados.
+  > Probando query: 'Penguins'
+    Encontrados 59 resultados.
+    - Candidato: [202251] Battle of the Penguins (Conf: 33.3%, Score: 43.2)
+    - Candidato: [268471] Battle Penguins (Conf: 33.3%, Score: 53.3)
+    - Candidato: [27461] Christmas Penguins (Conf: 33.3%, Score: 48.5)
+    - Candidato: [401158] Endangered Rescue #1: Galápagos Penguins (Conf: 33.3%, Score: 30.2)
+    - Candidato: [109451] A Fistful of Penguins (Conf: 33.3%, Score: 44.4)
+    - Candidato: [20564] Flippin' Penguins (Conf: 33.3%, Score: 51.6)
+    - Candidato: [446511] The Hangry Penguins (Conf: 33.3%, Score: 47.1)
+    - Candidato: [296164] High Rise Penguins (Conf: 33.3%, Score: 48.5)
+    - Candidato: [410441] Hungry Little Penguins (Conf: 33.3%, Score: 43.2)
+    - Candidato: [392702] Ice Cold Penguins (Conf: 66.7%, Score: 50.0)
+    - Candidato: [402340] The Last Penguins on Earth (Conf: 66.7%, Score: 63.4)
+    - Candidato: [286317] Magic Penguins (Conf: 33.3%, Score: 55.2)
+    - Candidato: [6979] Match of the Penguins (Conf: 33.3%, Score: 44.4)
+    - Candidato: [461561] Pack of Penguins (Conf: 33.3%, Score: 51.6)
+    - Candidato: [446268] Penguins Can't Fly (Conf: 33.3%, Score: 66.7)
+    - Candidato: [447831] Penguins Can't Fly: Squishy's Descent (Conf: 33.3%, Score: 54.9)
+    - Candidato: [447830] Penguins Can't Fly: The Jurassic Flap (Conf: 33.3%, Score: 51.0)
+    - Candidato: [7688] The Penguins of Madagascar Memory Match Game (Conf: 33.3%, Score: 44.1)
+    - Candidato: [133838] The Penguins of Madagascar Zoo Patrol (Conf: 33.3%, Score: 46.2)
+    - Candidato: [143559] The Penguins of Madagascar: Go Time (Conf: 33.3%, Score: 53.1)
+    - Candidato: [89426] The Penguins of Madagascar: Return to the Habitat (Conf: 33.3%, Score: 41.3)
+    - Candidato: [32999] Penguins Paradise (Conf: 33.3%, Score: 68.8)
+    - Candidato: [58698] Pickles to Penguins (Conf: 33.3%, Score: 47.1)
+    - Candidato: [253705] Plucky Penguins (Conf: 33.3%, Score: 53.3)
+    - Candidato: [338770] Plucky Penguins: Merry Christmas Promo Card (Conf: 33.3%, Score: 42.1)
+GANADOR: ID 402340 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tombe Frayeur' ---
+Estrategias: ['Tombe', 'Tombe Frayeur']
+  > Probando query: 'Tombe Frayeur'
+    Encontrados 0 resultados.
+  > Probando query: 'Tombe'
+    Encontrados 34 resultados.
+    - Candidato: [308966] Ankh: Les Dieux d'Égypte – Le Tombeau des merveilles (Conf: 50.0%, Score: 25.8)
+    - Candidato: [156089] Arcadia Quest: Outre Tombe (Conf: 50.0%, Score: 26.3)
+    - Candidato: [36722] Descent: Le Tombeau de Glace (Conf: 50.0%, Score: 40.0)
+    - Candidato: [5576] Dungeoneer: Le Tombeau du Seigneur des Liches (Conf: 50.0%, Score: 31.6)
+    - Candidato: [342738] Escape Room: Il gioco – Ladri di Tombe (Conf: 50.0%, Score: 20.8)
+    - Candidato: [203416] EXIT: Le Tombeau du Pharaon (Conf: 50.0%, Score: 41.0)
+    - Candidato: [193528] Munchkin 6.5: Terribles Tombes (Conf: 50.0%, Score: 23.8)
+    - Candidato: [10814] Outre Tombe (Conf: 50.0%, Score: 41.7)
+    - Candidato: [2472] Les Pilleurs de Tombes de l'Espace (Conf: 50.0%, Score: 34.0)
+    - Candidato: [18625] Runebound: Terreurs de la Tombe (Conf: 50.0%, Score: 23.3)
+    - Candidato: [247436] Sherlock: La tombe de l'archéologue (Conf: 50.0%, Score: 38.3)
+    - Candidato: [296986] Sherlock: Tra le tombe (Conf: 50.0%, Score: 29.4)
+    - Candidato: [4705] Une soirée de meurtre: Voix d'outre-tombe (Conf: 50.0%, Score: 18.9)
+    - Candidato: [175088] Le Tombeau Maudit (Conf: 50.0%, Score: 53.3)
+    - Candidato: [234989] Tombed (Conf: 50.0%, Score: 52.6)
+    - Candidato: [3702] Ça tombe ! (Conf: 50.0%, Score: 47.6)
+    - Candidato: [308966] Ankh: Les Dieux d'Égypte – Le Tombeau des merveilles (Conf: 50.0%, Score: 25.8)
+    - Candidato: [156089] Arcadia Quest: Outre Tombe (Conf: 50.0%, Score: 26.3)
+    - Candidato: [36722] Descent: Le Tombeau de Glace (Conf: 50.0%, Score: 40.0)
+    - Candidato: [342738] Escape Room: Il gioco – Ladri di Tombe (Conf: 50.0%, Score: 20.8)
+    - Candidato: [193528] Munchkin 6.5: Terribles Tombes (Conf: 50.0%, Score: 23.8)
+    - Candidato: [18625] Runebound: Terreurs de la Tombe (Conf: 50.0%, Score: 23.3)
+GANADOR: ID 175088 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Évolution - Le Nouveau Monde' ---
+Estrategias: ['Évolution -  Nouveau Monde', 'Évolution - Le Nouveau Monde', 'Évolution']
+  > Probando query: 'Évolution - Le Nouveau Monde'
+    Encontrados 0 resultados.
+  > Probando query: 'Évolution -  Nouveau Monde'
+    Encontrados 0 resultados.
+  > Probando query: 'Évolution'
+    Encontrados 416 resultados.
+    - Candidato: [433211] 10-Card Moose Evolution Simulator (Conf: 33.3%, Score: 39.3)
+    - Candidato: [245474] Abak Evolution Backgammon (Conf: 33.3%, Score: 58.3)
+    - Candidato: [365950] Aeon's End: Evolution (Conf: 33.3%, Score: 41.9)
+    - Candidato: [297729] All Things Zombie: Evolution (Conf: 33.3%, Score: 36.0)
+    - Candidato: [232004] Alta Tensione: Evolution (Conf: 33.3%, Score: 39.1)
+    - Candidato: [9092] Avalam Evolution (Conf: 33.3%, Score: 46.2)
+    - Candidato: [39667] Battlefield Evolution: Apocalypse Z (Conf: 33.3%, Score: 45.6)
+    - Candidato: [37708] Battlefield Evolution: Modern Combat – Ultra-Modern Miniatures Rules (Conf: 33.3%, Score: 43.2)
+    - Candidato: [68065] Battlefield Evolution: Pacific War – World War Two Miniatures Rules 1944-1945 (Conf: 33.3%, Score: 33.0)
+    - Candidato: [25253] Battlefield Evolution: Ultra-Modern Tabletop Combat (Conf: 33.3%, Score: 46.6)
+    - Candidato: [115519] Battlefield Evolution: Warbirds of World War II – A Supplement for Battlefield Evolution: World at War (Conf: 33.3%, Score: 26.4)
+    - Candidato: [301167] Battlefield Evolution: World at War – Gear Krieg (Conf: 33.3%, Score: 44.1)
+    - Candidato: [306610] Battlefield Evolution: World at War – Gear Krieg: Banzai (Conf: 33.3%, Score: 40.0)
+    - Candidato: [306609] Battlefield Evolution: World at War – Gear Krieg: British Walker Compendium I – Cavalier (Conf: 33.3%, Score: 34.3)
+    - Candidato: [306607] Battlefield Evolution: World at War – Gear Krieg: British Walker Compendium II – Roundhead (Conf: 33.3%, Score: 29.9)
+    - Candidato: [306594] Battlefield Evolution: World at War – Gear Krieg: German Walker Compendium I – Loki (Conf: 33.3%, Score: 36.0)
+    - Candidato: [306596] Battlefield Evolution: World at War – Gear Krieg: German Walker Compendium II – Walkuere (Conf: 33.3%, Score: 36.2)
+    - Candidato: [306749] Battlefield Evolution: World at War – Gear Krieg: German Walker Compendium III – Thor and Donner (Conf: 33.3%, Score: 31.9)
+    - Candidato: [306611] Battlefield Evolution: World at War – Gear Krieg: German Walker Compendium IV – Odin and Uller (Conf: 33.3%, Score: 34.2)
+    - Candidato: [306606] Battlefield Evolution: World at War – Gear Krieg: US Walker Compendium I – General Early (Conf: 33.3%, Score: 36.2)
+    - Candidato: [35707] Battlefield Evolution: World at War – World War Two Miniatures Rules 1944-1945 (Conf: 33.3%, Score: 32.7)
+    - Candidato: [229844] Box Battles: Cold War Evolution (Conf: 33.3%, Score: 34.0)
+    - Candidato: [231153] Box Battles: Cold War Evolution – Alter-Force 1: Right-Size Eastern Europe (Conf: 33.3%, Score: 34.4)
+    - Candidato: [231154] Box Battles: Cold War Evolution – Alter-Force 2B: Late Decade Tanks, First Platoon (Conf: 33.3%, Score: 28.0)
+    - Candidato: [231156] Box Battles: Cold War Evolution – BattleMatch Kit 1A: Mortar Platoons (Conf: 33.3%, Score: 36.4)
+GANADOR: ID 245474 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kikicri?' ---
+Estrategias: ['Kikicri', 'Kikicri?']
+  > Probando query: 'Kikicri?'
+    Encontrados 0 resultados.
+  > Probando query: 'Kikicri'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Le Bonhomme de Paille' ---
+Estrategias: ['Bonhomme', 'Bonhomme  Paille', 'Le Bonhomme de Paille']
+  > Probando query: 'Le Bonhomme de Paille'
+    Encontrados 0 resultados.
+  > Probando query: 'Bonhomme  Paille'
+    Encontrados 0 resultados.
+  > Probando query: 'Bonhomme'
+    Encontrados 4 resultados.
+    - Candidato: [13194] Bonhommes de neige (Conf: 50.0%, Score: 66.7)
+    - Candidato: [61930] Le petit bonhomme vit encore (Conf: 50.0%, Score: 51.2)
+    - Candidato: [241774] Sails of Glory Ship Pack: Bonhomme Richard 1779 / Bonhomme Richard (Conf: 50.0%, Score: 28.2)
+    - Candidato: [241774] Sails of Glory Ship Pack: Bonhomme Richard 1779 / Bonhomme Richard (Conf: 50.0%, Score: 28.2)
+GANADOR: ID 13194 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'K.O.Tic : Mignons vs Méchants' ---
+Estrategias: ['K.O.Tic : Mignons vs Méchants', 'K.O.Tic', 'Mignons']
+  > Probando query: 'K.O.Tic : Mignons vs Méchants'
+    Encontrados 0 resultados.
+  > Probando query: 'K.O.Tic'
+    Encontrados 1 resultados.
+    - Candidato: [346296] K.O. TIC: Dragons vs Licornes (Conf: 66.7%, Score: 66.7)
+  > Probando query: 'Mignons'
+    Encontrados 3 resultados.
+    - Candidato: [344254] Gloutons Mignons (Conf: 16.7%, Score: 46.5)
+GANADOR: ID 346296 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rory's Story Cubes : Pat Patrouille' ---
+Estrategias: ["Rory's Story Cubes : Pat Patrouille", "Rory's Story Cubes", 'Rory']
+  > Probando query: 'Rory's Story Cubes : Pat Patrouille'
+    Encontrados 0 resultados.
+  > Probando query: 'Rory's Story Cubes'
+    Encontrados 41 resultados.
+    - Candidato: [20545] Rory's Story Cubes (Conf: 66.7%, Score: 70.6)
+    - Candidato: [452196] Rory's Story Cubes Collector Box (Conf: 66.7%, Score: 70.8)
+    - Candidato: [406543] Rory's Story Cubes Paw Patrol (Conf: 66.7%, Score: 90.3)
+    - Candidato: [89415] Rory's Story Cubes: Actions (Conf: 66.7%, Score: 74.6)
+    - Candidato: [218913] Rory's Story Cubes: Adventure Time (Conf: 66.7%, Score: 75.8)
+    - Candidato: [182952] Rory's Story Cubes: Animalia (Conf: 66.7%, Score: 73.3)
+    - Candidato: [271227] Rory's Story Cubes: Arcade (Conf: 66.7%, Score: 75.9)
+    - Candidato: [291440] Rory's Story Cubes: Astro (Conf: 66.7%, Score: 80.7)
+    - Candidato: [271225] Rory's Story Cubes: Atomic (Conf: 66.7%, Score: 79.3)
+    - Candidato: [182541] Rory's Story Cubes: Batman (Conf: 66.7%, Score: 75.9)
+    - Candidato: [142556] Rory's Story Cubes: Clues (Conf: 66.7%, Score: 73.7)
+    - Candidato: [271228] Rory's Story Cubes: Disaster (Conf: 66.7%, Score: 73.3)
+    - Candidato: [192320] Rory's Story Cubes: Doctor Who (Conf: 66.7%, Score: 71.0)
+    - Candidato: [327645] Rory's Story Cubes: Doraemon (Conf: 66.7%, Score: 70.0)
+    - Candidato: [291381] Rory's Story Cubes: Emergency (Conf: 66.7%, Score: 68.9)
+    - Candidato: [142557] Rory's Story Cubes: Enchanted (Conf: 66.7%, Score: 72.1)
+    - Candidato: [234614] Rory's Story Cubes: Explore (Conf: 66.7%, Score: 74.6)
+    - Candidato: [217428] Rory's Story Cubes: Fantasia (Conf: 66.7%, Score: 76.7)
+    - Candidato: [182953] Rory's Story Cubes: Fright (Conf: 66.7%, Score: 69.0)
+    - Candidato: [316585] Rory's Story Cubes: Harry Potter (Conf: 66.7%, Score: 75.0)
+    - Candidato: [291380] Rory's Story Cubes: Heroes (Conf: 66.7%, Score: 75.9)
+    - Candidato: [165522] Rory's Story Cubes: Intergalactic (Conf: 66.7%, Score: 67.7)
+    - Candidato: [192322] Rory's Story Cubes: Looney Tunes (Conf: 66.7%, Score: 68.8)
+    - Candidato: [165521] Rory's Story Cubes: Medic (Conf: 66.7%, Score: 70.2)
+    - Candidato: [192324] Rory's Story Cubes: Medieval (Conf: 66.7%, Score: 70.0)
+  > Probando query: 'Rory'
+    Encontrados 45 resultados.
+    - Candidato: [319739] Doctor Who: Time of the Daleks – River, Amy, Clara & Rory (Conf: 16.7%, Score: 9.6)
+    - Candidato: [20545] Rory's Story Cubes (Conf: 66.7%, Score: 70.6)
+    - Candidato: [452196] Rory's Story Cubes Collector Box (Conf: 66.7%, Score: 70.8)
+    - Candidato: [406543] Rory's Story Cubes Paw Patrol (Conf: 66.7%, Score: 90.3)
+    - Candidato: [89415] Rory's Story Cubes: Actions (Conf: 66.7%, Score: 74.6)
+    - Candidato: [218913] Rory's Story Cubes: Adventure Time (Conf: 66.7%, Score: 75.8)
+    - Candidato: [182952] Rory's Story Cubes: Animalia (Conf: 66.7%, Score: 73.3)
+    - Candidato: [271227] Rory's Story Cubes: Arcade (Conf: 66.7%, Score: 75.9)
+    - Candidato: [291440] Rory's Story Cubes: Astro (Conf: 66.7%, Score: 80.7)
+    - Candidato: [271225] Rory's Story Cubes: Atomic (Conf: 66.7%, Score: 79.3)
+    - Candidato: [182541] Rory's Story Cubes: Batman (Conf: 66.7%, Score: 75.9)
+    - Candidato: [142556] Rory's Story Cubes: Clues (Conf: 66.7%, Score: 73.7)
+    - Candidato: [271228] Rory's Story Cubes: Disaster (Conf: 66.7%, Score: 73.3)
+    - Candidato: [192320] Rory's Story Cubes: Doctor Who (Conf: 66.7%, Score: 71.0)
+    - Candidato: [327645] Rory's Story Cubes: Doraemon (Conf: 66.7%, Score: 70.0)
+    - Candidato: [291381] Rory's Story Cubes: Emergency (Conf: 66.7%, Score: 68.9)
+    - Candidato: [142557] Rory's Story Cubes: Enchanted (Conf: 66.7%, Score: 72.1)
+    - Candidato: [234614] Rory's Story Cubes: Explore (Conf: 66.7%, Score: 74.6)
+    - Candidato: [217428] Rory's Story Cubes: Fantasia (Conf: 66.7%, Score: 76.7)
+    - Candidato: [182953] Rory's Story Cubes: Fright (Conf: 66.7%, Score: 69.0)
+    - Candidato: [316585] Rory's Story Cubes: Harry Potter (Conf: 66.7%, Score: 75.0)
+    - Candidato: [291380] Rory's Story Cubes: Heroes (Conf: 66.7%, Score: 75.9)
+    - Candidato: [165522] Rory's Story Cubes: Intergalactic (Conf: 66.7%, Score: 67.7)
+    - Candidato: [192322] Rory's Story Cubes: Looney Tunes (Conf: 66.7%, Score: 68.8)
+    - Candidato: [165521] Rory's Story Cubes: Medic (Conf: 66.7%, Score: 70.2)
+GANADOR: ID 406543 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Logic! Games - Splash Labyrinthe' ---
+Estrategias: ['Logic! Games', 'Logic! Games - Splash Labyrinthe', 'Logic']
+  > Probando query: 'Logic! Games - Splash Labyrinthe'
+    Encontrados 0 resultados.
+  > Probando query: 'Logic! Games'
+    Encontrados 4 resultados.
+    - Candidato: [11847] Mind sharpening Logic Games (Conf: 50.0%, Score: 39.3)
+    - Candidato: [43696] What else is in the square? advanced logic and matrix games. (Conf: 50.0%, Score: 25.3)
+  > Probando query: 'Logic'
+    Encontrados 89 resultados.
+    - Candidato: [224219] Bio-Logic (Conf: 25.0%, Score: 26.3)
+    - Candidato: [432225] Broken Logic: A Long Road Expansion (Conf: 25.0%, Score: 38.1)
+    - Candidato: [327562] Dino Battle: Logical Game. (Conf: 50.0%, Score: 37.7)
+    - Candidato: [277230] Dr Logic (Conf: 25.0%, Score: 27.0)
+    - Candidato: [26398] Eco-Logica (Conf: 25.0%, Score: 30.8)
+    - Candidato: [351287] Einstein Genius: Classic Logic Game (Conf: 50.0%, Score: 31.7)
+    - Candidato: [789] Focus logica e tattica (Conf: 25.0%, Score: 31.4)
+    - Candidato: [339975] The Game of Fuzzy Logic (Conf: 50.0%, Score: 19.2)
+    - Candidato: [34115] Game of Logic (Conf: 50.0%, Score: 23.8)
+    - Candidato: [300904] I.Q.: The Logic Puzzle Game – Train Your Brain! Give Your I.Q. Some Exercise (Conf: 50.0%, Score: 28.3)
+    - Candidato: [13740] Laboratório do Dr. Lógica (Conf: 25.0%, Score: 22.6)
+    - Candidato: [122945] Ladder Logic (Conf: 25.0%, Score: 24.4)
+    - Candidato: [149927] LED: Lógica – Estrategia – Deducción (Conf: 25.0%, Score: 36.7)
+    - Candidato: [410238] Logic & Lore (Conf: 25.0%, Score: 35.9)
+    - Candidato: [464052] Logic & Lore: Variance (Conf: 25.0%, Score: 45.8)
+    - Candidato: [13717] Logic 5 (Conf: 25.0%, Score: 33.3)
+    - Candidato: [427039] Logic 99 (Conf: 25.0%, Score: 32.4)
+    - Candidato: [255547] Logic and Reasoning: Riddle Master (Conf: 25.0%, Score: 48.4)
+    - Candidato: [346153] Logic Bomb (Conf: 25.0%, Score: 41.0)
+    - Candidato: [168204] Logic Labyrinth (Conf: 50.0%, Score: 68.2)
+    - Candidato: [153308] Logic Pirates (Conf: 25.0%, Score: 42.9)
+    - Candidato: [3874] Logica (Conf: 25.0%, Score: 34.3)
+    - Candidato: [304188] Logical Curling (Conf: 25.0%, Score: 40.9)
+    - Candidato: [96628] Logical Game (Conf: 50.0%, Score: 48.8)
+    - Candidato: [144113] Logical Spies (Conf: 25.0%, Score: 47.6)
+GANADOR: ID 168204 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Logic! Games - Les Acrobasticots' ---
+Estrategias: ['Logic! Games', 'Logic! Games - Les Acrobasticots', 'Logic! Games -  Acrobasticots', 'Logic']
+  > Probando query: 'Logic! Games - Les Acrobasticots'
+    Encontrados 0 resultados.
+  > Probando query: 'Logic! Games -  Acrobasticots'
+    Encontrados 0 resultados.
+  > Probando query: 'Logic! Games'
+    Encontrados 4 resultados.
+    - Candidato: [11847] Mind sharpening Logic Games (Conf: 66.7%, Score: 42.3)
+    - Candidato: [43696] What else is in the square? advanced logic and matrix games. (Conf: 66.7%, Score: 26.5)
+  > Probando query: 'Logic'
+    Encontrados 89 resultados.
+    - Candidato: [224219] Bio-Logic (Conf: 33.3%, Score: 29.4)
+    - Candidato: [432225] Broken Logic: A Long Road Expansion (Conf: 33.3%, Score: 47.5)
+    - Candidato: [327562] Dino Battle: Logical Game. (Conf: 66.7%, Score: 40.8)
+    - Candidato: [277230] Dr Logic (Conf: 33.3%, Score: 30.3)
+    - Candidato: [26398] Eco-Logica (Conf: 33.3%, Score: 34.3)
+    - Candidato: [351287] Einstein Genius: Classic Logic Game (Conf: 66.7%, Score: 33.9)
+    - Candidato: [789] Focus logica e tattica (Conf: 33.3%, Score: 42.6)
+    - Candidato: [339975] The Game of Fuzzy Logic (Conf: 66.7%, Score: 20.8)
+    - Candidato: [34115] Game of Logic (Conf: 66.7%, Score: 26.3)
+    - Candidato: [300904] I.Q.: The Logic Puzzle Game – Train Your Brain! Give Your I.Q. Some Exercise (Conf: 66.7%, Score: 29.5)
+    - Candidato: [13740] Laboratório do Dr. Lógica (Conf: 33.3%, Score: 24.5)
+    - Candidato: [122945] Ladder Logic (Conf: 33.3%, Score: 27.0)
+    - Candidato: [149927] LED: Lógica – Estrategia – Deducción (Conf: 33.3%, Score: 39.3)
+    - Candidato: [410238] Logic & Lore (Conf: 33.3%, Score: 40.0)
+    - Candidato: [464052] Logic & Lore: Variance (Conf: 33.3%, Score: 36.4)
+    - Candidato: [13717] Logic 5 (Conf: 33.3%, Score: 37.5)
+    - Candidato: [427039] Logic 99 (Conf: 33.3%, Score: 36.4)
+    - Candidato: [255547] Logic and Reasoning: Riddle Master (Conf: 33.3%, Score: 37.9)
+    - Candidato: [346153] Logic Bomb (Conf: 33.3%, Score: 45.7)
+    - Candidato: [168204] Logic Labyrinth (Conf: 33.3%, Score: 45.0)
+    - Candidato: [153308] Logic Pirates (Conf: 33.3%, Score: 47.4)
+    - Candidato: [3874] Logica (Conf: 33.3%, Score: 38.7)
+    - Candidato: [304188] Logical Curling (Conf: 33.3%, Score: 35.0)
+    - Candidato: [96628] Logical Game (Conf: 66.7%, Score: 54.1)
+    - Candidato: [144113] Logical Spies (Conf: 33.3%, Score: 42.1)
+GANADOR: ID 96628 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Riftbound: League Of Legends - Set 3: Unleashed Deck - Vex' ---
+Estrategias: ['Riftbound: League Of Legends -  3: Unleashed Deck - Vex', 'Riftbound: League Of Legends - Set 3: Unleashed Deck - Vex', 'Riftbound', 'Riftbound: League Of Legends']
+  > Probando query: 'Riftbound: League Of Legends - Set 3: Unleashed Deck - Vex'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends -  3: Unleashed Deck - Vex'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 50.0%, Score: 68.0)
+  > Probando query: 'Riftbound'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 50.0%, Score: 68.0)
+GANADOR: ID 436560 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Riftbound: League Of Legends - Set 3: Unleashed Deck - Vi' ---
+Estrategias: ['Riftbound', 'Riftbound: League Of Legends - Set 3: Unleashed Deck - Vi', 'Riftbound: League Of Legends -  3: Unleashed Deck - Vi', 'Riftbound: League Of Legends']
+  > Probando query: 'Riftbound: League Of Legends - Set 3: Unleashed Deck - Vi'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends -  3: Unleashed Deck - Vi'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 50.0%, Score: 68.8)
+  > Probando query: 'Riftbound'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 50.0%, Score: 68.8)
+GANADOR: ID 436560 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Riftbound: League Of Legends - Set 3: Unleashed - Vault' ---
+Estrategias: ['Riftbound: League Of Legends - Set 3: Unleashed - Vault', 'Riftbound', 'Riftbound: League Of Legends', 'Riftbound: League Of Legends -  3: Unleashed - Vault']
+  > Probando query: 'Riftbound: League Of Legends - Set 3: Unleashed - Vault'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends -  3: Unleashed - Vault'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 57.1%, Score: 70.2)
+  > Probando query: 'Riftbound'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 57.1%, Score: 70.2)
+GANADOR: ID 436560 con 57.1% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Riftbound: League Of Legends - Set 3: Unleashed Display' ---
+Estrategias: ['Riftbound: League Of Legends - Set 3: Unleashed Display', 'Riftbound', 'Riftbound: League Of Legends', 'Riftbound: League Of Legends -  3: Unleashed Display']
+  > Probando query: 'Riftbound: League Of Legends - Set 3: Unleashed Display'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends -  3: Unleashed Display'
+    Encontrados 0 resultados.
+  > Probando query: 'Riftbound: League Of Legends'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 57.1%, Score: 68.8)
+  > Probando query: 'Riftbound'
+    Encontrados 1 resultados.
+    - Candidato: [436560] Riftbound: The League of Legends Trading Card Game (Conf: 57.1%, Score: 68.8)
+GANADOR: ID 436560 con 57.1% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battalion S3 Operations and Training' ---
+Estrategias: ['Battalion', 'Battalion S3 Operations and Training']
+  > Probando query: 'Battalion S3 Operations and Training'
+    Encontrados 0 resultados.
+  > Probando query: 'Battalion'
+    Encontrados 75 resultados.
+    - Candidato: [32474] 1943: Battalion Level Ground Combat For WWII (Conf: 20.0%, Score: 48.1)
+    - Candidato: [229202] 5150: Battalion Commander (Conf: 20.0%, Score: 50.0)
+    - Candidato: [363294] El Alamein: Heavy Tank Battalion (Conf: 20.0%, Score: 26.9)
+    - Candidato: [307417] Battalion: North Africa '40-'43 (Conf: 20.0%, Score: 50.0)
+    - Candidato: [454827] Battalion: Simulating World War 2 Conflicts at Battalion Level (Conf: 20.0%, Score: 43.3)
+    - Candidato: [415838] Battalion: War of the Ancients (Conf: 20.0%, Score: 52.3)
+    - Candidato: [235701] Battalions (Conf: 20.0%, Score: 43.5)
+    - Candidato: [16744] Battalions In Crisis! (Conf: 20.0%, Score: 50.0)
+    - Candidato: [69757] Battalions In Crisis! Module I: 1943 (Conf: 20.0%, Score: 40.0)
+    - Candidato: [69758] Battalions In Crisis! ModuleII: 1944-45 (Conf: 20.0%, Score: 38.4)
+    - Candidato: [306663] Battalions of the Empire (Conf: 20.0%, Score: 50.0)
+    - Candidato: [162273] BattleGroup: Modern Wargaming Rules – For Battalion Level Miniature Based Games (Conf: 20.0%, Score: 26.8)
+    - Candidato: [29095] BattleLore: Dwarven Battalion Specialist Pack (Conf: 20.0%, Score: 42.5)
+    - Candidato: [459380] Bayonet Battalion (Conf: 20.0%, Score: 34.0)
+    - Candidato: [33138] The Big Battalions (Conf: 20.0%, Score: 37.0)
+    - Candidato: [369482] By Battalion, Volley Fire! (Conf: 20.0%, Score: 40.0)
+    - Candidato: [299067] Combat Command: Battalion Level Rules for World War II – Advanced Game (Conf: 20.0%, Score: 36.9)
+    - Candidato: [259819] Combat Command: Battalion Level Rules for World War II – Basic Game (Conf: 20.0%, Score: 40.0)
+    - Candidato: [9498] Doomed Battalions: ASL Module 11 (Conf: 20.0%, Score: 41.8)
+    - Candidato: [317629] Flames of War: T-34 – Tank Battalion (Conf: 20.0%, Score: 26.1)
+    - Candidato: [434296] Kalashnikov Tribal: Multi-Battalion (Conf: 20.0%, Score: 25.7)
+    - Candidato: [225908] Light Hunters: Battalion of Darkness (Conf: 20.0%, Score: 33.8)
+    - Candidato: [284194] Light Hunters: Battalion of Darkness – Rise of the East & Dawn of Amazonia (Conf: 20.0%, Score: 36.2)
+    - Candidato: [35703] Look, Sarge, No Charts:  WWII – Innovative Rules for Battalion-Level World War Two Miniatures Gaming (Conf: 20.0%, Score: 32.3)
+    - Candidato: [11674] The Lost Battalion: The Meuse-Argonne Offensive, 1918 (Conf: 20.0%, Score: 39.1)
+GANADOR: ID 415838 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Guerilla Generation' ---
+Estrategias: ['Guerilla', 'The Guerilla Generation']
+  > Probando query: 'The Guerilla Generation'
+    Encontrados 0 resultados.
+  > Probando query: 'Guerilla'
+    Encontrados 15 resultados.
+    - Candidato: [6921] Bloodtree Rebellion: Guerilla Warfare on the Planet Somber (Conf: 66.7%, Score: 40.0)
+    - Candidato: [274] Guerilla (Conf: 33.3%, Score: 51.6)
+    - Candidato: [7027] Guerilla (Conf: 33.3%, Score: 51.6)
+    - Candidato: [8216] Guerilla (Conf: 33.3%, Score: 51.6)
+    - Candidato: [112117] Guerilla ! (Conf: 33.3%, Score: 51.6)
+    - Candidato: [71035] Guerilla Checkers (Conf: 33.3%, Score: 60.0)
+    - Candidato: [40951] Guerilla: Universal Rules for Warfare (Conf: 33.3%, Score: 47.5)
+    - Candidato: [1669] Mosby's Raiders: Guerilla Warfare in the Civil War (Conf: 66.7%, Score: 41.7)
+    - Candidato: [462774] People's War: Wargame Rules for the Age of the Guerilla (Conf: 66.7%, Score: 31.2)
+    - Candidato: [15060] Schutztruppe: East African Guerilla Warfare, 1914-1918 (Conf: 33.3%, Score: 34.7)
+GANADOR: ID 1669 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '2025 Replacement Countersheet GMT' ---
+Estrategias: ['2025 Replacement Countersheet GMT', '2025']
+  > Probando query: '2025 Replacement Countersheet GMT'
+    Encontrados 0 resultados.
+  > Probando query: '2025'
+    Encontrados 341 resultados.
+    - Candidato: [2025] Frag (Conf: 0.0%, Score: 16.2)
+    - Candidato: [424055] 365 Adventures: The Dungeon – 2025 (Conf: 25.0%, Score: 12.5)
+    - Candidato: [439278] At The Bleeding Edge: Russia vs NATO in Eastern Europe 2020-2025 (Conf: 25.0%, Score: 8.3)
+    - Candidato: [447147] Battle Pages: 2025 Year-Long Adventure Set (Conf: 25.0%, Score: 40.5)
+    - Candidato: [457749] Bier Pioniere: Bier Boom – 2025 Promo (Conf: 25.0%, Score: 23.9)
+    - Candidato: [438711] Bornholm 2025 (Conf: 25.0%, Score: 17.4)
+    - Candidato: [421128] Borodino 2025 (Conf: 25.0%, Score: 17.4)
+    - Candidato: [451933] Brink: Gencon 2025 Promo Cards (Conf: 25.0%, Score: 35.5)
+    - Candidato: [450146] Calcool 2025 (Conf: 25.0%, Score: 17.8)
+    - Candidato: [456854] Carcassonne: Bonusplättchen Spiel 2025 (Conf: 25.0%, Score: 11.4)
+    - Candidato: [459154] Castles of Mad King Ludwig: Dice Tower 2025 Promo Card (Conf: 25.0%, Score: 23.3)
+    - Candidato: [457128] Castles of Mad King Ludwig: Game Boy Geek 2025 Royal Decree Promo Card (Conf: 25.0%, Score: 23.5)
+    - Candidato: [459239] Chemical Overload: Pax Unplugged 2025 Promo Pack (Conf: 25.0%, Score: 22.5)
+    - Candidato: [438700] Chios 2025 (Conf: 25.0%, Score: 18.6)
+    - Candidato: [465268] Corps of Discovery: Game Store Day 2025 Map Pack (Conf: 25.0%, Score: 20.0)
+    - Candidato: [450700] Corvids: Promo Pack 2025 (Conf: 25.0%, Score: 14.3)
+    - Candidato: [436323] Dangerous Space: 2025 Core Set (Conf: 25.0%, Score: 35.5)
+    - Candidato: [433892] Dangerous Space: 2025 Year-Long Adventure Set (Conf: 25.0%, Score: 39.0)
+    - Candidato: [450473] DC Deck-Building Game: Convention Promo Pack 2025 (Conf: 25.0%, Score: 9.9)
+    - Candidato: [453839] Dodos Riding Dinos: Gen Con 2025 Promo Pack (Conf: 25.0%, Score: 24.0)
+    - Candidato: [457497] Don't Starve: Spiel Essen 2025 Promo Card (Conf: 25.0%, Score: 27.4)
+    - Candidato: [462090] Dragon Eclipse: Dice Tower 2025 Promo Pack (Conf: 25.0%, Score: 24.3)
+    - Candidato: [455494] Festival Jugamos Tod@s: Festival 2025 (Conf: 25.0%, Score: 11.6)
+    - Candidato: [37392] Fleets 2025: East China Sea (Conf: 25.0%, Score: 40.7)
+    - Candidato: [258506] Global War 2025: Meltdown (Conf: 25.0%, Score: 28.1)
+GANADOR: ID 37392 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Monopoly: Shark Week' ---
+Estrategias: ['Monopoly', 'Monopoly: Shark Week']
+  > Probando query: 'Monopoly: Shark Week'
+    Encontrados 0 resultados.
+  > Probando query: 'Monopoly'
+    Encontrados 418 resultados.
+    - Candidato: [2740] Aero Monopoly (Conf: 33.3%, Score: 50.0)
+    - Candidato: [1931] Anti-Monopoly (Conf: 33.3%, Score: 50.0)
+    - Candidato: [1932] Anti-Monopoly II (Conf: 33.3%, Score: 51.4)
+    - Candidato: [1930] Anti-Monopoly III: Washington-Moskau (Conf: 33.3%, Score: 44.4)
+    - Candidato: [261955] Anti-Monopoly: Luxus-Edition (Conf: 33.3%, Score: 52.2)
+    - Candidato: [21659] Beyond Boardwalk and Park Place (fan expansion for Monopoly) (Conf: 33.3%, Score: 20.8)
+    - Candidato: [36487] Burmese Monopoly (Conf: 33.3%, Score: 45.7)
+    - Candidato: [27322] Chocolade Monopoly (Conf: 33.3%, Score: 43.2)
+    - Candidato: [362509] Co-opoly: a "conversion kit" for Monopoly (Conf: 33.3%, Score: 28.1)
+    - Candidato: [402608] Costco Monopoly (Conf: 33.3%, Score: 47.1)
+    - Candidato: [13102] Entrepreneur's Accessory to Monopoly (fan expansion for Monopoly) (Conf: 33.3%, Score: 29.3)
+    - Candidato: [5166] Express Monopoly Card Game (Conf: 33.3%, Score: 57.8)
+    - Candidato: [108230] Final Fantasy Monopoly (Conf: 33.3%, Score: 39.0)
+    - Candidato: [3446] Game Spice: Monopoly Expansion (fan expansion for Monopoly) (Conf: 33.3%, Score: 34.7)
+    - Candidato: [11862] Gay Monopoly (Conf: 33.3%, Score: 51.6)
+    - Candidato: [434437] Hamleys Monopoly (Conf: 33.3%, Score: 45.7)
+    - Candidato: [94416] Harley-Davidson Monopoly: Collector's Edition (Conf: 33.3%, Score: 38.1)
+    - Candidato: [117935] Heinz Monopoly Game (Conf: 33.3%, Score: 57.9)
+    - Candidato: [42372] Hellraiser Monopoly (Conf: 33.3%, Score: 42.1)
+    - Candidato: [15884] Hometown Monopoly: Bloomington (Conf: 33.3%, Score: 37.5)
+    - Candidato: [433862] Hometown Monopoly: Detroit (Conf: 33.3%, Score: 45.5)
+    - Candidato: [42169] Hometown Monopoly: La Crosse (Conf: 33.3%, Score: 47.8)
+    - Candidato: [42204] Hometown Monopoly: Oshkosh (Conf: 33.3%, Score: 54.5)
+    - Candidato: [352250] Improving Games: Monopoly (Conf: 33.3%, Score: 37.2)
+    - Candidato: [28374] Inflatable Monopoly (Conf: 33.3%, Score: 42.1)
+GANADOR: ID 117935 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Sea of Legends: Bob Kehl Captain Pack' ---
+Estrategias: ['Sea of Legends: Bob Kehl Captain Pack', 'Sea of Legends', 'Sea of Legends: Bob Kehl Captain', 'Legends']
+  > Probando query: 'Sea of Legends: Bob Kehl Captain Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Sea of Legends: Bob Kehl Captain'
+    Encontrados 0 resultados.
+  > Probando query: 'Sea of Legends'
+    Encontrados 32 resultados.
+    - Candidato: [302105] Dungeon Crawlers: Legends of Runya Season 1 (Conf: 33.3%, Score: 38.4)
+    - Candidato: [377587] Fraxure: Legends of the Sea (Conf: 50.0%, Score: 52.6)
+    - Candidato: [34305] Legends of the High Seas (Conf: 50.0%, Score: 50.9)
+    - Candidato: [456543] Legends of the Seas (Conf: 50.0%, Score: 52.0)
+    - Candidato: [458613] Legends of the Seas: Goblin's Raid Expansion (Conf: 50.0%, Score: 40.5)
+    - Candidato: [458614] Legends of the Seas: Treasure Card Pack (Conf: 50.0%, Score: 46.4)
+    - Candidato: [296238] Sea of Legends (Conf: 50.0%, Score: 62.2)
+    - Candidato: [422199] Sea of Legends: Captains Pack (Conf: 66.7%, Score: 74.6)
+    - Candidato: [420535] Sea of Legends: Legendary Rewards Pack (Conf: 50.0%, Score: 50.0)
+    - Candidato: [331356] Sea of Legends: Rise of the Ancients (Conf: 50.0%, Score: 63.6)
+    - Candidato: [335708] Sea of Legends: Tantrum House Promo Pack (Conf: 50.0%, Score: 51.4)
+    - Candidato: [346136] Sea of Legends: Vengeance of the Empires (Conf: 50.0%, Score: 60.0)
+    - Candidato: [382016] Sea of Thieves: Voyage of Legends (Conf: 50.0%, Score: 44.4)
+    - Candidato: [419066] Searching for Legends (Conf: 16.7%, Score: 50.0)
+    - Candidato: [392141] Shipwrights of the North Sea: Redux – Legends Promo Pack (Conf: 50.0%, Score: 38.1)
+    - Candidato: [301645] Tavern Brawlers: Legends of Runya Season 1 (Conf: 33.3%, Score: 38.9)
+    - Candidato: [458613] Legends of the Seas: Goblin's Raid Expansion (Conf: 50.0%, Score: 40.5)
+    - Candidato: [458614] Legends of the Seas: Treasure Card Pack (Conf: 50.0%, Score: 46.4)
+    - Candidato: [422199] Sea of Legends: Captains Pack (Conf: 66.7%, Score: 74.6)
+    - Candidato: [420535] Sea of Legends: Legendary Rewards Pack (Conf: 50.0%, Score: 50.0)
+    - Candidato: [331356] Sea of Legends: Rise of the Ancients (Conf: 50.0%, Score: 63.6)
+    - Candidato: [335708] Sea of Legends: Tantrum House Promo Pack (Conf: 50.0%, Score: 51.4)
+    - Candidato: [346136] Sea of Legends: Vengeance of the Empires (Conf: 50.0%, Score: 60.0)
+    - Candidato: [392141] Shipwrights of the North Sea: Redux – Legends Promo Pack (Conf: 50.0%, Score: 38.1)
+  > Probando query: 'Legends'
+    Encontrados 1457 resultados.
+    - Candidato: [162543] +6 Bag O' Munchkin Legends (Conf: 16.7%, Score: 40.0)
+    - Candidato: [313761] 8 Bit Attack: Mythic Legends (Conf: 16.7%, Score: 34.5)
+    - Candidato: [452737] All Time Wrestling: Rumble in Abu Dhabi – Rumble Legends Pack (Conf: 16.7%, Score: 31.5)
+    - Candidato: [338853] Animals and Legends Card Game (Conf: 16.7%, Score: 46.7)
+    - Candidato: [380681] Apex Legends: The Board Game (Conf: 16.7%, Score: 48.3)
+    - Candidato: [410265] Apex Legends: The Board Game – Board 1 Expansion (Conf: 16.7%, Score: 47.4)
+    - Candidato: [410267] Apex Legends: The Board Game – Loba Expansion (Conf: 16.7%, Score: 49.3)
+    - Candidato: [410266] Apex Legends: The Board Game – Solo and Co-op Expansion (Conf: 16.7%, Score: 48.2)
+    - Candidato: [410264] Apex Legends: The Board Game – Squad 1 Expansion (Conf: 16.7%, Score: 52.6)
+    - Candidato: [21676] Arcanum Legends (Conf: 16.7%, Score: 39.1)
+    - Candidato: [423691] Ascension Legends (Conf: 16.7%, Score: 45.8)
+    - Candidato: [336913] Aventuria: Path of Legends (Conf: 33.3%, Score: 46.4)
+    - Candidato: [457499] Bag of Dungeon: Legends 2 – Adventure Pack (Conf: 33.3%, Score: 42.9)
+    - Candidato: [309714] Bag of Dungeon: Legends Character Expansion Pack (Conf: 33.3%, Score: 41.0)
+    - Candidato: [401241] BANG! Legends (Conf: 16.7%, Score: 41.9)
+    - Candidato: [371230] Bardsung: Epic Encounters – Local Legends (Conf: 16.7%, Score: 31.9)
+    - Candidato: [354710] Basketball Legends (Conf: 16.7%, Score: 44.9)
+    - Candidato: [298410] Battle of Legends: Print & Play Edition (Conf: 33.3%, Score: 47.8)
+    - Candidato: [341973] Battle of Legends: Rome vs Macedon (Conf: 33.3%, Score: 53.1)
+    - Candidato: [362967] BattleTech Legends (Conf: 16.7%, Score: 36.7)
+    - Candidato: [448092] BattleTech: Legends II (Conf: 16.7%, Score: 42.3)
+    - Candidato: [240165] Beowulf Legends: Terror at Heorot (Conf: 16.7%, Score: 50.8)
+    - Candidato: [147154] Blue Moon Legends (Conf: 16.7%, Score: 45.8)
+    - Candidato: [170149] BrainBites: Myths & Legends (Conf: 16.7%, Score: 36.4)
+    - Candidato: [10496] Camelot Legends (Conf: 16.7%, Score: 43.5)
+GANADOR: ID 422199 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ouija: Beetlejuice' ---
+Estrategias: ['Ouija: Beetlejuice', 'Ouija']
+  > Probando query: 'Ouija: Beetlejuice'
+    Encontrados 0 resultados.
+  > Probando query: 'Ouija'
+    Encontrados 7 resultados.
+    - Candidato: [406045] Don't Go In There: Ouija Board Promo Pack (Conf: 50.0%, Score: 28.1)
+    - Candidato: [437139] Ouija Manor (Conf: 50.0%, Score: 42.9)
+    - Candidato: [14152] Ouija Oracle Card Game (Conf: 50.0%, Score: 51.3)
+    - Candidato: [5879] Ouija: The Mystifying Card Game (Conf: 50.0%, Score: 34.0)
+    - Candidato: [406045] Don't Go In There: Ouija Board Promo Pack (Conf: 50.0%, Score: 28.1)
+GANADOR: ID 14152 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Monopoly: Parks & Recreation' ---
+Estrategias: ['Monopoly: Parks & Recreation', 'Monopoly']
+  > Probando query: 'Monopoly: Parks & Recreation'
+    Encontrados 0 resultados.
+  > Probando query: 'Monopoly'
+    Encontrados 418 resultados.
+    - Candidato: [2740] Aero Monopoly (Conf: 33.3%, Score: 42.1)
+    - Candidato: [1931] Anti-Monopoly (Conf: 33.3%, Score: 42.1)
+    - Candidato: [1932] Anti-Monopoly II (Conf: 33.3%, Score: 48.8)
+    - Candidato: [1930] Anti-Monopoly III: Washington-Moskau (Conf: 33.3%, Score: 46.7)
+    - Candidato: [261955] Anti-Monopoly: Luxus-Edition (Conf: 33.3%, Score: 61.5)
+    - Candidato: [21659] Beyond Boardwalk and Park Place (fan expansion for Monopoly) (Conf: 66.7%, Score: 19.3)
+    - Candidato: [36487] Burmese Monopoly (Conf: 33.3%, Score: 39.0)
+    - Candidato: [27322] Chocolade Monopoly (Conf: 33.3%, Score: 37.2)
+    - Candidato: [362509] Co-opoly: a "conversion kit" for Monopoly (Conf: 33.3%, Score: 25.4)
+    - Candidato: [402608] Costco Monopoly (Conf: 33.3%, Score: 40.0)
+    - Candidato: [13102] Entrepreneur's Accessory to Monopoly (fan expansion for Monopoly) (Conf: 33.3%, Score: 34.1)
+    - Candidato: [5166] Express Monopoly Card Game (Conf: 33.3%, Score: 51.0)
+    - Candidato: [108230] Final Fantasy Monopoly (Conf: 33.3%, Score: 34.0)
+    - Candidato: [3446] Game Spice: Monopoly Expansion (fan expansion for Monopoly) (Conf: 33.3%, Score: 37.0)
+    - Candidato: [11862] Gay Monopoly (Conf: 33.3%, Score: 43.2)
+    - Candidato: [434437] Hamleys Monopoly (Conf: 33.3%, Score: 39.0)
+    - Candidato: [94416] Harley-Davidson Monopoly: Collector's Edition (Conf: 33.3%, Score: 49.3)
+    - Candidato: [117935] Heinz Monopoly Game (Conf: 33.3%, Score: 50.0)
+    - Candidato: [42372] Hellraiser Monopoly (Conf: 33.3%, Score: 36.4)
+    - Candidato: [15884] Hometown Monopoly: Bloomington (Conf: 33.3%, Score: 44.4)
+    - Candidato: [433862] Hometown Monopoly: Detroit (Conf: 33.3%, Score: 44.0)
+    - Candidato: [42169] Hometown Monopoly: La Crosse (Conf: 33.3%, Score: 53.8)
+    - Candidato: [42204] Hometown Monopoly: Oshkosh (Conf: 33.3%, Score: 44.0)
+    - Candidato: [352250] Improving Games: Monopoly (Conf: 33.3%, Score: 32.7)
+    - Candidato: [28374] Inflatable Monopoly (Conf: 33.3%, Score: 36.4)
+GANADOR: ID 21659 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Papillon: Garden Pledge' ---
+Estrategias: ['Papillon', 'Papillon: Garden Pledge']
+  > Probando query: 'Papillon: Garden Pledge'
+    Encontrados 0 resultados.
+  > Probando query: 'Papillon'
+    Encontrados 10 resultados.
+    - Candidato: [375365] Once Upon a Line: Le Souffle du Papillon (Conf: 33.3%, Score: 26.2)
+    - Candidato: [125830] Papillon (Conf: 33.3%, Score: 53.3)
+    - Candidato: [241066] Papillon (Conf: 33.3%, Score: 53.3)
+    - Candidato: [35322] Papillon (Conf: 33.3%, Score: 53.3)
+    - Candidato: [357290] Papillon Gardens (Conf: 66.7%, Score: 78.9)
+    - Candidato: [278150] Papillon: Beyond the Meadow (Conf: 33.3%, Score: 45.8)
+    - Candidato: [32410] Papillons (Conf: 33.3%, Score: 51.6)
+    - Candidato: [258154] Papillons Célestes (Conf: 33.3%, Score: 65.0)
+    - Candidato: [35139] Le réveil des papillons (Conf: 33.3%, Score: 35.6)
+    - Candidato: [278150] Papillon: Beyond the Meadow (Conf: 33.3%, Score: 45.8)
+GANADOR: ID 357290 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Clue: Diary of a Wimpy Kid' ---
+Estrategias: ['Clue: Diary of a Wimpy Kid', 'Clue']
+  > Probando query: 'Clue: Diary of a Wimpy Kid'
+    Encontrados 0 resultados.
+  > Probando query: 'Clue'
+    Encontrados 262 resultados.
+    - Candidato: [352413] 10 Clues (Conf: 16.7%, Score: 24.2)
+    - Candidato: [208766] 13 Clues (Conf: 16.7%, Score: 24.2)
+    - Candidato: [244470] 20 Clues: World Geography (Conf: 16.7%, Score: 32.7)
+    - Candidato: [43483] 39 Clues: Cahill Commotion (Conf: 16.7%, Score: 36.0)
+    - Candidato: [64200] 39 Clues: Search for the Keys (Conf: 16.7%, Score: 45.3)
+    - Candidato: [339741] 50 Clues: Dead or Alive (Conf: 16.7%, Score: 51.1)
+    - Candidato: [393304] 50 Clues: Down in the Depths (Conf: 16.7%, Score: 38.5)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 16.7%, Score: 29.1)
+    - Candidato: [339743] 50 Clues: Keepers of Evil (Conf: 33.3%, Score: 44.9)
+    - Candidato: [391213] 50 Clues: No Sign of Life (Conf: 33.3%, Score: 44.9)
+    - Candidato: [269168] 50 Clues: Ritualet (Conf: 16.7%, Score: 33.3)
+    - Candidato: [282008] 50 Clues: The Fate of Leopold (Conf: 33.3%, Score: 45.3)
+    - Candidato: [291563] 50 Clues: The Home Temple (Conf: 16.7%, Score: 40.8)
+    - Candidato: [393305] 50 Clues: The Last Journey (Conf: 16.7%, Score: 32.0)
+    - Candidato: [282006] 50 Clues: The Pendulum of the Dead (Conf: 33.3%, Score: 41.4)
+    - Candidato: [339742] 50 Clues: The Secret of the Mark (Conf: 33.3%, Score: 42.9)
+    - Candidato: [282007] 50 Clues: White Sleep (Conf: 16.7%, Score: 35.6)
+    - Candidato: [421983] Absolutely Clueless (Conf: 0.0%, Score: 18.2)
+    - Candidato: [406328] Agents Without a Clue (Conf: 33.3%, Score: 17.4)
+    - Candidato: [11873] AMC Reel Clues (Conf: 16.7%, Score: 20.5)
+    - Candidato: [204281] Baby Clues (Conf: 16.7%, Score: 22.9)
+    - Candidato: [209472] Baby Clues: Skill Cards (Conf: 16.7%, Score: 38.3)
+    - Candidato: [307020] Batman: Gotham City Chronicles – Cluemaster (Conf: 0.0%, Score: 18.5)
+    - Candidato: [7688] Blue's Clues & you! Memoria (Conf: 16.7%, Score: 28.6)
+    - Candidato: [462842] Blue's Clues and You!: Scavenger Scurry Game (Conf: 16.7%, Score: 35.8)
+GANADOR: ID 282008 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Avatar the Last Air Bender: Fire Nation Rising' ---
+Estrategias: ['Avatar', 'Avatar the Last Air Bender: Fire Nation Rising', 'Avatar the Last Air Bender']
+  > Probando query: 'Avatar the Last Air Bender: Fire Nation Rising'
+    Encontrados 0 resultados.
+  > Probando query: 'Avatar the Last Air Bender'
+    Encontrados 0 resultados.
+  > Probando query: 'Avatar'
+    Encontrados 147 resultados.
+    - Candidato: [304730] Alone: Avatar Expansion (Conf: 12.5%, Score: 38.8)
+    - Candidato: [35999] Avatar Adventures (Conf: 12.5%, Score: 41.9)
+    - Candidato: [1219] Avatar Labyrinth (Conf: 12.5%, Score: 29.5)
+    - Candidato: [7688] Avatar Memory (Conf: 12.5%, Score: 31.0)
+    - Candidato: [90369] Avatar Speed Puzzle (Conf: 12.5%, Score: 34.4)
+    - Candidato: [301322] Avatar Spirits (Conf: 12.5%, Score: 44.1)
+    - Candidato: [414825] Avatar: Journey of Aang (Conf: 12.5%, Score: 41.8)
+    - Candidato: [88957] Avatar: The Board Game (Conf: 25.0%, Score: 45.5)
+    - Candidato: [331017] Avatar: The Last Airbender Oh, My Cabbages! (Conf: 37.5%, Score: 65.9)
+    - Candidato: [22469] Avatar: The Last Airbender Trading Card Game (Conf: 37.5%, Score: 70.5)
+    - Candidato: [331015] Avatar: The Last Airbender Uncle Iroh's Dream (Conf: 37.5%, Score: 67.4)
+    - Candidato: [416284] Avatar: The Last Airbender – Aang's Destiny (Conf: 37.5%, Score: 70.6)
+    - Candidato: [393492] Avatar: The Last Airbender – Crossroads of Destiny (Conf: 37.5%, Score: 67.4)
+    - Candidato: [358588] Avatar: The Last Airbender – Fire Nation Rising (Conf: 75.0%, Score: 98.9)
+    - Candidato: [406971] Avatar: The Last Airbender – Fire Nation Rising: Cabbage Merchant Promo Card (Conf: 75.0%, Score: 75.2)
+    - Candidato: [182609] BattleCON: Anath Adrasteia Avatar of Havoc (Conf: 12.5%, Score: 23.3)
+    - Candidato: [413564] Black Rose Wars: Odrodzenie – Avatar Jukas (Conf: 12.5%, Score: 21.4)
+    - Candidato: [454277] DOG: Avatar (Conf: 12.5%, Score: 21.8)
+    - Candidato: [282797] Dust 1947: Avatar of Cthulhu (Conf: 12.5%, Score: 27.8)
+    - Candidato: [440931] Elden Ring: Realm of the Grafted King – Erdtree Avatar (Conf: 25.0%, Score: 12.5)
+    - Candidato: [192849] Fleet Commander: Avatar (Conf: 12.5%, Score: 17.9)
+    - Candidato: [284226] Kamigami Battles: Avatars of Cosmic Fire (Conf: 25.0%, Score: 35.7)
+    - Candidato: [138446] Malifaux: Colette Avatar of Deception (Conf: 12.5%, Score: 37.0)
+    - Candidato: [138447] Malifaux: Lilith Avatar of Nature's Malevolence (Conf: 12.5%, Score: 30.8)
+    - Candidato: [460667] Monopoly: Avatar (Conf: 12.5%, Score: 20.0)
+GANADOR: ID 358588 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Exoworld Survival: Launch Edition' ---
+Estrategias: ['Exoworld Survival', 'Exoworld', 'Exoworld Survival: Launch', 'Exoworld Survival: Launch Edition']
+  > Probando query: 'Exoworld Survival: Launch Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Exoworld Survival: Launch'
+    Encontrados 0 resultados.
+  > Probando query: 'Exoworld Survival'
+    Encontrados 1 resultados.
+    - Candidato: [396090] Exoworld Survival (Conf: 66.7%, Score: 82.9)
+  > Probando query: 'Exoworld'
+    Encontrados 1 resultados.
+    - Candidato: [396090] Exoworld Survival (Conf: 66.7%, Score: 82.9)
+GANADOR: ID 396090 con 66.7% confianza.
+--------------------------------------------------

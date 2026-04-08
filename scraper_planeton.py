@@ -115,28 +115,33 @@ def scrape_planeton(target='planeton'):
 
                     print(f"   [ITEM] [PLANETON] Procesando: {name}")
                     
-                    # 5. Mapeo BGG con Lógica de Candidatos
+                    # 5. Mapeo BGG - RESPETO A MANUALES & OPTIMIZACION
                     id_b = None
                     conf = 0
+                    is_final = False
                     
-                    # OPTIMIZACION: Si ya esta mapeado en local y existe en games, saltamos búsqueda
-                    if cached and str(cached[0]).isdigit():
-                        g_res = conn.execute("SELECT bgg_id FROM games WHERE bgg_id = ?", (cached[0],)).fetchone()
-                        if g_res:
-                            id_b = cached[0]
-                            conf = cached[1]
-                            # print(f"      [OK] Mapeo local encontrado: {id_b}")
-                    
-                    if not id_b:
+                    if cached:
+                        bid_c, conf_c = cached
+                        # 1. Si es WAITING, IGNORED o MANUAL (100%), lo usamos tal cual y marcamos como final
+                        if bid_c in ['WAITING', 'IGNORED'] or conf_c == 100:
+                            id_b, conf = bid_c, conf_c
+                            is_final = True
+                        # 2. Si ya esta mapeado en local (automatizado previo)
+                        elif str(bid_c).isdigit():
+                            g_res = conn.execute("SELECT bgg_id FROM games WHERE bgg_id = ?", (bid_c,)).fetchone()
+                            if g_res:
+                                id_b, conf = bid_c, conf_c
+
+                    if not id_b and not is_final:
                         id_b, conf = fetch_bgg_id(name, u, source=source_tag)
-                        # Si la confianza es baja, lo marcamos como WAITING y guardamos el candidato
-                        # Pero si no hay candidatos (conf 0), lo marcamos como N/A
+                        
+                        # Clasificación Final
                         final_id = id_b if conf >= 95 else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
                         cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
                         
                         with conn:
                             conn.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
-                        id_b = final_id # Para el resto de la ejecución
+                        id_b = final_id
 
                     # 6. Guardar Deal y Datos BGG (Sólo si está mapeado)
                     with conn:
