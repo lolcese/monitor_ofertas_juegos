@@ -136,7 +136,7 @@ def scrape_planeton(target='planeton'):
                         id_b, conf = fetch_bgg_id(name, u, source=source_tag)
                         
                         # Clasificación Final
-                        final_id = id_b if conf >= 95 else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
+                        final_id = id_b if conf >= 95 else 'N/A'
                         cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
                         
                         with conn:

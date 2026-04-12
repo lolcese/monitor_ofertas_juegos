@@ -146,7 +146,7 @@ def scrape_philibert(source_key):
                     if id_b in ['WAITING', 'IGNORED']:
                         final_id = id_b
                     else:
-                        final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else ('WAITING' if (id_b and str(id_b).isdigit()) else 'N/A')
+                        final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else 'N/A'
                     
                     cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
                     
