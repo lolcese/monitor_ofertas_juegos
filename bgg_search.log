@@ -6066,3 +6066,332 @@ Estrategias: ['Defeat', 'ATO 36 Defeat Into Victory: The Final Campaigns in Burm
     - Candidato: [129434] Silent Hill: Defeated (Conf: 10.0%, Score: 26.7)
 GANADOR: ID 102145 con 80.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gundam Assemble: Starter Set' ---
+Estrategias: ['Gundam Assemble: Starter Set', 'Gundam', 'Gundam Assemble', 'Gundam Assemble: Starter']
+  > Probando query: 'Gundam Assemble: Starter Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble: Starter'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble'
+    Encontrados 1 resultados.
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 78.9)
+  > Probando query: 'Gundam'
+    Encontrados 131 resultados.
+    - Candidato: [275713] 0079 Gundam (Conf: 33.3%, Score: 35.3)
+    - Candidato: [403223] Computer Wargame no.8: Mobile Suit Z Gundam (Conf: 33.3%, Score: 18.5)
+    - Candidato: [76699] Deckbuild Mobile Suit Gundam (Conf: 33.3%, Score: 23.5)
+    - Candidato: [438262] G-Generation SD Gundam Digiboard Mission Official Strategy Guide (Conf: 33.3%, Score: 39.1)
+    - Candidato: [15970] Gundam 0080 Cyclops Attack (Conf: 33.3%, Score: 40.8)
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 78.9)
+    - Candidato: [24218] Gundam Axis UC0078 (Conf: 33.3%, Score: 48.8)
+    - Candidato: [434146] Gundam Card Game (Conf: 33.3%, Score: 51.3)
+    - Candidato: [25449] Gundam Collection Tactical Combat (Conf: 33.3%, Score: 39.3)
+    - Candidato: [228143] Gundam Cross War (Conf: 33.3%, Score: 61.5)
+    - Candidato: [172502] Gundam Force Starter Set 1 (Conf: 66.7%, Score: 65.3)
+    - Candidato: [7983] Gundam G-Generation Digiboard Mission (Conf: 33.3%, Score: 33.3)
+    - Candidato: [435074] Gundam G-Generation Digiboard Mission: Expansion set A (Conf: 33.3%, Score: 39.5)
+    - Candidato: [435075] Gundam G-Generation Digiboard Mission: Expansion set B (Conf: 33.3%, Score: 36.8)
+    - Candidato: [435076] Gundam G-Generation Digiboard Mission: Expansion set C (Conf: 33.3%, Score: 36.8)
+    - Candidato: [435077] Gundam G-Generation Digiboard Mission: Expansion set D (Conf: 33.3%, Score: 36.8)
+    - Candidato: [435078] Gundam G-Generation Digiboard Mission: Expansion set E (Conf: 33.3%, Score: 39.5)
+    - Candidato: [435079] Gundam G-Generation Digiboard Mission: Expansion set F (Conf: 33.3%, Score: 36.8)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 33.3%, Score: 50.9)
+    - Candidato: [461924] Gundam Solitaire Deckbuilding Game (Conf: 33.3%, Score: 42.1)
+    - Candidato: [277019] Gundam the Game (Conf: 33.3%, Score: 57.9)
+    - Candidato: [17676] Gundam War (Conf: 33.3%, Score: 54.5)
+    - Candidato: [144924] Gundam War Nex-A (Conf: 33.3%, Score: 51.3)
+    - Candidato: [36038] Gundam Wing (Conf: 33.3%, Score: 41.2)
+    - Candidato: [16941] Gundam Zeta A.E.U.G. (Conf: 33.3%, Score: 47.6)
+GANADOR: ID 436979 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gundam Assemble: Deluxe Starter Set' ---
+Estrategias: ['Gundam', 'Gundam Assemble: Deluxe Starter Set', 'Gundam Assemble:  Starter', 'Gundam Assemble']
+  > Probando query: 'Gundam Assemble: Deluxe Starter Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble:  Starter'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble'
+    Encontrados 1 resultados.
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 78.9)
+  > Probando query: 'Gundam'
+    Encontrados 131 resultados.
+    - Candidato: [275713] 0079 Gundam (Conf: 33.3%, Score: 35.3)
+    - Candidato: [403223] Computer Wargame no.8: Mobile Suit Z Gundam (Conf: 33.3%, Score: 18.5)
+    - Candidato: [76699] Deckbuild Mobile Suit Gundam (Conf: 33.3%, Score: 23.5)
+    - Candidato: [438262] G-Generation SD Gundam Digiboard Mission Official Strategy Guide (Conf: 33.3%, Score: 39.1)
+    - Candidato: [15970] Gundam 0080 Cyclops Attack (Conf: 33.3%, Score: 40.8)
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 78.9)
+    - Candidato: [24218] Gundam Axis UC0078 (Conf: 33.3%, Score: 48.8)
+    - Candidato: [434146] Gundam Card Game (Conf: 33.3%, Score: 51.3)
+    - Candidato: [25449] Gundam Collection Tactical Combat (Conf: 33.3%, Score: 39.3)
+    - Candidato: [228143] Gundam Cross War (Conf: 33.3%, Score: 61.5)
+    - Candidato: [172502] Gundam Force Starter Set 1 (Conf: 66.7%, Score: 65.3)
+    - Candidato: [7983] Gundam G-Generation Digiboard Mission (Conf: 33.3%, Score: 33.3)
+    - Candidato: [435074] Gundam G-Generation Digiboard Mission: Expansion set A (Conf: 33.3%, Score: 39.5)
+    - Candidato: [435075] Gundam G-Generation Digiboard Mission: Expansion set B (Conf: 33.3%, Score: 36.8)
+    - Candidato: [435076] Gundam G-Generation Digiboard Mission: Expansion set C (Conf: 33.3%, Score: 36.8)
+    - Candidato: [435077] Gundam G-Generation Digiboard Mission: Expansion set D (Conf: 33.3%, Score: 36.8)
+    - Candidato: [435078] Gundam G-Generation Digiboard Mission: Expansion set E (Conf: 33.3%, Score: 39.5)
+    - Candidato: [435079] Gundam G-Generation Digiboard Mission: Expansion set F (Conf: 33.3%, Score: 36.8)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 33.3%, Score: 50.9)
+    - Candidato: [461924] Gundam Solitaire Deckbuilding Game (Conf: 33.3%, Score: 42.1)
+    - Candidato: [277019] Gundam the Game (Conf: 33.3%, Score: 57.9)
+    - Candidato: [17676] Gundam War (Conf: 33.3%, Score: 54.5)
+    - Candidato: [144924] Gundam War Nex-A (Conf: 33.3%, Score: 51.3)
+    - Candidato: [36038] Gundam Wing (Conf: 33.3%, Score: 41.2)
+    - Candidato: [16941] Gundam Zeta A.E.U.G. (Conf: 33.3%, Score: 47.6)
+GANADOR: ID 436979 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gundam Assemble: Paint Pack 01' ---
+Estrategias: ['Gundam', 'Gundam Assemble: Paint Pack 01', 'Gundam Assemble', 'Gundam Assemble: Paint  01']
+  > Probando query: 'Gundam Assemble: Paint Pack 01'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble: Paint  01'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble'
+    Encontrados 1 resultados.
+    - Candidato: [436979] Gundam Assemble (Conf: 50.0%, Score: 76.9)
+  > Probando query: 'Gundam'
+    Encontrados 131 resultados.
+    - Candidato: [275713] 0079 Gundam (Conf: 25.0%, Score: 34.3)
+    - Candidato: [403223] Computer Wargame no.8: Mobile Suit Z Gundam (Conf: 25.0%, Score: 18.2)
+    - Candidato: [76699] Deckbuild Mobile Suit Gundam (Conf: 25.0%, Score: 23.1)
+    - Candidato: [438262] G-Generation SD Gundam Digiboard Mission Official Strategy Guide (Conf: 25.0%, Score: 27.3)
+    - Candidato: [15970] Gundam 0080 Cyclops Attack (Conf: 25.0%, Score: 36.0)
+    - Candidato: [436979] Gundam Assemble (Conf: 50.0%, Score: 76.9)
+    - Candidato: [24218] Gundam Axis UC0078 (Conf: 25.0%, Score: 52.4)
+    - Candidato: [434146] Gundam Card Game (Conf: 25.0%, Score: 45.0)
+    - Candidato: [25449] Gundam Collection Tactical Combat (Conf: 25.0%, Score: 42.1)
+    - Candidato: [228143] Gundam Cross War (Conf: 25.0%, Score: 55.0)
+    - Candidato: [172502] Gundam Force Starter Set 1 (Conf: 25.0%, Score: 52.0)
+    - Candidato: [7983] Gundam G-Generation Digiboard Mission (Conf: 25.0%, Score: 39.3)
+    - Candidato: [435074] Gundam G-Generation Digiboard Mission: Expansion set A (Conf: 25.0%, Score: 44.2)
+    - Candidato: [435075] Gundam G-Generation Digiboard Mission: Expansion set B (Conf: 25.0%, Score: 44.2)
+    - Candidato: [435076] Gundam G-Generation Digiboard Mission: Expansion set C (Conf: 25.0%, Score: 44.2)
+    - Candidato: [435077] Gundam G-Generation Digiboard Mission: Expansion set D (Conf: 25.0%, Score: 44.2)
+    - Candidato: [435078] Gundam G-Generation Digiboard Mission: Expansion set E (Conf: 25.0%, Score: 44.2)
+    - Candidato: [435079] Gundam G-Generation Digiboard Mission: Expansion set F (Conf: 25.0%, Score: 44.2)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 25.0%, Score: 46.4)
+    - Candidato: [461924] Gundam Solitaire Deckbuilding Game (Conf: 25.0%, Score: 44.8)
+    - Candidato: [277019] Gundam the Game (Conf: 25.0%, Score: 51.3)
+    - Candidato: [17676] Gundam War (Conf: 25.0%, Score: 47.1)
+    - Candidato: [144924] Gundam War Nex-A (Conf: 25.0%, Score: 55.0)
+    - Candidato: [36038] Gundam Wing (Conf: 25.0%, Score: 51.4)
+    - Candidato: [16941] Gundam Zeta A.E.U.G. (Conf: 25.0%, Score: 51.2)
+GANADOR: ID 436979 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gundam Assemble: Expansion pack 02' ---
+Estrategias: ['Gundam Assemble:   02', 'Gundam', 'Gundam Assemble', 'Gundam Assemble: Expansion pack 02']
+  > Probando query: 'Gundam Assemble: Expansion pack 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble:   02'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble'
+    Encontrados 1 resultados.
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 90.9)
+  > Probando query: 'Gundam'
+    Encontrados 131 resultados.
+    - Candidato: [275713] 0079 Gundam (Conf: 33.3%, Score: 41.4)
+    - Candidato: [403223] Computer Wargame no.8: Mobile Suit Z Gundam (Conf: 33.3%, Score: 20.0)
+    - Candidato: [76699] Deckbuild Mobile Suit Gundam (Conf: 33.3%, Score: 26.1)
+    - Candidato: [438262] G-Generation SD Gundam Digiboard Mission Official Strategy Guide (Conf: 33.3%, Score: 29.3)
+    - Candidato: [15970] Gundam 0080 Cyclops Attack (Conf: 33.3%, Score: 36.4)
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 90.9)
+    - Candidato: [24218] Gundam Axis UC0078 (Conf: 33.3%, Score: 61.1)
+    - Candidato: [434146] Gundam Card Game (Conf: 33.3%, Score: 52.9)
+    - Candidato: [25449] Gundam Collection Tactical Combat (Conf: 33.3%, Score: 39.2)
+    - Candidato: [228143] Gundam Cross War (Conf: 33.3%, Score: 58.8)
+    - Candidato: [172502] Gundam Force Starter Set 1 (Conf: 33.3%, Score: 50.0)
+    - Candidato: [7983] Gundam G-Generation Digiboard Mission (Conf: 33.3%, Score: 36.4)
+    - Candidato: [435074] Gundam G-Generation Digiboard Mission: Expansion set A (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435075] Gundam G-Generation Digiboard Mission: Expansion set B (Conf: 33.3%, Score: 33.8)
+    - Candidato: [435076] Gundam G-Generation Digiboard Mission: Expansion set C (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435077] Gundam G-Generation Digiboard Mission: Expansion set D (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435078] Gundam G-Generation Digiboard Mission: Expansion set E (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435079] Gundam G-Generation Digiboard Mission: Expansion set F (Conf: 33.3%, Score: 36.6)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 33.3%, Score: 36.0)
+    - Candidato: [461924] Gundam Solitaire Deckbuilding Game (Conf: 33.3%, Score: 38.5)
+    - Candidato: [277019] Gundam the Game (Conf: 33.3%, Score: 54.5)
+    - Candidato: [17676] Gundam War (Conf: 33.3%, Score: 57.1)
+    - Candidato: [144924] Gundam War Nex-A (Conf: 33.3%, Score: 58.8)
+    - Candidato: [36038] Gundam Wing (Conf: 33.3%, Score: 48.3)
+    - Candidato: [16941] Gundam Zeta A.E.U.G. (Conf: 33.3%, Score: 54.1)
+GANADOR: ID 436979 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gundam Assemble: Expansion pack 01' ---
+Estrategias: ['Gundam', 'Gundam Assemble: Expansion pack 01', 'Gundam Assemble:   01', 'Gundam Assemble']
+  > Probando query: 'Gundam Assemble: Expansion pack 01'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble:   01'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Assemble'
+    Encontrados 1 resultados.
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 90.9)
+  > Probando query: 'Gundam'
+    Encontrados 131 resultados.
+    - Candidato: [275713] 0079 Gundam (Conf: 33.3%, Score: 41.4)
+    - Candidato: [403223] Computer Wargame no.8: Mobile Suit Z Gundam (Conf: 33.3%, Score: 20.0)
+    - Candidato: [76699] Deckbuild Mobile Suit Gundam (Conf: 33.3%, Score: 26.1)
+    - Candidato: [438262] G-Generation SD Gundam Digiboard Mission Official Strategy Guide (Conf: 33.3%, Score: 29.3)
+    - Candidato: [15970] Gundam 0080 Cyclops Attack (Conf: 33.3%, Score: 36.4)
+    - Candidato: [436979] Gundam Assemble (Conf: 66.7%, Score: 90.9)
+    - Candidato: [24218] Gundam Axis UC0078 (Conf: 33.3%, Score: 61.1)
+    - Candidato: [434146] Gundam Card Game (Conf: 33.3%, Score: 52.9)
+    - Candidato: [25449] Gundam Collection Tactical Combat (Conf: 33.3%, Score: 39.2)
+    - Candidato: [228143] Gundam Cross War (Conf: 33.3%, Score: 58.8)
+    - Candidato: [172502] Gundam Force Starter Set 1 (Conf: 33.3%, Score: 54.5)
+    - Candidato: [7983] Gundam G-Generation Digiboard Mission (Conf: 33.3%, Score: 36.4)
+    - Candidato: [435074] Gundam G-Generation Digiboard Mission: Expansion set A (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435075] Gundam G-Generation Digiboard Mission: Expansion set B (Conf: 33.3%, Score: 33.8)
+    - Candidato: [435076] Gundam G-Generation Digiboard Mission: Expansion set C (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435077] Gundam G-Generation Digiboard Mission: Expansion set D (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435078] Gundam G-Generation Digiboard Mission: Expansion set E (Conf: 33.3%, Score: 36.6)
+    - Candidato: [435079] Gundam G-Generation Digiboard Mission: Expansion set F (Conf: 33.3%, Score: 36.6)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 33.3%, Score: 36.0)
+    - Candidato: [461924] Gundam Solitaire Deckbuilding Game (Conf: 33.3%, Score: 38.5)
+    - Candidato: [277019] Gundam the Game (Conf: 33.3%, Score: 54.5)
+    - Candidato: [17676] Gundam War (Conf: 33.3%, Score: 57.1)
+    - Candidato: [144924] Gundam War Nex-A (Conf: 33.3%, Score: 58.8)
+    - Candidato: [36038] Gundam Wing (Conf: 33.3%, Score: 48.3)
+    - Candidato: [16941] Gundam Zeta A.E.U.G. (Conf: 33.3%, Score: 54.1)
+GANADOR: ID 436979 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gundam Card Game - Dual Impact - Display' ---
+Estrategias: ['Gundam Card Game - Dual Impact - Display', 'Gundam', 'Gundam Card', 'Gundam Card  - Dual Impact - Display']
+  > Probando query: 'Gundam Card Game - Dual Impact - Display'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Card  - Dual Impact - Display'
+    Encontrados 0 resultados.
+  > Probando query: 'Gundam Card'
+    Encontrados 4 resultados.
+    - Candidato: [434146] Gundam Card Game (Conf: 40.0%, Score: 59.6)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 40.0%, Score: 44.4)
+    - Candidato: [368787] Mobile Suit Z Gundam Tactical Card Game (Conf: 40.0%, Score: 40.0)
+    - Candidato: [200027] Superior Defender Gundam Collectible Card Game (Conf: 40.0%, Score: 36.4)
+  > Probando query: 'Gundam'
+    Encontrados 131 resultados.
+    - Candidato: [275713] 0079 Gundam (Conf: 20.0%, Score: 28.6)
+    - Candidato: [403223] Computer Wargame no.8: Mobile Suit Z Gundam (Conf: 20.0%, Score: 16.4)
+    - Candidato: [76699] Deckbuild Mobile Suit Gundam (Conf: 20.0%, Score: 20.3)
+    - Candidato: [438262] G-Generation SD Gundam Digiboard Mission Official Strategy Guide (Conf: 20.0%, Score: 33.7)
+    - Candidato: [15970] Gundam 0080 Cyclops Attack (Conf: 20.0%, Score: 38.6)
+    - Candidato: [436979] Gundam Assemble (Conf: 20.0%, Score: 39.1)
+    - Candidato: [24218] Gundam Axis UC0078 (Conf: 20.0%, Score: 40.8)
+    - Candidato: [434146] Gundam Card Game (Conf: 40.0%, Score: 59.6)
+    - Candidato: [25449] Gundam Collection Tactical Combat (Conf: 20.0%, Score: 46.9)
+    - Candidato: [228143] Gundam Cross War (Conf: 20.0%, Score: 42.6)
+    - Candidato: [172502] Gundam Force Starter Set 1 (Conf: 20.0%, Score: 45.6)
+    - Candidato: [7983] Gundam G-Generation Digiboard Mission (Conf: 20.0%, Score: 41.2)
+    - Candidato: [435074] Gundam G-Generation Digiboard Mission: Expansion set A (Conf: 20.0%, Score: 40.5)
+    - Candidato: [435075] Gundam G-Generation Digiboard Mission: Expansion set B (Conf: 20.0%, Score: 38.1)
+    - Candidato: [435076] Gundam G-Generation Digiboard Mission: Expansion set C (Conf: 20.0%, Score: 38.1)
+    - Candidato: [435077] Gundam G-Generation Digiboard Mission: Expansion set D (Conf: 20.0%, Score: 40.5)
+    - Candidato: [435078] Gundam G-Generation Digiboard Mission: Expansion set E (Conf: 20.0%, Score: 38.1)
+    - Candidato: [435079] Gundam G-Generation Digiboard Mission: Expansion set F (Conf: 20.0%, Score: 38.1)
+    - Candidato: [4005] Gundam M.S.War Trading Card Game (Conf: 40.0%, Score: 44.4)
+    - Candidato: [461924] Gundam Solitaire Deckbuilding Game (Conf: 20.0%, Score: 49.2)
+    - Candidato: [277019] Gundam the Game (Conf: 20.0%, Score: 39.1)
+    - Candidato: [17676] Gundam War (Conf: 20.0%, Score: 43.9)
+    - Candidato: [144924] Gundam War Nex-A (Conf: 20.0%, Score: 46.8)
+    - Candidato: [36038] Gundam Wing (Conf: 20.0%, Score: 38.1)
+    - Candidato: [16941] Gundam Zeta A.E.U.G. (Conf: 20.0%, Score: 44.0)
+GANADOR: ID 434146 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Northern Wind - Undead Expansion' ---
+Estrategias: ['Northern Wind - Undead Expansion', 'Northern Wind - Undead', 'Northern', 'Northern Wind']
+  > Probando query: 'Northern Wind - Undead Expansion'
+    Encontrados 0 resultados.
+  > Probando query: 'Northern Wind - Undead'
+    Encontrados 0 resultados.
+  > Probando query: 'Northern Wind'
+    Encontrados 1 resultados.
+    - Candidato: [381996] Eldfall Chronicles: Northern Wind (Conf: 66.7%, Score: 50.0)
+  > Probando query: 'Northern'
+    Encontrados 233 resultados.
+    - Candidato: [386636] 1825 Regional Kit R4: Northern Scotland (Conf: 33.3%, Score: 37.9)
+    - Candidato: [6937] 1829 Northern Board (Conf: 33.3%, Score: 51.3)
+    - Candidato: [1447] 1841: Railways in Northern Italy (Conf: 33.3%, Score: 43.1)
+    - Candidato: [245223] 1883: Building Railroads in Northern Italy (Conf: 33.3%, Score: 36.1)
+    - Candidato: [353960] 18NewEngland 2: The Railroads of the Northern States (Conf: 33.3%, Score: 28.2)
+    - Candidato: [17857] 18Scan: Railroading under the Northern Lights (Conf: 33.3%, Score: 31.2)
+    - Candidato: [294594] 1985: Deadly Northern Lights (Conf: 33.3%, Score: 42.6)
+    - Candidato: [23189] Age of Steam Expansion: 1830's Pennsylvania / Northern California (Conf: 33.3%, Score: 29.3)
+    - Candidato: [79854] All Around Northern Virginia (Conf: 33.3%, Score: 50.0)
+    - Candidato: [133820] American War of Independence: Campaign Set 1 – The Northern Theatre (Conf: 33.3%, Score: 26.2)
+    - Candidato: [36398] Armies of the War of Spanish Succession and the Great Northern War (Conf: 33.3%, Score: 25.6)
+    - Candidato: [198087] Arquebus: Men of Iron Volume IV – The Battles for Northern Italy 1495-1544 (Conf: 33.3%, Score: 24.2)
+    - Candidato: [349944] Baltic Empires: The Northern Wars of 1558-1721 (Conf: 33.3%, Score: 33.8)
+    - Candidato: [144091] The Battle of The Metaurus Northern Italy 207 BC (Conf: 33.3%, Score: 32.4)
+    - Candidato: [306897] Beneath the Lily Banners: With Talon and Claw! – Great Northern War 1700-1721 & Eastern Wars 1670-1723 (Conf: 33.3%, Score: 22.4)
+    - Candidato: [175454] Benedict Arnold and the Northern Theater (Conf: 33.3%, Score: 36.7)
+    - Candidato: [452525] Biome: Northern River Otter Promo Card (Conf: 33.3%, Score: 38.6)
+    - Candidato: [208638] Blitzkrieg in the West: Northern Campaign (Conf: 33.3%, Score: 36.7)
+    - Candidato: [7795] Bundeswehr: Northern Germany, late 1970's (Conf: 33.3%, Score: 40.7)
+    - Candidato: [1585] Burma: The Campaign in Northern Burma, 1944 (Conf: 33.3%, Score: 32.8)
+    - Candidato: [170385] California Gold: The Northern Counties Expansion (Conf: 33.3%, Score: 38.8)
+    - Candidato: [85556] Carolus. Great Northern War (Conf: 33.3%, Score: 47.8)
+    - Candidato: [381996] Eldfall Chronicles: Northern Wind (Conf: 66.7%, Score: 50.0)
+    - Candidato: [158887] Fields of Battle Volume 1, The Great Northern War (Conf: 33.3%, Score: 32.4)
+    - Candidato: [221062] Flames of War: Nachtjager – The Battle for Northern Germany March-May 1945 (Conf: 33.3%, Score: 26.4)
+GANADOR: ID 381996 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Eldfall Chronicles - Oni Clans Faction Starter' ---
+Estrategias: ['Eldfall Chronicles', 'Eldfall Chronicles - Oni Clans Faction Starter', 'Eldfall']
+  > Probando query: 'Eldfall Chronicles - Oni Clans Faction Starter'
+    Encontrados 0 resultados.
+  > Probando query: 'Eldfall Chronicles'
+    Encontrados 2 resultados.
+    - Candidato: [330584] Eldfall Chronicles (Conf: 33.3%, Score: 58.1)
+    - Candidato: [381996] Eldfall Chronicles: Northern Wind (Conf: 33.3%, Score: 60.5)
+  > Probando query: 'Eldfall'
+    Encontrados 2 resultados.
+    - Candidato: [330584] Eldfall Chronicles (Conf: 33.3%, Score: 58.1)
+    - Candidato: [381996] Eldfall Chronicles: Northern Wind (Conf: 33.3%, Score: 60.5)
+GANADOR: ID 381996 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Le Coupable est ... Carnivore' ---
+Estrategias: ['Coupable', 'Le Coupable est ... Carnivore', 'Coupable est ... Carnivore']
+  > Probando query: 'Le Coupable est ... Carnivore'
+    Encontrados 0 resultados.
+  > Probando query: 'Coupable est ... Carnivore'
+    Encontrados 0 resultados.
+  > Probando query: 'Coupable'
+    Encontrados 3 resultados.
+    - Candidato: [397736] Hitster: Plaisirs coupables (Conf: 33.3%, Score: 37.5)
+    - Candidato: [426679] Pagan: Présumée Coupable (Conf: 33.3%, Score: 35.6)
+    - Candidato: [426679] Pagan: Présumée Coupable (Conf: 33.3%, Score: 35.6)
+GANADOR: ID 397736 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battalion S3 Operations and Training' ---
+Estrategias: ['Battalion S3 Operations and Training', 'Battalion']
+  > Probando query: 'Battalion S3 Operations and Training'
+    Encontrados 0 resultados.
+  > Probando query: 'Battalion'
+    Encontrados 75 resultados.
+    - Candidato: [32474] 1943: Battalion Level Ground Combat For WWII (Conf: 20.0%, Score: 48.1)
+    - Candidato: [229202] 5150: Battalion Commander (Conf: 20.0%, Score: 50.0)
+    - Candidato: [363294] El Alamein: Heavy Tank Battalion (Conf: 20.0%, Score: 26.9)
+    - Candidato: [307417] Battalion: North Africa '40-'43 (Conf: 20.0%, Score: 50.0)
+    - Candidato: [454827] Battalion: Simulating World War 2 Conflicts at Battalion Level (Conf: 20.0%, Score: 43.3)
+    - Candidato: [415838] Battalion: War of the Ancients (Conf: 20.0%, Score: 52.3)
+    - Candidato: [235701] Battalions (Conf: 20.0%, Score: 43.5)
+    - Candidato: [16744] Battalions In Crisis! (Conf: 20.0%, Score: 50.0)
+    - Candidato: [69757] Battalions In Crisis! Module I: 1943 (Conf: 20.0%, Score: 40.0)
+    - Candidato: [69758] Battalions In Crisis! ModuleII: 1944-45 (Conf: 20.0%, Score: 38.4)
+    - Candidato: [306663] Battalions of the Empire (Conf: 20.0%, Score: 50.0)
+    - Candidato: [162273] BattleGroup: Modern Wargaming Rules – For Battalion Level Miniature Based Games (Conf: 20.0%, Score: 26.8)
+    - Candidato: [29095] BattleLore: Dwarven Battalion Specialist Pack (Conf: 20.0%, Score: 42.5)
+    - Candidato: [459380] Bayonet Battalion (Conf: 20.0%, Score: 34.0)
+    - Candidato: [33138] The Big Battalions (Conf: 20.0%, Score: 37.0)
+    - Candidato: [369482] By Battalion, Volley Fire! (Conf: 20.0%, Score: 40.0)
+    - Candidato: [299067] Combat Command: Battalion Level Rules for World War II – Advanced Game (Conf: 20.0%, Score: 36.9)
+    - Candidato: [259819] Combat Command: Battalion Level Rules for World War II – Basic Game (Conf: 20.0%, Score: 40.0)
+    - Candidato: [9498] Doomed Battalions: ASL Module 11 (Conf: 20.0%, Score: 41.8)
+    - Candidato: [317629] Flames of War: T-34 – Tank Battalion (Conf: 20.0%, Score: 26.1)
+    - Candidato: [434296] Kalashnikov Tribal: Multi-Battalion (Conf: 20.0%, Score: 25.7)
+    - Candidato: [225908] Light Hunters: Battalion of Darkness (Conf: 20.0%, Score: 33.8)
+    - Candidato: [284194] Light Hunters: Battalion of Darkness – Rise of the East & Dawn of Amazonia (Conf: 20.0%, Score: 36.2)
+    - Candidato: [35703] Look, Sarge, No Charts:  WWII – Innovative Rules for Battalion-Level World War Two Miniatures Gaming (Conf: 20.0%, Score: 32.3)
+    - Candidato: [11674] The Lost Battalion: The Meuse-Argonne Offensive, 1918 (Conf: 20.0%, Score: 39.1)
+GANADOR: ID 415838 con 20.0% confianza.
+--------------------------------------------------
