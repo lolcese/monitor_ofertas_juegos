@@ -8899,3 +8899,148 @@ Estrategias: ['Golem : Le Jeu de Plateau', 'Golem', 'Golem :    Plateau']
     - Candidato: [298383] Golem (Conf: 50.0%, Score: 55.6)
 GANADOR: ID 298383 con 50.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Mémoires d'une Chamane' ---
+Estrategias: ['Mémoires', "Mémoires d'une Chamane"]
+  > Probando query: 'Mémoires d'une Chamane'
+    Encontrados 0 resultados.
+  > Probando query: 'Mémoires'
+    Encontrados 4 resultados.
+    - Candidato: [378731] Fictions: Mémoires d'un Gangster (Conf: 50.0%, Score: 64.2)
+    - Candidato: [247665] This War of Mine: Mémoires de la cité en ruine (Conf: 25.0%, Score: 41.8)
+    - Candidato: [247665] This War of Mine: Mémoires de la cité en ruine (Conf: 25.0%, Score: 41.8)
+GANADOR: ID 378731 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Jumo' ---
+Estrategias: ['Jumo']
+  > Probando query: 'Jumo'
+    Encontrados 4 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Koowah?' ---
+Estrategias: ['Koowah', 'Koowah?']
+  > Probando query: 'Koowah?'
+    Encontrados 0 resultados.
+  > Probando query: 'Koowah'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Capybaraka' ---
+Estrategias: ['Capybaraka']
+  > Probando query: 'Capybaraka'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Binho Board Official Balls: Variety Pack (4)' ---
+Estrategias: ['Binho', 'Binho Board Official Balls', 'Binho Board Official Balls: Variety Pack (4)', 'Binho Board Official Balls: Variety']
+  > Probando query: 'Binho Board Official Balls: Variety Pack (4)'
+    Encontrados 0 resultados.
+  > Probando query: 'Binho Board Official Balls: Variety'
+    Encontrados 0 resultados.
+  > Probando query: 'Binho Board Official Balls'
+    Encontrados 0 resultados.
+  > Probando query: 'Binho'
+    Encontrados 1 resultados.
+    - Candidato: [301480] Biñho Classic (Conf: 20.0%, Score: 38.3)
+GANADOR: ID 301480 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Strategy & Tactics 358 Pensacola 1779-82' ---
+Estrategias: ['Strategy & Tactics 358 Pensacola 1779-82', 'Strategy & Tactics 358 Pensacola 1779', 'Strategy']
+  > Probando query: 'Strategy & Tactics 358 Pensacola 1779-82'
+    Encontrados 0 resultados.
+  > Probando query: 'Strategy & Tactics 358 Pensacola 1779'
+    Encontrados 0 resultados.
+  > Probando query: 'Strategy'
+    Encontrados 382 resultados.
+    - Candidato: [306721] A.E.G.I.S.: Combining Robot Strategy Game – Ell Gel Ion Promo Card (Conf: 16.7%, Score: 28.0)
+    - Candidato: [259420] A.E.G.I.S.: Combining Robot Strategy Game – Variant Command Expansion (Conf: 16.7%, Score: 31.1)
+    - Candidato: [347840] Action Force Strategy Game (Conf: 16.7%, Score: 34.4)
+    - Candidato: [425060] ADELLA: The Maritime Strategy Board Game (Conf: 16.7%, Score: 31.2)
+    - Candidato: [146144] AEGIS: Combining Robot Strategy Game (Conf: 16.7%, Score: 30.1)
+    - Candidato: [27848] Age of Conan: The Strategy Board Game (Conf: 16.7%, Score: 32.4)
+    - Candidato: [166729] Age of Conan: The Strategy Board Game – Adventures in Hyboria (Conf: 16.7%, Score: 29.2)
+    - Candidato: [2275] Airlines: The Game of Airline Strategy (Conf: 16.7%, Score: 21.3)
+    - Candidato: [321239] Ambush!: A Fast-Paced Game of Strategy and Sacrifice (Conf: 16.7%, Score: 31.8)
+    - Candidato: [367026] Animo: Cross Trainers – Draylight Strategy Deck (Conf: 16.7%, Score: 24.4)
+    - Candidato: [366930] Animo: Cross Trainers – Stagnetic Strategy Deck (Conf: 16.7%, Score: 24.4)
+    - Candidato: [367046] Animo: Red Letter Day – Percy Strategy Deck (Conf: 16.7%, Score: 25.6)
+    - Candidato: [368274] Animo: Red Letter Day – Treashell Strategy Deck (Conf: 16.7%, Score: 24.4)
+    - Candidato: [2861] Aquitaine: Strategy and the Medieval War Ride (Conf: 16.7%, Score: 31.7)
+    - Candidato: [368744] Arms Race: The Abstract Strategy Game (Conf: 16.7%, Score: 29.7)
+    - Candidato: [2397] Backgammon: The Ancient Game of Cunning Strategy (Conf: 16.7%, Score: 18.8)
+    - Candidato: [3954] Baseball Strategy (Conf: 16.7%, Score: 29.1)
+    - Candidato: [5304] Basketball Strategy (Conf: 16.7%, Score: 28.1)
+    - Candidato: [130911] Batman: Gotham City Strategy Game (Conf: 16.7%, Score: 31.4)
+    - Candidato: [4299] Battle: The Game of Strategy (Conf: 16.7%, Score: 24.6)
+    - Candidato: [192075] Battlemind: A Game of Battle Strategy (Conf: 16.7%, Score: 21.6)
+    - Candidato: [5842] The Beat Inflation Strategy Game (Conf: 16.7%, Score: 31.4)
+    - Candidato: [361882] The Beautiful Game:  A Turn-Based Strategy Boardgame (Conf: 16.7%, Score: 25.0)
+    - Candidato: [344283] BelloLudi: American Civil War – Strategy Game (Conf: 16.7%, Score: 27.5)
+    - Candidato: [319785] BelloLudi: Strategy Game (Conf: 16.7%, Score: 36.1)
+GANADOR: ID 319785 con 16.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'World at War 107 Stalingrad Relief December' ---
+Estrategias: ['World', 'World at War 107 Stalingrad Relief December']
+  > Probando query: 'World at War 107 Stalingrad Relief December'
+    Encontrados 0 resultados.
+  > Probando query: 'World'
+    Encontrados 2611 resultados.
+    - Candidato: [358022] 02 Hundred Hours: Night Raids in World War II (Conf: 28.6%, Score: 27.6)
+    - Candidato: [10921] 1 on 1 Adventure Gamebooks: The Amber Sword of World's End (Conf: 14.3%, Score: 18.0)
+    - Candidato: [63762] 123 Rooster's Off to See the World Game (Conf: 14.3%, Score: 19.5)
+    - Candidato: [22320] 1492: The New World – North America (Conf: 14.3%, Score: 26.7)
+    - Candidato: [35863] The 15 Greatest Board Games in the World (Conf: 14.3%, Score: 12.0)
+    - Candidato: [220440] 1500: The New World (Conf: 14.3%, Score: 16.4)
+    - Candidato: [247444] 1500: The New World – England Expansion (Conf: 14.3%, Score: 32.9)
+    - Candidato: [247447] 1500: The New World – France Expansion (Conf: 14.3%, Score: 28.2)
+    - Candidato: [247443] 1500: The New World – Netherlands Expansion (Conf: 14.3%, Score: 21.7)
+    - Candidato: [247445] 1500: The New World – Portugal Expansion (Conf: 14.3%, Score: 27.5)
+    - Candidato: [247446] 1500: The New World – Spain Expansion (Conf: 14.3%, Score: 28.6)
+    - Candidato: [444735] 1918: A First World War Miniatures Game (Conf: 28.6%, Score: 39.5)
+    - Candidato: [324384] 1963 World Map Conversion Kit for the Game of Acquire (Conf: 14.3%, Score: 33.3)
+    - Candidato: [188573] 1WW: World War One in Europe (Conf: 28.6%, Score: 42.9)
+    - Candidato: [244470] 20 Clues: World Geography (Conf: 14.3%, Score: 26.9)
+    - Candidato: [452261] 24SEVEN: The Sleepless World (Conf: 14.3%, Score: 14.3)
+    - Candidato: [375090] 3rd World Labour: Pandemic Edition (Conf: 14.3%, Score: 39.5)
+    - Candidato: [3883] 4th Reich: Puremen vs. the Mutants for Control of the World (Conf: 14.3%, Score: 10.0)
+    - Candidato: [228501] 60 Seconds to Save the World (Conf: 14.3%, Score: 14.1)
+    - Candidato: [191351] Absolute Victory: World Conflict 1939-1945 (Conf: 14.3%, Score: 23.8)
+    - Candidato: [154687] Aces of Valor: A Solitaire Game of World War I Aerial Combat (Conf: 28.6%, Score: 33.3)
+    - Candidato: [23841] Acorn Games: Games of the World (Conf: 14.3%, Score: 13.7)
+    - Candidato: [421251] Across the World by Air (Conf: 14.3%, Score: 24.2)
+    - Candidato: [341211] Admiral: Naval clashes in the Second World War (Conf: 28.6%, Score: 20.5)
+    - Candidato: [271268] Admirals' War: World War II at Sea (Conf: 42.9%, Score: 34.7)
+GANADOR: ID 271268 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'A Distant Plain new reprint 2026' ---
+Estrategias: ['A Distant Plain new reprint 2026', 'Distant']
+  > Probando query: 'A Distant Plain new reprint 2026'
+    Encontrados 0 resultados.
+  > Probando query: 'Distant'
+    Encontrados 132 resultados.
+    - Candidato: [188826] Darkest Night: From Distant Lands (Conf: 16.7%, Score: 40.6)
+    - Candidato: [439027] DiceKeepers EndHaven: Distant Lands Expansion (Conf: 16.7%, Score: 36.8)
+    - Candidato: [102029] Distant Armada (Conf: 16.7%, Score: 43.5)
+    - Candidato: [324183] Distant Armada: Unity Edition (Conf: 16.7%, Score: 36.7)
+    - Candidato: [19003] Distant Foreign Fields: The Great War 1914-1918 (Conf: 16.7%, Score: 43.6)
+    - Candidato: [327160] The Distant Marches: A Five Leagues From the Borderlands Expansion pack (Conf: 33.3%, Score: 29.4)
+    - Candidato: [127518] A Distant Plain (Conf: 50.0%, Score: 63.8)
+    - Candidato: [441092] Distant Seas: An Expansion for Buccaneers of the Americas (Conf: 16.7%, Score: 38.6)
+    - Candidato: [1994] Distant Seas: The Merchant Marine Game (Conf: 16.7%, Score: 43.5)
+    - Candidato: [354425] Distant Suns (Conf: 16.7%, Score: 40.9)
+    - Candidato: [197549] A Distant Thunder (Conf: 33.3%, Score: 53.1)
+    - Candidato: [335509] Far Distant Ships (Conf: 16.7%, Score: 44.9)
+    - Candidato: [29563] Federation Commander: Distant Kingdoms (Conf: 16.7%, Score: 34.8)
+    - Candidato: [130843] Giza: Distant Quarry (Conf: 16.7%, Score: 51.0)
+    - Candidato: [339929] The Glorious First of June: a scenario for Far Distant Ships (Conf: 33.3%, Score: 24.2)
+    - Candidato: [81485] Jet Set: Distant Lands – Expansion Set 1 (Conf: 16.7%, Score: 49.3)
+    - Candidato: [435400] Kingdom Legacy: Distant Lands (Conf: 16.7%, Score: 43.3)
+    - Candidato: [106113] Manoeuvre: Distant Lands (Conf: 16.7%, Score: 47.3)
+    - Candidato: [463628] Oasis: New Life on A Distant World (Conf: 50.0%, Score: 33.8)
+    - Candidato: [29947] Renegade Legion: Distant Fire (Conf: 16.7%, Score: 43.3)
+    - Candidato: [13253] Second World War at Sea: Distant Oceans (Conf: 16.7%, Score: 34.3)
+    - Candidato: [358320] Sleeping Gods: Distant Skies (Conf: 16.7%, Score: 37.3)
+    - Candidato: [361284] Sleeping Gods: Distant Skies (Gamefound Edition) (Conf: 16.7%, Score: 31.2)
+    - Candidato: [382649] Sleeping Gods: Distant Skies – Skis and Poles Promo Card (Conf: 16.7%, Score: 35.3)
+    - Candidato: [413514] Sleeping Gods: Distant Skies – The Secret Cabal Gaming Podcast Promos (Conf: 16.7%, Score: 34.7)
+GANADOR: ID 127518 con 50.0% confianza.
+--------------------------------------------------
