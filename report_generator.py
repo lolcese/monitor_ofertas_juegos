@@ -189,7 +189,7 @@ def write_html(path, data, title, is_catalog=False):
         for k, l in [('flash','FLASH'),('occasion','OCCASION'),('private','PRIVÉE'),('preorder','PRE-ORDER')]:
             c = t_counts.get(k, 0)
             if c > 0: sum_h += f'<span class="badge-{k}" onclick="filterBySource(\'{k}\')">{l}: {c}</span>'
-        sum_h += '</div></div>'
+        sum_h += '</div><div style="font-size: 0.75em; color: #7f8c8d; margin-top: 8px;">*Precios con IVA (TVA) ya descontado</div></div>'
         sum_h += '<div class="summary-card"><img src="assets/miniaturemarket_logo.jpeg" class="sum-logo"><h3>US Miniature Market</h3><div class="sum-badges">'
         for k, l in [('mm_deals','DEALS'),('mm_clearance','CLEARANCE'),('mm_backdoor','BACKROOMS'),('mm_preorder','PRE-ORDER')]:
             c = t_counts.get(k, 0)

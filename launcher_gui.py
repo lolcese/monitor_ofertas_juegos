@@ -121,7 +121,7 @@ class ScraperLauncher:
                  ("Ventes Privées", "private", "#2c3e50", "white", "lbl_private"), ("Précommandes", "preorder", "#16a085", "white", "lbl_phili_pre")]
         
         for i, (txt, arg, bg, fg, lbl_attr) in enumerate(tasks):
-            btn = tk.Button(card, text=txt, bg=bg, fg=fg, **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"Phili {t}", ["python", "scraper_philibert.py", a]))
+            btn = tk.Button(card, text=txt, bg=bg, fg=fg, **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"Phili {t}", [sys.executable, "scraper_philibert.py", a]))
             btn.grid(row=i+1, column=0, pady=2, sticky="w")
             tk.Button(card, text="WEB", **self.style_web, command=lambda a=f"phili_{arg}": self.visit_url(a)).grid(row=i+1, column=1, padx=5)
             lbl = tk.Label(card, text="...", **self.style_date)
@@ -133,15 +133,15 @@ class ScraperLauncher:
         card.pack(fill=tk.X)
         if self.logos["planeton"]: tk.Label(card, image=self.logos["planeton"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=3, pady=(0,5))
         
-        tk.Button(card, text="Ofertas", bg="#e74c3c", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Ofertas", ["python", "scraper_planeton.py"])).grid(row=1, column=0, pady=2, sticky="w")
+        tk.Button(card, text="Ofertas", bg="#e74c3c", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Ofertas", [sys.executable, "scraper_planeton.py"])).grid(row=1, column=0, pady=2, sticky="w")
         tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton")).grid(row=1, column=1, padx=5)
         self.lbl_planeton = tk.Label(card, text="...", **self.style_date); self.lbl_planeton.grid(row=1, column=2, padx=10, sticky="w")
         
-        tk.Button(card, text="Próximamente", bg="#c0392b", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Próximamente", ["python", "scraper_planeton.py", "preorder"])).grid(row=2, column=0, pady=2, sticky="w")
+        tk.Button(card, text="Próximamente", bg="#c0392b", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Próximamente", [sys.executable, "scraper_planeton.py", "preorder"])).grid(row=2, column=0, pady=2, sticky="w")
         tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton_preorder")).grid(row=2, column=1, padx=5)
         self.lbl_planeton_pre = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_pre.grid(row=2, column=2, padx=10, sticky="w")
 
-        tk.Button(card, text="Catálogo Completo", bg="#3498db", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Catálogo", ["python", "scraper_planeton.py", "catalog"])).grid(row=3, column=0, pady=2, sticky="w")
+        tk.Button(card, text="Catálogo Completo", bg="#3498db", fg="white", **self.style_btn, command=lambda: self.run_task("Planeton Catálogo", [sys.executable, "scraper_planeton.py", "catalog"])).grid(row=3, column=0, pady=2, sticky="w")
         tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton_catalog")).grid(row=3, column=1, padx=5)
         self.lbl_planeton_cat = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_cat.grid(row=3, column=2, padx=10, sticky="w")
 
@@ -156,7 +156,7 @@ class ScraperLauncher:
                     ("Markdown", "markdown", "#7f8c8d", "lbl_mm_markdown"), ("Pre-orders", "preorder", "#16a085", "lbl_mm_preorder")]
         for i, (txt, arg, bg, lbl_attr) in enumerate(mm_tasks):
             r, c = divmod(i, 2)
-            btn = tk.Button(card, text=txt, bg=bg, fg="white", **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"MM {t}", ["python", "scraper_miniature_market.py", a]))
+            btn = tk.Button(card, text=txt, bg=bg, fg="white", **self.style_btn, command=lambda a=arg, t=txt: self.run_task(f"MM {t}", [sys.executable, "scraper_miniature_market.py", a]))
             btn.grid(row=r+1, column=c*3, pady=3, padx=5, sticky="w")
             tk.Button(card, text="WEB", **self.style_web, command=lambda a=f"mm_{arg}": self.visit_url(a)).grid(row=r+1, column=c*3+1, padx=2)
             lbl = tk.Label(card, text="...", **self.style_date)
@@ -168,14 +168,14 @@ class ScraperLauncher:
         
         tool_row = tk.Frame(parent, bg=self.colors["bg"])
         tool_row.pack(fill=tk.X)
-        tk.Button(tool_row, text="📊 REPORTE", bg=self.colors["accent"], fg="white", font=("Segoe UI", 8, "bold"), width=12, pady=6, relief="flat", command=lambda: self.run_task("Reporte", ["python", "report_generator.py"])).pack(side=tk.LEFT, expand=True, padx=1)
-        tk.Button(tool_row, text="🔧 GESTOR", bg="#e67e22", fg="white", font=("Segoe UI", 8, "bold"), width=12, pady=6, relief="flat", command=lambda: self.run_task("Mapping", ["python", "manual_fix_gui.py"])).pack(side=tk.LEFT, expand=True, padx=1)
-        tk.Button(tool_row, text="⌛ FIN", bg="#95a5a6", fg="white", font=("Segoe UI", 8, "bold"), width=10, pady=6, relief="flat", command=lambda: self.run_task("Reporte Inactivo", ["python", "generate_inactive_report.py"])).pack(side=tk.LEFT, expand=True, padx=1)
+        tk.Button(tool_row, text="📊 REPORTE", bg=self.colors["accent"], fg="white", font=("Segoe UI", 8, "bold"), width=12, pady=6, relief="flat", command=lambda: self.run_task("Reporte", [sys.executable, "report_generator.py"])).pack(side=tk.LEFT, expand=True, padx=1)
+        tk.Button(tool_row, text="🔧 GESTOR", bg="#e67e22", fg="white", font=("Segoe UI", 8, "bold"), width=12, pady=6, relief="flat", command=lambda: self.run_task("Mapping", [sys.executable, "manual_fix_gui.py"])).pack(side=tk.LEFT, expand=True, padx=1)
+        tk.Button(tool_row, text="⌛ FIN", bg="#95a5a6", fg="white", font=("Segoe UI", 8, "bold"), width=10, pady=6, relief="flat", command=lambda: self.run_task("Reporte Inactivo", [sys.executable, "generate_inactive_report.py"])).pack(side=tk.LEFT, expand=True, padx=1)
 
-        tk.Button(parent, text="🔄 REINICIAR MATCHES", bg="#6c757d", fg="white", font=("Segoe UI", 8, "bold"), relief="flat", pady=4, command=lambda: self.run_task("Re-procesar", ["python", "reprocess_failed_matches.py"])).pack(fill=tk.X, pady=(10, 2))
+        tk.Button(parent, text="🔄 REINICIAR MATCHES", bg="#6c757d", fg="white", font=("Segoe UI", 8, "bold"), relief="flat", pady=4, command=lambda: self.run_task("Re-procesar", [sys.executable, "reprocess_failed_matches.py"])).pack(fill=tk.X, pady=(10, 2))
         
         tk.Label(parent, text="", bg=self.colors["bg"]).pack(expand=True)
-        tk.Button(parent, text="🌎 PUBLICAR GITHUB", bg="#10ac84", fg="white", font=("Segoe UI", 11, "bold"), height=2, relief="flat", cursor="hand2", command=lambda: self.run_task("GitHub Push", ["python", "deploy_to_github.py"])).pack(fill=tk.X)
+        tk.Button(parent, text="🌎 PUBLICAR GITHUB", bg="#10ac84", fg="white", font=("Segoe UI", 11, "bold"), height=2, relief="flat", cursor="hand2", command=lambda: self.run_task("GitHub Push", [sys.executable, "deploy_to_github.py"])).pack(fill=tk.X)
 
     def update_sync_labels(self):
         try:
@@ -204,7 +204,7 @@ class ScraperLauncher:
             self.root.after(0, lambda: self.log(f"=== INICIO: {name.upper()} ({datetime.now().strftime('%H:%M:%S')}) ===", clear=True))
             try:
                 cmd_run = list(cmd)
-                if cmd_run[0] == "python": cmd_run.insert(1, "-u")
+                if cmd_run[0] == sys.executable: cmd_run.insert(1, "-u")
                 
                 # Forzar UTF-8 para evitar UnicodeEncodeError en Windows
                 env = os.environ.copy()
@@ -223,21 +223,21 @@ class ScraperLauncher:
 
     def run_all_scrapers(self):
         tasks = [
-            ("Phili Flash", ["python", "scraper_philibert.py", "flash"]),
-            ("Phili Occasions", ["python", "scraper_philibert.py", "occasion"]),
-            ("Phili Private", ["python", "scraper_philibert.py", "private"]),
-            ("Phili Preorder", ["python", "scraper_philibert.py", "preorder"]),
-            ("MM Daily", ["python", "scraper_miniature_market.py", "daily"]),
-            ("MM Sales", ["python", "scraper_miniature_market.py", "sales"]),
-            ("MM Backrooms", ["python", "scraper_miniature_market.py", "backrooms"]),
-            ("MM Clearance", ["python", "scraper_miniature_market.py", "clearance"]),
-            ("MM GameOn", ["python", "scraper_miniature_market.py", "gameon"]),
-            ("MM LastChance", ["python", "scraper_miniature_market.py", "lastchance"]),
-            ("MM Markdown", ["python", "scraper_miniature_market.py", "markdown"]),
-            ("MM Preorder", ["python", "scraper_miniature_market.py", "preorder"]),
-            ("Planeton Ofertas", ["python", "scraper_planeton.py"]),
-            ("Planeton Preorder", ["python", "scraper_planeton.py", "preorder"]),
-            ("Reporte Final", ["python", "report_generator.py"])
+            ("Phili Flash", [sys.executable, "scraper_philibert.py", "flash"]),
+            ("Phili Occasions", [sys.executable, "scraper_philibert.py", "occasion"]),
+            ("Phili Private", [sys.executable, "scraper_philibert.py", "private"]),
+            ("Phili Preorder", [sys.executable, "scraper_philibert.py", "preorder"]),
+            ("MM Daily", [sys.executable, "scraper_miniature_market.py", "daily"]),
+            ("MM Sales", [sys.executable, "scraper_miniature_market.py", "sales"]),
+            ("MM Backrooms", [sys.executable, "scraper_miniature_market.py", "backrooms"]),
+            ("MM Clearance", [sys.executable, "scraper_miniature_market.py", "clearance"]),
+            ("MM GameOn", [sys.executable, "scraper_miniature_market.py", "gameon"]),
+            ("MM LastChance", [sys.executable, "scraper_miniature_market.py", "lastchance"]),
+            ("MM Markdown", [sys.executable, "scraper_miniature_market.py", "markdown"]),
+            ("MM Preorder", [sys.executable, "scraper_miniature_market.py", "preorder"]),
+            ("Planeton Ofertas", [sys.executable, "scraper_planeton.py"]),
+            ("Planeton Preorder", [sys.executable, "scraper_planeton.py", "preorder"]),
+            ("Reporte Final", [sys.executable, "report_generator.py"])
         ]
         def worker():
             from datetime import datetime
@@ -249,7 +249,7 @@ class ScraperLauncher:
                 try:
                     self.root.after(0, lambda n=name: self.log(f"\n--- PROCESANDO: {n} ---"))
                     cmd_to_run = list(cmd)
-                    if cmd_to_run[0] == "python": cmd_to_run.insert(1, "-u")
+                    if cmd_to_run[0] == sys.executable: cmd_to_run.insert(1, "-u")
                     
                     # Forzar UTF-8
                     env = os.environ.copy()

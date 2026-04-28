@@ -13923,3 +13923,1290 @@ Estrategias: ["Longueur d'Onde", 'Longueur', "Longueur d'Onde - Wavelength"]
     - Candidato: [262543] Longueur d'Onde (Conf: 75.0%, Score: 73.2)
 GANADOR: ID 262543 con 75.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Preventodingo' ---
+Estrategias: ['Preventodingo']
+  > Probando query: 'Preventodingo'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '"Orkburg" Kill Zone' ---
+Estrategias: ['"Orkburg" Kill Zone', 'Orkburg']
+  > Probando query: '"Orkburg" Kill Zone'
+    Encontrados 0 resultados.
+  > Probando query: 'Orkburg'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars Unlimited : Crépuscule de la République - Kit de Démarrage 2 joueurs' ---
+Estrategias: ['Star Wars Unlimited', 'Star', 'Star Wars Unlimited : Crépuscule de la République - Kit de Démarrage 2 joueurs', 'Star Wars Unlimited : Crépuscule   République', 'Star Wars Unlimited : Crépuscule   République - Kit  Démarrage 2 joueurs']
+  > Probando query: 'Star Wars Unlimited : Crépuscule de la République - Kit de Démarrage 2 joueurs'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Crépuscule   République - Kit  Démarrage 2 joueurs'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Crépuscule   République'
+    Encontrados 2 resultados.
+    - Candidato: [429505] Star Wars: Unlimited – Crépuscule de la République (Conf: 55.6%, Score: 73.2)
+    - Candidato: [429505] Star Wars: Unlimited – Crépuscule de la République (Conf: 55.6%, Score: 73.2)
+  > Probando query: 'Star Wars Unlimited'
+    Encontrados 20 resultados.
+    - Candidato: [387866] Star Wars: Unlimited (Conf: 33.3%, Score: 45.2)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 33.3%, Score: 48.5)
+    - Candidato: [452742] Star Wars: Unlimited – Intro Battle: Hoth (Conf: 33.3%, Score: 49.0)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 33.3%, Score: 50.5)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 33.3%, Score: 49.5)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 33.3%, Score: 51.5)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 33.3%, Score: 47.2)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 33.3%, Score: 54.4)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 33.3%, Score: 55.0)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 33.3%, Score: 48.5)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 33.3%, Score: 50.5)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 33.3%, Score: 49.5)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 33.3%, Score: 51.5)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 33.3%, Score: 47.2)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 33.3%, Score: 54.4)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 33.3%, Score: 55.0)
+  > Probando query: 'Star'
+    Encontrados 2610 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 17.1)
+    - Candidato: [130677] 10 Stars (Conf: 11.1%, Score: 13.7)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 15.7)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 22.2%, Score: 13.2)
+    - Candidato: [10868] 5 Star (Conf: 11.1%, Score: 11.3)
+    - Candidato: [109001] 5150: Star Army (Conf: 11.1%, Score: 20.3)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 11.1%, Score: 34.1)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 11.1%, Score: 20.5)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 11.1%, Score: 27.4)
+    - Candidato: [229215] 5150: Star Marine (Conf: 11.1%, Score: 22.2)
+    - Candidato: [137273] 5150: Star Navy (Conf: 11.1%, Score: 15.2)
+    - Candidato: [447773] 8th Star (Conf: 11.1%, Score: 11.0)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 0.0%, Score: 14.7)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 11.1%, Score: 11.0)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 17.5)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 11.1%, Score: 27.9)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 11.1%, Score: 24.0)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 22.2%, Score: 26.0)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 11.1%, Score: 24.0)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 11.1%, Score: 29.2)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 22.2%, Score: 27.0)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 11.1%, Score: 27.8)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 22.2%, Score: 29.6)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 11.1%, Score: 27.8)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 11.1%, Score: 25.0)
+GANADOR: ID 429505 con 55.6% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic the Gathering : Marvel's Spider-Man - Play Booster' ---
+Estrategias: ["Magic the Gathering : Marvel's Spider", "Magic the Gathering : Marvel's Spider-Man - Play Booster", 'Magic the Gathering', 'Magic']
+  > Probando query: 'Magic the Gathering : Marvel's Spider-Man - Play Booster'
+    Encontrados 0 resultados.
+  > Probando query: 'Magic the Gathering : Marvel's Spider'
+    Encontrados 0 resultados.
+  > Probando query: 'Magic the Gathering'
+    Encontrados 568 resultados.
+    - Candidato: [312310] Killer Bunnies and the Quest for the Magic Carrot: Bunnies the Gathering Promo Card (Conf: 33.3%, Score: 35.8)
+    - Candidato: [463] Magic: The Gathering (Conf: 33.3%, Score: 53.5)
+    - Candidato: [159349] Magic: The Gathering Challenge Deck – Battle the Horde (Conf: 33.3%, Score: 56.3)
+    - Candidato: [159351] Magic: The Gathering Challenge Deck – Defeat a God (Conf: 33.3%, Score: 62.6)
+    - Candidato: [153816] Magic: The Gathering Challenge Deck – Face the Hydra (Conf: 33.3%, Score: 53.5)
+    - Candidato: [400786] Magic: The Gathering Starter Kit 2023 (Conf: 33.3%, Score: 59.1)
+    - Candidato: [403359] Magic: The Gathering Universes Beyond – Doctor Who (Conf: 33.3%, Score: 56.6)
+    - Candidato: [371015] Magic: The Gathering Universes Beyond – Warhammer 40,000 Commander Deck: Necron Dynasties (Conf: 33.3%, Score: 46.7)
+    - Candidato: [371026] Magic: The Gathering Universes Beyond – Warhammer 40,000 Commander Deck: The Ruinous Powers (Conf: 33.3%, Score: 46.0)
+    - Candidato: [392223] Magic: The Gathering Universes Beyond — The Lord of the Rings: Tales of Middle-earth (Conf: 33.3%, Score: 36.4)
+    - Candidato: [371010] Magic: The Gathering Universes Beyond — Warhammer 40,000 Commander Deck: Forces of the Imperium (Conf: 33.3%, Score: 42.0)
+    - Candidato: [371022] Magic: The Gathering Universes Beyond — Warhammer 40,000 Commander Deck: Tyranid Swarm (Conf: 33.3%, Score: 46.3)
+    - Candidato: [220837] Magic: The Gathering – 2011 Core Set (Conf: 33.3%, Score: 61.2)
+    - Candidato: [244183] Magic: The Gathering – 2013 Core Set (Conf: 33.3%, Score: 61.2)
+    - Candidato: [361215] Magic: The Gathering – 2021 Arena Starter Kit (Conf: 33.3%, Score: 61.7)
+    - Candidato: [366409] Magic: The Gathering – 2022 Starter Kit (Conf: 33.3%, Score: 59.1)
+    - Candidato: [282151] Magic: The Gathering – Aether Revolt (Conf: 33.3%, Score: 63.5)
+    - Candidato: [377975] Magic: The Gathering – Aether Revolt Planeswalker Deck: Ajani, Valiant Protector (Conf: 33.3%, Score: 53.5)
+    - Candidato: [240480] Magic: The Gathering – Aether Revolt Planeswalker-Deck-Set (Conf: 33.3%, Score: 59.8)
+    - Candidato: [439958] Magic: The Gathering – Aetherdrift (Conf: 33.3%, Score: 60.2)
+    - Candidato: [240369] Magic: The Gathering – Alara Reborn (Conf: 33.3%, Score: 61.9)
+    - Candidato: [239756] Magic: The Gathering – Alliances (Conf: 33.3%, Score: 64.2)
+    - Candidato: [282149] Magic: The Gathering – Amonkhet (Conf: 33.3%, Score: 57.5)
+    - Candidato: [377896] Magic: The Gathering – Amonkhet Planeswalker Deck: Gideon, Martial Paragon (Conf: 33.3%, Score: 47.9)
+    - Candidato: [377801] Magic: The Gathering – Amonkhet Planeswalker Deck: Liliana, Death Wielder (Conf: 33.3%, Score: 48.3)
+  > Probando query: 'Magic'
+    Encontrados 2158 resultados.
+    - Candidato: [194789] 10 Minutes pour un Butin: La Tour du Magicien (Conf: 0.0%, Score: 14.6)
+    - Candidato: [190022] 100 Swords: The Magic Computer's Dungeon Builder Set (Conf: 33.3%, Score: 36.9)
+    - Candidato: [299565] 1676: Mad Dogs & Englishmen – Rules for Including Magic, Special Characters, Fell Beasts, & Europeans in 1676 Games (Conf: 11.1%, Score: 16.6)
+    - Candidato: [439374] Adventure Time Card Wars: Peppermint Butler vs. Magic Man (Conf: 22.2%, Score: 16.8)
+    - Candidato: [156356] Aether Magic (Conf: 11.1%, Score: 15.6)
+    - Candidato: [99665] Aladdin and the Magic Lamp (Conf: 22.2%, Score: 20.5)
+    - Candidato: [13432] Aladdin Magic Carpet Card Game (Conf: 11.1%, Score: 26.8)
+    - Candidato: [13438] Aladdin: Jasmine Magic Ring Game (Conf: 11.1%, Score: 31.3)
+    - Candidato: [9639] Aladdin: The Magic Carpet Game (Conf: 22.2%, Score: 27.2)
+    - Candidato: [1101] La Alfombra Mágica (Conf: 11.1%, Score: 17.1)
+    - Candidato: [186185] La alfombra mágica de Aladino (Conf: 11.1%, Score: 29.6)
+    - Candidato: [109139] Alhambra: Queenie 1 – The Magical Buildings (Conf: 22.2%, Score: 21.7)
+    - Candidato: [434872] Apropos of Movies: Movie Magic (Conf: 11.1%, Score: 12.3)
+    - Candidato: [292739] Arcana Magica (Conf: 11.1%, Score: 18.5)
+    - Candidato: [176634] Arcanya: Magic Academy (Conf: 11.1%, Score: 32.9)
+    - Candidato: [365590] ArchRavels: Magic Socks (Conf: 11.1%, Score: 21.6)
+    - Candidato: [43384] Arena Magica (Conf: 11.1%, Score: 18.8)
+    - Candidato: [232929] Arith Magica: Adventures in Gossamyr (Conf: 11.1%, Score: 29.9)
+    - Candidato: [360690] Armada: Magic Deck (Conf: 11.1%, Score: 23.2)
+    - Candidato: [389618] Bananya: The Card Game – The Magic Expansion (Conf: 22.2%, Score: 23.7)
+    - Candidato: [20395] Barbie and the Magic of Pegasus (Conf: 22.2%, Score: 26.5)
+    - Candidato: [380709] Bark Magic: Ruins of Dhogoon (Conf: 11.1%, Score: 35.4)
+    - Candidato: [437666] Bark Magic: Ultimutt Edition (Conf: 11.1%, Score: 27.8)
+    - Candidato: [246100] Batman Miniature Game (Second Edition): The Book of Magic (Conf: 22.2%, Score: 9.4)
+    - Candidato: [36106] Battle Magic (Conf: 11.1%, Score: 15.6)
+GANADOR: ID 239756 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bardwood Grove - KS exclusive pack' ---
+Estrategias: ['Bardwood Grove', 'Bardwood', 'Bardwood Grove - KS exclusive', 'Bardwood Grove - KS exclusive pack']
+  > Probando query: 'Bardwood Grove - KS exclusive pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Bardwood Grove - KS exclusive'
+    Encontrados 0 resultados.
+  > Probando query: 'Bardwood Grove'
+    Encontrados 5 resultados.
+    - Candidato: [344925] Bardwood Grove (Conf: 50.0%, Score: 68.3)
+    - Candidato: [419393] Bardwood Grove: Kickstarter Exclusive Pack (Conf: 75.0%, Score: 79.4)
+    - Candidato: [418853] Bardwood Grove: Spirits of the Grove (Conf: 50.0%, Score: 64.5)
+    - Candidato: [419393] Bardwood Grove: Kickstarter Exclusive Pack (Conf: 75.0%, Score: 79.4)
+    - Candidato: [418853] Bardwood Grove: Spirits of the Grove (Conf: 50.0%, Score: 64.5)
+  > Probando query: 'Bardwood'
+    Encontrados 5 resultados.
+    - Candidato: [344925] Bardwood Grove (Conf: 50.0%, Score: 68.3)
+    - Candidato: [419393] Bardwood Grove: Kickstarter Exclusive Pack (Conf: 75.0%, Score: 79.4)
+    - Candidato: [418853] Bardwood Grove: Spirits of the Grove (Conf: 50.0%, Score: 64.5)
+    - Candidato: [419393] Bardwood Grove: Kickstarter Exclusive Pack (Conf: 75.0%, Score: 79.4)
+    - Candidato: [418853] Bardwood Grove: Spirits of the Grove (Conf: 50.0%, Score: 64.5)
+GANADOR: ID 419393 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ciné Clichés ! - SciFi/Fantasy/Humour' ---
+Estrategias: ['Ciné Clichés !', 'Ciné Clichés ! - SciFi/Fantasy/Humour', 'Ciné']
+  > Probando query: 'Ciné Clichés ! - SciFi/Fantasy/Humour'
+    Encontrados 0 resultados.
+  > Probando query: 'Ciné Clichés !'
+    Encontrados 2 resultados.
+    - Candidato: [290549] Ciné Clichés !: Action (Conf: 40.0%, Score: 61.5)
+    - Candidato: [290550] Ciné Clichés !: Horreur (Conf: 40.0%, Score: 64.2)
+  > Probando query: 'Ciné'
+    Encontrados 220 resultados.
+    - Candidato: [275676] Action!: O jogo de Cinema! (Conf: 0.0%, Score: 17.9)
+    - Candidato: [66967] At the Cinema (Conf: 0.0%, Score: 21.7)
+    - Candidato: [167669] Best of TV & cinéma (Conf: 0.0%, Score: 20.0)
+    - Candidato: [43041] Black Stories: Edition Cinéma (Conf: 0.0%, Score: 16.4)
+    - Candidato: [377638] Chamber of Wonders: Cinématographe Lumière (Conf: 0.0%, Score: 27.0)
+    - Candidato: [423748] Chronicards: Les Grandes Dates Du Cinéma (Conf: 0.0%, Score: 13.9)
+    - Candidato: [904] Cine Pipoca (Conf: 20.0%, Score: 31.8)
+    - Candidato: [289786] Cine Write and Trade (Conf: 20.0%, Score: 45.3)
+    - Candidato: [148567] Cine-vilzation (Conf: 20.0%, Score: 34.0)
+    - Candidato: [171364] CineCats (Conf: 0.0%, Score: 29.3)
+    - Candidato: [203884] CINECITTA 1937 (Conf: 0.0%, Score: 38.3)
+    - Candidato: [154642] Cinelinx: A Card Game For People Who Love Movies (Conf: 0.0%, Score: 25.0)
+    - Candidato: [192431] Cinelinx: A Card Game For People Who Love Movies – Horror Expansion (Conf: 0.0%, Score: 33.0)
+    - Candidato: [192432] Cinelinx: A Card Game For People Who Love Movies – Movie Buffs Expansion (Conf: 0.0%, Score: 33.3)
+    - Candidato: [172408] Cinelinx: A Card Game For People Who Love Movies – Red Band Expansion (Conf: 0.0%, Score: 34.3)
+    - Candidato: [192433] Cinelinx: A Card Game For People Who Love Movies – Superheroes & Comics Expansion (Conf: 0.0%, Score: 34.9)
+    - Candidato: [451279] CineLucha: Dragon Lee & Solar vs Cthulhu & The Mafia (Conf: 0.0%, Score: 32.5)
+    - Candidato: [16048] Cinema (Conf: 0.0%, Score: 25.6)
+    - Candidato: [414311] Cinema (Conf: 0.0%, Score: 25.6)
+    - Candidato: [21389] Cinema (Conf: 0.0%, Score: 25.6)
+    - Candidato: [361037] Cinema Code (Conf: 0.0%, Score: 31.8)
+    - Candidato: [183314] Cinema Frontier (Conf: 0.0%, Score: 37.5)
+    - Candidato: [122729] Cinema Tactics (Conf: 0.0%, Score: 38.3)
+    - Candidato: [30873] Cinemania (Conf: 0.0%, Score: 33.3)
+    - Candidato: [139810] CineManiac: Horror Edition (Conf: 0.0%, Score: 37.9)
+GANADOR: ID 290550 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dice Hospital - Services d’Urgence' ---
+Estrategias: ['Dice', 'Dice Hospital - Services d’Urgence', 'Dice Hospital']
+  > Probando query: 'Dice Hospital - Services d’Urgence'
+    Encontrados 0 resultados.
+  > Probando query: 'Dice Hospital'
+    Encontrados 21 resultados.
+    - Candidato: [218121] Dice Hospital (Conf: 40.0%, Score: 57.8)
+    - Candidato: [281210] Dice Hospital: Community Care (Conf: 40.0%, Score: 50.0)
+    - Candidato: [327390] Dice Hospital: Community Care (Kickstarter Edition) (Conf: 40.0%, Score: 47.5)
+    - Candidato: [237901] Dice Hospital: Deluxe Add-Ons Box (Conf: 40.0%, Score: 56.2)
+    - Candidato: [334646] Dice Hospital: ER – Emergency Roll (Conf: 40.0%, Score: 69.8)
+    - Candidato: [361986] Dice Hospital: ER – Emergency Roll: VIPs Promo (Conf: 40.0%, Score: 59.5)
+    - Candidato: [269831] Dice Hospital: Inspector Administrator Promo Card (Conf: 40.0%, Score: 50.0)
+    - Candidato: [284045] Dice Hospital: Kickstarter Pack (Conf: 40.0%, Score: 58.1)
+    - Candidato: [265449] Dice Hospital: Medical Officer Administrator Promo Card (Conf: 40.0%, Score: 48.8)
+    - Candidato: [264147] Dice Hospital: Pharma Rep Administrator Promo Card (Conf: 40.0%, Score: 44.4)
+    - Candidato: [325305] Dice Hospital: Specialist Promo Bundle (Conf: 40.0%, Score: 52.2)
+    - Candidato: [281210] Dice Hospital: Community Care (Conf: 40.0%, Score: 50.0)
+    - Candidato: [327390] Dice Hospital: Community Care (Kickstarter Edition) (Conf: 40.0%, Score: 47.5)
+    - Candidato: [237901] Dice Hospital: Deluxe Add-Ons Box (Conf: 40.0%, Score: 56.2)
+    - Candidato: [361986] Dice Hospital: ER – Emergency Roll: VIPs Promo (Conf: 40.0%, Score: 59.5)
+    - Candidato: [269831] Dice Hospital: Inspector Administrator Promo Card (Conf: 40.0%, Score: 50.0)
+    - Candidato: [284045] Dice Hospital: Kickstarter Pack (Conf: 40.0%, Score: 58.1)
+    - Candidato: [265449] Dice Hospital: Medical Officer Administrator Promo Card (Conf: 40.0%, Score: 48.8)
+    - Candidato: [264147] Dice Hospital: Pharma Rep Administrator Promo Card (Conf: 40.0%, Score: 44.4)
+    - Candidato: [325305] Dice Hospital: Specialist Promo Bundle (Conf: 40.0%, Score: 52.2)
+  > Probando query: 'Dice'
+    Encontrados 1613 resultados.
+    - Candidato: [425439] The Clock Strikes 18! The Twisted Dice Game (Conf: 20.0%, Score: 18.9)
+    - Candidato: [296498] 10 Dice (Conf: 20.0%, Score: 20.5)
+    - Candidato: [371555] The 12 Dice of Christmas (Conf: 20.0%, Score: 35.7)
+    - Candidato: [130289] 123 Dice (Conf: 20.0%, Score: 20.0)
+    - Candidato: [365449] 15 Dice of Civilization (Conf: 20.0%, Score: 36.4)
+    - Candidato: [265974] 16 Chickens Dice Fight to the Death (Conf: 20.0%, Score: 35.8)
+    - Candidato: [460404] 17 Dice Bets (Conf: 20.0%, Score: 27.3)
+    - Candidato: [308710] 1718 Dice Game (Conf: 20.0%, Score: 30.4)
+    - Candidato: [456445] 2 Dice City: An English conversation game (Conf: 20.0%, Score: 38.9)
+    - Candidato: [354014] 2 Simple Rules: Co-Op dice game (Conf: 20.0%, Score: 22.6)
+    - Candidato: [95863] 20 20 Dice Cricket (Conf: 20.0%, Score: 36.0)
+    - Candidato: [146077] "21" Lawn Dice (Conf: 20.0%, Score: 18.2)
+    - Candidato: [232914] 25 to Dice (Conf: 20.0%, Score: 19.0)
+    - Candidato: [172275] 26.2: The Marathon Dice Game (Conf: 20.0%, Score: 23.7)
+    - Candidato: [296311] 2d6vs2d6 Dice Baseball (Conf: 20.0%, Score: 29.6)
+    - Candidato: [11005] 3 Blind Dice (Conf: 20.0%, Score: 18.2)
+    - Candidato: [139108] 3 Dice (Conf: 20.0%, Score: 21.1)
+    - Candidato: [113360] 32 Dice (Conf: 20.0%, Score: 20.5)
+    - Candidato: [358789] 4-in-1 Dice Games (Conf: 20.0%, Score: 32.7)
+    - Candidato: [106870] 4x4 Dice (Conf: 20.0%, Score: 20.0)
+    - Candidato: [39329] 5 Dice (Conf: 20.0%, Score: 21.1)
+    - Candidato: [421468] 5 Dice Games (Conf: 20.0%, Score: 36.4)
+    - Candidato: [9319] 6 Dice Train Game (Conf: 20.0%, Score: 32.7)
+    - Candidato: [399370] 7 Deadly Dice (Conf: 20.0%, Score: 17.8)
+    - Candidato: [143085] 7 Dice Wonders (Conf: 20.0%, Score: 39.1)
+GANADOR: ID 334646 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Clac Mots' ---
+Estrategias: ['Clac', 'Clac Mots']
+  > Probando query: 'Clac Mots'
+    Encontrados 0 resultados.
+  > Probando query: 'Clac'
+    Encontrados 26 resultados.
+    - Candidato: [348948] Bible Animals: Click Clack Match (Conf: 50.0%, Score: 35.0)
+    - Candidato: [7595] CLAC (Conf: 50.0%, Score: 61.5)
+    - Candidato: [461862] CLAC (Conf: 50.0%, Score: 61.5)
+    - Candidato: [9830] Clac mouche (Conf: 50.0%, Score: 70.0)
+    - Candidato: [296360] Clac, le monstre! (Conf: 50.0%, Score: 66.7)
+    - Candidato: [231423] Clachan (Conf: 0.0%, Score: 50.0)
+    - Candidato: [117555] CLACK! (Conf: 50.0%, Score: 57.1)
+    - Candidato: [271448] CLACK! Categories (Conf: 50.0%, Score: 56.0)
+    - Candidato: [325842] CLACK! Family (Conf: 50.0%, Score: 57.1)
+    - Candidato: [345118] CLACK! Thwack! (Conf: 50.0%, Score: 57.1)
+    - Candidato: [364876] Clackerjack (Conf: 0.0%, Score: 40.0)
+    - Candidato: [140279] Clacks: A Discworld Board Game (Conf: 0.0%, Score: 31.6)
+    - Candidato: [128684] Clacto 6 (Conf: 0.0%, Score: 58.8)
+    - Candidato: [101673] Clacto ; 4 and 4, Game with magnetic marbles (Conf: 0.0%, Score: 32.0)
+    - Candidato: [141234] Clacto Dice (Conf: 0.0%, Score: 50.0)
+    - Candidato: [123742] Clacto Fishing, game with magnetic balls (Conf: 0.0%, Score: 33.3)
+    - Candidato: [128685] Clacto Snakes (Conf: 0.0%, Score: 54.5)
+    - Candidato: [17755] Clic Clac (Conf: 50.0%, Score: 44.4)
+    - Candidato: [36560] Click Clack (Conf: 50.0%, Score: 40.0)
+    - Candidato: [39206] Click Clack Lumberjack (Conf: 50.0%, Score: 38.7)
+    - Candidato: [221108] Click Clack Lumberjack: Promo Cards (Conf: 50.0%, Score: 37.2)
+    - Candidato: [454891] Clickety Clack (Conf: 50.0%, Score: 34.8)
+    - Candidato: [171560] Super Dungeon Explore: Ser-Clacmâchoire (Conf: 0.0%, Score: 25.5)
+    - Candidato: [221108] Click Clack Lumberjack: Promo Cards (Conf: 50.0%, Score: 37.2)
+    - Candidato: [171560] Super Dungeon Explore: Ser-Clacmâchoire (Conf: 0.0%, Score: 25.5)
+GANADOR: ID 9830 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°3 :  Corsé' ---
+Estrategias: ['Tchatbox N°3 :  Corsé', 'Tchatbox N°3', 'Tchatbox']
+  > Probando query: 'Tchatbox N°3 :  Corsé'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°3'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Zombicide (Saison 1) - 2ème Edition :  Pack Ultime - Kit de Mise à Jour' ---
+Estrategias: ['Zombicide (Saison 1) - 2ème Edition :  Pack Ultime - Kit de Mise à Jour', 'Zombicide  - 2ème', 'Zombicide  - 2ème  :   Ultime - Kit  Mise à Jour', 'Zombicide']
+  > Probando query: 'Zombicide (Saison 1) - 2ème Edition :  Pack Ultime - Kit de Mise à Jour'
+    Encontrados 0 resultados.
+  > Probando query: 'Zombicide  - 2ème  :   Ultime - Kit  Mise à Jour'
+    Encontrados 0 resultados.
+  > Probando query: 'Zombicide  - 2ème'
+    Encontrados 5 resultados.
+    - Candidato: [286751] Zombicide: 2ème Edition (Conf: 28.6%, Score: 61.0)
+    - Candidato: [292122] Zombicide: 2ème Edition – Washington Z.C. (Conf: 28.6%, Score: 59.5)
+    - Candidato: [336636] Zombicide: 2ème Edition – Zombies & Compagnons Kit de mise à niveau (Conf: 71.4%, Score: 64.6)
+    - Candidato: [292122] Zombicide: 2ème Edition – Washington Z.C. (Conf: 28.6%, Score: 59.5)
+    - Candidato: [336636] Zombicide: 2ème Edition – Zombies & Compagnons Kit de mise à niveau (Conf: 71.4%, Score: 64.6)
+  > Probando query: 'Zombicide'
+    Encontrados 765 resultados.
+    - Candidato: [339300] Army of the Dead: A Zombicide Game (Conf: 28.6%, Score: 34.3)
+    - Candidato: [401596] DCeased: A Zombicide Game (Conf: 28.6%, Score: 39.3)
+    - Candidato: [351817] Marvel Zombies: A Zombicide Game (Conf: 28.6%, Score: 35.3)
+    - Candidato: [402844] Marvel Zombies: A Zombicide Game – Agent Coulson Promo Cards (Conf: 28.6%, Score: 38.3)
+    - Candidato: [356203] Marvel Zombies: A Zombicide Game – Artist's Special Edition Set (Conf: 28.6%, Score: 45.4)
+    - Candidato: [408721] Marvel Zombies: A Zombicide Game – Batman Promo Card (Conf: 28.6%, Score: 44.2)
+    - Candidato: [356524] Marvel Zombies: A Zombicide Game – Clash of the Sinister Six (Conf: 28.6%, Score: 46.8)
+    - Candidato: [355481] Marvel Zombies: A Zombicide Game – Fantastic 4: Under Siege (Conf: 28.6%, Score: 41.3)
+    - Candidato: [355179] Marvel Zombies: A Zombicide Game – Galactus the Devourer (Conf: 28.6%, Score: 46.7)
+    - Candidato: [355817] Marvel Zombies: A Zombicide Game – Guardians of the Galaxy Set (Conf: 28.6%, Score: 41.7)
+    - Candidato: [355979] Marvel Zombies: A Zombicide Game – Hydra Resurrection (Conf: 28.6%, Score: 39.1)
+    - Candidato: [356731] Marvel Zombies: A Zombicide Game – Promos Box (Conf: 28.6%, Score: 40.5)
+    - Candidato: [356435] Marvel Zombies: A Zombicide Game – Sentinel Strike (Conf: 28.6%, Score: 45.2)
+    - Candidato: [412030] Marvel Zombies: A Zombicide Game – Wong Promo Card (Conf: 28.6%, Score: 40.5)
+    - Candidato: [366023] Marvel Zombies: Un Jeu Zombicide – La Résistance des Héros (Conf: 14.3%, Score: 34.8)
+    - Candidato: [348091] Massive Darkness 2: Zombicide Fantasy Crossover Pack (Conf: 14.3%, Score: 29.5)
+    - Candidato: [386359] Massive Darkness 2: Zombicide White Death Crossover Pack (Conf: 14.3%, Score: 34.8)
+    - Candidato: [258401] Massive Darkness: Zombicide Green Horde Crossover Set (Conf: 14.3%, Score: 38.2)
+    - Candidato: [264164] Night of the Living Dead: A Zombicide Game (Conf: 28.6%, Score: 30.8)
+    - Candidato: [462508] Night of the Living Dead: A Zombicide Game – D1: Another Take (Conf: 28.6%, Score: 34.0)
+    - Candidato: [462509] Night of the Living Dead: A Zombicide Game – D2: Popcorn at Dawn (Conf: 28.6%, Score: 35.1)
+    - Candidato: [462510] Night of the Living Dead: A Zombicide Game – D3: The Old farm (Conf: 28.6%, Score: 38.3)
+    - Candidato: [462511] Night of the Living Dead: A Zombicide Game – D4: The Cellar is the Safest Place (Conf: 28.6%, Score: 35.7)
+    - Candidato: [296611] Night of the Living Dead: A Zombicide Game – Dead of Night (Conf: 28.6%, Score: 30.4)
+    - Candidato: [264688] Project: ELITE – Zombicide: Invader Crossover Set (Conf: 14.3%, Score: 36.6)
+GANADOR: ID 336636 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet CE2/CM1/CM2 - Français et Mathématiques' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet CE2/CM1/CM2 - Français et Mathématiques']
+  > Probando query: 'Etoilium - Chevalet CE2/CM1/CM2 - Français et Mathématiques'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Apprendre à lire autrement - Spécial DYS' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Apprendre à lire autrement - Spécial DYS']
+  > Probando query: 'Etoilium - Chevalet Apprendre à lire autrement - Spécial DYS'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Carnet Vive la Maternelle' ---
+Estrategias: ['Etoilium - Carnet Vive  Maternelle', 'Etoilium', 'Etoilium - Carnet Vive la Maternelle']
+  > Probando query: 'Etoilium - Carnet Vive la Maternelle'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Carnet Vive  Maternelle'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Carnet A la découverte du monde' ---
+Estrategias: ['Etoilium - Carnet A la découverte du monde', 'Etoilium', 'Etoilium - Carnet A  découverte du monde']
+  > Probando query: 'Etoilium - Carnet A la découverte du monde'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Carnet A  découverte du monde'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Coffret Etoilium' ---
+Estrategias: ['Coffret', 'Coffret Etoilium']
+  > Probando query: 'Coffret Etoilium'
+    Encontrados 0 resultados.
+  > Probando query: 'Coffret'
+    Encontrados 11 resultados.
+    - Candidato: [228673] Andor: Le Coffret Bonus (Conf: 50.0%, Score: 52.6)
+    - Candidato: [308321] Ankh: Les Dieux d'Égypte – Coffret Gardiens (Conf: 50.0%, Score: 32.1)
+    - Candidato: [308184] Hero realms: Coffret héroïque (Conf: 50.0%, Score: 54.5)
+    - Candidato: [413124] Kingdom Rush: Fureur Élémentale – Coffret Élémenace (Conf: 50.0%, Score: 34.4)
+    - Candidato: [258810] Star Realms: Coffret Galactique (Conf: 50.0%, Score: 39.1)
+    - Candidato: [460408] Steven Rhodes: Le coffret (Conf: 50.0%, Score: 35.0)
+    - Candidato: [183797] Timeline: Star Wars – Coffret Spécial (Conf: 50.0%, Score: 44.0)
+    - Candidato: [228673] Andor: Le Coffret Bonus (Conf: 50.0%, Score: 52.6)
+    - Candidato: [308321] Ankh: Les Dieux d'Égypte – Coffret Gardiens (Conf: 50.0%, Score: 32.1)
+    - Candidato: [308184] Hero realms: Coffret héroïque (Conf: 50.0%, Score: 54.5)
+    - Candidato: [258810] Star Realms: Coffret Galactique (Conf: 50.0%, Score: 39.1)
+GANADOR: ID 308184 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Champion de dictée' ---
+Estrategias: ['Etoilium - Chevalet Champion de dictée', 'Etoilium - Chevalet Champion  dictée', 'Etoilium']
+  > Probando query: 'Etoilium - Chevalet Champion de dictée'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Chevalet Champion  dictée'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet GS/CP/CE1 - Français et Mathématiques' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet GS/CP/CE1 - Français et Mathématiques']
+  > Probando query: 'Etoilium - Chevalet GS/CP/CE1 - Français et Mathématiques'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Team Yankee - Magach 6 Tank Platoon' ---
+Estrategias: ['Team Yankee - Magach 6 Tank Platoon', 'Team', 'Team Yankee']
+  > Probando query: 'Team Yankee - Magach 6 Tank Platoon'
+    Encontrados 0 resultados.
+  > Probando query: 'Team Yankee'
+    Encontrados 56 resultados.
+    - Candidato: [456804] The 1971 Indo-Pakistan war: An expansion for "Flames of War" and "Team Yankee" (Conf: 33.3%, Score: 20.8)
+    - Candidato: [453467] The Indo-Pakistan war of 1965: An Expansion for Flames of War and Team Yankee (Conf: 33.3%, Score: 20.2)
+    - Candidato: [34150] Monopoly: New York Yankees The Century's Team Edition (Conf: 33.3%, Score: 35.3)
+    - Candidato: [8101] Team Yankee (Conf: 33.3%, Score: 50.0)
+    - Candidato: [190700] Team Yankee (Conf: 33.3%, Score: 50.0)
+    - Candidato: [225366] Team Yankee: Bannon's Boys – American Spearhead Force (Conf: 33.3%, Score: 38.6)
+    - Candidato: [224036] Team Yankee: Charlie's Chieftains – British Armored Squadron (Conf: 33.3%, Score: 53.3)
+    - Candidato: [339999] Team Yankee: Czechoslovak People's Army – Warsaw Pact Forces in WWIII (Conf: 33.3%, Score: 46.5)
+    - Candidato: [321006] Team Yankee: Durand's Devils – French Rapid Action Group (Conf: 33.3%, Score: 46.5)
+    - Candidato: [259459] Team Yankee: Free Nations (Conf: 33.3%, Score: 63.2)
+    - Candidato: [254052] Team Yankee: Hammerfall – World War III Battles (Conf: 33.3%, Score: 49.4)
+    - Candidato: [226507] Team Yankee: Iron Maiden (Conf: 33.3%, Score: 53.6)
+    - Candidato: [214443] Team Yankee: Leopard – West Germans in World War III (Conf: 33.3%, Score: 39.0)
+    - Candidato: [321002] Team Yankee: NATO's First Line – NATO Tank Company (Conf: 50.0%, Score: 57.5)
+    - Candidato: [226841] Team Yankee: Potecknov's Bears – Soviet Breakthrough Force (Conf: 33.3%, Score: 38.6)
+    - Candidato: [232968] Team Yankee: Red Thunder – Soviets in World War III (Conf: 33.3%, Score: 39.5)
+    - Candidato: [238923] Team Yankee: Stripes – US Forces in World War III (Conf: 33.3%, Score: 35.4)
+    - Candidato: [220106] Team Yankee: Volksarmee – East Germans in World War III (Conf: 33.3%, Score: 37.6)
+    - Candidato: [319318] Team Yankee: Yuri's Wolves – Soviet Forward Detachment (Conf: 33.3%, Score: 40.5)
+    - Candidato: [305837] World War III: Team Yankee (Conf: 33.3%, Score: 37.9)
+    - Candidato: [312062] World War III: Team Yankee – American (Conf: 33.3%, Score: 47.8)
+    - Candidato: [317467] World War III: Team Yankee – American Starter Force: Armoured Cavalry Troop (Conf: 33.3%, Score: 40.4)
+    - Candidato: [305845] World War III: Team Yankee – British (Conf: 33.3%, Score: 39.4)
+    - Candidato: [320826] World War III: Team Yankee – British Starter Force: Challenger Armoured Squadron (Conf: 33.3%, Score: 36.7)
+    - Candidato: [443593] World War III: Team Yankee – Israeli (Conf: 33.3%, Score: 42.4)
+  > Probando query: 'Team'
+    Encontrados 1083 resultados.
+    - Candidato: [456804] The 1971 Indo-Pakistan war: An expansion for "Flames of War" and "Team Yankee" (Conf: 33.3%, Score: 20.8)
+    - Candidato: [123417] The A-Team All-Action Bagatelle (Conf: 16.7%, Score: 40.6)
+    - Candidato: [3018] The A-Team: B.A. Lends a Hand in the Race for the Formula (Conf: 16.7%, Score: 38.6)
+    - Candidato: [13430] The A-Team: The Adventures with B.A. Card Game (Conf: 16.7%, Score: 26.0)
+    - Candidato: [7262] Ace Trump Game: Red Arrows and other aerobatic teams (Conf: 16.7%, Score: 9.5)
+    - Candidato: [325523] Activity Solo & Team (Conf: 16.7%, Score: 15.7)
+    - Candidato: [233233] Adrenaline: Team Play DLC (Conf: 16.7%, Score: 28.1)
+    - Candidato: [257855] Agents of Mayhem: Bombshells Team (Conf: 16.7%, Score: 12.3)
+    - Candidato: [433424] Alpha Team Mechanized Battle Force Go! (Conf: 16.7%, Score: 34.3)
+    - Candidato: [438214] Animal Rescue Team (Conf: 16.7%, Score: 15.7)
+    - Candidato: [287749] AR Team (Conf: 16.7%, Score: 20.0)
+    - Candidato: [433207] Ark Nova: Promotion Team & Capybara Promo Cards (Conf: 16.7%, Score: 28.6)
+    - Candidato: [310298] Armor Heavy Team: Tacforce 2.0 – Armored Warfare 1950-2010 (Conf: 16.7%, Score: 29.5)
+    - Candidato: [356753] Astroforce: Away Team (Conf: 16.7%, Score: 15.1)
+    - Candidato: [417807] Atlas Lost: Rise of the New Sovereigns – Ability Expansion: In-Depth Research Team (Conf: 16.7%, Score: 7.2)
+    - Candidato: [363102] Aventuria: Der Regenbogenfall Teamherausforderung (Conf: 0.0%, Score: 17.3)
+    - Candidato: [446483] Aventuria: Island of the Mummy Lords Team Challenge (Conf: 16.7%, Score: 21.7)
+    - Candidato: [302653] Aventuria: Kommando Rietholz Teamherausforderung (Conf: 0.0%, Score: 17.5)
+    - Candidato: [446484] Aventuria: Tsulu Team Challenge (Conf: 16.7%, Score: 28.6)
+    - Candidato: [426169] Away Team Bingo (Conf: 16.7%, Score: 33.3)
+    - Candidato: [36001] Away Team Skirmish (Conf: 16.7%, Score: 31.4)
+    - Candidato: [374993] Away Team: The Voyages of the Pandora (Conf: 16.7%, Score: 37.7)
+    - Candidato: [181215] Baseball Highlights: 2045 – Starter Team 10 Baltimore (Conf: 16.7%, Score: 16.9)
+    - Candidato: [181217] Baseball Highlights: 2045 – Starter Team 11 Cincinnati (Conf: 16.7%, Score: 23.8)
+    - Candidato: [181218] Baseball Highlights: 2045 – Starter Team 12 Detroit (Conf: 16.7%, Score: 19.8)
+GANADOR: ID 321002 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bolt Action - USA - Support Group' ---
+Estrategias: ['Bolt', 'Bolt Action - USA - Support Group', 'Bolt Action']
+  > Probando query: 'Bolt Action - USA - Support Group'
+    Encontrados 0 resultados.
+  > Probando query: 'Bolt Action'
+    Encontrados 87 resultados.
+    - Candidato: [127493] Bolt Action (Conf: 40.0%, Score: 55.0)
+    - Candidato: [145420] Bolt Action: Armies of France and the Allies (Conf: 40.0%, Score: 44.4)
+    - Candidato: [133149] Bolt Action: Armies of Germany (Conf: 40.0%, Score: 62.1)
+    - Candidato: [139724] Bolt Action: Armies of Great Britain (Conf: 40.0%, Score: 56.2)
+    - Candidato: [144997] Bolt Action: Armies of Imperial Japan (Conf: 40.0%, Score: 49.2)
+    - Candidato: [148275] Bolt Action: Armies of Italy and the Axis (Conf: 40.0%, Score: 46.4)
+    - Candidato: [142741] Bolt Action: Armies of the Soviet Union (Conf: 40.0%, Score: 56.7)
+    - Candidato: [136508] Bolt Action: Armies of the United States (Conf: 40.0%, Score: 47.1)
+    - Candidato: [167471] Bolt Action: Armoured Fury (Conf: 40.0%, Score: 59.3)
+    - Candidato: [140235] Bolt Action: Assault on Normandy (Conf: 40.0%, Score: 56.7)
+    - Candidato: [205877] Bolt Action: Band of Brothers (Conf: 40.0%, Score: 63.2)
+    - Candidato: [338754] Bolt Action: Banzai! Japanese Starter Army (Conf: 40.0%, Score: 55.1)
+    - Candidato: [238805] Bolt Action: Battle For Berlin (Conf: 40.0%, Score: 62.1)
+    - Candidato: [165572] Bolt Action: Battleground Europe – D-Day to Germany (Conf: 40.0%, Score: 49.4)
+    - Candidato: [257517] Bolt Action: Campaign – Battle of France (Conf: 40.0%, Score: 48.5)
+    - Candidato: [207720] Bolt Action: Campaign – Battle of the Bulge (Conf: 40.0%, Score: 40.6)
+    - Candidato: [401116] Bolt Action: Campaign – Case Blue (Conf: 40.0%, Score: 44.1)
+    - Candidato: [322540] Bolt Action: Campaign – D-Day: British & Canadian Sectors (Conf: 40.0%, Score: 45.0)
+    - Candidato: [265696] Bolt Action: Campaign – D-Day: Overlord (Conf: 40.0%, Score: 50.0)
+    - Candidato: [333058] Bolt Action: Campaign – D-Day: US Sector (Conf: 40.0%, Score: 55.4)
+    - Candidato: [265695] Bolt Action: Campaign – Fortress Budapest (Conf: 40.0%, Score: 59.7)
+    - Candidato: [310436] Bolt Action: Campaign – Gigant (Conf: 40.0%, Score: 57.1)
+    - Candidato: [349142] Bolt Action: Campaign – Italy: Soft Underbelly (Conf: 40.0%, Score: 53.5)
+    - Candidato: [391664] Bolt Action: Campaign – Italy: Tough Gut (Conf: 40.0%, Score: 49.2)
+    - Candidato: [308690] Bolt Action: Campaign – Mariana & Palau Islands (Conf: 40.0%, Score: 42.3)
+  > Probando query: 'Bolt'
+    Encontrados 176 resultados.
+    - Candidato: [9479] Bolt 'n' Stein (Conf: 20.0%, Score: 43.9)
+    - Candidato: [127493] Bolt Action (Conf: 40.0%, Score: 55.0)
+    - Candidato: [145420] Bolt Action: Armies of France and the Allies (Conf: 40.0%, Score: 44.4)
+    - Candidato: [133149] Bolt Action: Armies of Germany (Conf: 40.0%, Score: 62.1)
+    - Candidato: [139724] Bolt Action: Armies of Great Britain (Conf: 40.0%, Score: 56.2)
+    - Candidato: [144997] Bolt Action: Armies of Imperial Japan (Conf: 40.0%, Score: 49.2)
+    - Candidato: [148275] Bolt Action: Armies of Italy and the Axis (Conf: 40.0%, Score: 46.4)
+    - Candidato: [142741] Bolt Action: Armies of the Soviet Union (Conf: 40.0%, Score: 56.7)
+    - Candidato: [136508] Bolt Action: Armies of the United States (Conf: 40.0%, Score: 47.1)
+    - Candidato: [167471] Bolt Action: Armoured Fury (Conf: 40.0%, Score: 59.3)
+    - Candidato: [140235] Bolt Action: Assault on Normandy (Conf: 40.0%, Score: 56.7)
+    - Candidato: [205877] Bolt Action: Band of Brothers (Conf: 40.0%, Score: 63.2)
+    - Candidato: [338754] Bolt Action: Banzai! Japanese Starter Army (Conf: 40.0%, Score: 55.1)
+    - Candidato: [238805] Bolt Action: Battle For Berlin (Conf: 40.0%, Score: 62.1)
+    - Candidato: [165572] Bolt Action: Battleground Europe – D-Day to Germany (Conf: 40.0%, Score: 49.4)
+    - Candidato: [257517] Bolt Action: Campaign – Battle of France (Conf: 40.0%, Score: 48.5)
+    - Candidato: [207720] Bolt Action: Campaign – Battle of the Bulge (Conf: 40.0%, Score: 40.6)
+    - Candidato: [401116] Bolt Action: Campaign – Case Blue (Conf: 40.0%, Score: 44.1)
+    - Candidato: [322540] Bolt Action: Campaign – D-Day: British & Canadian Sectors (Conf: 40.0%, Score: 45.0)
+    - Candidato: [265696] Bolt Action: Campaign – D-Day: Overlord (Conf: 40.0%, Score: 50.0)
+    - Candidato: [333058] Bolt Action: Campaign – D-Day: US Sector (Conf: 40.0%, Score: 55.4)
+    - Candidato: [265695] Bolt Action: Campaign – Fortress Budapest (Conf: 40.0%, Score: 59.7)
+    - Candidato: [310436] Bolt Action: Campaign – Gigant (Conf: 40.0%, Score: 57.1)
+    - Candidato: [349142] Bolt Action: Campaign – Italy: Soft Underbelly (Conf: 40.0%, Score: 53.5)
+    - Candidato: [391664] Bolt Action: Campaign – Italy: Tough Gut (Conf: 40.0%, Score: 49.2)
+GANADOR: ID 205877 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bolt Action - USA - MMG Team Redeploying (Winter)' ---
+Estrategias: ['Bolt Action - USA - MMG Team Redeploying (Winter)', 'Bolt Action - USA - MMG Team Redeploying', 'Bolt', 'Bolt Action']
+  > Probando query: 'Bolt Action - USA - MMG Team Redeploying (Winter)'
+    Encontrados 0 resultados.
+  > Probando query: 'Bolt Action - USA - MMG Team Redeploying'
+    Encontrados 0 resultados.
+  > Probando query: 'Bolt Action'
+    Encontrados 87 resultados.
+    - Candidato: [127493] Bolt Action (Conf: 33.3%, Score: 46.8)
+    - Candidato: [145420] Bolt Action: Armies of France and the Allies (Conf: 33.3%, Score: 50.6)
+    - Candidato: [133149] Bolt Action: Armies of Germany (Conf: 33.3%, Score: 46.2)
+    - Candidato: [139724] Bolt Action: Armies of Great Britain (Conf: 33.3%, Score: 59.2)
+    - Candidato: [144997] Bolt Action: Armies of Imperial Japan (Conf: 33.3%, Score: 50.0)
+    - Candidato: [148275] Bolt Action: Armies of Italy and the Axis (Conf: 33.3%, Score: 52.6)
+    - Candidato: [142741] Bolt Action: Armies of the Soviet Union (Conf: 33.3%, Score: 56.8)
+    - Candidato: [136508] Bolt Action: Armies of the United States (Conf: 33.3%, Score: 56.0)
+    - Candidato: [167471] Bolt Action: Armoured Fury (Conf: 33.3%, Score: 55.7)
+    - Candidato: [140235] Bolt Action: Assault on Normandy (Conf: 33.3%, Score: 56.7)
+    - Candidato: [205877] Bolt Action: Band of Brothers (Conf: 33.3%, Score: 40.6)
+    - Candidato: [338754] Bolt Action: Banzai! Japanese Starter Army (Conf: 33.3%, Score: 50.0)
+    - Candidato: [238805] Bolt Action: Battle For Berlin (Conf: 33.3%, Score: 61.5)
+    - Candidato: [165572] Bolt Action: Battleground Europe – D-Day to Germany (Conf: 33.3%, Score: 45.2)
+    - Candidato: [257517] Bolt Action: Campaign – Battle of France (Conf: 33.3%, Score: 46.6)
+    - Candidato: [207720] Bolt Action: Campaign – Battle of the Bulge (Conf: 33.3%, Score: 50.0)
+    - Candidato: [401116] Bolt Action: Campaign – Case Blue (Conf: 33.3%, Score: 51.5)
+    - Candidato: [322540] Bolt Action: Campaign – D-Day: British & Canadian Sectors (Conf: 33.3%, Score: 41.4)
+    - Candidato: [265696] Bolt Action: Campaign – D-Day: Overlord (Conf: 33.3%, Score: 50.7)
+    - Candidato: [333058] Bolt Action: Campaign – D-Day: US Sector (Conf: 33.3%, Score: 47.2)
+    - Candidato: [265695] Bolt Action: Campaign – Fortress Budapest (Conf: 33.3%, Score: 51.4)
+    - Candidato: [310436] Bolt Action: Campaign – Gigant (Conf: 33.3%, Score: 54.0)
+    - Candidato: [349142] Bolt Action: Campaign – Italy: Soft Underbelly (Conf: 33.3%, Score: 48.7)
+    - Candidato: [391664] Bolt Action: Campaign – Italy: Tough Gut (Conf: 33.3%, Score: 50.0)
+    - Candidato: [308690] Bolt Action: Campaign – Mariana & Palau Islands (Conf: 33.3%, Score: 43.6)
+  > Probando query: 'Bolt'
+    Encontrados 176 resultados.
+    - Candidato: [9479] Bolt 'n' Stein (Conf: 16.7%, Score: 50.0)
+    - Candidato: [127493] Bolt Action (Conf: 33.3%, Score: 46.8)
+    - Candidato: [145420] Bolt Action: Armies of France and the Allies (Conf: 33.3%, Score: 50.6)
+    - Candidato: [133149] Bolt Action: Armies of Germany (Conf: 33.3%, Score: 46.2)
+    - Candidato: [139724] Bolt Action: Armies of Great Britain (Conf: 33.3%, Score: 59.2)
+    - Candidato: [144997] Bolt Action: Armies of Imperial Japan (Conf: 33.3%, Score: 50.0)
+    - Candidato: [148275] Bolt Action: Armies of Italy and the Axis (Conf: 33.3%, Score: 52.6)
+    - Candidato: [142741] Bolt Action: Armies of the Soviet Union (Conf: 33.3%, Score: 56.8)
+    - Candidato: [136508] Bolt Action: Armies of the United States (Conf: 33.3%, Score: 56.0)
+    - Candidato: [167471] Bolt Action: Armoured Fury (Conf: 33.3%, Score: 55.7)
+    - Candidato: [140235] Bolt Action: Assault on Normandy (Conf: 33.3%, Score: 56.7)
+    - Candidato: [205877] Bolt Action: Band of Brothers (Conf: 33.3%, Score: 40.6)
+    - Candidato: [338754] Bolt Action: Banzai! Japanese Starter Army (Conf: 33.3%, Score: 50.0)
+    - Candidato: [238805] Bolt Action: Battle For Berlin (Conf: 33.3%, Score: 61.5)
+    - Candidato: [165572] Bolt Action: Battleground Europe – D-Day to Germany (Conf: 33.3%, Score: 45.2)
+    - Candidato: [257517] Bolt Action: Campaign – Battle of France (Conf: 33.3%, Score: 46.6)
+    - Candidato: [207720] Bolt Action: Campaign – Battle of the Bulge (Conf: 33.3%, Score: 50.0)
+    - Candidato: [401116] Bolt Action: Campaign – Case Blue (Conf: 33.3%, Score: 51.5)
+    - Candidato: [322540] Bolt Action: Campaign – D-Day: British & Canadian Sectors (Conf: 33.3%, Score: 41.4)
+    - Candidato: [265696] Bolt Action: Campaign – D-Day: Overlord (Conf: 33.3%, Score: 50.7)
+    - Candidato: [333058] Bolt Action: Campaign – D-Day: US Sector (Conf: 33.3%, Score: 47.2)
+    - Candidato: [265695] Bolt Action: Campaign – Fortress Budapest (Conf: 33.3%, Score: 51.4)
+    - Candidato: [310436] Bolt Action: Campaign – Gigant (Conf: 33.3%, Score: 54.0)
+    - Candidato: [349142] Bolt Action: Campaign – Italy: Soft Underbelly (Conf: 33.3%, Score: 48.7)
+    - Candidato: [391664] Bolt Action: Campaign – Italy: Tough Gut (Conf: 33.3%, Score: 50.0)
+GANADOR: ID 238805 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Black Powder - Napoleonic French Imperial Guard Artillery Limber' ---
+Estrategias: ['Black', 'Black Powder - Napoleonic French Imperial Guard Artillery Limber', 'Black Powder']
+  > Probando query: 'Black Powder - Napoleonic French Imperial Guard Artillery Limber'
+    Encontrados 0 resultados.
+  > Probando query: 'Black Powder'
+    Encontrados 69 resultados.
+    - Candidato: [26775] Black Powder Battles (Conf: 25.0%, Score: 39.0)
+    - Candidato: [401124] Black Powder Epic Battles: American Civil War – Gettysburg Battle Set (Conf: 25.0%, Score: 54.7)
+    - Candidato: [443843] Black Powder Epic Battles: Revolution! (Conf: 25.0%, Score: 46.9)
+    - Candidato: [366297] Black Powder Epic Battles: The Waterloo Campaign (Conf: 25.0%, Score: 42.2)
+    - Candidato: [401040] Black Powder Epic Battles: The Waterloo Campaign – Blücher's Prussian Army Starter Set (Conf: 25.0%, Score: 45.5)
+    - Candidato: [401039] Black Powder Epic Battles: The Waterloo Campaign – Bonaparte's French Army Starter Set (Conf: 37.5%, Score: 48.3)
+    - Candidato: [363019] Black Powder Red Earth 28mm (Conf: 25.0%, Score: 49.4)
+    - Candidato: [437667] Black Powder Red Earth 28mm: Phase Line (Conf: 25.0%, Score: 50.0)
+    - Candidato: [259059] Black Powder: A Clash of Eagles (Conf: 25.0%, Score: 37.0)
+    - Candidato: [294967] Black Powder: A Dark and Bloody Ground (Conf: 25.0%, Score: 40.4)
+    - Candidato: [135939] Black Powder: Albion Triumphant Vol 1 – The Peninsular Campaign (Conf: 25.0%, Score: 41.0)
+    - Candidato: [145417] Black Powder: Albion Triumphant Vol. 2 – The Hundred Days Campaign (Conf: 25.0%, Score: 41.9)
+    - Candidato: [294778] Black Powder: Blood On The Nile (Conf: 25.0%, Score: 34.8)
+    - Candidato: [327249] Black Powder: Epic Battles – American Civil War Starter Set (Conf: 25.0%, Score: 61.0)
+    - Candidato: [397791] Black Powder: Epic Battles – The Hundred Days (Conf: 25.0%, Score: 44.2)
+    - Candidato: [294777] Black Powder: Glory, Hallelujah! (Conf: 25.0%, Score: 39.6)
+    - Candidato: [462435] Black Powder: Into the Valley of Death (Conf: 25.0%, Score: 42.4)
+    - Candidato: [167950] Black Powder: Rebellion! (Conf: 25.0%, Score: 38.1)
+    - Candidato: [60815] Black Powder: Second Edition (Conf: 25.0%, Score: 44.9)
+    - Candidato: [107802] Black Powder: The Last Argument of Kings (Conf: 25.0%, Score: 37.6)
+    - Candidato: [204594] Black Powder: Waterloo (Conf: 25.0%, Score: 41.0)
+    - Candidato: [167949] Black Powder: Zulu! (Conf: 25.0%, Score: 38.0)
+    - Candidato: [307045] Bonaparte: Miniature Games in the Age of Black Powder (Conf: 25.0%, Score: 21.1)
+    - Candidato: [373048] Command Decision: Black Powder Cold Steel (Conf: 25.0%, Score: 37.3)
+    - Candidato: [26918] Flintlock: Black Powder, Cold Steel -  Volume I: Carolina Rebels (Conf: 25.0%, Score: 33.3)
+  > Probando query: 'Black'
+    Encontrados 1932 resultados.
+    - Candidato: [130716] 13 Black Cats (Conf: 12.5%, Score: 21.3)
+    - Candidato: [204761] A.D.A.P.T.: Black Bio-Mech Expansion Pack (Conf: 12.5%, Score: 27.7)
+    - Candidato: [455933] A.S.H.E.S.: Blackout Protocol (Conf: 0.0%, Score: 22.5)
+    - Candidato: [121455] Admiral of the Black (Conf: 12.5%, Score: 12.2)
+    - Candidato: [440805] The Adventures of Conan: Queen of the Black Coast Expansion (Conf: 12.5%, Score: 16.7)
+    - Candidato: [169814] AEG Black Friday Black Box (Conf: 12.5%, Score: 31.8)
+    - Candidato: [188818] AEG Black Friday Black Box 2015 (Conf: 12.5%, Score: 30.1)
+    - Candidato: [69703] AEG Black Friday Black Box 2016 (Conf: 12.5%, Score: 30.1)
+    - Candidato: [442205] Aeon Trespass: Odyssey – Blackbeak Pursuer (Conf: 0.0%, Score: 17.8)
+    - Candidato: [467989] Agent Black (Conf: 12.5%, Score: 13.7)
+    - Candidato: [151173] The Agents: Black Ops (Conf: 12.5%, Score: 17.1)
+    - Candidato: [360329] Al Casino 6 Black Hearts (Conf: 12.5%, Score: 23.3)
+    - Candidato: [213815] All Things Zombie: Miniatures – Fade to Black (Conf: 12.5%, Score: 9.6)
+    - Candidato: [403989] Ancient Blood: The Order of Vampire Hunters – Black Rose Wars Rebirth Crossover (Conf: 12.5%, Score: 14.5)
+    - Candidato: [97848] Anima Tactics: Black Sun Box Set (Conf: 12.5%, Score: 19.4)
+    - Candidato: [114270] Anima Tactics: Samiel, The Black Lion (Conf: 12.5%, Score: 18.6)
+    - Candidato: [366585] Anno Domini: BLACK (Conf: 12.5%, Score: 12.7)
+    - Candidato: [368808] Answer This: Black (Conf: 12.5%, Score: 12.7)
+    - Candidato: [366786] Arcadia Quest: Black Newt (Conf: 12.5%, Score: 18.6)
+    - Candidato: [198522] Archer: Once You Go Blackmail... (Conf: 0.0%, Score: 17.8)
+    - Candidato: [37008] Arkham Horror: The Black Goat of the Woods Expansion (Conf: 12.5%, Score: 17.7)
+    - Candidato: [276291] Arkham Horror: The Card Game – Before the Black Throne: Mythos Pack (Conf: 12.5%, Score: 16.0)
+    - Candidato: [239330] Arkham Horror: The Card Game – Black Stars Rise: Mythos Pack (Conf: 12.5%, Score: 18.6)
+    - Candidato: [247404] Arkham Horror: The Card Game – To Fight the Black Wind Novella with Carolyn Fern Promo Cards (Conf: 12.5%, Score: 23.8)
+    - Candidato: [401153] Around the World with Black Emanuelle (Conf: 12.5%, Score: 24.2)
+GANADOR: ID 401039 con 37.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Napoleonic Portuguese Line Infantry' ---
+Estrategias: ['Napoleonic Portuguese Line Infantry', 'Napoleonic']
+  > Probando query: 'Napoleonic Portuguese Line Infantry'
+    Encontrados 0 resultados.
+  > Probando query: 'Napoleonic'
+    Encontrados 213 resultados.
+    - Candidato: [65931] 2 x 2 Napoleonics (Conf: 25.0%, Score: 42.3)
+    - Candidato: [447669] 321: Fast Play Napoleonic Rules SM6 (Conf: 25.0%, Score: 46.4)
+    - Candidato: [297310] 95th: Man-to-Man Skirmish Combat in the Napoleonic Wars (Conf: 25.0%, Score: 29.2)
+    - Candidato: [307466] About Bonaparte: Fast Play Napoleonic War Game Rules (Conf: 25.0%, Score: 34.9)
+    - Candidato: [338085] Absolute Emperor: Napoleonic Wargame Battles (Conf: 25.0%, Score: 38.5)
+    - Candidato: [15203] Age of Battles: Napoleonic (Conf: 25.0%, Score: 33.3)
+    - Candidato: [301364] The Age of Eagles (2nd Edition): The Napoleonic Wars in Miniature Based on Fire & Fury (Conf: 25.0%, Score: 32.8)
+    - Candidato: [307444] L'Aigle: Napoleonic Rules (Conf: 25.0%, Score: 50.8)
+    - Candidato: [304483] Art of Command: Rules for Wargaming Large Scale Napoleonic Battles (Conf: 25.0%, Score: 28.0)
+    - Candidato: [38732] Battle: The Napoleonic Wars (Conf: 25.0%, Score: 42.6)
+    - Candidato: [438287] Battlefields of the Napoleonic Wars (Conf: 25.0%, Score: 37.1)
+    - Candidato: [458472] Battles For Empire: Napoleonic Wargame Scenarios 1807 & 1809 (Conf: 25.0%, Score: 37.0)
+    - Candidato: [389135] Battles of Napoleonic Europe: A Solitaire Wargame (Conf: 25.0%, Score: 48.2)
+    - Candidato: [60359] Battles of the French Revolutionary and Napoleonic Wars Volume I (Conf: 25.0%, Score: 32.3)
+    - Candidato: [402028] Battles: Napoleonic (Conf: 25.0%, Score: 37.7)
+    - Candidato: [299978] Beer & Pretzels: The Napoleonic Wars (Conf: 25.0%, Score: 38.2)
+    - Candidato: [455854] Beggars and Scoundrels! Easy and fast playing Rules to Battle and Campaign: The Napoleonic Wars! (Conf: 25.0%, Score: 20.3)
+    - Candidato: [31583] De Bellis Napoleonicis (Conf: 25.0%, Score: 38.6)
+    - Candidato: [135939] Black Powder: Albion Triumphant Vol 1 – The Peninsular Campaign: Fighting the Battles of the Napoleonic Wars with Model Soliders (Conf: 25.0%, Score: 22.6)
+    - Candidato: [145417] Black Powder: Albion Triumphant Vol. 2 – The Hundred Days Campaign: Fighting Black Powder Battles During the Napoleonic Wars (Conf: 25.0%, Score: 16.9)
+    - Candidato: [457928] Blood and Bayonets: Land and Sea Battles in the Napoleonic Era (Conf: 25.0%, Score: 27.1)
+    - Candidato: [315991] Bonaparte: 6mm-20mm Napoleonic Wargame Rules (Conf: 25.0%, Score: 38.5)
+    - Candidato: [17005] Bonaparte: The Napoleonic Campaigns (Conf: 25.0%, Score: 40.6)
+    - Candidato: [436364] Borrowing The Army: Napoleonic (Conf: 25.0%, Score: 31.2)
+    - Candidato: [458317] Break Through: Napoleonic Solo Battle-gaming (Conf: 25.0%, Score: 43.6)
+GANADOR: ID 307444 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pike & Shotte Epic Battles - Scots Covenanters Starter Army' ---
+Estrategias: ['Pike & Shotte Epic Battles', 'Pike', 'Pike & Shotte Epic Battles - Scots Covenanters Starter Army']
+  > Probando query: 'Pike & Shotte Epic Battles - Scots Covenanters Starter Army'
+    Encontrados 0 resultados.
+  > Probando query: 'Pike & Shotte Epic Battles'
+    Encontrados 1 resultados.
+    - Candidato: [400849] Pike & Shotte: Epic Battles – Push of Pike (Conf: 50.0%, Score: 63.0)
+  > Probando query: 'Pike'
+    Encontrados 88 resultados.
+    - Candidato: [466466] Age of Glory: European Warfare in the Age of Pike and Powder from the Thirty Years War to the War of the League of Augsburg (Conf: 12.5%, Score: 23.7)
+    - Candidato: [312183] Ambuscades & Affairs of Outposts: Being a Pike & Shot Supplement for Knyghte, Pyke, and Sworde (Conf: 12.5%, Score: 26.8)
+    - Candidato: [450694] Amid the Chaos: The Age of Pike and Powder – 1350 AD to 1671 AD Supplement (Conf: 12.5%, Score: 20.6)
+    - Candidato: [367854] BelloLudi: Pikes – Wargame 1530-1660 (Conf: 12.5%, Score: 18.2)
+    - Candidato: [23470] Capt'n Pike's Cruising North America (Conf: 12.5%, Score: 24.2)
+    - Candidato: [297211] Cavalier: Miniature Wargame Rules for the Age of Pike & Shot (Conf: 12.5%, Score: 16.1)
+    - Candidato: [254340] Coldwater Crown: Pike Challenge Promo (Conf: 12.5%, Score: 24.2)
+    - Candidato: [440258] Dominion of Pike and Shot (Conf: 12.5%, Score: 22.5)
+    - Candidato: [136358] Donald Featherstone's Wargaming Pike and Shot Revised Edition (Conf: 12.5%, Score: 27.6)
+    - Candidato: [305103] Famous Zombies from the Past: A Pike & Shot & Zombie Game Supplement (Conf: 12.5%, Score: 30.5)
+    - Candidato: [110115] Fast Play Rules for the Pike & Shot Period (1550 - 1720 AD) (Conf: 12.5%, Score: 29.6)
+    - Candidato: [454123] Hackbutt & Pike: A Study in Renaissance Warfare (Conf: 12.5%, Score: 40.4)
+    - Candidato: [301516] Hex Command: Gunpowder – The Horse and Musket Era with Pike and Shot Addendum (Conf: 12.5%, Score: 21.7)
+    - Candidato: [443657] The Irregular Miniatures Pike and Shot Rule Box (Conf: 12.5%, Score: 25.5)
+    - Candidato: [305077] Lost Valley Survivors: A Pike & Shot & Zombie Game Supplement (Conf: 12.5%, Score: 32.4)
+    - Candidato: [409277] Musket & Pike Battles (Conf: 25.0%, Score: 32.4)
+    - Candidato: [316832] Musket & Pike Rules (Conf: 12.5%, Score: 22.2)
+    - Candidato: [275849] Musket & Pike: Dual Pack (Conf: 12.5%, Score: 21.1)
+    - Candidato: [435916] Musket & Pike: Dual Pack 2 (Conf: 12.5%, Score: 23.1)
+    - Candidato: [11514] Musket & Pike: Tactical Combat, 1550-1680 (Conf: 12.5%, Score: 32.6)
+    - Candidato: [408367] Pike & Piquet: The 30 Years War (Conf: 12.5%, Score: 36.1)
+    - Candidato: [298468] Pike & Plunder: Wargames Campaign Rules for the Italian Wars (Conf: 12.5%, Score: 37.5)
+    - Candidato: [301974] Pike & Shot & Zombies (Conf: 12.5%, Score: 36.1)
+    - Candidato: [123223] Pike & Shotte (Conf: 25.0%, Score: 33.3)
+    - Candidato: [448948] Pike & Shotte: Death & The Landsknecht (Conf: 25.0%, Score: 45.5)
+GANADOR: ID 400849 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'French Indian War - Frontiersmen (Random Figures)' ---
+Estrategias: ['French Indian War - Frontiersmen (Random Figures)', 'French', 'French Indian War - Frontiersmen', 'French Indian War']
+  > Probando query: 'French Indian War - Frontiersmen (Random Figures)'
+    Encontrados 0 resultados.
+  > Probando query: 'French Indian War - Frontiersmen'
+    Encontrados 0 resultados.
+  > Probando query: 'French Indian War'
+    Encontrados 40 resultados.
+    - Candidato: [206150] 1754: Conquest – The French and Indian War (Conf: 75.0%, Score: 49.3)
+    - Candidato: [312391] After The Raid: French And Indian Wars (Conf: 75.0%, Score: 53.7)
+    - Candidato: [294967] Black Powder: A Dark and Bloody Ground – Fighting the Battles of the French and Indian War with Model Soldiers (Conf: 75.0%, Score: 33.6)
+    - Candidato: [307481] Buckskins and Rangers: Skirmish Rules for Gaming the French Indian Wars (Conf: 75.0%, Score: 36.0)
+    - Candidato: [14860] Clash for a Continent:  Battles of the American Revolution and French & Indian War (Conf: 75.0%, Score: 31.5)
+    - Candidato: [461753] La Conquêste: The French and Indian War 1754-1763 (Conf: 75.0%, Score: 46.2)
+    - Candidato: [133662] Death or Victory: The French and Indian War (Conf: 75.0%, Score: 47.2)
+    - Candidato: [426853] Deeds of Daring: Individual Combat During the French and Indian War (1754 – 1763) (Conf: 75.0%, Score: 34.0)
+    - Candidato: [53624] Empires in America: The French and Indian War (Conf: 75.0%, Score: 45.9)
+    - Candidato: [191790] Empires in America: The French and Indian War, 1754-1763 (Second Edition) (Conf: 75.0%, Score: 46.5)
+    - Candidato: [11136] End of Empire: The French and Indian War and the American Revolution (Conf: 75.0%, Score: 43.3)
+    - Candidato: [255937] A Formidable Enemy: Rules for Miniature Skirmishes in The French & Indian War (Conf: 75.0%, Score: 32.7)
+    - Candidato: [419748] The French & Indian War (Conf: 75.0%, Score: 66.7)
+    - Candidato: [349742] French & Indian War Battles (Conf: 75.0%, Score: 76.4)
+    - Candidato: [38607] French & Indian War: Quebec (1759) (Conf: 75.0%, Score: 67.8)
+    - Candidato: [430534] French & Indian War: Solitaire (Conf: 75.0%, Score: 70.2)
+    - Candidato: [19186] The French & Indian War: Struggle for the New World (Conf: 75.0%, Score: 56.4)
+    - Candidato: [253991] French and Indian War (Conf: 75.0%, Score: 66.7)
+    - Candidato: [306348] French and Indian War 1757-1759 (Conf: 75.0%, Score: 59.0)
+    - Candidato: [154489] French and Indian War Battle Collection (Conf: 75.0%, Score: 58.0)
+    - Candidato: [275344] The French and Indian War Game (Conf: 75.0%, Score: 66.7)
+    - Candidato: [36066] French Indian Wars (Conf: 75.0%, Score: 75.0)
+    - Candidato: [37900] Hold the Line: French and Indian War Expansion Set (Conf: 75.0%, Score: 53.2)
+    - Candidato: [219782] Hold the Line: French and Indian War Expansion Set (Conf: 75.0%, Score: 53.2)
+    - Candidato: [12064] Ranger: Rules for the French-Indian Wars (Conf: 75.0%, Score: 52.2)
+  > Probando query: 'French'
+    Encontrados 397 resultados.
+    - Candidato: [15086] 100 Years War Anglo vs. French (Conf: 50.0%, Score: 20.3)
+    - Candidato: [206150] 1754: Conquest – The French and Indian War (Conf: 75.0%, Score: 49.3)
+    - Candidato: [313107] Across the Po Valley: Wargaming the Late French Revolutionary War (Conf: 50.0%, Score: 29.8)
+    - Candidato: [312391] After The Raid: French And Indian Wars (Conf: 75.0%, Score: 53.7)
+    - Candidato: [160732] Age of Steam Expansion: Argentina / The French Riviera (Conf: 25.0%, Score: 27.2)
+    - Candidato: [68901] Amusement for Beginners in French (Conf: 25.0%, Score: 19.0)
+    - Candidato: [340071] ASL Comp: French Algeria – Djebel Fighters 1954-1962 (Conf: 25.0%, Score: 40.5)
+    - Candidato: [333561] ASL Comp: GWASL II – Blasted Woods: French Great War (Conf: 50.0%, Score: 30.8)
+    - Candidato: [184555] ATS Great War: Blasted Woods – French vs. German Scenarios! (Conf: 50.0%, Score: 33.3)
+    - Candidato: [42885] ATS: French Algeria (Conf: 25.0%, Score: 37.5)
+    - Candidato: [458691] Aux Armes Citoyens: The French Revolutionary Wars (Conf: 50.0%, Score: 38.5)
+    - Candidato: [60359] Battles of the French Revolutionary and Napoleonic Wars Volume I (Conf: 50.0%, Score: 40.4)
+    - Candidato: [309973] Big Easy Busking: French Quarter Expansion (Conf: 25.0%, Score: 31.0)
+    - Candidato: [401039] Black Powder Epic Battles: The Waterloo Campaign – Bonaparte's French Army Starter Set (Conf: 25.0%, Score: 28.3)
+    - Candidato: [366297] Black Powder Epic Battles: The Waterloo Campaign – Bonaparte's French Starter Set (Conf: 25.0%, Score: 25.9)
+    - Candidato: [294967] Black Powder: A Dark and Bloody Ground – Fighting the Battles of the French and Indian War with Model Soldiers (Conf: 75.0%, Score: 33.6)
+    - Candidato: [296282] Black Seas: French 1st Rate (Conf: 25.0%, Score: 35.7)
+    - Candidato: [304505] Black Seas: French Navy 3rd Rates of Renown (Conf: 25.0%, Score: 38.9)
+    - Candidato: [296525] Black Seas: French Navy Fleet (Conf: 25.0%, Score: 41.4)
+    - Candidato: [306096] Blitzkrieg in the West 1940: 50 Wargame Scenarios – Volume I: German - French (Conf: 25.0%, Score: 11.9)
+    - Candidato: [307481] Buckskins and Rangers: Skirmish Rules for Gaming the French Indian Wars (Conf: 75.0%, Score: 36.0)
+    - Candidato: [15158] Carcassonne: Extension 03 – Princesse & Dragon (french edition) (Conf: 25.0%, Score: 25.6)
+    - Candidato: [14860] Clash for a Continent:  Battles of the American Revolution and French & Indian War (Conf: 75.0%, Score: 31.5)
+    - Candidato: [180199] Colonial Twilight: The French-Algerian War, 1954-62 (Conf: 50.0%, Score: 38.0)
+    - Candidato: [260114] Commands & Colors Tricorne: The American Revolution – The French & More! (Conf: 25.0%, Score: 19.1)
+GANADOR: ID 349742 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Savoir jongler en calcul' ---
+Estrategias: ['Etoilium - Chevalet Savoir jongler en calcul', 'Etoilium', 'Etoilium - Chevalet Savoir jongler  calcul']
+  > Probando query: 'Etoilium - Chevalet Savoir jongler en calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Chevalet Savoir jongler  calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Logique et Concentration' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Logique et Concentration']
+  > Probando query: 'Etoilium - Chevalet Logique et Concentration'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Have fun with English' ---
+Estrategias: ['Etoilium - Chevalet Have fun with English', 'Etoilium']
+  > Probando query: 'Etoilium - Chevalet Have fun with English'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Marvel: Crisis Protocol – Bastion, Nimrod & Omega Sentinel' ---
+Estrategias: ['Marvel', 'Marvel: Crisis Protocol – Bastion, Nimrod & Omega Sentinel']
+  > Probando query: 'Marvel: Crisis Protocol – Bastion, Nimrod & Omega Sentinel'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel'
+    Encontrados 1195 resultados.
+    - Candidato: [253618] 5-Minute Marvel (Conf: 14.3%, Score: 17.9)
+    - Candidato: [460246] Adventurous: Marvel Expansions (Conf: 14.3%, Score: 29.6)
+    - Candidato: [368048] Apples to Apples Express: Marvel Edition (Conf: 14.3%, Score: 26.4)
+    - Candidato: [324739] Apples to Apples: Marvel (Conf: 14.3%, Score: 16.0)
+    - Candidato: [452834] Artistry: Marvelous Mucha Mini Expansion (Conf: 0.0%, Score: 30.8)
+    - Candidato: [439420] Aspens: Majestic Marvels (Conf: 14.3%, Score: 18.7)
+    - Candidato: [24025] Attacktix  Battle Figure Game: Marvel (Conf: 14.3%, Score: 13.8)
+    - Candidato: [382136] Captain Marvel's Own Game SHAZAM! (Conf: 14.3%, Score: 38.1)
+    - Candidato: [269564] Captain Marvel: Secret Skrulls (Conf: 14.3%, Score: 32.1)
+    - Candidato: [273710] Captain Marvel: Secret Skrulls – Kree Fighter (Conf: 14.3%, Score: 31.9)
+    - Candidato: [273711] Captain Marvel: Secret Skrulls – Skrull Stun Gun (Conf: 14.3%, Score: 41.2)
+    - Candidato: [4143] Cara a Cara? Marvel Heroes (Conf: 14.3%, Score: 26.0)
+    - Candidato: [199937] The Card Game of Oz: The Marvelous Land of Oz (Conf: 0.0%, Score: 31.2)
+    - Candidato: [182077] Cardline: Marvel (Conf: 14.3%, Score: 17.9)
+    - Candidato: [357180] Cards Against Marvel (Conf: 14.3%, Score: 16.7)
+    - Candidato: [386620] Charlie and the Chocolate Factory: Marvellous Maths Games (Conf: 0.0%, Score: 25.9)
+    - Candidato: [5432] Chutes and Ladders Marvel Super Hero Squad (Conf: 14.3%, Score: 27.7)
+    - Candidato: [22958] Clout: Marvel (Conf: 14.3%, Score: 18.8)
+    - Candidato: [433795] Clue Junior Marvel Avengers (Conf: 14.3%, Score: 27.8)
+    - Candidato: [441343] Clue Junior: Marvel Avengers – Loki's Big Trick! (Conf: 14.3%, Score: 20.8)
+    - Candidato: [220774] Codenames: Marvel (Conf: 14.3%, Score: 17.6)
+    - Candidato: [63268] Dobble Marvel (Conf: 14.3%, Score: 18.5)
+    - Candidato: [258394] Doctor Smuglfreud's Marvelous Machine (Conf: 0.0%, Score: 27.0)
+    - Candidato: [17568] Eamonn Andrews Presents The Great Marvello (Conf: 14.3%, Score: 14.9)
+    - Candidato: [337500] Funkoverse Strategy Game: Marvel 100 (Conf: 14.3%, Score: 16.1)
+GANADOR: ID 273711 con 14.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rise to Nobility - Board  Game-Character Pack' ---
+Estrategias: ['Rise to Nobility - Board  Game-Character Pack', 'Rise to Nobility', 'Rise to Nobility - Board  -Character', 'Rise']
+  > Probando query: 'Rise to Nobility - Board  Game-Character Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Rise to Nobility - Board  -Character'
+    Encontrados 0 resultados.
+  > Probando query: 'Rise to Nobility'
+    Encontrados 5 resultados.
+    - Candidato: [218293] Rise to Nobility (Conf: 60.0%, Score: 66.7)
+    - Candidato: [259135] Rise to Nobility: Beyond (Conf: 60.0%, Score: 72.7)
+    - Candidato: [286071] Rise to Nobility: In the Pale Moonlight (Conf: 60.0%, Score: 57.1)
+    - Candidato: [259135] Rise to Nobility: Beyond (Conf: 60.0%, Score: 72.7)
+    - Candidato: [286071] Rise to Nobility: In the Pale Moonlight (Conf: 60.0%, Score: 57.1)
+  > Probando query: 'Rise'
+    Encontrados 1054 resultados.
+    - Candidato: [263301] Al Nofi's Imperium Romanum: The Rise and Fall of the Roman Empire (Conf: 20.0%, Score: 25.0)
+    - Candidato: [279859] Alchemental: Rise of the Celestial Sphere (Conf: 20.0%, Score: 30.6)
+    - Candidato: [308455] All Rise (Conf: 20.0%, Score: 20.0)
+    - Candidato: [297308] All Things Zombie: High Rise to Hell (Conf: 40.0%, Score: 26.9)
+    - Candidato: [323398] Althingi: One Will Rise (Conf: 20.0%, Score: 14.8)
+    - Candidato: [36316] America Rises (Conf: 20.0%, Score: 17.8)
+    - Candidato: [152971] Angry Birds: Star Wars – Jenga Rise of Darth Vader Game (Conf: 20.0%, Score: 28.6)
+    - Candidato: [188783] Apocalypse in the East: The Rise of the First Caliphate 646-656 A.D. (Conf: 20.0%, Score: 28.6)
+    - Candidato: [301387] AracKhan Wars: Rise of the Grey Order (Conf: 20.0%, Score: 41.2)
+    - Candidato: [239330] Arkham Horror: The Card Game – Black Stars Rise: Mythos Pack (Conf: 20.0%, Score: 22.7)
+    - Candidato: [138233] Ascension: Rise of Vigil (Conf: 20.0%, Score: 32.7)
+    - Candidato: [146607] Ascension: Rise of Vigil – Ethereal Huntress Promo (Conf: 20.0%, Score: 32.9)
+    - Candidato: [141045] Ascension: Rise of Vigil – Lotus Siren Promo Card (Conf: 20.0%, Score: 28.2)
+    - Candidato: [149080] Ascension: Rise of Vigil – Mistress of Blades Promo Card (Conf: 20.0%, Score: 25.9)
+    - Candidato: [142625] Ascension: Rise of Vigil – Mudfin Angler Promo Card (Conf: 20.0%, Score: 25.0)
+    - Candidato: [142624] Ascension: Rise of Vigil – Raving Prophet Promo Card (Conf: 20.0%, Score: 27.2)
+    - Candidato: [143812] Ascension: Rise of Vigil – Tinkering Monk Promo Card (Conf: 20.0%, Score: 27.2)
+    - Candidato: [357331] Ascent: Give rise to an Empire (Conf: 40.0%, Score: 39.3)
+    - Candidato: [167400] Ashes Reborn: Rise of the Phoenixborn (Conf: 20.0%, Score: 35.3)
+    - Candidato: [362598] Atlas Lost: Rise of the New Sovereigns (Conf: 20.0%, Score: 31.9)
+    - Candidato: [417807] Atlas Lost: Rise of the New Sovereigns – Ability Expansion: In-Depth Research Team (Conf: 20.0%, Score: 41.8)
+    - Candidato: [417803] Atlas Lost: Rise of the New Sovereigns – Campaign Expansion: The Lost Nation (Conf: 20.0%, Score: 28.8)
+    - Candidato: [426848] Babylon Rise (Conf: 20.0%, Score: 18.2)
+    - Candidato: [312020] Batman Miniature Game (Second Edition): The Dark Knight Rises (Conf: 20.0%, Score: 8.9)
+    - Candidato: [7092] Battles for the Ardennes: Game of the Blitzkrieg's Rise & Fall (Conf: 20.0%, Score: 13.2)
+GANADOR: ID 259135 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Altered - Trial By Frost - 36 Boosters Display' ---
+Estrategias: ['Altered - Trial By Frost - 36 Boosters Display', 'Altered']
+  > Probando query: 'Altered - Trial By Frost - 36 Boosters Display'
+    Encontrados 0 resultados.
+  > Probando query: 'Altered'
+    Encontrados 46 resultados.
+    - Candidato: [397393] Altered (Conf: 14.3%, Score: 28.6)
+    - Candidato: [457600] Altered: Seeds of Unity (Conf: 14.3%, Score: 43.8)
+    - Candidato: [455311] Altered: Skybound Odyssey (Conf: 14.3%, Score: 45.5)
+    - Candidato: [434439] Altered: Trial by Frost (Conf: 57.1%, Score: 68.8)
+    - Candidato: [447287] Altered: Whispers from the Maze (Conf: 14.3%, Score: 44.4)
+    - Candidato: [422170] Effortless: Altered Expansion (Conf: 14.3%, Score: 28.6)
+    - Candidato: [363616] Mansions of Madness: Second Edition – Altered Fates (Conf: 14.3%, Score: 26.7)
+    - Candidato: [457600] Altered: Seeds of Unity (Conf: 14.3%, Score: 43.8)
+    - Candidato: [455311] Altered: Skybound Odyssey (Conf: 14.3%, Score: 45.5)
+    - Candidato: [434439] Altered: Trial by Frost (Conf: 57.1%, Score: 68.8)
+    - Candidato: [447287] Altered: Whispers from the Maze (Conf: 14.3%, Score: 44.4)
+    - Candidato: [422170] Effortless: Altered Expansion (Conf: 14.3%, Score: 28.6)
+    - Candidato: [363616] Mansions of Madness: Second Edition – Altered Fates (Conf: 14.3%, Score: 26.7)
+GANADOR: ID 434439 con 57.1% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Altered - Trial By Frost - Booster' ---
+Estrategias: ['Altered - Trial By Frost - Booster', 'Altered']
+  > Probando query: 'Altered - Trial By Frost - Booster'
+    Encontrados 0 resultados.
+  > Probando query: 'Altered'
+    Encontrados 46 resultados.
+    - Candidato: [397393] Altered (Conf: 20.0%, Score: 37.8)
+    - Candidato: [457600] Altered: Seeds of Unity (Conf: 20.0%, Score: 38.5)
+    - Candidato: [455311] Altered: Skybound Odyssey (Conf: 20.0%, Score: 51.9)
+    - Candidato: [434439] Altered: Trial by Frost (Conf: 80.0%, Score: 84.6)
+    - Candidato: [447287] Altered: Whispers from the Maze (Conf: 20.0%, Score: 53.3)
+    - Candidato: [422170] Effortless: Altered Expansion (Conf: 20.0%, Score: 34.5)
+    - Candidato: [363616] Mansions of Madness: Second Edition – Altered Fates (Conf: 20.0%, Score: 28.2)
+    - Candidato: [457600] Altered: Seeds of Unity (Conf: 20.0%, Score: 38.5)
+    - Candidato: [455311] Altered: Skybound Odyssey (Conf: 20.0%, Score: 51.9)
+    - Candidato: [434439] Altered: Trial by Frost (Conf: 80.0%, Score: 84.6)
+    - Candidato: [447287] Altered: Whispers from the Maze (Conf: 20.0%, Score: 53.3)
+    - Candidato: [422170] Effortless: Altered Expansion (Conf: 20.0%, Score: 34.5)
+    - Candidato: [363616] Mansions of Madness: Second Edition – Altered Fates (Conf: 20.0%, Score: 28.2)
+GANADOR: ID 434439 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Meeple Circus - Tomates et étoiles' ---
+Estrategias: ['Meeple Circus', 'Meeple Circus - Tomates et étoiles', 'Meeple']
+  > Probando query: 'Meeple Circus - Tomates et étoiles'
+    Encontrados 0 resultados.
+  > Probando query: 'Meeple Circus'
+    Encontrados 9 resultados.
+    - Candidato: [193214] Meeple Circus (Conf: 40.0%, Score: 57.8)
+    - Candidato: [286284] Meeple Circus: Show Must Go On! (Conf: 40.0%, Score: 65.6)
+    - Candidato: [256309] Meeple Circus: The Wild Animal & Aerial Show (Conf: 40.0%, Score: 54.8)
+    - Candidato: [329184] Meeple Circus: Tiny Acrobats (Conf: 40.0%, Score: 64.4)
+    - Candidato: [249087] Meeple Circus: Tomatoes and Awards (Conf: 60.0%, Score: 73.8)
+    - Candidato: [286284] Meeple Circus: Show Must Go On! (Conf: 40.0%, Score: 65.6)
+    - Candidato: [256309] Meeple Circus: The Wild Animal & Aerial Show (Conf: 40.0%, Score: 54.8)
+    - Candidato: [329184] Meeple Circus: Tiny Acrobats (Conf: 40.0%, Score: 64.4)
+    - Candidato: [249087] Meeple Circus: Tomatoes and Awards (Conf: 60.0%, Score: 73.8)
+  > Probando query: 'Meeple'
+    Encontrados 167 resultados.
+    - Candidato: [446742] Books of Time: Man Vs. Meeple Season 5 Promo Cards (Conf: 20.0%, Score: 30.0)
+    - Candidato: [301576] Breakdancing Meeples (Conf: 20.0%, Score: 26.9)
+    - Candidato: [264718] Champions of Midgard: Meeple Monster Promo Card (Conf: 20.0%, Score: 30.8)
+    - Candidato: [381331] Chronicles of Crime: 2400 – Man vs. Meeple 2022 Promo Cards (Conf: 20.0%, Score: 27.6)
+    - Candidato: [381340] Corrosion: Man vs. Meeple Engineer Promo Card (Conf: 20.0%, Score: 34.7)
+    - Candidato: [330832] Doctor! Doctor!: Man vs Meeple Season 3 Promo Card (Conf: 20.0%, Score: 27.8)
+    - Candidato: [262646] Dreeple Wars: The War Before the Meeple War (Conf: 20.0%, Score: 21.6)
+    - Candidato: [381338] Eleven: Man vs. Meeple Promo Pack (Conf: 20.0%, Score: 34.9)
+    - Candidato: [277699] A Fistful of Meeples (Conf: 20.0%, Score: 26.9)
+    - Candidato: [394078] A Fistful of Meeples: A Few Meeples More (Conf: 20.0%, Score: 36.6)
+    - Candidato: [155823] Fleet: Crab Meeples (Conf: 20.0%, Score: 28.0)
+    - Candidato: [245963] Folly: the Meeple-Rolling Game (Conf: 20.0%, Score: 36.1)
+    - Candidato: [300402] Gloomhaven: The Lucky Meeple (Promo Scenario) (Conf: 20.0%, Score: 32.4)
+    - Candidato: [263023] Green Box of Games: The Meeple Mini Expansion (Conf: 20.0%, Score: 28.9)
+    - Candidato: [468362] Here to Slay Dungeons: Rain Hero & Meeple (Conf: 20.0%, Score: 17.1)
+    - Candidato: [330415] Imperial Settlers: Empires of the North – Man vs Meeple Island Set (Conf: 20.0%, Score: 27.4)
+    - Candidato: [350348] Last Resort: Very Important Meeples (Conf: 20.0%, Score: 21.2)
+    - Candidato: [467742] Meeple Ataca (Conf: 20.0%, Score: 40.9)
+    - Candidato: [317189] Meeple BR Jogos Promo Pack #1 (Conf: 20.0%, Score: 46.7)
+    - Candidato: [171] Meeple Chess (Conf: 20.0%, Score: 50.0)
+    - Candidato: [193214] Meeple Circus (Conf: 40.0%, Score: 57.8)
+    - Candidato: [286284] Meeple Circus: Show Must Go On! (Conf: 40.0%, Score: 65.6)
+    - Candidato: [256309] Meeple Circus: The Wild Animal & Aerial Show (Conf: 40.0%, Score: 54.8)
+    - Candidato: [329184] Meeple Circus: Tiny Acrobats (Conf: 40.0%, Score: 64.4)
+    - Candidato: [249087] Meeple Circus: Tomatoes and Awards (Conf: 60.0%, Score: 73.8)
+GANADOR: ID 249087 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars: Shatterpoint - Secure the Future Squad Pack' ---
+Estrategias: ['Star Wars: Shatterpoint - Secure the Future Squad', 'Star', 'Star Wars: Shatterpoint - Secure the Future Squad Pack', 'Star Wars: Shatterpoint', 'Star Wars']
+  > Probando query: 'Star Wars: Shatterpoint - Secure the Future Squad Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Shatterpoint - Secure the Future Squad'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Shatterpoint'
+    Encontrados 85 resultados.
+    - Candidato: [374562] Star Wars: Shatterpoint (Conf: 42.9%, Score: 64.7)
+    - Candidato: [440307] Star Wars: Shatterpoint – All the Way Squad Pack (Conf: 71.4%, Score: 74.7)
+    - Candidato: [389915] Star Wars: Shatterpoint – Appetite for Destruction Squad Pack (Conf: 57.1%, Score: 69.2)
+    - Candidato: [419079] Star Wars: Shatterpoint – Certified Guild Squad Pack (Conf: 57.1%, Score: 65.3)
+    - Candidato: [419077] Star Wars: Shatterpoint – Clone Force 99 Squad Pack (Conf: 57.1%, Score: 74.5)
+    - Candidato: [464099] Star Wars: Shatterpoint – Delta Squad, Form Up Squad Pack (Conf: 57.1%, Score: 62.6)
+    - Candidato: [440306] Star Wars: Shatterpoint – Deploy the Garrison Squad Pack (Conf: 71.4%, Score: 72.7)
+    - Candidato: [419080] Star Wars: Shatterpoint – Ee Chee Wa Maa! Squad Pack (Conf: 57.1%, Score: 74.5)
+    - Candidato: [419076] Star Wars: Shatterpoint – Fear and Dead Men Squad Pack (Conf: 57.1%, Score: 70.1)
+    - Candidato: [419075] Star Wars: Shatterpoint – Fearless and Inventive Squad Pack (Conf: 57.1%, Score: 64.7)
+    - Candidato: [440305] Star Wars: Shatterpoint – First Contact Mission Pack (Conf: 42.9%, Score: 58.9)
+    - Candidato: [399981] Star Wars: Shatterpoint – Fistful of Credits Squad Pack (Conf: 57.1%, Score: 69.4)
+    - Candidato: [428512] Star Wars: Shatterpoint – Good Soldiers Follow Orders Squad Pack (Conf: 57.1%, Score: 67.3)
+    - Candidato: [389913] Star Wars: Shatterpoint – Hello There Squad Pack (Conf: 57.1%, Score: 79.1)
+    - Candidato: [464098] Star Wars: Shatterpoint – I Am No Jedi Duel Pack (Conf: 42.9%, Score: 54.9)
+    - Candidato: [389917] Star Wars: Shatterpoint – Jedi Hunters Squad Pack (Conf: 57.1%, Score: 65.2)
+    - Candidato: [419082] Star Wars: Shatterpoint – Lead by Example Squad Pack (Conf: 57.1%, Score: 67.4)
+    - Candidato: [420890] Star Wars: Shatterpoint – Make the Impossible Possible Squad Pack (Conf: 71.4%, Score: 66.7)
+    - Candidato: [429500] Star Wars: Shatterpoint – Maximum Firepower Squad Pack (Conf: 57.1%, Score: 70.1)
+    - Candidato: [419880] Star Wars: Shatterpoint – Never Tell Me The Odds Mission Pack (Conf: 57.1%, Score: 65.4)
+    - Candidato: [422978] Star Wars: Shatterpoint – Not Accepting Surrenders Squad Pack (Conf: 57.1%, Score: 65.4)
+    - Candidato: [468644] Star Wars: Shatterpoint – Padawan Ahsoka Tano Promo (Conf: 42.9%, Score: 59.6)
+    - Candidato: [389916] Star Wars: Shatterpoint – Plans & Preparation Squad Pack (Conf: 57.1%, Score: 68.0)
+    - Candidato: [419878] Star Wars: Shatterpoint – Real Quiet Like Squad Pack (Conf: 57.1%, Score: 73.7)
+    - Candidato: [440308] Star Wars: Shatterpoint – Requesting Your Surrender Squad Pack (Conf: 57.1%, Score: 68.6)
+  > Probando query: 'Star Wars'
+    Encontrados 1666 resultados.
+    - Candidato: [134258] Angry Birds: Star Wars – At-At Attack Battle Game (Conf: 28.6%, Score: 37.0)
+    - Candidato: [134257] Angry Birds: Star Wars – Darth Vader's Lightsaber Battle Game (Conf: 28.6%, Score: 34.6)
+    - Candidato: [136216] Angry Birds: Star Wars – Fight on Tatooine Battle Game (Conf: 28.6%, Score: 35.1)
+    - Candidato: [134256] Angry Birds: Star Wars – Jabba's Palace Battle Game (Conf: 28.6%, Score: 36.2)
+    - Candidato: [154657] Angry Birds: Star Wars – Jenga Bespin Battle Game (Conf: 28.6%, Score: 37.0)
+    - Candidato: [134255] Angry Birds: Star Wars – Jenga Death Star Game (Conf: 28.6%, Score: 33.7)
+    - Candidato: [134254] Angry Birds: Star Wars – Jenga Hoth Battle Game (Conf: 28.6%, Score: 37.8)
+    - Candidato: [152971] Angry Birds: Star Wars – Jenga Rise of Darth Vader Game (Conf: 28.6%, Score: 34.7)
+    - Candidato: [134252] Angry Birds: Star Wars – Jenga Tatooine Battle Game (Conf: 28.6%, Score: 34.0)
+    - Candidato: [152745] Angry Birds: Star Wars – Jenga TIE Fighter Game (Conf: 28.6%, Score: 35.6)
+    - Candidato: [140198] Angry Birds: Star Wars – Millennium Falcon Bounce Game (Conf: 28.6%, Score: 37.1)
+    - Candidato: [152744] Angry Birds: Star Wars – Telepods Star Destroyer Set (Conf: 28.6%, Score: 40.0)
+    - Candidato: [17274] Attacktix Battle Figure Game: Star Wars (Conf: 28.6%, Score: 21.4)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 28.6%, Score: 28.9)
+    - Candidato: [183612] Bop It!: Star Wars R2-D2 Edition (Conf: 28.6%, Score: 34.2)
+    - Candidato: [414898] Bop It!: Star Wars – The Mandalorian: The Child (Conf: 42.9%, Score: 47.7)
+    - Candidato: [412059] Bop-It!: Star Wars BB-8 Edition (Conf: 28.6%, Score: 34.7)
+    - Candidato: [95710] Bop-It!: Star Wars Chewie Edition (Conf: 28.6%, Score: 41.6)
+    - Candidato: [35387] Car Wars Deluxe Road Sections Set 1: Starter Set (Conf: 14.3%, Score: 36.6)
+    - Candidato: [34249] Car Wars Fifth Edition Starter Set, Division 10 - Set 1 (Conf: 14.3%, Score: 40.8)
+    - Candidato: [34250] Car Wars Fifth Edition Starter Set, Division 10 - Set 2 (Conf: 14.3%, Score: 40.8)
+    - Candidato: [34251] Car Wars Fifth Edition Starter Set, Division 10 - Set 3 (Conf: 14.3%, Score: 40.8)
+    - Candidato: [34254] Car Wars Fifth Edition Starter Set, Division 15 - Set 1 (Conf: 14.3%, Score: 40.8)
+    - Candidato: [34253] Car Wars Fifth Edition Starter Set, Division 15 - Set 2 (Conf: 14.3%, Score: 40.8)
+    - Candidato: [34252] Car Wars Fifth Edition Starter Set, Division 15 - Set 3 (Conf: 14.3%, Score: 40.8)
+  > Probando query: 'Star'
+    Encontrados 2610 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 25.6)
+    - Candidato: [130677] 10 Stars (Conf: 14.3%, Score: 18.5)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 31.4)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 14.3%, Score: 17.5)
+    - Candidato: [10868] 5 Star (Conf: 14.3%, Score: 15.4)
+    - Candidato: [109001] 5150: Star Army (Conf: 14.3%, Score: 23.3)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 14.3%, Score: 34.8)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 14.3%, Score: 26.1)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 14.3%, Score: 28.9)
+    - Candidato: [229215] 5150: Star Marine (Conf: 14.3%, Score: 32.3)
+    - Candidato: [137273] 5150: Star Navy (Conf: 14.3%, Score: 20.0)
+    - Candidato: [447773] 8th Star (Conf: 14.3%, Score: 14.8)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 14.3%, Score: 44.4)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 28.6%, Score: 38.9)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 26.2)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 14.3%, Score: 17.5)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 14.3%, Score: 22.2)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 14.3%, Score: 22.2)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 14.3%, Score: 22.2)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 14.3%, Score: 16.2)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 14.3%, Score: 19.6)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 14.3%, Score: 18.8)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 14.3%, Score: 18.8)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 14.3%, Score: 18.8)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 14.3%, Score: 28.6)
+GANADOR: ID 440307 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars: Shatterpoint - My Loyalty, My Life Squad Pack' ---
+Estrategias: ['Star', 'Star Wars: Shatterpoint - My Loyalty, My Life Squad', 'Star Wars: Shatterpoint', 'Star Wars', 'Star Wars: Shatterpoint - My Loyalty, My Life Squad Pack']
+  > Probando query: 'Star Wars: Shatterpoint - My Loyalty, My Life Squad Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Shatterpoint - My Loyalty, My Life Squad'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Shatterpoint'
+    Encontrados 85 resultados.
+    - Candidato: [374562] Star Wars: Shatterpoint (Conf: 42.9%, Score: 63.8)
+    - Candidato: [440307] Star Wars: Shatterpoint – All the Way Squad Pack (Conf: 57.1%, Score: 71.7)
+    - Candidato: [389915] Star Wars: Shatterpoint – Appetite for Destruction Squad Pack (Conf: 57.1%, Score: 62.9)
+    - Candidato: [419079] Star Wars: Shatterpoint – Certified Guild Squad Pack (Conf: 57.1%, Score: 68.8)
+    - Candidato: [419077] Star Wars: Shatterpoint – Clone Force 99 Squad Pack (Conf: 57.1%, Score: 69.5)
+    - Candidato: [464099] Star Wars: Shatterpoint – Delta Squad, Form Up Squad Pack (Conf: 57.1%, Score: 62.0)
+    - Candidato: [440306] Star Wars: Shatterpoint – Deploy the Garrison Squad Pack (Conf: 57.1%, Score: 68.0)
+    - Candidato: [419080] Star Wars: Shatterpoint – Ee Chee Wa Maa! Squad Pack (Conf: 57.1%, Score: 69.5)
+    - Candidato: [419076] Star Wars: Shatterpoint – Fear and Dead Men Squad Pack (Conf: 57.1%, Score: 69.4)
+    - Candidato: [419075] Star Wars: Shatterpoint – Fearless and Inventive Squad Pack (Conf: 57.1%, Score: 66.0)
+    - Candidato: [440305] Star Wars: Shatterpoint – First Contact Mission Pack (Conf: 42.9%, Score: 64.6)
+    - Candidato: [399981] Star Wars: Shatterpoint – Fistful of Credits Squad Pack (Conf: 57.1%, Score: 64.6)
+    - Candidato: [428512] Star Wars: Shatterpoint – Good Soldiers Follow Orders Squad Pack (Conf: 57.1%, Score: 63.0)
+    - Candidato: [389913] Star Wars: Shatterpoint – Hello There Squad Pack (Conf: 57.1%, Score: 71.7)
+    - Candidato: [464098] Star Wars: Shatterpoint – I Am No Jedi Duel Pack (Conf: 42.9%, Score: 58.7)
+    - Candidato: [389917] Star Wars: Shatterpoint – Jedi Hunters Squad Pack (Conf: 57.1%, Score: 68.8)
+    - Candidato: [419082] Star Wars: Shatterpoint – Lead by Example Squad Pack (Conf: 57.1%, Score: 68.8)
+    - Candidato: [420890] Star Wars: Shatterpoint – Make the Impossible Possible Squad Pack (Conf: 57.1%, Score: 64.2)
+    - Candidato: [429500] Star Wars: Shatterpoint – Maximum Firepower Squad Pack (Conf: 57.1%, Score: 67.3)
+    - Candidato: [419880] Star Wars: Shatterpoint – Never Tell Me The Odds Mission Pack (Conf: 42.9%, Score: 61.0)
+    - Candidato: [422978] Star Wars: Shatterpoint – Not Accepting Surrenders Squad Pack (Conf: 57.1%, Score: 64.8)
+    - Candidato: [468644] Star Wars: Shatterpoint – Padawan Ahsoka Tano Promo (Conf: 42.9%, Score: 52.6)
+    - Candidato: [389916] Star Wars: Shatterpoint – Plans & Preparation Squad Pack (Conf: 57.1%, Score: 63.3)
+    - Candidato: [419878] Star Wars: Shatterpoint – Real Quiet Like Squad Pack (Conf: 57.1%, Score: 75.0)
+    - Candidato: [440308] Star Wars: Shatterpoint – Requesting Your Surrender Squad Pack (Conf: 57.1%, Score: 60.4)
+  > Probando query: 'Star Wars'
+    Encontrados 1666 resultados.
+    - Candidato: [134258] Angry Birds: Star Wars – At-At Attack Battle Game (Conf: 28.6%, Score: 38.7)
+    - Candidato: [134257] Angry Birds: Star Wars – Darth Vader's Lightsaber Battle Game (Conf: 28.6%, Score: 36.2)
+    - Candidato: [136216] Angry Birds: Star Wars – Fight on Tatooine Battle Game (Conf: 28.6%, Score: 36.7)
+    - Candidato: [134256] Angry Birds: Star Wars – Jabba's Palace Battle Game (Conf: 28.6%, Score: 37.9)
+    - Candidato: [154657] Angry Birds: Star Wars – Jenga Bespin Battle Game (Conf: 28.6%, Score: 38.7)
+    - Candidato: [134255] Angry Birds: Star Wars – Jenga Death Star Game (Conf: 28.6%, Score: 33.3)
+    - Candidato: [134254] Angry Birds: Star Wars – Jenga Hoth Battle Game (Conf: 28.6%, Score: 39.6)
+    - Candidato: [152971] Angry Birds: Star Wars – Jenga Rise of Darth Vader Game (Conf: 28.6%, Score: 36.4)
+    - Candidato: [134252] Angry Birds: Star Wars – Jenga Tatooine Battle Game (Conf: 28.6%, Score: 35.8)
+    - Candidato: [152745] Angry Birds: Star Wars – Jenga TIE Fighter Game (Conf: 28.6%, Score: 37.4)
+    - Candidato: [140198] Angry Birds: Star Wars – Millennium Falcon Bounce Game (Conf: 28.6%, Score: 38.8)
+    - Candidato: [152744] Angry Birds: Star Wars – Telepods Star Destroyer Set (Conf: 28.6%, Score: 43.8)
+    - Candidato: [17274] Attacktix Battle Figure Game: Star Wars (Conf: 28.6%, Score: 21.2)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 28.6%, Score: 35.7)
+    - Candidato: [183612] Bop It!: Star Wars R2-D2 Edition (Conf: 28.6%, Score: 33.8)
+    - Candidato: [414898] Bop It!: Star Wars – The Mandalorian: The Child (Conf: 28.6%, Score: 47.2)
+    - Candidato: [412059] Bop-It!: Star Wars BB-8 Edition (Conf: 28.6%, Score: 34.2)
+    - Candidato: [95710] Bop-It!: Star Wars Chewie Edition (Conf: 28.6%, Score: 41.0)
+    - Candidato: [35387] Car Wars Deluxe Road Sections Set 1: Starter Set (Conf: 14.3%, Score: 31.9)
+    - Candidato: [34249] Car Wars Fifth Edition Starter Set, Division 10 - Set 1 (Conf: 14.3%, Score: 36.4)
+    - Candidato: [34250] Car Wars Fifth Edition Starter Set, Division 10 - Set 2 (Conf: 14.3%, Score: 36.4)
+    - Candidato: [34251] Car Wars Fifth Edition Starter Set, Division 10 - Set 3 (Conf: 14.3%, Score: 36.4)
+    - Candidato: [34254] Car Wars Fifth Edition Starter Set, Division 15 - Set 1 (Conf: 14.3%, Score: 36.4)
+    - Candidato: [34253] Car Wars Fifth Edition Starter Set, Division 15 - Set 2 (Conf: 14.3%, Score: 36.4)
+    - Candidato: [34252] Car Wars Fifth Edition Starter Set, Division 15 - Set 3 (Conf: 14.3%, Score: 36.4)
+  > Probando query: 'Star'
+    Encontrados 2610 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 20.7)
+    - Candidato: [130677] 10 Stars (Conf: 14.3%, Score: 18.2)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 28.2)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 14.3%, Score: 17.2)
+    - Candidato: [10868] 5 Star (Conf: 14.3%, Score: 15.1)
+    - Candidato: [109001] 5150: Star Army (Conf: 14.3%, Score: 29.5)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 14.3%, Score: 34.3)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 14.3%, Score: 34.3)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 14.3%, Score: 41.6)
+    - Candidato: [229215] 5150: Star Marine (Conf: 14.3%, Score: 31.7)
+    - Candidato: [137273] 5150: Star Navy (Conf: 14.3%, Score: 23.0)
+    - Candidato: [447773] 8th Star (Conf: 14.3%, Score: 14.5)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 0.0%, Score: 22.0)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 14.3%, Score: 13.7)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 21.2)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 14.3%, Score: 17.3)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 14.3%, Score: 22.0)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 14.3%, Score: 22.0)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 14.3%, Score: 22.0)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 14.3%, Score: 16.1)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 14.3%, Score: 19.4)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 14.3%, Score: 18.6)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 14.3%, Score: 18.6)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 14.3%, Score: 18.6)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 14.3%, Score: 28.2)
+GANADOR: ID 419878 con 57.1% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°3 :  Corsé' ---
+Estrategias: ['Tchatbox', 'Tchatbox N°3', 'Tchatbox N°3 :  Corsé']
+  > Probando query: 'Tchatbox N°3 :  Corsé'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°3'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Savoir jongler en calcul' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Savoir jongler en calcul', 'Etoilium - Chevalet Savoir jongler  calcul']
+  > Probando query: 'Etoilium - Chevalet Savoir jongler en calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Chevalet Savoir jongler  calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Logique et Concentration' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Logique et Concentration']
+  > Probando query: 'Etoilium - Chevalet Logique et Concentration'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Have fun with English' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Have fun with English']
+  > Probando query: 'Etoilium - Chevalet Have fun with English'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°3 :  Corsé' ---
+Estrategias: ['Tchatbox N°3 :  Corsé', 'Tchatbox N°3', 'Tchatbox']
+  > Probando query: 'Tchatbox N°3 :  Corsé'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°3'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Savoir jongler en calcul' ---
+Estrategias: ['Etoilium - Chevalet Savoir jongler en calcul', 'Etoilium', 'Etoilium - Chevalet Savoir jongler  calcul']
+  > Probando query: 'Etoilium - Chevalet Savoir jongler en calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Chevalet Savoir jongler  calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Logique et Concentration' ---
+Estrategias: ['Etoilium - Chevalet Logique et Concentration', 'Etoilium']
+  > Probando query: 'Etoilium - Chevalet Logique et Concentration'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Have fun with English' ---
+Estrategias: ['Etoilium - Chevalet Have fun with English', 'Etoilium']
+  > Probando query: 'Etoilium - Chevalet Have fun with English'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tchatbox N°3 :  Corsé' ---
+Estrategias: ['Tchatbox N°3 :  Corsé', 'Tchatbox N°3', 'Tchatbox']
+  > Probando query: 'Tchatbox N°3 :  Corsé'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox N°3'
+    Encontrados 0 resultados.
+  > Probando query: 'Tchatbox'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Savoir jongler en calcul' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Savoir jongler en calcul', 'Etoilium - Chevalet Savoir jongler  calcul']
+  > Probando query: 'Etoilium - Chevalet Savoir jongler en calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium - Chevalet Savoir jongler  calcul'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Logique et Concentration' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Logique et Concentration']
+  > Probando query: 'Etoilium - Chevalet Logique et Concentration'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Etoilium - Chevalet Have fun with English' ---
+Estrategias: ['Etoilium', 'Etoilium - Chevalet Have fun with English']
+  > Probando query: 'Etoilium - Chevalet Have fun with English'
+    Encontrados 0 resultados.
+  > Probando query: 'Etoilium'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tic-Tac Twist: Burger vs Pizza' ---
+Estrategias: ['Twist', 'Tic-Tac Twist', 'Tic', 'Tic-Tac Twist: Burger vs Pizza']
+  > Probando query: 'Tic-Tac Twist: Burger vs Pizza'
+    Encontrados 0 resultados.
+  > Probando query: 'Tic-Tac Twist'
+    Encontrados 1 resultados.
+    - Candidato: [465885] Tic-Tac Twist (Conf: 50.0%, Score: 61.9)
+  > Probando query: 'Twist'
+    Encontrados 524 resultados.
+    - Candidato: [425439] The Clock Strikes 18! The Twisted Dice Game (Conf: 16.7%, Score: 36.6)
+    - Candidato: [104283] 4 in a row: Wild 'n Twisted (Conf: 16.7%, Score: 37.0)
+    - Candidato: [87802] Alfapet: Twist (Conf: 16.7%, Score: 33.3)
+    - Candidato: [17198] Animal Twister (Conf: 16.7%, Score: 46.5)
+    - Candidato: [467563] Atomic Twisted Tabletop: Mars Attacks Board Game (Conf: 16.7%, Score: 36.8)
+    - Candidato: [315723] Battle of the Bards: TWIST Gaming promo card (Conf: 16.7%, Score: 41.7)
+    - Candidato: [221134] Blend Off!: Mystery Twisters (Conf: 0.0%, Score: 36.4)
+    - Candidato: [266000] Blindfolded Twister (Conf: 16.7%, Score: 37.5)
+    - Candidato: [7688] Brain Twister (Conf: 16.7%, Score: 42.9)
+    - Candidato: [20451] Bratz Twister (Conf: 16.7%, Score: 42.9)
+    - Candidato: [22570] Break Twist (Conf: 16.7%, Score: 35.0)
+    - Candidato: [63176] Brin de Jasette Twist (Conf: 16.7%, Score: 32.0)
+    - Candidato: [451235] Cards Against Humanity Twists: Shit List (Conf: 16.7%, Score: 35.3)
+    - Candidato: [151839] Cars: Cool Twists Starter Game Set (Conf: 16.7%, Score: 48.4)
+    - Candidato: [96628] Classic Card Games with a quirky twist (Conf: 16.7%, Score: 32.8)
+    - Candidato: [199351] Connect 4 Twist & Turn (Conf: 16.7%, Score: 44.9)
+    - Candidato: [438366] Cowboy Bebop: Space Serenade – Expansion: Noodle Twist (Conf: 16.7%, Score: 25.3)
+    - Candidato: [24931] Cranium Tune Twister (Conf: 16.7%, Score: 44.9)
+    - Candidato: [3264] Crisis: A Twisted Laugh at Life (Conf: 16.7%, Score: 44.1)
+    - Candidato: [179723] Dino Twist (Conf: 16.7%, Score: 35.9)
+    - Candidato: [256318] Dino Twist: Bankiiizaurus (Conf: 16.7%, Score: 45.3)
+    - Candidato: [18621] Discovery Channel Space Brain Twister! (Conf: 16.7%, Score: 39.4)
+    - Candidato: [195073] Doolhof Twist (Conf: 16.7%, Score: 28.6)
+    - Candidato: [162556] Dungeon Escape: A classic game of memory with a twist! (Conf: 16.7%, Score: 27.2)
+    - Candidato: [409742] Dungeon Twist (Conf: 16.7%, Score: 28.6)
+GANADOR: ID 465885 con 50.0% confianza.
+--------------------------------------------------
