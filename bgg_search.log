@@ -15210,3 +15210,882 @@ Estrategias: ['Twist', 'Tic-Tac Twist', 'Tic', 'Tic-Tac Twist: Burger vs Pizza']
     - Candidato: [409742] Dungeon Twist (Conf: 16.7%, Score: 28.6)
 GANADOR: ID 465885 con 50.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: '4 jeux traditionnels du monde' ---
+Estrategias: ['4 jeux traditionnels du monde', 'jeux']
+  > Probando query: '4 jeux traditionnels du monde'
+    Encontrados 0 resultados.
+  > Probando query: 'jeux'
+    Encontrados 152 resultados.
+    - Candidato: [96628] 4 Jeux (Conf: 40.0%, Score: 34.3)
+    - Candidato: [11749] 4 Premiers Jeux (Conf: 40.0%, Score: 27.3)
+    - Candidato: [371310] Cartzzle: Les jeux d'enfants (Conf: 20.0%, Score: 28.6)
+    - Candidato: [113473] Cinglés des jeux (Conf: 20.0%, Score: 22.2)
+    - Candidato: [425429] Collection de jeux A la maternelle (Conf: 20.0%, Score: 38.1)
+    - Candidato: [203462] Contes & Jeux: Aladin & la Lampe merveilleuse (Conf: 20.0%, Score: 40.6)
+    - Candidato: [135648] Contes & Jeux: Baba Yaga (Conf: 20.0%, Score: 32.0)
+    - Candidato: [257961] Contes & Jeux: Le Petit Poucet (Conf: 20.0%, Score: 39.3)
+    - Candidato: [63268] Dobble Jeux Olympiques Paris 2024 (Conf: 20.0%, Score: 35.5)
+    - Candidato: [142358] Finger Tips Kartenspiele Jeux de cartes (Conf: 20.0%, Score: 23.5)
+    - Candidato: [135136] Grands jeux de Stock Cars (Conf: 20.0%, Score: 29.6)
+    - Candidato: [48641] Histoire Du Monde: Sports Et Jeux Olympiques (Conf: 60.0%, Score: 27.8)
+    - Candidato: [256315] Imagine: jeux de société promo (Conf: 20.0%, Score: 37.9)
+    - Candidato: [318939] Les Jeux Conficulture: Episode 1 – Gastronomie: La Guadeloupe (Conf: 20.0%, Score: 32.6)
+    - Candidato: [318937] Les Jeux Conficulture: Episode 1 – Gastronomie: La Guyane (Conf: 20.0%, Score: 29.3)
+    - Candidato: [318936] Les Jeux Conficulture: Episode 1 – Gastronomie: La Martinique (Conf: 20.0%, Score: 30.2)
+    - Candidato: [318446] Les Jeux Conficulture: Episode 1 – Gastronomie: La Réunion (Conf: 20.0%, Score: 28.9)
+    - Candidato: [318980] Les Jeux Conficulture: Episode 2 – Tradition: La Guadeloupe (Conf: 40.0%, Score: 45.2)
+    - Candidato: [319043] Les Jeux Conficulture: Episode 2 – Tradition: La Martinique (Conf: 40.0%, Score: 47.6)
+    - Candidato: [318934] Les Jeux Conficulture: Episode 2 – Tradition: La Réunion (Conf: 40.0%, Score: 44.4)
+    - Candidato: [318933] Les Jeux Conficulture: Rhums & Cocktails (Conf: 20.0%, Score: 33.3)
+    - Candidato: [209610] Les Jeux de 20 Heures (Conf: 20.0%, Score: 32.0)
+    - Candidato: [11028] Les Jeux de Lucky Luke Loto et Dominos (Conf: 20.0%, Score: 35.8)
+    - Candidato: [37403] Jeux de mots (Conf: 20.0%, Score: 48.8)
+    - Candidato: [21837] Jeux de mots (Conf: 20.0%, Score: 48.8)
+GANADOR: ID 48641 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Voyageons en jouant - Cambodge' ---
+Estrategias: ['Voyageons  jouant - Cambodge', 'Voyageons', 'Voyageons en jouant - Cambodge', 'Voyageons  jouant']
+  > Probando query: 'Voyageons en jouant - Cambodge'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant - Cambodge'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Voyageons en jouant - Italie' ---
+Estrategias: ['Voyageons en jouant - Italie', 'Voyageons  jouant - Italie', 'Voyageons', 'Voyageons  jouant']
+  > Probando query: 'Voyageons en jouant - Italie'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant - Italie'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Voyageons en jouant - Corée du Sud' ---
+Estrategias: ['Voyageons  jouant', 'Voyageons en jouant - Corée du Sud', 'Voyageons  jouant - Corée du Sud', 'Voyageons']
+  > Probando query: 'Voyageons en jouant - Corée du Sud'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant - Corée du Sud'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Voyageons en jouant - Grèce' ---
+Estrategias: ['Voyageons  jouant', 'Voyageons en jouant - Grèce', 'Voyageons', 'Voyageons  jouant - Grèce']
+  > Probando query: 'Voyageons en jouant - Grèce'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant - Grèce'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Voyageons en jouant - Kenya' ---
+Estrategias: ['Voyageons  jouant', 'Voyageons  jouant - Kenya', 'Voyageons en jouant - Kenya', 'Voyageons']
+  > Probando query: 'Voyageons en jouant - Kenya'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant - Kenya'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Voyageons en jouant - Pérou' ---
+Estrategias: ['Voyageons  jouant', 'Voyageons  jouant - Pérou', 'Voyageons en jouant - Pérou', 'Voyageons']
+  > Probando query: 'Voyageons en jouant - Pérou'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant - Pérou'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons  jouant'
+    Encontrados 0 resultados.
+  > Probando query: 'Voyageons'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars: Légion - Mandalorian Leaders' ---
+Estrategias: ['Star', 'Star Wars: Légion', 'Star Wars', 'Star Wars: Légion - Mandalorian Leaders']
+  > Probando query: 'Star Wars: Légion - Mandalorian Leaders'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Légion'
+    Encontrados 277 resultados.
+    - Candidato: [233571] Star Wars: Legion (Conf: 60.0%, Score: 61.5)
+    - Candidato: [258719] Star Wars: Legion – 1.4 FD Laser Cannon Team Unit Expansion (Conf: 60.0%, Score: 52.2)
+    - Candidato: [372924] Star Wars: Legion – 501st Legion (Conf: 60.0%, Score: 61.5)
+    - Candidato: [238375] Star Wars: Legion – 74-Z Speeder Bikes Unit Expansion (Conf: 60.0%, Score: 53.5)
+    - Candidato: [335770] Star Wars: Legion – A-A5 Speeder Truck Unit Expansion (Conf: 60.0%, Score: 58.1)
+    - Candidato: [294061] Star Wars: Legion – AAT Trade Federation Battle Tank Unit Expansion (Conf: 60.0%, Score: 50.0)
+    - Candidato: [327700] Star Wars: Legion – Agent Kallus Commander Expansion (Conf: 60.0%, Score: 58.8)
+    - Candidato: [385525] Star Wars: Legion – Ahsoka Tano Operative Expansion (Conf: 60.0%, Score: 57.1)
+    - Candidato: [327512] Star Wars: Legion – Anakin Skywalker Commander Expansion (Conf: 60.0%, Score: 56.2)
+    - Candidato: [434383] Star Wars: Legion – Aqua Droids (Conf: 60.0%, Score: 71.9)
+    - Candidato: [305702] Star Wars: Legion – ARC Troopers Unit Expansion (Conf: 60.0%, Score: 55.0)
+    - Candidato: [439709] Star Wars: Legion – Arf Troopers Unit Expansion (Conf: 60.0%, Score: 55.0)
+    - Candidato: [380861] Star Wars: Legion – Asajj Ventress Operative Expansion (Conf: 60.0%, Score: 48.3)
+    - Candidato: [238372] Star Wars: Legion – AT-RT Unit Expansion (Conf: 60.0%, Score: 57.5)
+    - Candidato: [238369] Star Wars: Legion – AT-ST Unit Expansion (Conf: 60.0%, Score: 57.5)
+    - Candidato: [283477] Star Wars: Legion – B1 Battle Droids Unit Expansion (Conf: 60.0%, Score: 50.0)
+    - Candidato: [294059] Star Wars: Legion – B1 Battle Droids Upgrade Expansion (Conf: 60.0%, Score: 55.2)
+    - Candidato: [294060] Star Wars: Legion – B2 Super Battle Droids Unit Expansion (Conf: 60.0%, Score: 46.7)
+    - Candidato: [423734] Star Wars: Legion – Bad Batch (Conf: 60.0%, Score: 61.3)
+    - Candidato: [293952] Star Wars: Legion – BARC Speeder Unit Expansion (Conf: 60.0%, Score: 62.5)
+    - Candidato: [459224] Star Wars: Legion – Battle Deck Card Pack (Conf: 60.0%, Score: 62.2)
+    - Candidato: [361651] Star Wars: Legion – Black Sun Enforcers Unit Expansion (Conf: 60.0%, Score: 55.2)
+    - Candidato: [373117] Star Wars: Legion – Blizzard Force: Battle Force Starter Set (Conf: 60.0%, Score: 60.9)
+    - Candidato: [375578] Star Wars: Legion – Boba Fett (Daimyo) Operative Expansion (Conf: 60.0%, Score: 49.4)
+    - Candidato: [258739] Star Wars: Legion – Boba Fett Operative Expansion (Conf: 60.0%, Score: 51.2)
+  > Probando query: 'Star Wars'
+    Encontrados 1666 resultados.
+    - Candidato: [134258] Angry Birds: Star Wars – At-At Attack Battle Game (Conf: 40.0%, Score: 36.6)
+    - Candidato: [134257] Angry Birds: Star Wars – Darth Vader's Lightsaber Battle Game (Conf: 40.0%, Score: 40.4)
+    - Candidato: [136216] Angry Birds: Star Wars – Fight on Tatooine Battle Game (Conf: 40.0%, Score: 48.3)
+    - Candidato: [134256] Angry Birds: Star Wars – Jabba's Palace Battle Game (Conf: 40.0%, Score: 35.7)
+    - Candidato: [154657] Angry Birds: Star Wars – Jenga Bespin Battle Game (Conf: 40.0%, Score: 36.6)
+    - Candidato: [134255] Angry Birds: Star Wars – Jenga Death Star Game (Conf: 40.0%, Score: 43.0)
+    - Candidato: [134254] Angry Birds: Star Wars – Jenga Hoth Battle Game (Conf: 40.0%, Score: 37.5)
+    - Candidato: [152971] Angry Birds: Star Wars – Jenga Rise of Darth Vader Game (Conf: 40.0%, Score: 52.3)
+    - Candidato: [134252] Angry Birds: Star Wars – Jenga Tatooine Battle Game (Conf: 40.0%, Score: 35.7)
+    - Candidato: [152745] Angry Birds: Star Wars – Jenga TIE Fighter Game (Conf: 40.0%, Score: 42.5)
+    - Candidato: [140198] Angry Birds: Star Wars – Millennium Falcon Bounce Game (Conf: 40.0%, Score: 41.4)
+    - Candidato: [152744] Angry Birds: Star Wars – Telepods Star Destroyer Set (Conf: 40.0%, Score: 49.4)
+    - Candidato: [17274] Attacktix Battle Figure Game: Star Wars (Conf: 40.0%, Score: 24.3)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 40.0%, Score: 38.4)
+    - Candidato: [183612] Bop It!: Star Wars R2-D2 Edition (Conf: 40.0%, Score: 42.4)
+    - Candidato: [414898] Bop It!: Star Wars – The Mandalorian: The Child (Conf: 60.0%, Score: 66.7)
+    - Candidato: [412059] Bop-It!: Star Wars BB-8 Edition (Conf: 40.0%, Score: 43.1)
+    - Candidato: [95710] Bop-It!: Star Wars Chewie Edition (Conf: 40.0%, Score: 41.8)
+    - Candidato: [35387] Car Wars Deluxe Road Sections Set 1: Starter Set (Conf: 20.0%, Score: 45.8)
+    - Candidato: [34249] Car Wars Fifth Edition Starter Set, Division 10 - Set 1 (Conf: 20.0%, Score: 43.2)
+    - Candidato: [34250] Car Wars Fifth Edition Starter Set, Division 10 - Set 2 (Conf: 20.0%, Score: 43.2)
+    - Candidato: [34251] Car Wars Fifth Edition Starter Set, Division 10 - Set 3 (Conf: 20.0%, Score: 43.2)
+    - Candidato: [34254] Car Wars Fifth Edition Starter Set, Division 15 - Set 1 (Conf: 20.0%, Score: 43.2)
+    - Candidato: [34253] Car Wars Fifth Edition Starter Set, Division 15 - Set 2 (Conf: 20.0%, Score: 43.2)
+    - Candidato: [34252] Car Wars Fifth Edition Starter Set, Division 15 - Set 3 (Conf: 20.0%, Score: 43.2)
+  > Probando query: 'Star'
+    Encontrados 2610 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 18.4)
+    - Candidato: [130677] 10 Stars (Conf: 20.0%, Score: 22.7)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 30.0)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 20.0%, Score: 17.0)
+    - Candidato: [10868] 5 Star (Conf: 20.0%, Score: 19.0)
+    - Candidato: [109001] 5150: Star Army (Conf: 20.0%, Score: 32.0)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 20.0%, Score: 40.7)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 20.0%, Score: 30.5)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 20.0%, Score: 45.5)
+    - Candidato: [229215] 5150: Star Marine (Conf: 20.0%, Score: 30.8)
+    - Candidato: [137273] 5150: Star Navy (Conf: 20.0%, Score: 24.0)
+    - Candidato: [447773] 8th Star (Conf: 20.0%, Score: 18.2)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 0.0%, Score: 15.0)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 20.0%, Score: 16.1)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 18.9)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 20.0%, Score: 28.0)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 20.0%, Score: 36.6)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 20.0%, Score: 36.6)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 20.0%, Score: 36.6)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 20.0%, Score: 25.7)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 20.0%, Score: 31.7)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 20.0%, Score: 30.2)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 20.0%, Score: 30.2)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 20.0%, Score: 30.2)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 20.0%, Score: 41.8)
+GANADOR: ID 434383 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars: Légion - Clan Wren Mandalorians' ---
+Estrategias: ['Star Wars: Légion - Clan Wren Mandalorians', 'Star Wars: Légion', 'Star', 'Star Wars']
+  > Probando query: 'Star Wars: Légion - Clan Wren Mandalorians'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Légion'
+    Encontrados 277 resultados.
+    - Candidato: [233571] Star Wars: Legion (Conf: 50.0%, Score: 58.2)
+    - Candidato: [258719] Star Wars: Legion – 1.4 FD Laser Cannon Team Unit Expansion (Conf: 50.0%, Score: 56.8)
+    - Candidato: [372924] Star Wars: Legion – 501st Legion (Conf: 50.0%, Score: 55.9)
+    - Candidato: [238375] Star Wars: Legion – 74-Z Speeder Bikes Unit Expansion (Conf: 50.0%, Score: 51.7)
+    - Candidato: [335770] Star Wars: Legion – A-A5 Speeder Truck Unit Expansion (Conf: 50.0%, Score: 53.9)
+    - Candidato: [294061] Star Wars: Legion – AAT Trade Federation Battle Tank Unit Expansion (Conf: 50.0%, Score: 48.5)
+    - Candidato: [327700] Star Wars: Legion – Agent Kallus Commander Expansion (Conf: 50.0%, Score: 65.9)
+    - Candidato: [385525] Star Wars: Legion – Ahsoka Tano Operative Expansion (Conf: 50.0%, Score: 59.8)
+    - Candidato: [327512] Star Wars: Legion – Anakin Skywalker Commander Expansion (Conf: 50.0%, Score: 63.0)
+    - Candidato: [434383] Star Wars: Legion – Aqua Droids (Conf: 50.0%, Score: 65.7)
+    - Candidato: [305702] Star Wars: Legion – ARC Troopers Unit Expansion (Conf: 50.0%, Score: 57.8)
+    - Candidato: [439709] Star Wars: Legion – Arf Troopers Unit Expansion (Conf: 50.0%, Score: 57.8)
+    - Candidato: [380861] Star Wars: Legion – Asajj Ventress Operative Expansion (Conf: 50.0%, Score: 60.0)
+    - Candidato: [238372] Star Wars: Legion – AT-RT Unit Expansion (Conf: 50.0%, Score: 63.2)
+    - Candidato: [238369] Star Wars: Legion – AT-ST Unit Expansion (Conf: 50.0%, Score: 63.2)
+    - Candidato: [283477] Star Wars: Legion – B1 Battle Droids Unit Expansion (Conf: 50.0%, Score: 55.2)
+    - Candidato: [294059] Star Wars: Legion – B1 Battle Droids Upgrade Expansion (Conf: 50.0%, Score: 53.3)
+    - Candidato: [294060] Star Wars: Legion – B2 Super Battle Droids Unit Expansion (Conf: 50.0%, Score: 51.6)
+    - Candidato: [423734] Star Wars: Legion – Bad Batch (Conf: 50.0%, Score: 55.4)
+    - Candidato: [293952] Star Wars: Legion – BARC Speeder Unit Expansion (Conf: 50.0%, Score: 57.8)
+    - Candidato: [459224] Star Wars: Legion – Battle Deck Card Pack (Conf: 50.0%, Score: 54.5)
+    - Candidato: [361651] Star Wars: Legion – Black Sun Enforcers Unit Expansion (Conf: 50.0%, Score: 64.4)
+    - Candidato: [373117] Star Wars: Legion – Blizzard Force: Battle Force Starter Set (Conf: 50.0%, Score: 50.5)
+    - Candidato: [375578] Star Wars: Legion – Boba Fett (Daimyo) Operative Expansion (Conf: 50.0%, Score: 63.0)
+    - Candidato: [258739] Star Wars: Legion – Boba Fett Operative Expansion (Conf: 50.0%, Score: 58.8)
+  > Probando query: 'Star Wars'
+    Encontrados 1666 resultados.
+    - Candidato: [134258] Angry Birds: Star Wars – At-At Attack Battle Game (Conf: 33.3%, Score: 35.3)
+    - Candidato: [134257] Angry Birds: Star Wars – Darth Vader's Lightsaber Battle Game (Conf: 33.3%, Score: 30.9)
+    - Candidato: [136216] Angry Birds: Star Wars – Fight on Tatooine Battle Game (Conf: 33.3%, Score: 37.8)
+    - Candidato: [134256] Angry Birds: Star Wars – Jabba's Palace Battle Game (Conf: 33.3%, Score: 34.5)
+    - Candidato: [154657] Angry Birds: Star Wars – Jenga Bespin Battle Game (Conf: 33.3%, Score: 35.3)
+    - Candidato: [134255] Angry Birds: Star Wars – Jenga Death Star Game (Conf: 33.3%, Score: 34.1)
+    - Candidato: [134254] Angry Birds: Star Wars – Jenga Hoth Battle Game (Conf: 33.3%, Score: 36.1)
+    - Candidato: [152971] Angry Birds: Star Wars – Jenga Rise of Darth Vader Game (Conf: 33.3%, Score: 37.4)
+    - Candidato: [134252] Angry Birds: Star Wars – Jenga Tatooine Battle Game (Conf: 33.3%, Score: 34.5)
+    - Candidato: [152745] Angry Birds: Star Wars – Jenga TIE Fighter Game (Conf: 33.3%, Score: 33.7)
+    - Candidato: [140198] Angry Birds: Star Wars – Millennium Falcon Bounce Game (Conf: 33.3%, Score: 42.2)
+    - Candidato: [152744] Angry Birds: Star Wars – Telepods Star Destroyer Set (Conf: 33.3%, Score: 45.5)
+    - Candidato: [17274] Attacktix Battle Figure Game: Star Wars (Conf: 33.3%, Score: 23.4)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 33.3%, Score: 36.8)
+    - Candidato: [183612] Bop It!: Star Wars R2-D2 Edition (Conf: 33.3%, Score: 40.6)
+    - Candidato: [414898] Bop It!: Star Wars – The Mandalorian: The Child (Conf: 50.0%, Score: 56.8)
+    - Candidato: [412059] Bop-It!: Star Wars BB-8 Edition (Conf: 33.3%, Score: 41.2)
+    - Candidato: [95710] Bop-It!: Star Wars Chewie Edition (Conf: 33.3%, Score: 40.0)
+    - Candidato: [35387] Car Wars Deluxe Road Sections Set 1: Starter Set (Conf: 16.7%, Score: 39.5)
+    - Candidato: [34249] Car Wars Fifth Edition Starter Set, Division 10 - Set 1 (Conf: 16.7%, Score: 39.6)
+    - Candidato: [34250] Car Wars Fifth Edition Starter Set, Division 10 - Set 2 (Conf: 16.7%, Score: 39.6)
+    - Candidato: [34251] Car Wars Fifth Edition Starter Set, Division 10 - Set 3 (Conf: 16.7%, Score: 39.6)
+    - Candidato: [34254] Car Wars Fifth Edition Starter Set, Division 15 - Set 1 (Conf: 16.7%, Score: 39.6)
+    - Candidato: [34253] Car Wars Fifth Edition Starter Set, Division 15 - Set 2 (Conf: 16.7%, Score: 39.6)
+    - Candidato: [34252] Car Wars Fifth Edition Starter Set, Division 15 - Set 3 (Conf: 16.7%, Score: 39.6)
+  > Probando query: 'Star'
+    Encontrados 2610 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 17.7)
+    - Candidato: [130677] 10 Stars (Conf: 16.7%, Score: 21.3)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 25.4)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 16.7%, Score: 16.0)
+    - Candidato: [10868] 5 Star (Conf: 16.7%, Score: 17.8)
+    - Candidato: [109001] 5150: Star Army (Conf: 16.7%, Score: 30.2)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 16.7%, Score: 38.7)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 16.7%, Score: 29.0)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 16.7%, Score: 40.6)
+    - Candidato: [229215] 5150: Star Marine (Conf: 16.7%, Score: 29.1)
+    - Candidato: [137273] 5150: Star Navy (Conf: 16.7%, Score: 22.6)
+    - Candidato: [447773] 8th Star (Conf: 16.7%, Score: 17.0)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 0.0%, Score: 16.9)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 16.7%, Score: 15.4)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 18.2)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 0.0%, Score: 31.2)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 0.0%, Score: 16.2)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 0.0%, Score: 16.2)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 0.0%, Score: 16.2)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 0.0%, Score: 25.0)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 0.0%, Score: 18.8)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 0.0%, Score: 29.2)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 0.0%, Score: 29.2)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 0.0%, Score: 29.2)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 16.7%, Score: 40.0)
+GANADOR: ID 327700 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars: Légion - Mandalorian Special Edition Army Box' ---
+Estrategias: ['Star', 'Star Wars: Légion - Mandalorian Special  Army', 'Star Wars: Légion', 'Star Wars: Légion - Mandalorian Special Edition Army Box', 'Star Wars']
+  > Probando query: 'Star Wars: Légion - Mandalorian Special Edition Army Box'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Légion - Mandalorian Special  Army'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars: Légion'
+    Encontrados 277 resultados.
+    - Candidato: [233571] Star Wars: Legion (Conf: 50.0%, Score: 56.1)
+    - Candidato: [258719] Star Wars: Legion – 1.4 FD Laser Cannon Team Unit Expansion (Conf: 50.0%, Score: 51.5)
+    - Candidato: [372924] Star Wars: Legion – 501st Legion (Conf: 50.0%, Score: 51.4)
+    - Candidato: [238375] Star Wars: Legion – 74-Z Speeder Bikes Unit Expansion (Conf: 50.0%, Score: 50.5)
+    - Candidato: [335770] Star Wars: Legion – A-A5 Speeder Truck Unit Expansion (Conf: 50.0%, Score: 57.1)
+    - Candidato: [294061] Star Wars: Legion – AAT Trade Federation Battle Tank Unit Expansion (Conf: 50.0%, Score: 45.7)
+    - Candidato: [327700] Star Wars: Legion – Agent Kallus Commander Expansion (Conf: 50.0%, Score: 57.8)
+    - Candidato: [385525] Star Wars: Legion – Ahsoka Tano Operative Expansion (Conf: 50.0%, Score: 56.2)
+    - Candidato: [327512] Star Wars: Legion – Anakin Skywalker Commander Expansion (Conf: 50.0%, Score: 55.3)
+    - Candidato: [434383] Star Wars: Legion – Aqua Droids (Conf: 50.0%, Score: 63.8)
+    - Candidato: [305702] Star Wars: Legion – ARC Troopers Unit Expansion (Conf: 50.0%, Score: 49.4)
+    - Candidato: [439709] Star Wars: Legion – Arf Troopers Unit Expansion (Conf: 50.0%, Score: 49.4)
+    - Candidato: [380861] Star Wars: Legion – Asajj Ventress Operative Expansion (Conf: 50.0%, Score: 45.7)
+    - Candidato: [238372] Star Wars: Legion – AT-RT Unit Expansion (Conf: 50.0%, Score: 53.8)
+    - Candidato: [238369] Star Wars: Legion – AT-ST Unit Expansion (Conf: 50.0%, Score: 53.8)
+    - Candidato: [283477] Star Wars: Legion – B1 Battle Droids Unit Expansion (Conf: 50.0%, Score: 47.2)
+    - Candidato: [294059] Star Wars: Legion – B1 Battle Droids Upgrade Expansion (Conf: 50.0%, Score: 45.7)
+    - Candidato: [294060] Star Wars: Legion – B2 Super Battle Droids Unit Expansion (Conf: 50.0%, Score: 44.2)
+    - Candidato: [423734] Star Wars: Legion – Bad Batch (Conf: 50.0%, Score: 62.7)
+    - Candidato: [293952] Star Wars: Legion – BARC Speeder Unit Expansion (Conf: 50.0%, Score: 58.8)
+    - Candidato: [459224] Star Wars: Legion – Battle Deck Card Pack (Conf: 50.0%, Score: 60.8)
+    - Candidato: [361651] Star Wars: Legion – Black Sun Enforcers Unit Expansion (Conf: 50.0%, Score: 45.7)
+    - Candidato: [373117] Star Wars: Legion – Blizzard Force: Battle Force Starter Set (Conf: 50.0%, Score: 53.6)
+    - Candidato: [375578] Star Wars: Legion – Boba Fett (Daimyo) Operative Expansion (Conf: 50.0%, Score: 46.8)
+    - Candidato: [258739] Star Wars: Legion – Boba Fett Operative Expansion (Conf: 50.0%, Score: 48.3)
+  > Probando query: 'Star Wars'
+    Encontrados 1666 resultados.
+    - Candidato: [134258] Angry Birds: Star Wars – At-At Attack Battle Game (Conf: 33.3%, Score: 34.5)
+    - Candidato: [134257] Angry Birds: Star Wars – Darth Vader's Lightsaber Battle Game (Conf: 33.3%, Score: 30.3)
+    - Candidato: [136216] Angry Birds: Star Wars – Fight on Tatooine Battle Game (Conf: 33.3%, Score: 34.8)
+    - Candidato: [134256] Angry Birds: Star Wars – Jabba's Palace Battle Game (Conf: 33.3%, Score: 33.7)
+    - Candidato: [154657] Angry Birds: Star Wars – Jenga Bespin Battle Game (Conf: 33.3%, Score: 34.5)
+    - Candidato: [134255] Angry Birds: Star Wars – Jenga Death Star Game (Conf: 33.3%, Score: 45.2)
+    - Candidato: [134254] Angry Birds: Star Wars – Jenga Hoth Battle Game (Conf: 33.3%, Score: 35.3)
+    - Candidato: [152971] Angry Birds: Star Wars – Jenga Rise of Darth Vader Game (Conf: 33.3%, Score: 45.2)
+    - Candidato: [134252] Angry Birds: Star Wars – Jenga Tatooine Battle Game (Conf: 33.3%, Score: 33.7)
+    - Candidato: [152745] Angry Birds: Star Wars – Jenga TIE Fighter Game (Conf: 33.3%, Score: 37.6)
+    - Candidato: [140198] Angry Birds: Star Wars – Millennium Falcon Bounce Game (Conf: 33.3%, Score: 39.1)
+    - Candidato: [152744] Angry Birds: Star Wars – Telepods Star Destroyer Set (Conf: 33.3%, Score: 42.2)
+    - Candidato: [17274] Attacktix Battle Figure Game: Star Wars (Conf: 33.3%, Score: 22.8)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 33.3%, Score: 35.9)
+    - Candidato: [183612] Bop It!: Star Wars R2-D2 Edition (Conf: 33.3%, Score: 39.4)
+    - Candidato: [414898] Bop It!: Star Wars – The Mandalorian: The Child (Conf: 50.0%, Score: 67.5)
+    - Candidato: [412059] Bop-It!: Star Wars BB-8 Edition (Conf: 33.3%, Score: 40.0)
+    - Candidato: [95710] Bop-It!: Star Wars Chewie Edition (Conf: 33.3%, Score: 38.9)
+    - Candidato: [35387] Car Wars Deluxe Road Sections Set 1: Starter Set (Conf: 16.7%, Score: 43.2)
+    - Candidato: [34249] Car Wars Fifth Edition Starter Set, Division 10 - Set 1 (Conf: 16.7%, Score: 45.2)
+    - Candidato: [34250] Car Wars Fifth Edition Starter Set, Division 10 - Set 2 (Conf: 16.7%, Score: 45.2)
+    - Candidato: [34251] Car Wars Fifth Edition Starter Set, Division 10 - Set 3 (Conf: 16.7%, Score: 45.2)
+    - Candidato: [34254] Car Wars Fifth Edition Starter Set, Division 15 - Set 1 (Conf: 16.7%, Score: 45.2)
+    - Candidato: [34253] Car Wars Fifth Edition Starter Set, Division 15 - Set 2 (Conf: 16.7%, Score: 45.2)
+    - Candidato: [34252] Car Wars Fifth Edition Starter Set, Division 15 - Set 3 (Conf: 16.7%, Score: 45.2)
+  > Probando query: 'Star'
+    Encontrados 2610 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 19.8)
+    - Candidato: [130677] 10 Stars (Conf: 16.7%, Score: 20.4)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 24.6)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 16.7%, Score: 15.4)
+    - Candidato: [10868] 5 Star (Conf: 16.7%, Score: 17.0)
+    - Candidato: [109001] 5150: Star Army (Conf: 33.3%, Score: 32.7)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 33.3%, Score: 28.1)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 33.3%, Score: 28.1)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 33.3%, Score: 25.4)
+    - Candidato: [229215] 5150: Star Marine (Conf: 16.7%, Score: 28.1)
+    - Candidato: [137273] 5150: Star Navy (Conf: 16.7%, Score: 25.5)
+    - Candidato: [447773] 8th Star (Conf: 16.7%, Score: 16.3)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 0.0%, Score: 16.5)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 16.7%, Score: 14.9)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 20.3)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 0.0%, Score: 26.5)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 0.0%, Score: 15.8)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 0.0%, Score: 15.8)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 0.0%, Score: 15.8)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 0.0%, Score: 24.5)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 0.0%, Score: 18.4)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 0.0%, Score: 28.6)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 0.0%, Score: 28.6)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 0.0%, Score: 28.6)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 16.7%, Score: 38.9)
+GANADOR: ID 414898 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Marvel: Crisis Protocol - Operation: Zero Tolerance Character & Crisis Card Pack' ---
+Estrategias: ['Marvel: Crisis Protocol - Operation: Zero Tolerance Character & Crisis Card Pack', 'Marvel: Crisis Protocol - Operation: Zero Tolerance Character & Crisis Card', 'Marvel', 'Marvel: Crisis Protocol']
+  > Probando query: 'Marvel: Crisis Protocol - Operation: Zero Tolerance Character & Crisis Card Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel: Crisis Protocol - Operation: Zero Tolerance Character & Crisis Card'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel: Crisis Protocol'
+    Encontrados 271 resultados.
+    - Candidato: [452729] Marvel Crisis Protocol: Defenders Affiliation Pack (Conf: 37.5%, Score: 55.9)
+    - Candidato: [467215] Marvel: Crisis Protocol Alliances – Night of the Goblin (Conf: 37.5%, Score: 51.2)
+    - Candidato: [285905] Marvel: Crisis Protocol Core Set (Conf: 37.5%, Score: 56.0)
+    - Candidato: [425931] Marvel: Crisis Protocol – 2023 Crisis Pack (Conf: 37.5%, Score: 59.3)
+    - Candidato: [432313] Marvel: Crisis Protocol – Abomination & The Wrecking Crew Character Pack (Conf: 50.0%, Score: 67.6)
+    - Candidato: [466408] Marvel: Crisis Protocol – Adam Warlock, Moondragon & Quasar Character Pack (Conf: 50.0%, Score: 61.3)
+    - Candidato: [380703] Marvel: Crisis Protocol – Agent Venom & Spider-Woman (Conf: 37.5%, Score: 51.7)
+    - Candidato: [338522] Marvel: Crisis Protocol – Amazing Spider-Man & Black Cat (Conf: 37.5%, Score: 53.3)
+    - Candidato: [428496] Marvel: Crisis Protocol – Angel & Archangel (Conf: 37.5%, Score: 57.9)
+    - Candidato: [320225] Marvel: Crisis Protocol – Angela & Enchantress (Conf: 37.5%, Score: 61.8)
+    - Candidato: [318015] Marvel: Crisis Protocol – Ant-Man & Wasp (Conf: 37.5%, Score: 55.8)
+    - Candidato: [428510] Marvel: Crisis Protocol – Apocalypse (Conf: 37.5%, Score: 51.0)
+    - Candidato: [425022] Marvel: Crisis Protocol – Asgardian Shrine (Conf: 37.5%, Score: 51.9)
+    - Candidato: [368211] Marvel: Crisis Protocol – Asgardians Affiliation Pack (Conf: 37.5%, Score: 53.8)
+    - Candidato: [448893] Marvel: Crisis Protocol – Avalanche, Exodus, & Lady Mastermind (Conf: 37.5%, Score: 59.7)
+    - Candidato: [421211] Marvel: Crisis Protocol – Avengers Affiliation Pack (Conf: 37.5%, Score: 56.4)
+    - Candidato: [414958] Marvel: Crisis Protocol – Baron Strucker and Arnim Zola (Conf: 37.5%, Score: 57.9)
+    - Candidato: [425023] Marvel: Crisis Protocol – Battle for Asgard (Conf: 37.5%, Score: 64.2)
+    - Candidato: [380704] Marvel: Crisis Protocol – Beta Ray Bill & Ulik (Conf: 37.5%, Score: 54.5)
+    - Candidato: [412720] Marvel: Crisis Protocol – Bishop & Nightcrawler (Conf: 37.5%, Score: 54.1)
+    - Candidato: [332360] Marvel: Crisis Protocol – Black Bolt and Medusa (Conf: 37.5%, Score: 54.9)
+    - Candidato: [315980] Marvel: Crisis Protocol – Black Dwarf & Ebony Maw (Conf: 37.5%, Score: 49.6)
+    - Candidato: [363663] Marvel: Crisis Protocol – Black Order Affiliation Pack (Conf: 37.5%, Score: 56.7)
+    - Candidato: [292679] Marvel: Crisis Protocol – Black Panther and Kilmonger (Conf: 37.5%, Score: 52.1)
+    - Candidato: [423846] Marvel: Crisis Protocol – Black Panther, Chosen of Bast & Namor, the Sub-Mariner (Conf: 37.5%, Score: 47.9)
+  > Probando query: 'Marvel'
+    Encontrados 1196 resultados.
+    - Candidato: [253618] 5-Minute Marvel (Conf: 12.5%, Score: 14.3)
+    - Candidato: [460246] Adventurous: Marvel Expansions (Conf: 12.5%, Score: 24.5)
+    - Candidato: [368048] Apples to Apples Express: Marvel Edition (Conf: 12.5%, Score: 22.2)
+    - Candidato: [324739] Apples to Apples: Marvel (Conf: 12.5%, Score: 13.0)
+    - Candidato: [452834] Artistry: Marvelous Mucha Mini Expansion (Conf: 0.0%, Score: 24.1)
+    - Candidato: [439420] Aspens: Majestic Marvels (Conf: 12.5%, Score: 15.2)
+    - Candidato: [24025] Attacktix  Battle Figure Game: Marvel (Conf: 12.5%, Score: 11.5)
+    - Candidato: [382136] Captain Marvel's Own Game SHAZAM! (Conf: 12.5%, Score: 35.6)
+    - Candidato: [269564] Captain Marvel: Secret Skrulls (Conf: 12.5%, Score: 22.4)
+    - Candidato: [273710] Captain Marvel: Secret Skrulls – Kree Fighter (Conf: 12.5%, Score: 36.0)
+    - Candidato: [273711] Captain Marvel: Secret Skrulls – Skrull Stun Gun (Conf: 12.5%, Score: 33.3)
+    - Candidato: [4143] Cara a Cara? Marvel Heroes (Conf: 12.5%, Score: 25.5)
+    - Candidato: [199937] The Card Game of Oz: The Marvelous Land of Oz (Conf: 12.5%, Score: 23.0)
+    - Candidato: [182077] Cardline: Marvel (Conf: 12.5%, Score: 14.3)
+    - Candidato: [357180] Cards Against Marvel (Conf: 25.0%, Score: 13.5)
+    - Candidato: [386620] Charlie and the Chocolate Factory: Marvellous Maths Games (Conf: 0.0%, Score: 22.4)
+    - Candidato: [5432] Chutes and Ladders Marvel Super Hero Squad (Conf: 12.5%, Score: 32.4)
+    - Candidato: [22958] Clout: Marvel (Conf: 12.5%, Score: 14.8)
+    - Candidato: [433795] Clue Junior Marvel Avengers (Conf: 12.5%, Score: 20.8)
+    - Candidato: [441343] Clue Junior: Marvel Avengers – Loki's Big Trick! (Conf: 12.5%, Score: 17.7)
+    - Candidato: [220774] Codenames: Marvel (Conf: 12.5%, Score: 14.1)
+    - Candidato: [63268] Dobble Marvel (Conf: 12.5%, Score: 14.6)
+    - Candidato: [258394] Doctor Smuglfreud's Marvelous Machine (Conf: 0.0%, Score: 22.6)
+    - Candidato: [17568] Eamonn Andrews Presents The Great Marvello (Conf: 12.5%, Score: 12.6)
+    - Candidato: [337500] Funkoverse Strategy Game: Marvel 100 (Conf: 12.5%, Score: 13.5)
+GANADOR: ID 432313 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'It's A Wonderful World - Extension Loisirs et Decadence' ---
+Estrategias: ["It's A Wonderful World - Extension Loisirs et Decadence", 'Wonderful', "It's A Wonderful World -  Loisirs et Decadence", "It's A Wonderful World"]
+  > Probando query: 'It's A Wonderful World - Extension Loisirs et Decadence'
+    Encontrados 0 resultados.
+  > Probando query: 'It's A Wonderful World -  Loisirs et Decadence'
+    Encontrados 0 resultados.
+  > Probando query: 'It's A Wonderful World'
+    Encontrados 12 resultados.
+    - Candidato: [271324] It's a Wonderful World (Conf: 62.5%, Score: 67.7)
+    - Candidato: [298851] It's a Wonderful World: Corruption & Ascension (Conf: 62.5%, Score: 65.1)
+    - Candidato: [299220] It's a Wonderful World: Empire Cards Side C (Conf: 62.5%, Score: 68.2)
+    - Candidato: [295260] It's a Wonderful World: Heritage Edition (Conf: 62.5%, Score: 68.3)
+    - Candidato: [334767] It's a Wonderful World: Leisure & Decadence (Conf: 75.0%, Score: 91.6)
+    - Candidato: [301519] It's a Wonderful World: Stretch Goals #1 (Conf: 62.5%, Score: 64.2)
+    - Candidato: [298752] It's a Wonderful World: War or Peace (Conf: 62.5%, Score: 76.9)
+    - Candidato: [298851] It's a Wonderful World: Corruption & Ascension (Conf: 62.5%, Score: 65.1)
+    - Candidato: [299220] It's a Wonderful World: Empire Cards Side C (Conf: 62.5%, Score: 68.2)
+    - Candidato: [334767] It's a Wonderful World: Leisure & Decadence (Conf: 75.0%, Score: 91.6)
+    - Candidato: [301519] It's a Wonderful World: Stretch Goals #1 (Conf: 62.5%, Score: 64.2)
+    - Candidato: [298752] It's a Wonderful World: War or Peace (Conf: 62.5%, Score: 76.9)
+  > Probando query: 'Wonderful'
+    Encontrados 74 resultados.
+    - Candidato: [381166] Cloud Nine: A Game of Wonderful Things (Conf: 25.0%, Score: 40.0)
+    - Candidato: [327711] It's a Wonderful Kingdom (Conf: 50.0%, Score: 53.7)
+    - Candidato: [359366] It's a Wonderful Kingdom: Promo Pack (Conf: 50.0%, Score: 53.8)
+    - Candidato: [9530] It's a Wonderful Life (Conf: 50.0%, Score: 62.5)
+    - Candidato: [271324] It's a Wonderful World (Conf: 62.5%, Score: 67.7)
+    - Candidato: [298851] It's a Wonderful World: Corruption & Ascension (Conf: 62.5%, Score: 65.1)
+    - Candidato: [299220] It's a Wonderful World: Empire Cards Side C (Conf: 62.5%, Score: 68.2)
+    - Candidato: [295260] It's a Wonderful World: Heritage Edition (Conf: 62.5%, Score: 68.3)
+    - Candidato: [334767] It's a Wonderful World: Leisure & Decadence (Conf: 75.0%, Score: 91.6)
+    - Candidato: [301519] It's a Wonderful World: Stretch Goals #1 (Conf: 62.5%, Score: 64.2)
+    - Candidato: [298752] It's a Wonderful World: War or Peace (Conf: 62.5%, Score: 76.9)
+    - Candidato: [412528] Memorace: Wonderful Hungary (Conf: 12.5%, Score: 37.7)
+    - Candidato: [325743] Number Wonderful (Conf: 12.5%, Score: 33.9)
+    - Candidato: [20904] Walt Disney's Wonderful World of Color Game (Conf: 37.5%, Score: 60.5)
+    - Candidato: [378687] What a Wonderful COVID-19 Vaccine (Conf: 25.0%, Score: 50.0)
+    - Candidato: [14261] Wonderful Game of OZ (Conf: 12.5%, Score: 41.3)
+    - Candidato: [2136] The Wonderful Game of Tea-Party Ludo (Conf: 12.5%, Score: 43.0)
+    - Candidato: [17760] The Wonderful Wizard of Oz (Conf: 12.5%, Score: 52.2)
+    - Candidato: [31641] The Wonderful Wizard of Oz (Conf: 12.5%, Score: 52.2)
+    - Candidato: [21006] The Wonderful Wizard Of Oz Spinner Game (Conf: 12.5%, Score: 51.2)
+    - Candidato: [167397] Wonderful Word Weaving (Conf: 25.0%, Score: 52.3)
+    - Candidato: [22456] The Wonderful World of Disney (Conf: 25.0%, Score: 61.1)
+    - Candidato: [10341] The Wonderful World of Disney Charades (Conf: 25.0%, Score: 61.7)
+    - Candidato: [10175] The Wonderful World of Disney Trivia 2: The Sequel (Conf: 25.0%, Score: 54.3)
+    - Candidato: [94045] The Wonderful World of Disney Trivia Add-on Pack (Adult) (Conf: 25.0%, Score: 55.7)
+GANADOR: ID 334767 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Sword & Sorcery : Ancient Chronicles Core Set' ---
+Estrategias: ['Sword & Sorcery : Ancient Chronicles Core Set', 'Sword & Sorcery : Ancient Chronicles Core', 'Sword', 'Sword & Sorcery']
+  > Probando query: 'Sword & Sorcery : Ancient Chronicles Core Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Sword & Sorcery : Ancient Chronicles Core'
+    Encontrados 0 resultados.
+  > Probando query: 'Sword & Sorcery'
+    Encontrados 191 resultados.
+    - Candidato: [252138] 2d6 Sword & Sorcery (Conf: 40.0%, Score: 48.1)
+    - Candidato: [339502] Cradle - Sword & Sorcery - (Conf: 40.0%, Score: 45.6)
+    - Candidato: [402659] Primordial Steel: Sword and Sorcery Skirmish Battles in a Lost Age (Conf: 40.0%, Score: 43.1)
+    - Candidato: [247905] Superfight: The Sword & Sorcery Deck (Conf: 40.0%, Score: 42.9)
+    - Candidato: [37825] Sword & Sorcery Slugfest (Conf: 40.0%, Score: 57.6)
+    - Candidato: [388091] Sword & Sorcery: Abyssal Legends (Conf: 40.0%, Score: 54.5)
+    - Candidato: [454937] Sword & Sorcery: Abyssal Legends – Abraham Hero Pack (Conf: 40.0%, Score: 52.4)
+    - Candidato: [454945] Sword & Sorcery: Abyssal Legends – Abyssal Chest (Conf: 40.0%, Score: 55.0)
+    - Candidato: [454938] Sword & Sorcery: Abyssal Legends – Arthur Hero Pack (Conf: 40.0%, Score: 55.4)
+    - Candidato: [454939] Sword & Sorcery: Abyssal Legends – Asteria Hero Pack (Conf: 40.0%, Score: 54.8)
+    - Candidato: [454941] Sword & Sorcery: Abyssal Legends – Immortal Souls Nemeses (Conf: 40.0%, Score: 53.9)
+    - Candidato: [454940] Sword & Sorcery: Abyssal Legends – Merlin Hero Pack (Conf: 40.0%, Score: 53.0)
+    - Candidato: [270358] Sword & Sorcery: Abyssal Legends – Tristan Hero Pack (Conf: 40.0%, Score: 54.8)
+    - Candidato: [262201] Sword & Sorcery: Ancient Chronicles (Conf: 80.0%, Score: 92.8)
+    - Candidato: [338705] Sword & Sorcery: Ancient Chronicles – Challenge Set (Conf: 80.0%, Score: 84.3)
+    - Candidato: [266013] Sword & Sorcery: Ancient Chronicles – Chaotic Familiars (Conf: 80.0%, Score: 82.8)
+    - Candidato: [266012] Sword & Sorcery: Ancient Chronicles – Genryu/Shakiko Hero Pack (Conf: 80.0%, Score: 72.3)
+    - Candidato: [338793] Sword & Sorcery: Ancient Chronicles – Ghost Soul Form Heroes (Conf: 80.0%, Score: 78.3)
+    - Candidato: [338706] Sword & Sorcery: Ancient Chronicles – Kickstarter Set (Conf: 80.0%, Score: 84.7)
+    - Candidato: [266014] Sword & Sorcery: Ancient Chronicles – Lawful Familiars (Conf: 80.0%, Score: 79.1)
+    - Candidato: [338704] Sword & Sorcery: Ancient Chronicles – Nemeses (Conf: 80.0%, Score: 88.3)
+    - Candidato: [362393] Sword & Sorcery: Ancient Chronicles – Northwind Tales (Conf: 80.0%, Score: 84.7)
+    - Candidato: [338648] Sword & Sorcery: Ancient Chronicles – Spawn Gates and Gods' Shrines (Conf: 80.0%, Score: 73.5)
+    - Candidato: [340039] Sword & Sorcery: Ancient Chronicles – Treasure Chest (Conf: 80.0%, Score: 83.3)
+    - Candidato: [244733] Sword & Sorcery: Arcane Portal (Conf: 40.0%, Score: 62.5)
+  > Probando query: 'Sword'
+    Encontrados 1598 resultados.
+    - Candidato: [428645] '65: Drawn Swords Expansion (Conf: 20.0%, Score: 38.7)
+    - Candidato: [10921] 1 on 1 Adventure Gamebooks: The Amber Sword of World's End (Conf: 20.0%, Score: 23.4)
+    - Candidato: [192506] 100 Swords: Kick Sword (Conf: 20.0%, Score: 31.0)
+    - Candidato: [243287] 100 Swords: Season 2 Promo Pack (Conf: 20.0%, Score: 38.8)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 20.0%, Score: 29.5)
+    - Candidato: [190017] 100 Swords: The Blue Mammoth's Dungeon (Conf: 20.0%, Score: 27.0)
+    - Candidato: [190024] 100 Swords: The Chroma Dragon's Dungeon Builder Set (Conf: 20.0%, Score: 41.4)
+    - Candidato: [190026] 100 Swords: The Darkness Dungeon Builder Set (Conf: 20.0%, Score: 22.5)
+    - Candidato: [216576] 100 Swords: The Gardenin' Elm's Dungeon Builder Set (Conf: 20.0%, Score: 30.2)
+    - Candidato: [190020] 100 Swords: The Glowing Plasmapede's Dungeon Builder Set (Conf: 20.0%, Score: 28.3)
+    - Candidato: [209773] 100 Swords: The Gold King's Dungeon (Conf: 20.0%, Score: 28.2)
+    - Candidato: [213270] 100 Swords: The Great Garuda's Dungeon Builder Set (Conf: 20.0%, Score: 30.2)
+    - Candidato: [216577] 100 Swords: The Heads of the Hydra Dungeon Builder Set (Conf: 20.0%, Score: 20.0)
+    - Candidato: [213271] 100 Swords: The Hive Empress's Dungeon Builder Set (Conf: 20.0%, Score: 30.2)
+    - Candidato: [190022] 100 Swords: The Magic Computer's Dungeon Builder Set (Conf: 20.0%, Score: 36.4)
+    - Candidato: [209775] 100 Swords: The Multi-User Dungeon Expansion (Conf: 20.0%, Score: 37.5)
+    - Candidato: [178153] 100 Swords: The Red Dragon's Dungeon (Conf: 20.0%, Score: 27.8)
+    - Candidato: [209774] 100 Swords: The Silver Queen's Dungeon (Conf: 20.0%, Score: 40.5)
+    - Candidato: [252138] 2d6 Sword & Sorcery (Conf: 40.0%, Score: 48.1)
+    - Candidato: [153897] 8-Bit Swordsman: Clash For the Prism of Punishment (Conf: 0.0%, Score: 39.5)
+    - Candidato: [402027] Age of Swords (Conf: 20.0%, Score: 24.0)
+    - Candidato: [317727] Agents: Sword and Shield – Big Game (Conf: 20.0%, Score: 37.7)
+    - Candidato: [312183] Ambuscades & Affairs of Outposts: Being a Pike & Shot Supplement for Knyghte, Pyke, and Sworde (Conf: 20.0%, Score: 9.7)
+    - Candidato: [337616] Anno Domini 1666: Swords of Light and Darkness (Conf: 20.0%, Score: 31.7)
+    - Candidato: [88487] Ascension: Chronicle of the Godslayer – Vedah, Sage of Swords Promo (Conf: 40.0%, Score: 38.0)
+GANADOR: ID 262201 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Spirit Island  4e édition' ---
+Estrategias: ['Spirit Island  4e édition', 'Spirit']
+  > Probando query: 'Spirit Island  4e édition'
+    Encontrados 0 resultados.
+  > Probando query: 'Spirit'
+    Encontrados 788 resultados.
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 25.0%, Score: 19.2)
+    - Candidato: [244236] Aeon's End: Thieving Spirit Promo Cards (Conf: 25.0%, Score: 25.8)
+    - Candidato: [259719] Age of Towers: The Mountain Spirits (Conf: 25.0%, Score: 24.1)
+    - Candidato: [130352] Aloha: The Spirit of Hawaii (Conf: 25.0%, Score: 36.0)
+    - Candidato: [13902] America's Spirit (Conf: 25.0%, Score: 30.0)
+    - Candidato: [17445] American Trivia Game: Spirit of the United States (Conf: 25.0%, Score: 30.6)
+    - Candidato: [72480] Arriala: Canal de Garonne – Spirit of Riquet (Conf: 25.0%, Score: 30.8)
+    - Candidato: [251501] Ashes Reborn: The Spirits of Memoria (Conf: 25.0%, Score: 30.5)
+    - Candidato: [301322] Avatar Spirits (Conf: 25.0%, Score: 36.8)
+    - Candidato: [90896] Backers: Amalgamations of the Spiritual Hinterlands (Conf: 0.0%, Score: 32.4)
+    - Candidato: [370605] Bar Fight: The Spirits Battle (Conf: 25.0%, Score: 34.6)
+    - Candidato: [418853] Bardwood Grove: Spirits of the Grove (Conf: 25.0%, Score: 37.3)
+    - Candidato: [411934] Battle Spirits Saga (Conf: 25.0%, Score: 41.9)
+    - Candidato: [42257] Battle Spirits: Trading Card Game (Conf: 25.0%, Score: 42.9)
+    - Candidato: [406485] Black Spirits: Combat Cards (Conf: 25.0%, Score: 32.0)
+    - Candidato: [415469] Black Spirits: Remnants (Conf: 25.0%, Score: 43.5)
+    - Candidato: [414970] Black Spirits: Wayward and Weathered (Conf: 25.0%, Score: 47.5)
+    - Candidato: [283138] Blades and Spirits (Conf: 25.0%, Score: 33.3)
+    - Candidato: [64133] Blue Moon: Earth Spirit (Conf: 25.0%, Score: 26.1)
+    - Candidato: [64134] Blue Moon: Fire Spirit (Conf: 25.0%, Score: 26.7)
+    - Candidato: [64132] Blue Moon: Water Spirit (Conf: 25.0%, Score: 26.1)
+    - Candidato: [64135] Blue Moon: Wind Spirit (Conf: 25.0%, Score: 26.7)
+    - Candidato: [332846] Bushido: Ryujin – Spirit of the Deep (Conf: 25.0%, Score: 38.6)
+    - Candidato: [221504] Bushido: Takashi, Ancestor Spirit (Conf: 25.0%, Score: 21.8)
+    - Candidato: [199240] Ca$h 'n Guns (Second Edition): Team Spirit (Conf: 50.0%, Score: 41.9)
+GANADOR: ID 199240 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Horreur à Arkham : Le Jeu de Cartes - Chapitre Deux' ---
+Estrategias: ['Horreur à Arkham : Le Jeu de Cartes - Chapitre Deux', 'Horreur à Arkham', 'Horreur', 'Horreur à Arkham :    Cartes', 'Horreur à Arkham :    Cartes - Chapitre Deux']
+  > Probando query: 'Horreur à Arkham : Le Jeu de Cartes - Chapitre Deux'
+    Encontrados 0 resultados.
+  > Probando query: 'Horreur à Arkham :    Cartes - Chapitre Deux'
+    Encontrados 0 resultados.
+  > Probando query: 'Horreur à Arkham :    Cartes'
+    Encontrados 179 resultados.
+    - Candidato: [420615] Horreur à Arkham : Le Jeu de cartes – En quête de réponses : Investigateur parallèle (Conf: 66.7%, Score: 52.2)
+    - Candidato: [428491] Horreur à Arkham : Le Jeu de cartes – La Conspiration d'Innsmouth : Extension Investigateurs (Conf: 66.7%, Score: 52.0)
+    - Candidato: [405996] Horreur à Arkham : Le Jeu de cartes – Le Sentier des justes : Investigateur parallèle (Conf: 66.7%, Score: 51.7)
+    - Candidato: [415432] Horreur à Arkham : Le Jeu de cartes – Les Reliques du passé : Scénario défi (Conf: 66.7%, Score: 54.7)
+    - Candidato: [221725] Horreur à Arkham : Le Jeu de cartes – Là où le destin attend : Paquet Mythe (Conf: 66.7%, Score: 56.6)
+    - Candidato: [397102] Horreur à Arkham : Le Jeu de cartes – À nouveau sur la route : Investigateur parallèle (Conf: 66.7%, Score: 51.3)
+    - Candidato: [205637] Horreur à Arkham: Le Jeu de Cartes (Conf: 66.7%, Score: 65.7)
+    - Candidato: [463126] Horreur à Arkham: Le Jeu de Cartes (Conf: 66.7%, Score: 65.7)
+    - Candidato: [359609] Horreur à Arkham: Le Jeu de Cartes (Revised Edition) (Conf: 66.7%, Score: 60.5)
+    - Candidato: [233977] Horreur à Arkham: Le Jeu de Cartes - Les Labyrinthes de la Folie: Paquet Scénario (Conf: 66.7%, Score: 52.6)
+    - Candidato: [340035] Horreur à Arkham: Le Jeu de Cartes – Aux Confins de la Terre (Conf: 66.7%, Score: 61.7)
+    - Candidato: [340036] Horreur à Arkham: Le Jeu de Cartes – Aux Confins de la Terre: Extension Investigateurs (Conf: 66.7%, Score: 53.8)
+    - Candidato: [219054] Horreur à Arkham: Le Jeu de Cartes – Aux frontières du visible : Paquet Mythe (Conf: 66.7%, Score: 58.7)
+    - Candidato: [377055] Horreur à Arkham: Le Jeu de Cartes – Civilisation Oubliée: Extension Campagne (Conf: 66.7%, Score: 56.4)
+    - Candidato: [377056] Horreur à Arkham: Le Jeu de Cartes – Civilisation Oubliée: Extention Investigateurs (Conf: 66.7%, Score: 53.4)
+    - Candidato: [328627] Horreur à Arkham: Le Jeu de Cartes – Dans le Maelström (Conf: 66.7%, Score: 61.4)
+    - Candidato: [272752] Horreur à Arkham: Le Jeu de Cartes – Dans les Griffes du Chaos: Paquet Myth (Conf: 66.7%, Score: 55.6)
+    - Candidato: [276291] Horreur à Arkham: Le Jeu de Cartes – Devant le Trône Noir (Conf: 66.7%, Score: 63.7)
+    - Candidato: [216556] Horreur à Arkham: Le Jeu de Cartes – Du Sang sur l'Autel: Paquet Mythe (Conf: 66.7%, Score: 50.5)
+    - Candidato: [448054] Horreur à Arkham: Le Jeu de cartes – Film fatal: Paquet scénario (Conf: 66.7%, Score: 55.7)
+    - Candidato: [372720] Horreur à Arkham: Le Jeu de Cartes – Fortune et Folie (Conf: 66.7%, Score: 64.4)
+    - Candidato: [424487] Horreur à Arkham: Le Jeu de cartes – Gala au cœur de l'hiver (Conf: 66.7%, Score: 61.7)
+    - Candidato: [305512] Horreur à Arkham: Le Jeu de Cartes – Harvey Walters deck Investigateur (Conf: 66.7%, Score: 61.5)
+    - Candidato: [324765] Horreur à Arkham: Le jeu de cartes – Horreur à toute vitesse (Conf: 66.7%, Score: 63.8)
+    - Candidato: [305517] Horreur à Arkham: Le Jeu de Cartes – Jaqueline Fine deck Investigateur (Conf: 66.7%, Score: 59.6)
+  > Probando query: 'Horreur à Arkham'
+    Encontrados 223 resultados.
+    - Candidato: [34] Horreur à Arkham (Conf: 50.0%, Score: 60.4)
+    - Candidato: [15987] Horreur à Arkham (Conf: 50.0%, Score: 60.4)
+    - Candidato: [257499] Horreur à Arkham (3ème Edition) (Conf: 50.0%, Score: 63.6)
+    - Candidato: [331965] Horreur à Arkham (3ème édition): Les Secrets de l'Ordre (Conf: 50.0%, Score: 60.7)
+    - Candidato: [304286] Horreur à Arkham (3ème édition): Profondeurs insondables (Conf: 50.0%, Score: 55.6)
+    - Candidato: [282308] Horreur à Arkham (3ème édition): Terreurs Nocturnes (Conf: 50.0%, Score: 58.8)
+    - Candidato: [420615] Horreur à Arkham : Le Jeu de cartes – En quête de réponses : Investigateur parallèle (Conf: 66.7%, Score: 52.2)
+    - Candidato: [428491] Horreur à Arkham : Le Jeu de cartes – La Conspiration d'Innsmouth : Extension Investigateurs (Conf: 66.7%, Score: 52.0)
+    - Candidato: [405996] Horreur à Arkham : Le Jeu de cartes – Le Sentier des justes : Investigateur parallèle (Conf: 66.7%, Score: 51.7)
+    - Candidato: [415432] Horreur à Arkham : Le Jeu de cartes – Les Reliques du passé : Scénario défi (Conf: 66.7%, Score: 54.7)
+    - Candidato: [221725] Horreur à Arkham : Le Jeu de cartes – Là où le destin attend : Paquet Mythe (Conf: 66.7%, Score: 56.6)
+    - Candidato: [397102] Horreur à Arkham : Le Jeu de cartes – À nouveau sur la route : Investigateur parallèle (Conf: 66.7%, Score: 51.3)
+    - Candidato: [285773] Horreur à Arkham Dernière Heure (Conf: 50.0%, Score: 70.6)
+    - Candidato: [40776] Horreur à Arkham: l'horreur d'Innsmouth (Conf: 50.0%, Score: 61.3)
+    - Candidato: [21059] Horreur à Arkham: L'horreur de Dunwich Extension (Conf: 50.0%, Score: 59.5)
+    - Candidato: [31536] Horreur à Arkham: l'Horreur de Kingsport (Conf: 50.0%, Score: 60.5)
+    - Candidato: [93465] Horreur à Arkham: L'Horreur de Miskatonic Extention (Conf: 50.0%, Score: 55.2)
+    - Candidato: [37008] Horreur à Arkham: La Chèvre Noire des Bois (Conf: 50.0%, Score: 69.2)
+    - Candidato: [22172] Horreur à Arkham: La malédiction du Pharaon Noir (Conf: 50.0%, Score: 54.8)
+    - Candidato: [95683] Horreur à Arkham: La malédiction du Pharaon Noir – Edition révisée (Conf: 50.0%, Score: 52.0)
+    - Candidato: [252899] Horreur à Arkham: Le jeu de carte – Gardiens de l'Abîme (paquet scénario) (Conf: 66.7%, Score: 51.4)
+    - Candidato: [254122] Horreur à Arkham: Le jeu de carte – la cité des archives (paquet mythe) (Conf: 66.7%, Score: 60.2)
+    - Candidato: [405995] Horreur à Arkham: Le jeu de carte – Repos éternel: Scénario défi (Conf: 66.7%, Score: 61.9)
+    - Candidato: [205637] Horreur à Arkham: Le Jeu de Cartes (Conf: 66.7%, Score: 65.7)
+    - Candidato: [463126] Horreur à Arkham: Le Jeu de Cartes (Conf: 66.7%, Score: 65.7)
+  > Probando query: 'Horreur'
+    Encontrados 264 resultados.
+    - Candidato: [290550] Ciné Clichés !: Horreur (Conf: 16.7%, Score: 24.6)
+    - Candidato: [146021] Les Contrées de l'horreur (Conf: 16.7%, Score: 22.6)
+    - Candidato: [220913] Les Contrées de l'Horreur: Cités en Ruine (Conf: 16.7%, Score: 39.0)
+    - Candidato: [209686] Les Contrées de l'Horreur: Les Contrées du Rêve (Conf: 16.7%, Score: 43.4)
+    - Candidato: [236930] Les Contrées de l'Horreur: Les Masques de Nyarlathotep (Conf: 16.7%, Score: 35.6)
+    - Candidato: [164167] Les Contrées de l'Horreur: Les Montagnes Hallucinées (Conf: 16.7%, Score: 36.4)
+    - Candidato: [181817] Les Contrées de l'Horreur: Les Secrets des Pyramides (Conf: 16.7%, Score: 38.6)
+    - Candidato: [154842] Les Contrées de l'Horreur: Légendes Oubliées (Conf: 16.7%, Score: 35.0)
+    - Candidato: [197586] Les Contrées de l'Horreur: Signes de Carcosa (Conf: 16.7%, Score: 37.5)
+    - Candidato: [177182] Les Contrées de l'Horreur: Vestiges Occultes (Conf: 16.7%, Score: 32.5)
+    - Candidato: [286171] Cthulhu: Aux Portes de l'Horreur (Conf: 16.7%, Score: 20.6)
+    - Candidato: [325704] Escape Room: Le Jeu – 2 Joueurs Horreur (Conf: 16.7%, Score: 19.2)
+    - Candidato: [269968] EXIT: Le parc de l'horreur (Conf: 16.7%, Score: 22.6)
+    - Candidato: [307683] Final Girl: La Colo de l'Horreur (Conf: 16.7%, Score: 20.6)
+    - Candidato: [417629] Flipperbox: Le Manoir de l'Horreur (Conf: 16.7%, Score: 20.0)
+    - Candidato: [367079] HeroQuest: L'Horreur des Glaces (Conf: 16.7%, Score: 38.8)
+    - Candidato: [34] Horreur à Arkham (Conf: 50.0%, Score: 60.4)
+    - Candidato: [15987] Horreur à Arkham (Conf: 50.0%, Score: 60.4)
+    - Candidato: [257499] Horreur à Arkham (3ème Edition) (Conf: 50.0%, Score: 63.6)
+    - Candidato: [331965] Horreur à Arkham (3ème édition): Les Secrets de l'Ordre (Conf: 50.0%, Score: 60.7)
+    - Candidato: [304286] Horreur à Arkham (3ème édition): Profondeurs insondables (Conf: 50.0%, Score: 55.6)
+    - Candidato: [282308] Horreur à Arkham (3ème édition): Terreurs Nocturnes (Conf: 50.0%, Score: 58.8)
+    - Candidato: [420615] Horreur à Arkham : Le Jeu de cartes – En quête de réponses : Investigateur parallèle (Conf: 66.7%, Score: 52.2)
+    - Candidato: [428491] Horreur à Arkham : Le Jeu de cartes – La Conspiration d'Innsmouth : Extension Investigateurs (Conf: 66.7%, Score: 52.0)
+    - Candidato: [405996] Horreur à Arkham : Le Jeu de cartes – Le Sentier des justes : Investigateur parallèle (Conf: 66.7%, Score: 51.7)
+GANADOR: ID 463126 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'XO Brainer' ---
+Estrategias: ['XO Brainer', 'Brainer']
+  > Probando query: 'XO Brainer'
+    Encontrados 0 resultados.
+  > Probando query: 'Brainer'
+    Encontrados 4 resultados.
+    - Candidato: [11192] Dexter's Laboratory: Race to the Brainergizer! (Conf: 0.0%, Score: 37.0)
+    - Candidato: [27983] No Brainer (Conf: 50.0%, Score: 90.0)
+GANADOR: ID 27983 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Zoodiak Island' ---
+Estrategias: ['Zoodiak', 'Zoodiak Island']
+  > Probando query: 'Zoodiak Island'
+    Encontrados 0 resultados.
+  > Probando query: 'Zoodiak'
+    Encontrados 4 resultados.
+    - Candidato: [20932] Zoodiak (Conf: 50.0%, Score: 66.7)
+GANADOR: ID 20932 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk  JCC: Welcome To Night City - Lot de 6 Displays de 24 Boosters' ---
+Estrategias: ['Cyberpunk  JCC', 'Cyberpunk', 'Cyberpunk  JCC: Welcome To Night City - Lot de 6 Displays de 24 Boosters', 'Cyberpunk  JCC: Welcome To Night City - Lot  6 Displays  24 Boosters', 'Cyberpunk  JCC: Welcome To Night City']
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City - Lot de 6 Displays de 24 Boosters'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City - Lot  6 Displays  24 Boosters'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 9.1%, Score: 24.4)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 9.1%, Score: 25.7)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 9.1%, Score: 26.0)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 9.1%, Score: 44.0)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 27.3%, Score: 47.9)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 27.3%, Score: 55.9)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 27.3%, Score: 50.9)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 27.3%, Score: 52.8)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 27.3%, Score: 56.1)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 27.3%, Score: 42.9)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 27.3%, Score: 49.5)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 9.1%, Score: 37.4)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 9.1%, Score: 38.8)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 9.1%, Score: 45.4)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 9.1%, Score: 38.5)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 9.1%, Score: 42.2)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 9.1%, Score: 36.8)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 9.1%, Score: 41.1)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 9.1%, Score: 40.7)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 9.1%, Score: 38.8)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 9.1%, Score: 46.4)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 9.1%, Score: 28.2)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 9.1%, Score: 37.9)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 9.1%, Score: 41.1)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 9.1%, Score: 38.0)
+GANADOR: ID 366172 con 27.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk JCC: Welcome To Night City - Starter Deck Embracing Power' ---
+Estrategias: ['Cyberpunk JCC: Welcome To Night City', 'Cyberpunk', 'Cyberpunk JCC: Welcome To Night City - Starter Deck Embracing Power', 'Cyberpunk JCC']
+  > Probando query: 'Cyberpunk JCC: Welcome To Night City - Starter Deck Embracing Power'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk JCC: Welcome To Night City'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk JCC'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 20.0%, Score: 30.4)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 10.0%, Score: 25.2)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 10.0%, Score: 25.5)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 10.0%, Score: 43.1)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 30.0%, Score: 46.9)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 30.0%, Score: 43.3)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 30.0%, Score: 51.7)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 30.0%, Score: 55.6)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 30.0%, Score: 53.2)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 30.0%, Score: 54.7)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 30.0%, Score: 56.1)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 10.0%, Score: 32.3)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 10.0%, Score: 41.9)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 10.0%, Score: 41.3)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 10.0%, Score: 45.0)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 10.0%, Score: 43.2)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 10.0%, Score: 43.1)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 10.0%, Score: 40.4)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 10.0%, Score: 40.0)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 10.0%, Score: 40.0)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 10.0%, Score: 42.1)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 10.0%, Score: 37.5)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 10.0%, Score: 35.1)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 10.0%, Score: 45.9)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 10.0%, Score: 34.6)
+GANADOR: ID 366291 con 30.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk JCC: Welcome To Night City - Starter Deck The Heist' ---
+Estrategias: ['Cyberpunk JCC: Welcome To Night City - Starter Deck The Heist', 'Cyberpunk', 'Cyberpunk JCC: Welcome To Night City', 'Cyberpunk JCC']
+  > Probando query: 'Cyberpunk JCC: Welcome To Night City - Starter Deck The Heist'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk JCC: Welcome To Night City'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk JCC'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 20.0%, Score: 32.6)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 10.0%, Score: 26.8)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 20.0%, Score: 27.1)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 20.0%, Score: 45.8)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 30.0%, Score: 50.0)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 30.0%, Score: 47.4)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 30.0%, Score: 54.5)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 30.0%, Score: 52.9)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 30.0%, Score: 52.4)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 30.0%, Score: 50.8)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 30.0%, Score: 57.4)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 20.0%, Score: 36.8)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 20.0%, Score: 34.3)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 20.0%, Score: 31.3)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 20.0%, Score: 34.3)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 20.0%, Score: 32.4)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 20.0%, Score: 30.9)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 20.0%, Score: 35.0)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 20.0%, Score: 34.6)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 20.0%, Score: 34.3)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 20.0%, Score: 33.3)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 10.0%, Score: 40.5)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 10.0%, Score: 37.4)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 20.0%, Score: 40.8)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 10.0%, Score: 37.3)
+GANADOR: ID 366291 con 30.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk  JCC: Welcome To Night City - Display de 24 Boosters' ---
+Estrategias: ['Cyberpunk  JCC: Welcome To Night City - Display de 24 Boosters', 'Cyberpunk  JCC', 'Cyberpunk', 'Cyberpunk  JCC: Welcome To Night City - Display  24 Boosters', 'Cyberpunk  JCC: Welcome To Night City']
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City - Display de 24 Boosters'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City - Display  24 Boosters'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 11.1%, Score: 26.5)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 11.1%, Score: 27.7)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 11.1%, Score: 28.0)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 11.1%, Score: 47.3)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 33.3%, Score: 51.7)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 33.3%, Score: 52.3)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 33.3%, Score: 50.5)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 33.3%, Score: 56.6)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 33.3%, Score: 54.0)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 33.3%, Score: 47.1)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 33.3%, Score: 53.1)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 11.1%, Score: 40.5)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 11.1%, Score: 41.7)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 11.1%, Score: 46.4)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 11.1%, Score: 43.1)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 11.1%, Score: 47.1)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 11.1%, Score: 39.3)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 11.1%, Score: 44.0)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 11.1%, Score: 43.6)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 11.1%, Score: 41.7)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 11.1%, Score: 47.6)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 11.1%, Score: 31.0)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 11.1%, Score: 40.9)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 11.1%, Score: 44.0)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 11.1%, Score: 41.7)
+GANADOR: ID 366044 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk  JCC: Welcome To Night City - Booster' ---
+Estrategias: ['Cyberpunk  JCC', 'Cyberpunk  JCC: Welcome To Night City - Booster', 'Cyberpunk', 'Cyberpunk  JCC: Welcome To Night City']
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City - Booster'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC: Welcome To Night City'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk  JCC'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 14.3%, Score: 31.0)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 14.3%, Score: 31.7)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 14.3%, Score: 32.1)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 14.3%, Score: 51.9)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 42.9%, Score: 59.7)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 42.9%, Score: 54.5)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 42.9%, Score: 52.6)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 42.9%, Score: 57.5)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 42.9%, Score: 59.1)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 42.9%, Score: 48.6)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 42.9%, Score: 60.5)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 14.3%, Score: 47.2)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 14.3%, Score: 45.2)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 14.3%, Score: 46.0)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 14.3%, Score: 46.7)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 14.3%, Score: 51.1)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 14.3%, Score: 42.1)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 14.3%, Score: 50.0)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 14.3%, Score: 47.2)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 14.3%, Score: 47.6)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 14.3%, Score: 47.3)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 14.3%, Score: 37.3)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 14.3%, Score: 47.4)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 14.3%, Score: 50.0)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 14.3%, Score: 46.7)
+GANADOR: ID 366291 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['temeré', 'No temeré ningún mal Marvel Champions']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    Encontrados 0 resultados.
+  > Probando query: 'temeré'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
