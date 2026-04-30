@@ -71,7 +71,7 @@ def sync_images_to_public():
             if filename not in active_set and filename.endswith('.jpg'):
                 try: os.remove(os.path.join(IMAGE_DEST_DIR, filename))
                 except: pass
-        for logo in ["Logo_Philibert.png", "miniaturemarket_logo.jpeg", "planeton_logo.jpg", "favicon.png"]:
+        for logo in ["Logo_Philibert.png", "miniaturemarket_logo.jpeg", "planeton_logo.jpg", "zatu_logo.png", "favicon.png"]:
             src_l = os.path.join(BASE_DIR, "assets", logo)
             dst_l = os.path.join(PUBLIC_DIR, "assets", logo)
             os.makedirs(os.path.dirname(dst_l), exist_ok=True)
@@ -100,7 +100,7 @@ def generate_report():
             t.image_local, t.date_found as last_seen, t.date_first_seen as first_seen
         FROM (
             SELECT d.*, 
-                   ROW_NUMBER() OVER (PARTITION BY d.url ORDER BY CAST(REPLACE(REPLACE(d.price, '€', ''), '$', '') AS FLOAT) ASC) as rn
+                   ROW_NUMBER() OVER (PARTITION BY d.url ORDER BY CAST(REPLACE(REPLACE(REPLACE(d.price, '€', ''), '$', ''), '£', '') AS FLOAT) ASC) as rn
             FROM deals d
             INNER JOIN (
                 SELECT deal_source, MAX(date_found) as latest_date 
@@ -119,8 +119,8 @@ def generate_report():
             p_name, p_price, p_old, p_url, p_source, b_name, b_id, b_rat, b_rank, is_acc, is_exp, l_dep, o_name, g_type, g_wgt, min_p, max_p, best_p, img, last, first = r
             p_name_clean = re.sub(r'\(Clearance\)|\(Last Chance\)| - Occasion', '', p_name, flags=re.I).strip()
             try:
-                vn = float(p_price.replace('€','').replace('$','').replace(',','.').strip())
-                vo = float(p_old.replace('€','').replace('$','').replace(',','.').strip()) if (p_old and p_old not in ["0€","0$"]) else vn
+                vn = float(p_price.replace('€','').replace('$','').replace('£','').replace(',','.').strip())
+                vo = float(p_old.replace('€','').replace('$','').replace('£','').replace(',','.').strip()) if (p_old and p_old not in ["0€","0$","0£"]) else vn
                 disc = round((1 - vn/vo) * 100) if vo > 0 else 0
             except: vn=0; vo=0; disc=0
             cat_l = "Accesorio" if is_acc else ("Expa" if (is_exp or g_type == 'boardgameexpansion') else "Base")
@@ -130,6 +130,8 @@ def generate_report():
                 sg = "MI"; sk = 'mm_clearance' if 'clearance' in src else ('mm_backdoor' if 'backrooms' in src else ('mm_preorder' if 'preorder' in src else 'mm_deals'))
             elif 'planeton' in src: 
                 sg = "PL"; sk = 'planeton_preorder' if 'preorder' in src else ('planeton_catalog' if 'catalog' in src else 'planeton')
+            elif 'zatu' in src:
+                sg = "ZT"; sk = 'zatu_outlet' if 'outlet' in src else 'zatu_sale'
             else: 
                 sg = "PH"; sk = src if src in ['flash','occasion','private','preorder'] else 'flash'
             
@@ -169,16 +171,39 @@ def generate_report():
     finally:
         conn.close()
 
+def get_source_counts():
+    conn = get_db_connection()
+    counts = {}
+    try:
+        cursor = conn.cursor()
+        # Contar los items más recientes por fuente (sin deduplicación por URL para los badges)
+        query = """
+        SELECT d.deal_source, COUNT(*) 
+        FROM deals d
+        INNER JOIN (
+            SELECT deal_source, MAX(date_found) as latest_date 
+            FROM deals 
+            GROUP BY deal_source
+        ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
+        GROUP BY d.deal_source
+        """
+        rows = cursor.execute(query).fetchall()
+        for src, count in rows:
+            counts[src] = count
+    finally:
+        conn.close()
+    return counts
+
 def write_html(path, data, title, is_catalog=False):
     today_iso = datetime.date.today().isoformat()
     now_str = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
     
     # Calcular contadores para la cabecera
-    stats = {'PH': 0, 'MI': 0, 'PL': 0}
-    t_counts = {}
+    stats = {'PH': 0, 'MI': 0, 'PL': 0, 'ZT': 0}
     for it in data:
         stats[it['sg']] += 1
-        t_counts[it['sk']] = t_counts.get(it['sk'], 0) + 1
+    
+    t_counts = get_source_counts()
 
     nav_btn = f'<a href="planeton.html" class="nav-extra-btn">🌍 VER CATÁLOGO PLANETON ({stats["PL"]})</a>' if not is_catalog else '<a href="index.html" class="nav-extra-btn">🏠 VOLVER A OFERTAS</a>'
 
@@ -199,6 +224,11 @@ def write_html(path, data, title, is_catalog=False):
         c_p = t_counts.get('planeton', 0); c_p_pre = t_counts.get('planeton_preorder', 0)
         if c_p > 0: sum_h += f'<span class="badge-planeton" onclick="filterBySource(\'planeton\')">OFERTAS: {c_p}</span>'
         if c_p_pre > 0: sum_h += f'<span class="badge-mm-preorder" onclick="filterBySource(\'planeton_preorder\')">RESERVAS: {c_p_pre}</span>'
+        sum_h += '</div></div>'
+        sum_h += '<div class="summary-card"><img src="assets/zatu_logo.png" class="sum-logo"><h3>UK Zatu Games</h3><div class="sum-badges">'
+        c_z = t_counts.get('zatu_sale', 0); c_z_out = t_counts.get('zatu_outlet', 0)
+        if c_z > 0: sum_h += f'<span class="badge-zatu-sale" onclick="filterBySource(\'zatu_sale\')">OFERTAS: {c_z}</span>'
+        if c_z_out > 0: sum_h += f'<span class="badge-zatu-outlet" onclick="filterBySource(\'zatu_outlet\')">OUTLET: {c_z_out}</span>'
         sum_h += '</div></div>'
     else:
         # SUMARIO SOLO PLANETON
@@ -249,7 +279,7 @@ def write_html(path, data, title, is_catalog=False):
         .badge-preorder, .badge-mm-preorder, .badge-planeton-preorder {{ background: #16a085; }}
         .badge-mm-deals, .badge-mm-clearance {{ background: #27ae60; }}
         .badge-mm-backdoor {{ background: #e67e22; }}
-        .badge-planeton, .badge-planeton-catalog {{ background: #c0392b; }}
+        .badge-planeton, .badge-planeton-catalog, .badge-zatu-sale, .badge-zatu-outlet {{ background: #c0392b; }}
         @keyframes pulse {{ 0%{{opacity:1}} 50%{{opacity:0.8}} 100%{{opacity:1}} }}
         
         .lang-badge {{ font-size: 0.75em; font-weight: bold; padding: 2px 5px; border-radius: 4px; color: white; }}
@@ -312,7 +342,7 @@ def write_html(path, data, title, is_catalog=False):
             let h = '';
             for (let i = start; i < end; i++) {{
                 const it = filteredOffers[i];
-                const logoImg = it.sg == 'PH' ? 'Logo_Philibert.png' : (it.sg == 'MI' ? 'miniaturemarket_logo.jpeg' : 'planeton_logo.jpg');
+                const logoImg = it.sg == 'PH' ? 'Logo_Philibert.png' : (it.sg == 'MI' ? 'miniaturemarket_logo.jpeg' : (it.sg == 'ZT' ? 'zatu_logo.png' : 'planeton_logo.jpg'));
                 const logoHtml = `<img src="assets/${{logoImg}}" style="height:14px;display:block;margin:0 auto 2px;">`;
                 
                 let labelText = "";

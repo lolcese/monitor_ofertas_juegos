@@ -47,7 +47,9 @@ class ScraperLauncher:
             'mm_preorder': "https://www.miniaturemarket.com/search?search=Pre-order&properties=019262c7e0db711a97a94030d6103aa9",
             'planeton': "https://www.planetongames.com/es/ofertas-195",
             'planeton_preorder': "https://www.planetongames.com/es/proximamente-192",
-            'planeton_catalog': "https://www.planetongames.com/es/juegos-de-mesa-divertidos-10/s-1/idioma_del_juego-juegos_de_mesa_divertidos/en_stock-si"
+            'planeton_catalog': "https://www.planetongames.com/es/juegos-de-mesa-divertidos-10/s-1/idioma_del_juego-juegos_de_mesa_divertidos/en_stock-si",
+            'zatu_sale': "https://zatu.com/collections/board-games-sale-1",
+            'zatu_outlet': "https://zatu.com/collections/outlet-store?filter.p.m.custom.type=Board+Games"
         }
         
         self.load_logos()
@@ -78,6 +80,7 @@ class ScraperLauncher:
         col2 = tk.Frame(shops_container, bg=self.colors["bg"])
         col2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.create_mm_card(col2)
+        self.create_zatu_card(col2)
 
         # ZONA INFERIOR
         bottom_frame = tk.Frame(main_frame, bg=self.colors["bg"])
@@ -100,7 +103,7 @@ class ScraperLauncher:
     def load_logos(self):
         self.logos = {}
         assets_dir = os.path.join(os.path.dirname(__file__), "assets")
-        logo_files = {"phili": "Logo_Philibert.png", "mm": "miniaturemarket_logo.jpeg", "planeton": "planeton_logo.jpg"}
+        logo_files = {"phili": "Logo_Philibert.png", "mm": "miniaturemarket_logo.jpeg", "planeton": "planeton_logo.jpg", "zatu": "zatu_logo.png"}
         for key, name in logo_files.items():
             try:
                 img = Image.open(os.path.join(assets_dir, name))
@@ -145,6 +148,19 @@ class ScraperLauncher:
         tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("planeton_catalog")).grid(row=3, column=1, padx=5)
         self.lbl_planeton_cat = tk.Label(card, text="...", **self.style_date); self.lbl_planeton_cat.grid(row=3, column=2, padx=10, sticky="w")
 
+    def create_zatu_card(self, parent):
+        card = tk.LabelFrame(parent, text=" 🇬🇧 ZATU GAMES ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
+        card.pack(fill=tk.X, pady=(10, 0))
+        if self.logos["zatu"]: tk.Label(card, image=self.logos["zatu"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=3, pady=(0,5))
+        
+        tk.Button(card, text="Ofertas (Sale)", bg="#e67e22", fg="white", **self.style_btn, command=lambda: self.run_task("Zatu Sale", [sys.executable, "scraper_zatu.py", "sale"])).grid(row=1, column=0, pady=2, sticky="w")
+        tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("zatu_sale")).grid(row=1, column=1, padx=5)
+        self.lbl_zatu = tk.Label(card, text="...", **self.style_date); self.lbl_zatu.grid(row=1, column=2, padx=10, sticky="w")
+
+        tk.Button(card, text="Outlet Store", bg="#d35400", fg="white", **self.style_btn, command=lambda: self.run_task("Zatu Outlet", [sys.executable, "scraper_zatu.py", "outlet"])).grid(row=2, column=0, pady=2, sticky="w")
+        tk.Button(card, text="WEB", **self.style_web, command=lambda: self.visit_url("zatu_outlet")).grid(row=2, column=1, padx=5)
+        self.lbl_zatu_out = tk.Label(card, text="...", **self.style_date); self.lbl_zatu_out.grid(row=2, column=2, padx=10, sticky="w")
+
     def create_mm_card(self, parent):
         card = tk.LabelFrame(parent, text=" 🇺🇸 MINIATURE MARKET ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
         card.pack(fill=tk.BOTH, expand=True)
@@ -186,7 +202,8 @@ class ScraperLauncher:
             mapping = {'flash': self.lbl_flash, 'occasion': self.lbl_occasion, 'private': self.lbl_private, 'preorder': self.lbl_phili_pre,
                        'mm_daily': self.lbl_mm_daily, 'mm_sales': self.lbl_mm_sales, 'mm_backrooms': self.lbl_mm_backrooms, 'mm_clearance': self.lbl_mm_clearance, 
                        'mm_gameon': self.lbl_mm_gameon, 'mm_lastchance': self.lbl_mm_lastchance, 'mm_markdown': self.lbl_mm_markdown, 'mm_preorder': self.lbl_mm_preorder,
-                       'planeton': self.lbl_planeton, 'planeton_preorder': self.lbl_planeton_pre, 'planeton_catalog': self.lbl_planeton_cat}
+                       'planeton': self.lbl_planeton, 'planeton_preorder': self.lbl_planeton_pre, 'planeton_catalog': self.lbl_planeton_cat,
+                       'zatu_sale': self.lbl_zatu, 'zatu_outlet': self.lbl_zatu_out}
             for key, lbl in mapping.items(): lbl.config(text=f"S: {dates.get(key, 'N/A')}")
         except: pass
 
@@ -237,6 +254,8 @@ class ScraperLauncher:
             ("MM Preorder", [sys.executable, "scraper_miniature_market.py", "preorder"]),
             ("Planeton Ofertas", [sys.executable, "scraper_planeton.py"]),
             ("Planeton Preorder", [sys.executable, "scraper_planeton.py", "preorder"]),
+            ("Zatu Sale", [sys.executable, "scraper_zatu.py", "sale"]),
+            ("Zatu Outlet", [sys.executable, "scraper_zatu.py", "outlet"]),
             ("Reporte Final", [sys.executable, "report_generator.py"])
         ]
         def worker():
