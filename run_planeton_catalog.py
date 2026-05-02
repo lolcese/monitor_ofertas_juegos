@@ -12,6 +12,11 @@ TASKS = [
 
 def run():
     print(f"=== PLANETON CATALOG: INICIO ({datetime.now().strftime('%Y-%m-%d %H:%M:%S')}) ===")
+    
+    # 0. Sincronizar cambios previos
+    print("--- Sincronizando desde GitHub ---")
+    subprocess.run(["git", "pull"])
+    
     env = os.environ.copy()
     env["PYTHONIOENCODING"] = "utf-8"
     for name, cmd in TASKS:

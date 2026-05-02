@@ -1,5 +1,6 @@
 import subprocess
 import sys
+from datetime import datetime
 
 def run_git_command(command):
     print(f"> Ejecutando: {' '.join(command)}")
@@ -20,8 +21,9 @@ def deploy():
         print("--- NO HAY CAMBIOS NUEVOS PARA PUBLICAR ---")
         return
     
-    # 3. Hacer el commit
-    commit_rc = run_git_command(["git", "commit", "-m", "Actualización automática de reportes"])
+    # 3. Hacer el commit con fecha y hora
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    commit_rc = run_git_command(["git", "commit", "-m", f"Actualización {now_str}"])
     if commit_rc != 0:
         print("--- ERROR AL HACER COMMIT ---")
         return
