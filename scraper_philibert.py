@@ -52,14 +52,17 @@ def scrape_philibert(source_key):
             if res.status_code != 200: break
             
             soup = BeautifulSoup(res.content, 'html.parser')
-            items = soup.select('.ajax_block_product')
+            items = soup.select('.product-card')
             if not items: break
                 
             found_new = False
             for item in items:
-                a_tag = item.select_one('.s_title_block a') or item.select_one('.product-name a')
+                a_tag = item.select_one('.product-card__title')
                 if not a_tag: continue
                 u = a_tag['href']
+                if u.startswith('/'):
+                    u = "https://www.philibertnet.com" + u
+                    
                 name = a_tag.text.strip()
                 # LIMPIEZA DE RUIDO
                 name = re.sub(r' - Occasion|\(Last Chance\)|\(Clearance\)|\(New Arrival\)|\(Preorder\)', '', name, flags=re.I).strip()
@@ -89,7 +92,8 @@ def scrape_philibert(source_key):
                                     # Palabras clave de categorías que NO son juegos de mesa
                                     if any(kw in text for kw in ['jeux de rôle', 'wargames de figurines', 'accessoires', 'peinture', 'modélisme', 'pinceaux', 'scénographie', 'terrains']):
                                         is_rpg = True
-                                        print(f"      [FILTER] Philibert Filtro Categoría: {bc.text.strip().split('>')[-1].strip()}")
+                                        cat_display = bc.text.replace('\n', ' ').strip().split('/')[-1].strip()
+                                        print(f"      [FILTER] Philibert Filtro Categoría: {cat_display}")
                                         with conn_id:
                                             conn_id.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", (name, 'IGNORED', 100, today))
                         except: pass
@@ -104,8 +108,8 @@ def scrape_philibert(source_key):
                 
                 print(f"   [ITEM] Philibert Procesando: {name}")
                 
-                p_new_tag = item.select_one('.price:not(.old-price)') or item.select_one('.current-price')
-                p_old_tag = item.select_one('.old-price') or item.select_one('.regular-price')
+                p_new_tag = item.select_one('.product-card__price')
+                p_old_tag = item.select_one('.product-card__price--old')
                 
                 # Fallback if both are the same or one is missing
                 p_new = p_new_tag.text.strip() if p_new_tag else "0€"
@@ -120,7 +124,7 @@ def scrape_philibert(source_key):
                     except:
                         pass
                 
-                img_tag = item.select_one('.product_img_link img') or item.select_one('.product-image-container img')
+                img_tag = item.select_one('img.product-card__thumb')
                 img_url = img_tag['src'] if img_tag else ""
 
                 # 5. Mapeo BGG - OPTIMIZACION TOTAL & RESPETO A MANUALES

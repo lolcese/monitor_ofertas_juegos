@@ -41151,3 +41151,1153 @@ Estrategias: ['Uncoated']
   > Probando query: 'Uncoated'
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Mission Planète Rouge : Nouvelle Edition' ---
+Estrategias: ['Mission Planète Rouge', 'Mission Planète Rouge : Nouvelle', 'Mission', 'Mission Planète Rouge : Nouvelle Edition']
+  > Probando query: 'Mission Planète Rouge : Nouvelle Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Mission Planète Rouge : Nouvelle'
+    Encontrados 0 resultados.
+  > Probando query: 'Mission Planète Rouge'
+    Encontrados 2 resultados.
+    - Candidato: [18258] Mission: Planète Rouge (Conf: 75.0%, Score: 82.4)
+    - Candidato: [176920] Mission: Planète Rouge (Conf: 75.0%, Score: 82.4)
+  > Probando query: 'Mission'
+    Encontrados 1396 resultados.
+    - Candidato: [246761] 50 Missions (Conf: 25.0%, Score: 34.1)
+    - Candidato: [311836] 50 Missions: 5 missions bien difficiles! (Conf: 25.0%, Score: 38.2)
+    - Candidato: [348874] 50 Missions: Ça se complique (Conf: 25.0%, Score: 38.6)
+    - Candidato: [296735] 5150: Missions – Infestation (Conf: 25.0%, Score: 36.4)
+    - Candidato: [135821] 7 Missions (Conf: 25.0%, Score: 35.0)
+    - Candidato: [351770] Advanced Tactical Reconnaissance and Attack Mission (Conf: 25.0%, Score: 17.3)
+    - Candidato: [437332] Adventure Games: Mission Mars (Conf: 25.0%, Score: 34.5)
+    - Candidato: [103657] Agent Bones In: Mission Bonehead (Conf: 25.0%, Score: 36.1)
+    - Candidato: [160866] Agents of SMERSH:  Secret Mission Cards (Conf: 25.0%, Score: 29.9)
+    - Candidato: [233222] The Agents: Mission Critical Expansion Set (Second Edition) (Conf: 25.0%, Score: 39.5)
+    - Candidato: [147402] The Agents: Mission: Critical (Conf: 25.0%, Score: 31.6)
+    - Candidato: [131163] Alien Mission (Conf: 25.0%, Score: 32.6)
+    - Candidato: [347781] Apogee: Mission Stellar Stride (Conf: 25.0%, Score: 44.1)
+    - Candidato: [313008] Apollo: A Game Inspired by NASA Moon Missions (Conf: 25.0%, Score: 18.9)
+    - Candidato: [404171] Archaic Realm Missionaries (Conf: 0.0%, Score: 32.1)
+    - Candidato: [172510] Asterix & Obelix: Mission Zaubertrank! (Conf: 25.0%, Score: 31.2)
+    - Candidato: [166566] Asterix Mission Game (Conf: 25.0%, Score: 40.0)
+    - Candidato: [364653] B17 Twenty Five Missions (Conf: 25.0%, Score: 25.9)
+    - Candidato: [416550] B17 Twenty Five Missions: Avro Lancaster (Conf: 25.0%, Score: 40.6)
+    - Candidato: [383480] B17 Twenty Five Missions: Pack 2 (Conf: 25.0%, Score: 36.1)
+    - Candidato: [407441] B17 Twenty Five Missions: Pack 3 (Conf: 25.0%, Score: 36.1)
+    - Candidato: [419314] B17 Twenty Five Missions: Pack 4 (Conf: 25.0%, Score: 36.1)
+    - Candidato: [370773] B17 Twenty Five Missions: Pack I (Conf: 25.0%, Score: 36.1)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 25.0%, Score: 20.9)
+    - Candidato: [310657] Battlespace: Memorial Day Mission (Conf: 25.0%, Score: 22.6)
+GANADOR: ID 176920 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Mission Planète Rouge : Nouvelle Edition' ---
+Estrategias: ['Mission Planète Rouge : Nouvelle Edition', 'Mission Planète Rouge : Nouvelle', 'Mission', 'Mission Planète Rouge']
+  > Probando query: 'Mission Planète Rouge : Nouvelle Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Mission Planète Rouge : Nouvelle'
+    Encontrados 0 resultados.
+  > Probando query: 'Mission Planète Rouge'
+    Encontrados 2 resultados.
+    - Candidato: [18258] Mission: Planète Rouge (Conf: 75.0%, Score: 82.4)
+    - Candidato: [176920] Mission: Planète Rouge (Conf: 75.0%, Score: 82.4)
+  > Probando query: 'Mission'
+    Encontrados 1396 resultados.
+    - Candidato: [246761] 50 Missions (Conf: 25.0%, Score: 34.1)
+    - Candidato: [311836] 50 Missions: 5 missions bien difficiles! (Conf: 25.0%, Score: 38.2)
+    - Candidato: [348874] 50 Missions: Ça se complique (Conf: 25.0%, Score: 38.6)
+    - Candidato: [296735] 5150: Missions – Infestation (Conf: 25.0%, Score: 36.4)
+    - Candidato: [135821] 7 Missions (Conf: 25.0%, Score: 35.0)
+    - Candidato: [351770] Advanced Tactical Reconnaissance and Attack Mission (Conf: 25.0%, Score: 17.3)
+    - Candidato: [437332] Adventure Games: Mission Mars (Conf: 25.0%, Score: 34.5)
+    - Candidato: [103657] Agent Bones In: Mission Bonehead (Conf: 25.0%, Score: 36.1)
+    - Candidato: [160866] Agents of SMERSH:  Secret Mission Cards (Conf: 25.0%, Score: 29.9)
+    - Candidato: [233222] The Agents: Mission Critical Expansion Set (Second Edition) (Conf: 25.0%, Score: 39.5)
+    - Candidato: [147402] The Agents: Mission: Critical (Conf: 25.0%, Score: 31.6)
+    - Candidato: [131163] Alien Mission (Conf: 25.0%, Score: 32.6)
+    - Candidato: [347781] Apogee: Mission Stellar Stride (Conf: 25.0%, Score: 44.1)
+    - Candidato: [313008] Apollo: A Game Inspired by NASA Moon Missions (Conf: 25.0%, Score: 18.9)
+    - Candidato: [404171] Archaic Realm Missionaries (Conf: 0.0%, Score: 32.1)
+    - Candidato: [172510] Asterix & Obelix: Mission Zaubertrank! (Conf: 25.0%, Score: 31.2)
+    - Candidato: [166566] Asterix Mission Game (Conf: 25.0%, Score: 40.0)
+    - Candidato: [364653] B17 Twenty Five Missions (Conf: 25.0%, Score: 25.9)
+    - Candidato: [416550] B17 Twenty Five Missions: Avro Lancaster (Conf: 25.0%, Score: 40.6)
+    - Candidato: [383480] B17 Twenty Five Missions: Pack 2 (Conf: 25.0%, Score: 36.1)
+    - Candidato: [407441] B17 Twenty Five Missions: Pack 3 (Conf: 25.0%, Score: 36.1)
+    - Candidato: [419314] B17 Twenty Five Missions: Pack 4 (Conf: 25.0%, Score: 36.1)
+    - Candidato: [370773] B17 Twenty Five Missions: Pack I (Conf: 25.0%, Score: 36.1)
+    - Candidato: [6725] Battleship: Star Wars Advanced Mission (Conf: 25.0%, Score: 20.9)
+    - Candidato: [310657] Battlespace: Memorial Day Mission (Conf: 25.0%, Score: 22.6)
+GANADOR: ID 176920 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Escape Quest - Le Coffret Tome 4 à 6' ---
+Estrategias: ['Escape', 'Escape Quest', 'Escape Quest - Le Coffret Tome 4 à 6', 'Escape Quest -  Coffret Tome 4 à 6']
+  > Probando query: 'Escape Quest - Le Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest -  Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest'
+    Encontrados 27 resultados.
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [373614] Escape Quest (Conf: 28.6%, Score: 55.8)
+    - Candidato: [351677] Escape Quest El Inicio: La Furia De Ascalon (Conf: 28.6%, Score: 57.5)
+    - Candidato: [388904] Escape Quest: Achtung! Cthulhu – L'Armée des Profondeurs (Conf: 28.6%, Score: 41.0)
+    - Candidato: [348443] Escape Quest: Alone in Salem (Conf: 28.6%, Score: 62.1)
+    - Candidato: [363569] Escape Quest: Au delà du Virtuel (Conf: 28.6%, Score: 51.6)
+    - Candidato: [351900] Escape Quest: El Ojo de Itzamna (Conf: 28.6%, Score: 59.0)
+    - Candidato: [405901] Escape Quest: Infiltration à Alcatraz (Conf: 42.9%, Score: 50.7)
+    - Candidato: [348444] Escape Quest: Lupin's Challenge (Conf: 28.6%, Score: 52.5)
+    - Candidato: [388370] Escape Quest: Mystère sur Mars (Conf: 28.6%, Score: 60.0)
+    - Candidato: [363568] Escape Quest: Pour une Poignée de Néodollars (Conf: 28.6%, Score: 54.1)
+    - Candidato: [348442] Escape Quest: Search for the Lost Treasure (Conf: 28.6%, Score: 61.1)
+    - Candidato: [438222] Escape Quest: Superbohaterowie (Conf: 28.6%, Score: 53.3)
+    - Candidato: [461745] Escape Room: Santa's Quest (Conf: 28.6%, Score: 42.9)
+    - Candidato: [357559] Escape: Quest for the Lost City (Conf: 28.6%, Score: 62.3)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+  > Probando query: 'Escape'
+    Encontrados 1072 resultados.
+    - Candidato: [391517] 24 Days Escape: 3D Adventskalender – Sherlock Holmes im Schatten des Big Ben (Conf: 14.3%, Score: 26.9)
+    - Candidato: [420963] 24 Days Escape: 3D Adventskalender – Sherlock Holmes und das Castle in den Highlands (Conf: 14.3%, Score: 28.6)
+    - Candidato: [355944] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und das Anwesen Moriarty (Conf: 14.3%, Score: 26.7)
+    - Candidato: [363159] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und die letzte Fahrt der Titanic (Conf: 14.3%, Score: 26.5)
+    - Candidato: [358294] 24 Hours Escape: Lupin der Meisterdieb und der große Coup (Conf: 14.3%, Score: 32.2)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 14.3%, Score: 42.6)
+    - Candidato: [380160] Age of Steam Expansion: Honeybee Hive Mind, Brooklyn & Escape Room (Conf: 14.3%, Score: 21.5)
+    - Candidato: [292019] Alarm 22: Escape From Alcatraz (Conf: 14.3%, Score: 43.3)
+    - Candidato: [21284] Alcatraz Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [411571] Andromeda Escape (Conf: 14.3%, Score: 25.5)
+    - Candidato: [318566] Apex: Escape from the Apes (Conf: 14.3%, Score: 32.1)
+    - Candidato: [222236] Ariadne's Thread: Escape the Maze Button by Button! (Conf: 14.3%, Score: 32.5)
+    - Candidato: [123107] Asteroid Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [453573] Astérix: Escape Game (Conf: 14.3%, Score: 36.0)
+    - Candidato: [426011] Asylum Escape (Conf: 14.3%, Score: 27.3)
+    - Candidato: [449443] Balkanika: Safira's Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [127129] Batman: Arkham City Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [143406] Batman: Arkham City Escape – Hotline to Oracle Promo card (Conf: 14.3%, Score: 35.3)
+    - Candidato: [345980] Batman: Escape From Arkham Asylum (Conf: 14.3%, Score: 44.4)
+    - Candidato: [380249] Batman: Escape From Arkham Asylum – Heirs of the Cowl (Conf: 14.3%, Score: 34.6)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [380247] Batman: Escape From Arkham Asylum – Ra's Al Ghul & the League of Assassins (Conf: 14.3%, Score: 28.0)
+    - Candidato: [380246] Batman: Escape From Arkham Asylum – Riot in Blackgate (Conf: 14.3%, Score: 29.6)
+    - Candidato: [380250] Batman: Escape From Arkham Asylum – Stretch Goals (Conf: 14.3%, Score: 41.6)
+    - Candidato: [380245] Batman: Escape From Arkham Asylum – Suicide Squad: Assault on Arkham Asylum (Conf: 14.3%, Score: 31.4)
+GANADOR: ID 405901 con 42.9% confianza.
+--- INICIO BÚSQUEDA: 'Escape Quest - Le Coffret Tome 4 à 6' ---
+--------------------------------------------------
+Estrategias: ['Escape Quest - Le Coffret Tome 4 à 6', 'Escape', 'Escape Quest', 'Escape Quest -  Coffret Tome 4 à 6']
+  > Probando query: 'Escape Quest - Le Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest -  Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest'
+    Encontrados 27 resultados.
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [373614] Escape Quest (Conf: 28.6%, Score: 55.8)
+    - Candidato: [351677] Escape Quest El Inicio: La Furia De Ascalon (Conf: 28.6%, Score: 57.5)
+    - Candidato: [388904] Escape Quest: Achtung! Cthulhu – L'Armée des Profondeurs (Conf: 28.6%, Score: 41.0)
+    - Candidato: [348443] Escape Quest: Alone in Salem (Conf: 28.6%, Score: 62.1)
+    - Candidato: [363569] Escape Quest: Au delà du Virtuel (Conf: 28.6%, Score: 51.6)
+    - Candidato: [351900] Escape Quest: El Ojo de Itzamna (Conf: 28.6%, Score: 59.0)
+    - Candidato: [405901] Escape Quest: Infiltration à Alcatraz (Conf: 42.9%, Score: 50.7)
+    - Candidato: [348444] Escape Quest: Lupin's Challenge (Conf: 28.6%, Score: 52.5)
+    - Candidato: [388370] Escape Quest: Mystère sur Mars (Conf: 28.6%, Score: 60.0)
+    - Candidato: [363568] Escape Quest: Pour une Poignée de Néodollars (Conf: 28.6%, Score: 54.1)
+    - Candidato: [348442] Escape Quest: Search for the Lost Treasure (Conf: 28.6%, Score: 61.1)
+    - Candidato: [438222] Escape Quest: Superbohaterowie (Conf: 28.6%, Score: 53.3)
+    - Candidato: [461745] Escape Room: Santa's Quest (Conf: 28.6%, Score: 42.9)
+    - Candidato: [357559] Escape: Quest for the Lost City (Conf: 28.6%, Score: 62.3)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+  > Probando query: 'Escape'
+    Encontrados 1072 resultados.
+    - Candidato: [391517] 24 Days Escape: 3D Adventskalender – Sherlock Holmes im Schatten des Big Ben (Conf: 14.3%, Score: 26.9)
+    - Candidato: [420963] 24 Days Escape: 3D Adventskalender – Sherlock Holmes und das Castle in den Highlands (Conf: 14.3%, Score: 28.6)
+    - Candidato: [355944] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und das Anwesen Moriarty (Conf: 14.3%, Score: 26.7)
+    - Candidato: [363159] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und die letzte Fahrt der Titanic (Conf: 14.3%, Score: 26.5)
+    - Candidato: [358294] 24 Hours Escape: Lupin der Meisterdieb und der große Coup (Conf: 14.3%, Score: 32.2)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 14.3%, Score: 42.6)
+    - Candidato: [380160] Age of Steam Expansion: Honeybee Hive Mind, Brooklyn & Escape Room (Conf: 14.3%, Score: 21.5)
+    - Candidato: [292019] Alarm 22: Escape From Alcatraz (Conf: 14.3%, Score: 43.3)
+    - Candidato: [21284] Alcatraz Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [411571] Andromeda Escape (Conf: 14.3%, Score: 25.5)
+    - Candidato: [318566] Apex: Escape from the Apes (Conf: 14.3%, Score: 32.1)
+    - Candidato: [222236] Ariadne's Thread: Escape the Maze Button by Button! (Conf: 14.3%, Score: 32.5)
+    - Candidato: [123107] Asteroid Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [453573] Astérix: Escape Game (Conf: 14.3%, Score: 36.0)
+    - Candidato: [426011] Asylum Escape (Conf: 14.3%, Score: 27.3)
+    - Candidato: [449443] Balkanika: Safira's Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [127129] Batman: Arkham City Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [143406] Batman: Arkham City Escape – Hotline to Oracle Promo card (Conf: 14.3%, Score: 35.3)
+    - Candidato: [345980] Batman: Escape From Arkham Asylum (Conf: 14.3%, Score: 44.4)
+    - Candidato: [380249] Batman: Escape From Arkham Asylum – Heirs of the Cowl (Conf: 14.3%, Score: 34.6)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [380247] Batman: Escape From Arkham Asylum – Ra's Al Ghul & the League of Assassins (Conf: 14.3%, Score: 28.0)
+    - Candidato: [380246] Batman: Escape From Arkham Asylum – Riot in Blackgate (Conf: 14.3%, Score: 29.6)
+    - Candidato: [380250] Batman: Escape From Arkham Asylum – Stretch Goals (Conf: 14.3%, Score: 41.6)
+    - Candidato: [380245] Batman: Escape From Arkham Asylum – Suicide Squad: Assault on Arkham Asylum (Conf: 14.3%, Score: 31.4)
+GANADOR: ID 405901 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Escape Quest - Le Coffret Tome 4 à 6' ---
+Estrategias: ['Escape', 'Escape Quest - Le Coffret Tome 4 à 6', 'Escape Quest -  Coffret Tome 4 à 6', 'Escape Quest']
+  > Probando query: 'Escape Quest - Le Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest -  Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest'
+    Encontrados 27 resultados.
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [373614] Escape Quest (Conf: 28.6%, Score: 55.8)
+    - Candidato: [351677] Escape Quest El Inicio: La Furia De Ascalon (Conf: 28.6%, Score: 57.5)
+    - Candidato: [388904] Escape Quest: Achtung! Cthulhu – L'Armée des Profondeurs (Conf: 28.6%, Score: 41.0)
+    - Candidato: [348443] Escape Quest: Alone in Salem (Conf: 28.6%, Score: 62.1)
+    - Candidato: [363569] Escape Quest: Au delà du Virtuel (Conf: 28.6%, Score: 51.6)
+    - Candidato: [351900] Escape Quest: El Ojo de Itzamna (Conf: 28.6%, Score: 59.0)
+    - Candidato: [405901] Escape Quest: Infiltration à Alcatraz (Conf: 42.9%, Score: 50.7)
+    - Candidato: [348444] Escape Quest: Lupin's Challenge (Conf: 28.6%, Score: 52.5)
+    - Candidato: [388370] Escape Quest: Mystère sur Mars (Conf: 28.6%, Score: 60.0)
+    - Candidato: [363568] Escape Quest: Pour une Poignée de Néodollars (Conf: 28.6%, Score: 54.1)
+    - Candidato: [348442] Escape Quest: Search for the Lost Treasure (Conf: 28.6%, Score: 61.1)
+    - Candidato: [438222] Escape Quest: Superbohaterowie (Conf: 28.6%, Score: 53.3)
+    - Candidato: [461745] Escape Room: Santa's Quest (Conf: 28.6%, Score: 42.9)
+    - Candidato: [357559] Escape: Quest for the Lost City (Conf: 28.6%, Score: 62.3)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+  > Probando query: 'Escape'
+    Encontrados 1072 resultados.
+    - Candidato: [391517] 24 Days Escape: 3D Adventskalender – Sherlock Holmes im Schatten des Big Ben (Conf: 14.3%, Score: 26.9)
+    - Candidato: [420963] 24 Days Escape: 3D Adventskalender – Sherlock Holmes und das Castle in den Highlands (Conf: 14.3%, Score: 28.6)
+    - Candidato: [355944] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und das Anwesen Moriarty (Conf: 14.3%, Score: 26.7)
+    - Candidato: [363159] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und die letzte Fahrt der Titanic (Conf: 14.3%, Score: 26.5)
+    - Candidato: [358294] 24 Hours Escape: Lupin der Meisterdieb und der große Coup (Conf: 14.3%, Score: 32.2)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 14.3%, Score: 42.6)
+    - Candidato: [380160] Age of Steam Expansion: Honeybee Hive Mind, Brooklyn & Escape Room (Conf: 14.3%, Score: 21.5)
+    - Candidato: [292019] Alarm 22: Escape From Alcatraz (Conf: 14.3%, Score: 43.3)
+    - Candidato: [21284] Alcatraz Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [411571] Andromeda Escape (Conf: 14.3%, Score: 25.5)
+    - Candidato: [318566] Apex: Escape from the Apes (Conf: 14.3%, Score: 32.1)
+    - Candidato: [222236] Ariadne's Thread: Escape the Maze Button by Button! (Conf: 14.3%, Score: 32.5)
+    - Candidato: [123107] Asteroid Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [453573] Astérix: Escape Game (Conf: 14.3%, Score: 36.0)
+    - Candidato: [426011] Asylum Escape (Conf: 14.3%, Score: 27.3)
+    - Candidato: [449443] Balkanika: Safira's Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [127129] Batman: Arkham City Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [143406] Batman: Arkham City Escape – Hotline to Oracle Promo card (Conf: 14.3%, Score: 35.3)
+    - Candidato: [345980] Batman: Escape From Arkham Asylum (Conf: 14.3%, Score: 44.4)
+    - Candidato: [380249] Batman: Escape From Arkham Asylum – Heirs of the Cowl (Conf: 14.3%, Score: 34.6)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [380247] Batman: Escape From Arkham Asylum – Ra's Al Ghul & the League of Assassins (Conf: 14.3%, Score: 28.0)
+    - Candidato: [380246] Batman: Escape From Arkham Asylum – Riot in Blackgate (Conf: 14.3%, Score: 29.6)
+    - Candidato: [380250] Batman: Escape From Arkham Asylum – Stretch Goals (Conf: 14.3%, Score: 41.6)
+    - Candidato: [380245] Batman: Escape From Arkham Asylum – Suicide Squad: Assault on Arkham Asylum (Conf: 14.3%, Score: 31.4)
+GANADOR: ID 405901 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Escape Quest - Le Coffret Tome 4 à 6' ---
+Estrategias: ['Escape Quest', 'Escape Quest - Le Coffret Tome 4 à 6', 'Escape Quest -  Coffret Tome 4 à 6', 'Escape']
+  > Probando query: 'Escape Quest - Le Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest -  Coffret Tome 4 à 6'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape Quest'
+    Encontrados 27 resultados.
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [373614] Escape Quest (Conf: 28.6%, Score: 55.8)
+    - Candidato: [351677] Escape Quest El Inicio: La Furia De Ascalon (Conf: 28.6%, Score: 57.5)
+    - Candidato: [388904] Escape Quest: Achtung! Cthulhu – L'Armée des Profondeurs (Conf: 28.6%, Score: 41.0)
+    - Candidato: [348443] Escape Quest: Alone in Salem (Conf: 28.6%, Score: 62.1)
+    - Candidato: [363569] Escape Quest: Au delà du Virtuel (Conf: 28.6%, Score: 51.6)
+    - Candidato: [351900] Escape Quest: El Ojo de Itzamna (Conf: 28.6%, Score: 59.0)
+    - Candidato: [405901] Escape Quest: Infiltration à Alcatraz (Conf: 42.9%, Score: 50.7)
+    - Candidato: [348444] Escape Quest: Lupin's Challenge (Conf: 28.6%, Score: 52.5)
+    - Candidato: [388370] Escape Quest: Mystère sur Mars (Conf: 28.6%, Score: 60.0)
+    - Candidato: [363568] Escape Quest: Pour une Poignée de Néodollars (Conf: 28.6%, Score: 54.1)
+    - Candidato: [348442] Escape Quest: Search for the Lost Treasure (Conf: 28.6%, Score: 61.1)
+    - Candidato: [438222] Escape Quest: Superbohaterowie (Conf: 28.6%, Score: 53.3)
+    - Candidato: [461745] Escape Room: Santa's Quest (Conf: 28.6%, Score: 42.9)
+    - Candidato: [357559] Escape: Quest for the Lost City (Conf: 28.6%, Score: 62.3)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [137405] Escape: The Curse of the Temple – Expansion 2: Quest (Conf: 28.6%, Score: 30.4)
+    - Candidato: [282778] Escape: The Curse of the Temple – Queenie 15: New Quest Chambers (Conf: 28.6%, Score: 33.0)
+    - Candidato: [167909] Escape: The Curse of the Temple – Queenie 5: Quest Chambers (Conf: 28.6%, Score: 34.9)
+  > Probando query: 'Escape'
+    Encontrados 1072 resultados.
+    - Candidato: [391517] 24 Days Escape: 3D Adventskalender – Sherlock Holmes im Schatten des Big Ben (Conf: 14.3%, Score: 26.9)
+    - Candidato: [420963] 24 Days Escape: 3D Adventskalender – Sherlock Holmes und das Castle in den Highlands (Conf: 14.3%, Score: 28.6)
+    - Candidato: [355944] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und das Anwesen Moriarty (Conf: 14.3%, Score: 26.7)
+    - Candidato: [363159] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und die letzte Fahrt der Titanic (Conf: 14.3%, Score: 26.5)
+    - Candidato: [358294] 24 Hours Escape: Lupin der Meisterdieb und der große Coup (Conf: 14.3%, Score: 32.2)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 14.3%, Score: 42.6)
+    - Candidato: [380160] Age of Steam Expansion: Honeybee Hive Mind, Brooklyn & Escape Room (Conf: 14.3%, Score: 21.5)
+    - Candidato: [292019] Alarm 22: Escape From Alcatraz (Conf: 14.3%, Score: 43.3)
+    - Candidato: [21284] Alcatraz Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [411571] Andromeda Escape (Conf: 14.3%, Score: 25.5)
+    - Candidato: [318566] Apex: Escape from the Apes (Conf: 14.3%, Score: 32.1)
+    - Candidato: [222236] Ariadne's Thread: Escape the Maze Button by Button! (Conf: 14.3%, Score: 32.5)
+    - Candidato: [123107] Asteroid Escape (Conf: 14.3%, Score: 26.1)
+    - Candidato: [453573] Astérix: Escape Game (Conf: 14.3%, Score: 36.0)
+    - Candidato: [426011] Asylum Escape (Conf: 14.3%, Score: 27.3)
+    - Candidato: [449443] Balkanika: Safira's Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [127129] Batman: Arkham City Escape (Conf: 14.3%, Score: 21.4)
+    - Candidato: [143406] Batman: Arkham City Escape – Hotline to Oracle Promo card (Conf: 14.3%, Score: 35.3)
+    - Candidato: [345980] Batman: Escape From Arkham Asylum (Conf: 14.3%, Score: 44.4)
+    - Candidato: [380249] Batman: Escape From Arkham Asylum – Heirs of the Cowl (Conf: 14.3%, Score: 34.6)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 28.6%, Score: 41.9)
+    - Candidato: [380247] Batman: Escape From Arkham Asylum – Ra's Al Ghul & the League of Assassins (Conf: 14.3%, Score: 28.0)
+    - Candidato: [380246] Batman: Escape From Arkham Asylum – Riot in Blackgate (Conf: 14.3%, Score: 29.6)
+    - Candidato: [380250] Batman: Escape From Arkham Asylum – Stretch Goals (Conf: 14.3%, Score: 41.6)
+    - Candidato: [380245] Batman: Escape From Arkham Asylum – Suicide Squad: Assault on Arkham Asylum (Conf: 14.3%, Score: 31.4)
+GANADOR: ID 405901 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'La Réussite - Ferraut' ---
+Estrategias: ['Réussite - Ferraut', 'Réussite', 'La Réussite - Ferraut']
+  > Probando query: 'La Réussite - Ferraut'
+    Encontrados 0 resultados.
+  > Probando query: 'Réussite - Ferraut'
+    Encontrados 0 resultados.
+  > Probando query: 'Réussite'
+    Encontrados 1 resultados.
+    - Candidato: [4382] La Course à la réussite (Conf: 50.0%, Score: 41.0)
+GANADOR: ID 4382 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'La Réussite - Ferraut' ---
+Estrategias: ['Réussite', 'La Réussite - Ferraut', 'Réussite - Ferraut']
+  > Probando query: 'La Réussite - Ferraut'
+    Encontrados 0 resultados.
+  > Probando query: 'Réussite - Ferraut'
+    Encontrados 0 resultados.
+  > Probando query: 'Réussite'
+    Encontrados 1 resultados.
+    - Candidato: [4382] La Course à la réussite (Conf: 50.0%, Score: 41.0)
+GANADOR: ID 4382 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Carnegie - Deluxe Edition' ---
+Estrategias: ['Carnegie -', 'Carnegie - Deluxe Edition', 'Carnegie']
+  > Probando query: 'Carnegie - Deluxe Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Carnegie -'
+    ERROR 429: Rate limit detectado. Pausando 60s...
+  > Probando query: 'Carnegie'
+    ERROR 429: Rate limit detectado. Pausando 60s...
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars Rivals Série 1 - Pack de Personnage Côté Lumineux' ---
+Estrategias: ['Star Wars Rivals Série 1 -   Personnage Côté Lumineux', 'Star Wars Rivals Série 1 - Pack de Personnage Côté Lumineux', 'Star Wars Rivals Série 1', 'Star']
+  > Probando query: 'Star Wars Rivals Série 1 - Pack de Personnage Côté Lumineux'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Rivals Série 1 -   Personnage Côté Lumineux'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Rivals Série 1'
+    Encontrados 3 resultados.
+    - Candidato: [385411] Star Wars: Rivals – Series 1: Character Booster Pack (Conf: 62.5%, Score: 63.9)
+    - Candidato: [385408] Star Wars: Rivals – Series 1: Premier Set (Conf: 62.5%, Score: 72.1)
+    - Candidato: [385411] Star Wars: Rivals – Series 1: Character Booster Pack (Conf: 62.5%, Score: 63.9)
+  > Probando query: 'Star'
+    Encontrados 2613 resultados.
+    - Candidato: [4550] #1KBWC: 1000 Blank White Cards Starter Set (Conf: 0.0%, Score: 20.2)
+    - Candidato: [130677] 10 Stars (Conf: 12.5%, Score: 17.5)
+    - Candidato: [192507] 100 Swords: Starter Sword (Conf: 0.0%, Score: 21.9)
+    - Candidato: [130593] 3, 2, 1... START! (Conf: 25.0%, Score: 16.7)
+    - Candidato: [10868] 5 Star (Conf: 12.5%, Score: 14.5)
+    - Candidato: [109001] 5150: Star Army (Conf: 12.5%, Score: 25.4)
+    - Candidato: [297233] 5150: Star Army  – 2nd Tour (Conf: 12.5%, Score: 25.0)
+    - Candidato: [342761] 5150: Star Army – Cestus V (Conf: 12.5%, Score: 27.8)
+    - Candidato: [342760] 5150: Star Army – Citizen Soldier (Conf: 12.5%, Score: 32.9)
+    - Candidato: [229215] 5150: Star Marine (Conf: 12.5%, Score: 30.8)
+    - Candidato: [137273] 5150: Star Navy (Conf: 12.5%, Score: 22.2)
+    - Candidato: [447773] 8th Star (Conf: 12.5%, Score: 14.0)
+    - Candidato: [413116] ABC Warriors: Increase The Peace Starter Game (Conf: 0.0%, Score: 15.1)
+    - Candidato: [368051] Above the Clouds!: Red Stars (Conf: 12.5%, Score: 13.3)
+    - Candidato: [420572] Achtung Panzer! Blood & Steel Starter Set (Conf: 0.0%, Score: 20.7)
+    - Candidato: [122425] Advanced Squad Leader Starter Kit Scenario Design Contest (Conf: 0.0%, Score: 28.3)
+    - Candidato: [9823] Advanced Squad Leader: Starter Kit #1 (Conf: 12.5%, Score: 21.4)
+    - Candidato: [15126] Advanced Squad Leader: Starter Kit #2 (Conf: 0.0%, Score: 19.0)
+    - Candidato: [20542] Advanced Squad Leader: Starter Kit #3 (Conf: 0.0%, Score: 19.0)
+    - Candidato: [271262] Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations (Conf: 0.0%, Score: 26.3)
+    - Candidato: [342754] Advanced Squad Leader: Starter Kit Bonus Pack #2 (Conf: 0.0%, Score: 18.9)
+    - Candidato: [58601] Advanced Squad Leader: Starter Kit Expansion Pack #1 (Conf: 12.5%, Score: 20.2)
+    - Candidato: [305025] Advanced Squad Leader: Starter Kit Expansion Pack #2 (Conf: 0.0%, Score: 24.2)
+    - Candidato: [399789] Advanced Squad Leader: Starter Kit Expansion Pack #3 (Conf: 0.0%, Score: 24.2)
+    - Candidato: [35944] Advanced Star Frontiers Lensman (Conf: 12.5%, Score: 25.0)
+GANADOR: ID 385408 con 62.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars Rivals Série 1 - Pack de Personnage Côté Lumineux' ---
+Estrategias: ['Star Wars Rivals Série 1', 'Star', 'Star Wars Rivals Série 1 -   Personnage Côté Lumineux', 'Star Wars Rivals Série 1 - Pack de Personnage Côté Lumineux']
+  > Probando query: 'Star Wars Rivals Série 1 - Pack de Personnage Côté Lumineux'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Rivals Série 1 -   Personnage Côté Lumineux'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Rivals Série 1'
+    Encontrados 3 resultados.
+    - Candidato: [385411] Star Wars: Rivals – Series 1: Character Booster Pack (Conf: 62.5%, Score: 63.9)
+    - Candidato: [385408] Star Wars: Rivals – Series 1: Premier Set (Conf: 62.5%, Score: 72.1)
+    - Candidato: [385411] Star Wars: Rivals – Series 1: Character Booster Pack (Conf: 62.5%, Score: 63.9)
+  > Probando query: 'Star'
+    ERROR 429: Rate limit detectado. Pausando 60s...
+GANADOR: ID 385408 con 62.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fort - Chats et Chiens' ---
+Estrategias: ['Fort - Chats et Chiens', 'Fort']
+  > Probando query: 'Fort - Chats et Chiens'
+    Encontrados 0 resultados.
+  > Probando query: 'Fort'
+    Encontrados 1283 resultados.
+    - Candidato: [377208] 1758 Fort Carillon: Abercromby's Fumble at Ticonderoga (Conf: 25.0%, Score: 27.4)
+    - Candidato: [382235] 1864: Forty-Niner (Conf: 25.0%, Score: 33.3)
+    - Candidato: [307254] 18th Century Wars of Absolutism: Fortress & Siege Rules (Conf: 0.0%, Score: 25.0)
+    - Candidato: [32619] 5th Column (fan expansion for Fortress America) (Conf: 25.0%, Score: 24.6)
+    - Candidato: [309822] 7 Fortunes (Conf: 0.0%, Score: 33.3)
+    - Candidato: [444693] 7th Sea: City of Five Sails – Fate and Fortune (Conf: 0.0%, Score: 15.9)
+    - Candidato: [410351] Abruzzo: Forte e Gentile (Conf: 25.0%, Score: 41.9)
+    - Candidato: [433491] Aeon Trespass: Odyssey – Fortuneteller Titan (Conf: 0.0%, Score: 29.5)
+    - Candidato: [437871] Ahoy: Fang & Fortune (Conf: 0.0%, Score: 27.0)
+    - Candidato: [16527] Ali Baba and the Forty Thieves (Conf: 25.0%, Score: 40.0)
+    - Candidato: [431695] Ali Baba and the Forty Thieves (Conf: 25.0%, Score: 40.0)
+    - Candidato: [274038] All or Nothing: The Fight for Fort Mercer – October 22, 1777 (Conf: 25.0%, Score: 23.7)
+    - Candidato: [5312] All Star Family Fortunes (Conf: 0.0%, Score: 22.7)
+    - Candidato: [303163] All Star Family Fortunes: Card Game (Conf: 0.0%, Score: 33.3)
+    - Candidato: [15202] Ancient Fortress Siege (Conf: 0.0%, Score: 38.1)
+    - Candidato: [239933] Aristeia!: Soldiers of Fortune (Conf: 0.0%, Score: 20.8)
+    - Candidato: [372720] Arkham Horror: The Card Game – Fortune and Folly: Scenario Pack (Conf: 0.0%, Score: 20.3)
+    - Candidato: [257839] Arkham Noir: Case #2 – Called Forth By Thunder (Conf: 25.0%, Score: 22.6)
+    - Candidato: [117836] Ascension: Storm of Souls – Askara of Fortune Promo (Conf: 0.0%, Score: 14.7)
+    - Candidato: [25988] Assalto al Fortino (Conf: 0.0%, Score: 31.6)
+    - Candidato: [145261] Assault on Fortress Moon (Conf: 0.0%, Score: 31.8)
+    - Candidato: [11670] Authors of the Forty Best Children's Books (Conf: 25.0%, Score: 45.2)
+    - Candidato: [39351] Automobile: En route vers la fortune! (Conf: 0.0%, Score: 18.2)
+    - Candidato: [188164] B-17 Flying Fortress Leader (Conf: 0.0%, Score: 34.0)
+    - Candidato: [330644] B-17 Flying Fortress Leader: Expansion #1 (Conf: 0.0%, Score: 37.3)
+GANADOR: ID 11670 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fort - Chats et Chiens' ---
+Estrategias: ['Fort', 'Fort - Chats et Chiens']
+  > Probando query: 'Fort - Chats et Chiens'
+    Encontrados 0 resultados.
+  > Probando query: 'Fort'
+    ERROR 429: Rate limit detectado. Pausando 60s...
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fort - Chats et Chiens' ---
+Estrategias: ['Fort', 'Fort - Chats et Chiens']
+  > Probando query: 'Fort - Chats et Chiens'
+    Encontrados 0 resultados.
+  > Probando query: 'Fort'
+    ERROR 429: Rate limit detectado. Pausando 60s...
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fort - Chats et Chiens' ---
+Estrategias: ['Fort', 'Fort - Chats et Chiens']
+  > Probando query: 'Fort - Chats et Chiens'
+    Encontrados 0 resultados.
+  > Probando query: 'Fort'
+    ERROR 429: Rate limit detectado. Pausando 60s...
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Eldfall Chronicles - ReinforcementsHelian League - Sunspear' ---
+Estrategias: ['Eldfall', 'Eldfall Chronicles', 'Eldfall Chronicles - ReinforcementsHelian League - Sunspear']
+  > Probando query: 'Eldfall Chronicles - ReinforcementsHelian League - Sunspear'
+    Encontrados 0 resultados.
+  > Probando query: 'Eldfall Chronicles'
+    Encontrados 2 resultados.
+    - Candidato: [330584] Eldfall Chronicles (Conf: 40.0%, Score: 49.3)
+    - Candidato: [381996] Eldfall Chronicles: Northern Wind (Conf: 40.0%, Score: 52.9)
+  > Probando query: 'Eldfall'
+    Encontrados 2 resultados.
+    - Candidato: [330584] Eldfall Chronicles (Conf: 40.0%, Score: 49.3)
+    - Candidato: [381996] Eldfall Chronicles: Northern Wind (Conf: 40.0%, Score: 52.9)
+GANADOR: ID 381996 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flesh & Blood - Armory Deck - Ziggy' ---
+Estrategias: ['Flesh & Blood - Armory Deck - Ziggy', 'Flesh', 'Flesh & Blood']
+  > Probando query: 'Flesh & Blood - Armory Deck - Ziggy'
+    Encontrados 0 resultados.
+  > Probando query: 'Flesh & Blood'
+    Encontrados 34 resultados.
+    - Candidato: [293348] Flesh and Blood (Conf: 40.0%, Score: 50.0)
+    - Candidato: [400486] Flesh and Blood Round the Table (Conf: 40.0%, Score: 46.7)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 40.0%, Score: 58.6)
+    - Candidato: [361425] Flesh and Blood: Classic Battles – Rhinar vs Dorinthea (Conf: 40.0%, Score: 42.5)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 40.0%, Score: 46.7)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 40.0%, Score: 48.3)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 40.0%, Score: 53.8)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 40.0%, Score: 52.8)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 40.0%, Score: 55.2)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 40.0%, Score: 64.4)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 60.0%, Score: 62.3)
+    - Candidato: [431980] Flesh and Blood: Monarch (Conf: 40.0%, Score: 57.7)
+    - Candidato: [431988] Flesh and Blood: Outsiders (Conf: 40.0%, Score: 55.6)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 40.0%, Score: 54.8)
+    - Candidato: [348588] Flesh and Blood: Tales of Aria (Conf: 40.0%, Score: 51.7)
+    - Candidato: [431984] Flesh and Blood: Uprising (Conf: 40.0%, Score: 56.6)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 40.0%, Score: 45.9)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 40.0%, Score: 58.6)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 40.0%, Score: 46.7)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 40.0%, Score: 48.3)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 40.0%, Score: 53.8)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 40.0%, Score: 52.8)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 40.0%, Score: 55.2)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 40.0%, Score: 64.4)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 40.0%, Score: 54.8)
+  > Probando query: 'Flesh'
+    Encontrados 266 resultados.
+    - Candidato: [164986] Afoot: Sins of the Flesh (Conf: 20.0%, Score: 19.2)
+    - Candidato: [256595] Apocrypha Adventure Card Game: Box Two – The Flesh (Conf: 20.0%, Score: 13.2)
+    - Candidato: [25290] Candyman: Farewell to the Flesh (Conf: 20.0%, Score: 16.9)
+    - Candidato: [427141] Candyman: Farewell to the Flesh (Conf: 20.0%, Score: 16.9)
+    - Candidato: [170923] Colonial Space Wars: Flesh and Steel (Conf: 20.0%, Score: 28.1)
+    - Candidato: [383391] Dungeon Degenerates: Missions III and Fleshy Mess (Conf: 20.0%, Score: 20.8)
+    - Candidato: [31811] Flesh (Conf: 20.0%, Score: 29.4)
+    - Candidato: [293348] Flesh and Blood (Conf: 40.0%, Score: 50.0)
+    - Candidato: [400486] Flesh and Blood Round the Table (Conf: 40.0%, Score: 46.7)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 40.0%, Score: 58.6)
+    - Candidato: [361425] Flesh and Blood: Classic Battles – Rhinar vs Dorinthea (Conf: 40.0%, Score: 42.5)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 40.0%, Score: 46.7)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 40.0%, Score: 48.3)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 40.0%, Score: 53.8)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 40.0%, Score: 52.8)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 40.0%, Score: 55.2)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 40.0%, Score: 64.4)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 60.0%, Score: 62.3)
+    - Candidato: [431980] Flesh and Blood: Monarch (Conf: 40.0%, Score: 57.7)
+    - Candidato: [431988] Flesh and Blood: Outsiders (Conf: 40.0%, Score: 55.6)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 40.0%, Score: 54.8)
+    - Candidato: [348588] Flesh and Blood: Tales of Aria (Conf: 40.0%, Score: 51.7)
+    - Candidato: [431984] Flesh and Blood: Uprising (Conf: 40.0%, Score: 56.6)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 40.0%, Score: 45.9)
+    - Candidato: [153209] A Game of Thrones: The Card Game – Fire Made Flesh (Conf: 20.0%, Score: 13.2)
+GANADOR: ID 417921 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flesh & Blood - Armory Deck - Ziggy' ---
+Estrategias: ['Flesh & Blood - Armory Deck - Ziggy', 'Flesh', 'Flesh & Blood']
+  > Probando query: 'Flesh & Blood - Armory Deck - Ziggy'
+    Encontrados 0 resultados.
+  > Probando query: 'Flesh & Blood'
+    Encontrados 34 resultados.
+    - Candidato: [293348] Flesh and Blood (Conf: 40.0%, Score: 50.0)
+    - Candidato: [400486] Flesh and Blood Round the Table (Conf: 40.0%, Score: 46.7)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 40.0%, Score: 58.6)
+    - Candidato: [361425] Flesh and Blood: Classic Battles – Rhinar vs Dorinthea (Conf: 40.0%, Score: 42.5)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 40.0%, Score: 46.7)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 40.0%, Score: 48.3)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 40.0%, Score: 53.8)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 40.0%, Score: 52.8)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 40.0%, Score: 55.2)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 40.0%, Score: 64.4)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 60.0%, Score: 62.3)
+    - Candidato: [431980] Flesh and Blood: Monarch (Conf: 40.0%, Score: 57.7)
+    - Candidato: [431988] Flesh and Blood: Outsiders (Conf: 40.0%, Score: 55.6)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 40.0%, Score: 54.8)
+    - Candidato: [348588] Flesh and Blood: Tales of Aria (Conf: 40.0%, Score: 51.7)
+    - Candidato: [431984] Flesh and Blood: Uprising (Conf: 40.0%, Score: 56.6)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 40.0%, Score: 45.9)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 40.0%, Score: 58.6)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 40.0%, Score: 46.7)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 40.0%, Score: 48.3)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 40.0%, Score: 53.8)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 40.0%, Score: 52.8)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 40.0%, Score: 55.2)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 40.0%, Score: 64.4)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 40.0%, Score: 54.8)
+  > Probando query: 'Flesh'
+    Encontrados 266 resultados.
+    - Candidato: [164986] Afoot: Sins of the Flesh (Conf: 20.0%, Score: 19.2)
+    - Candidato: [256595] Apocrypha Adventure Card Game: Box Two – The Flesh (Conf: 20.0%, Score: 13.2)
+    - Candidato: [25290] Candyman: Farewell to the Flesh (Conf: 20.0%, Score: 16.9)
+    - Candidato: [427141] Candyman: Farewell to the Flesh (Conf: 20.0%, Score: 16.9)
+    - Candidato: [170923] Colonial Space Wars: Flesh and Steel (Conf: 20.0%, Score: 28.1)
+    - Candidato: [383391] Dungeon Degenerates: Missions III and Fleshy Mess (Conf: 20.0%, Score: 20.8)
+    - Candidato: [31811] Flesh (Conf: 20.0%, Score: 29.4)
+    - Candidato: [293348] Flesh and Blood (Conf: 40.0%, Score: 50.0)
+    - Candidato: [400486] Flesh and Blood Round the Table (Conf: 40.0%, Score: 46.7)
+    - Candidato: [431974] Flesh and Blood: Arcane Rising (Conf: 40.0%, Score: 58.6)
+    - Candidato: [361425] Flesh and Blood: Classic Battles – Rhinar vs Dorinthea (Conf: 40.0%, Score: 42.5)
+    - Candidato: [431977] Flesh and Blood: Crucible of War (Conf: 40.0%, Score: 46.7)
+    - Candidato: [428013] Flesh and Blood: Dusk til Dawn (Conf: 40.0%, Score: 48.3)
+    - Candidato: [431987] Flesh and Blood: Dynasty (Conf: 40.0%, Score: 53.8)
+    - Candidato: [431981] Flesh and Blood: Everfest (Conf: 40.0%, Score: 52.8)
+    - Candidato: [422592] Flesh and Blood: Heavy Hitters (Conf: 40.0%, Score: 55.2)
+    - Candidato: [431986] Flesh and Blood: History Pack 1 (Conf: 40.0%, Score: 64.4)
+    - Candidato: [417921] Flesh and Blood: Ira Welcome Deck (Conf: 60.0%, Score: 62.3)
+    - Candidato: [431980] Flesh and Blood: Monarch (Conf: 40.0%, Score: 57.7)
+    - Candidato: [431988] Flesh and Blood: Outsiders (Conf: 40.0%, Score: 55.6)
+    - Candidato: [422518] Flesh and Blood: Part the Mistveil (Conf: 40.0%, Score: 54.8)
+    - Candidato: [348588] Flesh and Blood: Tales of Aria (Conf: 40.0%, Score: 51.7)
+    - Candidato: [431984] Flesh and Blood: Uprising (Conf: 40.0%, Score: 56.6)
+    - Candidato: [419610] Flesh and Blood: Welcome to Rathe (Conf: 40.0%, Score: 45.9)
+    - Candidato: [153209] A Game of Thrones: The Card Game – Fire Made Flesh (Conf: 20.0%, Score: 13.2)
+GANADOR: ID 417921 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Sur le Grill' ---
+Estrategias: ['Sur  Grill', 'Grill', 'Sur le Grill']
+  > Probando query: 'Sur le Grill'
+    Encontrados 0 resultados.
+  > Probando query: 'Sur  Grill'
+    Encontrados 0 resultados.
+  > Probando query: 'Grill'
+    Encontrados 30 resultados.
+    - Candidato: [470200] Cows Grilling Hamburgers Patty Pack #1 (Conf: 0.0%, Score: 30.4)
+    - Candidato: [181545] Deck Building: The Deck Building Game – The Barbecue Grill Promo (Conf: 50.0%, Score: 22.9)
+    - Candidato: [346863] Il gioco del grillo. (Conf: 50.0%, Score: 42.9)
+    - Candidato: [456736] Grill a Gorilla (Conf: 50.0%, Score: 41.7)
+    - Candidato: [423921] Grill for Glory (Conf: 50.0%, Score: 41.7)
+    - Candidato: [113312] Grill Party (Conf: 50.0%, Score: 50.0)
+    - Candidato: [168318] Grill Party (Conf: 50.0%, Score: 50.0)
+    - Candidato: [215676] Grill Time (Conf: 50.0%, Score: 52.6)
+    - Candidato: [307376] GrillHolic (Conf: 0.0%, Score: 52.6)
+    - Candidato: [29999] Grillin-opoly (Conf: 50.0%, Score: 45.5)
+    - Candidato: [393114] Grillparti (Conf: 0.0%, Score: 52.6)
+    - Candidato: [99276] Das kleine Grillquiz (Conf: 0.0%, Score: 48.3)
+    - Candidato: [395786] License to Grill (Conf: 50.0%, Score: 56.0)
+    - Candidato: [71865] Munchkin Cthulhu 4: Grutas Grilladas (Conf: 0.0%, Score: 31.8)
+    - Candidato: [16573] Murder Mystery Party: A Murder on the Grill (Conf: 50.0%, Score: 31.4)
+    - Candidato: [41497] Saute Grillon (Conf: 50.0%, Score: 72.7)
+    - Candidato: [181545] Deck Building: The Deck Building Game – The Barbecue Grill Promo (Conf: 50.0%, Score: 22.9)
+    - Candidato: [71865] Munchkin Cthulhu 4: Grutas Grilladas (Conf: 0.0%, Score: 31.8)
+GANADOR: ID 41497 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Sur le Grill' ---
+Estrategias: ['Sur le Grill', 'Grill', 'Sur  Grill']
+  > Probando query: 'Sur le Grill'
+    Encontrados 0 resultados.
+  > Probando query: 'Sur  Grill'
+    Encontrados 0 resultados.
+  > Probando query: 'Grill'
+    Encontrados 30 resultados.
+    - Candidato: [470200] Cows Grilling Hamburgers Patty Pack #1 (Conf: 0.0%, Score: 30.4)
+    - Candidato: [181545] Deck Building: The Deck Building Game – The Barbecue Grill Promo (Conf: 50.0%, Score: 22.9)
+    - Candidato: [346863] Il gioco del grillo. (Conf: 50.0%, Score: 42.9)
+    - Candidato: [456736] Grill a Gorilla (Conf: 50.0%, Score: 41.7)
+    - Candidato: [423921] Grill for Glory (Conf: 50.0%, Score: 41.7)
+    - Candidato: [113312] Grill Party (Conf: 50.0%, Score: 50.0)
+    - Candidato: [168318] Grill Party (Conf: 50.0%, Score: 50.0)
+    - Candidato: [215676] Grill Time (Conf: 50.0%, Score: 52.6)
+    - Candidato: [307376] GrillHolic (Conf: 0.0%, Score: 52.6)
+    - Candidato: [29999] Grillin-opoly (Conf: 50.0%, Score: 45.5)
+    - Candidato: [393114] Grillparti (Conf: 0.0%, Score: 52.6)
+    - Candidato: [99276] Das kleine Grillquiz (Conf: 0.0%, Score: 48.3)
+    - Candidato: [395786] License to Grill (Conf: 50.0%, Score: 56.0)
+    - Candidato: [71865] Munchkin Cthulhu 4: Grutas Grilladas (Conf: 0.0%, Score: 31.8)
+    - Candidato: [16573] Murder Mystery Party: A Murder on the Grill (Conf: 50.0%, Score: 31.4)
+    - Candidato: [41497] Saute Grillon (Conf: 50.0%, Score: 72.7)
+    - Candidato: [181545] Deck Building: The Deck Building Game – The Barbecue Grill Promo (Conf: 50.0%, Score: 22.9)
+    - Candidato: [71865] Munchkin Cthulhu 4: Grutas Grilladas (Conf: 0.0%, Score: 31.8)
+GANADOR: ID 41497 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier d’Appui Feu' ---
+Estrategias: ['The Horus Heresy - Solar Auxilia - Batterie de Rapier d’Appui Feu', 'The Horus Heresy', 'Horus', 'The Horus Heresy - Solar Auxilia - Batterie  Rapier d’Appui Feu']
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier d’Appui Feu'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie  Rapier d’Appui Feu'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 39.2)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 36.4)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 35.6)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 30.0%, Score: 40.6)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 31.9)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 34.3)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 47.8)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 52.2)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 47.3)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 54.3)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 30.0%, Score: 54.3)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 47.3)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 48.4)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 54.5)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 45.7)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 30.0%, Score: 42.6)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 20.0%, Score: 44.7)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 30.0%, Score: 42.6)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 30.0%, Score: 42.0)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 30.0%, Score: 44.0)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 30.0%, Score: 42.0)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 30.0%, Score: 36.2)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 39.2)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 36.4)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 35.6)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 30.0%, Score: 40.6)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 31.9)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 20.0%, Score: 19.1)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 20.0%, Score: 19.1)
+    - Candidato: [359295] El Albañil de Horus (Conf: 10.0%, Score: 18.2)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 10.0%, Score: 29.3)
+    - Candidato: [3398] Eye of Horus (Conf: 10.0%, Score: 20.0)
+    - Candidato: [9616] Horus (Conf: 10.0%, Score: 15.9)
+    - Candidato: [32487] Horus (Conf: 10.0%, Score: 15.9)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 34.3)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 47.8)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 52.2)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 47.3)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 54.3)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 30.0%, Score: 54.3)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 47.3)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 48.4)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 54.5)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 45.7)
+GANADOR: ID 159496 con 30.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier d’Appui Feu' ---
+Estrategias: ['The Horus Heresy - Solar Auxilia - Batterie de Rapier d’Appui Feu', 'The Horus Heresy - Solar Auxilia - Batterie  Rapier d’Appui Feu', 'Horus', 'The Horus Heresy']
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier d’Appui Feu'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie  Rapier d’Appui Feu'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 39.2)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 36.4)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 35.6)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 30.0%, Score: 40.6)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 31.9)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 34.3)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 47.8)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 52.2)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 47.3)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 54.3)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 30.0%, Score: 54.3)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 47.3)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 48.4)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 54.5)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 45.7)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 30.0%, Score: 42.6)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 20.0%, Score: 44.7)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 30.0%, Score: 42.6)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 30.0%, Score: 42.0)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 30.0%, Score: 44.0)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 30.0%, Score: 42.0)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 30.0%, Score: 36.2)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 39.2)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 36.4)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 35.6)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 30.0%, Score: 40.6)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 31.9)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 20.0%, Score: 19.1)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 20.0%, Score: 19.1)
+    - Candidato: [359295] El Albañil de Horus (Conf: 10.0%, Score: 18.2)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 10.0%, Score: 29.3)
+    - Candidato: [3398] Eye of Horus (Conf: 10.0%, Score: 20.0)
+    - Candidato: [9616] Horus (Conf: 10.0%, Score: 15.9)
+    - Candidato: [32487] Horus (Conf: 10.0%, Score: 15.9)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 34.3)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 34.7)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 47.8)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 52.2)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 47.3)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 54.3)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 30.0%, Score: 54.3)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 47.3)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 48.4)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 54.5)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 45.7)
+GANADOR: ID 159496 con 30.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier de Tir Direct' ---
+Estrategias: ['The Horus Heresy', 'The Horus Heresy - Solar Auxilia - Batterie  Rapier  Tir Direct', 'The Horus Heresy - Solar Auxilia - Batterie de Rapier de Tir Direct', 'Horus']
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier de Tir Direct'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie  Rapier  Tir Direct'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 33.3%, Score: 39.6)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 33.3%, Score: 36.7)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 33.3%, Score: 36.0)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 33.3%, Score: 40.9)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 33.3%, Score: 32.1)
+    - Candidato: [63543] Horus Heresy (Conf: 22.2%, Score: 34.8)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 33.3%, Score: 48.4)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 33.3%, Score: 43.8)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 33.3%, Score: 54.9)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 33.3%, Score: 47.8)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 33.3%, Score: 54.9)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 33.3%, Score: 52.7)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 33.3%, Score: 47.8)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 33.3%, Score: 51.1)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 33.3%, Score: 57.1)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 33.3%, Score: 50.5)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 33.3%, Score: 43.0)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 22.2%, Score: 45.2)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 33.3%, Score: 43.0)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 33.3%, Score: 42.4)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 33.3%, Score: 44.4)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 33.3%, Score: 42.3)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 33.3%, Score: 36.5)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 33.3%, Score: 39.6)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 33.3%, Score: 36.7)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 33.3%, Score: 36.0)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 33.3%, Score: 40.9)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 33.3%, Score: 32.1)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 22.2%, Score: 19.4)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 22.2%, Score: 19.4)
+    - Candidato: [359295] El Albañil de Horus (Conf: 11.1%, Score: 18.4)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 11.1%, Score: 34.6)
+    - Candidato: [3398] Eye of Horus (Conf: 11.1%, Score: 20.3)
+    - Candidato: [9616] Horus (Conf: 11.1%, Score: 16.1)
+    - Candidato: [32487] Horus (Conf: 11.1%, Score: 16.1)
+    - Candidato: [63543] Horus Heresy (Conf: 22.2%, Score: 34.8)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 33.3%, Score: 48.4)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 33.3%, Score: 43.8)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 33.3%, Score: 54.9)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 33.3%, Score: 47.8)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 33.3%, Score: 54.9)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 33.3%, Score: 52.7)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 33.3%, Score: 47.8)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 33.3%, Score: 51.1)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 33.3%, Score: 57.1)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 33.3%, Score: 50.5)
+GANADOR: ID 159496 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Solar Auxilia - Section d’Ogryns Charonites' ---
+Estrategias: ['The Horus Heresy', 'Horus', 'The Horus Heresy - Solar Auxilia - Section d’Ogryns Charonites']
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Section d’Ogryns Charonites'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 33.3%, Score: 43.1)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 33.3%, Score: 36.4)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 33.3%, Score: 37.6)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 33.3%, Score: 42.1)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 33.3%, Score: 31.9)
+    - Candidato: [63543] Horus Heresy (Conf: 22.2%, Score: 34.3)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 22.2%, Score: 34.7)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 22.2%, Score: 34.7)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 33.3%, Score: 52.2)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 33.3%, Score: 45.4)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 33.3%, Score: 52.2)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 33.3%, Score: 53.8)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 33.3%, Score: 54.3)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 33.3%, Score: 54.3)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 33.3%, Score: 51.6)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 33.3%, Score: 52.6)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 33.3%, Score: 46.5)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 33.3%, Score: 45.7)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 33.3%, Score: 55.3)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 22.2%, Score: 55.3)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 33.3%, Score: 40.4)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 33.3%, Score: 46.0)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 33.3%, Score: 45.9)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 33.3%, Score: 40.6)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 33.3%, Score: 43.5)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 33.3%, Score: 43.1)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 33.3%, Score: 36.4)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 33.3%, Score: 37.6)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 33.3%, Score: 42.1)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 33.3%, Score: 31.9)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 22.2%, Score: 19.1)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 22.2%, Score: 19.1)
+    - Candidato: [359295] El Albañil de Horus (Conf: 11.1%, Score: 18.2)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 11.1%, Score: 36.6)
+    - Candidato: [3398] Eye of Horus (Conf: 11.1%, Score: 20.0)
+    - Candidato: [9616] Horus (Conf: 11.1%, Score: 15.9)
+    - Candidato: [32487] Horus (Conf: 11.1%, Score: 15.9)
+    - Candidato: [63543] Horus Heresy (Conf: 22.2%, Score: 34.3)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 22.2%, Score: 34.7)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 22.2%, Score: 34.7)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 33.3%, Score: 52.2)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 33.3%, Score: 45.4)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 33.3%, Score: 52.2)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 33.3%, Score: 53.8)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 33.3%, Score: 54.3)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 33.3%, Score: 54.3)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 33.3%, Score: 51.6)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 33.3%, Score: 52.6)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 33.3%, Score: 46.5)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 33.3%, Score: 45.7)
+GANADOR: ID 211641 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier de Tir Direct' ---
+Estrategias: ['Horus', 'The Horus Heresy - Solar Auxilia - Batterie de Rapier de Tir Direct', 'The Horus Heresy - Solar Auxilia - Batterie  Rapier  Tir Direct', 'The Horus Heresy']
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie de Rapier de Tir Direct'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy - Solar Auxilia - Batterie  Rapier  Tir Direct'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 33.3%, Score: 39.6)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 33.3%, Score: 36.7)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 33.3%, Score: 36.0)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 33.3%, Score: 40.9)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 33.3%, Score: 32.1)
+    - Candidato: [63543] Horus Heresy (Conf: 22.2%, Score: 34.8)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 33.3%, Score: 48.4)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 33.3%, Score: 43.8)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 33.3%, Score: 54.9)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 33.3%, Score: 47.8)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 33.3%, Score: 54.9)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 33.3%, Score: 52.7)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 33.3%, Score: 47.8)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 33.3%, Score: 51.1)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 33.3%, Score: 57.1)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 33.3%, Score: 50.5)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 33.3%, Score: 43.0)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 22.2%, Score: 45.2)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 33.3%, Score: 43.0)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 33.3%, Score: 42.4)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 33.3%, Score: 44.4)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 33.3%, Score: 42.3)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 33.3%, Score: 36.5)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 33.3%, Score: 39.6)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 33.3%, Score: 36.7)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 33.3%, Score: 36.0)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 33.3%, Score: 40.9)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 33.3%, Score: 32.1)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 22.2%, Score: 19.4)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 22.2%, Score: 19.4)
+    - Candidato: [359295] El Albañil de Horus (Conf: 11.1%, Score: 18.4)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 11.1%, Score: 34.6)
+    - Candidato: [3398] Eye of Horus (Conf: 11.1%, Score: 20.3)
+    - Candidato: [9616] Horus (Conf: 11.1%, Score: 16.1)
+    - Candidato: [32487] Horus (Conf: 11.1%, Score: 16.1)
+    - Candidato: [63543] Horus Heresy (Conf: 22.2%, Score: 34.8)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 22.2%, Score: 35.1)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 33.3%, Score: 48.4)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 33.3%, Score: 43.8)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 33.3%, Score: 54.9)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 33.3%, Score: 47.8)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 33.3%, Score: 54.9)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 33.3%, Score: 52.7)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 33.3%, Score: 47.8)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 33.3%, Score: 51.1)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 33.3%, Score: 57.1)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 33.3%, Score: 50.5)
+GANADOR: ID 159496 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Journal Tactica : The Battle of Tallarn - Part One' ---
+Estrategias: ['The Horus Heresy - Journal Tactica', 'The Horus Heresy - Journal Tactica : The Battle of Tallarn - Part One', 'Horus', 'The Horus Heresy']
+  > Probando query: 'The Horus Heresy - Journal Tactica : The Battle of Tallarn - Part One'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy - Journal Tactica'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 41.1)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 41.3)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 41.5)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 40.0%, Score: 46.4)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 39.2)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 32.0)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 53.6)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 49.0)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 51.0)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 49.5)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 40.0%, Score: 47.4)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 42.9)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 46.0)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 51.9)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 47.4)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 40.0%, Score: 58.6)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 20.0%, Score: 46.5)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 40.0%, Score: 62.6)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 40.0%, Score: 51.4)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 40.0%, Score: 47.4)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 50.0%, Score: 58.1)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 40.0%, Score: 53.1)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 41.1)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 41.3)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 41.5)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 40.0%, Score: 46.4)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 39.2)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 30.0%, Score: 18.2)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 30.0%, Score: 18.2)
+    - Candidato: [359295] El Albañil de Horus (Conf: 10.0%, Score: 17.1)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 10.0%, Score: 20.7)
+    - Candidato: [3398] Eye of Horus (Conf: 20.0%, Score: 18.7)
+    - Candidato: [9616] Horus (Conf: 10.0%, Score: 14.7)
+    - Candidato: [32487] Horus (Conf: 10.0%, Score: 14.7)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 32.0)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 53.6)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 49.0)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 51.0)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 49.5)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 40.0%, Score: 47.4)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 42.9)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 46.0)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 51.9)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 47.4)
+GANADOR: ID 416718 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Horus Heresy - Journal Tactica : The Battle of Tallarn - Part One' ---
+Estrategias: ['Horus', 'The Horus Heresy - Journal Tactica : The Battle of Tallarn - Part One', 'The Horus Heresy', 'The Horus Heresy - Journal Tactica']
+  > Probando query: 'The Horus Heresy - Journal Tactica : The Battle of Tallarn - Part One'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy - Journal Tactica'
+    Encontrados 0 resultados.
+  > Probando query: 'The Horus Heresy'
+    Encontrados 75 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 41.1)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 41.3)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 41.5)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 40.0%, Score: 46.4)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 39.2)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 32.0)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 53.6)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 49.0)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 51.0)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 49.5)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 40.0%, Score: 47.4)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 42.9)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 46.0)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 51.9)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 47.4)
+    - Candidato: [211641] The Horus Heresy: Burning of Prospero (Conf: 40.0%, Score: 58.6)
+    - Candidato: [254016] Horus Heresy: Sedition's Gate Booster (Conf: 20.0%, Score: 46.5)
+    - Candidato: [255256] Horus Heresy: The Battle for Prospero (Conf: 40.0%, Score: 62.6)
+    - Candidato: [365430] Warhammer: The Horus Heresy – Age of Darkness (Conf: 40.0%, Score: 51.4)
+    - Candidato: [365650] Warhammer: The Horus Heresy – Age of Darkness Rulebook (Conf: 40.0%, Score: 47.4)
+    - Candidato: [416718] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Battle of Beta-Garmon (Conf: 50.0%, Score: 58.1)
+    - Candidato: [416588] Warhammer: The Horus Heresy – Campaigns of the Age of Darkness: The Siege of Cthonia (Conf: 40.0%, Score: 53.1)
+  > Probando query: 'Horus'
+    Encontrados 106 resultados.
+    - Candidato: [259134] Adeptus Titanicus: The Horus Heresy Rules Set (Conf: 30.0%, Score: 41.1)
+    - Candidato: [355557] Adeptus Titanicus: The Horus Heresy – Ordnance Delivery Promo Card (Conf: 30.0%, Score: 41.3)
+    - Candidato: [338745] Adeptus Titanicus: The Horus Heresy – Rulebook (Conf: 30.0%, Score: 41.5)
+    - Candidato: [296229] Adeptus Titanicus: The Horus Heresy – The Miracle of Mars Promo Stratagem Card (Conf: 40.0%, Score: 46.4)
+    - Candidato: [332332] Adeptus Titanicus: The Horus Heresy – Venerable Machine Spirit Stratagem Promo Card (Conf: 30.0%, Score: 39.2)
+    - Candidato: [98315] The Adventurers: The Pyramid of Horus (Conf: 30.0%, Score: 18.2)
+    - Candidato: [450569] The Adventurers: The Pyramid of Horus (Conf: 30.0%, Score: 18.2)
+    - Candidato: [359295] El Albañil de Horus (Conf: 10.0%, Score: 17.1)
+    - Candidato: [67969] Diceland: Horus Promo Die (Conf: 10.0%, Score: 20.7)
+    - Candidato: [3398] Eye of Horus (Conf: 20.0%, Score: 18.7)
+    - Candidato: [9616] Horus (Conf: 10.0%, Score: 14.7)
+    - Candidato: [32487] Horus (Conf: 10.0%, Score: 14.7)
+    - Candidato: [63543] Horus Heresy (Conf: 20.0%, Score: 32.0)
+    - Candidato: [3170] Horus Heresy (1993) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [8863] Horus Heresy (2003) (Conf: 20.0%, Score: 32.5)
+    - Candidato: [187679] The Horus Heresy: Betrayal at Calth (Conf: 30.0%, Score: 53.6)
+    - Candidato: [311850] The Horus Heresy: Book Eight – Malevolence (Conf: 30.0%, Score: 49.0)
+    - Candidato: [203767] The Horus Heresy: Book Five – Tempest (Conf: 30.0%, Score: 43.3)
+    - Candidato: [203765] The Horus Heresy: Book Four – Conquest (Conf: 30.0%, Score: 51.0)
+    - Candidato: [386020] The Horus Heresy: Book Nine – Crusade (Conf: 30.0%, Score: 49.5)
+    - Candidato: [153918] The Horus Heresy: Book One – Betrayal (Conf: 40.0%, Score: 47.4)
+    - Candidato: [318350] The Horus Heresy: Book Seven – Inferno (Conf: 30.0%, Score: 42.9)
+    - Candidato: [318349] The Horus Heresy: Book Six – Retribution (Conf: 30.0%, Score: 46.0)
+    - Candidato: [159496] The Horus Heresy: Book Three – Extermination (Conf: 30.0%, Score: 51.9)
+    - Candidato: [153919] The Horus Heresy: Book Two – Massacre (Conf: 30.0%, Score: 47.4)
+GANADOR: ID 416718 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Scythe - Bundle of 24 Official Promo Cards' ---
+Estrategias: ['Scythe - Bundle of 24 Official Promo Cards', 'Scythe', 'Scythe -  of 24 Official  Cards']
+  > Probando query: 'Scythe - Bundle of 24 Official Promo Cards'
+    Encontrados 0 resultados.
+  > Probando query: 'Scythe -  of 24 Official  Cards'
+    Encontrados 0 resultados.
+  > Probando query: 'Scythe'
+    Encontrados 79 resultados.
+    - Candidato: [398158] Grind House: Scythes Out (Conf: 20.0%, Score: 32.0)
+    - Candidato: [226320] My Little Scythe (Conf: 20.0%, Score: 27.9)
+    - Candidato: [416785] My Little Scythe: Big Box (Conf: 20.0%, Score: 31.4)
+    - Candidato: [305420] My Little Scythe: Pie in the Sky (Conf: 20.0%, Score: 37.9)
+    - Candidato: [169786] Scythe (Conf: 20.0%, Score: 36.4)
+    - Candidato: [276229] Scythe: Bonus Promo Pack – 6 Promo Encounter Cards numbers 37-42 (Conf: 40.0%, Score: 40.9)
+    - Candidato: [262151] Scythe: Encounters (Conf: 20.0%, Score: 45.5)
+    - Candidato: [199727] Scythe: Invaders from Afar (Conf: 20.0%, Score: 42.3)
+    - Candidato: [279304] Scythe: Modular Board (Conf: 20.0%, Score: 55.3)
+    - Candidato: [211731] Scythe: Promo Pack #1 – Encounter Cards 29-32 (Conf: 40.0%, Score: 50.0)
+    - Candidato: [221033] Scythe: Promo Pack #11 – Encounter Card 39 (Conf: 40.0%, Score: 49.2)
+    - Candidato: [232176] Scythe: Promo Pack #12 – Encounter Card 40 (Conf: 40.0%, Score: 52.3)
+    - Candidato: [232087] Scythe: Promo Pack #13 – Encounter Card 41 (Conf: 40.0%, Score: 49.2)
+    - Candidato: [237663] Scythe: Promo Pack #14 – Encounter Card 42 (Conf: 40.0%, Score: 52.3)
+    - Candidato: [205121] Scythe: Promo Pack #2 – Encounter Cards 33-36 (Conf: 40.0%, Score: 52.9)
+    - Candidato: [211732] Scythe: Promo Pack #3 – Objective Cards 24-27 (Conf: 60.0%, Score: 52.9)
+    - Candidato: [211733] Scythe: Promo Pack #4 – Factory Cards 13-18 (Conf: 40.0%, Score: 54.5)
+    - Candidato: [212879] Scythe: Promo Pack #6 – Encounter Card 37 (Conf: 40.0%, Score: 50.0)
+    - Candidato: [204984] Scythe: Promo Pack #7 – Encounter Card 38 (Conf: 40.0%, Score: 50.0)
+    - Candidato: [242277] Scythe: The Rise of Fenris (Conf: 40.0%, Score: 50.0)
+    - Candidato: [223555] Scythe: The Wind Gambit (Conf: 20.0%, Score: 40.8)
+    - Candidato: [262096] Warhammer 40,000: Kill Team – The Exalted Scythe: Necrons Starter Set (Conf: 20.0%, Score: 26.1)
+    - Candidato: [398158] Grind House: Scythes Out (Conf: 20.0%, Score: 32.0)
+    - Candidato: [305420] My Little Scythe: Pie in the Sky (Conf: 20.0%, Score: 37.9)
+    - Candidato: [276229] Scythe: Bonus Promo Pack – 6 Promo Encounter Cards numbers 37-42 (Conf: 40.0%, Score: 40.9)
+GANADOR: ID 211732 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Scythe - Bundle of 24 Official Promo Cards' ---
+Estrategias: ['Scythe -  of 24 Official  Cards', 'Scythe - Bundle of 24 Official Promo Cards', 'Scythe']
+  > Probando query: 'Scythe - Bundle of 24 Official Promo Cards'
+    Encontrados 0 resultados.
+  > Probando query: 'Scythe -  of 24 Official  Cards'
+    Encontrados 0 resultados.
+  > Probando query: 'Scythe'
+    Encontrados 79 resultados.
+    - Candidato: [398158] Grind House: Scythes Out (Conf: 20.0%, Score: 32.0)
+    - Candidato: [226320] My Little Scythe (Conf: 20.0%, Score: 27.9)
+    - Candidato: [416785] My Little Scythe: Big Box (Conf: 20.0%, Score: 31.4)
+    - Candidato: [305420] My Little Scythe: Pie in the Sky (Conf: 20.0%, Score: 37.9)
+    - Candidato: [169786] Scythe (Conf: 20.0%, Score: 36.4)
+    - Candidato: [276229] Scythe: Bonus Promo Pack – 6 Promo Encounter Cards numbers 37-42 (Conf: 40.0%, Score: 40.9)
+    - Candidato: [262151] Scythe: Encounters (Conf: 20.0%, Score: 45.5)
+    - Candidato: [199727] Scythe: Invaders from Afar (Conf: 20.0%, Score: 42.3)
+    - Candidato: [279304] Scythe: Modular Board (Conf: 20.0%, Score: 55.3)
+    - Candidato: [211731] Scythe: Promo Pack #1 – Encounter Cards 29-32 (Conf: 40.0%, Score: 50.0)
+    - Candidato: [221033] Scythe: Promo Pack #11 – Encounter Card 39 (Conf: 40.0%, Score: 49.2)
+    - Candidato: [232176] Scythe: Promo Pack #12 – Encounter Card 40 (Conf: 40.0%, Score: 52.3)
+    - Candidato: [232087] Scythe: Promo Pack #13 – Encounter Card 41 (Conf: 40.0%, Score: 49.2)
+    - Candidato: [237663] Scythe: Promo Pack #14 – Encounter Card 42 (Conf: 40.0%, Score: 52.3)
+    - Candidato: [205121] Scythe: Promo Pack #2 – Encounter Cards 33-36 (Conf: 40.0%, Score: 52.9)
+    - Candidato: [211732] Scythe: Promo Pack #3 – Objective Cards 24-27 (Conf: 60.0%, Score: 52.9)
+    - Candidato: [211733] Scythe: Promo Pack #4 – Factory Cards 13-18 (Conf: 40.0%, Score: 54.5)
+    - Candidato: [212879] Scythe: Promo Pack #6 – Encounter Card 37 (Conf: 40.0%, Score: 50.0)
+    - Candidato: [204984] Scythe: Promo Pack #7 – Encounter Card 38 (Conf: 40.0%, Score: 50.0)
+    - Candidato: [242277] Scythe: The Rise of Fenris (Conf: 40.0%, Score: 50.0)
+    - Candidato: [223555] Scythe: The Wind Gambit (Conf: 20.0%, Score: 40.8)
+    - Candidato: [262096] Warhammer 40,000: Kill Team – The Exalted Scythe: Necrons Starter Set (Conf: 20.0%, Score: 26.1)
+    - Candidato: [398158] Grind House: Scythes Out (Conf: 20.0%, Score: 32.0)
+    - Candidato: [305420] My Little Scythe: Pie in the Sky (Conf: 20.0%, Score: 37.9)
+    - Candidato: [276229] Scythe: Bonus Promo Pack – 6 Promo Encounter Cards numbers 37-42 (Conf: 40.0%, Score: 40.9)
+GANADOR: ID 211732 con 60.0% confianza.
+--------------------------------------------------
