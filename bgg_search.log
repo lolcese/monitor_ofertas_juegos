@@ -42301,3 +42301,22 @@ Estrategias: ['Scythe -  of 24 Official  Cards', 'Scythe - Bundle of 24 Official
     - Candidato: [276229] Scythe: Bonus Promo Pack – 6 Promo Encounter Cards numbers 37-42 (Conf: 40.0%, Score: 40.9)
 GANADOR: ID 211732 con 60.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fort - Chats et Chiens' ---
+Estrategias: ['Fort', 'Fort - Chats et Chiens']
+  > Probando query: 'Fort - Chats et Chiens'
+  > Probando query: 'Fort'
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Yu-Gi-Oh! JCC - Territoire Embrasé - Boite de 24 Boosters' ---
+Estrategias: ['Yu-Gi-Oh! JCC - Territoire Embrasé - Boite de 24 Boosters', 'Yu', 'Territoire', 'Yu-Gi-Oh! JCC - Territoire Embrasé - Boite  24 Boosters']
+  > Probando query: 'Yu-Gi-Oh! JCC - Territoire Embrasé - Boite de 24 Boosters'
+  > Probando query: 'Yu-Gi-Oh! JCC - Territoire Embrasé - Boite  24 Boosters'
+  > Probando query: 'Territoire'
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Yu-Gi-Oh! JCC - Territoire Embrasé - Booster' ---
+Estrategias: ['Yu', 'Territoire', 'Yu-Gi-Oh! JCC - Territoire Embrasé - Booster']
+  > Probando query: 'Yu-Gi-Oh! JCC - Territoire Embrasé - Booster'
+  > Probando query: 'Territoire'
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------

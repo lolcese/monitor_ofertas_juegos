@@ -10,7 +10,7 @@ from monitor_core import (
 )
 
 # Configuración específica de Philibert
-APPLY_FRENCH_VAT = False
+REMOVE_FRENCH_VAT = True
 SITE_NAME = 'Philibert'
 SOURCES = {
     'flash': "https://www.philibertnet.com/fr/flash-sales",
@@ -115,12 +115,12 @@ def scrape_philibert(source_key):
                 p_new = p_new_tag.text.strip() if p_new_tag else "0€"
                 p_old = p_old_tag.text.strip() if p_old_tag else p_new
                 
-                if APPLY_FRENCH_VAT:
+                if REMOVE_FRENCH_VAT:
                     try:
                         vn = float(p_new.replace('€', '').replace(',', '.').strip())
                         vo = float(p_old.replace('€', '').replace(',', '.').strip())
-                        p_new = f"{vn * 1.20:.2f} €".replace('.', ',')
-                        p_old = f"{vo * 1.20:.2f} €".replace('.', ',')
+                        p_new = f"{vn / 1.20:.2f} €".replace('.', ',')
+                        p_old = f"{vo / 1.20:.2f} €".replace('.', ',')
                     except:
                         pass
                 
