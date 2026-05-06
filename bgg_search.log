@@ -45531,3 +45531,66 @@ Estrategias: ['Call Of Cthulhu', 'Call Of Cthulhu: Harlem Unbound', 'Call', 'Cal
     - Candidato: [20097] Call It Golf (Conf: 20.0%, Score: 33.3)
 GANADOR: ID 40270 con 60.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Biathlon Crystal Globe - Edition Spéciale - Annecy Le Grand-Bornand' ---
+Estrategias: ['Biathlon Crystal Globe -  Spéciale - Annecy  Grand-Bornand', 'Biathlon', 'Biathlon Crystal Globe', 'Biathlon Crystal Globe - Edition Spéciale - Annecy Le Grand-Bornand']
+  > Probando query: 'Biathlon Crystal Globe - Edition Spéciale - Annecy Le Grand-Bornand'
+    Encontrados 0 resultados.
+  > Probando query: 'Biathlon Crystal Globe -  Spéciale - Annecy  Grand-Bornand'
+    Encontrados 0 resultados.
+  > Probando query: 'Biathlon Crystal Globe'
+    Encontrados 3 resultados.
+    - Candidato: [358910] Biathlon Crystal Globe (Conf: 42.9%, Score: 59.5)
+    - Candidato: [396242] Biathlon Crystal Globe: Piste du Grand-Bornand (Conf: 71.4%, Score: 82.5)
+    - Candidato: [396242] Biathlon Crystal Globe: Piste du Grand-Bornand (Conf: 71.4%, Score: 82.5)
+  > Probando query: 'Biathlon'
+    Encontrados 13 resultados.
+    - Candidato: [27422] Biathlon (Conf: 14.3%, Score: 26.7)
+    - Candidato: [206372] Biathlon (Conf: 14.3%, Score: 26.7)
+    - Candidato: [337622] Biathlon (Conf: 14.3%, Score: 26.7)
+    - Candidato: [88616] Biathlon (Conf: 14.3%, Score: 26.7)
+    - Candidato: [404422] Biathlon Blast (Conf: 14.3%, Score: 33.3)
+    - Candidato: [358910] Biathlon Crystal Globe (Conf: 42.9%, Score: 59.5)
+    - Candidato: [396242] Biathlon Crystal Globe: Piste du Grand-Bornand (Conf: 71.4%, Score: 82.5)
+    - Candidato: [440593] Biathlon Sprint (Conf: 14.3%, Score: 38.8)
+    - Candidato: [136939] Biathlon: Eine Leidenschaft – Ein Ziel (Conf: 14.3%, Score: 36.8)
+    - Candidato: [396848] Precision Biathlon (Conf: 14.3%, Score: 22.9)
+    - Candidato: [239465] Ski Tour: Biathlon (Conf: 14.3%, Score: 23.2)
+    - Candidato: [333387] SKOOT: The Do-It-Yourself Biathlon Boardgame (Conf: 14.3%, Score: 27.4)
+    - Candidato: [396242] Biathlon Crystal Globe: Piste du Grand-Bornand (Conf: 71.4%, Score: 82.5)
+GANADOR: ID 396242 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Iron Rail: Iberian Gauge' ---
+Estrategias: ['Iron', 'Iron Rail', 'Iron Rail: Iberian Gauge']
+  > Probando query: 'Iron Rail: Iberian Gauge'
+    Encontrados 0 resultados.
+  > Probando query: 'Iron Rail'
+    Encontrados 0 resultados.
+  > Probando query: 'Iron'
+    Encontrados 1274 resultados.
+    - Candidato: [178415] 1600: The Iron Century (Conf: 25.0%, Score: 27.3)
+    - Candidato: [411263] 1855: Iron Roads in the North of Spain (Conf: 25.0%, Score: 30.0)
+    - Candidato: [236650] 1985: Under an Iron Sky (Conf: 25.0%, Score: 22.2)
+    - Candidato: [444112] Achtung Panzer!: Iron Coffins (Conf: 25.0%, Score: 28.0)
+    - Candidato: [216906] Across the Iron Curtain (Conf: 25.0%, Score: 39.1)
+    - Candidato: [303700] Adeptus Titanicus: Shadow and Iron (Conf: 25.0%, Score: 14.3)
+    - Candidato: [446583] Against the Iron Ring (Conf: 25.0%, Score: 40.9)
+    - Candidato: [25521] Age of Iron (Conf: 25.0%, Score: 23.5)
+    - Candidato: [328710] The Age of Iron & Steel 1870 to 1929 (Conf: 25.0%, Score: 28.1)
+    - Candidato: [25550] Age of Iron Expansion Rules: Navies in Transition 1865-1890 (Conf: 25.0%, Score: 27.2)
+    - Candidato: [440731] AracKhan Wars: Singing Iron (Conf: 25.0%, Score: 16.3)
+    - Candidato: [198087] Arquebus: Men of Iron Volume IV – The Battles for Northern Italy 1495-1544 (Conf: 25.0%, Score: 29.8)
+    - Candidato: [17154] ATS Blood & Iron (Conf: 25.0%, Score: 21.6)
+    - Candidato: [236046] Battles of 1866: Blood & Iron (Conf: 25.0%, Score: 16.3)
+    - Candidato: [350226] BattleTech: Touring the Stars – Iron Land (Conf: 25.0%, Score: 26.2)
+    - Candidato: [25536] Beer and Pretzels Ironclads (BAPI) (Conf: 0.0%, Score: 25.5)
+    - Candidato: [330310] Bizkaia 1937: The Iron Belt (Conf: 25.0%, Score: 28.6)
+    - Candidato: [452393] Black Iron Sigil (Conf: 25.0%, Score: 35.9)
+    - Candidato: [5990] Blood & Iron (Conf: 25.0%, Score: 24.2)
+    - Candidato: [21290] Blood & Iron Map Pax 1 (Conf: 25.0%, Score: 41.9)
+    - Candidato: [14468] Blood & Iron: Bismarck's Wars for Empire (Conf: 25.0%, Score: 30.0)
+    - Candidato: [2260] Blood and Iron (Conf: 25.0%, Score: 21.6)
+    - Candidato: [226120] Blood Bowl (2016 Edition): Grim Ironjaw – Star Player (Conf: 0.0%, Score: 25.4)
+    - Candidato: [306339] Blood Sweat & Iron: A Simple Set of American Civil War Ironclad River Combat Rules (Conf: 25.0%, Score: 33.3)
+    - Candidato: [432975] Blood Sweat & Iron: Two Free Scenarios No.1 (Conf: 25.0%, Score: 34.9)
+GANADOR: ID 21290 con 25.0% confianza.
+--------------------------------------------------

@@ -10,7 +10,7 @@ from monitor_core import (
 )
 
 # Configuración específica de Philibert
-REMOVE_FRENCH_VAT = True
+REMOVE_FRENCH_VAT = False
 SITE_NAME = 'Philibert'
 SOURCES = {
     'flash': "https://www.philibertnet.com/fr/flash-sales",
