@@ -75,10 +75,10 @@ class ManualFixGUI:
             f = tk.Frame(self.notebook, bg="white")
             self.notebook.add(f, text=label)
             
-            tree = ttk.Treeview(f, columns=("item_name", "bgg_id", "conf", "last", "cand"), show="headings", height=18)
+            tree = ttk.Treeview(f, columns=("item_name", "source", "bgg_id", "conf", "last", "cand"), show="headings", height=18)
             tree.heading("item_name", text="Nombre del Producto", anchor=tk.W)
-            tree.heading("bgg_id", text="ID Sugerido"); tree.heading("conf", text="% Conf"); tree.heading("last", text="Fecha")
-            tree.column("item_name", width=400, anchor=tk.W); tree.column("bgg_id", width=120, anchor=tk.CENTER)
+            tree.heading("source", text="Sitio"); tree.heading("bgg_id", text="ID Sugerido"); tree.heading("conf", text="% Conf"); tree.heading("last", text="Fecha")
+            tree.column("item_name", width=320, anchor=tk.W); tree.column("source", width=100, anchor=tk.CENTER); tree.column("bgg_id", width=100, anchor=tk.CENTER)
             tree.column("conf", width=80, anchor=tk.CENTER); tree.column("last", width=100, anchor=tk.CENTER)
             tree.column("cand", width=0, stretch=tk.NO) # Invisible para almacenar el candidate_id crudo
             
@@ -163,16 +163,21 @@ class ManualFixGUI:
             else: # review
                 wh = f"{base_wh} AND (m.bgg_id IS NULL OR m.bgg_id NOT IN ('WAITING', 'IGNORED')) AND (m.confidence < 100 OR m.bgg_id NOT GLOB '[0-9]*')"
 
-            q = f"SELECT DISTINCT d.item_name, m.bgg_id, IFNULL(m.confidence,0), MAX(d.date_found), m.candidate_id FROM deals d LEFT JOIN bgg_mapping m ON d.item_name=m.item_name WHERE {wh} GROUP BY d.item_name ORDER BY d.date_found DESC LIMIT 300"
+            q = f"SELECT DISTINCT d.item_name, MAX(d.deal_source), m.bgg_id, IFNULL(m.confidence,0), MAX(d.date_found), m.candidate_id FROM deals d LEFT JOIN bgg_mapping m ON d.item_name=m.item_name WHERE {wh} GROUP BY d.item_name ORDER BY d.date_found DESC LIMIT 300"
             
             for r in conn.execute(q, (s,)).fetchall():
                 v = list(r)
-                real_id, conf, cand = v[1], v[2], v[4]
+                real_id, conf, cand = v[2], v[3], v[5]
+                
+                # Limpiar y formatear source
+                src = str(v[1]).replace('_', ' ').upper() if v[1] else "DESCONOCIDO"
+                v[1] = src
+                
                 if (not real_id or real_id in ['WAITING', 'N/A', '', '-']) and cand:
-                    v[1] = f"{cand}?"
+                    v[2] = f"{cand}?"
                 elif not real_id or real_id == 'WAITING':
-                    v[1] = "-"
-                v[2] = f"{int(v[2])}%"
+                    v[2] = "-"
+                v[3] = f"{int(v[3])}%"
                 tree.insert("", tk.END, values=v)
         finally: conn.close()
 

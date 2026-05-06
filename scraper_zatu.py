@@ -38,7 +38,8 @@ def scrape_zatu(source_key):
     max_pages = 500
     seen = set()
     while p < max_pages:
-        url = f"{url_base}?page={p}"
+        separator = "&" if "?" in url_base else "?"
+        url = f"{url_base}{separator}page={p}"
         
         print(f"-> [ZATU] Página {p} - Cargando...")
         try:
