@@ -22511,3 +22511,86 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-05-11 08:20:55
+[main 9fbcc13] Actualización 2026-05-11 08:20:55
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 26 files changed, 3219 insertions(+), 7 deletions(-)
+ create mode 100644 assets/images/bolt_action___german____cross_of_iron__grenadiers_starter_army.jpg
+ create mode 100644 assets/images/bolt_action___german____the_reich_s_praetorians__waffen_ss_starter_army.jpg
+ create mode 100644 assets/images/brindlewood_bay___nephews_in_peril.jpg
+ create mode 100644 assets/images/equipo_rescate_animal.jpg
+ create mode 100644 assets/images/l__t_abuses___fais_pas_ton_dikkenek__.jpg
+ create mode 100644 assets/images/life_of_the_amazonia.jpg
+ create mode 100644 assets/images/life_of_the_amazonia___mini_extension.jpg
+ create mode 100644 assets/images/saga___l__ge_des_c_sars.jpg
+ delete mode 100644 public/assets/images/barbearian_battlegrounds__the_candy_horde.jpg
+ create mode 100644 public/assets/images/bolt_action___german____cross_of_iron__grenadiers_starter_army.jpg
+ create mode 100644 public/assets/images/bolt_action___german____the_reich_s_praetorians__waffen_ss_starter_army.jpg
+ create mode 100644 public/assets/images/brindlewood_bay___nephews_in_peril.jpg
+ delete mode 100644 public/assets/images/champ_d_honneur.jpg
+ create mode 100644 public/assets/images/equipo_rescate_animal.jpg
+ delete mode 100644 public/assets/images/everdell_farshore__essential_upgrade_pack.jpg
+ delete mode 100644 public/assets/images/human_punishment__the_beginning___deluxe_upgrade_kit.jpg
+ create mode 100644 public/assets/images/l__t_abuses___fais_pas_ton_dikkenek__.jpg
+ create mode 100644 public/assets/images/life_of_the_amazonia.jpg
+ create mode 100644 public/assets/images/life_of_the_amazonia___mini_extension.jpg
+ create mode 100644 public/assets/images/saga___l__ge_des_c_sars.jpg
+ delete mode 100644 public/assets/images/snakes___ladders_magnetic_travel_game.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   bc4df8e..9fbcc13  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== MONITOR DEALS: INICIO (2026-05-11 08:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Phili Flash ---
+
+--- Phili Occasions ---
+
+--- Phili Private ---
+
+--- Phili Preorder ---
+
+--- MM Daily ---
+
+--- MM Sales ---
+
+--- MM Backrooms ---
+
+--- MM Clearance ---
+
+--- MM GameOn ---
+
+--- MM LastChance ---
+
+--- MM Markdown ---
+
+--- MM Preorder ---
+
+--- Planeton Ofertas ---
+
+--- Planeton Preorder ---
+
+--- Zatu Sale ---
+
+--- Zatu Outlet ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (08:20:59) ===
