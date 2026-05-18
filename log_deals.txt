@@ -41618,3 +41618,94 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-05-18 08:51:40
+[main 4fb8ad8] Actualización 2026-05-18 08:51:40
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 34 files changed, 4735 insertions(+), 7 deletions(-)
+ rename public/assets/images/age_of_sigmar___cities_of_sigmar___m_cafort_canonnade___m_cafort_conqu_rant.jpg => assets/images/age_of_sigmar___cities_of_sigmar___m_cafort.jpg (100%)
+ create mode 100644 assets/images/athl_tes_de_comp_te.jpg
+ create mode 100644 assets/images/brandywine_1777.jpg
+ create mode 100644 assets/images/foot_expert.jpg
+ create mode 100644 assets/images/model_s_counterattack_1944.jpg
+ create mode 100644 public/assets/images/age_of_sigmar___cities_of_sigmar___m_cafort.jpg
+ create mode 100644 public/assets/images/athl_tes_de_comp_te.jpg
+ delete mode 100644 public/assets/images/azul___pavillon_d__t_.jpg
+ create mode 100644 public/assets/images/brandywine_1777.jpg
+ delete mode 100644 public/assets/images/by_no_means_vulgar.jpg
+ delete mode 100644 public/assets/images/catan___barbares_et_marchands___ancienne_version.jpg
+ delete mode 100644 public/assets/images/chronicles_of_light___l_invasion_des_t_n_bres.jpg
+ delete mode 100644 public/assets/images/countryside.jpg
+ delete mode 100644 public/assets/images/dewan.jpg
+ delete mode 100644 public/assets/images/double_seven.jpg
+ delete mode 100644 public/assets/images/ducking_high.jpg
+ delete mode 100644 public/assets/images/everbloom.jpg
+ delete mode 100644 public/assets/images/five_families.jpg
+ create mode 100644 public/assets/images/foot_expert.jpg
+ delete mode 100644 public/assets/images/gloomhaven__jaws_of_the_lion.jpg
+ delete mode 100644 public/assets/images/gutterhead___the_fiendishly_filthy_drawing_game.jpg
+ delete mode 100644 public/assets/images/in_extremis.jpg
+ delete mode 100644 public/assets/images/micromacro___crime_city.jpg
+ create mode 100644 public/assets/images/model_s_counterattack_1944.jpg
+ delete mode 100644 public/assets/images/mot_malin.jpg
+ delete mode 100644 public/assets/images/namiji.jpg
+ delete mode 100644 public/assets/images/star_wars___r_bellion.jpg
+ delete mode 100644 public/assets/images/tiny_epic_crimes.jpg
+ delete mode 100644 public/assets/images/vip_rip.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   fa6f0ed..4fb8ad8  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== MONITOR DEALS: INICIO (2026-05-18 08:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Phili Flash ---
+
+--- Phili Occasions ---
+
+--- Phili Private ---
+
+--- Phili Preorder ---
+
+--- MM Daily ---
+
+--- MM Sales ---
+
+--- MM Backrooms ---
+
+--- MM Clearance ---
+
+--- MM GameOn ---
+
+--- MM LastChance ---
+
+--- MM Markdown ---
+
+--- MM Preorder ---
+
+--- Planeton Ofertas ---
+
+--- Planeton Preorder ---
+
+--- Zatu Sale ---
+
+--- Zatu Outlet ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (08:51:44) ===
