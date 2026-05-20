@@ -11,10 +11,10 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
 # --- Configuración Compartida ---
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(BASE_DIR, '.env'))
 TOKEN = os.getenv('token')
 COOKIE = os.getenv('PHILIBERT_COOKIE')
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BGG_CACHE_DB = os.path.join(BASE_DIR, 'bgg_cache.db')
 IMG_DIR = os.path.join(BASE_DIR, 'assets', 'images')
 LOG_HTML_PATH = os.path.join(BASE_DIR, 'coincidencias_fallidas.html')
@@ -188,6 +188,8 @@ def fetch_bgg_id(game_name, phili_url=None, source='match'):
             elif res.status_code == 429:
                 log(f"    ERROR 429: Rate limit detectado. Pausando 60s...")
                 time.sleep(60)
+            else:
+                log(f"    ERROR HTTP {res.status_code}: {res.text[:100]}")
             
             if best_confidence >= 95 and best_score >= 80:
                 log(f"  Match perfecto encontrado con '{q}'.")
@@ -266,6 +268,9 @@ def fetch_details(bgg_id):
                                     best_p = results['numplayers']
                 
                 return rat, rnk, item.get('type', 'Unknown'), l_dep, o_name, weight, min_p, max_p, best_p
+            else:
+                print(f"Error HTTP {res.status_code} al bajar detalles de BGG ID {bgg_id}")
+
         except Exception as e:
             print(f"Error: {e}")
             time.sleep(5)

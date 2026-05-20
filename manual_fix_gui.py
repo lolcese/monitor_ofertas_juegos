@@ -76,8 +76,12 @@ class ManualFixGUI:
             self.notebook.add(f, text=label)
             
             tree = ttk.Treeview(f, columns=("item_name", "source", "bgg_id", "conf", "last", "cand"), show="headings", height=18)
-            tree.heading("item_name", text="Nombre del Producto", anchor=tk.W)
-            tree.heading("source", text="Sitio"); tree.heading("bgg_id", text="ID Sugerido"); tree.heading("conf", text="% Conf"); tree.heading("last", text="Fecha")
+            tree.heading("item_name", text="Nombre del Producto", anchor=tk.W, command=lambda _t=tree, _c="item_name": self.treeview_sort_column(_t, _c, False))
+            tree.heading("source", text="Sitio", command=lambda _t=tree, _c="source": self.treeview_sort_column(_t, _c, False))
+            tree.heading("bgg_id", text="ID Sugerido", command=lambda _t=tree, _c="bgg_id": self.treeview_sort_column(_t, _c, False))
+            tree.heading("conf", text="% Conf", command=lambda _t=tree, _c="conf": self.treeview_sort_column(_t, _c, False))
+            tree.heading("last", text="Fecha", command=lambda _t=tree, _c="last": self.treeview_sort_column(_t, _c, False))
+
             tree.column("item_name", width=320, anchor=tk.W); tree.column("source", width=100, anchor=tk.CENTER); tree.column("bgg_id", width=100, anchor=tk.CENTER)
             tree.column("conf", width=80, anchor=tk.CENTER); tree.column("last", width=100, anchor=tk.CENTER)
             tree.column("cand", width=0, stretch=tk.NO) # Invisible para almacenar el candidate_id crudo
@@ -128,6 +132,17 @@ class ManualFixGUI:
         tk.Button(btn_row_2, text="🚫 IGNORAR", command=self.ignore, bg="#adb5bd", **self.style_btn, width=12).pack(side=tk.LEFT, expand=True, padx=1)
         
         tk.Button(detail_card, text="⏳ ESPERAR (WAIT)", command=self.wait, bg=self.colors["warning"], fg="white", **self.style_btn).pack(fill=tk.X, pady=5)
+
+    def treeview_sort_column(self, tv, col, reverse):
+        l = [(tv.set(k, col), k) for k in tv.get_children('')]
+        if col == "conf":
+            l.sort(key=lambda t: int(t[0].replace('%', '')) if str(t[0]).replace('%', '').isdigit() else -1, reverse=reverse)
+        else:
+            l.sort(key=lambda t: str(t[0]).lower(), reverse=reverse)
+        for index, (val, k) in enumerate(l):
+            tv.move(k, '', index)
+        tv.heading(col, command=lambda _t=tv, _c=col: self.treeview_sort_column(_t, _c, not reverse))
+
 
     def load_data(self):
         try:
