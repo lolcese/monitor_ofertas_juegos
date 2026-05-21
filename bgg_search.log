@@ -77779,3 +77779,797 @@ Estrategias: ['Concept Boardgame - DUTCH Language', 'Concept', 'Concept Boardgam
     - Candidato: [273468] Concept: La Recharge (Conf: 25.0%, Score: 47.1)
 GANADOR: ID 247314 con 25.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Lot des 4 Decks Commander' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Lot des 4 Decks Commander', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Lot  4 Decks Commander']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot des 4 Decks Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot  4 Decks Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Bundle' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Bundle', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes -']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Bundle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Boite de 30 Boosters de jeu' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Boite  30 Boosters', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Boite de 30 Boosters de jeu']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Boite de 30 Boosters de jeu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Boite  30 Boosters'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Booster Jumpstart' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Booster Jumpstart', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Booster Jumpstart'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Commander Decks' ---
+Estrategias: ['Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Commander Decks']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Commander Decks'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Beginner Box' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Beginner', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Beginner Box']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Beginner Box'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Beginner'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Heroes United' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Scene  Heroes United', 'Magic: The Gathering - Marvel Super Heroes - Scene Box Heroes United', 'Magic', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Heroes United'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene  Heroes United'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Villains Unleashed' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Scene Box Villains Unleashed', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Scene  Villains Unleashed']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Villains Unleashed'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene  Villains Unleashed'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Bundle' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Bundle', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes -']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Bundle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Booster de jeu' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Booster de jeu', 'Magic: The Gathering - Marvel Super Heroes - Booster', 'Magic', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Booster de jeu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Booster'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Play Booster' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Play Booster', 'Magic', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Play Booster'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Play Booster Display' ---
+Estrategias: ['Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Play Booster Display']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Play Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Pack of 6 Play Booster Display' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes -  of 6 Play Booster Display', 'Magic: The Gathering - Marvel Super Heroes - Pack of 6 Play Booster Display', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Pack of 6 Play Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -  of 6 Play Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Lot de 6 Boites de 30 Boosters de jeu' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Lot de 6 Boites de 30 Boosters de jeu', 'Magic: The Gathering - Marvel Super Heroes - Lot  6 Boites  30 Boosters', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot de 6 Boites de 30 Boosters de jeu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot  6 Boites  30 Boosters'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster Display' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster Display', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Interactions - Nature Sans Pitié' ---
+Estrategias: ['Interactions - Nature Sans Pitié', 'Interactions']
+  > Probando query: 'Interactions - Nature Sans Pitié'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Interactions'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'One Piece Le Jeu de Cartes - OP16 L'Heure de la Bataille Décisive - Boite de 24 Boosters' ---
+Estrategias: ["One Piece    Cartes - OP16 L'Heure   Bataille Décisive - Boite  24 Boosters", "One Piece Le Jeu de Cartes - OP16 L'Heure de la Bataille Décisive - Boite de 24 Boosters", 'Piece', 'One Piece    Cartes']
+  > Probando query: 'One Piece Le Jeu de Cartes - OP16 L'Heure de la Bataille Décisive - Boite de 24 Boosters'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'One Piece    Cartes - OP16 L'Heure   Bataille Décisive - Boite  24 Boosters'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'One Piece    Cartes'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Piece'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Pack d’avant-première' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes -  d’avant-première', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Pack d’avant-première']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Pack d’avant-première'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -  d’avant-première'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Thunderverse Track Pack' ---
+Estrategias: ['Thunderverse Track', 'Thunderverse', 'Thunderverse Track Pack']
+  > Probando query: 'Thunderverse Track Pack'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Thunderverse Track'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Thunderverse'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The British Way: Enemy of My Enemy' ---
+Estrategias: ['The British Way', 'British', 'The British Way: Enemy of My Enemy']
+  > Probando query: 'The British Way: Enemy of My Enemy'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'The British Way'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'British'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Villains Unleashed' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Scene Box Villains Unleashed', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Scene  Villains Unleashed']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Villains Unleashed'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene  Villains Unleashed'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Heroes United' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Scene Box Heroes United', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Scene  Heroes United']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene Box Heroes United'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Scene  Heroes United'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Bundle' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes -', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Bundle']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Bundle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Draft Night' ---
+Estrategias: ['Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Draft Night']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Draft Night'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Commander Decks' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Commander Decks', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Commander Decks'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster Display' ---
+Estrategias: ['Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster Display']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster', 'Magic', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Jumpstart Booster'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Play Booster Display' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Play Booster Display', 'Magic', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Play Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Pack of 6 Play Booster Display' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Pack of 6 Play Booster Display', 'Magic', 'Magic: The Gathering - Marvel Super Heroes -  of 6 Play Booster Display', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Pack of 6 Play Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -  of 6 Play Booster Display'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Play Booster' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Play Booster', 'Magic', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Play Booster'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Lot des 4 Decks Commander' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Lot  4 Decks Commander', 'Magic: The Gathering - Marvel Super Heroes - Lot des 4 Decks Commander', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot des 4 Decks Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot  4 Decks Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Boite de 24 Boosters Jumpstart' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Boite  24 Boosters Jumpstart', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Boite de 24 Boosters Jumpstart']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Boite de 24 Boosters Jumpstart'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Boite  24 Boosters Jumpstart'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Booster Jumpstart' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Booster Jumpstart', 'Magic: The Gathering']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Booster Jumpstart'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Bundle' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes -', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Bundle']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Bundle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes -'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Beginner Box' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Beginner', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Beginner Box']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Beginner Box'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Beginner'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Lot de 6 Boites de 30 Boosters de jeu' ---
+Estrategias: ['Magic', 'Magic: The Gathering - Marvel Super Heroes - Lot de 6 Boites de 30 Boosters de jeu', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Lot  6 Boites  30 Boosters']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot de 6 Boites de 30 Boosters de jeu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Lot  6 Boites  30 Boosters'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Boite de 30 Boosters de jeu' ---
+Estrategias: ['Magic: The Gathering - Marvel Super Heroes - Boite de 30 Boosters de jeu', 'Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Boite  30 Boosters']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Boite de 30 Boosters de jeu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Boite  30 Boosters'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Magic: The Gathering - Marvel Super Heroes - Booster de jeu' ---
+Estrategias: ['Magic', 'Magic: The Gathering', 'Magic: The Gathering - Marvel Super Heroes - Booster de jeu', 'Magic: The Gathering - Marvel Super Heroes - Booster']
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Booster de jeu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering - Marvel Super Heroes - Booster'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic: The Gathering'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Magic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Brindlewood Bay - Nephews in Peril' ---
+Estrategias: ['Brindlewood Bay', 'Brindlewood', 'Brindlewood Bay - Nephews in Peril']
+  > Probando query: 'Brindlewood Bay - Nephews in Peril'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Brindlewood Bay'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Brindlewood'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Abstract Academy' ---
+Estrategias: ['Abstract Academy', 'Abstract']
+  > Probando query: 'Abstract Academy'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Abstract'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Abstract Academy' ---
+Estrategias: ['Abstract Academy', 'Abstract']
+  > Probando query: 'Abstract Academy'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Abstract'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamlet: By the Lake Expansion' ---
+Estrategias: ['Hamlet: By the Lake Expansion', 'Hamlet', 'Hamlet: By the Lake']
+  > Probando query: 'Hamlet: By the Lake Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Hamlet: By the Lake'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Hamlet'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Carcassonne: Expansion 9 - Hills & Sheep' ---
+Estrategias: ['Carcassonne', 'Carcassonne:  9 - Hills & Sheep', 'Carcassonne:  9', 'Carcassonne: Expansion 9 - Hills & Sheep']
+  > Probando query: 'Carcassonne: Expansion 9 - Hills & Sheep'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Carcassonne:  9 - Hills & Sheep'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Carcassonne:  9'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Carcassonne'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'B-Sieged: Sons of the Abyss - Encampment Tile Set' ---
+Estrategias: ['B', 'B-Sieged: Sons of the Abyss - Encampment Tile', 'Sieged', 'B-Sieged', 'B-Sieged: Sons of the Abyss - Encampment Tile Set']
+  > Probando query: 'B-Sieged: Sons of the Abyss - Encampment Tile Set'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'B-Sieged: Sons of the Abyss - Encampment Tile'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'B-Sieged'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Sieged'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Not So Neighborly' ---
+Estrategias: ['Neighborly', 'Not So Neighborly']
+  > Probando query: 'Not So Neighborly'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Neighborly'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Moytura' ---
+Estrategias: ['Moytura']
+  > Probando query: 'Moytura'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Azure' ---
+Estrategias: ['Azure']
+  > Probando query: 'Azure'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Maestro' ---
+Estrategias: ['Maestro']
+  > Probando query: 'Maestro'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Shards of Creation' ---
+Estrategias: ['Shards', 'Shards of Creation']
+  > Probando query: 'Shards of Creation'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Shards'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dragons of Etchinstone' ---
+Estrategias: ['Dragons', 'Dragons of Etchinstone']
+  > Probando query: 'Dragons of Etchinstone'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Anomia (2025 Edition)' ---
+Estrategias: ['Anomia', 'Anomia (2025 Edition)']
+  > Probando query: 'Anomia (2025 Edition)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Anomia'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Not So Neighborly (Party Edition)' ---
+Estrategias: ['Neighborly', 'Not So Neighborly (Party Edition)', 'Not So Neighborly']
+  > Probando query: 'Not So Neighborly (Party Edition)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Not So Neighborly'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Neighborly'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk Edgerunners: Hunted' ---
+Estrategias: ['Cyberpunk Edgerunners: Hunted', 'Cyberpunk', 'Cyberpunk Edgerunners']
+  > Probando query: 'Cyberpunk Edgerunners: Hunted'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cyberpunk Edgerunners'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cyberpunk'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Trek: Space Hunt' ---
+Estrategias: ['Star Trek', 'Star Trek: Space Hunt', 'Star']
+  > Probando query: 'Star Trek: Space Hunt'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Star Trek'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Star'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '20 Strong: Solar Sentinels Deck' ---
+Estrategias: ['Strong', '20 Strong', '20 Strong: Solar Sentinels Deck']
+  > Probando query: '20 Strong: Solar Sentinels Deck'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: '20 Strong'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Strong'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'La Granja (Deluxe Master Set)' ---
+Estrategias: ['Granja', 'La Granja (Deluxe Master Set)']
+  > Probando query: 'La Granja (Deluxe Master Set)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Granja'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Tianxia: Silk Road Expansion' ---
+Estrategias: ['Tianxia', 'Tianxia: Silk Road', 'Tianxia: Silk Road Expansion']
+  > Probando query: 'Tianxia: Silk Road Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Tianxia: Silk Road'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Tianxia'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dragons of Etchinstone: Northvale Expansion' ---
+Estrategias: ['Dragons', 'Dragons of Etchinstone', 'Dragons of Etchinstone: Northvale Expansion', 'Dragons of Etchinstone: Northvale']
+  > Probando query: 'Dragons of Etchinstone: Northvale Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons of Etchinstone: Northvale'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons of Etchinstone'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dragons of Etchinstone: Siege Expansion' ---
+Estrategias: ['Dragons', 'Dragons of Etchinstone: Siege Expansion', 'Dragons of Etchinstone: Siege', 'Dragons of Etchinstone']
+  > Probando query: 'Dragons of Etchinstone: Siege Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons of Etchinstone: Siege'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons of Etchinstone'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dragons'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pest 2E: Capital City Miniature Pack' ---
+Estrategias: ['Pest 2E: Capital City Miniature', 'Pest', 'Pest 2E', 'Pest 2E: Capital City Miniature Pack']
+  > Probando query: 'Pest 2E: Capital City Miniature Pack'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Pest 2E: Capital City Miniature'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Pest 2E'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Pest'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pirates of the High Teas: And a Bottle of Rum Expansion' ---
+Estrategias: ['Pirates of the High Teas: And a Bottle of Rum', 'Pirates of the High Teas: And a Bottle of Rum Expansion', 'Pirates of the High Teas', 'Pirates']
+  > Probando query: 'Pirates of the High Teas: And a Bottle of Rum Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Pirates of the High Teas: And a Bottle of Rum'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Pirates of the High Teas'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Pirates'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Middara: Unintentional Malum - Cross-Promotion Pack' ---
+Estrategias: ['Middara', 'Middara: Unintentional Malum - Cross-Promotion Pack', 'Middara: Unintentional Malum', 'Middara: Unintentional Malum - Cross-Promotion']
+  > Probando query: 'Middara: Unintentional Malum - Cross-Promotion Pack'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Middara: Unintentional Malum - Cross-Promotion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Middara: Unintentional Malum'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Middara'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Madcala: Tweedles & Caterpillar Character Expansion 1' ---
+Estrategias: ['Madcala: Tweedles & Caterpillar Character 1', 'Madcala', 'Madcala: Tweedles & Caterpillar Character Expansion 1']
+  > Probando query: 'Madcala: Tweedles & Caterpillar Character Expansion 1'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Madcala: Tweedles & Caterpillar Character 1'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Madcala'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Off With Their Heads! Joker Promos' ---
+Estrategias: ['With', 'Off With Their Heads! Joker Promos']
+  > Probando query: 'Off With Their Heads! Joker Promos'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'With'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees' ---
+Estrategias: ['Cyberpunk Edgerunners: Hunted', 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees', 'Cyberpunk', 'Cyberpunk Edgerunners: Hunted -  Acrylic', 'Cyberpunk Edgerunners']
+  > Probando query: 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cyberpunk Edgerunners: Hunted -  Acrylic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cyberpunk Edgerunners: Hunted'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cyberpunk Edgerunners'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cyberpunk'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Worms: The Board Game (30th Anniversary Edition)' ---
+Estrategias: ['Worms: The', 'Worms', 'Worms: The Board Game (30th Anniversary Edition)']
+  > Probando query: 'Worms: The Board Game (30th Anniversary Edition)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Worms: The'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Worms'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition)' ---
+Estrategias: ["Dead Man's Draw", 'Dead', "Dead Man's Draw (10th Anniversary Edition)"]
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition): 4-Player Box' ---
+Estrategias: ["Dead Man's Draw : 4", "Dead Man's Draw : 4-Player", "Dead Man's Draw (10th Anniversary Edition): 4-Player Box", "Dead Man's Draw", 'Dead']
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition): 4-Player Box'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw : 4-Player'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw : 4'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition): 8-Player Box' ---
+Estrategias: ["Dead Man's Draw : 8-Player", "Dead Man's Draw : 8", "Dead Man's Draw (10th Anniversary Edition): 8-Player Box", "Dead Man's Draw", 'Dead']
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition): 8-Player Box'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw : 8-Player'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw : 8'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead Man's Draw'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dead'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rukus' ---
+Estrategias: ['Rukus']
+  > Probando query: 'Rukus'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ['GCSE', "GCSE - The GC's Secondary Education Game", "GCSE - The GC's Secondary Education"]
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'GCSE'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs', 'Fuzzballs Pizza Thief']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Fuzzballs'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'TMI' ---
+Estrategias: ['TMI']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Uncoated' ---
+Estrategias: ['Uncoated']
+  > Probando query: 'Uncoated'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Menstruation Crustacean Lobster Heating Pad' ---
+Estrategias: ['Menstruation Crustacean Lobster Heating Pad', 'Menstruation']
+  > Probando query: 'Menstruation Crustacean Lobster Heating Pad'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Menstruation'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
