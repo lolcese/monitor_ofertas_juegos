@@ -142,6 +142,8 @@ class ManualFixGUI:
         for index, (val, k) in enumerate(l):
             tv.move(k, '', index)
         tv.heading(col, command=lambda _t=tv, _c=col: self.treeview_sort_column(_t, _c, not reverse))
+        tv.sort_col = col
+        tv.sort_reverse = reverse
 
 
     def load_data(self):
@@ -194,6 +196,9 @@ class ManualFixGUI:
                     v[2] = "-"
                 v[3] = f"{int(v[3])}%"
                 tree.insert("", tk.END, values=v)
+                
+            if hasattr(tree, 'sort_col'):
+                self.treeview_sort_column(tree, tree.sort_col, tree.sort_reverse)
         finally: conn.close()
 
     def on_select(self, event):

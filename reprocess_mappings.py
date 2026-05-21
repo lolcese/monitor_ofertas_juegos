@@ -22,10 +22,10 @@ def reprocess_pending():
         """)
         pending = cursor.fetchall()
         
-        print(f"📦 Se han encontrado {len(pending)} juegos para buscar candidatos.")
+        print(f"[ITEM] Se han encontrado {len(pending)} juegos para buscar candidatos.")
         
         for (name,) in pending:
-            print(f"   🔍 Buscando candidato para: {name}...")
+            print(f"   [SEARCH] Buscando candidato para: {name}...")
             # IMPORTANTE: fetch_bgg_id ahora devuelve (best_id, confidence) sin filtrar por 95%
             id_b, conf = fetch_bgg_id(name)
             

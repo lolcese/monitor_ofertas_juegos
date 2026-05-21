@@ -78573,3 +78573,2415 @@ Estrategias: ['Menstruation Crustacean Lobster Heating Pad', 'Menstruation']
     ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: '20 Strong: Solar Sentinels Deck' ---
+Estrategias: ['20 Strong: Solar Sentinels Deck', 'Strong', '20 Strong']
+  > Probando query: '20 Strong: Solar Sentinels Deck'
+    Encontrados 0 resultados.
+  > Probando query: '20 Strong'
+    Encontrados 44 resultados.
+    - Candidato: [373167] 20 Strong (Conf: 40.0%, Score: 46.2)
+    - Candidato: [430683] 20 Strong: Cloudspire (Conf: 40.0%, Score: 52.0)
+    - Candidato: [466598] 20 Strong: Etherfields (Conf: 40.0%, Score: 58.8)
+    - Candidato: [373169] 20 Strong: Hoplomachus Victorum (Conf: 40.0%, Score: 53.3)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 40.0%, Score: 55.3)
+    - Candidato: [466596] 20 Strong: Tainted Grail (Conf: 40.0%, Score: 56.6)
+    - Candidato: [432950] 20 Strong: Tanglewoods (Conf: 40.0%, Score: 43.1)
+    - Candidato: [450869] 20 Strong: Tanglewoods Baba Yaga (Conf: 40.0%, Score: 42.6)
+    - Candidato: [424849] 20 Strong: Tanglewoods Gold (Conf: 40.0%, Score: 50.0)
+    - Candidato: [406959] 20 Strong: Tanglewoods Promo Cards (Conf: 40.0%, Score: 47.6)
+    - Candidato: [450859] 20 Strong: Tanglewoods Promo Cards, Vol. 2 (Conf: 40.0%, Score: 40.6)
+    - Candidato: [454585] 20 Strong: Tanglewoods Promo Cards, Vol. 3 (Conf: 40.0%, Score: 40.6)
+    - Candidato: [424848] 20 Strong: Tanglewoods Red (Conf: 40.0%, Score: 50.9)
+    - Candidato: [459063] 20 Strong: Tanglewoods Rose (Conf: 40.0%, Score: 50.0)
+    - Candidato: [424850] 20 Strong: Tanglewoods White (Conf: 40.0%, Score: 49.1)
+    - Candidato: [373168] 20 Strong: Too Many Bones (Conf: 40.0%, Score: 59.3)
+    - Candidato: [279874] Blood Bowl (2016 edition): Deeproot Strongbranch – Star Player (Conf: 0.0%, Score: 34.5)
+    - Candidato: [430683] 20 Strong: Cloudspire (Conf: 40.0%, Score: 52.0)
+    - Candidato: [466598] 20 Strong: Etherfields (Conf: 40.0%, Score: 58.8)
+    - Candidato: [373169] 20 Strong: Hoplomachus Victorum (Conf: 40.0%, Score: 53.3)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 40.0%, Score: 55.3)
+    - Candidato: [466596] 20 Strong: Tainted Grail (Conf: 40.0%, Score: 56.6)
+    - Candidato: [450869] 20 Strong: Tanglewoods Baba Yaga (Conf: 40.0%, Score: 42.6)
+    - Candidato: [424849] 20 Strong: Tanglewoods Gold (Conf: 40.0%, Score: 50.0)
+    - Candidato: [406959] 20 Strong: Tanglewoods Promo Cards (Conf: 40.0%, Score: 47.6)
+  > Probando query: 'Strong'
+    Encontrados 288 resultados.
+    - Candidato: [373167] 20 Strong (Conf: 40.0%, Score: 46.2)
+    - Candidato: [430683] 20 Strong: Cloudspire (Conf: 40.0%, Score: 52.0)
+    - Candidato: [466598] 20 Strong: Etherfields (Conf: 40.0%, Score: 58.8)
+    - Candidato: [373169] 20 Strong: Hoplomachus Victorum (Conf: 40.0%, Score: 53.3)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 40.0%, Score: 55.3)
+    - Candidato: [466596] 20 Strong: Tainted Grail (Conf: 40.0%, Score: 56.6)
+    - Candidato: [432950] 20 Strong: Tanglewoods (Conf: 40.0%, Score: 43.1)
+    - Candidato: [450869] 20 Strong: Tanglewoods Baba Yaga (Conf: 40.0%, Score: 42.6)
+    - Candidato: [424849] 20 Strong: Tanglewoods Gold (Conf: 40.0%, Score: 50.0)
+    - Candidato: [406959] 20 Strong: Tanglewoods Promo Cards (Conf: 40.0%, Score: 47.6)
+    - Candidato: [450859] 20 Strong: Tanglewoods Promo Cards, Vol. 2 (Conf: 40.0%, Score: 40.6)
+    - Candidato: [454585] 20 Strong: Tanglewoods Promo Cards, Vol. 3 (Conf: 40.0%, Score: 40.6)
+    - Candidato: [424848] 20 Strong: Tanglewoods Red (Conf: 40.0%, Score: 50.9)
+    - Candidato: [459063] 20 Strong: Tanglewoods Rose (Conf: 40.0%, Score: 50.0)
+    - Candidato: [424850] 20 Strong: Tanglewoods White (Conf: 40.0%, Score: 49.1)
+    - Candidato: [373168] 20 Strong: Too Many Bones (Conf: 40.0%, Score: 59.3)
+    - Candidato: [34764] 57th Panzer Korps: The Strong Right Hook (Conf: 20.0%, Score: 29.0)
+    - Candidato: [278696] Aftershock: San Francisco & Venice – Stronghold Support Promo Card (Conf: 0.0%, Score: 28.6)
+    - Candidato: [441076] Agemonia: Stronger Enemies (Conf: 20.0%, Score: 50.9)
+    - Candidato: [34378] As Strong as a Lion (Conf: 20.0%, Score: 44.9)
+    - Candidato: [279874] Blood Bowl (2016 edition): Deeproot Strongbranch – Star Player (Conf: 0.0%, Score: 34.5)
+    - Candidato: [204454] Core Worlds: The Stronghold (Conf: 0.0%, Score: 35.7)
+    - Candidato: [465310] DIE!geon: Golem Stronghold (Conf: 0.0%, Score: 36.4)
+    - Candidato: [146407] Dust Tactics: Allied Fortification – Field Phaser Bunker / Strongpoint (Conf: 0.0%, Score: 21.1)
+    - Candidato: [146406] Dust Tactics: Axis Fortification – Heavy Laser Bunker / Strongpoint (Conf: 0.0%, Score: 21.7)
+GANADOR: ID 373168 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'B-Sieged: Sons of the Abyss - Encampment Tile Set' ---
+Estrategias: ['B-Sieged: Sons of the Abyss - Encampment Tile Set', 'B-Sieged: Sons of the Abyss - Encampment Tile', 'B', 'Sieged', 'B-Sieged']
+  > Probando query: 'B-Sieged: Sons of the Abyss - Encampment Tile Set'
+    Encontrados 0 resultados.
+  > Probando query: 'B-Sieged: Sons of the Abyss - Encampment Tile'
+    Encontrados 0 resultados.
+  > Probando query: 'B-Sieged'
+    Encontrados 19 resultados.
+    - Candidato: [177414] B-Sieged: Darkness & Fury (Conf: 25.0%, Score: 43.8)
+    - Candidato: [198457] B-Sieged: Darkness & Fury Exclusive Promo Miniatures (Conf: 25.0%, Score: 39.6)
+    - Candidato: [177951] B-Sieged: Encampment Tile Set (Conf: 50.0%, Score: 68.6)
+    - Candidato: [177629] B-Sieged: Heroes Set 1 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [187537] B-Sieged: Heroes Set 2 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [164865] B-Sieged: Sons of the Abyss (Conf: 75.0%, Score: 76.5)
+    - Candidato: [193890] B-Sieged: Sons of the Abyss – Defender Level Kickstarter Rewards (Conf: 75.0%, Score: 64.1)
+    - Candidato: [253332] B-Sieged: Sons of the Abyss – Promo Heroes: Dahlia the Peasant, Viggo the Captain, and Astrid the Princess (Conf: 75.0%, Score: 52.1)
+    - Candidato: [253331] B-Sieged: Sons of the Abyss – Promo Heroes: Eivor the Knoble, Thorlak the Barbarian, and Donatto the Cook (Conf: 75.0%, Score: 46.8)
+    - Candidato: [199742] B-Sieged: Sons of the Abyss – Promo Pack 2016 (Conf: 75.0%, Score: 69.0)
+    - Candidato: [177414] B-Sieged: Darkness & Fury (Conf: 25.0%, Score: 43.8)
+    - Candidato: [198457] B-Sieged: Darkness & Fury Exclusive Promo Miniatures (Conf: 25.0%, Score: 39.6)
+    - Candidato: [177951] B-Sieged: Encampment Tile Set (Conf: 50.0%, Score: 68.6)
+    - Candidato: [177629] B-Sieged: Heroes Set 1 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [187537] B-Sieged: Heroes Set 2 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [193890] B-Sieged: Sons of the Abyss – Defender Level Kickstarter Rewards (Conf: 75.0%, Score: 64.1)
+    - Candidato: [253332] B-Sieged: Sons of the Abyss – Promo Heroes: Dahlia the Peasant, Viggo the Captain, and Astrid the Princess (Conf: 75.0%, Score: 52.1)
+    - Candidato: [253331] B-Sieged: Sons of the Abyss – Promo Heroes: Eivor the Knoble, Thorlak the Barbarian, and Donatto the Cook (Conf: 75.0%, Score: 46.8)
+    - Candidato: [199742] B-Sieged: Sons of the Abyss – Promo Pack 2016 (Conf: 75.0%, Score: 69.0)
+  > Probando query: 'Sieged'
+    Encontrados 20 resultados.
+    - Candidato: [177414] B-Sieged: Darkness & Fury (Conf: 25.0%, Score: 43.8)
+    - Candidato: [198457] B-Sieged: Darkness & Fury Exclusive Promo Miniatures (Conf: 25.0%, Score: 39.6)
+    - Candidato: [177951] B-Sieged: Encampment Tile Set (Conf: 50.0%, Score: 68.6)
+    - Candidato: [177629] B-Sieged: Heroes Set 1 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [187537] B-Sieged: Heroes Set 2 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [164865] B-Sieged: Sons of the Abyss (Conf: 75.0%, Score: 76.5)
+    - Candidato: [193890] B-Sieged: Sons of the Abyss – Defender Level Kickstarter Rewards (Conf: 75.0%, Score: 64.1)
+    - Candidato: [253332] B-Sieged: Sons of the Abyss – Promo Heroes: Dahlia the Peasant, Viggo the Captain, and Astrid the Princess (Conf: 75.0%, Score: 52.1)
+    - Candidato: [253331] B-Sieged: Sons of the Abyss – Promo Heroes: Eivor the Knoble, Thorlak the Barbarian, and Donatto the Cook (Conf: 75.0%, Score: 46.8)
+    - Candidato: [199742] B-Sieged: Sons of the Abyss – Promo Pack 2016 (Conf: 75.0%, Score: 69.0)
+    - Candidato: [177414] B-Sieged: Darkness & Fury (Conf: 25.0%, Score: 43.8)
+    - Candidato: [198457] B-Sieged: Darkness & Fury Exclusive Promo Miniatures (Conf: 25.0%, Score: 39.6)
+    - Candidato: [177951] B-Sieged: Encampment Tile Set (Conf: 50.0%, Score: 68.6)
+    - Candidato: [177629] B-Sieged: Heroes Set 1 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [187537] B-Sieged: Heroes Set 2 (Conf: 25.0%, Score: 47.6)
+    - Candidato: [193890] B-Sieged: Sons of the Abyss – Defender Level Kickstarter Rewards (Conf: 75.0%, Score: 64.1)
+    - Candidato: [253332] B-Sieged: Sons of the Abyss – Promo Heroes: Dahlia the Peasant, Viggo the Captain, and Astrid the Princess (Conf: 75.0%, Score: 52.1)
+    - Candidato: [253331] B-Sieged: Sons of the Abyss – Promo Heroes: Eivor the Knoble, Thorlak the Barbarian, and Donatto the Cook (Conf: 75.0%, Score: 46.8)
+    - Candidato: [199742] B-Sieged: Sons of the Abyss – Promo Pack 2016 (Conf: 75.0%, Score: 69.0)
+GANADOR: ID 164865 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Berserk Deluxe Edition Hardback 02' ---
+Estrategias: ['Berserk Deluxe Edition Hardback 02', 'Berserk   Hardback 02', 'Berserk']
+  > Probando query: 'Berserk Deluxe Edition Hardback 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Berserk   Hardback 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Berserk'
+    Encontrados 69 resultados.
+    - Candidato: [150576] Battle of Berserk (Conf: 33.3%, Score: 38.9)
+    - Candidato: [447090] BattleForge: Berserker (Conf: 33.3%, Score: 40.0)
+    - Candidato: [98520] Berserk (Conf: 33.3%, Score: 53.8)
+    - Candidato: [77433] Berserk Junior (Conf: 33.3%, Score: 54.5)
+    - Candidato: [125444] Berserk Trading Card Game (Conf: 33.3%, Score: 54.5)
+    - Candidato: [189678] Berserk: Heroes (Conf: 33.3%, Score: 60.6)
+    - Candidato: [150323] Berserk: Knights and Villains (Conf: 33.3%, Score: 51.1)
+    - Candidato: [110407] Berserk: Tactical Card Game – War of Realms (Conf: 33.3%, Score: 44.1)
+    - Candidato: [454098] Berserk: The Board Game (Conf: 33.3%, Score: 63.4)
+    - Candidato: [19544] Berserk: Trading Card Game (Conf: 33.3%, Score: 54.5)
+    - Candidato: [131332] Berserk: War of the Realms (Conf: 33.3%, Score: 50.0)
+    - Candidato: [1779] Berserker (Conf: 33.3%, Score: 57.1)
+    - Candidato: [36114] Berserker (Conf: 33.3%, Score: 57.1)
+    - Candidato: [19732] Berserker Halflings from the Dungeon of Dragons (Conf: 33.3%, Score: 39.4)
+    - Candidato: [383525] Berserkers (Conf: 33.3%, Score: 55.2)
+    - Candidato: [425016] Berserkers: Chaos Extension (Conf: 33.3%, Score: 48.9)
+    - Candidato: [459558] Berserkr: Psalms of Ragnarök (Conf: 33.3%, Score: 47.8)
+    - Candidato: [349286] Here to Slay: Berserkers & Necromancers (Conf: 33.3%, Score: 36.4)
+    - Candidato: [271671] The Red Dragon Inn: Berserker Brew (Conf: 33.3%, Score: 34.6)
+    - Candidato: [276878] Requiem: Vampire Knight – Berserkers (Conf: 33.3%, Score: 30.8)
+    - Candidato: [235588] Runewars Miniatures Game: Berserkers – Unit Expansion (Conf: 33.3%, Score: 26.1)
+    - Candidato: [279061] A Song of Ice & Fire: Tabletop Miniatures Game – Umber Berserkers (Conf: 33.3%, Score: 20.3)
+    - Candidato: [464837] Sovereign: Bretwalda – Bishops and Berserkers (Conf: 33.3%, Score: 26.2)
+    - Candidato: [270357] Sword & Sorcery: Hero Pack – Skeld: Slayer / Berserker (Conf: 33.3%, Score: 24.6)
+    - Candidato: [385621] Zombicide: Berserker Walkers (Conf: 33.3%, Score: 43.5)
+GANADOR: ID 454098 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Brain Box - Animaux' ---
+Estrategias: ['Brain Box - Animaux', 'Brain', 'Brain  - Animaux']
+  > Probando query: 'Brain Box - Animaux'
+    Encontrados 0 resultados.
+  > Probando query: 'Brain  - Animaux'
+    Encontrados 1 resultados.
+    - Candidato: [42309] Brainbox: Animaux (Conf: 50.0%, Score: 89.7)
+  > Probando query: 'Brain'
+    Encontrados 530 resultados.
+    - Candidato: [37956] Alien Queen Brain (Conf: 50.0%, Score: 33.3)
+    - Candidato: [39342] Bet Your Brain (Conf: 50.0%, Score: 37.0)
+    - Candidato: [465053] Bet your Brain: Den Sjove (Conf: 50.0%, Score: 37.8)
+    - Candidato: [465051] Bet Your Brain: Familieudgave (Conf: 50.0%, Score: 43.9)
+    - Candidato: [19104] Bible Brainstorm (Conf: 0.0%, Score: 41.4)
+    - Candidato: [172371] The Big Box of Brain Stumping Fun (Conf: 50.0%, Score: 34.8)
+    - Candidato: [30485] Big Brain Academy Boardgame (Conf: 50.0%, Score: 45.0)
+    - Candidato: [39778] Big Brain Academy Cardgame (Conf: 50.0%, Score: 46.2)
+    - Candidato: [196373] Big Brain Academy Tangram (Conf: 50.0%, Score: 47.4)
+    - Candidato: [184783] Big Brain Bang (Conf: 50.0%, Score: 59.3)
+    - Candidato: [407964] The Big Brain Game (Conf: 50.0%, Score: 51.6)
+    - Candidato: [7819] Bird Brain (Conf: 50.0%, Score: 43.5)
+    - Candidato: [444023] Bird Brain (Conf: 50.0%, Score: 43.5)
+    - Candidato: [449867] Bird Brains (Conf: 50.0%, Score: 41.7)
+    - Candidato: [158614] Bob's Brain (Conf: 50.0%, Score: 41.7)
+    - Candidato: [457909] Boom Your Brains: Musik 1 (Conf: 50.0%, Score: 37.8)
+    - Candidato: [457910] Boom Your Brains: Musik 2 (Conf: 50.0%, Score: 37.8)
+    - Candidato: [457905] Boom Your Brains: Trivia 1 (Conf: 50.0%, Score: 36.8)
+    - Candidato: [457907] Boom Your Brains: Trivia 2 (Conf: 50.0%, Score: 36.8)
+    - Candidato: [391625] The Brain (Conf: 50.0%, Score: 45.5)
+    - Candidato: [409565] Brain Ache (Conf: 50.0%, Score: 60.9)
+    - Candidato: [9921] Brain Ache (Conf: 50.0%, Score: 60.9)
+    - Candidato: [5873] Brain Baseball (Conf: 50.0%, Score: 59.3)
+    - Candidato: [13546] Brain Bash! (Conf: 50.0%, Score: 60.9)
+    - Candidato: [29486] Brain Burn (Conf: 50.0%, Score: 60.9)
+GANADOR: ID 42309 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bridge of Lies' ---
+Estrategias: ['Bridge', 'Bridge of Lies']
+  > Probando query: 'Bridge of Lies'
+    Encontrados 0 resultados.
+  > Probando query: 'Bridge'
+    Encontrados 503 resultados.
+    - Candidato: [424450] 100 Hands of Robot Bridge: A Playing Card Bridge Automaton (Conf: 66.7%, Score: 22.5)
+    - Candidato: [418687] 40 Bridges (Conf: 33.3%, Score: 58.3)
+    - Candidato: [5700] Air Bridge to Victory: Operation Market-Garden, 1944 (Conf: 33.3%, Score: 34.4)
+    - Candidato: [32299] All American: The 82nd Airborne at Kellam's Bridge – June 6-9, 1944 (Conf: 33.3%, Score: 20.8)
+    - Candidato: [242520] All Bridges Burning: Red Revolt and White Guard in Finland, 1917-1918 (Conf: 33.3%, Score: 24.7)
+    - Candidato: [468866] All Hands on Deck!: A Bridge Command Crew Drafting Game (Conf: 33.3%, Score: 32.8)
+    - Candidato: [84464] Animal Upon Animal: Balancing Bridge (Conf: 33.3%, Score: 24.5)
+    - Candidato: [291522] ArcWorlde: Battle For Troll Bridge (Conf: 33.3%, Score: 25.5)
+    - Candidato: [4472] Arnhem Bridge (Conf: 33.3%, Score: 44.4)
+    - Candidato: [73245] Arnhem: The Farthest Bridge (Conf: 33.3%, Score: 30.0)
+    - Candidato: [17431] Arnhem: The Third Bridge (Conf: 33.3%, Score: 32.4)
+    - Candidato: [151011] ASL Action Pack #9: To the Bridge! (Conf: 33.3%, Score: 26.7)
+    - Candidato: [438566] Assault Sicily 43: Primosole Bridge Expansion (Conf: 33.3%, Score: 27.6)
+    - Candidato: [184979] ATS Core Module: All American I – Capture of the La Fiere Bridge 1944 (Conf: 66.7%, Score: 17.5)
+    - Candidato: [184983] ATS Core Module: Arnhem – One Bridge... Too Far 1944 (Conf: 33.3%, Score: 33.3)
+    - Candidato: [331235] ATS Leningrad I: Brandenburger Bridgehead (Conf: 0.0%, Score: 25.9)
+    - Candidato: [1116] Back Alley Bridge (Conf: 33.3%, Score: 38.7)
+    - Candidato: [464864] The Battle for Leybar Bridge (Conf: 33.3%, Score: 28.6)
+    - Candidato: [39031] The Battle for the Bridge (Conf: 33.3%, Score: 30.8)
+    - Candidato: [329473] The Battle of Cropredy Bridge: June 29th 1644 (Conf: 66.7%, Score: 27.6)
+    - Candidato: [66441] Battle with the Swedes for Charles Bridge (Conf: 33.3%, Score: 21.8)
+    - Candidato: [10312] Beginner's Bridge (Conf: 33.3%, Score: 38.7)
+    - Candidato: [99461] Beginners to Winners Bridge (Conf: 33.3%, Score: 29.3)
+    - Candidato: [109464] Bobs The New Bridge Game (Conf: 33.3%, Score: 42.1)
+    - Candidato: [149681] Bolt Action: Pegasus Bridge (Conf: 33.3%, Score: 30.0)
+GANADOR: ID 329473 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Brindlewood Bay - Nephews in Peril' ---
+Estrategias: ['Brindlewood', 'Brindlewood Bay - Nephews in Peril', 'Brindlewood Bay']
+  > Probando query: 'Brindlewood Bay - Nephews in Peril'
+    Encontrados 2 resultados.
+  > Probando query: 'Brindlewood Bay'
+    Encontrados 42 resultados.
+  > Probando query: 'Brindlewood'
+    Encontrados 42 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Call Of Cthulhu: Harlem Unbound - 2nd Edition' ---
+Estrategias: ['Call Of Cthulhu: Harlem Unbound -', 'Call Of Cthulhu: Harlem Unbound - 2nd Edition', 'Call Of Cthulhu', 'Call Of Cthulhu: Harlem Unbound', 'Call']
+  > Probando query: 'Call Of Cthulhu: Harlem Unbound - 2nd Edition'
+    Encontrados 1 resultados.
+  > Probando query: 'Call Of Cthulhu: Harlem Unbound -'
+    Encontrados 3 resultados.
+  > Probando query: 'Call Of Cthulhu: Harlem Unbound'
+    Encontrados 3 resultados.
+  > Probando query: 'Call Of Cthulhu'
+    ERROR: HTTPSConnectionPool(host='boardgamegeek.com', port=443): Read timed out. (read timeout=15)
+  > Probando query: 'Call'
+    Encontrados 1736 resultados.
+    - Candidato: [448539] 999: Calling all Cars! (Conf: 20.0%, Score: 36.0)
+    - Candidato: [59310] A la chita callando (Conf: 0.0%, Score: 28.6)
+    - Candidato: [457607] Ace of Spades: Call of the Zombie (Conf: 40.0%, Score: 38.7)
+    - Candidato: [418441] Aetherstream: Interceptor – Callistonian Empire Squadron Set (Conf: 0.0%, Score: 23.0)
+    - Candidato: [335714] Alien Mating Calls (Conf: 20.0%, Score: 16.7)
+    - Candidato: [333617] Altar Quest: Call of the Lunarin (Conf: 40.0%, Score: 45.9)
+    - Candidato: [36583] Arcanum: Call to Adventure (Conf: 20.0%, Score: 40.0)
+    - Candidato: [257839] Arkham Noir: Case #2 – Called Forth By Thunder (Conf: 0.0%, Score: 33.3)
+    - Candidato: [135442] Ascendance: Call of Thuria (Conf: 40.0%, Score: 43.6)
+    - Candidato: [6819] ASS-Edition: Calligrafic von 1769 (Conf: 0.0%, Score: 22.6)
+    - Candidato: [30794] Babylon 5: A Call to Arms (Second Edition) – Fleet Lists (Conf: 20.0%, Score: 29.6)
+    - Candidato: [49983] Babylon 5: A Call to Arms (Second Edition) – Powers and Principalities (Conf: 20.0%, Score: 27.4)
+    - Candidato: [28868] Babylon 5: A Call to Arms Starter Set (Conf: 20.0%, Score: 33.3)
+    - Candidato: [30795] Babylon 5: A Call to Arms – Second Edition (Conf: 20.0%, Score: 37.7)
+    - Candidato: [28250] BattleLore: Call to Arms (Conf: 20.0%, Score: 37.7)
+    - Candidato: [14241] Bing Crosby's Game: Call Me Lucky (Conf: 20.0%, Score: 22.6)
+    - Candidato: [435773] Bird Call (Conf: 20.0%, Score: 20.5)
+    - Candidato: [428117] Birdy Call (Conf: 20.0%, Score: 20.0)
+    - Candidato: [300031] Black Stories Junior: Call of the Wild (Conf: 40.0%, Score: 35.8)
+    - Candidato: [362888] Boo-ty Call (Conf: 20.0%, Score: 19.5)
+    - Candidato: [16017] Call 'em All! (Conf: 20.0%, Score: 39.0)
+    - Candidato: [456139] Call 911! (Conf: 20.0%, Score: 26.3)
+    - Candidato: [592] Call Break (Conf: 20.0%, Score: 30.0)
+    - Candidato: [51976] Call It A Day (Conf: 20.0%, Score: 37.2)
+    - Candidato: [20097] Call It Golf (Conf: 20.0%, Score: 33.3)
+GANADOR: ID 333617 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Codex: Drukhari (Hardback) - German Language Version' ---
+Estrategias: ['Codex: Drukhari  - German Language', 'Codex', 'Codex: Drukhari', 'Codex: Drukhari (Hardback) - German Language Version']
+  > Probando query: 'Codex: Drukhari (Hardback) - German Language Version'
+    Encontrados 0 resultados.
+  > Probando query: 'Codex: Drukhari  - German Language'
+    Encontrados 0 resultados.
+  > Probando query: 'Codex: Drukhari'
+    Encontrados 4 resultados.
+    - Candidato: [303078] Warhammer 40,000 (Eighth Edition): Codex – Drukhari (Conf: 50.0%, Score: 36.8)
+    - Candidato: [337027] Warhammer 40,000 (Ninth Edition): Codex – Drukhari (Conf: 50.0%, Score: 37.3)
+    - Candidato: [303078] Warhammer 40,000 (Eighth Edition): Codex – Drukhari (Conf: 50.0%, Score: 36.8)
+    - Candidato: [337027] Warhammer 40,000 (Ninth Edition): Codex – Drukhari (Conf: 50.0%, Score: 37.3)
+  > Probando query: 'Codex'
+    Encontrados 969 resultados.
+    - Candidato: [458675] 5150: Vampire Codex – Tales from the Fringe (Conf: 25.0%, Score: 34.3)
+    - Candidato: [452096] Black Rose Wars: Revised Edition – Codex Tenebrae (Conf: 25.0%, Score: 23.7)
+    - Candidato: [134096] CodeX (Conf: 25.0%, Score: 28.6)
+    - Candidato: [20828] Codex (Conf: 25.0%, Score: 28.6)
+    - Candidato: [460345] Codex Astronomica (Conf: 25.0%, Score: 34.0)
+    - Candidato: [314503] Codex Naturalis (Conf: 25.0%, Score: 40.0)
+    - Candidato: [33544] Codex Titanicus (Conf: 25.0%, Score: 44.4)
+    - Candidato: [215437] Codex: Card-Time Strategy – Core Set (Conf: 25.0%, Score: 44.4)
+    - Candidato: [131111] Codex: Card-Time Strategy – Deluxe Set (Conf: 25.0%, Score: 43.1)
+    - Candidato: [215435] Codex: Card-Time Strategy – Flagstone Dominion vs. Blackhand Scourge Expansion (Conf: 25.0%, Score: 32.7)
+    - Candidato: [215436] Codex: Card-Time Strategy – Starter Set (Conf: 25.0%, Score: 45.5)
+    - Candidato: [215433] Codex: Card-Time Strategy – Whitestar Order vs. Vortoss Conclave Expansion (Conf: 25.0%, Score: 32.0)
+    - Candidato: [302571] Codex: L'Ultime secret de Léonard de Vinci (Conf: 25.0%, Score: 31.0)
+    - Candidato: [442990] Codex: La malédiction de l'Abbaye de Thélème (Conf: 25.0%, Score: 43.8)
+    - Candidato: [391338] Codex: The Voynich Manuscript (Conf: 25.0%, Score: 44.8)
+    - Candidato: [263762] Cryptid Codex (Conf: 25.0%, Score: 23.3)
+    - Candidato: [434128] Diceolated: Codex Sentences (Conf: 25.0%, Score: 35.7)
+    - Candidato: [281123] Fistful of Lead: Galactic Heroes – Codex Galactica (Conf: 25.0%, Score: 26.0)
+    - Candidato: [406489] Fistful of Lead: Galactic Heroes – Codex Galactica: Grimdark Edition (Conf: 25.0%, Score: 23.4)
+    - Candidato: [374858] Leonardo da Vinci's Codex Leicester (Conf: 25.0%, Score: 27.7)
+    - Candidato: [26142] Maestro Leonardo: Codex Leonardi – II (Conf: 25.0%, Score: 31.2)
+    - Candidato: [32334] Maestro Leonardo: Codex Leonardi – III (Conf: 25.0%, Score: 30.8)
+    - Candidato: [169144] The Mage Codex (Conf: 25.0%, Score: 22.7)
+    - Candidato: [159764] Starbattles Center Ion Cathode Ships (Codex) (Conf: 25.0%, Score: 13.9)
+    - Candidato: [358783] Tome: The Gold Codex (Conf: 25.0%, Score: 20.4)
+GANADOR: ID 337027 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Concept Boardgame - DUTCH Language Version' ---
+Estrategias: ['Concept Boardgame - DUTCH Language', 'Concept Boardgame', 'Concept', 'Concept Boardgame - DUTCH Language Version']
+  > Probando query: 'Concept Boardgame - DUTCH Language Version'
+    Encontrados 0 resultados.
+  > Probando query: 'Concept Boardgame - DUTCH Language'
+    Encontrados 0 resultados.
+  > Probando query: 'Concept Boardgame'
+    Encontrados 0 resultados.
+  > Probando query: 'Concept'
+    Encontrados 59 resultados.
+    - Candidato: [147151] Concept (Conf: 25.0%, Score: 35.9)
+    - Candidato: [247314] Concept Kids: Animals (Conf: 25.0%, Score: 50.0)
+    - Candidato: [294625] Concept Kids: Animals – Fantasy Animals Promo Cards (Conf: 25.0%, Score: 30.0)
+    - Candidato: [343307] Concept: Demo Mini Game (Conf: 25.0%, Score: 48.1)
+    - Candidato: [273468] Concept: La Recharge (Conf: 25.0%, Score: 47.1)
+    - Candidato: [307230] Concept: Print & Play (Conf: 25.0%, Score: 48.0)
+    - Candidato: [61714] Conceptualize This! (Conf: 0.0%, Score: 48.0)
+    - Candidato: [56926] EdLee: A Game of Self-Concept (Conf: 25.0%, Score: 23.3)
+    - Candidato: [207245] High Concept (Conf: 25.0%, Score: 31.8)
+    - Candidato: [27601] The Self-Concept Game (Conf: 25.0%, Score: 45.3)
+    - Candidato: [41059] War: A New Concept in War Games (Conf: 25.0%, Score: 45.2)
+    - Candidato: [294625] Concept Kids: Animals – Fantasy Animals Promo Cards (Conf: 25.0%, Score: 30.0)
+    - Candidato: [273468] Concept: La Recharge (Conf: 25.0%, Score: 47.1)
+GANADOR: ID 247314 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Critical Role Vox Machina Origins Library Ed Hardcover 01' ---
+Estrategias: ['Critical Role Vox Machina Origins Library Ed Hardcover 01', 'Critical']
+  > Probando query: 'Critical Role Vox Machina Origins Library Ed Hardcover 01'
+    Encontrados 0 resultados.
+  > Probando query: 'Critical'
+    Encontrados 320 resultados.
+    - Candidato: [233222] The Agents: Mission Critical Expansion Set (Second Edition) (Conf: 11.1%, Score: 33.6)
+    - Candidato: [147402] The Agents: Mission: Critical (Conf: 11.1%, Score: 19.0)
+    - Candidato: [368128] CLUE: Critical Role (Conf: 22.2%, Score: 34.7)
+    - Candidato: [465849] Codenames: Critical Role Adventures (Conf: 22.2%, Score: 41.8)
+    - Candidato: [465851] Codenames: Critical Role Adventures – Vox Machina Expansion Pack (Conf: 44.4%, Score: 52.5)
+    - Candidato: [29854] Critical Acclaim: The Acting Game (Conf: 11.1%, Score: 40.4)
+    - Candidato: [343278] Critical Care: The Game (Conf: 11.1%, Score: 38.0)
+    - Candidato: [393855] Critical Cut! (Conf: 11.1%, Score: 29.0)
+    - Candidato: [72447] Critical Decisions (Conf: 11.1%, Score: 32.0)
+    - Candidato: [331668] Critical Fail (Conf: 11.1%, Score: 28.6)
+    - Candidato: [450638] Critical Fix: Data Center Chaos (Conf: 11.1%, Score: 41.4)
+    - Candidato: [239119] Critical Fumblers In the Dungeon of Intellectual Doom...and the insanity that awaits them! (Conf: 11.1%, Score: 36.1)
+    - Candidato: [90378] Critical Hit! - Volume 3, No. 1 (Conf: 11.1%, Score: 38.6)
+    - Candidato: [108559] Critical Hit! - Volume 4, No. 1 (Conf: 11.1%, Score: 38.6)
+    - Candidato: [108560] Critical Hit! - Volume 4, No. 2 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108561] Critical Hit! - Volume 5, No. 1 (Conf: 11.1%, Score: 38.6)
+    - Candidato: [108563] Critical Hit! - Volume 5, No. 2 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108565] Critical Hit! - Volume 6, No. 1 (Conf: 11.1%, Score: 38.6)
+    - Candidato: [108566] Critical Hit! - Volume 6, No. 2 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108569] Critical Hit! - Volume 6, No. 3 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108571] Critical Hit! - Volume 6, No. 4 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108573] Critical Hit! - Volume 7, No. 1 (Conf: 11.1%, Score: 38.6)
+    - Candidato: [95799] Critical Hit! - Volume 7, No. 2 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108860] Critical Hit! - Volume 7, No. 3 (Conf: 11.1%, Score: 36.1)
+    - Candidato: [108564] Critical Hit! 1997 Special (Conf: 11.1%, Score: 31.7)
+GANADOR: ID 465851 con 44.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Brindlewood Bay - Nephews in Peril' ---
+Estrategias: ['Brindlewood Bay - Nephews in Peril', 'Brindlewood', 'Brindlewood Bay']
+  > Probando query: 'Brindlewood Bay - Nephews in Peril'
+    Encontrados 2 resultados.
+  > Probando query: 'Brindlewood Bay'
+    Encontrados 42 resultados.
+  > Probando query: 'Brindlewood'
+    Encontrados 42 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cuius Regio: The Thirty Years War 1618-1648' ---
+Estrategias: ['Cuius Regio', 'Cuius Regio: The Thirty Years War 1618-1648', 'Cuius', 'Cuius Regio: The Thirty Years War 1618']
+  > Probando query: 'Cuius Regio: The Thirty Years War 1618-1648'
+    Encontrados 0 resultados.
+  > Probando query: 'Cuius Regio: The Thirty Years War 1618'
+    Encontrados 0 resultados.
+  > Probando query: 'Cuius Regio'
+    Encontrados 1 resultados.
+    - Candidato: [358107] Cuius Regio: The Thirty Years War (Conf: 75.0%, Score: 86.5)
+  > Probando query: 'Cuius'
+    Encontrados 1 resultados.
+    - Candidato: [358107] Cuius Regio: The Thirty Years War (Conf: 75.0%, Score: 86.5)
+GANADOR: ID 358107 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees' ---
+Estrategias: ['Cyberpunk Edgerunners: Hunted -  Acrylic', 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees', 'Cyberpunk', 'Cyberpunk Edgerunners', 'Cyberpunk Edgerunners: Hunted']
+  > Probando query: 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk Edgerunners: Hunted -  Acrylic'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk Edgerunners: Hunted'
+    Encontrados 1 resultados.
+    - Candidato: [460036] Cyberpunk: Edgerunners – Hunted (Conf: 75.0%, Score: 87.5)
+  > Probando query: 'Cyberpunk Edgerunners'
+    Encontrados 7 resultados.
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 50.0%, Score: 54.5)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 50.0%, Score: 69.6)
+    - Candidato: [460036] Cyberpunk: Edgerunners – Hunted (Conf: 75.0%, Score: 87.5)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 50.0%, Score: 54.5)
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 25.0%, Score: 37.5)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 25.0%, Score: 29.3)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 25.0%, Score: 37.8)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 25.0%, Score: 45.9)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 25.0%, Score: 54.3)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 25.0%, Score: 41.3)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 25.0%, Score: 29.5)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 25.0%, Score: 37.5)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 25.0%, Score: 49.4)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 50.0%, Score: 44.0)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 25.0%, Score: 48.1)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 25.0%, Score: 46.2)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 50.0%, Score: 54.5)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 25.0%, Score: 38.7)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 25.0%, Score: 41.0)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 25.0%, Score: 41.0)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 25.0%, Score: 43.2)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 25.0%, Score: 42.0)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 25.0%, Score: 41.5)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 25.0%, Score: 51.9)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 25.0%, Score: 41.9)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 25.0%, Score: 50.0)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 50.0%, Score: 69.6)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 25.0%, Score: 37.0)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 25.0%, Score: 56.6)
+GANADOR: ID 460036 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees' ---
+Estrategias: ['Cyberpunk', 'Cyberpunk Edgerunners: Hunted', 'Cyberpunk Edgerunners', 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees', 'Cyberpunk Edgerunners: Hunted -  Acrylic']
+  > Probando query: 'Cyberpunk Edgerunners: Hunted - Deluxe Acrylic Standees'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk Edgerunners: Hunted -  Acrylic'
+    Encontrados 0 resultados.
+  > Probando query: 'Cyberpunk Edgerunners: Hunted'
+    Encontrados 1 resultados.
+    - Candidato: [460036] Cyberpunk: Edgerunners – Hunted (Conf: 75.0%, Score: 87.5)
+  > Probando query: 'Cyberpunk Edgerunners'
+    Encontrados 7 resultados.
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 50.0%, Score: 54.5)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 50.0%, Score: 69.6)
+    - Candidato: [460036] Cyberpunk: Edgerunners – Hunted (Conf: 75.0%, Score: 87.5)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 50.0%, Score: 54.5)
+  > Probando query: 'Cyberpunk'
+    Encontrados 971 resultados.
+    - Candidato: [342368] Alien Puppies: Cyberpunk Deck (Conf: 25.0%, Score: 37.5)
+    - Candidato: [308355] Chrome Hammer: A Cyberpunk Skirmish Game (Conf: 25.0%, Score: 29.3)
+    - Candidato: [226493] Cy-Co: The Western Cyberpunk Board Game (Conf: 25.0%, Score: 37.8)
+    - Candidato: [286073] Cyberpunk 2077: Afterlife – The Card Game (Conf: 25.0%, Score: 45.9)
+    - Candidato: [352138] Cyberpunk 2077: Gangs of Night City (Conf: 25.0%, Score: 54.3)
+    - Candidato: [365756] Cyberpunk 2077: Gangs of Night City –  Families and Outcasts (Conf: 25.0%, Score: 41.3)
+    - Candidato: [413818] Cyberpunk 2077: Gangs of Night City – Exclusive Edition (Conf: 25.0%, Score: 29.5)
+    - Candidato: [366044] Cyberpunk 2077: Gangs of Night City – Gang Wars (Conf: 25.0%, Score: 37.5)
+    - Candidato: [366172] Cyberpunk 2077: Gangs of Night City – Motor Pool (Conf: 25.0%, Score: 49.4)
+    - Candidato: [413657] Cyberpunk 2077: Gangs of Night City – Panam Palmer: Edgerunner Promo (Conf: 50.0%, Score: 44.0)
+    - Candidato: [366291] Cyberpunk 2077: Gangs of Night City – Side Gig (Conf: 25.0%, Score: 48.1)
+    - Candidato: [417542] Cyberpunk 2077: The Board Game (Conf: 25.0%, Score: 46.2)
+    - Candidato: [429977] Cyberpunk 2077: The Board Game – Edgerunners (Conf: 50.0%, Score: 54.5)
+    - Candidato: [443289] Cyberpunk 2077: The Board Game – Female V with Mantis Blades (Conf: 25.0%, Score: 38.7)
+    - Candidato: [443287] Cyberpunk 2077: The Board Game – Garry the Prophet (Conf: 25.0%, Score: 41.0)
+    - Candidato: [430049] Cyberpunk 2077: The Board Game – Johnny Silverhand (Conf: 25.0%, Score: 41.0)
+    - Candidato: [429978] Cyberpunk 2077: The Board Game – Johnny Silverhand & NCPD (Conf: 25.0%, Score: 43.2)
+    - Candidato: [429976] Cyberpunk 2077: The Board Game – Phantom Liberty (Conf: 25.0%, Score: 42.0)
+    - Candidato: [443286] Cyberpunk 2077: The Board Game – Stretch Goal Box (Conf: 25.0%, Score: 41.5)
+    - Candidato: [429979] Cyberpunk 2077: The Board Game – Trauma Team (Conf: 25.0%, Score: 51.9)
+    - Candidato: [443290] Cyberpunk 2077: The Board Game – V with Mantis Blades (Conf: 25.0%, Score: 41.9)
+    - Candidato: [418854] Cyberpunk Attack (Conf: 25.0%, Score: 50.0)
+    - Candidato: [418067] Cyberpunk Edgerunners: Combat Zone (Conf: 50.0%, Score: 69.6)
+    - Candidato: [16634] Cyberpunk Episode I: The Battle For Cyber-dump (Conf: 25.0%, Score: 37.0)
+    - Candidato: [450672] Cyberpunk Legends (Conf: 25.0%, Score: 56.6)
+GANADOR: ID 460036 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'DC Universe Game: Cyborg Superman' ---
+Estrategias: ['DC Universe Game: Cyborg Superman', 'DC Universe : Cyborg Superman', 'Universe', 'DC Universe']
+  > Probando query: 'DC Universe Game: Cyborg Superman'
+    Encontrados 0 resultados.
+  > Probando query: 'DC Universe : Cyborg Superman'
+    Encontrados 0 resultados.
+  > Probando query: 'DC Universe'
+    Encontrados 66 resultados.
+    - Candidato: [321546] DC Universe Miniature Game: Apokolips Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [225624] DC Universe Miniature Game: Aquaman (Conf: 50.0%, Score: 62.3)
+    - Candidato: [234238] DC Universe Miniature Game: Atrocitus (Conf: 50.0%, Score: 44.4)
+    - Candidato: [213856] DC Universe Miniature Game: Batman V Superman Trinity Starter Set (Conf: 75.0%, Score: 48.4)
+    - Candidato: [321547] DC Universe Miniature Game: Batman Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [261593] DC Universe Miniature Game: Core Rulebook (Conf: 50.0%, Score: 44.8)
+    - Candidato: [234239] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [310689] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [225620] DC Universe Miniature Game: Darkseid (Conf: 50.0%, Score: 54.8)
+    - Candidato: [321543] DC Universe Miniature Game: Justice League (Conf: 50.0%, Score: 47.1)
+    - Candidato: [321544] DC Universe Miniature Game: Justice League Dark (Conf: 50.0%, Score: 38.4)
+    - Candidato: [321097] DC Universe Miniature Game: Justice League International (Conf: 50.0%, Score: 46.3)
+    - Candidato: [321548] DC Universe Miniature Game: Legion of Doom (Conf: 50.0%, Score: 44.1)
+    - Candidato: [321098] DC Universe Miniature Game: Lexcorp Army (Conf: 50.0%, Score: 54.5)
+    - Candidato: [225827] DC Universe Miniature Game: Parademon Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [225625] DC Universe Miniature Game: Shazam (Conf: 50.0%, Score: 56.7)
+    - Candidato: [225621] DC Universe Miniature Game: Sinestro (Conf: 50.0%, Score: 58.1)
+    - Candidato: [321099] DC Universe Miniature Game: Suicide Squad (Conf: 50.0%, Score: 56.7)
+    - Candidato: [225622] DC Universe Miniature Game: Supergirl (Conf: 50.0%, Score: 63.5)
+    - Candidato: [7262] Top Trumps: DC Universe – Heroes and Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [321546] DC Universe Miniature Game: Apokolips Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [225624] DC Universe Miniature Game: Aquaman (Conf: 50.0%, Score: 62.3)
+    - Candidato: [234238] DC Universe Miniature Game: Atrocitus (Conf: 50.0%, Score: 44.4)
+    - Candidato: [321547] DC Universe Miniature Game: Batman Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [234239] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+  > Probando query: 'Universe'
+    Encontrados 725 resultados.
+--- INICIO BÚSQUEDA: 'DC Universe Game: Cyborg Superman' ---
+    - Candidato: [280310] 108: The Game That Is Won with the Universe (Conf: 25.0%, Score: 26.1)
+Estrategias: ['Universe', 'DC Universe Game: Cyborg Superman', 'DC Universe : Cyborg Superman', 'DC Universe']
+    - Candidato: [224554] Across the Universe (Conf: 25.0%, Score: 43.5)
+    - Candidato: [8196] AeroTech: El Juego de Combate de Cazas del Universero de Battletech (Conf: 25.0%, Score: 28.0)
+    - Candidato: [176426] Android: Netrunner – The Universe of Tomorrow (Conf: 25.0%, Score: 40.6)
+    - Candidato: [159525] Apocalypse Universe: Galactic Arena (Conf: 25.0%, Score: 49.2)
+  > Probando query: 'DC Universe : Cyborg Superman'
+    Encontrados 0 resultados.
+Boy Saves the Universe Game (Conf: 25.0%, Score: 40.0)
+    - Candidato: [405407] Baa's Universe (Conf: 25.0%, Score: 43.9)
+    - Candidato: [36105] Battle for the Universe (Conf: 25.0%, Score: 36.0)
+    - Candidato: [321546] DC Universe Miniature Game: Apokolips Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [448093] BattleTech: Universe (Conf: 25.0%, Score: 43.5)
+    - Candidato: [17818] Big Game Hunters of the Universe (Conf: 25.0%, Score: 30.5)
+3)
+    - Candidato: [234238] DC Universe Miniature Game: Atrocitus (Conf: 50.0%, Score: 44.4)
+    - Candidato: [213856] DC Universe Miniature Game: Batman V Superman Trinity Starter Set (Conf: 75.0%, Score: 48.4)
+    - Candidato: [321547] DC Universe Miniature Game: Batman Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [470280] Cross Universe (Conf: 25.0%, Score: 48.8)
+    - Candidato: [261593] DC Universe Miniature Game: Core Rulebook (Conf: 50.0%, Score: 44.8)
+    - Candidato: [469876] Dark Stars: Unseen Universe (Conf: 25.0%, Score: 37.7)
+    - Candidato: [234239] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [321546] DC Universe Miniature Game: Apokolips Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [310689] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [225624] DC Universe Miniature Game: Aquaman (Conf: 50.0%, Score: 62.3)
+    - Candidato: [225620] DC Universe Miniature Game: Darkseid (Conf: 50.0%, Score: 54.8)
+    - Candidato: [234238] DC Universe Miniature Game: Atrocitus (Conf: 50.0%, Score: 44.4)
+    - Candidato: [321543] DC Universe Miniature Game: Justice League (Conf: 50.0%, Score: 47.1)
+: 75.0%, Score: 48.4)
+    - Candidato: [321547] DC Universe Miniature Game: Batman Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [321544] DC Universe Miniature Game: Justice League Dark (Conf: 50.0%, Score: 38.4)
+    - Candidato: [261593] DC Universe Miniature Game: Core Rulebook (Conf: 50.0%, Score: 44.8)
+    - Candidato: [321097] DC Universe Miniature Game: Justice League International (Conf: 50.0%, Score: 46.3)
+    - Candidato: [234239] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [321548] DC Universe Miniature Game: Legion of Doom (Conf: 50.0%, Score: 44.1)
+
+    - Candidato: [225620] DC Universe Miniature Game: Darkseid (Conf: 50.0%, Score: 54.8)
+    - Candidato: [321098] DC Universe Miniature Game: Lexcorp Army (Conf: 50.0%, Score: 54.5)
+    - Candidato: [321543] DC Universe Miniature Game: Justice League (Conf: 50.0%, Score: 47.1)
+    - Candidato: [225827] DC Universe Miniature Game: Parademon Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [225625] DC Universe Miniature Game: Shazam (Conf: 50.0%, Score: 56.7)
+    - Candidato: [225621] DC Universe Miniature Game: Sinestro (Conf: 50.0%, Score: 58.1)
+    - Candidato: [321099] DC Universe Miniature Game: Suicide Squad (Conf: 50.0%, Score: 56.7)
+    - Candidato: [225622] DC Universe Miniature Game: Supergirl (Conf: 50.0%, Score: 63.5)
+    - Candidato: [7262] Top Trumps: DC Universe – Heroes and Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [321546] DC Universe Miniature Game: Apokolips Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [225624] DC Universe Miniature Game: Aquaman (Conf: 50.0%, Score: 62.3)
+    - Candidato: [234238] DC Universe Miniature Game: Atrocitus (Conf: 50.0%, Score: 44.4)
+    - Candidato: [321547] DC Universe Miniature Game: Batman Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [234239] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+  > Probando query: 'Universe'
+    Encontrados 725 resultados.
+    - Candidato: [280310] 108: The Game That Is Won with the Universe (Conf: 25.0%, Score: 26.1)
+    - Candidato: [224554] Across the Universe (Conf: 25.0%, Score: 43.5)
+    - Candidato: [8196] AeroTech: El Juego de Combate de Cazas del Universero de Battletech (Conf: 25.0%, Score: 28.0)
+    - Candidato: [176426] Android: Netrunner – The Universe of Tomorrow (Conf: 25.0%, Score: 40.6)
+    - Candidato: [159525] Apocalypse Universe: Galactic Arena (Conf: 25.0%, Score: 49.2)
+    - Candidato: [13078] Astro Boy Saves the Universe Game (Conf: 25.0%, Score: 40.0)
+    - Candidato: [405407] Baa's Universe (Conf: 25.0%, Score: 43.9)
+    - Candidato: [36105] Battle for the Universe (Conf: 25.0%, Score: 36.0)
+    - Candidato: [448093] BattleTech: Universe (Conf: 25.0%, Score: 43.5)
+    - Candidato: [17818] Big Game Hunters of the Universe (Conf: 25.0%, Score: 30.5)
+    - Candidato: [276042] Conspiracy: Abyss Universe (Conf: 25.0%, Score: 38.5)
+    - Candidato: [343368] Conspiracy: Abyss Universe – Bonus Cards (Conf: 25.0%, Score: 46.9)
+    - Candidato: [420495] Conspiracy: Abyss Universe – Mode Solo (Conf: 25.0%, Score: 45.2)
+    - Candidato: [470280] Cross Universe (Conf: 25.0%, Score: 48.8)
+    - Candidato: [469876] Dark Stars: Unseen Universe (Conf: 25.0%, Score: 37.7)
+    - Candidato: [321546] DC Universe Miniature Game: Apokolips Invasion Force (Conf: 50.0%, Score: 38.5)
+    - Candidato: [225624] DC Universe Miniature Game: Aquaman (Conf: 50.0%, Score: 62.3)
+    - Candidato: [234238] DC Universe Miniature Game: Atrocitus (Conf: 50.0%, Score: 44.4)
+    - Candidato: [213856] DC Universe Miniature Game: Batman V Superman Trinity Starter Set (Conf: 75.0%, Score: 48.4)
+    - Candidato: [321547] DC Universe Miniature Game: Batman Villains (Conf: 50.0%, Score: 46.4)
+    - Candidato: [261593] DC Universe Miniature Game: Core Rulebook (Conf: 50.0%, Score: 44.8)
+    - Candidato: [234239] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [310689] DC Universe Miniature Game: Crime Syndicate (Conf: 50.0%, Score: 49.3)
+    - Candidato: [225620] DC Universe Miniature Game: Darkseid (Conf: 50.0%, Score: 54.8)
+    - Candidato: [321543] DC Universe Miniature Game: Justice League (Conf: 50.0%, Score: 47.1)
+GANADOR: ID 213856 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition): 4-Player Box' ---
+Estrategias: ["Dead Man's Draw (10th Anniversary Edition): 4-Player Box", 'Dead', "Dead Man's Draw", "Dead Man's Draw : 4", "Dead Man's Draw : 4-Player"]
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition): 4-Player Box'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 4-Player'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 4'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw'
+    Encontrados 4 resultados.
+    - Candidato: [149155] Dead Man's Draw (Conf: 66.7%, Score: 76.9)
+    - Candidato: [456021] Dead Man's Draw: 10-Year Anniversary Edition (Conf: 66.7%, Score: 59.7)
+  > Probando query: 'Dead'
+    Encontrados 1966 resultados.
+    - Candidato: [1899] 13 Dead End Drive (Conf: 16.7%, Score: 48.8)
+    - Candidato: [4953] 1313 Dead End Drive (Conf: 16.7%, Score: 46.5)
+    - Candidato: [294594] 1985: Deadly Northern Lights (Conf: 0.0%, Score: 31.4)
+    - Candidato: [339741] 50 Clues: Dead or Alive (Conf: 16.7%, Score: 34.8)
+    - Candidato: [282006] 50 Clues: The Pendulum of the Dead (Conf: 16.7%, Score: 14.0)
+    - Candidato: [341694] 6: Siege – Dead End (Conf: 16.7%, Score: 35.0)
+    - Candidato: [399370] 7 Deadly Dice (Conf: 0.0%, Score: 37.8)
+    - Candidato: [13935] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [74089] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [72203] Ace Raiders/Dead Sneakers (Conf: 16.7%, Score: 32.7)
+    - Candidato: [170267] Across A Deadly Field: Regimental Rules for Civil War Battles (Conf: 0.0%, Score: 35.7)
+    - Candidato: [254164] Across A Deadly Field: The War in the East (Conf: 0.0%, Score: 27.7)
+    - Candidato: [254839] Across A Deadly Field: The War in the West (Conf: 0.0%, Score: 27.7)
+    - Candidato: [305044] Across a Deadly Space (Conf: 0.0%, Score: 35.6)
+    - Candidato: [153812] Across the Dead Earth (Conf: 16.7%, Score: 31.1)
+    - Candidato: [232144] After Everyone's Dead The Game (Conf: 33.3%, Score: 25.9)
+    - Candidato: [440149] Agricola: Dead Harvest (Conf: 16.7%, Score: 31.1)
+    - Candidato: [401594] All Hoomanz Are Dead (Conf: 16.7%, Score: 18.2)
+    - Candidato: [42101] All Things Zombie: Better Dead Than Zed! (Conf: 16.7%, Score: 29.0)
+    - Candidato: [213212] All Things Zombie: Reloaded – The Dead Never Sleep (Conf: 16.7%, Score: 25.4)
+    - Candidato: [371402] Altar of the Dead Gods (Conf: 16.7%, Score: 26.1)
+    - Candidato: [99189] Anima Tactics: Deadmoon (Conf: 0.0%, Score: 26.1)
+    - Candidato: [202307] Apex Theropod Deck-Building Game: The Stomping Dead Expansion Deck (Conf: 16.7%, Score: 24.7)
+    - Candidato: [282308] Arkham Horror (Third Edition): Dead of Night (Conf: 16.7%, Score: 18.5)
+    - Candidato: [151312] Armies of the Dead (Conf: 16.7%, Score: 19.0)
+GANADOR: ID 149155 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition): 4-Player Box' ---
+Estrategias: ["Dead Man's Draw : 4", 'Dead', "Dead Man's Draw : 4-Player", "Dead Man's Draw (10th Anniversary Edition): 4-Player Box", "Dead Man's Draw"]
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition): 4-Player Box'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 4-Player'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 4'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw'
+    Encontrados 4 resultados.
+    - Candidato: [149155] Dead Man's Draw (Conf: 66.7%, Score: 76.9)
+    - Candidato: [456021] Dead Man's Draw: 10-Year Anniversary Edition (Conf: 66.7%, Score: 59.7)
+  > Probando query: 'Dead'
+    Encontrados 1966 resultados.
+    - Candidato: [1899] 13 Dead End Drive (Conf: 16.7%, Score: 48.8)
+    - Candidato: [4953] 1313 Dead End Drive (Conf: 16.7%, Score: 46.5)
+    - Candidato: [294594] 1985: Deadly Northern Lights (Conf: 0.0%, Score: 31.4)
+    - Candidato: [339741] 50 Clues: Dead or Alive (Conf: 16.7%, Score: 34.8)
+    - Candidato: [282006] 50 Clues: The Pendulum of the Dead (Conf: 16.7%, Score: 14.0)
+    - Candidato: [341694] 6: Siege – Dead End (Conf: 16.7%, Score: 35.0)
+    - Candidato: [399370] 7 Deadly Dice (Conf: 0.0%, Score: 37.8)
+    - Candidato: [13935] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [74089] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [72203] Ace Raiders/Dead Sneakers (Conf: 16.7%, Score: 32.7)
+    - Candidato: [170267] Across A Deadly Field: Regimental Rules for Civil War Battles (Conf: 0.0%, Score: 35.7)
+    - Candidato: [254164] Across A Deadly Field: The War in the East (Conf: 0.0%, Score: 27.7)
+    - Candidato: [254839] Across A Deadly Field: The War in the West (Conf: 0.0%, Score: 27.7)
+    - Candidato: [305044] Across a Deadly Space (Conf: 0.0%, Score: 35.6)
+    - Candidato: [153812] Across the Dead Earth (Conf: 16.7%, Score: 31.1)
+    - Candidato: [232144] After Everyone's Dead The Game (Conf: 33.3%, Score: 25.9)
+    - Candidato: [440149] Agricola: Dead Harvest (Conf: 16.7%, Score: 31.1)
+    - Candidato: [401594] All Hoomanz Are Dead (Conf: 16.7%, Score: 18.2)
+    - Candidato: [42101] All Things Zombie: Better Dead Than Zed! (Conf: 16.7%, Score: 29.0)
+    - Candidato: [213212] All Things Zombie: Reloaded – The Dead Never Sleep (Conf: 16.7%, Score: 25.4)
+    - Candidato: [371402] Altar of the Dead Gods (Conf: 16.7%, Score: 26.1)
+    - Candidato: [99189] Anima Tactics: Deadmoon (Conf: 0.0%, Score: 26.1)
+    - Candidato: [202307] Apex Theropod Deck-Building Game: The Stomping Dead Expansion Deck (Conf: 16.7%, Score: 24.7)
+    - Candidato: [282308] Arkham Horror (Third Edition): Dead of Night (Conf: 16.7%, Score: 18.5)
+    - Candidato: [151312] Armies of the Dead (Conf: 16.7%, Score: 19.0)
+GANADOR: ID 149155 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition): 8-Player Box' ---
+Estrategias: ["Dead Man's Draw : 8", "Dead Man's Draw (10th Anniversary Edition): 8-Player Box", "Dead Man's Draw : 8-Player", 'Dead', "Dead Man's Draw"]
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition): 8-Player Box'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 8-Player'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 8'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw'
+    Encontrados 4 resultados.
+    - Candidato: [149155] Dead Man's Draw (Conf: 66.7%, Score: 76.9)
+    - Candidato: [456021] Dead Man's Draw: 10-Year Anniversary Edition (Conf: 66.7%, Score: 59.7)
+  > Probando query: 'Dead'
+    Encontrados 1966 resultados.
+    - Candidato: [1899] 13 Dead End Drive (Conf: 16.7%, Score: 48.8)
+    - Candidato: [4953] 1313 Dead End Drive (Conf: 16.7%, Score: 46.5)
+    - Candidato: [294594] 1985: Deadly Northern Lights (Conf: 0.0%, Score: 31.4)
+    - Candidato: [339741] 50 Clues: Dead or Alive (Conf: 16.7%, Score: 34.8)
+    - Candidato: [282006] 50 Clues: The Pendulum of the Dead (Conf: 16.7%, Score: 14.0)
+    - Candidato: [341694] 6: Siege – Dead End (Conf: 16.7%, Score: 35.0)
+    - Candidato: [399370] 7 Deadly Dice (Conf: 0.0%, Score: 37.8)
+    - Candidato: [13935] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [74089] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [72203] Ace Raiders/Dead Sneakers (Conf: 16.7%, Score: 32.7)
+    - Candidato: [170267] Across A Deadly Field: Regimental Rules for Civil War Battles (Conf: 0.0%, Score: 35.7)
+    - Candidato: [254164] Across A Deadly Field: The War in the East (Conf: 0.0%, Score: 27.7)
+    - Candidato: [254839] Across A Deadly Field: The War in the West (Conf: 0.0%, Score: 27.7)
+    - Candidato: [305044] Across a Deadly Space (Conf: 0.0%, Score: 35.6)
+    - Candidato: [153812] Across the Dead Earth (Conf: 16.7%, Score: 31.1)
+    - Candidato: [232144] After Everyone's Dead The Game (Conf: 33.3%, Score: 25.9)
+    - Candidato: [440149] Agricola: Dead Harvest (Conf: 16.7%, Score: 31.1)
+    - Candidato: [401594] All Hoomanz Are Dead (Conf: 16.7%, Score: 18.2)
+    - Candidato: [42101] All Things Zombie: Better Dead Than Zed! (Conf: 16.7%, Score: 29.0)
+    - Candidato: [213212] All Things Zombie: Reloaded – The Dead Never Sleep (Conf: 16.7%, Score: 25.4)
+    - Candidato: [371402] Altar of the Dead Gods (Conf: 16.7%, Score: 26.1)
+    - Candidato: [99189] Anima Tactics: Deadmoon (Conf: 0.0%, Score: 26.1)
+    - Candidato: [202307] Apex Theropod Deck-Building Game: The Stomping Dead Expansion Deck (Conf: 16.7%, Score: 24.7)
+    - Candidato: [282308] Arkham Horror (Third Edition): Dead of Night (Conf: 16.7%, Score: 18.5)
+    - Candidato: [151312] Armies of the Dead (Conf: 16.7%, Score: 19.0)
+GANADOR: ID 149155 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dead Man's Draw (10th Anniversary Edition): 8-Player Box' ---
+Estrategias: ['Dead', "Dead Man's Draw : 8", "Dead Man's Draw", "Dead Man's Draw (10th Anniversary Edition): 8-Player Box", "Dead Man's Draw : 8-Player"]
+  > Probando query: 'Dead Man's Draw (10th Anniversary Edition): 8-Player Box'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 8-Player'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw : 8'
+    Encontrados 0 resultados.
+  > Probando query: 'Dead Man's Draw'
+    Encontrados 4 resultados.
+    - Candidato: [149155] Dead Man's Draw (Conf: 66.7%, Score: 76.9)
+    - Candidato: [456021] Dead Man's Draw: 10-Year Anniversary Edition (Conf: 66.7%, Score: 59.7)
+  > Probando query: 'Dead'
+    Encontrados 1966 resultados.
+    - Candidato: [1899] 13 Dead End Drive (Conf: 16.7%, Score: 48.8)
+    - Candidato: [4953] 1313 Dead End Drive (Conf: 16.7%, Score: 46.5)
+    - Candidato: [294594] 1985: Deadly Northern Lights (Conf: 0.0%, Score: 31.4)
+    - Candidato: [339741] 50 Clues: Dead or Alive (Conf: 16.7%, Score: 34.8)
+    - Candidato: [282006] 50 Clues: The Pendulum of the Dead (Conf: 16.7%, Score: 14.0)
+    - Candidato: [341694] 6: Siege – Dead End (Conf: 16.7%, Score: 35.0)
+    - Candidato: [399370] 7 Deadly Dice (Conf: 0.0%, Score: 37.8)
+    - Candidato: [13935] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [74089] 7 Deadly Sins (Conf: 0.0%, Score: 32.4)
+    - Candidato: [72203] Ace Raiders/Dead Sneakers (Conf: 16.7%, Score: 32.7)
+    - Candidato: [170267] Across A Deadly Field: Regimental Rules for Civil War Battles (Conf: 0.0%, Score: 35.7)
+    - Candidato: [254164] Across A Deadly Field: The War in the East (Conf: 0.0%, Score: 27.7)
+    - Candidato: [254839] Across A Deadly Field: The War in the West (Conf: 0.0%, Score: 27.7)
+    - Candidato: [305044] Across a Deadly Space (Conf: 0.0%, Score: 35.6)
+    - Candidato: [153812] Across the Dead Earth (Conf: 16.7%, Score: 31.1)
+    - Candidato: [232144] After Everyone's Dead The Game (Conf: 33.3%, Score: 25.9)
+    - Candidato: [440149] Agricola: Dead Harvest (Conf: 16.7%, Score: 31.1)
+    - Candidato: [401594] All Hoomanz Are Dead (Conf: 16.7%, Score: 18.2)
+    - Candidato: [42101] All Things Zombie: Better Dead Than Zed! (Conf: 16.7%, Score: 29.0)
+    - Candidato: [213212] All Things Zombie: Reloaded – The Dead Never Sleep (Conf: 16.7%, Score: 25.4)
+    - Candidato: [371402] Altar of the Dead Gods (Conf: 16.7%, Score: 26.1)
+    - Candidato: [99189] Anima Tactics: Deadmoon (Conf: 0.0%, Score: 26.1)
+    - Candidato: [202307] Apex Theropod Deck-Building Game: The Stomping Dead Expansion Deck (Conf: 16.7%, Score: 24.7)
+    - Candidato: [282308] Arkham Horror (Third Edition): Dead of Night (Conf: 16.7%, Score: 18.5)
+    - Candidato: [151312] Armies of the Dead (Conf: 16.7%, Score: 19.0)
+GANADOR: ID 149155 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dragonbane' ---
+Estrategias: ['Dragonbane']
+  > Probando query: 'Dragonbane'
+    Encontrados 156 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dragonbane' ---
+Estrategias: ['Dragonbane']
+  > Probando query: 'Dragonbane'
+    Encontrados 156 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fun Facts - GERMAN Language Version' ---
+Estrategias: ['Facts', 'Fun Facts - GERMAN Language Version', 'Fun Facts', 'Fun Facts - GERMAN Language']
+  > Probando query: 'Fun Facts - GERMAN Language Version'
+    Encontrados 0 resultados.
+  > Probando query: 'Fun Facts - GERMAN Language'
+    Encontrados 0 resultados.
+  > Probando query: 'Fun Facts'
+    Encontrados 4 resultados.
+    - Candidato: [370164] Fun Facts (Conf: 50.0%, Score: 52.9)
+    - Candidato: [467699] Quickie: Flere fun facts (Conf: 50.0%, Score: 37.5)
+  > Probando query: 'Facts'
+    Encontrados 41 resultados.
+    - Candidato: [405790] Cool Animal Facts (Conf: 25.0%, Score: 33.3)
+    - Candidato: [146603] Doctor Who: Facts & Trivia Quiz Game (Conf: 25.0%, Score: 31.0)
+    - Candidato: [13198] Face the Facts (Conf: 25.0%, Score: 35.9)
+    - Candidato: [20727] Facts In Acts (Conf: 25.0%, Score: 47.4)
+    - Candidato: [1233] Facts in Five (Conf: 25.0%, Score: 47.4)
+    - Candidato: [423430] Fake Facts (Conf: 25.0%, Score: 40.0)
+    - Candidato: [469119] Flaming Facts (Conf: 25.0%, Score: 42.1)
+    - Candidato: [233841] Food Facts (Conf: 25.0%, Score: 40.0)
+    - Candidato: [370164] Fun Facts (Conf: 50.0%, Score: 52.9)
+    - Candidato: [461178] Games Room: Bizarre Facts Trivia (Conf: 25.0%, Score: 32.1)
+    - Candidato: [206284] Geo Facts (Conf: 25.0%, Score: 35.3)
+    - Candidato: [440040] HISTORY: Stats and Facts (Conf: 25.0%, Score: 29.2)
+    - Candidato: [58370] Humanopoly: The Facts of Life Game (Conf: 25.0%, Score: 44.8)
+    - Candidato: [432203] It's About Time: Hellacious Facts (Conf: 25.0%, Score: 24.6)
+    - Candidato: [20776] Match Wits Addition Facts (Conf: 25.0%, Score: 28.0)
+    - Candidato: [20854] Match Wits Multiplication Facts (Conf: 25.0%, Score: 28.6)
+    - Candidato: [20853] Match Wits Subtraction Facts (Conf: 25.0%, Score: 30.2)
+    - Candidato: [20855] Match Wits: Division Facts (Conf: 25.0%, Score: 28.0)
+    - Candidato: [467699] Quickie: Flere fun facts (Conf: 50.0%, Score: 37.5)
+    - Candidato: [464665] Say It First: Facts Extra Cards (Conf: 25.0%, Score: 47.3)
+    - Candidato: [13358] Snapple Real Facts Game (Conf: 25.0%, Score: 41.7)
+    - Candidato: [25341] State the Facts (Conf: 25.0%, Score: 30.0)
+    - Candidato: [206285] Swiss Facts (Conf: 25.0%, Score: 33.3)
+    - Candidato: [16598] The Time-Life Library of Curious & Unusual Facts (Conf: 25.0%, Score: 25.4)
+    - Candidato: [329565] We're Doomed!: Alternative Facts Promo Card (Conf: 25.0%, Score: 33.3)
+GANADOR: ID 370164 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fun Facts - GERMAN Language Version' ---
+Estrategias: ['Fun Facts - GERMAN Language', 'Facts', 'Fun Facts - GERMAN Language Version', 'Fun Facts']
+  > Probando query: 'Fun Facts - GERMAN Language Version'
+    Encontrados 0 resultados.
+  > Probando query: 'Fun Facts - GERMAN Language'
+    Encontrados 0 resultados.
+  > Probando query: 'Fun Facts'
+    Encontrados 4 resultados.
+    - Candidato: [370164] Fun Facts (Conf: 50.0%, Score: 52.9)
+    - Candidato: [467699] Quickie: Flere fun facts (Conf: 50.0%, Score: 37.5)
+  > Probando query: 'Facts'
+    Encontrados 41 resultados.
+    - Candidato: [405790] Cool Animal Facts (Conf: 25.0%, Score: 33.3)
+    - Candidato: [146603] Doctor Who: Facts & Trivia Quiz Game (Conf: 25.0%, Score: 31.0)
+    - Candidato: [13198] Face the Facts (Conf: 25.0%, Score: 35.9)
+    - Candidato: [20727] Facts In Acts (Conf: 25.0%, Score: 47.4)
+    - Candidato: [1233] Facts in Five (Conf: 25.0%, Score: 47.4)
+    - Candidato: [423430] Fake Facts (Conf: 25.0%, Score: 40.0)
+    - Candidato: [469119] Flaming Facts (Conf: 25.0%, Score: 42.1)
+    - Candidato: [233841] Food Facts (Conf: 25.0%, Score: 40.0)
+    - Candidato: [370164] Fun Facts (Conf: 50.0%, Score: 52.9)
+    - Candidato: [461178] Games Room: Bizarre Facts Trivia (Conf: 25.0%, Score: 32.1)
+    - Candidato: [206284] Geo Facts (Conf: 25.0%, Score: 35.3)
+    - Candidato: [440040] HISTORY: Stats and Facts (Conf: 25.0%, Score: 29.2)
+    - Candidato: [58370] Humanopoly: The Facts of Life Game (Conf: 25.0%, Score: 44.8)
+    - Candidato: [432203] It's About Time: Hellacious Facts (Conf: 25.0%, Score: 24.6)
+    - Candidato: [20776] Match Wits Addition Facts (Conf: 25.0%, Score: 28.0)
+    - Candidato: [20854] Match Wits Multiplication Facts (Conf: 25.0%, Score: 28.6)
+    - Candidato: [20853] Match Wits Subtraction Facts (Conf: 25.0%, Score: 30.2)
+    - Candidato: [20855] Match Wits: Division Facts (Conf: 25.0%, Score: 28.0)
+    - Candidato: [467699] Quickie: Flere fun facts (Conf: 50.0%, Score: 37.5)
+    - Candidato: [464665] Say It First: Facts Extra Cards (Conf: 25.0%, Score: 47.3)
+    - Candidato: [13358] Snapple Real Facts Game (Conf: 25.0%, Score: 41.7)
+    - Candidato: [25341] State the Facts (Conf: 25.0%, Score: 30.0)
+    - Candidato: [206285] Swiss Facts (Conf: 25.0%, Score: 33.3)
+    - Candidato: [16598] The Time-Life Library of Curious & Unusual Facts (Conf: 25.0%, Score: 25.4)
+    - Candidato: [329565] We're Doomed!: Alternative Facts Promo Card (Conf: 25.0%, Score: 33.3)
+GANADOR: ID 370164 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs Pizza Thief', 'Fuzzballs']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs', 'Fuzzballs Pizza Thief']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ["GCSE - The GC's Secondary Education", "GCSE - The GC's Secondary Education Game", 'GCSE']
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ['GCSE', "GCSE - The GC's Secondary Education", "GCSE - The GC's Secondary Education Game"]
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Get A Pizza The Action Trivia Quiz' ---
+Estrategias: ['Pizza', 'Get A Pizza The Action Trivia Quiz']
+  > Probando query: 'Get A Pizza The Action Trivia Quiz'
+    Encontrados 0 resultados.
+  > Probando query: 'Pizza'
+    Encontrados 257 resultados.
+    - Candidato: [84276] Back to the Future: The Card Game – Pizza Hydrator (Conf: 28.6%, Score: 29.6)
+    - Candidato: [319482] Blobby's Pizza (Conf: 14.3%, Score: 29.2)
+    - Candidato: [283351] Bullseye Pizza Chef (Conf: 14.3%, Score: 37.7)
+    - Candidato: [30057] Burger vs Pizza (Conf: 14.3%, Score: 36.7)
+    - Candidato: [72576] Catch a Pizza (Conf: 28.6%, Score: 38.3)
+    - Candidato: [381329] Circus: Pizza Tosser Performer Promo Card (Conf: 14.3%, Score: 32.4)
+    - Candidato: [39360] Conni schnappt die Pizza (Conf: 14.3%, Score: 27.6)
+    - Candidato: [122708] Cosmic Pizza (Conf: 14.3%, Score: 26.1)
+    - Candidato: [6536] Domino's Pizza Delivery Game (Conf: 14.3%, Score: 38.7)
+    - Candidato: [31111] Domino's Pizza Domino (Conf: 14.3%, Score: 36.4)
+    - Candidato: [307823] Fast Flip Pizza (Conf: 14.3%, Score: 32.7)
+    - Candidato: [67842] Fraction of the Pizza Game (Conf: 42.9%, Score: 30.0)
+    - Candidato: [24386] Fractions Supreme Pizza Game (Conf: 14.3%, Score: 29.0)
+    - Candidato: [28245] Garfield Pizza Pie and Hairballs Game (Conf: 14.3%, Score: 42.3)
+    - Candidato: [470222] Grab a Pizza That! (Conf: 28.6%, Score: 54.9)
+    - Candidato: [88377] Identik "Pizza Hut"- mini-expansion (Conf: 14.3%, Score: 45.5)
+    - Candidato: [237980] The Island PIZZA (Conf: 28.6%, Score: 36.0)
+    - Candidato: [417690] Leanin' Tower of Pizza! (Conf: 14.3%, Score: 32.7)
+    - Candidato: [467943] Leaning Tower of Pizza (Conf: 14.3%, Score: 32.1)
+    - Candidato: [42456] Learning to Listen Pizza Palace Game (Conf: 14.3%, Score: 34.3)
+    - Candidato: [312715] Let's Make Pizza (Conf: 14.3%, Score: 40.0)
+    - Candidato: [177038] Leteća Pizza (Conf: 14.3%, Score: 39.1)
+    - Candidato: [463664] Little Red's Pizza Express (Conf: 14.3%, Score: 36.7)
+    - Candidato: [107466] Master of Pizza (Conf: 14.3%, Score: 32.7)
+    - Candidato: [337344] Mickey Mouse's Pizza Party Game (Conf: 14.3%, Score: 33.8)
+GANADOR: ID 67842 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Get A Pizza The Action Trivia Quiz' ---
+Estrategias: ['Get A Pizza The Action Trivia Quiz', 'Pizza']
+  > Probando query: 'Get A Pizza The Action Trivia Quiz'
+    Encontrados 0 resultados.
+  > Probando query: 'Pizza'
+    Encontrados 257 resultados.
+    - Candidato: [84276] Back to the Future: The Card Game – Pizza Hydrator (Conf: 28.6%, Score: 29.6)
+    - Candidato: [319482] Blobby's Pizza (Conf: 14.3%, Score: 29.2)
+    - Candidato: [283351] Bullseye Pizza Chef (Conf: 14.3%, Score: 37.7)
+    - Candidato: [30057] Burger vs Pizza (Conf: 14.3%, Score: 36.7)
+    - Candidato: [72576] Catch a Pizza (Conf: 28.6%, Score: 38.3)
+    - Candidato: [381329] Circus: Pizza Tosser Performer Promo Card (Conf: 14.3%, Score: 32.4)
+    - Candidato: [39360] Conni schnappt die Pizza (Conf: 14.3%, Score: 27.6)
+    - Candidato: [122708] Cosmic Pizza (Conf: 14.3%, Score: 26.1)
+    - Candidato: [6536] Domino's Pizza Delivery Game (Conf: 14.3%, Score: 38.7)
+    - Candidato: [31111] Domino's Pizza Domino (Conf: 14.3%, Score: 36.4)
+    - Candidato: [307823] Fast Flip Pizza (Conf: 14.3%, Score: 32.7)
+    - Candidato: [67842] Fraction of the Pizza Game (Conf: 42.9%, Score: 30.0)
+    - Candidato: [24386] Fractions Supreme Pizza Game (Conf: 14.3%, Score: 29.0)
+    - Candidato: [28245] Garfield Pizza Pie and Hairballs Game (Conf: 14.3%, Score: 42.3)
+    - Candidato: [470222] Grab a Pizza That! (Conf: 28.6%, Score: 54.9)
+    - Candidato: [88377] Identik "Pizza Hut"- mini-expansion (Conf: 14.3%, Score: 45.5)
+    - Candidato: [237980] The Island PIZZA (Conf: 28.6%, Score: 36.0)
+    - Candidato: [417690] Leanin' Tower of Pizza! (Conf: 14.3%, Score: 32.7)
+    - Candidato: [467943] Leaning Tower of Pizza (Conf: 14.3%, Score: 32.1)
+    - Candidato: [42456] Learning to Listen Pizza Palace Game (Conf: 14.3%, Score: 34.3)
+    - Candidato: [312715] Let's Make Pizza (Conf: 14.3%, Score: 40.0)
+    - Candidato: [177038] Leteća Pizza (Conf: 14.3%, Score: 39.1)
+    - Candidato: [463664] Little Red's Pizza Express (Conf: 14.3%, Score: 36.7)
+    - Candidato: [107466] Master of Pizza (Conf: 14.3%, Score: 32.7)
+    - Candidato: [337344] Mickey Mouse's Pizza Party Game (Conf: 14.3%, Score: 33.8)
+GANADOR: ID 67842 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Giant Shark Bite' ---
+Estrategias: ['Giant Shark Bite', 'Giant']
+  > Probando query: 'Giant Shark Bite'
+    Encontrados 0 resultados.
+  > Probando query: 'Giant'
+    Encontrados 848 resultados.
+    - Candidato: [455402] 6x6 Tales: Time of Giants (Conf: 33.3%, Score: 30.0)
+    - Candidato: [442204] Aeon Trespass: Odyssey – Giant King Diomedes (Conf: 33.3%, Score: 24.6)
+    - Candidato: [452736] All Time Wrestling: Andre The Giant – Chapter 1 Campaign (Conf: 33.3%, Score: 29.0)
+    - Candidato: [189634] Ashes Reborn: The Frostdale Giants (Conf: 33.3%, Score: 24.5)
+    - Candidato: [201455] Assault of the Giants (Conf: 33.3%, Score: 32.4)
+    - Candidato: [2864] Automania: The Game of the Motor Giants (Conf: 33.3%, Score: 22.2)
+    - Candidato: [319329] B Movies: Death Robot and the World of the Lost Giants (Conf: 33.3%, Score: 17.4)
+    - Candidato: [31111] Babar Giant Dominoes (Conf: 33.3%, Score: 38.9)
+    - Candidato: [446316] バンババン: 巨大隕石衝突、宇宙人vs幽霊船 (BANG-BA-BANG: Giant Meteorite Collision, Aliens vs. Ghost Ship) (Conf: 33.3%, Score: 25.6)
+    - Candidato: [136273] Battle Tank: Escape From Giant Robot Island (Conf: 33.3%, Score: 27.6)
+    - Candidato: [32022] BattleLore: Hill Giant (Conf: 33.3%, Score: 27.0)
+    - Candidato: [172590] BattleLore: Second Edition – Mountain Giant Reinforcement Pack (Conf: 33.3%, Score: 21.3)
+    - Candidato: [38518] The Berenstain Bears Giant Card Game (Conf: 33.3%, Score: 38.5)
+    - Candidato: [103051] Biblical Biographical Exercises: No.3 Judges and Giants (Conf: 33.3%, Score: 17.1)
+    - Candidato: [4968] Bigfoot: The Giant Snow Monster Game (Conf: 33.3%, Score: 39.2)
+    - Candidato: [430270] Biome: Giant Panda Promo Card (Conf: 33.3%, Score: 36.4)
+    - Candidato: [2453] Blokus Giant (Conf: 33.3%, Score: 35.7)
+    - Candidato: [219016] Blood Bowl (2016 Edition): The Dwarf Giants – Dwarf Blood Bowl Team (Conf: 33.3%, Score: 30.8)
+    - Candidato: [350961] Blood Rage: Mountain Giant (Conf: 33.3%, Score: 24.4)
+    - Candidato: [234978] Bushido: Giant Cave Bat (Conf: 33.3%, Score: 52.6)
+    - Candidato: [236404] Bushido: Giant Eagle (Conf: 33.3%, Score: 45.7)
+    - Candidato: [400885] Candy Land: Giant Edition (Conf: 33.3%, Score: 40.0)
+    - Candidato: [353862] Cartographers: Map Pack 4 – Frozen Expanse: Realm of Frost Giants (Conf: 33.3%, Score: 15.6)
+    - Candidato: [13709] Clash of Giants II: 1st Ypres & Galicia 1914 (Conf: 33.3%, Score: 31.6)
+    - Candidato: [297546] Clash of Giants: A Jutland Campaign Pack (Conf: 33.3%, Score: 29.1)
+GANADOR: ID 234978 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Giant Shark Bite' ---
+Estrategias: ['Giant Shark Bite', 'Giant']
+  > Probando query: 'Giant Shark Bite'
+    Encontrados 0 resultados.
+  > Probando query: 'Giant'
+    Encontrados 848 resultados.
+    - Candidato: [455402] 6x6 Tales: Time of Giants (Conf: 33.3%, Score: 30.0)
+    - Candidato: [442204] Aeon Trespass: Odyssey – Giant King Diomedes (Conf: 33.3%, Score: 24.6)
+    - Candidato: [452736] All Time Wrestling: Andre The Giant – Chapter 1 Campaign (Conf: 33.3%, Score: 29.0)
+    - Candidato: [189634] Ashes Reborn: The Frostdale Giants (Conf: 33.3%, Score: 24.5)
+    - Candidato: [201455] Assault of the Giants (Conf: 33.3%, Score: 32.4)
+    - Candidato: [2864] Automania: The Game of the Motor Giants (Conf: 33.3%, Score: 22.2)
+    - Candidato: [319329] B Movies: Death Robot and the World of the Lost Giants (Conf: 33.3%, Score: 17.4)
+    - Candidato: [31111] Babar Giant Dominoes (Conf: 33.3%, Score: 38.9)
+    - Candidato: [446316] バンババン: 巨大隕石衝突、宇宙人vs幽霊船 (BANG-BA-BANG: Giant Meteorite Collision, Aliens vs. Ghost Ship) (Conf: 33.3%, Score: 25.6)
+    - Candidato: [136273] Battle Tank: Escape From Giant Robot Island (Conf: 33.3%, Score: 27.6)
+    - Candidato: [32022] BattleLore: Hill Giant (Conf: 33.3%, Score: 27.0)
+    - Candidato: [172590] BattleLore: Second Edition – Mountain Giant Reinforcement Pack (Conf: 33.3%, Score: 21.3)
+    - Candidato: [38518] The Berenstain Bears Giant Card Game (Conf: 33.3%, Score: 38.5)
+    - Candidato: [103051] Biblical Biographical Exercises: No.3 Judges and Giants (Conf: 33.3%, Score: 17.1)
+    - Candidato: [4968] Bigfoot: The Giant Snow Monster Game (Conf: 33.3%, Score: 39.2)
+    - Candidato: [430270] Biome: Giant Panda Promo Card (Conf: 33.3%, Score: 36.4)
+    - Candidato: [2453] Blokus Giant (Conf: 33.3%, Score: 35.7)
+    - Candidato: [219016] Blood Bowl (2016 Edition): The Dwarf Giants – Dwarf Blood Bowl Team (Conf: 33.3%, Score: 30.8)
+    - Candidato: [350961] Blood Rage: Mountain Giant (Conf: 33.3%, Score: 24.4)
+    - Candidato: [234978] Bushido: Giant Cave Bat (Conf: 33.3%, Score: 52.6)
+    - Candidato: [236404] Bushido: Giant Eagle (Conf: 33.3%, Score: 45.7)
+    - Candidato: [400885] Candy Land: Giant Edition (Conf: 33.3%, Score: 40.0)
+    - Candidato: [353862] Cartographers: Map Pack 4 – Frozen Expanse: Realm of Frost Giants (Conf: 33.3%, Score: 15.6)
+    - Candidato: [13709] Clash of Giants II: 1st Ypres & Galicia 1914 (Conf: 33.3%, Score: 31.6)
+    - Candidato: [297546] Clash of Giants: A Jutland Campaign Pack (Conf: 33.3%, Score: 29.1)
+GANADOR: ID 234978 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Girls Night Drinking Game' ---
+Estrategias: ['Girls Night Drinking', 'Girls', 'Girls Night Drinking Game']
+  > Probando query: 'Girls Night Drinking Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Girls Night Drinking'
+    Encontrados 0 resultados.
+  > Probando query: 'Girls'
+    Encontrados 392 resultados.
+    - Candidato: [353260] 12星座のガールズギターリフダービー (The 12 Zodiac Signs Girls Guitar Riff Derby) (Conf: 33.3%, Score: 33.3)
+    - Candidato: [365184] About Us: Grown Up Girls Edition (Conf: 33.3%, Score: 27.5)
+    - Candidato: [447280] Adventurer's Guild Girls: The Board Game (Conf: 33.3%, Score: 23.7)
+    - Candidato: [414916] Alice in Wonderland: Wet Girls and the Caucus Race (Conf: 33.3%, Score: 29.0)
+    - Candidato: [11879] The American Girls Collection Card Game (Conf: 33.3%, Score: 27.1)
+    - Candidato: [6910] The American Girls Game (Conf: 33.3%, Score: 32.6)
+    - Candidato: [97055] Barbie Just Us Girls (Conf: 33.3%, Score: 25.0)
+    - Candidato: [19539] Barbie: We Girls Can Do Anything (Conf: 33.3%, Score: 51.0)
+    - Candidato: [441624] Between Us Girls (Conf: 33.3%, Score: 27.8)
+    - Candidato: [66252] Camp Fire Girls Game (Conf: 33.3%, Score: 35.0)
+    - Candidato: [369997] Card Game for Rebel Girls (Conf: 33.3%, Score: 22.2)
+    - Candidato: [12929] Careers for Girls (Conf: 33.3%, Score: 27.0)
+    - Candidato: [13760] Chasing the Girls (Conf: 33.3%, Score: 27.0)
+    - Candidato: [35513] The Cheetah Girls CD Board Game (Conf: 33.3%, Score: 27.5)
+    - Candidato: [127500] Chit Chat Girls' Night Out (Conf: 66.7%, Score: 53.3)
+    - Candidato: [314115] Clue: The Golden Girls (Conf: 33.3%, Score: 24.4)
+    - Candidato: [176683] Collector's Edition Girls' Night StoryClub (Conf: 66.7%, Score: 42.6)
+    - Candidato: [130005] The County Fair: A Money Game for Boys and Girls (Conf: 33.3%, Score: 14.9)
+    - Candidato: [30015] The Dana Girls Game (Conf: 33.3%, Score: 35.9)
+    - Candidato: [365077] DC Comics HeroClix: Harley Quinn and the Gotham Girls Booster Brick (Conf: 33.3%, Score: 25.6)
+    - Candidato: [365078] DC Comics HeroClix: Harley Quinn and the Gotham Girls Fast Forces (Conf: 33.3%, Score: 21.4)
+    - Candidato: [408274] Divine Harem: Gamer Girls Expansion (Conf: 33.3%, Score: 33.3)
+    - Candidato: [343602] Don't Look Back: Final Girls Expansion (Conf: 33.3%, Score: 31.6)
+    - Candidato: [356115] Dreams for Rebel Girls (Conf: 33.3%, Score: 23.8)
+    - Candidato: [128561] Felix the Cat's Complete 3 Game Set for Boys & Girls (Conf: 33.3%, Score: 14.3)
+GANADOR: ID 127500 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Girls Night Drinking Game' ---
+Estrategias: ['Girls Night Drinking Game', 'Girls Night Drinking', 'Girls']
+  > Probando query: 'Girls Night Drinking Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Girls Night Drinking'
+    Encontrados 0 resultados.
+  > Probando query: 'Girls'
+    Encontrados 392 resultados.
+    - Candidato: [353260] 12星座のガールズギターリフダービー (The 12 Zodiac Signs Girls Guitar Riff Derby) (Conf: 33.3%, Score: 33.3)
+    - Candidato: [365184] About Us: Grown Up Girls Edition (Conf: 33.3%, Score: 27.5)
+    - Candidato: [447280] Adventurer's Guild Girls: The Board Game (Conf: 33.3%, Score: 23.7)
+    - Candidato: [414916] Alice in Wonderland: Wet Girls and the Caucus Race (Conf: 33.3%, Score: 29.0)
+    - Candidato: [11879] The American Girls Collection Card Game (Conf: 33.3%, Score: 27.1)
+    - Candidato: [6910] The American Girls Game (Conf: 33.3%, Score: 32.6)
+    - Candidato: [97055] Barbie Just Us Girls (Conf: 33.3%, Score: 25.0)
+    - Candidato: [19539] Barbie: We Girls Can Do Anything (Conf: 33.3%, Score: 51.0)
+    - Candidato: [441624] Between Us Girls (Conf: 33.3%, Score: 27.8)
+    - Candidato: [66252] Camp Fire Girls Game (Conf: 33.3%, Score: 35.0)
+    - Candidato: [369997] Card Game for Rebel Girls (Conf: 33.3%, Score: 22.2)
+    - Candidato: [12929] Careers for Girls (Conf: 33.3%, Score: 27.0)
+    - Candidato: [13760] Chasing the Girls (Conf: 33.3%, Score: 27.0)
+    - Candidato: [35513] The Cheetah Girls CD Board Game (Conf: 33.3%, Score: 27.5)
+    - Candidato: [127500] Chit Chat Girls' Night Out (Conf: 66.7%, Score: 53.3)
+    - Candidato: [314115] Clue: The Golden Girls (Conf: 33.3%, Score: 24.4)
+    - Candidato: [176683] Collector's Edition Girls' Night StoryClub (Conf: 66.7%, Score: 42.6)
+    - Candidato: [130005] The County Fair: A Money Game for Boys and Girls (Conf: 33.3%, Score: 14.9)
+    - Candidato: [30015] The Dana Girls Game (Conf: 33.3%, Score: 35.9)
+    - Candidato: [365077] DC Comics HeroClix: Harley Quinn and the Gotham Girls Booster Brick (Conf: 33.3%, Score: 25.6)
+    - Candidato: [365078] DC Comics HeroClix: Harley Quinn and the Gotham Girls Fast Forces (Conf: 33.3%, Score: 21.4)
+    - Candidato: [408274] Divine Harem: Gamer Girls Expansion (Conf: 33.3%, Score: 33.3)
+    - Candidato: [343602] Don't Look Back: Final Girls Expansion (Conf: 33.3%, Score: 31.6)
+    - Candidato: [356115] Dreams for Rebel Girls (Conf: 33.3%, Score: 23.8)
+    - Candidato: [128561] Felix the Cat's Complete 3 Game Set for Boys & Girls (Conf: 33.3%, Score: 14.3)
+GANADOR: ID 127500 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Give It A Whirl' ---
+Estrategias: ['Give It A Whirl', 'Give']
+  > Probando query: 'Give It A Whirl'
+    Encontrados 0 resultados.
+  > Probando query: 'Give'
+    Encontrados 150 resultados.
+    - Candidato: [337227] 1815, Scum of the Earth: Give Me Night (Conf: 25.0%, Score: 27.5)
+    - Candidato: [357331] Ascent: Give rise to an Empire (Conf: 25.0%, Score: 54.5)
+    - Candidato: [382598] Dinn: Given Starter Deck (Conf: 25.0%, Score: 36.8)
+    - Candidato: [7791] Don't Give Up the Ship (Conf: 25.0%, Score: 48.6)
+    - Candidato: [17966] Don't Give Up The Ship! (Conf: 25.0%, Score: 48.6)
+    - Candidato: [1097] Don't Give Up Your Day Job! (Conf: 25.0%, Score: 39.0)
+    - Candidato: [31241] Game of War at Sea or "Don't Give Up the Ship" (Conf: 25.0%, Score: 30.5)
+    - Candidato: [11372] Give & Take (Conf: 25.0%, Score: 58.3)
+    - Candidato: [22127] Give & Take (Conf: 25.0%, Score: 58.3)
+    - Candidato: [34274] Give & Take (Conf: 25.0%, Score: 58.3)
+    - Candidato: [425055] Give 'em The Finger (Conf: 25.0%, Score: 42.4)
+    - Candidato: [381206] Give 5! (Conf: 25.0%, Score: 47.6)
+    - Candidato: [59052] Give a Dog a Bone (Conf: 50.0%, Score: 50.0)
+    - Candidato: [39546] Give and Take (Conf: 25.0%, Score: 50.0)
+    - Candidato: [218490] Give and Take: The Game of Soil Building (Conf: 25.0%, Score: 33.3)
+    - Candidato: [400596] "Give Fyre": Skirmishing and Battle in the Renaissance Period (Conf: 25.0%, Score: 32.9)
+    - Candidato: [141896] Give It to the King! (Conf: 50.0%, Score: 64.7)
+    - Candidato: [382943] Give Me 3 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [199193] Give Me 5! (Conf: 25.0%, Score: 50.0)
+    - Candidato: [343919] Give me A++ (Conf: 50.0%, Score: 58.3)
+    - Candidato: [143674] Give Me Five (Conf: 25.0%, Score: 44.4)
+    - Candidato: [216077] Give me five (Conf: 25.0%, Score: 44.4)
+    - Candidato: [144586] Give Me Five: Carte Promo (Conf: 25.0%, Score: 46.2)
+    - Candidato: [4843] Give Me Liberty (Conf: 25.0%, Score: 46.7)
+    - Candidato: [334798] Give Me Money or I'll Kick Your Cat (Conf: 25.0%, Score: 28.0)
+GANADOR: ID 141896 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Give It A Whirl' ---
+Estrategias: ['Give It A Whirl', 'Give']
+  > Probando query: 'Give It A Whirl'
+    Encontrados 0 resultados.
+  > Probando query: 'Give'
+    Encontrados 150 resultados.
+    - Candidato: [337227] 1815, Scum of the Earth: Give Me Night (Conf: 25.0%, Score: 27.5)
+    - Candidato: [357331] Ascent: Give rise to an Empire (Conf: 25.0%, Score: 54.5)
+    - Candidato: [382598] Dinn: Given Starter Deck (Conf: 25.0%, Score: 36.8)
+    - Candidato: [7791] Don't Give Up the Ship (Conf: 25.0%, Score: 48.6)
+    - Candidato: [17966] Don't Give Up The Ship! (Conf: 25.0%, Score: 48.6)
+    - Candidato: [1097] Don't Give Up Your Day Job! (Conf: 25.0%, Score: 39.0)
+    - Candidato: [31241] Game of War at Sea or "Don't Give Up the Ship" (Conf: 25.0%, Score: 30.5)
+    - Candidato: [11372] Give & Take (Conf: 25.0%, Score: 58.3)
+    - Candidato: [22127] Give & Take (Conf: 25.0%, Score: 58.3)
+    - Candidato: [34274] Give & Take (Conf: 25.0%, Score: 58.3)
+    - Candidato: [425055] Give 'em The Finger (Conf: 25.0%, Score: 42.4)
+    - Candidato: [381206] Give 5! (Conf: 25.0%, Score: 47.6)
+    - Candidato: [59052] Give a Dog a Bone (Conf: 50.0%, Score: 50.0)
+    - Candidato: [39546] Give and Take (Conf: 25.0%, Score: 50.0)
+    - Candidato: [218490] Give and Take: The Game of Soil Building (Conf: 25.0%, Score: 33.3)
+    - Candidato: [400596] "Give Fyre": Skirmishing and Battle in the Renaissance Period (Conf: 25.0%, Score: 32.9)
+    - Candidato: [141896] Give It to the King! (Conf: 50.0%, Score: 64.7)
+    - Candidato: [382943] Give Me 3 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [199193] Give Me 5! (Conf: 25.0%, Score: 50.0)
+    - Candidato: [343919] Give me A++ (Conf: 50.0%, Score: 58.3)
+    - Candidato: [143674] Give Me Five (Conf: 25.0%, Score: 44.4)
+    - Candidato: [216077] Give me five (Conf: 25.0%, Score: 44.4)
+    - Candidato: [144586] Give Me Five: Carte Promo (Conf: 25.0%, Score: 46.2)
+    - Candidato: [4843] Give Me Liberty (Conf: 25.0%, Score: 46.7)
+    - Candidato: [334798] Give Me Money or I'll Kick Your Cat (Conf: 25.0%, Score: 28.0)
+GANADOR: ID 141896 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Give Me 3 Drinking' ---
+Estrategias: ['Give Me 3 Drinking', 'Give']
+  > Probando query: 'Give Me 3 Drinking'
+    Encontrados 0 resultados.
+  > Probando query: 'Give'
+    Encontrados 150 resultados.
+    - Candidato: [337227] 1815, Scum of the Earth: Give Me Night (Conf: 50.0%, Score: 37.0)
+    - Candidato: [357331] Ascent: Give rise to an Empire (Conf: 25.0%, Score: 38.3)
+    - Candidato: [382598] Dinn: Given Starter Deck (Conf: 25.0%, Score: 43.9)
+    - Candidato: [7791] Don't Give Up the Ship (Conf: 25.0%, Score: 40.0)
+    - Candidato: [17966] Don't Give Up The Ship! (Conf: 25.0%, Score: 40.0)
+    - Candidato: [1097] Don't Give Up Your Day Job! (Conf: 25.0%, Score: 36.4)
+    - Candidato: [31241] Game of War at Sea or "Don't Give Up the Ship" (Conf: 25.0%, Score: 25.8)
+    - Candidato: [11372] Give & Take (Conf: 25.0%, Score: 44.4)
+    - Candidato: [22127] Give & Take (Conf: 25.0%, Score: 44.4)
+    - Candidato: [34274] Give & Take (Conf: 25.0%, Score: 44.4)
+    - Candidato: [425055] Give 'em The Finger (Conf: 25.0%, Score: 61.1)
+    - Candidato: [381206] Give 5! (Conf: 25.0%, Score: 41.7)
+    - Candidato: [59052] Give a Dog a Bone (Conf: 25.0%, Score: 45.7)
+    - Candidato: [39546] Give and Take (Conf: 25.0%, Score: 38.7)
+    - Candidato: [218490] Give and Take: The Game of Soil Building (Conf: 25.0%, Score: 45.6)
+    - Candidato: [400596] "Give Fyre": Skirmishing and Battle in the Renaissance Period (Conf: 25.0%, Score: 31.6)
+    - Candidato: [141896] Give It to the King! (Conf: 25.0%, Score: 59.5)
+    - Candidato: [382943] Give Me 3 (Conf: 75.0%, Score: 66.7)
+    - Candidato: [199193] Give Me 5! (Conf: 50.0%, Score: 59.3)
+    - Candidato: [343919] Give me A++ (Conf: 50.0%, Score: 59.3)
+    - Candidato: [143674] Give Me Five (Conf: 50.0%, Score: 60.0)
+    - Candidato: [216077] Give me five (Conf: 50.0%, Score: 60.0)
+    - Candidato: [144586] Give Me Five: Carte Promo (Conf: 50.0%, Score: 47.6)
+    - Candidato: [4843] Give Me Liberty (Conf: 50.0%, Score: 54.5)
+    - Candidato: [334798] Give Me Money or I'll Kick Your Cat (Conf: 50.0%, Score: 49.1)
+GANADOR: ID 382943 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Give Me 3 Drinking' ---
+Estrategias: ['Give Me 3 Drinking', 'Give']
+  > Probando query: 'Give Me 3 Drinking'
+    Encontrados 0 resultados.
+  > Probando query: 'Give'
+    Encontrados 150 resultados.
+    - Candidato: [337227] 1815, Scum of the Earth: Give Me Night (Conf: 50.0%, Score: 37.0)
+    - Candidato: [357331] Ascent: Give rise to an Empire (Conf: 25.0%, Score: 38.3)
+    - Candidato: [382598] Dinn: Given Starter Deck (Conf: 25.0%, Score: 43.9)
+    - Candidato: [7791] Don't Give Up the Ship (Conf: 25.0%, Score: 40.0)
+    - Candidato: [17966] Don't Give Up The Ship! (Conf: 25.0%, Score: 40.0)
+    - Candidato: [1097] Don't Give Up Your Day Job! (Conf: 25.0%, Score: 36.4)
+    - Candidato: [31241] Game of War at Sea or "Don't Give Up the Ship" (Conf: 25.0%, Score: 25.8)
+    - Candidato: [11372] Give & Take (Conf: 25.0%, Score: 44.4)
+    - Candidato: [22127] Give & Take (Conf: 25.0%, Score: 44.4)
+    - Candidato: [34274] Give & Take (Conf: 25.0%, Score: 44.4)
+    - Candidato: [425055] Give 'em The Finger (Conf: 25.0%, Score: 61.1)
+    - Candidato: [381206] Give 5! (Conf: 25.0%, Score: 41.7)
+    - Candidato: [59052] Give a Dog a Bone (Conf: 25.0%, Score: 45.7)
+    - Candidato: [39546] Give and Take (Conf: 25.0%, Score: 38.7)
+    - Candidato: [218490] Give and Take: The Game of Soil Building (Conf: 25.0%, Score: 45.6)
+    - Candidato: [400596] "Give Fyre": Skirmishing and Battle in the Renaissance Period (Conf: 25.0%, Score: 31.6)
+    - Candidato: [141896] Give It to the King! (Conf: 25.0%, Score: 59.5)
+    - Candidato: [382943] Give Me 3 (Conf: 75.0%, Score: 66.7)
+    - Candidato: [199193] Give Me 5! (Conf: 50.0%, Score: 59.3)
+    - Candidato: [343919] Give me A++ (Conf: 50.0%, Score: 59.3)
+    - Candidato: [143674] Give Me Five (Conf: 50.0%, Score: 60.0)
+    - Candidato: [216077] Give me five (Conf: 50.0%, Score: 60.0)
+    - Candidato: [144586] Give Me Five: Carte Promo (Conf: 50.0%, Score: 47.6)
+    - Candidato: [4843] Give Me Liberty (Conf: 50.0%, Score: 54.5)
+    - Candidato: [334798] Give Me Money or I'll Kick Your Cat (Conf: 50.0%, Score: 49.1)
+GANADOR: ID 382943 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Guild Ball: Shadow Games' ---
+Estrategias: ['Guild Ball', 'Guild', 'Guild Ball: Shadow Games']
+  > Probando query: 'Guild Ball: Shadow Games'
+    Encontrados 0 resultados.
+  > Probando query: 'Guild Ball'
+    Encontrados 82 resultados.
+    - Candidato: [155451] Guild Ball (Conf: 50.0%, Score: 60.6)
+    - Candidato: [227634] Guild Ball: Alchemists Starter Set (Conf: 50.0%, Score: 53.6)
+    - Candidato: [227636] Guild Ball: Brewer Starter Set (Conf: 50.0%, Score: 57.7)
+    - Candidato: [227638] Guild Ball: Butcher Starter set (Conf: 50.0%, Score: 56.6)
+    - Candidato: [238505] Guild Ball: Chaska (Conf: 50.0%, Score: 70.0)
+    - Candidato: [227640] Guild Ball: Engineer Starter Set (Conf: 50.0%, Score: 55.6)
+    - Candidato: [227642] Guild Ball: Fisherman Starter Set (Conf: 50.0%, Score: 65.5)
+    - Candidato: [237499] Guild Ball: Heralds of the Winter's Moon (Conf: 50.0%, Score: 45.2)
+    - Candidato: [227648] Guild Ball: Hunter Starter Set (Conf: 50.0%, Score: 57.7)
+    - Candidato: [210271] Guild Ball: Kick Off! (Conf: 50.0%, Score: 57.1)
+    - Candidato: [227643] Guild Ball: Mason Starter Set (Conf: 50.0%, Score: 58.8)
+    - Candidato: [227646] Guild Ball: Mortician Starter Set (Conf: 50.0%, Score: 54.5)
+    - Candidato: [237959] Guild Ball: Season 3 Plot Card Deck (Conf: 50.0%, Score: 56.1)
+    - Candidato: [238503] Guild Ball: Seenah (Conf: 50.0%, Score: 65.0)
+    - Candidato: [227651] Guild Ball: The Alchemist's Guild – The Lure of Gold (Conf: 50.0%, Score: 41.7)
+    - Candidato: [230960] Guild Ball: The Alchemist's Guild – The New Age of Science (Conf: 50.0%, Score: 46.2)
+    - Candidato: [232480] Guild Ball: The Blacksmith's Guild – Forged From Steel (Conf: 50.0%, Score: 45.9)
+    - Candidato: [247108] Guild Ball: The Blacksmith's Guild – Master Crafted Arsenal (Conf: 50.0%, Score: 45.6)
+    - Candidato: [257392] Guild Ball: The Brewer's Guild – Sing When You're Winning (Conf: 50.0%, Score: 39.0)
+    - Candidato: [227652] Guild Ball: The Butcher's Guild – The Bloody Master (Conf: 50.0%, Score: 45.1)
+    - Candidato: [230961] Guild Ball: The Butcher's Guild – The Scarlet Circle (Conf: 50.0%, Score: 44.4)
+    - Candidato: [279944] Guild Ball: The Cook's Guild – Hell's Kitchen (Conf: 50.0%, Score: 49.2)
+    - Candidato: [257388] Guild Ball: The Engineer's Guild – Precision Made (Conf: 50.0%, Score: 43.5)
+    - Candidato: [227654] Guild Ball: The Engineer's Guild – The Instruments of War (Conf: 50.0%, Score: 44.2)
+    - Candidato: [257390] Guild Ball: The Exiles – New Alliances (Conf: 50.0%, Score: 58.6)
+  > Probando query: 'Guild'
+    Encontrados 1068 resultados.
+    - Candidato: [331815] 7 Wonders (Second Edition): Architects Guild Promo Card (Conf: 25.0%, Score: 21.3)
+    - Candidato: [423428] 7 Wonders (Second Edition): Forgers Guild Promo Card (Conf: 25.0%, Score: 22.2)
+    - Candidato: [331817] 7 Wonders (Second Edition): Gamers Guild Promo Card (Conf: 50.0%, Score: 22.5)
+    - Candidato: [423426] 7 Wonders (Second Edition): Leaders – Diplomats Guild Promo Card (Conf: 25.0%, Score: 19.5)
+    - Candidato: [379939] 7 Wonders (Second Edition): Mourners Guild (Conf: 25.0%, Score: 16.1)
+    - Candidato: [342714] 7 Wonders: Cities – Shadow Guild Promo Card (Conf: 50.0%, Score: 34.9)
+    - Candidato: [379940] 7 Wonders: Edifice – Engineers Guild Promo Card (Conf: 25.0%, Score: 23.9)
+    - Candidato: [381494] 7 Wonders: Societas Pictorium Guild Promo Card (Conf: 25.0%, Score: 23.5)
+    - Candidato: [226170] Advanced Guildhall Fantasy: The Gathering (Conf: 0.0%, Score: 47.6)
+    - Candidato: [447280] Adventurer's Guild Girls: The Board Game (Conf: 50.0%, Score: 45.2)
+    - Candidato: [242388] Agricola: Guildmaster (Conf: 0.0%, Score: 37.2)
+    - Candidato: [165782] Alley Thieves: Guild Expansion (Conf: 25.0%, Score: 34.6)
+    - Candidato: [156060] Arcadia Quest: Guildmaster Kickstarter Heroes (Conf: 0.0%, Score: 35.8)
+    - Candidato: [225051] Assassin's Guild (Conf: 25.0%, Score: 25.6)
+    - Candidato: [126995] Belfort: Guild Promo Pack #1 (Conf: 25.0%, Score: 32.7)
+    - Candidato: [368715] Black Dragon's Guild (Conf: 25.0%, Score: 23.3)
+    - Candidato: [423730] Black Dragon's Guild: Dark Forest Expansion (Conf: 25.0%, Score: 33.8)
+    - Candidato: [423731] Black Dragon's Guild: Kickstarter Deluxe Extras (Conf: 25.0%, Score: 29.0)
+    - Candidato: [423732] Black Dragon's Guild: Kickstarter Extras (Conf: 25.0%, Score: 29.0)
+    - Candidato: [452337] Brewmaster's Guild (Conf: 25.0%, Score: 24.4)
+    - Candidato: [233006] Carthago: Merchants & Guilds (Conf: 25.0%, Score: 25.0)
+    - Candidato: [256166] Carthago: Merchants & Guilds – Golden Achievements (Conf: 25.0%, Score: 35.3)
+    - Candidato: [264156] Carthago: Merchants & Guilds – Support of the Guilds (Conf: 25.0%, Score: 31.4)
+    - Candidato: [391551] CastleScape: Gates and Guilds (Conf: 25.0%, Score: 23.5)
+    - Candidato: [129650] Chez Guild (Conf: 25.0%, Score: 30.3)
+GANADOR: ID 238505 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Guild Ball: Shadow Games' ---
+Estrategias: ['Guild Ball: Shadow Games', 'Guild', 'Guild Ball']
+  > Probando query: 'Guild Ball: Shadow Games'
+    Encontrados 0 resultados.
+  > Probando query: 'Guild Ball'
+    Encontrados 82 resultados.
+    - Candidato: [155451] Guild Ball (Conf: 50.0%, Score: 60.6)
+    - Candidato: [227634] Guild Ball: Alchemists Starter Set (Conf: 50.0%, Score: 53.6)
+    - Candidato: [227636] Guild Ball: Brewer Starter Set (Conf: 50.0%, Score: 57.7)
+    - Candidato: [227638] Guild Ball: Butcher Starter set (Conf: 50.0%, Score: 56.6)
+    - Candidato: [238505] Guild Ball: Chaska (Conf: 50.0%, Score: 70.0)
+    - Candidato: [227640] Guild Ball: Engineer Starter Set (Conf: 50.0%, Score: 55.6)
+    - Candidato: [227642] Guild Ball: Fisherman Starter Set (Conf: 50.0%, Score: 65.5)
+    - Candidato: [237499] Guild Ball: Heralds of the Winter's Moon (Conf: 50.0%, Score: 45.2)
+    - Candidato: [227648] Guild Ball: Hunter Starter Set (Conf: 50.0%, Score: 57.7)
+    - Candidato: [210271] Guild Ball: Kick Off! (Conf: 50.0%, Score: 57.1)
+    - Candidato: [227643] Guild Ball: Mason Starter Set (Conf: 50.0%, Score: 58.8)
+    - Candidato: [227646] Guild Ball: Mortician Starter Set (Conf: 50.0%, Score: 54.5)
+    - Candidato: [237959] Guild Ball: Season 3 Plot Card Deck (Conf: 50.0%, Score: 56.1)
+    - Candidato: [238503] Guild Ball: Seenah (Conf: 50.0%, Score: 65.0)
+    - Candidato: [227651] Guild Ball: The Alchemist's Guild – The Lure of Gold (Conf: 50.0%, Score: 41.7)
+    - Candidato: [230960] Guild Ball: The Alchemist's Guild – The New Age of Science (Conf: 50.0%, Score: 46.2)
+    - Candidato: [232480] Guild Ball: The Blacksmith's Guild – Forged From Steel (Conf: 50.0%, Score: 45.9)
+    - Candidato: [247108] Guild Ball: The Blacksmith's Guild – Master Crafted Arsenal (Conf: 50.0%, Score: 45.6)
+    - Candidato: [257392] Guild Ball: The Brewer's Guild – Sing When You're Winning (Conf: 50.0%, Score: 39.0)
+    - Candidato: [227652] Guild Ball: The Butcher's Guild – The Bloody Master (Conf: 50.0%, Score: 45.1)
+    - Candidato: [230961] Guild Ball: The Butcher's Guild – The Scarlet Circle (Conf: 50.0%, Score: 44.4)
+    - Candidato: [279944] Guild Ball: The Cook's Guild – Hell's Kitchen (Conf: 50.0%, Score: 49.2)
+    - Candidato: [257388] Guild Ball: The Engineer's Guild – Precision Made (Conf: 50.0%, Score: 43.5)
+    - Candidato: [227654] Guild Ball: The Engineer's Guild – The Instruments of War (Conf: 50.0%, Score: 44.2)
+    - Candidato: [257390] Guild Ball: The Exiles – New Alliances (Conf: 50.0%, Score: 58.6)
+  > Probando query: 'Guild'
+    Encontrados 1068 resultados.
+    - Candidato: [331815] 7 Wonders (Second Edition): Architects Guild Promo Card (Conf: 25.0%, Score: 21.3)
+    - Candidato: [423428] 7 Wonders (Second Edition): Forgers Guild Promo Card (Conf: 25.0%, Score: 22.2)
+    - Candidato: [331817] 7 Wonders (Second Edition): Gamers Guild Promo Card (Conf: 50.0%, Score: 22.5)
+    - Candidato: [423426] 7 Wonders (Second Edition): Leaders – Diplomats Guild Promo Card (Conf: 25.0%, Score: 19.5)
+    - Candidato: [379939] 7 Wonders (Second Edition): Mourners Guild (Conf: 25.0%, Score: 16.1)
+    - Candidato: [342714] 7 Wonders: Cities – Shadow Guild Promo Card (Conf: 50.0%, Score: 34.9)
+    - Candidato: [379940] 7 Wonders: Edifice – Engineers Guild Promo Card (Conf: 25.0%, Score: 23.9)
+    - Candidato: [381494] 7 Wonders: Societas Pictorium Guild Promo Card (Conf: 25.0%, Score: 23.5)
+    - Candidato: [226170] Advanced Guildhall Fantasy: The Gathering (Conf: 0.0%, Score: 47.6)
+    - Candidato: [447280] Adventurer's Guild Girls: The Board Game (Conf: 50.0%, Score: 45.2)
+    - Candidato: [242388] Agricola: Guildmaster (Conf: 0.0%, Score: 37.2)
+    - Candidato: [165782] Alley Thieves: Guild Expansion (Conf: 25.0%, Score: 34.6)
+    - Candidato: [156060] Arcadia Quest: Guildmaster Kickstarter Heroes (Conf: 0.0%, Score: 35.8)
+    - Candidato: [225051] Assassin's Guild (Conf: 25.0%, Score: 25.6)
+    - Candidato: [126995] Belfort: Guild Promo Pack #1 (Conf: 25.0%, Score: 32.7)
+    - Candidato: [368715] Black Dragon's Guild (Conf: 25.0%, Score: 23.3)
+    - Candidato: [423730] Black Dragon's Guild: Dark Forest Expansion (Conf: 25.0%, Score: 33.8)
+    - Candidato: [423731] Black Dragon's Guild: Kickstarter Deluxe Extras (Conf: 25.0%, Score: 29.0)
+    - Candidato: [423732] Black Dragon's Guild: Kickstarter Extras (Conf: 25.0%, Score: 29.0)
+    - Candidato: [452337] Brewmaster's Guild (Conf: 25.0%, Score: 24.4)
+    - Candidato: [233006] Carthago: Merchants & Guilds (Conf: 25.0%, Score: 25.0)
+    - Candidato: [256166] Carthago: Merchants & Guilds – Golden Achievements (Conf: 25.0%, Score: 35.3)
+    - Candidato: [264156] Carthago: Merchants & Guilds – Support of the Guilds (Conf: 25.0%, Score: 31.4)
+    - Candidato: [391551] CastleScape: Gates and Guilds (Conf: 25.0%, Score: 23.5)
+    - Candidato: [129650] Chez Guild (Conf: 25.0%, Score: 30.3)
+GANADOR: ID 238505 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hand Jive' ---
+Estrategias: ['Hand Jive', 'Hand']
+  > Probando query: 'Hand Jive'
+    Encontrados 1 resultados.
+  > Probando query: 'Hand'
+    Encontrados 1256 resultados.
+    - Candidato: [424450] 100 Hands of Robot Bridge: A Playing Card Bridge Automaton (Conf: 50.0%, Score: 21.2)
+    - Candidato: [11894] 2-Handed Whammy! (Conf: 0.0%, Score: 41.7)
+    - Candidato: [413389] 21 Hand Games (Conf: 50.0%, Score: 54.5)
+    - Candidato: [13123] 500 Six Handed (Conf: 0.0%, Score: 43.5)
+    - Candidato: [3018] The A-Team: B.A. Lends a Hand in the Race for the Formula (Conf: 50.0%, Score: 21.9)
+    - Candidato: [33776] Ace Handicap Golf (Conf: 0.0%, Score: 38.5)
+    - Candidato: [7118] Ace of Aces: Handy Rotary Deluxe Edition (Conf: 50.0%, Score: 25.0)
+    - Candidato: [798] Ace of Aces: Handy Rotary Series (Conf: 50.0%, Score: 35.0)
+    - Candidato: [359496] Admiral of the Fleet: Flag Officer's Handbook (Conf: 0.0%, Score: 15.1)
+    - Candidato: [164855] Admiral's Order: Naval Tactics in the Age of Sail – All Hands! (Conf: 50.0%, Score: 11.9)
+    - Candidato: [39717] Aeronef Captain's Handbook (Conf: 0.0%, Score: 22.9)
+    - Candidato: [39090] Agricola: L-Deck – Handaufhalter (Conf: 0.0%, Score: 26.3)
+    - Candidato: [295301] Alert! All Hands On Deck (Conf: 50.0%, Score: 37.5)
+    - Candidato: [340093] Alert! All Hands On Deck: Fleet Expansion (Conf: 50.0%, Score: 25.0)
+    - Candidato: [252422] Alhambra: Designers' Expansion – Handymen / Gates Without End / Fresh Color (Conf: 0.0%, Score: 18.4)
+    - Candidato: [29154] All American Handicap (Conf: 0.0%, Score: 33.3)
+    - Candidato: [200792] All Hands On Deck (Conf: 50.0%, Score: 46.2)
+    - Candidato: [148117] All Hands on Deck! (Conf: 50.0%, Score: 46.2)
+    - Candidato: [468866] All Hands on Deck!: A Bridge Command Crew Drafting Game (Conf: 50.0%, Score: 22.6)
+    - Candidato: [467731] All Hands On Decks! (Conf: 50.0%, Score: 44.4)
+    - Candidato: [152081] All Hands! (Conf: 50.0%, Score: 44.4)
+    - Candidato: [153999] ...and then, we held hands. (Conf: 50.0%, Score: 25.8)
+    - Candidato: [285235] Architekten des Westfrankenreichs: Ära der Handwerker (Conf: 0.0%, Score: 16.4)
+    - Candidato: [226441] Arler Erde: Tee & Handel (Conf: 0.0%, Score: 33.3)
+    - Candidato: [292716] Armata Strigoi: Limited Deck Expansion + Handmade Painted Set (Conf: 0.0%, Score: 20.9)
+GANADOR: ID 413389 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hand Jive' ---
+Estrategias: ['Hand Jive', 'Hand']
+  > Probando query: 'Hand Jive'
+    Encontrados 1 resultados.
+  > Probando query: 'Hand'
+    Encontrados 1256 resultados.
+    - Candidato: [424450] 100 Hands of Robot Bridge: A Playing Card Bridge Automaton (Conf: 50.0%, Score: 21.2)
+    - Candidato: [11894] 2-Handed Whammy! (Conf: 0.0%, Score: 41.7)
+    - Candidato: [413389] 21 Hand Games (Conf: 50.0%, Score: 54.5)
+    - Candidato: [13123] 500 Six Handed (Conf: 0.0%, Score: 43.5)
+    - Candidato: [3018] The A-Team: B.A. Lends a Hand in the Race for the Formula (Conf: 50.0%, Score: 21.9)
+    - Candidato: [33776] Ace Handicap Golf (Conf: 0.0%, Score: 38.5)
+    - Candidato: [7118] Ace of Aces: Handy Rotary Deluxe Edition (Conf: 50.0%, Score: 25.0)
+    - Candidato: [798] Ace of Aces: Handy Rotary Series (Conf: 50.0%, Score: 35.0)
+    - Candidato: [359496] Admiral of the Fleet: Flag Officer's Handbook (Conf: 0.0%, Score: 15.1)
+    - Candidato: [164855] Admiral's Order: Naval Tactics in the Age of Sail – All Hands! (Conf: 50.0%, Score: 11.9)
+    - Candidato: [39717] Aeronef Captain's Handbook (Conf: 0.0%, Score: 22.9)
+    - Candidato: [39090] Agricola: L-Deck – Handaufhalter (Conf: 0.0%, Score: 26.3)
+    - Candidato: [295301] Alert! All Hands On Deck (Conf: 50.0%, Score: 37.5)
+    - Candidato: [340093] Alert! All Hands On Deck: Fleet Expansion (Conf: 50.0%, Score: 25.0)
+    - Candidato: [252422] Alhambra: Designers' Expansion – Handymen / Gates Without End / Fresh Color (Conf: 0.0%, Score: 18.4)
+    - Candidato: [29154] All American Handicap (Conf: 0.0%, Score: 33.3)
+    - Candidato: [200792] All Hands On Deck (Conf: 50.0%, Score: 46.2)
+    - Candidato: [148117] All Hands on Deck! (Conf: 50.0%, Score: 46.2)
+    - Candidato: [468866] All Hands on Deck!: A Bridge Command Crew Drafting Game (Conf: 50.0%, Score: 22.6)
+    - Candidato: [467731] All Hands On Decks! (Conf: 50.0%, Score: 44.4)
+    - Candidato: [152081] All Hands! (Conf: 50.0%, Score: 44.4)
+    - Candidato: [153999] ...and then, we held hands. (Conf: 50.0%, Score: 25.8)
+    - Candidato: [285235] Architekten des Westfrankenreichs: Ära der Handwerker (Conf: 0.0%, Score: 16.4)
+    - Candidato: [226441] Arler Erde: Tee & Handel (Conf: 0.0%, Score: 33.3)
+    - Candidato: [292716] Armata Strigoi: Limited Deck Expansion + Handmade Painted Set (Conf: 0.0%, Score: 20.9)
+GANADOR: ID 413389 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Harry Potter Flipolo' ---
+Estrategias: ['Harry', 'Harry Potter Flipolo']
+  > Probando query: 'Harry Potter Flipolo'
+    Encontrados 0 resultados.
+  > Probando query: 'Harry'
+    Encontrados 349 resultados.
+    - Candidato: [358289] 5 sekund Harry Potter (Conf: 66.7%, Score: 58.5)
+    - Candidato: [352564] Bloody Harry (Conf: 33.3%, Score: 31.2)
+    - Candidato: [349165] BrainBox: Harry Potter (Conf: 66.7%, Score: 58.5)
+    - Candidato: [264660] Can't Catch Harry (Conf: 33.3%, Score: 27.0)
+    - Candidato: [363141] Can't Catch Harry: White Trash Butterflies (Conf: 33.3%, Score: 42.6)
+    - Candidato: [38026] Clue: Harry Potter Edition (Conf: 66.7%, Score: 66.7)
+    - Candidato: [109296] Clue: World of Harry Potter (Conf: 66.7%, Score: 52.2)
+    - Candidato: [249821] Codenames: Harry Potter (Conf: 66.7%, Score: 57.1)
+    - Candidato: [443600] La Copa de Las Casas Harry Potter (Conf: 66.7%, Score: 45.3)
+    - Candidato: [371436] Cortex: Harry Potter (Conf: 66.7%, Score: 61.5)
+    - Candidato: [101774] Crazy Harry (Conf: 33.3%, Score: 32.3)
+    - Candidato: [63268] Dobble Harry Potter (Conf: 66.7%, Score: 61.5)
+    - Candidato: [378248] DOG: Harry Potter (Conf: 66.7%, Score: 66.7)
+    - Candidato: [466552] Enigma de Hogwarts Harry Potter (Conf: 66.7%, Score: 47.1)
+    - Candidato: [35026] Fingers Harry (Conf: 33.3%, Score: 30.3)
+    - Candidato: [292032] Funkoverse Strategy Game: Harry Potter 100 (Conf: 66.7%, Score: 42.6)
+    - Candidato: [292031] Funkoverse Strategy Game: Harry Potter 101 (Conf: 66.7%, Score: 42.6)
+    - Candidato: [319290] Funkoverse Strategy Game: Harry Potter 102 (Conf: 66.7%, Score: 42.6)
+    - Candidato: [4143] Guess Who? Wizarding World: Harry Potter (Conf: 66.7%, Score: 41.4)
+    - Candidato: [111439] Hands Up Harry (Conf: 33.3%, Score: 29.4)
+    - Candidato: [438781] Harry Estate (Conf: 33.3%, Score: 56.2)
+    - Candidato: [172550] Harry Hopper (Conf: 33.3%, Score: 56.2)
+    - Candidato: [26378] The Harry Lorayne Memory Game (Conf: 33.3%, Score: 32.7)
+    - Candidato: [33844] Harry Potter 3-D Mini Game (Conf: 66.7%, Score: 60.9)
+    - Candidato: [134861] Harry Potter and the Chamber of Secrets Aragog Chapter Game (Conf: 66.7%, Score: 38.0)
+GANADOR: ID 378248 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Harry Potter Flipolo' ---
+Estrategias: ['Harry Potter Flipolo', 'Harry']
+  > Probando query: 'Harry Potter Flipolo'
+    Encontrados 0 resultados.
+  > Probando query: 'Harry'
+    Encontrados 349 resultados.
+    - Candidato: [358289] 5 sekund Harry Potter (Conf: 66.7%, Score: 58.5)
+    - Candidato: [352564] Bloody Harry (Conf: 33.3%, Score: 31.2)
+    - Candidato: [349165] BrainBox: Harry Potter (Conf: 66.7%, Score: 58.5)
+    - Candidato: [264660] Can't Catch Harry (Conf: 33.3%, Score: 27.0)
+    - Candidato: [363141] Can't Catch Harry: White Trash Butterflies (Conf: 33.3%, Score: 42.6)
+    - Candidato: [38026] Clue: Harry Potter Edition (Conf: 66.7%, Score: 66.7)
+    - Candidato: [109296] Clue: World of Harry Potter (Conf: 66.7%, Score: 52.2)
+    - Candidato: [249821] Codenames: Harry Potter (Conf: 66.7%, Score: 57.1)
+    - Candidato: [443600] La Copa de Las Casas Harry Potter (Conf: 66.7%, Score: 45.3)
+    - Candidato: [371436] Cortex: Harry Potter (Conf: 66.7%, Score: 61.5)
+    - Candidato: [101774] Crazy Harry (Conf: 33.3%, Score: 32.3)
+    - Candidato: [63268] Dobble Harry Potter (Conf: 66.7%, Score: 61.5)
+    - Candidato: [378248] DOG: Harry Potter (Conf: 66.7%, Score: 66.7)
+    - Candidato: [466552] Enigma de Hogwarts Harry Potter (Conf: 66.7%, Score: 47.1)
+    - Candidato: [35026] Fingers Harry (Conf: 33.3%, Score: 30.3)
+    - Candidato: [292032] Funkoverse Strategy Game: Harry Potter 100 (Conf: 66.7%, Score: 42.6)
+    - Candidato: [292031] Funkoverse Strategy Game: Harry Potter 101 (Conf: 66.7%, Score: 42.6)
+    - Candidato: [319290] Funkoverse Strategy Game: Harry Potter 102 (Conf: 66.7%, Score: 42.6)
+    - Candidato: [4143] Guess Who? Wizarding World: Harry Potter (Conf: 66.7%, Score: 41.4)
+    - Candidato: [111439] Hands Up Harry (Conf: 33.3%, Score: 29.4)
+    - Candidato: [438781] Harry Estate (Conf: 33.3%, Score: 56.2)
+    - Candidato: [172550] Harry Hopper (Conf: 33.3%, Score: 56.2)
+    - Candidato: [26378] The Harry Lorayne Memory Game (Conf: 33.3%, Score: 32.7)
+    - Candidato: [33844] Harry Potter 3-D Mini Game (Conf: 66.7%, Score: 60.9)
+    - Candidato: [134861] Harry Potter and the Chamber of Secrets Aragog Chapter Game (Conf: 66.7%, Score: 38.0)
+GANADOR: ID 378248 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hashtag the Card Game' ---
+Estrategias: ['Hashtag the Card Game', 'Hashtag', 'Hashtag the Card']
+  > Probando query: 'Hashtag the Card Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Hashtag the Card'
+    Encontrados 0 resultados.
+  > Probando query: 'Hashtag'
+    Encontrados 10 resultados.
+    - Candidato: [348707] #_Hashtag (Conf: 33.3%, Score: 60.9)
+    - Candidato: [439375] Hashtag Hustle (Conf: 33.3%, Score: 66.7)
+    - Candidato: [192243] Hashtag Me! (Conf: 33.3%, Score: 69.2)
+    - Candidato: [192594] Hashtag the Game (Conf: 66.7%, Score: 81.2)
+    - Candidato: [260047] #hashtag: the game (Conf: 66.7%, Score: 81.2)
+    - Candidato: [215497] HashTagIt (Conf: 33.3%, Score: 64.0)
+    - Candidato: [255552] HashTagIt!: Family Edition (Conf: 33.3%, Score: 45.0)
+    - Candidato: [225795] #hashtags (Conf: 33.3%, Score: 58.3)
+    - Candidato: [369498] #hashtags (Conf: 33.3%, Score: 58.3)
+GANADOR: ID 260047 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hashtag the Card Game' ---
+Estrategias: ['Hashtag', 'Hashtag the Card Game', 'Hashtag the Card']
+  > Probando query: 'Hashtag the Card Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Hashtag the Card'
+    Encontrados 0 resultados.
+  > Probando query: 'Hashtag'
+    Encontrados 10 resultados.
+    - Candidato: [348707] #_Hashtag (Conf: 33.3%, Score: 60.9)
+    - Candidato: [439375] Hashtag Hustle (Conf: 33.3%, Score: 66.7)
+    - Candidato: [192243] Hashtag Me! (Conf: 33.3%, Score: 69.2)
+    - Candidato: [192594] Hashtag the Game (Conf: 66.7%, Score: 81.2)
+    - Candidato: [260047] #hashtag: the game (Conf: 66.7%, Score: 81.2)
+    - Candidato: [215497] HashTagIt (Conf: 33.3%, Score: 64.0)
+    - Candidato: [255552] HashTagIt!: Family Edition (Conf: 33.3%, Score: 45.0)
+    - Candidato: [225795] #hashtags (Conf: 33.3%, Score: 58.3)
+    - Candidato: [369498] #hashtags (Conf: 33.3%, Score: 58.3)
+GANADOR: ID 260047 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hello Kitty Mini Memory' ---
+Estrategias: ['Hello Kitty Mini Memory', 'Hello']
+  > Probando query: 'Hello Kitty Mini Memory'
+    Encontrados 0 resultados.
+  > Probando query: 'Hello'
+    Encontrados 100 resultados.
+    - Candidato: [5048] Candy Land: Hello Kitty and Friends (Conf: 50.0%, Score: 49.1)
+    - Candidato: [429648] The Game of Life: Hello Kitty and Friends (Conf: 50.0%, Score: 44.4)
+    - Candidato: [428590] Hello (Conf: 25.0%, Score: 35.7)
+    - Candidato: [272570] Hello Bunny (Conf: 25.0%, Score: 41.2)
+    - Candidato: [245694] Hello Dino (Conf: 25.0%, Score: 54.5)
+    - Candidato: [22235] Hello Friends (Conf: 25.0%, Score: 44.4)
+    - Candidato: [400927] Hello Hello Kalmario! (Conf: 25.0%, Score: 41.9)
+    - Candidato: [452589] Hello Kappa (Conf: 25.0%, Score: 41.2)
+    - Candidato: [15878] Hello Kitty "What's Your Sign?" Rummy Game (Conf: 50.0%, Score: 51.6)
+    - Candidato: [353869] Hello Kitty & Amigos: Um dia para Relaxar (Conf: 50.0%, Score: 59.0)
+    - Candidato: [377564] Hello Kitty and Friends: A Lotería Game (Conf: 50.0%, Score: 59.0)
+    - Candidato: [451783] Hello Kitty and Friends: Reach for the Stars Game (Conf: 50.0%, Score: 47.9)
+    - Candidato: [17917] Hello Kitty Best Friends Game (Conf: 50.0%, Score: 65.4)
+    - Candidato: [89408] Hello Kitty Big Roll Bingo (Conf: 50.0%, Score: 61.2)
+    - Candidato: [96628] Hello Kitty Familien-Spielesammlung (Conf: 50.0%, Score: 62.1)
+    - Candidato: [182035] Hello Kitty Fia-spel (Conf: 50.0%, Score: 69.8)
+    - Candidato: [180485] Hello Kitty Fjärilsspelet (Conf: 50.0%, Score: 58.3)
+    - Candidato: [7688] Hello Kitty Flip 'N' Match Game (Conf: 50.0%, Score: 65.4)
+    - Candidato: [7682] Hello Kitty Go Fish (Conf: 50.0%, Score: 61.9)
+    - Candidato: [52347] Hello Kitty Happy Seasons game (Conf: 50.0%, Score: 60.4)
+    - Candidato: [1219] Hello Kitty Labyrinth (Conf: 50.0%, Score: 63.6)
+    - Candidato: [2093] Hello Kitty Mahjong (Conf: 50.0%, Score: 66.7)
+    - Candidato: [101332] Hello Kitty Muffinsspelet (Conf: 50.0%, Score: 66.7)
+    - Candidato: [10799] Hello Kitty Old Maid (Conf: 50.0%, Score: 65.1)
+    - Candidato: [2136] Hello Kitty Pachisi (Conf: 50.0%, Score: 66.7)
+GANADOR: ID 182035 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hello Kitty Mini Memory' ---
+Estrategias: ['Hello', 'Hello Kitty Mini Memory']
+  > Probando query: 'Hello Kitty Mini Memory'
+    Encontrados 0 resultados.
+  > Probando query: 'Hello'
+    Encontrados 100 resultados.
+    - Candidato: [5048] Candy Land: Hello Kitty and Friends (Conf: 50.0%, Score: 49.1)
+    - Candidato: [429648] The Game of Life: Hello Kitty and Friends (Conf: 50.0%, Score: 44.4)
+    - Candidato: [428590] Hello (Conf: 25.0%, Score: 35.7)
+    - Candidato: [272570] Hello Bunny (Conf: 25.0%, Score: 41.2)
+    - Candidato: [245694] Hello Dino (Conf: 25.0%, Score: 54.5)
+    - Candidato: [22235] Hello Friends (Conf: 25.0%, Score: 44.4)
+    - Candidato: [400927] Hello Hello Kalmario! (Conf: 25.0%, Score: 41.9)
+    - Candidato: [452589] Hello Kappa (Conf: 25.0%, Score: 41.2)
+    - Candidato: [15878] Hello Kitty "What's Your Sign?" Rummy Game (Conf: 50.0%, Score: 51.6)
+    - Candidato: [353869] Hello Kitty & Amigos: Um dia para Relaxar (Conf: 50.0%, Score: 59.0)
+    - Candidato: [377564] Hello Kitty and Friends: A Lotería Game (Conf: 50.0%, Score: 59.0)
+    - Candidato: [451783] Hello Kitty and Friends: Reach for the Stars Game (Conf: 50.0%, Score: 47.9)
+    - Candidato: [17917] Hello Kitty Best Friends Game (Conf: 50.0%, Score: 65.4)
+    - Candidato: [89408] Hello Kitty Big Roll Bingo (Conf: 50.0%, Score: 61.2)
+    - Candidato: [96628] Hello Kitty Familien-Spielesammlung (Conf: 50.0%, Score: 62.1)
+    - Candidato: [182035] Hello Kitty Fia-spel (Conf: 50.0%, Score: 69.8)
+    - Candidato: [180485] Hello Kitty Fjärilsspelet (Conf: 50.0%, Score: 58.3)
+    - Candidato: [7688] Hello Kitty Flip 'N' Match Game (Conf: 50.0%, Score: 65.4)
+    - Candidato: [7682] Hello Kitty Go Fish (Conf: 50.0%, Score: 61.9)
+    - Candidato: [52347] Hello Kitty Happy Seasons game (Conf: 50.0%, Score: 60.4)
+    - Candidato: [1219] Hello Kitty Labyrinth (Conf: 50.0%, Score: 63.6)
+    - Candidato: [2093] Hello Kitty Mahjong (Conf: 50.0%, Score: 66.7)
+    - Candidato: [101332] Hello Kitty Muffinsspelet (Conf: 50.0%, Score: 66.7)
+    - Candidato: [10799] Hello Kitty Old Maid (Conf: 50.0%, Score: 65.1)
+    - Candidato: [2136] Hello Kitty Pachisi (Conf: 50.0%, Score: 66.7)
+GANADOR: ID 182035 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hero Master: Snoozehaven Treasure Chest Expansion' ---
+Estrategias: ['Hero', 'Hero Master: Snoozehaven Treasure Chest', 'Hero Master', 'Hero Master: Snoozehaven Treasure Chest Expansion']
+  > Probando query: 'Hero Master: Snoozehaven Treasure Chest Expansion'
+    Encontrados 0 resultados.
+  > Probando query: 'Hero Master: Snoozehaven Treasure Chest'
+    Encontrados 0 resultados.
+  > Probando query: 'Hero Master'
+    Encontrados 127 resultados.
+    - Candidato: [250406] Hero Master: An Epic Game of Epic Fails (Conf: 40.0%, Score: 55.3)
+    - Candidato: [306176] Hero Master: An Epic Game of Epic Fails – Indecent Exposure Promo Cards (Conf: 40.0%, Score: 49.1)
+    - Candidato: [236957] Heroes & Gods: The Master of Dreams (Conf: 20.0%, Score: 51.4)
+    - Candidato: [101677] Heroes Inc 5: Master Mind's Revenge (Conf: 20.0%, Score: 50.0)
+    - Candidato: [156106] Heroes Wanted: Champions and Masterminds (Conf: 0.0%, Score: 31.2)
+    - Candidato: [170802] Heroes Wanted: Champions and Masterminds II (Conf: 0.0%, Score: 30.0)
+    - Candidato: [22192] HeroQuest: Master Edition (Conf: 20.0%, Score: 41.9)
+    - Candidato: [54361] Heroscape Master Set:  Battle for the Underdark (Conf: 20.0%, Score: 45.8)
+    - Candidato: [368557] Heroscape Master Set: Age of Annihilation (Conf: 20.0%, Score: 48.7)
+    - Candidato: [11170] Heroscape Master Set: Rise of the Valkyrie (Conf: 20.0%, Score: 48.1)
+    - Candidato: [27976] Heroscape Master Set: Swarm of the Marro (Conf: 20.0%, Score: 46.8)
+    - Candidato: [101639] Heroscape: Arrival of the Master (Conf: 20.0%, Score: 31.9)
+    - Candidato: [351550] Keep the Heroes Out!: Guild Master's Revenge Expansion (Conf: 20.0%, Score: 46.7)
+    - Candidato: [322896] Marvel HeroClix: Battlegrounds – Avengers vs. Masters of Evil (Conf: 20.0%, Score: 31.6)
+    - Candidato: [443381] Masters of the Universe: Battleground – Wave 10: Preternian Heroes (Conf: 20.0%, Score: 34.0)
+    - Candidato: [127288] Masters' Series: Adventure 1 – The Deadly Hand of Zargon (fan expansion for HeroQuest) (Conf: 20.0%, Score: 37.3)
+    - Candidato: [183415] Mastery: Become a Hero (Conf: 40.0%, Score: 40.7)
+    - Candidato: [217471] Teenage Mutant Ninja Turtles Dice Masters: Heroes in a Half Shell (Conf: 20.0%, Score: 25.5)
+    - Candidato: [306176] Hero Master: An Epic Game of Epic Fails – Indecent Exposure Promo Cards (Conf: 40.0%, Score: 49.1)
+    - Candidato: [101677] Heroes Inc 5: Master Mind's Revenge (Conf: 20.0%, Score: 50.0)
+    - Candidato: [156106] Heroes Wanted: Champions and Masterminds (Conf: 0.0%, Score: 31.2)
+    - Candidato: [170802] Heroes Wanted: Champions and Masterminds II (Conf: 0.0%, Score: 30.0)
+    - Candidato: [101639] Heroscape: Arrival of the Master (Conf: 20.0%, Score: 31.9)
+    - Candidato: [351550] Keep the Heroes Out!: Guild Master's Revenge Expansion (Conf: 20.0%, Score: 46.7)
+    - Candidato: [443381] Masters of the Universe: Battleground – Wave 10: Preternian Heroes (Conf: 20.0%, Score: 34.0)
+  > Probando query: 'Hero'
+--- INICIO BÚSQUEDA: 'Hero Master: Snoozehaven Treasure Chest Expansion' ---
+    Encontrados 2503 resultados.
+Estrategias: ['Hero Master: Snoozehaven Treasure Chest', 'Hero', 'Hero Master', 'Hero Master: Snoozehaven Treasure Chest Expansion']
+    - Candidato: [444922] 13 Heroes (Conf: 0.0%, Score: 25.5)
+  > Probando query: 'Hero Master: Snoozehaven Treasure Chest Expansion'
+    - Candidato: [335492] 7 Moons: Heroes of Dragon Reach (Conf: 0.0%, Score: 41.2)
+    Encontrados 0 resultados.
+    - Candidato: [163595] 8-bit Action Hero: Jungle Adventures (Conf: 20.0%, Score: 38.4)
+  > Probando query: 'Hero Master: Snoozehaven Treasure Chest'
+e (Conf: 0.0%, Score: 34.2)
+    Encontrados 0 resultados.
+roes (Conf: 0.0%, Score: 25.5)
+    - Candidato: [350066] The Acts: Heroes of the Faith (Conf: 0.0%, Score: 33.3)
+  > Probando query: 'Hero Master'
+    Encontrados 127 resultados.
+d Dungeon Hero (fan expansion for Dungeon Hero) (Conf: 20.0%, Score: 22.2)
+    - Candidato: [1758] Advanced Heroquest (Conf: 0.0%, Score: 28.6)
+    - Candidato: [250406] Hero Master: An Epic Game of Epic Fails (Conf: 40.0%, Score: 55.3)
+    - Candidato: [306176] Hero Master: An Epic Game of Epic Fails – Indecent Exposure Promo Cards (Conf: 40.0%, Score: 49.1)
+    - Candidato: [182544] Advanced Song of Blades and Heroes (Conf: 0.0%, Score: 16.7)
+    - Candidato: [236957] Heroes & Gods: The Master of Dreams (Conf: 20.0%, Score: 51.4)
+    - Candidato: [101677] Heroes Inc 5: Master Mind's Revenge (Conf: 20.0%, Score: 50.0)
+%, Score: 20.0)
+    - Candidato: [156106] Heroes Wanted: Champions and Masterminds (Conf: 0.0%, Score: 31.2)
+0.0%, Score: 16.8)
+    - Candidato: [123656] Adventure 2: Slaves Of Zargon (fan expansion for HeroQuest) (Conf: 0.0%, Score: 17.0)
+    - Candidato: [170802] Heroes Wanted: Champions and Masterminds II (Conf: 0.0%, Score: 30.0)
+    - Candidato: [123743] Adventure 3: The Lost Books (fan expansion for HeroQuest) (Conf: 0.0%, Score: 17.4)
+    - Candidato: [22192] HeroQuest: Master Edition (Conf: 20.0%, Score: 41.9)
+    - Candidato: [54361] Heroscape Master Set:  Battle for the Underdark (Conf: 20.0%, Score: 45.8)
+%, Score: 16.2)
+    - Candidato: [368557] Heroscape Master Set: Age of Annihilation (Conf: 20.0%, Score: 48.7)
+ HeroQuest) (Conf: 0.0%, Score: 14.3)
+    - Candidato: [11170] Heroscape Master Set: Rise of the Valkyrie (Conf: 20.0%, Score: 48.1)
+    - Candidato: [125088] Adventure 6: Resurrection – Return of the Witch Lord 2 (fan expansion for HeroQuest) (Conf: 0.0%, Score: 13.7)
+    - Candidato: [27976] Heroscape Master Set: Swarm of the Marro (Conf: 20.0%, Score: 46.8)
+    - Candidato: [127057] Adventure 7: The Rescue of Princess Millandriell (fan expansion for HeroQuest) (Conf: 0.0%, Score: 14.2)
+    - Candidato: [101639] Heroscape: Arrival of the Master (Conf: 20.0%, Score: 31.9)
+    - Candidato: [127059] Adventure 8: The Horror Inside the Ancient Halls of Sunca (fan expansion for HeroQuest) (Conf: 0.0%, Score: 13.1)
+    - Candidato: [351550] Keep the Heroes Out!: Guild Master's Revenge Expansion (Conf: 20.0%, Score: 46.7)
+    - Candidato: [10854] Adventure Cards: Heroes (Conf: 0.0%, Score: 43.3)
+    - Candidato: [322896] Marvel HeroClix: Battlegrounds – Avengers vs. Masters of Evil (Conf: 20.0%, Score: 31.6)
+    - Candidato: [282119] Adventure Tactics: Domianne's Tower – Hero Pack 1 (Conf: 20.0%, Score: 16.7)
+    - Candidato: [172619] Adventure Time Card Wars: Hero Pack #1 (Conf: 20.0%, Score: 18.9)
+    - Candidato: [442198] Aeon Trespass: Odyssey – Spartan Herodotus (Conf: 0.0%, Score: 36.4)
+    - Candidato: [443381] Masters of the Universe: Battleground – Wave 10: Preternian Heroes (Conf: 20.0%, Score: 34.0)
+    - Candidato: [10631] Age of Heroes (Conf: 0.0%, Score: 23.5)
+    - Candidato: [127288] Masters' Series: Adventure 1 – The Deadly Hand of Zargon (fan expansion for HeroQuest) (Conf: 20.0%, Score: 37.3)
+    - Candidato: [13267] Age of Heroes (Conf: 0.0%, Score: 23.5)
+GANADOR: ID 250406 con 40.0% confianza.
+ a Hero (Conf: 40.0%, Score: 40.7)
+    - Candidato: [217471] Teenage Mutant Ninja Turtles Dice Masters: Heroes in a Half Shell (Conf: 20.0%, Score: 25.5)
+--------------------------------------------------
+    - Candidato: [306176] Hero Master: An Epic Game of Epic Fails – Indecent Exposure Promo Cards (Conf: 40.0%, Score: 49.1)
+    - Candidato: [101677] Heroes Inc 5: Master Mind's Revenge (Conf: 20.0%, Score: 50.0)
+    - Candidato: [156106] Heroes Wanted: Champions and Masterminds (Conf: 0.0%, Score: 31.2)
+    - Candidato: [170802] Heroes Wanted: Champions and Masterminds II (Conf: 0.0%, Score: 30.0)
+    - Candidato: [101639] Heroscape: Arrival of the Master (Conf: 20.0%, Score: 31.9)
+    - Candidato: [351550] Keep the Heroes Out!: Guild Master's Revenge Expansion (Conf: 20.0%, Score: 46.7)
+    - Candidato: [443381] Masters of the Universe: Battleground – Wave 10: Preternian Heroes (Conf: 20.0%, Score: 34.0)
+  > Probando query: 'Hero'
+    Encontrados 2503 resultados.
+    - Candidato: [444922] 13 Heroes (Conf: 0.0%, Score: 25.5)
+    - Candidato: [335492] 7 Moons: Heroes of Dragon Reach (Conf: 0.0%, Score: 41.2)
+    - Candidato: [163595] 8-bit Action Hero: Jungle Adventures (Conf: 20.0%, Score: 38.4)
+    - Candidato: [57691] 800 Heroes: Defense of Sihang Warehouse (Conf: 0.0%, Score: 34.2)
+    - Candidato: [427027] 99 Heroes (Conf: 0.0%, Score: 25.5)
+    - Candidato: [350066] The Acts: Heroes of the Faith (Conf: 0.0%, Score: 33.3)
+    - Candidato: [384192] Advanced Dungeon Hero (fan expansion for Dungeon Hero) (Conf: 20.0%, Score: 22.2)
+    - Candidato: [1758] Advanced Heroquest (Conf: 0.0%, Score: 28.6)
+    - Candidato: [1759] Advanced Heroquest: Terror in the Dark (Conf: 0.0%, Score: 37.3)
+    - Candidato: [182544] Advanced Song of Blades and Heroes (Conf: 0.0%, Score: 16.7)
+    - Candidato: [208740] Advanced Song of Blades and Heroes: Axe and Brimstone (Conf: 0.0%, Score: 20.0)
+    - Candidato: [121750] Adventure 1: The Mountain Keep (fan expansion for HeroQuest) (Conf: 0.0%, Score: 16.8)
+    - Candidato: [123656] Adventure 2: Slaves Of Zargon (fan expansion for HeroQuest) (Conf: 0.0%, Score: 17.0)
+    - Candidato: [123743] Adventure 3: The Lost Books (fan expansion for HeroQuest) (Conf: 0.0%, Score: 17.4)
+    - Candidato: [124371] Adventure 4: In The King's Service (fan expansion for HeroQuest) (Conf: 0.0%, Score: 16.2)
+    - Candidato: [125085] Adventure 5: Beyond Grin's Crag – Kellar's Keep 2 (fan expansion for HeroQuest) (Conf: 0.0%, Score: 14.3)
+    - Candidato: [125088] Adventure 6: Resurrection – Return of the Witch Lord 2 (fan expansion for HeroQuest) (Conf: 0.0%, Score: 13.7)
+    - Candidato: [127057] Adventure 7: The Rescue of Princess Millandriell (fan expansion for HeroQuest) (Conf: 0.0%, Score: 14.2)
+    - Candidato: [127059] Adventure 8: The Horror Inside the Ancient Halls of Sunca (fan expansion for HeroQuest) (Conf: 0.0%, Score: 13.1)
+    - Candidato: [10854] Adventure Cards: Heroes (Conf: 0.0%, Score: 43.3)
+    - Candidato: [282119] Adventure Tactics: Domianne's Tower – Hero Pack 1 (Conf: 20.0%, Score: 16.7)
+    - Candidato: [172619] Adventure Time Card Wars: Hero Pack #1 (Conf: 20.0%, Score: 18.9)
+    - Candidato: [442198] Aeon Trespass: Odyssey – Spartan Herodotus (Conf: 0.0%, Score: 36.4)
+    - Candidato: [10631] Age of Heroes (Conf: 0.0%, Score: 23.5)
+    - Candidato: [13267] Age of Heroes (Conf: 0.0%, Score: 23.5)
+GANADOR: ID 250406 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hors La L'Oie' ---
+Estrategias: ["Hors La L'Oie", "Hors  L'Oie", 'Hors']
+  > Probando query: 'Hors La L'Oie'
+    Encontrados 0 resultados.
+  > Probando query: 'Hors  L'Oie'
+    Encontrados 0 resultados.
+  > Probando query: 'Hors'
+    Encontrados 611 resultados.
+    - Candidato: [5344] 3 Men on a Horse (Conf: 33.3%, Score: 38.5)
+    - Candidato: [359733] Across the Board Horseracing Game (Conf: 0.0%, Score: 27.9)
+    - Candidato: [245628] Activity Hol den Horst! (Conf: 33.3%, Score: 25.0)
+    - Candidato: [231674] Activity: Hol den Horst (Conf: 33.3%, Score: 25.0)
+    - Candidato: [299084] Adventures with Gun, Sabre & Horse (Conf: 33.3%, Score: 24.4)
+    - Candidato: [127446] After the Horsemen (Conf: 0.0%, Score: 35.7)
+    - Candidato: [86457] Agricola: Das legendäre Forst-Deck – Horst der Holzhacker (Conf: 33.3%, Score: 21.9)
+    - Candidato: [32591] All the King's Horses (Conf: 0.0%, Score: 32.3)
+    - Candidato: [96164] An Amusing Game of Horse Show (Conf: 33.3%, Score: 30.8)
+    - Candidato: [39777] Ancient Battles Deluxe Expansion Kit 2: Hell's Horsemen (Conf: 0.0%, Score: 15.6)
+    - Candidato: [9477] The Arabian Horse Game (Conf: 33.3%, Score: 37.5)
+    - Candidato: [335585] Aventuria: Companions #3 – Horses (Conf: 0.0%, Score: 25.6)
+    - Candidato: [265288] Badass Riders: Four Horsemen (Conf: 0.0%, Score: 27.0)
+    - Candidato: [362432] BattleTech: Eridani Light Horse Hunter Lance (Conf: 33.3%, Score: 26.4)
+    - Candidato: [382198] Battletech: Force Packs Record Sheets – Eridani Light Horse (Conf: 33.3%, Score: 15.2)
+    - Candidato: [27823] Battue: Storm of the Horse Lords (Conf: 33.3%, Score: 34.1)
+    - Candidato: [30956] Bella Sara: Magical Horses (Conf: 0.0%, Score: 28.6)
+    - Candidato: [31048] Belmont Park Horse Racing Game (Conf: 33.3%, Score: 35.0)
+    - Candidato: [101451] The Belmont Stakes Handicap Horse Racing Game (Conf: 33.3%, Score: 25.5)
+    - Candidato: [28905] Betting on Horses (Conf: 0.0%, Score: 37.0)
+    - Candidato: [325141] Bettor Horse (Conf: 33.3%, Score: 45.5)
+    - Candidato: [237194] Big Horse Chess (Conf: 33.3%, Score: 48.0)
+    - Candidato: [25041] The Big Horse Race (Conf: 33.3%, Score: 42.9)
+    - Candidato: [284057] Big Time Horse Racing (Conf: 33.3%, Score: 38.7)
+    - Candidato: [357909] Black Stories Junior: Horses Stories (Conf: 0.0%, Score: 35.6)
+GANADOR: ID 237194 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hors La L'Oie' ---
+Estrategias: ["Hors  L'Oie", 'Hors', "Hors La L'Oie"]
+  > Probando query: 'Hors La L'Oie'
+    Encontrados 0 resultados.
+  > Probando query: 'Hors  L'Oie'
+    Encontrados 0 resultados.
+  > Probando query: 'Hors'
+    Encontrados 611 resultados.
+    - Candidato: [5344] 3 Men on a Horse (Conf: 33.3%, Score: 38.5)
+    - Candidato: [359733] Across the Board Horseracing Game (Conf: 0.0%, Score: 27.9)
+    - Candidato: [245628] Activity Hol den Horst! (Conf: 33.3%, Score: 25.0)
+    - Candidato: [231674] Activity: Hol den Horst (Conf: 33.3%, Score: 25.0)
+    - Candidato: [299084] Adventures with Gun, Sabre & Horse (Conf: 33.3%, Score: 24.4)
+    - Candidato: [127446] After the Horsemen (Conf: 0.0%, Score: 35.7)
+    - Candidato: [86457] Agricola: Das legendäre Forst-Deck – Horst der Holzhacker (Conf: 33.3%, Score: 21.9)
+    - Candidato: [32591] All the King's Horses (Conf: 0.0%, Score: 32.3)
+    - Candidato: [96164] An Amusing Game of Horse Show (Conf: 33.3%, Score: 30.8)
+    - Candidato: [39777] Ancient Battles Deluxe Expansion Kit 2: Hell's Horsemen (Conf: 0.0%, Score: 15.6)
+    - Candidato: [9477] The Arabian Horse Game (Conf: 33.3%, Score: 37.5)
+    - Candidato: [335585] Aventuria: Companions #3 – Horses (Conf: 0.0%, Score: 25.6)
+    - Candidato: [265288] Badass Riders: Four Horsemen (Conf: 0.0%, Score: 27.0)
+    - Candidato: [362432] BattleTech: Eridani Light Horse Hunter Lance (Conf: 33.3%, Score: 26.4)
+    - Candidato: [382198] Battletech: Force Packs Record Sheets – Eridani Light Horse (Conf: 33.3%, Score: 15.2)
+    - Candidato: [27823] Battue: Storm of the Horse Lords (Conf: 33.3%, Score: 34.1)
+    - Candidato: [30956] Bella Sara: Magical Horses (Conf: 0.0%, Score: 28.6)
+    - Candidato: [31048] Belmont Park Horse Racing Game (Conf: 33.3%, Score: 35.0)
+    - Candidato: [101451] The Belmont Stakes Handicap Horse Racing Game (Conf: 33.3%, Score: 25.5)
+    - Candidato: [28905] Betting on Horses (Conf: 0.0%, Score: 37.0)
+    - Candidato: [325141] Bettor Horse (Conf: 33.3%, Score: 45.5)
+    - Candidato: [237194] Big Horse Chess (Conf: 33.3%, Score: 48.0)
+    - Candidato: [25041] The Big Horse Race (Conf: 33.3%, Score: 42.9)
+    - Candidato: [284057] Big Time Horse Racing (Conf: 33.3%, Score: 38.7)
+    - Candidato: [357909] Black Stories Junior: Horses Stories (Conf: 0.0%, Score: 35.6)
+GANADOR: ID 237194 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'IYKYK - Popular Culture' ---
+Estrategias: ['IYKYK', 'IYKYK - Popular Culture']
+  > Probando query: 'IYKYK - Popular Culture'
+    Encontrados 0 resultados.
+  > Probando query: 'IYKYK'
+    Encontrados 1 resultados.
+    - Candidato: [420182] iykyk* Pop Culture Trivia (Conf: 66.7%, Score: 75.6)
+GANADOR: ID 420182 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'IYKYK - Popular Culture' ---
+Estrategias: ['IYKYK - Popular Culture', 'IYKYK']
+  > Probando query: 'IYKYK - Popular Culture'
+    Encontrados 0 resultados.
+  > Probando query: 'IYKYK'
+    Encontrados 1 resultados.
+    - Candidato: [420182] iykyk* Pop Culture Trivia (Conf: 66.7%, Score: 75.6)
+GANADOR: ID 420182 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Interactions - Nature Sans Pitié' ---
+Estrategias: ['Interactions', 'Interactions - Nature Sans Pitié']
+  > Probando query: 'Interactions - Nature Sans Pitié'
+    Encontrados 0 resultados.
+  > Probando query: 'Interactions'
+    Encontrados 5 resultados.
+    - Candidato: [465302] Interactions (Conf: 25.0%, Score: 57.1)
+GANADOR: ID 465302 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Interactions - Nature Sans Pitié' ---
+Estrategias: ['Interactions - Nature Sans Pitié', 'Interactions']
+  > Probando query: 'Interactions - Nature Sans Pitié'
+    Encontrados 0 resultados.
+  > Probando query: 'Interactions'
+    Encontrados 5 resultados.
+    - Candidato: [465302] Interactions (Conf: 25.0%, Score: 57.1)
+GANADOR: ID 465302 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'KaleiDOS Card Game' ---
+Estrategias: ['KaleiDOS', 'KaleiDOS Card', 'KaleiDOS Card Game']
+  > Probando query: 'KaleiDOS Card Game'
+    Encontrados 1 resultados.
+    - Candidato: [146592] Crootle: A Card Game of Kaleidoscopic Proportions (Conf: 50.0%, Score: 32.8)
+  > Probando query: 'KaleiDOS Card'
+    Encontrados 2 resultados.
+    - Candidato: [146592] Crootle: A Card Game of Kaleidoscopic Proportions (Conf: 50.0%, Score: 32.8)
+  > Probando query: 'KaleiDOS'
+    Encontrados 25 resultados.
+    - Candidato: [146592] Crootle: A Card Game of Kaleidoscopic Proportions (Conf: 50.0%, Score: 32.8)
+    - Candidato: [545] Kaleidos (Conf: 50.0%, Score: 76.2)
+    - Candidato: [429807] kaleiDOS (Conf: 50.0%, Score: 76.2)
+    - Candidato: [24209] Kaleidos Junior (Conf: 50.0%, Score: 71.4)
+    - Candidato: [70263] Kaleidos: 2009 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [167128] Kaleidos: 2014 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [448750] Kaleidos: Expansion Set 1 (Conf: 50.0%, Score: 54.1)
+    - Candidato: [440809] Kaleidoscope (Conf: 0.0%, Score: 72.0)
+    - Candidato: [22123] The Kaleidoscope Classic (Conf: 0.0%, Score: 59.5)
+    - Candidato: [23520] The Kaleidoscope Game (Conf: 0.0%, Score: 58.8)
+    - Candidato: [97989] kaleidoshape (Conf: 0.0%, Score: 72.0)
+    - Candidato: [9674] Kaleidoskop (Conf: 50.0%, Score: 66.7)
+    - Candidato: [70263] Kaleidos: 2009 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [167128] Kaleidos: 2014 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [448750] Kaleidos: Expansion Set 1 (Conf: 50.0%, Score: 54.1)
+GANADOR: ID 429807 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'KaleiDOS Card Game' ---
+Estrategias: ['KaleiDOS Card', 'KaleiDOS Card Game', 'KaleiDOS']
+  > Probando query: 'KaleiDOS Card Game'
+    Encontrados 1 resultados.
+    - Candidato: [146592] Crootle: A Card Game of Kaleidoscopic Proportions (Conf: 50.0%, Score: 32.8)
+  > Probando query: 'KaleiDOS Card'
+    Encontrados 2 resultados.
+    - Candidato: [146592] Crootle: A Card Game of Kaleidoscopic Proportions (Conf: 50.0%, Score: 32.8)
+  > Probando query: 'KaleiDOS'
+    Encontrados 25 resultados.
+    - Candidato: [146592] Crootle: A Card Game of Kaleidoscopic Proportions (Conf: 50.0%, Score: 32.8)
+    - Candidato: [545] Kaleidos (Conf: 50.0%, Score: 76.2)
+    - Candidato: [429807] kaleiDOS (Conf: 50.0%, Score: 76.2)
+    - Candidato: [24209] Kaleidos Junior (Conf: 50.0%, Score: 71.4)
+    - Candidato: [70263] Kaleidos: 2009 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [167128] Kaleidos: 2014 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [448750] Kaleidos: Expansion Set 1 (Conf: 50.0%, Score: 54.1)
+    - Candidato: [440809] Kaleidoscope (Conf: 0.0%, Score: 72.0)
+    - Candidato: [22123] The Kaleidoscope Classic (Conf: 0.0%, Score: 59.5)
+    - Candidato: [23520] The Kaleidoscope Game (Conf: 0.0%, Score: 58.8)
+    - Candidato: [97989] kaleidoshape (Conf: 0.0%, Score: 72.0)
+    - Candidato: [9674] Kaleidoskop (Conf: 50.0%, Score: 66.7)
+    - Candidato: [70263] Kaleidos: 2009 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [167128] Kaleidos: 2014 Expansion (Conf: 50.0%, Score: 55.6)
+    - Candidato: [448750] Kaleidos: Expansion Set 1 (Conf: 50.0%, Score: 54.1)
+GANADOR: ID 429807 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Agents Némésis' ---
+Estrategias: ['Kill Team - Agents Némésis', 'Kill', 'Kill Team']
+  > Probando query: 'Kill Team - Agents Némésis'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 50.0%, Score: 50.0)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 50.0%, Score: 50.0)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 50.0%, Score: 54.5)
+    - Candidato: [192138] One Page Kill Team (Conf: 50.0%, Score: 42.9)
+    - Candidato: [228496] Team Kill (Conf: 50.0%, Score: 36.4)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 50.0%, Score: 41.9)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 50.0%, Score: 41.2)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 50.0%, Score: 42.2)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 50.0%, Score: 41.9)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 50.0%, Score: 46.4)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 50.0%, Score: 46.2)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 50.0%, Score: 44.1)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 50.0%, Score: 48.0)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 50.0%, Score: 42.6)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 50.0%, Score: 38.7)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 50.0%, Score: 39.6)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 50.0%, Score: 26.3)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 50.0%, Score: 49.1)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 50.0%, Score: 37.5)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 50.0%, Score: 28.0)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 50.0%, Score: 39.6)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 50.0%, Score: 40.0)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 36.0)
+    - Candidato: [174476] 10' to Kill (Conf: 25.0%, Score: 23.5)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 25.0%, Score: 48.9)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 25.0%, Score: 25.0)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 25.0%, Score: 36.7)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 30.2)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 25.0%, Score: 35.3)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 32.4)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 34.6)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 26.7)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 20.8)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 16.0)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 25.0%, Score: 34.6)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 30.5)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 18.8)
+    - Candidato: [202516] Blank Marry Kill (Conf: 25.0%, Score: 20.0)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 25.0%, Score: 31.4)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 25.0%, Score: 35.7)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 25.0%, Score: 35.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 21.6)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 25.0%, Score: 18.9)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 25.0%, Score: 23.9)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 23.8)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 27.9)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 27.0)
+GANADOR: ID 470569 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Agents Némésis' ---
+Estrategias: ['Kill Team - Agents Némésis', 'Kill', 'Kill Team']
+  > Probando query: 'Kill Team - Agents Némésis'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 50.0%, Score: 50.0)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 50.0%, Score: 50.0)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 50.0%, Score: 54.5)
+    - Candidato: [192138] One Page Kill Team (Conf: 50.0%, Score: 42.9)
+    - Candidato: [228496] Team Kill (Conf: 50.0%, Score: 36.4)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 50.0%, Score: 41.9)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 50.0%, Score: 41.2)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 50.0%, Score: 42.2)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 50.0%, Score: 41.9)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 50.0%, Score: 46.4)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 50.0%, Score: 46.2)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 50.0%, Score: 44.1)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 50.0%, Score: 48.0)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 50.0%, Score: 42.6)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 50.0%, Score: 38.7)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 50.0%, Score: 39.6)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 50.0%, Score: 26.3)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 50.0%, Score: 49.1)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 50.0%, Score: 37.5)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 50.0%, Score: 28.0)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 50.0%, Score: 39.6)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 50.0%, Score: 40.0)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 36.0)
+    - Candidato: [174476] 10' to Kill (Conf: 25.0%, Score: 23.5)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 25.0%, Score: 48.9)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 25.0%, Score: 25.0)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 25.0%, Score: 36.7)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 30.2)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 25.0%, Score: 35.3)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 32.4)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 34.6)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 26.7)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 20.8)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 16.0)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 25.0%, Score: 34.6)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 30.5)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 18.8)
+    - Candidato: [202516] Blank Marry Kill (Conf: 25.0%, Score: 20.0)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 25.0%, Score: 31.4)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 25.0%, Score: 35.7)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 25.0%, Score: 35.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 21.6)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 25.0%, Score: 18.9)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 25.0%, Score: 23.9)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 23.8)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 27.9)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 27.0)
+GANADOR: ID 470569 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Célestes Insidiatrices' ---
+Estrategias: ['Kill', 'Kill Team - Célestes Insidiatrices', 'Kill Team']
+  > Probando query: 'Kill Team - Célestes Insidiatrices'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 50.0%, Score: 42.9)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 50.0%, Score: 46.4)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 50.0%, Score: 46.2)
+    - Candidato: [192138] One Page Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [228496] Team Kill (Conf: 50.0%, Score: 29.3)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 31.0)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 31.0)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 31.0)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 50.0%, Score: 34.3)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 50.0%, Score: 38.1)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 50.0%, Score: 36.7)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 50.0%, Score: 34.3)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 50.0%, Score: 40.6)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 50.0%, Score: 43.8)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 50.0%, Score: 44.8)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 50.0%, Score: 43.4)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 50.0%, Score: 43.5)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 50.0%, Score: 37.1)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 50.0%, Score: 38.5)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 50.0%, Score: 33.6)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 50.0%, Score: 46.2)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 50.0%, Score: 42.3)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 50.0%, Score: 33.7)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 50.0%, Score: 34.6)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 50.0%, Score: 36.7)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 33.0)
+    - Candidato: [174476] 10' to Kill (Conf: 25.0%, Score: 19.0)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 25.0%, Score: 41.5)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 25.0%, Score: 25.0)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 25.0%, Score: 38.6)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 26.2)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 25.0%, Score: 27.1)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 39.0)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 30.0)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 22.6)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 32.1)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 21.7)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 25.0%, Score: 33.3)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 38.8)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 25.0)
+    - Candidato: [202516] Blank Marry Kill (Conf: 25.0%, Score: 16.7)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 25.0%, Score: 27.1)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 25.0%, Score: 28.1)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 25.0%, Score: 26.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 26.8)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 25.0%, Score: 22.0)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 25.0%, Score: 32.0)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 24.0)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 27.5)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 26.7)
+GANADOR: ID 439942 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Célestes Insidiatrices' ---
+Estrategias: ['Kill', 'Kill Team', 'Kill Team - Célestes Insidiatrices']
+  > Probando query: 'Kill Team - Célestes Insidiatrices'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 50.0%, Score: 42.9)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 50.0%, Score: 46.4)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 50.0%, Score: 46.2)
+    - Candidato: [192138] One Page Kill Team (Conf: 50.0%, Score: 36.0)
+    - Candidato: [228496] Team Kill (Conf: 50.0%, Score: 29.3)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 31.0)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 31.0)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 50.0%, Score: 31.0)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 50.0%, Score: 34.3)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 50.0%, Score: 38.1)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 50.0%, Score: 36.7)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 50.0%, Score: 34.3)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 50.0%, Score: 40.6)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 50.0%, Score: 43.8)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 50.0%, Score: 44.8)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 50.0%, Score: 43.4)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 50.0%, Score: 43.5)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 50.0%, Score: 37.1)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 50.0%, Score: 38.5)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 50.0%, Score: 33.6)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 50.0%, Score: 46.2)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 50.0%, Score: 42.3)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 50.0%, Score: 33.7)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 50.0%, Score: 34.6)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 50.0%, Score: 36.7)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 33.0)
+    - Candidato: [174476] 10' to Kill (Conf: 25.0%, Score: 19.0)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 25.0%, Score: 41.5)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 25.0%, Score: 25.0)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 25.0%, Score: 38.6)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 26.2)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 25.0%, Score: 27.1)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 39.0)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 30.0)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 22.6)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 32.1)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 21.7)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 25.0%, Score: 33.3)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 38.8)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 25.0)
+    - Candidato: [202516] Blank Marry Kill (Conf: 25.0%, Score: 16.7)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 25.0%, Score: 27.1)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 25.0%, Score: 28.1)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 25.0%, Score: 26.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 26.8)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 25.0%, Score: 22.0)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 25.0%, Score: 32.0)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 24.0)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 27.5)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 26.7)
+GANADOR: ID 439942 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Meurtrescadre' ---
+Estrategias: ['Kill', 'Kill Team - Meurtrescadre', 'Kill Team']
+  > Probando query: 'Kill Team - Meurtrescadre'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 66.7%, Score: 51.1)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 66.7%, Score: 55.3)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 66.7%, Score: 60.5)
+    - Candidato: [192138] One Page Kill Team (Conf: 66.7%, Score: 43.9)
+    - Candidato: [228496] Team Kill (Conf: 66.7%, Score: 31.2)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 66.7%, Score: 36.7)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 66.7%, Score: 36.7)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 66.7%, Score: 36.7)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 66.7%, Score: 39.3)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 66.7%, Score: 35.4)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 66.7%, Score: 31.5)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 66.7%, Score: 39.3)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 66.7%, Score: 47.3)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 66.7%, Score: 40.6)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 66.7%, Score: 37.9)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 66.7%, Score: 37.8)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 66.7%, Score: 43.3)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 66.7%, Score: 42.6)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 66.7%, Score: 40.0)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 66.7%, Score: 34.7)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 66.7%, Score: 50.0)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 66.7%, Score: 40.0)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 66.7%, Score: 37.0)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 66.7%, Score: 35.8)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 66.7%, Score: 38.2)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 25.0)
+    - Candidato: [174476] 10' to Kill (Conf: 33.3%, Score: 24.2)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 33.3%, Score: 36.4)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 33.3%, Score: 29.1)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 33.3%, Score: 41.7)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 30.8)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 33.3%, Score: 36.0)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 30.1)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 31.4)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 31.8)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 29.8)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 27.0)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 33.3%, Score: 35.3)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 31.0)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 18.9)
+    - Candidato: [202516] Blank Marry Kill (Conf: 33.3%, Score: 20.5)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 33.3%, Score: 28.0)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 33.3%, Score: 36.4)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 33.3%, Score: 41.8)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 21.9)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 33.3%, Score: 21.9)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 33.3%, Score: 24.2)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 29.3)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 23.8)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 33.3)
+GANADOR: ID 470569 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Meurtrescadre' ---
+Estrategias: ['Kill', 'Kill Team', 'Kill Team - Meurtrescadre']
+  > Probando query: 'Kill Team - Meurtrescadre'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 66.7%, Score: 51.1)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 66.7%, Score: 55.3)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 66.7%, Score: 60.5)
+    - Candidato: [192138] One Page Kill Team (Conf: 66.7%, Score: 43.9)
+    - Candidato: [228496] Team Kill (Conf: 66.7%, Score: 31.2)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 66.7%, Score: 36.7)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 66.7%, Score: 36.7)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 66.7%, Score: 36.7)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 66.7%, Score: 39.3)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 66.7%, Score: 35.4)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 66.7%, Score: 31.5)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 66.7%, Score: 39.3)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 66.7%, Score: 47.3)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 66.7%, Score: 40.6)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 66.7%, Score: 37.9)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 66.7%, Score: 37.8)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 66.7%, Score: 43.3)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 66.7%, Score: 42.6)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 66.7%, Score: 40.0)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 66.7%, Score: 34.7)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 66.7%, Score: 50.0)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 66.7%, Score: 40.0)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 66.7%, Score: 37.0)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 66.7%, Score: 35.8)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 66.7%, Score: 38.2)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 25.0)
+    - Candidato: [174476] 10' to Kill (Conf: 33.3%, Score: 24.2)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 33.3%, Score: 36.4)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 33.3%, Score: 29.1)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 33.3%, Score: 41.7)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 30.8)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 33.3%, Score: 36.0)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 30.1)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 31.4)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 31.8)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 29.8)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 27.0)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 33.3%, Score: 35.3)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 31.0)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 18.9)
+    - Candidato: [202516] Blank Marry Kill (Conf: 33.3%, Score: 20.5)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 33.3%, Score: 28.0)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 33.3%, Score: 36.4)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 33.3%, Score: 41.8)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 21.9)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 33.3%, Score: 21.9)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 33.3%, Score: 24.2)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 29.3)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 23.8)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 33.3)
+GANADOR: ID 470569 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Terreur sur Devlan' ---
+Estrategias: ['Kill', 'Kill Team - Terreur sur Devlan', 'Kill Team']
+  > Probando query: 'Kill Team - Terreur sur Devlan'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 40.0%, Score: 50.0)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 40.0%, Score: 50.0)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 40.0%, Score: 54.2)
+    - Candidato: [192138] One Page Kill Team (Conf: 40.0%, Score: 39.1)
+    - Candidato: [228496] Team Kill (Conf: 40.0%, Score: 32.4)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 33.3)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 33.3)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 33.3)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 40.0%, Score: 36.4)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 40.0%, Score: 31.7)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 40.0%, Score: 38.3)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 40.0%, Score: 36.4)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 40.0%, Score: 43.3)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 40.0%, Score: 31.9)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 40.0%, Score: 34.9)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 40.0%, Score: 40.5)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 40.0%, Score: 36.9)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 40.0%, Score: 45.5)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 40.0%, Score: 36.2)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 40.0%, Score: 31.1)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 40.0%, Score: 42.6)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 40.0%, Score: 32.0)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 40.0%, Score: 33.0)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 40.0%, Score: 34.0)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 40.0%, Score: 36.2)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 30.1)
+    - Candidato: [174476] 10' to Kill (Conf: 20.0%, Score: 21.1)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 20.0%, Score: 32.7)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 20.0%, Score: 40.0)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 20.0%, Score: 34.0)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 28.1)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 20.0%, Score: 29.1)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 35.9)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 28.6)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 28.6)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 26.9)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 27.8)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 20.0%, Score: 39.3)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 31.7)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 20.0)
+    - Candidato: [202516] Blank Marry Kill (Conf: 20.0%, Score: 18.2)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 20.0%, Score: 36.4)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 20.0%, Score: 36.7)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 20.0%, Score: 33.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 20.5)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 20.0%, Score: 25.6)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 20.0%, Score: 31.0)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 26.1)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 21.3)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 29.3)
+GANADOR: ID 470569 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Terreur sur Devlan' ---
+Estrategias: ['Kill', 'Kill Team', 'Kill Team - Terreur sur Devlan']
+  > Probando query: 'Kill Team - Terreur sur Devlan'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 40.0%, Score: 50.0)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 40.0%, Score: 50.0)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 40.0%, Score: 54.2)
+    - Candidato: [192138] One Page Kill Team (Conf: 40.0%, Score: 39.1)
+    - Candidato: [228496] Team Kill (Conf: 40.0%, Score: 32.4)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 33.3)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 33.3)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 33.3)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 40.0%, Score: 36.4)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 40.0%, Score: 31.7)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 40.0%, Score: 38.3)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 40.0%, Score: 36.4)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 40.0%, Score: 43.3)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 40.0%, Score: 31.9)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 40.0%, Score: 34.9)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 40.0%, Score: 40.5)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 40.0%, Score: 36.9)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 40.0%, Score: 45.5)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 40.0%, Score: 36.2)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 40.0%, Score: 31.1)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 40.0%, Score: 42.6)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 40.0%, Score: 32.0)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 40.0%, Score: 33.0)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 40.0%, Score: 34.0)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 40.0%, Score: 36.2)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 0.0%, Score: 30.1)
+    - Candidato: [174476] 10' to Kill (Conf: 20.0%, Score: 21.1)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 20.0%, Score: 32.7)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 20.0%, Score: 40.0)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 20.0%, Score: 34.0)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 28.1)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 20.0%, Score: 29.1)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 35.9)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 28.6)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 28.6)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 26.9)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 27.8)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 20.0%, Score: 39.3)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 31.7)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 20.0)
+    - Candidato: [202516] Blank Marry Kill (Conf: 20.0%, Score: 18.2)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 20.0%, Score: 36.4)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 20.0%, Score: 36.7)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 20.0%, Score: 33.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 20.5)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 20.0%, Score: 25.6)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 20.0%, Score: 31.0)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 26.1)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 21.3)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 29.3)
+GANADOR: ID 470569 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kill Team - Terror on Devlan' ---
+Estrategias: ['Kill', 'Kill Team - Terror on Devlan', 'Kill Team']
+  > Probando query: 'Kill Team - Terror on Devlan'
+    Encontrados 0 resultados.
+  > Probando query: 'Kill Team'
+    Encontrados 116 resultados.
+    - Candidato: [444361] Kill Team: Blood and Zeal (Conf: 40.0%, Score: 56.0)
+    - Candidato: [439942] Kill Team: Brutal & Cunning (Conf: 40.0%, Score: 56.0)
+    - Candidato: [470569] Kill Team: Tomb World (Conf: 40.0%, Score: 60.9)
+    - Candidato: [192138] One Page Kill Team (Conf: 40.0%, Score: 40.9)
+    - Candidato: [228496] Team Kill (Conf: 40.0%, Score: 34.3)
+    - Candidato: [154307] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 34.6)
+    - Candidato: [207653] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 34.6)
+    - Candidato: [256066] Warhammer 40,000: Kill Team (Conf: 40.0%, Score: 34.6)
+    - Candidato: [296304] Warhammer 40,000: Kill Team Annual 2019 (Conf: 40.0%, Score: 37.5)
+    - Candidato: [262095] Warhammer 40,000: Kill Team – Advance Team Starpulse: T'au Empire Starter Set (Conf: 40.0%, Score: 30.3)
+    - Candidato: [262896] Warhammer 40,000: Kill Team – Ankra the Colossus: Necron Commander Set (Conf: 40.0%, Score: 39.1)
+    - Candidato: [370781] Warhammer 40,000: Kill Team – Annual 2022 (Conf: 40.0%, Score: 37.5)
+    - Candidato: [272401] Warhammer 40,000: Kill Team – Arena (Conf: 40.0%, Score: 44.8)
+    - Candidato: [390296] Warhammer 40,000: Kill Team – Ashes of Faith (Conf: 40.0%, Score: 44.8)
+    - Candidato: [351419] Warhammer 40,000: Kill Team – Chalnath (Conf: 40.0%, Score: 36.1)
+    - Candidato: [262885] Warhammer 40,000: Kill Team – Commanders Expansion Set (Conf: 40.0%, Score: 44.2)
+    - Candidato: [351420] Warhammer 40,000: Kill Team – Compendium (Conf: 40.0%, Score: 41.3)
+    - Candidato: [262067] Warhammer 40,000: Kill Team – Core Manual (Conf: 40.0%, Score: 46.9)
+    - Candidato: [268575] Warhammer 40,000: Kill Team – Crasker Matterzhek: Genestealer Cults Commander Set (Conf: 40.0%, Score: 36.9)
+    - Candidato: [262091] Warhammer 40,000: Kill Team – Drop Force Imperator: Astra Militarum Starter Set (Conf: 40.0%, Score: 29.7)
+    - Candidato: [280882] Warhammer 40,000: Kill Team – Elites (Conf: 40.0%, Score: 40.7)
+    - Candidato: [262093] Warhammer 40,000: Kill Team – Fangs of Ulfrich: Adeptus Astartes Starter Set (Conf: 40.0%, Score: 30.6)
+    - Candidato: [262895] Warhammer 40,000: Kill Team – Feodor Lasko: Astra Militarum Commander Set (Conf: 40.0%, Score: 37.9)
+    - Candidato: [262894] Warhammer 40,000: Kill Team – Fireblade Twinflame: T’au Empire Commander Set (Conf: 40.0%, Score: 30.6)
+    - Candidato: [262893] Warhammer 40,000: Kill Team – Gaius Acastian: Deathwatch Commander Set (Conf: 40.0%, Score: 37.0)
+  > Probando query: 'Kill'
+    Encontrados 1261 resultados.
+    - Candidato: [453857] This Game Is Killer: Alien on Board – The Xeno-Hunter Mini Expansion (Conf: 20.0%, Score: 30.8)
+    - Candidato: [174476] 10' to Kill (Conf: 20.0%, Score: 22.2)
+    - Candidato: [187261] 10' to Kill: Expansions (Conf: 20.0%, Score: 38.3)
+    - Candidato: [256341] 10' to Kill: Santa Promo Character (Conf: 20.0%, Score: 41.4)
+    - Candidato: [426026] 9lives: Don't Kill the Cat (Conf: 20.0%, Score: 35.3)
+    - Candidato: [368267] American Psycho: A Killer Game (Conf: 0.0%, Score: 29.1)
+    - Candidato: [284927] April 18 1943: Kill Yamamoto !!! (Conf: 20.0%, Score: 34.0)
+    - Candidato: [431390] Armata Strigoi: Killers with The Cross Special Deck (Conf: 0.0%, Score: 36.8)
+    - Candidato: [203798] Attack of the Killer Kittens (Conf: 0.0%, Score: 29.6)
+    - Candidato: [146728] Badass Zombie Killers (Conf: 0.0%, Score: 25.5)
+    - Candidato: [44489] Batman Fluxx: Killer Croc (Conf: 0.0%, Score: 32.0)
+    - Candidato: [356112] The Batman Who Laughs Rising: Killer Croc Promo Card (Conf: 0.0%, Score: 28.6)
+    - Candidato: [164] Before I Kill You, Mister Spy... (Conf: 20.0%, Score: 37.0)
+    - Candidato: [281660] Black Stories: Killer Ladies Edition (Conf: 0.0%, Score: 29.5)
+    - Candidato: [292839] Black Stories: Promostory Pack Nele Neuhaus Edition / Killer Ladies Edition (Conf: 0.0%, Score: 18.4)
+    - Candidato: [202516] Blank Marry Kill (Conf: 20.0%, Score: 19.0)
+    - Candidato: [228880] Blank Marry Kill: #?&! Marry Kill (Conf: 20.0%, Score: 37.7)
+    - Candidato: [228881] Blank Marry Kill: Geek Marry Kill (Conf: 20.0%, Score: 37.9)
+    - Candidato: [230173] Blank Marry Kill: Kickstarter Exclusive Cards (Conf: 20.0%, Score: 34.3)
+    - Candidato: [268931] Blood Bowl (2016 edition): Goblin Killer Kontraptions (Conf: 0.0%, Score: 28.9)
+    - Candidato: [268928] Blood Bowl (2016 edition): Karla von Kill – Star Player (Conf: 20.0%, Score: 26.3)
+    - Candidato: [164746] Boss Monster: Killa, Man Eating Gorilla Promo (Conf: 20.0%, Score: 34.8)
+    - Candidato: [360208] Build or be Killed (Conf: 0.0%, Score: 27.3)
+    - Candidato: [263371] The Casino Killings (Conf: 0.0%, Score: 22.2)
+    - Candidato: [449893] Cereal Killer (Conf: 0.0%, Score: 30.8)
+GANADOR: ID 470569 con 40.0% confianza.
+--------------------------------------------------
