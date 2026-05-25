@@ -91230,3 +91230,491 @@ Estrategias: ['Call Of Cthulhu: Harlem Unbound', 'Call', 'Call Of Cthulhu: Harle
     ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Micro Mutants : Russoptères VS Araknoïdes' ---
+Estrategias: ['Micro Mutants : Russoptères VS Araknoïdes', 'Micro Mutants', 'Micro']
+  > Probando query: 'Micro Mutants : Russoptères VS Araknoïdes'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Micro Mutants'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Micro'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Escape From New York - Bands of New York : Extension 5e Joueur' ---
+Estrategias: ['Escape From New York - Bands of New York', 'Escape From New York - Bands of New York :  5e Joueur', 'Escape', 'Escape From New York - Bands of New York : Extension 5e Joueur', 'Escape From New York']
+  > Probando query: 'Escape From New York - Bands of New York : Extension 5e Joueur'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Escape From New York - Bands of New York :  5e Joueur'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Escape From New York - Bands of New York'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Escape From New York'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Escape'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Évolution - Le Nouveau Monde' ---
+Estrategias: ['Évolution - Le Nouveau Monde', 'Évolution', 'Évolution -  Nouveau Monde']
+  > Probando query: 'Évolution - Le Nouveau Monde'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Évolution -  Nouveau Monde'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Évolution'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Horus Heresy : Legiones Astartes - Chasseur de Chars Super-lourd Falchion' ---
+Estrategias: ['Horus Heresy : Legiones Astartes - Chasseur  Chars Super-lourd Falchion', 'Horus Heresy : Legiones Astartes', 'Horus Heresy', 'Horus Heresy : Legiones Astartes - Chasseur de Chars Super-lourd Falchion', 'Horus']
+  > Probando query: 'Horus Heresy : Legiones Astartes - Chasseur de Chars Super-lourd Falchion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus Heresy : Legiones Astartes - Chasseur  Chars Super-lourd Falchion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus Heresy : Legiones Astartes'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus Heresy'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Horus Heresy : Legiones Astartes - Spartan Prometheus Assault Tank' ---
+Estrategias: ['Horus Heresy : Legiones Astartes', 'Horus Heresy : Legiones Astartes - Spartan Prometheus Assault Tank', 'Horus Heresy', 'Horus']
+  > Probando query: 'Horus Heresy : Legiones Astartes - Spartan Prometheus Assault Tank'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus Heresy : Legiones Astartes'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus Heresy'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Horus'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Eisenhorn - Le Recueil' ---
+Estrategias: ['W40K', 'W40K : Eisenhorn -  Recueil', 'W40K : Eisenhorn - Le Recueil', 'W40K : Eisenhorn']
+  > Probando query: 'W40K : Eisenhorn - Le Recueil'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'W40K : Eisenhorn -  Recueil'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'W40K : Eisenhorn'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'W40K'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silence On Pille!' ---
+Estrategias: ['Silence On Pille!', 'Silence']
+  > Probando query: 'Silence On Pille!'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Silence'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cuius Regio: The Thirty Years War 1618-1648' ---
+Estrategias: ['Cuius Regio: The Thirty Years War 1618', 'Cuius Regio: The Thirty Years War 1618-1648', 'Cuius Regio', 'Cuius']
+  > Probando query: 'Cuius Regio: The Thirty Years War 1618-1648'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cuius Regio: The Thirty Years War 1618'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cuius Regio'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Cuius'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dobble Spiderman' ---
+Estrategias: ['Dobble', 'Dobble Spiderman']
+  > Probando query: 'Dobble Spiderman'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dobble'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Evidemment !?' ---
+Estrategias: ['Evidemment !?', 'Evidemment']
+  > Probando query: 'Evidemment !?'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Evidemment'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Brindlewood Bay - Nephews in Peril' ---
+Estrategias: ['Brindlewood Bay - Nephews in Peril', 'Brindlewood Bay', 'Brindlewood']
+  > Probando query: 'Brindlewood Bay - Nephews in Peril'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Brindlewood Bay'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Brindlewood'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Insurrection - Spectre' ---
+Estrategias: ['Insurrection - Spectre', 'Insurrection']
+  > Probando query: 'Insurrection - Spectre'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Insurrection'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hii Fuu' ---
+Estrategias: ['Hii Fuu']
+  > Probando query: 'Hii Fuu'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dossiers Criminels Pocket - Qui a tué Armand Pichon ?' ---
+Estrategias: ['Dossiers Criminels Pocket - Qui a tué Armand Pichon ?', 'Dossiers Criminels Pocket', 'Dossiers']
+  > Probando query: 'Dossiers Criminels Pocket - Qui a tué Armand Pichon ?'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dossiers Criminels Pocket'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dossiers'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dossiers Criminels Pocket - Qui a tué Isabella Vega?' ---
+Estrategias: ['Dossiers Criminels Pocket', 'Dossiers Criminels Pocket - Qui a tué Isabella Vega?', 'Dossiers']
+  > Probando query: 'Dossiers Criminels Pocket - Qui a tué Isabella Vega?'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dossiers Criminels Pocket'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Dossiers'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'San' ---
+Estrategias: ['San']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Koowah?' ---
+Estrategias: ['Koowah?', 'Koowah']
+  > Probando query: 'Koowah?'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Koowah'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Capybaraka' ---
+Estrategias: ['Capybaraka']
+  > Probando query: 'Capybaraka'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Duel of Chaos - Extension Provecta' ---
+Estrategias: ['Duel of Chaos -  Provecta', 'Duel of Chaos - Extension Provecta', 'Duel of Chaos', 'Duel']
+  > Probando query: 'Duel of Chaos - Extension Provecta'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Duel of Chaos -  Provecta'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Duel of Chaos'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Duel'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamstergeddon' ---
+Estrategias: ['Hamstergeddon']
+  > Probando query: 'Hamstergeddon'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Epic Card Game: Tyrants - Raxxa's Revenge Pack' ---
+Estrategias: ['Epic Card', 'Epic Card : Tyrants', 'Epic', "Epic Card Game: Tyrants - Raxxa's Revenge Pack", "Epic Card : Tyrants - Raxxa's Revenge"]
+  > Probando query: 'Epic Card Game: Tyrants - Raxxa's Revenge Pack'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic Card : Tyrants - Raxxa's Revenge'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic Card : Tyrants'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic Card'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Epic Card Game: Tyrants - Raxxa's Revenge Pack' ---
+Estrategias: ["Epic Card Game: Tyrants - Raxxa's Revenge Pack", 'Epic Card : Tyrants', "Epic Card : Tyrants - Raxxa's Revenge", 'Epic', 'Epic Card']
+  > Probando query: 'Epic Card Game: Tyrants - Raxxa's Revenge Pack'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic Card : Tyrants - Raxxa's Revenge'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic Card : Tyrants'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic Card'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Epic'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'B-Sieged: Sons of the Abyss - Encampment Tile Set' ---
+Estrategias: ['B-Sieged', 'B', 'Sieged', 'B-Sieged: Sons of the Abyss - Encampment Tile Set', 'B-Sieged: Sons of the Abyss - Encampment Tile']
+  > Probando query: 'B-Sieged: Sons of the Abyss - Encampment Tile Set'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'B-Sieged: Sons of the Abyss - Encampment Tile'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'B-Sieged'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Sieged'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'BanaNO!' ---
+Estrategias: ['BanaNO', 'BanaNO!']
+  > Probando query: 'BanaNO!'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'BanaNO'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Toking Hazard' ---
+Estrategias: ['Toking Hazard', 'Toking']
+  > Probando query: 'Toking Hazard'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Toking'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battle Commander: Volume I' ---
+Estrategias: ['Battle Commander', 'Battle Commander: Volume I', 'Battle']
+  > Probando query: 'Battle Commander: Volume I'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battle Commander: Expansion 1' ---
+Estrategias: ['Battle Commander', 'Battle', 'Battle Commander:  1', 'Battle Commander: Expansion 1']
+  > Probando query: 'Battle Commander: Expansion 1'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle Commander:  1'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Invincible: The Card Game' ---
+Estrategias: ['Invincible: The Card', 'Invincible: The Card Game', 'Invincible']
+  > Probando query: 'Invincible: The Card Game'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Invincible: The Card'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Invincible'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Game of Thrones: Masters of Intrigue' ---
+Estrategias: ['of Thrones: Masters of Intrigue', 'of Thrones', 'Game of Thrones: Masters of Intrigue', 'Thrones']
+  > Probando query: 'Game of Thrones: Masters of Intrigue'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'of Thrones: Masters of Intrigue'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'of Thrones'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Thrones'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Philharmonix: Galactic Festival Expansion' ---
+Estrategias: ['Philharmonix: Galactic Festival Expansion', 'Philharmonix:  Festival', 'Philharmonix']
+  > Probando query: 'Philharmonix: Galactic Festival Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Philharmonix:  Festival'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Philharmonix'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '20 Strong: Solar Sentinels Deck' ---
+Estrategias: ['Strong', '20 Strong: Solar Sentinels Deck', '20 Strong']
+  > Probando query: '20 Strong: Solar Sentinels Deck'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: '20 Strong'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Strong'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Crossbows & Catapults: Faction Bags' ---
+Estrategias: ['Crossbows & Catapults: Faction Bags', 'Crossbows & Catapults', 'Crossbows']
+  > Probando query: 'Crossbows & Catapults: Faction Bags'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bluey: Fancy Restaurant Game' ---
+Estrategias: ['Bluey', 'Bluey: Fancy Restaurant Game', 'Bluey: Fancy Restaurant']
+  > Probando query: 'Bluey: Fancy Restaurant Game'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Bluey: Fancy Restaurant'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Bluey'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battle Commander: Cotton Bags' ---
+Estrategias: ['Battle Commander: Cotton Bags', 'Battle', 'Battle Commander']
+  > Probando query: 'Battle Commander: Cotton Bags'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Sound of Drums: Cotton Bags' ---
+Estrategias: ['Sound', 'Sound of Drums', 'Sound of Drums: Cotton Bags']
+  > Probando query: 'Sound of Drums: Cotton Bags'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Sound of Drums'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Sound'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Neither King Nor God: LTD Edition' ---
+Estrategias: ['Neither King Nor God: LTD', 'Neither', 'Neither King Nor God', 'Neither King Nor God: LTD Edition']
+  > Probando query: 'Neither King Nor God: LTD Edition'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Neither King Nor God: LTD'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Neither King Nor God'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Neither'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Crossbows & Catapults: Builder's Bounty Expansion' ---
+Estrategias: ["Crossbows & Catapults: Builder's Bounty", "Crossbows & Catapults: Builder's Bounty Expansion", 'Crossbows & Catapults', 'Crossbows']
+  > Probando query: 'Crossbows & Catapults: Builder's Bounty Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults: Builder's Bounty'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Crossbows & Catapults: Weapons Cache Expansion' ---
+Estrategias: ['Crossbows & Catapults: Weapons Cache Expansion', 'Crossbows & Catapults: Weapons Cache', 'Crossbows & Catapults', 'Crossbows']
+  > Probando query: 'Crossbows & Catapults: Weapons Cache Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults: Weapons Cache'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Unmatched Adventures: TMNT - Deluxe Tokens' ---
+Estrategias: ['Unmatched Adventures: TMNT', 'Unmatched Adventures: TMNT -', 'Unmatched Adventures: TMNT - Deluxe Tokens', 'Unmatched', 'Unmatched Adventures']
+  > Probando query: 'Unmatched Adventures: TMNT - Deluxe Tokens'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Unmatched Adventures: TMNT -'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Unmatched Adventures: TMNT'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Unmatched Adventures'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Unmatched'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Thunder Road: Vendetta - Maximum Chrome' ---
+Estrategias: ['Thunder', 'Thunder Road: Vendetta - Maximum Chrome', 'Thunder Road: Vendetta', 'Thunder Road']
+  > Probando query: 'Thunder Road: Vendetta - Maximum Chrome'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Thunder Road: Vendetta'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Thunder Road'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Thunder'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battle Commander: Volume I (French Version)' ---
+Estrategias: ['Battle Commander: Volume I (French Version)', 'Battle Commander: Volume I', 'Battle', 'Battle Commander']
+  > Probando query: 'Battle Commander: Volume I (French Version)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle Commander: Volume I'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle Commander'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Battle'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Assault Sicily '43: Primosole Bridge' ---
+Estrategias: ['Assault', "Assault Sicily '43", "Assault Sicily '43: Primosole Bridge"]
+  > Probando query: 'Assault Sicily '43: Primosole Bridge'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Assault Sicily '43'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Assault'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars 2E: Thornhold Drey Faction Deck' ---
+Estrategias: ['Summoner Wars 2E', 'Summoner', 'Summoner Wars 2E: Thornhold Drey Faction Deck']
+  > Probando query: 'Summoner Wars 2E: Thornhold Drey Faction Deck'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Summoner Wars 2E'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Summoner'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck' ---
+Estrategias: ['Summoner Wars 2E: Moonsteppe Wolves Faction Deck', 'Summoner Wars 2E', 'Summoner']
+  > Probando query: 'Summoner Wars 2E: Moonsteppe Wolves Faction Deck'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Summoner Wars 2E'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Summoner'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Crossbows & Catapults: Golden Ammo Mini Expansion' ---
+Estrategias: ['Crossbows & Catapults: Golden Ammo Mini Expansion', 'Crossbows & Catapults: Golden Ammo Mini', 'Crossbows & Catapults', 'Crossbows']
+  > Probando query: 'Crossbows & Catapults: Golden Ammo Mini Expansion'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults: Golden Ammo Mini'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows & Catapults'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Crossbows'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hero Realms: Watery Graves Campaign Deck (Ruin of Thandar Part 3)' ---
+Estrategias: ['Hero Realms: Watery Graves Campaign Deck (Ruin of Thandar Part 3)', 'Hero Realms', 'Hero', 'Hero Realms: Watery Graves Campaign Deck']
+  > Probando query: 'Hero Realms: Watery Graves Campaign Deck (Ruin of Thandar Part 3)'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Hero Realms: Watery Graves Campaign Deck'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Hero Realms'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'Hero'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['temeré', 'No temeré ningún mal Marvel Champions']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+  > Probando query: 'temeré'
+    ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
