@@ -10068,3 +10068,128 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-05-25 20:21:31
+[main 426edfe] Actualización 2026-05-25 20:21:31
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 99 files changed, 2474 insertions(+), 6 deletions(-)
+ create mode 100644 assets/images/asl_starter_kit_bonus_2.jpg
+ create mode 100644 assets/images/assault_sicily_43.jpg
+ create mode 100644 assets/images/battle_commander_volume_i.jpg
+ create mode 100644 assets/images/battle_commander_volume_i_1.jpg
+ create mode 100644 assets/images/bitter_woods_designer.jpg
+ create mode 100644 assets/images/caporetto_1917.jpg
+ create mode 100644 assets/images/crusader_kingdoms.jpg
+ create mode 100644 assets/images/dragon_eclipse.jpg
+ create mode 100644 assets/images/forest_shuffle_exploraci_n.jpg
+ create mode 100644 assets/images/heart_of_darkness.jpg
+ create mode 100644 assets/images/limit.jpg
+ create mode 100644 assets/images/napoleon_s_conquests_reprint.jpg
+ create mode 100644 assets/images/one_piece_nakama_amigos_y_enemigos.jpg
+ create mode 100644 assets/images/paper_wars_113_inchon___mcarthur_s_gambit.jpg
+ create mode 100644 assets/images/port_royal_cl_sico.jpg
+ create mode 100644 assets/images/revolutions_france_1820_1880.jpg
+ create mode 100644 assets/images/second_world_war_at_sea__the_emperor_s_sword__zipbag_.jpg
+ create mode 100644 assets/images/strategy___tactics_352_french___indian_war__1754_63.jpg
+ create mode 100644 assets/images/strategy___tactics_353__ukraine_battles_2014__ilovaisk___debal_tseve.jpg
+ create mode 100644 assets/images/tableros_terraforming_mars.jpg
+ create mode 100644 assets/images/tainted_grail_reyes_perdici_n.jpg
+ create mode 100644 assets/images/take_time.jpg
+ create mode 100644 assets/images/the_epic_battle_of_alesia.jpg
+ create mode 100644 assets/images/the_russian_campaign__devir_.jpg
+ create mode 100644 assets/images/world_at_war_103_battle_for_finland_1944.jpg
+ create mode 100644 public/assets/images/1812_napoleon_s_fateful_march.jpg
+ create mode 100644 public/assets/images/1862.jpg
+ create mode 100644 public/assets/images/agricola.jpg
+ create mode 100644 public/assets/images/arquitectos_del_reino_del_oeste.jpg
+ create mode 100644 public/assets/images/asl_starter_kit_bonus_2.jpg
+ create mode 100644 public/assets/images/assault_sicily_43.jpg
+ create mode 100644 public/assets/images/assault_sicily_43_primosole_bridge.jpg
+ create mode 100644 public/assets/images/azul.jpg
+ create mode 100644 public/assets/images/battle_commander_volume_i.jpg
+ create mode 100644 public/assets/images/battle_commander_volume_i_1.jpg
+ create mode 100644 public/assets/images/bitter_woods_designer.jpg
+ create mode 100644 public/assets/images/busquemos_tesoros.jpg
+ create mode 100644 public/assets/images/caporetto_1917.jpg
+ create mode 100644 public/assets/images/combat_4_eastern_front.jpg
+ create mode 100644 public/assets/images/croix_guerre_asl.jpg
+ create mode 100644 public/assets/images/crusader_kingdoms.jpg
+ create mode 100644 public/assets/images/cuba_libre_calixto_bot_update.jpg
+ create mode 100644 public/assets/images/dien_bien_phu.jpg
+ create mode 100644 public/assets/images/dragon_eclipse.jpg
+ create mode 100644 public/assets/images/drop_zone_sainte_m_re__glise.jpg
+ create mode 100644 public/assets/images/duelo_por_tierra_media_el_se_or_los_anillos.jpg
+ create mode 100644 public/assets/images/el_hobbit_historia_una_ida_y_una_vuelta.jpg
+ create mode 100644 public/assets/images/enemy_action_kharkov_print.jpg
+ create mode 100644 public/assets/images/fields_of_fire_the_bulge_campaign.jpg
+ create mode 100644 public/assets/images/forest_shuffle_dartmoor.jpg
+ create mode 100644 public/assets/images/forest_shuffle_exploraci_n.jpg
+ create mode 100644 public/assets/images/galileo_galilei.jpg
+ create mode 100644 public/assets/images/heart_of_darkness.jpg
+ create mode 100644 public/assets/images/heat_lluvia_torrencial.jpg
+ create mode 100644 public/assets/images/highway_to_the_kremlin_ii.jpg
+ create mode 100644 public/assets/images/keyflower.jpg
+ create mode 100644 public/assets/images/limit.jpg
+ create mode 100644 public/assets/images/maria.jpg
+ create mode 100644 public/assets/images/nacidos_bruma.jpg
+ create mode 100644 public/assets/images/napoleon_s_conquests_reprint.jpg
+ create mode 100644 public/assets/images/nobel_run.jpg
+ create mode 100644 public/assets/images/one_piece_nakama_amigos_y_enemigos.jpg
+ create mode 100644 public/assets/images/operation_overlord.jpg
+ create mode 100644 public/assets/images/paper_wars_112_sinking_yamato.jpg
+ create mode 100644 public/assets/images/paper_wars_113_inchon___mcarthur_s_gambit.jpg
+ create mode 100644 public/assets/images/phoenix_new_horizon.jpg
+ create mode 100644 public/assets/images/port_royal.jpg
+ create mode 100644 public/assets/images/port_royal_cl_sico.jpg
+ create mode 100644 public/assets/images/revolutions_france_1820_1880.jpg
+ create mode 100644 public/assets/images/rumbo_a_lo_desconocido_pagan.jpg
+ create mode 100644 public/assets/images/second_world_war_at_sea__the_emperor_s_sword__zipbag_.jpg
+ create mode 100644 public/assets/images/sensuikan_japanese_fleet_submarines.jpg
+ create mode 100644 public/assets/images/space_empires_4x__2025_reprint_.jpg
+ create mode 100644 public/assets/images/space_empires_all_good_things.jpg
+ delete mode 100644 public/assets/images/star_wars_the_deckbuilding.jpg
+ create mode 100644 public/assets/images/storm_marvel_champions_el_juego_cartas.jpg
+ create mode 100644 public/assets/images/strategy___tactics_352_french___indian_war__1754_63.jpg
+ create mode 100644 public/assets/images/strategy___tactics_353__ukraine_battles_2014__ilovaisk___debal_tseve.jpg
+ create mode 100644 public/assets/images/strategy___tactics_358_pensacola_1779_82.jpg
+ create mode 100644 public/assets/images/tableros_terraforming_mars.jpg
+ create mode 100644 public/assets/images/tainted_grail_reyes_perdici_n.jpg
+ create mode 100644 public/assets/images/take_time.jpg
+ create mode 100644 public/assets/images/the_african_campaign_designer_signature.jpg
+ create mode 100644 public/assets/images/the_eastern_front__1914_1917.jpg
+ create mode 100644 public/assets/images/the_epic_battle_of_alesia.jpg
+ create mode 100644 public/assets/images/the_forgotten_battles.jpg
+ create mode 100644 public/assets/images/the_guerrilla_generation.jpg
+ create mode 100644 public/assets/images/the_russian_campaign__devir_.jpg
+ create mode 100644 public/assets/images/the_siege_of_constantinople__1453_ad.jpg
+ create mode 100644 public/assets/images/trench_raid.jpg
+ create mode 100644 public/assets/images/tru_ng_bot_for_fire_in_the_lake.jpg
+ create mode 100644 public/assets/images/world_at_war_103_battle_for_finland_1944.jpg
+ create mode 100644 public/assets/images/year_of_the_rat.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   30616bf..426edfe  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== PLANETON CATALOG: INICIO (2026-05-25 20:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Planeton Catálogo Completo ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (20:21:36) ===
