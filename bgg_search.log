@@ -93660,3 +93660,229 @@ Estrategias: ['Call Of Cthulhu: Harlem Unbound - 2nd Edition', 'Call', 'Call Of 
     ERROR HTTP 401: Unauthorized. See https://boardgamegeek.com/using_the_xml_api
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kikicri?' ---
+Estrategias: ['Kikicri', 'Kikicri?']
+  > Probando query: 'Kikicri?'
+    Encontrados 0 resultados.
+  > Probando query: 'Kikicri'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rubik's Cube Gridlock' ---
+Estrategias: ['Rubik', "Rubik's Cube Gridlock"]
+  > Probando query: 'Rubik's Cube Gridlock'
+    Encontrados 0 resultados.
+  > Probando query: 'Rubik'
+    Encontrados 25 resultados.
+    - Candidato: [240130] Rubik's Battle (Conf: 50.0%, Score: 57.1)
+    - Candidato: [30382] Rubik's Brain Game (Conf: 50.0%, Score: 56.4)
+    - Candidato: [283609] Rubik's Cage (Conf: 50.0%, Score: 60.6)
+    - Candidato: [378068] Rubik's Capture (Conf: 50.0%, Score: 61.1)
+    - Candidato: [47327] Rubik's Card Game (Conf: 50.0%, Score: 57.9)
+    - Candidato: [13973] Rubik's Checkers Challenge (Conf: 50.0%, Score: 51.1)
+    - Candidato: [7801] Rubik's Cube Card Game (Conf: 75.0%, Score: 65.1)
+    - Candidato: [407654] Rubik's Cube It (Conf: 75.0%, Score: 77.8)
+    - Candidato: [3081] Rubik's Flip (Conf: 50.0%, Score: 54.5)
+    - Candidato: [9734] Rubik's Game (Conf: 50.0%, Score: 54.5)
+    - Candidato: [5167] Rubik's Illusion (Conf: 50.0%, Score: 59.5)
+    - Candidato: [10060] Rubik's Infinity (Conf: 50.0%, Score: 48.6)
+    - Candidato: [37493] Rubik's Line Up (Conf: 50.0%, Score: 55.6)
+    - Candidato: [285512] Rubik's Match (Conf: 50.0%, Score: 52.9)
+    - Candidato: [323301] Rubik's Perplexus Hybrid (Conf: 50.0%, Score: 57.8)
+    - Candidato: [614] Rubik's Race (Conf: 50.0%, Score: 60.6)
+    - Candidato: [464418] Rubik's Revenge: The Card Game (Conf: 50.0%, Score: 44.0)
+    - Candidato: [32601] Rubik's Revolution (Conf: 50.0%, Score: 56.4)
+GANADOR: ID 407654 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Marvel United - Paquet Equipe' ---
+Estrategias: ['Marvel', 'Marvel United', 'Marvel United - Paquet Equipe']
+  > Probando query: 'Marvel United - Paquet Equipe'
+    Encontrados 0 resultados.
+  > Probando query: 'Marvel United'
+    Encontrados 99 resultados.
+    - Candidato: [298047] Marvel United (Conf: 50.0%, Score: 65.0)
+    - Candidato: [321772] Marvel United: Adam Warlock (Conf: 50.0%, Score: 60.4)
+    - Candidato: [379766] Marvel United: Annihilation (Conf: 50.0%, Score: 64.2)
+    - Candidato: [386886] Marvel United: Campaign Decks (Conf: 50.0%, Score: 61.8)
+    - Candidato: [379755] Marvel United: Civil War (Conf: 50.0%, Score: 60.0)
+    - Candidato: [339131] Marvel United: Deadpool (Conf: 50.0%, Score: 61.2)
+    - Candidato: [397164] Marvel United: Deadpool (X-Force) Promo Deck (Conf: 50.0%, Score: 52.9)
+    - Candidato: [354553] Marvel United: Doctor Strange (Conf: 50.0%, Score: 58.2)
+    - Candidato: [303600] Marvel United: Enter the Spider-Verse (Conf: 50.0%, Score: 60.3)
+    - Candidato: [321773] Marvel United: Enter the Spider-Verse – Kickstarter Edition (Conf: 50.0%, Score: 48.2)
+    - Candidato: [339134] Marvel United: Fantastic Four (Conf: 50.0%, Score: 58.2)
+    - Candidato: [380000] Marvel United: Fantastic Four – The Coming of Galactus (Conf: 50.0%, Score: 48.7)
+    - Candidato: [372325] Marvel United: Grey Hulk Promo Deck (Conf: 50.0%, Score: 52.5)
+    - Candidato: [302670] Marvel United: Guardians of the Galaxy Remix (Conf: 50.0%, Score: 54.3)
+    - Candidato: [321775] Marvel United: Guardians of the Galaxy Remix – Kickstarter Edition (Conf: 50.0%, Score: 44.4)
+    - Candidato: [321731] Marvel United: Kickstarter Promos Box (Conf: 50.0%, Score: 50.8)
+    - Candidato: [359427] Marvel United: Kickstarter Promos Box (Conf: 50.0%, Score: 50.8)
+    - Candidato: [379881] Marvel United: Maximum Carnage (Conf: 50.0%, Score: 60.7)
+    - Candidato: [397165] Marvel United: Mister Sinister Promo Deck (Conf: 50.0%, Score: 47.8)
+    - Candidato: [377969] Marvel United: Multiverse (Conf: 50.0%, Score: 66.7)
+    - Candidato: [386895] Marvel United: Multiverse – Fin Fang Foom (Conf: 50.0%, Score: 49.2)
+    - Candidato: [436344] Marvel United: Multiverse – Iron Lad (Conf: 50.0%, Score: 50.0)
+    - Candidato: [386892] Marvel United: Multiverse – Kickstarter Promos Box (Conf: 50.0%, Score: 43.2)
+    - Candidato: [386880] Marvel United: Pet Companions (Conf: 50.0%, Score: 69.1)
+    - Candidato: [386890] Marvel United: Promo Team Decks (Conf: 50.0%, Score: 59.6)
+  > Probando query: 'Marvel'
+    Encontrados 1199 resultados.
+    - Candidato: [253618] 5-Minute Marvel (Conf: 25.0%, Score: 28.6)
+    - Candidato: [460246] Adventurous: Marvel Expansions (Conf: 25.0%, Score: 39.3)
+    - Candidato: [368048] Apples to Apples Express: Marvel Edition (Conf: 25.0%, Score: 30.3)
+    - Candidato: [324739] Apples to Apples: Marvel (Conf: 25.0%, Score: 24.0)
+    - Candidato: [452834] Artistry: Marvelous Mucha Mini Expansion (Conf: 0.0%, Score: 42.4)
+    - Candidato: [439420] Aspens: Majestic Marvels (Conf: 25.0%, Score: 24.0)
+    - Candidato: [24025] Attacktix  Battle Figure Game: Marvel (Conf: 25.0%, Score: 19.4)
+    - Candidato: [382136] Captain Marvel's Own Game SHAZAM! (Conf: 25.0%, Score: 37.3)
+    - Candidato: [269564] Captain Marvel: Secret Skrulls (Conf: 25.0%, Score: 42.9)
+    - Candidato: [273710] Captain Marvel: Secret Skrulls – Kree Fighter (Conf: 25.0%, Score: 40.6)
+    - Candidato: [273711] Captain Marvel: Secret Skrulls – Skrull Stun Gun (Conf: 25.0%, Score: 33.3)
+    - Candidato: [4143] Cara a Cara? Marvel Heroes (Conf: 25.0%, Score: 34.6)
+    - Candidato: [199937] The Card Game of Oz: The Marvelous Land of Oz (Conf: 0.0%, Score: 31.0)
+    - Candidato: [182077] Cardline: Marvel (Conf: 25.0%, Score: 28.6)
+    - Candidato: [357180] Cards Against Marvel (Conf: 25.0%, Score: 25.5)
+    - Candidato: [386620] Charlie and the Chocolate Factory: Marvellous Maths Games (Conf: 0.0%, Score: 21.7)
+    - Candidato: [5432] Chutes and Ladders Marvel Super Hero Squad (Conf: 25.0%, Score: 34.8)
+    - Candidato: [22958] Clout: Marvel (Conf: 25.0%, Score: 30.8)
+    - Candidato: [433795] Clue Junior Marvel Avengers (Conf: 25.0%, Score: 33.3)
+    - Candidato: [441343] Clue Junior: Marvel Avengers – Loki's Big Trick! (Conf: 25.0%, Score: 31.0)
+    - Candidato: [220774] Codenames: Marvel (Conf: 25.0%, Score: 27.9)
+    - Candidato: [63268] Dobble Marvel (Conf: 25.0%, Score: 30.0)
+    - Candidato: [258394] Doctor Smuglfreud's Marvelous Machine (Conf: 0.0%, Score: 28.1)
+    - Candidato: [17568] Eamonn Andrews Presents The Great Marvello (Conf: 25.0%, Score: 17.4)
+    - Candidato: [470265] Ecologies: Marvelous Microbes (Conf: 0.0%, Score: 32.7)
+GANADOR: ID 386880 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Baston à la Carte' ---
+Estrategias: ['Baston', 'Baston à  Carte', 'Baston à la Carte']
+  > Probando query: 'Baston à la Carte'
+    Encontrados 0 resultados.
+  > Probando query: 'Baston à  Carte'
+    Encontrados 0 resultados.
+  > Probando query: 'Baston'
+    Encontrados 6 resultados.
+    - Candidato: [4537] Baston (Conf: 33.3%, Score: 60.0)
+    - Candidato: [21407] Baston: La Rue – extension n° 1 (Conf: 33.3%, Score: 58.5)
+    - Candidato: [173200] Epic Spell Wars: Baston de Sorciers au Donjon du poulpe sanguinaire (Conf: 33.3%, Score: 30.0)
+    - Candidato: [112686] Epic Spell Wars: Baston de Sorciers au Mont du Crâne Chauve. (Conf: 33.3%, Score: 33.3)
+    - Candidato: [21407] Baston: La Rue – extension n° 1 (Conf: 33.3%, Score: 58.5)
+GANADOR: ID 4537 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Smash Up - Faction Moutons' ---
+Estrategias: ['Smash Up - Faction Moutons', 'Smash', 'Smash Up']
+  > Probando query: 'Smash Up - Faction Moutons'
+    Encontrados 0 resultados.
+  > Probando query: 'Smash Up'
+    Encontrados 62 resultados.
+    - Candidato: [5102] Incredible Hulk Smash-Up Action Game (Conf: 75.0%, Score: 56.7)
+    - Candidato: [24733] The Official Munchkin Smash Up Bookmark of Smashing Success! (Conf: 50.0%, Score: 31.3)
+    - Candidato: [122522] Smash Up (Conf: 50.0%, Score: 50.0)
+    - Candidato: [358808] Smash Up: 10th Anniversary (Conf: 50.0%, Score: 49.0)
+    - Candidato: [220266] Smash Up: All Stars (Conf: 50.0%, Score: 57.1)
+    - Candidato: [134726] Smash Up: Awesome Level 9000 (Conf: 50.0%, Score: 47.1)
+    - Candidato: [216199] Smash Up: Big in Japan (Conf: 50.0%, Score: 57.8)
+    - Candidato: [198487] Smash Up: Cease and Desist (Conf: 50.0%, Score: 44.9)
+    - Candidato: [339244] Smash Up: Cessare e Desistere & A Che Pensavamo? (Conf: 50.0%, Score: 41.2)
+    - Candidato: [454244] Smash Up: Clowns (Conf: 50.0%, Score: 66.7)
+    - Candidato: [359271] Smash Up: Deepreef Crag Promo Card (Conf: 50.0%, Score: 49.1)
+    - Candidato: [358515] Smash Up: Disney Edition (Conf: 50.0%, Score: 55.3)
+    - Candidato: [379164] Smash Up: Excellent Movies, Dudes! (Conf: 50.0%, Score: 58.2)
+    - Candidato: [322233] Smash Up: Goblins (Conf: 50.0%, Score: 60.0)
+    - Candidato: [452855] Smash Up: Half the Battle (Conf: 50.0%, Score: 54.2)
+    - Candidato: [177802] Smash Up: It's Your Fault! (Conf: 50.0%, Score: 50.0)
+    - Candidato: [344066] Smash Up: Knights of the Round Table (Conf: 50.0%, Score: 50.8)
+    - Candidato: [306697] Smash Up: Marvel (Conf: 50.0%, Score: 51.3)
+    - Candidato: [160018] Smash Up: Monster Smash (Conf: 50.0%, Score: 56.5)
+    - Candidato: [162559] Smash Up: Munchkin (Conf: 50.0%, Score: 58.5)
+    - Candidato: [247724] Smash Up: Oops, You Did It Again (Conf: 50.0%, Score: 55.6)
+    - Candidato: [285585] Smash Up: Penguins (Conf: 50.0%, Score: 58.5)
+    - Candidato: [168917] Smash Up: Pretty Pretty Smash Up (Conf: 50.0%, Score: 43.6)
+    - Candidato: [151004] Smash Up: Science Fiction Double Feature (Conf: 75.0%, Score: 60.3)
+    - Candidato: [220188] Smash Up: Sheep (Conf: 50.0%, Score: 52.6)
+  > Probando query: 'Smash'
+    Encontrados 253 resultados.
+    - Candidato: [285880] 8-Bit Zombie Smash (Conf: 25.0%, Score: 23.8)
+    - Candidato: [421969] Anger Smash (Conf: 25.0%, Score: 28.6)
+    - Candidato: [203791] Angry Birds Pig Island Smashdown (Conf: 0.0%, Score: 25.0)
+    - Candidato: [125434] Angry Birds: Mega Smash game (Conf: 25.0%, Score: 31.4)
+    - Candidato: [30938] Atom Smash (Conf: 25.0%, Score: 29.4)
+    - Candidato: [38455] Atom Smasher (Conf: 25.0%, Score: 27.8)
+    - Candidato: [36388] Atom Smashers (Conf: 0.0%, Score: 32.4)
+    - Candidato: [378319] Atomic Smash (Conf: 25.0%, Score: 27.8)
+    - Candidato: [261831] Avocado Smash! (Conf: 25.0%, Score: 27.0)
+    - Candidato: [343518] Avocado Smash: Party Edition (Conf: 25.0%, Score: 47.1)
+    - Candidato: [407234] Bam! Smash! Ka-pow! (Conf: 25.0%, Score: 40.0)
+    - Candidato: [453782] Bamboo Smash (Conf: 25.0%, Score: 27.8)
+    - Candidato: [401841] Big Bash Smash (Conf: 25.0%, Score: 26.3)
+    - Candidato: [346979] BIGFOOT: Roll & Smash (Conf: 25.0%, Score: 23.8)
+    - Candidato: [363318] BIGFOOT: Roll & Smash – MODS Expansion (Conf: 25.0%, Score: 38.6)
+    - Candidato: [230905] Blood Bowl (2016 Edition): Glart Smashrip – Star Player (Conf: 0.0%, Score: 24.3)
+    - Candidato: [125876] Bop It! Smash (Conf: 25.0%, Score: 27.8)
+    - Candidato: [391065] Coin Smash (Conf: 25.0%, Score: 29.4)
+    - Candidato: [239074] Color Smash (Conf: 25.0%, Score: 28.6)
+    - Candidato: [468400] Cryptid Smash (Conf: 25.0%, Score: 27.0)
+    - Candidato: [59808] Demo Derby Smash-Down! (Conf: 25.0%, Score: 35.6)
+    - Candidato: [298540] Dragon Ball Z: Smash Battle – The Miniatures Game (Conf: 25.0%, Score: 34.3)
+    - Candidato: [133133] Go! Go! E.D.F. (fan expansion for  Smash Monster Rampage!) (Conf: 25.0%, Score: 26.7)
+    - Candidato: [367899] Growbot Smash (Conf: 25.0%, Score: 27.0)
+    - Candidato: [247946] Hive Smashers (Conf: 0.0%, Score: 32.4)
+GANADOR: ID 151004 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'EquiBlocs' ---
+Estrategias: ['EquiBlocs']
+  > Probando query: 'EquiBlocs'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Escape From New York - Bands of New York : Extension 5e Joueur' ---
+Estrategias: ['Escape From New York', 'Escape From New York - Bands of New York : Extension 5e Joueur', 'Escape From New York - Bands of New York', 'Escape From New York - Bands of New York :  5e Joueur', 'Escape']
+  > Probando query: 'Escape From New York - Bands of New York : Extension 5e Joueur'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape From New York - Bands of New York :  5e Joueur'
+    Encontrados 0 resultados.
+  > Probando query: 'Escape From New York - Bands of New York'
+    Encontrados 2 resultados.
+    - Candidato: [417679] Escape from New York: Bands of New York (Conf: 75.0%, Score: 88.4)
+    - Candidato: [417679] Escape from New York: Bands of New York (Conf: 75.0%, Score: 88.4)
+  > Probando query: 'Escape From New York'
+    Encontrados 13 resultados.
+    - Candidato: [731] Escape from New York (Conf: 50.0%, Score: 58.8)
+    - Candidato: [362723] Escape from New York (Conf: 50.0%, Score: 58.8)
+    - Candidato: [417679] Escape from New York: Bands of New York (Conf: 75.0%, Score: 88.4)
+    - Candidato: [433118] Escape from New York: Dice Tower 2024 Promo Pack (Conf: 50.0%, Score: 56.8)
+    - Candidato: [427566] Escape from New York: Stretch Goal Pack (Conf: 50.0%, Score: 55.8)
+    - Candidato: [417680] Escape from New York: United States Police Force (Conf: 50.0%, Score: 61.1)
+    - Candidato: [417679] Escape from New York: Bands of New York (Conf: 75.0%, Score: 88.4)
+    - Candidato: [433118] Escape from New York: Dice Tower 2024 Promo Pack (Conf: 50.0%, Score: 56.8)
+    - Candidato: [427566] Escape from New York: Stretch Goal Pack (Conf: 50.0%, Score: 55.8)
+    - Candidato: [417680] Escape from New York: United States Police Force (Conf: 50.0%, Score: 61.1)
+  > Probando query: 'Escape'
+    Encontrados 1076 resultados.
+    - Candidato: [471408] 02 Hundred Hours: Escape from Stalag Luft III (Conf: 25.0%, Score: 30.4)
+    - Candidato: [391517] 24 Days Escape: 3D Adventskalender – Sherlock Holmes im Schatten des Big Ben (Conf: 12.5%, Score: 26.4)
+    - Candidato: [420963] 24 Days Escape: 3D Adventskalender – Sherlock Holmes und das Castle in den Highlands (Conf: 12.5%, Score: 23.3)
+    - Candidato: [355944] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und das Anwesen Moriarty (Conf: 12.5%, Score: 29.5)
+    - Candidato: [363159] 24 Days Escape: 3D-Adventskalender – Sherlock Holmes und die letzte Fahrt der Titanic (Conf: 12.5%, Score: 20.0)
+    - Candidato: [358294] 24 Hours Escape: Lupin der Meisterdieb und der große Coup (Conf: 12.5%, Score: 26.9)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 12.5%, Score: 25.6)
+    - Candidato: [471442] 80 Escape: Area-53 (Conf: 12.5%, Score: 36.9)
+    - Candidato: [380160] Age of Steam Expansion: Honeybee Hive Mind, Brooklyn & Escape Room (Conf: 25.0%, Score: 18.2)
+    - Candidato: [292019] Alarm 22: Escape From Alcatraz (Conf: 25.0%, Score: 36.4)
+    - Candidato: [21284] Alcatraz Escape (Conf: 12.5%, Score: 19.0)
+    - Candidato: [411571] Andromeda Escape (Conf: 12.5%, Score: 18.8)
+    - Candidato: [318566] Apex: Escape from the Apes (Conf: 25.0%, Score: 41.1)
+    - Candidato: [222236] Ariadne's Thread: Escape the Maze Button by Button! (Conf: 12.5%, Score: 30.9)
+    - Candidato: [123107] Asteroid Escape (Conf: 12.5%, Score: 19.0)
+    - Candidato: [453573] Astérix: Escape Game (Conf: 12.5%, Score: 26.9)
+    - Candidato: [426011] Asylum Escape (Conf: 12.5%, Score: 19.7)
+    - Candidato: [449443] Balkanika: Safira's Escape (Conf: 12.5%, Score: 16.4)
+    - Candidato: [127129] Batman: Arkham City Escape (Conf: 12.5%, Score: 16.4)
+    - Candidato: [143406] Batman: Arkham City Escape – Hotline to Oracle Promo card (Conf: 12.5%, Score: 25.5)
+    - Candidato: [345980] Batman: Escape From Arkham Asylum (Conf: 25.0%, Score: 47.5)
+    - Candidato: [380249] Batman: Escape From Arkham Asylum – Heirs of the Cowl (Conf: 37.5%, Score: 49.0)
+    - Candidato: [380248] Batman: Escape From Arkham Asylum – Quest at Arkham Asylum (Conf: 25.0%, Score: 46.6)
+    - Candidato: [380247] Batman: Escape From Arkham Asylum – Ra's Al Ghul & the League of Assassins (Conf: 37.5%, Score: 37.6)
+    - Candidato: [380246] Batman: Escape From Arkham Asylum – Riot in Blackgate (Conf: 25.0%, Score: 36.7)
+GANADOR: ID 417679 con 75.0% confianza.
+--------------------------------------------------
