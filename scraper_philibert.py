@@ -6,10 +6,11 @@ import re
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
-    HEADERS_PHILI, save_deal, NOISE_RE, IGNORE_KEYWORDS
+    HEADERS_PHILI, save_deal, NOISE_RE, IGNORE_KEYWORDS, COOKIE
 )
 
 # Configuración específica de Philibert
+# Los precios se muestran tal cual aparecen en la web (con la cookie de sesión activa).
 REMOVE_FRENCH_VAT = False
 SITE_NAME = 'Philibert'
 SOURCES = {
@@ -24,10 +25,22 @@ def scrape_philibert(source_key):
         print(f"Fuente desconocida: {source_key}")
         return
 
+    # Las ventas privadas requieren cookie de sesión para mostrar precios correctos.
+    # Sin cookie, Philibert muestra los precios normales (sin descuento), lo que no es útil.
+    if source_key == 'private' and not COOKIE:
+        print(f"[PHILIBERT] AVISO: Se omite 'private' porque no hay cookie de sesión configurada.")
+        print(f"            Sin cookie, los precios de ventas privadas son incorrectos.")
+        print(f"            Configurá PHILIBERT_COOKIE en el archivo .env para habilitarlas.")
+        return
+
     url_base = SOURCES[source_key]
     today = datetime.date.today().isoformat()
     
     print(f"\n[PHILIBERT] Iniciando sección: {source_key.upper()}")
+    if COOKIE:
+        print(f"[PHILIBERT] Cookie activa: precios tal cual se muestran en la web.")
+    else:
+        print(f"[PHILIBERT] Sin cookie: precios con IVA incluido.")
     
     init_db()
     
