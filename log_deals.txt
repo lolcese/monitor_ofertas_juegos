@@ -81270,3 +81270,73 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-06-01 08:12:45
+[main d43438e] Actualización 2026-06-01 08:12:45
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 13 files changed, 3002 insertions(+), 7 deletions(-)
+ create mode 100644 assets/images/compile_unidad_auxiliar_02.jpg
+ delete mode 100644 public/assets/images/avalon_hill_betrayal_legacy.jpg
+ create mode 100644 public/assets/images/compile_unidad_auxiliar_02.jpg
+ delete mode 100644 public/assets/images/cr_a___25_ans.jpg
+ delete mode 100644 public/assets/images/dobble_connect.jpg
+ delete mode 100644 public/assets/images/la_citt_.jpg
+ delete mode 100644 public/assets/images/labyrinth.jpg
+ delete mode 100644 public/assets/images/mythologia.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   5e1a306..d43438e  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== MONITOR DEALS: INICIO (2026-06-01 08:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Phili Flash ---
+
+--- Phili Occasions ---
+
+--- Phili Private ---
+
+--- Phili Preorder ---
+
+--- MM Daily ---
+
+--- MM Sales ---
+
+--- MM Backrooms ---
+
+--- MM Clearance ---
+
+--- MM GameOn ---
+
+--- MM LastChance ---
+
+--- MM Markdown ---
+
+--- MM Preorder ---
+
+--- Planeton Ofertas ---
+
+--- Planeton Preorder ---
+
+--- Zatu Sale ---
+
+--- Zatu Outlet ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (08:12:50) ===
