@@ -97123,3 +97123,1335 @@ Estrategias: ['Estado', 'Estado Sitio 5', 'Estado Sitio 5-6 jugadores']
     - Candidato: [214552] Warfighter: Expansión 2GM #6 – Estados Unidos #2 (Conf: 40.0%, Score: 31.9)
 GANADOR: ID 203760 con 40.0% confianza.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Jumo' ---
+Estrategias: ['Jumo']
+  > Probando query: 'Jumo'
+    Encontrados 4 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '50 Clues Saison 2 - La Trilogie de Marie' ---
+Estrategias: ['Clues', '50 Clues Saison 2 -  Trilogie  Marie', '50 Clues Saison 2 - La Trilogie de Marie', '50 Clues Saison 2']
+  > Probando query: '50 Clues Saison 2 - La Trilogie de Marie'
+    Encontrados 0 resultados.
+  > Probando query: '50 Clues Saison 2 -  Trilogie  Marie'
+    Encontrados 0 resultados.
+  > Probando query: '50 Clues Saison 2'
+    Encontrados 0 resultados.
+  > Probando query: 'Clues'
+    Encontrados 80 resultados.
+    - Candidato: [352413] 10 Clues (Conf: 16.7%, Score: 35.0)
+    - Candidato: [208766] 13 Clues (Conf: 16.7%, Score: 30.0)
+    - Candidato: [244470] 20 Clues: World Geography (Conf: 16.7%, Score: 46.4)
+    - Candidato: [43483] 39 Clues: Cahill Commotion (Conf: 16.7%, Score: 38.6)
+    - Candidato: [64200] 39 Clues: Search for the Keys (Conf: 16.7%, Score: 50.0)
+    - Candidato: [339741] 50 Clues: Dead or Alive (Conf: 33.3%, Score: 44.4)
+    - Candidato: [393304] 50 Clues: Down in the Depths (Conf: 33.3%, Score: 57.6)
+    - Candidato: [369337] 50 Clues: Escape the Blast Zone (Conf: 33.3%, Score: 48.4)
+    - Candidato: [339743] 50 Clues: Keepers of Evil (Conf: 33.3%, Score: 50.0)
+    - Candidato: [391213] 50 Clues: No Sign of Life (Conf: 33.3%, Score: 57.1)
+    - Candidato: [269168] 50 Clues: Ritualet (Conf: 33.3%, Score: 53.1)
+    - Candidato: [282008] 50 Clues: The Fate of Leopold (Conf: 33.3%, Score: 46.7)
+    - Candidato: [291563] 50 Clues: The Home Temple (Conf: 33.3%, Score: 50.0)
+    - Candidato: [393305] 50 Clues: The Last Journey (Conf: 33.3%, Score: 52.6)
+    - Candidato: [282006] 50 Clues: The Pendulum of the Dead (Conf: 33.3%, Score: 46.2)
+    - Candidato: [339742] 50 Clues: The Secret of the Mark (Conf: 33.3%, Score: 57.1)
+    - Candidato: [282007] 50 Clues: White Sleep (Conf: 33.3%, Score: 53.8)
+    - Candidato: [11873] AMC Reel Clues (Conf: 16.7%, Score: 26.1)
+    - Candidato: [204281] Baby Clues (Conf: 16.7%, Score: 28.6)
+    - Candidato: [209472] Baby Clues: Skill Cards (Conf: 16.7%, Score: 48.1)
+    - Candidato: [7688] Blue's Clues & you! Memoria (Conf: 16.7%, Score: 42.9)
+    - Candidato: [462842] Blue's Clues and You!: Scavenger Scurry Game (Conf: 16.7%, Score: 35.1)
+    - Candidato: [8496] Blue's Clues Big Easy Game (Conf: 16.7%, Score: 34.5)
+    - Candidato: [29350] Blue's Clues Card Game (Conf: 16.7%, Score: 37.0)
+    - Candidato: [16990] Blue's Clues Game (Conf: 16.7%, Score: 36.7)
+GANADOR: ID 393304 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle:   L-Building Cargo Bay' ---
+Estrategias: ['Ready for Battle:   L', 'Ready for Battle:   L-Building Cargo Bay', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle:   L-Building Cargo Bay'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle:   L'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 42.9%, Score: 43.7)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 14.3%, Score: 36.4)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 28.6%, Score: 44.1)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 14.3%, Score: 19.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 14.3%, Score: 34.6)
+    - Candidato: [192381] Dinner's Ready! (Conf: 14.3%, Score: 19.6)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 14.3%, Score: 29.9)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 14.3%, Score: 11.4)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 14.3%, Score: 28.6)
+    - Candidato: [5194] Fire When Ready (Conf: 14.3%, Score: 19.2)
+    - Candidato: [311208] Fire When Ready (Conf: 14.3%, Score: 19.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 14.3%, Score: 36.8)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 14.3%, Score: 32.8)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 28.6%, Score: 44.8)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 14.3%, Score: 38.8)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 14.3%, Score: 25.8)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 14.3%, Score: 32.8)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 14.3%, Score: 31.7)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 14.3%, Score: 20.8)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 14.3%, Score: 31.0)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 28.6%, Score: 34.4)
+    - Candidato: [64238] Race Ready (Conf: 14.3%, Score: 21.3)
+    - Candidato: [92853] Racers Ready (Conf: 14.3%, Score: 20.4)
+    - Candidato: [338693] Ready 2 Help (Conf: 14.3%, Score: 32.7)
+    - Candidato: [36448] Ready Aim Fire (Conf: 14.3%, Score: 35.3)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 14.3%, Score: 44.4)
+GANADOR: ID 22434 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle:  Atl Apartment' ---
+Estrategias: ['Ready for Battle:  Atl Apartment', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle:  Atl Apartment'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 50.0)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 41.7)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 49.2)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 22.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 35.6)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 22.7)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 23.3)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 12.3)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 26.0)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 22.2)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 22.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 43.5)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 30.0)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 43.1)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 30.0)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 25.5)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 44.4)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 35.7)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 25.7)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 39.2)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 35.1)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 25.0)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 23.8)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 42.9)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 40.9)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 25.0)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle:  Crater Set' ---
+Estrategias: ['Ready for Battle', 'Ready for Battle:  Crater', 'Ready', 'Ready for Battle:  Crater Set']
+  > Probando query: 'Ready for Battle:  Crater Set'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle:  Crater'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 75.0%, Score: 52.1)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 25.0%, Score: 48.8)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 50.0%, Score: 59.3)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 25.0%, Score: 26.3)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 25.0%, Score: 42.1)
+    - Candidato: [192381] Dinner's Ready! (Conf: 25.0%, Score: 27.0)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 25.0%, Score: 26.4)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 25.0%, Score: 13.5)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 25.0%, Score: 34.3)
+    - Candidato: [5194] Fire When Ready (Conf: 25.0%, Score: 26.3)
+    - Candidato: [311208] Fire When Ready (Conf: 25.0%, Score: 26.3)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 25.0%, Score: 45.2)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 25.0%, Score: 34.0)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 50.0%, Score: 50.0)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 25.0%, Score: 34.0)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 25.0%, Score: 29.2)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 25.0%, Score: 46.8)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 25.0%, Score: 40.8)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 25.0%, Score: 25.4)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 25.0%, Score: 40.9)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 50.0%, Score: 44.0)
+    - Candidato: [64238] Race Ready (Conf: 25.0%, Score: 30.3)
+    - Candidato: [92853] Racers Ready (Conf: 25.0%, Score: 28.6)
+    - Candidato: [338693] Ready 2 Help (Conf: 25.0%, Score: 45.7)
+    - Candidato: [36448] Ready Aim Fire (Conf: 25.0%, Score: 48.6)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 25.0%, Score: 40.8)
+GANADOR: ID 22434 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle:  Holographic Street Signs 3' ---
+Estrategias: ['Ready for Battle:  Holographic Street Signs 3', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle:  Holographic Street Signs 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 42.9%, Score: 43.0)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 28.6%, Score: 32.8)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 28.6%, Score: 48.6)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 14.3%, Score: 17.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 14.3%, Score: 27.6)
+    - Candidato: [192381] Dinner's Ready! (Conf: 14.3%, Score: 17.5)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 14.3%, Score: 30.1)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 14.3%, Score: 10.6)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 14.3%, Score: 26.7)
+    - Candidato: [5194] Fire When Ready (Conf: 14.3%, Score: 17.2)
+    - Candidato: [311208] Fire When Ready (Conf: 14.3%, Score: 17.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 14.3%, Score: 36.6)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 14.3%, Score: 24.7)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 28.6%, Score: 40.6)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 14.3%, Score: 35.6)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 14.3%, Score: 32.4)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 14.3%, Score: 32.8)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 14.3%, Score: 34.8)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 14.3%, Score: 19.3)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 14.3%, Score: 31.2)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 28.6%, Score: 31.4)
+    - Candidato: [64238] Race Ready (Conf: 14.3%, Score: 18.9)
+    - Candidato: [92853] Racers Ready (Conf: 14.3%, Score: 18.2)
+    - Candidato: [338693] Ready 2 Help (Conf: 14.3%, Score: 36.4)
+    - Candidato: [36448] Ready Aim Fire (Conf: 14.3%, Score: 35.1)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 14.3%, Score: 34.8)
+GANADOR: ID 22434 con 42.9% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle:  L-Building Warehouse' ---
+Estrategias: ['Ready', 'Ready for Battle:  L-Building Warehouse', 'Ready for Battle:  L', 'Ready for Battle']
+  > Probando query: 'Ready for Battle:  L-Building Warehouse'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle:  L'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 50.0%, Score: 46.0)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 16.7%, Score: 36.4)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 33.3%, Score: 47.1)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 16.7%, Score: 19.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 16.7%, Score: 34.6)
+    - Candidato: [192381] Dinner's Ready! (Conf: 16.7%, Score: 19.6)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 16.7%, Score: 29.9)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 16.7%, Score: 11.4)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 16.7%, Score: 28.6)
+    - Candidato: [5194] Fire When Ready (Conf: 16.7%, Score: 19.2)
+    - Candidato: [311208] Fire When Ready (Conf: 16.7%, Score: 19.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 16.7%, Score: 39.5)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 16.7%, Score: 26.9)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 33.3%, Score: 48.3)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 16.7%, Score: 26.9)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 16.7%, Score: 25.8)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 16.7%, Score: 36.1)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 16.7%, Score: 41.3)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 16.7%, Score: 20.8)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 16.7%, Score: 34.5)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 33.3%, Score: 34.4)
+    - Candidato: [64238] Race Ready (Conf: 16.7%, Score: 21.3)
+    - Candidato: [92853] Racers Ready (Conf: 16.7%, Score: 20.4)
+    - Candidato: [338693] Ready 2 Help (Conf: 16.7%, Score: 32.7)
+    - Candidato: [36448] Ready Aim Fire (Conf: 16.7%, Score: 39.2)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 16.7%, Score: 47.6)
+GANADOR: ID 22434 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Black Market Sector' ---
+Estrategias: ['Ready for Battle: Black Market Sector', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Black Market Sector'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 50.0%, Score: 46.5)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 16.7%, Score: 37.0)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 33.3%, Score: 44.8)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 16.7%, Score: 19.6)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 16.7%, Score: 31.4)
+    - Candidato: [192381] Dinner's Ready! (Conf: 16.7%, Score: 20.0)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 16.7%, Score: 21.2)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 16.7%, Score: 11.5)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 16.7%, Score: 21.7)
+    - Candidato: [5194] Fire When Ready (Conf: 16.7%, Score: 19.6)
+    - Candidato: [311208] Fire When Ready (Conf: 16.7%, Score: 19.6)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 16.7%, Score: 40.0)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 16.7%, Score: 30.3)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 33.3%, Score: 45.6)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 16.7%, Score: 39.4)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 16.7%, Score: 39.3)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 16.7%, Score: 30.0)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 16.7%, Score: 38.7)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 16.7%, Score: 23.7)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 16.7%, Score: 31.6)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 33.3%, Score: 31.7)
+    - Candidato: [64238] Race Ready (Conf: 16.7%, Score: 21.7)
+    - Candidato: [92853] Racers Ready (Conf: 16.7%, Score: 20.8)
+    - Candidato: [338693] Ready 2 Help (Conf: 16.7%, Score: 33.3)
+    - Candidato: [36448] Ready Aim Fire (Conf: 16.7%, Score: 36.0)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 16.7%, Score: 45.2)
+GANADOR: ID 22434 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Container Grey' ---
+Estrategias: ['Ready for Battle: Container Grey', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Container Grey'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 46.9)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 40.8)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 58.1)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 21.7)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 34.8)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 22.2)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 32.8)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 12.2)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 38.5)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 21.7)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 21.7)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 40.0)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 32.8)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 46.2)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 32.8)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 28.6)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 43.6)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 35.1)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 22.5)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 34.6)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 41.4)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 24.4)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 23.3)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 37.2)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 48.9)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 35.1)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Container Shipping' ---
+Estrategias: ['Ready for Battle: Container Shipping', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Container Shipping'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 44.7)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 37.7)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 48.5)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 20.0)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 32.0)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 20.4)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 21.5)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 11.6)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 41.5)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 20.0)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 20.0)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 37.8)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 27.7)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 42.9)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 33.8)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 23.3)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 37.3)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 32.8)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 21.3)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 32.1)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 32.3)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 22.2)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 21.3)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 38.3)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 36.7)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 36.1)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Container Wayne' ---
+Estrategias: ['Ready for Battle: Container Wayne', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Container Wayne'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 46.3)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 40.0)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 50.8)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 21.3)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 34.0)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 21.7)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 22.6)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 12.0)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 35.4)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 21.3)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 21.3)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 39.4)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 35.5)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 45.3)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 32.3)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 28.1)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 39.3)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 34.5)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 22.2)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 34.0)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 37.3)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 23.8)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 22.7)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 36.4)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 39.1)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 34.5)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Indomtus Aldan District' ---
+Estrategias: ['Ready', 'Ready for Battle: Indomtus Aldan District', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Indomtus Aldan District'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 50.0%, Score: 40.0)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 16.7%, Score: 34.5)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 33.3%, Score: 39.4)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 16.7%, Score: 18.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 16.7%, Score: 32.7)
+    - Candidato: [192381] Dinner's Ready! (Conf: 16.7%, Score: 18.5)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 16.7%, Score: 28.6)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 16.7%, Score: 11.0)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 16.7%, Score: 25.3)
+    - Candidato: [5194] Fire When Ready (Conf: 16.7%, Score: 18.2)
+    - Candidato: [311208] Fire When Ready (Conf: 16.7%, Score: 18.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 16.7%, Score: 32.9)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 16.7%, Score: 25.7)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 33.3%, Score: 42.6)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 16.7%, Score: 31.4)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 16.7%, Score: 36.9)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 16.7%, Score: 34.4)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 16.7%, Score: 30.3)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 16.7%, Score: 22.5)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 16.7%, Score: 32.8)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 33.3%, Score: 29.9)
+    - Candidato: [64238] Race Ready (Conf: 16.7%, Score: 20.0)
+    - Candidato: [92853] Racers Ready (Conf: 16.7%, Score: 19.2)
+    - Candidato: [338693] Ready 2 Help (Conf: 16.7%, Score: 30.8)
+    - Candidato: [36448] Ready Aim Fire (Conf: 16.7%, Score: 33.3)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 16.7%, Score: 39.4)
+GANADOR: ID 22434 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Industry Of Murder Oil Tanks' ---
+Estrategias: ['Ready for Battle: Industry Of Murder Oil Tanks', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Industry Of Murder Oil Tanks'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 37.5%, Score: 40.0)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 12.5%, Score: 31.7)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 25.0%, Score: 44.7)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 12.5%, Score: 16.7)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 12.5%, Score: 30.0)
+    - Candidato: [192381] Dinner's Ready! (Conf: 12.5%, Score: 16.9)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 12.5%, Score: 18.7)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 12.5%, Score: 10.4)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 12.5%, Score: 23.9)
+    - Candidato: [5194] Fire When Ready (Conf: 12.5%, Score: 16.7)
+    - Candidato: [311208] Fire When Ready (Conf: 12.5%, Score: 16.7)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 12.5%, Score: 33.3)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 12.5%, Score: 26.7)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 25.0%, Score: 36.4)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 12.5%, Score: 26.7)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 12.5%, Score: 34.3)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 12.5%, Score: 31.9)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 12.5%, Score: 28.2)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 12.5%, Score: 21.2)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 12.5%, Score: 30.3)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 37.5%, Score: 30.6)
+    - Candidato: [64238] Race Ready (Conf: 12.5%, Score: 18.2)
+    - Candidato: [92853] Racers Ready (Conf: 12.5%, Score: 17.5)
+    - Candidato: [338693] Ready 2 Help (Conf: 12.5%, Score: 28.1)
+    - Candidato: [36448] Ready Aim Fire (Conf: 12.5%, Score: 30.5)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 12.5%, Score: 33.8)
+GANADOR: ID 22434 con 37.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Ruined Administratum' ---
+Estrategias: ['Ready for Battle', 'Ready', 'Ready for Battle: Ruined Administratum']
+  > Probando query: 'Ready for Battle: Ruined Administratum'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 41.4)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 36.4)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 47.1)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 19.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 34.6)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 19.6)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 20.9)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 11.4)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 26.2)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 19.2)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 19.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 34.2)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 26.9)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 41.4)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 32.8)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 35.5)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 45.9)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 31.7)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 23.4)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 31.0)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 40.6)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 21.3)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 20.4)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 32.7)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 35.3)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 44.4)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Ruined Trade House' ---
+Estrategias: ['Ready for Battle: Ruined Trade House', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Ruined Trade House'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 50.0%, Score: 42.4)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 16.7%, Score: 37.7)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 33.3%, Score: 54.5)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 16.7%, Score: 20.0)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 16.7%, Score: 36.0)
+    - Candidato: [192381] Dinner's Ready! (Conf: 16.7%, Score: 20.4)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 16.7%, Score: 21.5)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 16.7%, Score: 11.6)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 16.7%, Score: 26.8)
+    - Candidato: [5194] Fire When Ready (Conf: 16.7%, Score: 20.0)
+    - Candidato: [311208] Fire When Ready (Conf: 16.7%, Score: 20.0)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 16.7%, Score: 35.1)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 16.7%, Score: 27.7)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 33.3%, Score: 46.4)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 16.7%, Score: 36.9)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 16.7%, Score: 36.7)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 16.7%, Score: 47.5)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 16.7%, Score: 39.3)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 16.7%, Score: 21.3)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 16.7%, Score: 35.7)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 33.3%, Score: 41.9)
+    - Candidato: [64238] Race Ready (Conf: 16.7%, Score: 22.2)
+    - Candidato: [92853] Racers Ready (Conf: 16.7%, Score: 21.3)
+    - Candidato: [338693] Ready 2 Help (Conf: 16.7%, Score: 38.3)
+    - Candidato: [36448] Ready Aim Fire (Conf: 16.7%, Score: 36.7)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 16.7%, Score: 42.6)
+GANADOR: ID 22434 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Sanctuary' ---
+Estrategias: ['Ready for Battle: Sanctuary', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Sanctuary'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 75.0%, Score: 47.4)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 25.0%, Score: 45.5)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 50.0%, Score: 49.1)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 25.0%, Score: 24.4)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 25.0%, Score: 39.0)
+    - Candidato: [192381] Dinner's Ready! (Conf: 25.0%, Score: 25.0)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 25.0%, Score: 25.0)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 25.0%, Score: 13.0)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 25.0%, Score: 32.9)
+    - Candidato: [5194] Fire When Ready (Conf: 25.0%, Score: 24.4)
+    - Candidato: [311208] Fire When Ready (Conf: 25.0%, Score: 24.4)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 25.0%, Score: 40.0)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 25.0%, Score: 35.7)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 50.0%, Score: 51.1)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 25.0%, Score: 35.7)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 25.0%, Score: 31.4)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 25.0%, Score: 44.0)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 25.0%, Score: 38.5)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 25.0%, Score: 24.2)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 25.0%, Score: 38.3)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 50.0%, Score: 41.5)
+    - Candidato: [64238] Race Ready (Conf: 25.0%, Score: 27.8)
+    - Candidato: [92853] Racers Ready (Conf: 25.0%, Score: 26.3)
+    - Candidato: [338693] Ready 2 Help (Conf: 25.0%, Score: 42.1)
+    - Candidato: [36448] Ready Aim Fire (Conf: 25.0%, Score: 45.0)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 25.0%, Score: 46.2)
+GANADOR: ID 22434 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Scatter Areas' ---
+Estrategias: ['Ready for Battle: Scatter Areas', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Scatter Areas'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 47.5)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 41.7)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 49.2)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 22.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 35.6)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 22.7)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 30.0)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 12.3)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 31.2)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 22.2)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 22.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 40.6)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 30.0)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 47.1)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 36.7)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 25.5)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 40.7)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 42.9)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 22.9)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 35.3)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 42.1)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 25.0)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 23.8)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 38.1)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 40.9)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 50.0)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: Street Road' ---
+Estrategias: ['Ready for Battle: Street Road', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: Street Road'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 60.0%, Score: 46.2)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 20.0%, Score: 43.5)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 40.0%, Score: 57.6)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 20.0%, Score: 23.3)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 20.0%, Score: 41.9)
+    - Candidato: [192381] Dinner's Ready! (Conf: 20.0%, Score: 23.8)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 20.0%, Score: 34.5)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 20.0%, Score: 12.7)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 20.0%, Score: 34.7)
+    - Candidato: [5194] Fire When Ready (Conf: 20.0%, Score: 23.3)
+    - Candidato: [311208] Fire When Ready (Conf: 20.0%, Score: 23.3)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 20.0%, Score: 38.8)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 20.0%, Score: 31.0)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 40.0%, Score: 49.0)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 20.0%, Score: 37.9)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 20.0%, Score: 45.3)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 20.0%, Score: 46.2)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 20.0%, Score: 40.7)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 20.0%, Score: 23.5)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 20.0%, Score: 40.8)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 40.0%, Score: 47.3)
+    - Candidato: [64238] Race Ready (Conf: 20.0%, Score: 26.3)
+    - Candidato: [92853] Racers Ready (Conf: 20.0%, Score: 25.0)
+    - Candidato: [338693] Ready 2 Help (Conf: 20.0%, Score: 40.0)
+    - Candidato: [36448] Ready Aim Fire (Conf: 20.0%, Score: 42.9)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 20.0%, Score: 40.7)
+GANADOR: ID 22434 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ready for Battle: The Bell of Souls Tower' ---
+Estrategias: ['Ready for Battle: The Bell of Souls Tower', 'Ready', 'Ready for Battle']
+  > Probando query: 'Ready for Battle: The Bell of Souls Tower'
+    Encontrados 0 resultados.
+  > Probando query: 'Ready for Battle'
+    Encontrados 1 resultados.
+    - Candidato: [22434] Teenage Mutant Ninja Turtles: Ready for Battle Game (Conf: 37.5%, Score: 40.0)
+  > Probando query: 'Ready'
+    Encontrados 192 resultados.
+    - Candidato: [45823] 3, 2, 1 ... ready or not! (Conf: 12.5%, Score: 34.5)
+    - Candidato: [200210] Are You Ready For The 4th Grade? (Conf: 37.5%, Score: 42.3)
+    - Candidato: [458868] CMYKレディ (CMYK Ready) (Conf: 12.5%, Score: 18.2)
+    - Candidato: [270449] Dice, Ready, Word (Conf: 12.5%, Score: 29.1)
+    - Candidato: [192381] Dinner's Ready! (Conf: 12.5%, Score: 18.5)
+    - Candidato: [67493] Disney Princess Ready, Dress, Go! (Conf: 12.5%, Score: 34.3)
+    - Candidato: [380646] Disney Sorcerer's Arena: Epic Alliances – At the Ready (Conf: 25.0%, Score: 11.0)
+    - Candidato: [461185] Educated Guess: Get Ready to Question Everything (Conf: 12.5%, Score: 23.0)
+    - Candidato: [5194] Fire When Ready (Conf: 12.5%, Score: 18.2)
+    - Candidato: [311208] Fire When Ready (Conf: 12.5%, Score: 18.2)
+    - Candidato: [173090] The Game: Are you ready to play The Game? (Conf: 25.0%, Score: 38.0)
+    - Candidato: [182453] The Game: Are You Ready to Play? (Conf: 25.0%, Score: 22.9)
+    - Candidato: [9584] Get Ready for Shabbos (Conf: 25.0%, Score: 45.9)
+    - Candidato: [10070] Get Ready, Get Set, Good Shabbos! (Conf: 12.5%, Score: 34.3)
+    - Candidato: [224715] Goblins: Ready Set Destroy (Conf: 12.5%, Score: 21.5)
+    - Candidato: [93376] I SPY Ready to Read Game (Conf: 12.5%, Score: 28.1)
+    - Candidato: [41315] I Spy Ready, Set, Silhouette (Conf: 12.5%, Score: 30.3)
+    - Candidato: [341441] Jim Henson's Labyrinth: Ready, Steady, Worm! (Conf: 12.5%, Score: 20.0)
+    - Candidato: [367987] Jumanji: Ready to Roll (Conf: 12.5%, Score: 32.8)
+    - Candidato: [130816] Knights of Ten: Battle Ready (Conf: 37.5%, Score: 29.9)
+    - Candidato: [64238] Race Ready (Conf: 12.5%, Score: 20.0)
+    - Candidato: [92853] Racers Ready (Conf: 12.5%, Score: 19.2)
+    - Candidato: [338693] Ready 2 Help (Conf: 12.5%, Score: 38.5)
+    - Candidato: [36448] Ready Aim Fire (Conf: 12.5%, Score: 33.3)
+    - Candidato: [196826] Ready Check: Guild Smashers (Conf: 12.5%, Score: 45.5)
+GANADOR: ID 200210 con 37.5% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Inside Ze Cube - Vicious0 : Brun' ---
+Estrategias: ['Inside Ze Cube - Vicious0 : Brun', 'Inside Ze Cube', 'Inside', 'Inside Ze Cube - Vicious0']
+  > Probando query: 'Inside Ze Cube - Vicious0 : Brun'
+    Encontrados 0 resultados.
+  > Probando query: 'Inside Ze Cube - Vicious0'
+    Encontrados 0 resultados.
+  > Probando query: 'Inside Ze Cube'
+    Encontrados 0 resultados.
+  > Probando query: 'Inside'
+    Encontrados 197 resultados.
+    - Candidato: [127059] Adventure 8: The Horror Inside the Ancient Halls of Sunca (fan expansion for HeroQuest) (Conf: 20.0%, Score: 26.8)
+    - Candidato: [37304] Arnold Palmer's Inside Golf (Conf: 20.0%, Score: 29.1)
+    - Candidato: [38660] Arnold Palmer's Inside Golf Course (Conf: 20.0%, Score: 38.7)
+    - Candidato: [218479] Cerebria: The Inside World (Conf: 20.0%, Score: 34.0)
+    - Candidato: [259988] Cerebria: The Inside World – Forces of Balance (Conf: 20.0%, Score: 36.6)
+    - Candidato: [236781] Cerebria: The Inside World – Origin Box (Conf: 20.0%, Score: 37.5)
+    - Candidato: [332703] Contraband Insider (Conf: 20.0%, Score: 30.4)
+    - Candidato: [296965] D-Day Dice (Second Edition): Inside The Bunker (Conf: 20.0%, Score: 33.8)
+    - Candidato: [393931] Dead Inside: Zombie Survival Card Game (Conf: 20.0%, Score: 46.2)
+    - Candidato: [375423] Dungeon Drop: Tavern Tales – Talk of the Tavern and Inside out Dungeon Scenario (Conf: 20.0%, Score: 25.0)
+    - Candidato: [447481] The Game of Emotions: From the Movie Disney/Pixar Inside Out 2 (Conf: 20.0%, Score: 22.5)
+    - Candidato: [333954] The Game of Life: Disney Pixar Inside Out (Conf: 20.0%, Score: 26.5)
+    - Candidato: [398161] Hero Realms: Parsons the Insider Promo Card (Conf: 20.0%, Score: 28.6)
+    - Candidato: [33426] Hostile Takeover: The Game of Wealth, Power and Insider Trading (Conf: 20.0%, Score: 20.2)
+    - Candidato: [455251] Inking Inside the Box (Conf: 20.0%, Score: 44.9)
+    - Candidato: [30179] Inside (Conf: 20.0%, Score: 35.3)
+    - Candidato: [259974] Inside (Conf: 20.0%, Score: 35.3)
+    - Candidato: [67995] Inside 14001 (Conf: 20.0%, Score: 40.0)
+    - Candidato: [30937] Inside Blitz Football (Conf: 20.0%, Score: 40.8)
+    - Candidato: [132712] Inside Golf (Conf: 20.0%, Score: 41.0)
+    - Candidato: [459504] Inside House (Conf: 20.0%, Score: 50.0)
+    - Candidato: [67992] Inside ISO 9001 (Conf: 20.0%, Score: 41.9)
+    - Candidato: [324914] Inside Job (Conf: 20.0%, Score: 42.1)
+    - Candidato: [280483] Inside Man (Conf: 20.0%, Score: 42.1)
+    - Candidato: [465432] Inside Me (Conf: 20.0%, Score: 43.2)
+GANADOR: ID 459504 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bolo ou Carbo' ---
+Estrategias: ['Bolo', 'Bolo ou Carbo']
+  > Probando query: 'Bolo ou Carbo'
+    Encontrados 0 resultados.
+  > Probando query: 'Bolo'
+    Encontrados 21 resultados.
+    - Candidato: [321207] Best 11 Board Game: Bologna FC (Conf: 0.0%, Score: 28.6)
+    - Candidato: [457615] Bolo Souza Leão: O jogo de cartas (Conf: 33.3%, Score: 48.9)
+    - Candidato: [15103] bolo' bolo: Eine Welt ohne Geld (Conf: 33.3%, Score: 33.3)
+    - Candidato: [400177] Boloa (Conf: 33.3%, Score: 55.6)
+    - Candidato: [265850] Bologna 1945 (Conf: 0.0%, Score: 40.0)
+    - Candidato: [185004] Bolognabalogical Science (Conf: 0.0%, Score: 37.8)
+    - Candidato: [61920] Boloko (Conf: 0.0%, Score: 52.6)
+    - Candidato: [131243] Bolonki (Conf: 0.0%, Score: 40.0)
+    - Candidato: [47190] Bolos (Conf: 33.3%, Score: 44.4)
+    - Candidato: [31768] Bolos and Krags: The Philippine American War 1899-1902 (Conf: 33.3%, Score: 27.3)
+    - Candidato: [112711] Bolotudu (Conf: 0.0%, Score: 47.6)
+    - Candidato: [39422] Formula Dé: ITALY SERIES – Bologna Centro (Conf: 0.0%, Score: 31.4)
+    - Candidato: [39421] Formula Dé: ITALY SERIES – Bologna Stadio Dall'Ara (Conf: 0.0%, Score: 30.0)
+    - Candidato: [338678] Taco Chapéu Bolo Prenda Pizza (Conf: 33.3%, Score: 33.3)
+    - Candidato: [39422] Formula Dé: ITALY SERIES – Bologna Centro (Conf: 0.0%, Score: 31.4)
+    - Candidato: [39421] Formula Dé: ITALY SERIES – Bologna Stadio Dall'Ara (Conf: 0.0%, Score: 30.0)
+GANADOR: ID 400177 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kikicri?' ---
+Estrategias: ['Kikicri?', 'Kikicri']
+  > Probando query: 'Kikicri?'
+    Encontrados 0 resultados.
+  > Probando query: 'Kikicri'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pokémon : Lot de 5 MiniPokébox - Chaos Ascendant' ---
+Estrategias: ['Pokémon : Lot de 5 MiniPokébox - Chaos Ascendant', 'Pokémon : Lot  5 MiniPokébox', 'Pokémon : Lot  5 MiniPokébox - Chaos Ascendant', 'Pokémon']
+  > Probando query: 'Pokémon : Lot de 5 MiniPokébox - Chaos Ascendant'
+    Encontrados 0 resultados.
+  > Probando query: 'Pokémon : Lot  5 MiniPokébox - Chaos Ascendant'
+    Encontrados 0 resultados.
+  > Probando query: 'Pokémon : Lot  5 MiniPokébox'
+    Encontrados 0 resultados.
+  > Probando query: 'Pokémon'
+    Encontrados 691 resultados.
+    - Candidato: [423151] Blokus Shuffle: Pokémon Edition (Conf: 16.7%, Score: 28.2)
+    - Candidato: [202564] Cookie Box Pokémon (Conf: 16.7%, Score: 23.7)
+    - Candidato: [271033] Hedbanz: Pokemon X Y (Conf: 16.7%, Score: 33.3)
+    - Candidato: [439091] Monopoly: Pokemon Edition (Conf: 16.7%, Score: 30.8)
+    - Candidato: [5758] Monopoly: Pokémon (Conf: 16.7%, Score: 24.6)
+    - Candidato: [66238] Monopoly: Pokémon Gold and Silver (Conf: 16.7%, Score: 35.6)
+    - Candidato: [215609] Monopoly: Pokémon Johto Edition (Conf: 16.7%, Score: 36.6)
+    - Candidato: [186905] Monopoly: Pokémon Kanto Edition (Conf: 16.7%, Score: 33.8)
+    - Candidato: [188018] Nine Tiles Pokémon Dokoda (Conf: 16.7%, Score: 39.4)
+    - Candidato: [117491] Pokemon Battle Chess (Conf: 16.7%, Score: 49.2)
+    - Candidato: [85575] Pokemon Challenge (Conf: 16.7%, Score: 44.8)
+    - Candidato: [82086] Pokemon Diamond and Pearl Poke Ball Flip Game (Conf: 16.7%, Score: 41.9)
+    - Candidato: [411245] Pokemon Dice Game (Conf: 16.7%, Score: 41.4)
+    - Candidato: [118014] Pokemon of D (Conf: 16.7%, Score: 41.5)
+    - Candidato: [416814] Pokemon Pokemon Board Game Get Battle Adventure (Conf: 16.7%, Score: 47.7)
+    - Candidato: [7688] Pokemon Power Paar (Conf: 16.7%, Score: 47.5)
+    - Candidato: [116372] Pokemon Quick Capture! (Conf: 16.7%, Score: 45.2)
+    - Candidato: [218004] Pokemon Rummy Card Game (Conf: 16.7%, Score: 46.9)
+    - Candidato: [82857] Pokemon Sliders Battle Arcade Game (Conf: 16.7%, Score: 45.3)
+    - Candidato: [424202] Pokemon Spin Fighter (Conf: 16.7%, Score: 39.3)
+    - Candidato: [291749] Pokemon TCG: Blazing Volcano Theme Deck (Conf: 16.7%, Score: 40.5)
+    - Candidato: [452052] Pokemon TCG: Soaring Storm (Conf: 16.7%, Score: 36.4)
+    - Candidato: [291636] Pokemon TCG: Storm Caller Theme Deck (Conf: 16.7%, Score: 39.5)
+    - Candidato: [202396] Pokemon XY Mega Evolution (Conf: 16.7%, Score: 36.4)
+    - Candidato: [355627] Pokémon All Stars Get Everyone & Battle Game (Conf: 16.7%, Score: 33.7)
+GANADOR: ID 117491 con 16.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Eisenhorn - Le Recueil' ---
+Estrategias: ['W40K', 'W40K : Eisenhorn', 'W40K : Eisenhorn -  Recueil', 'W40K : Eisenhorn - Le Recueil']
+  > Probando query: 'W40K : Eisenhorn - Le Recueil'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Eisenhorn -  Recueil'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Eisenhorn'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Evidemment !?' ---
+Estrategias: ['Evidemment !?', 'Evidemment']
+  > Probando query: 'Evidemment !?'
+    Encontrados 0 resultados.
+  > Probando query: 'Evidemment'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Brindlewood Bay - Nephews in Peril' ---
+Estrategias: ['Brindlewood Bay', 'Brindlewood Bay - Nephews in Peril', 'Brindlewood']
+  > Probando query: 'Brindlewood Bay - Nephews in Peril'
+    Encontrados 2 resultados.
+  > Probando query: 'Brindlewood Bay'
+    Encontrados 42 resultados.
+  > Probando query: 'Brindlewood'
+    Encontrados 42 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamstergeddon' ---
+Estrategias: ['Hamstergeddon']
+  > Probando query: 'Hamstergeddon'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Legend of the Five Rings LCG: Justice for Satsume Dynasty Pack' ---
+Estrategias: ['Legend', 'Legend of the Five Rings LCG', 'Legend of the Five Rings LCG: Justice for Satsume Dynasty Pack', 'Legend of the Five Rings LCG: Justice for Satsume Dynasty']
+  > Probando query: 'Legend of the Five Rings LCG: Justice for Satsume Dynasty Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Legend of the Five Rings LCG: Justice for Satsume Dynasty'
+    Encontrados 0 resultados.
+  > Probando query: 'Legend of the Five Rings LCG'
+    Encontrados 0 resultados.
+  > Probando query: 'Legend'
+    ERROR: HTTPSConnectionPool(host='boardgamegeek.com', port=443): Read timed out. (read timeout=15)
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Legend of the Five Rings LCG: Bonds of Blood Dynasty Pack' ---
+Estrategias: ['Legend of the Five Rings LCG: Bonds of Blood Dynasty Pack', 'Legend', 'Legend of the Five Rings LCG', 'Legend of the Five Rings LCG: Bonds of Blood Dynasty']
+  > Probando query: 'Legend of the Five Rings LCG: Bonds of Blood Dynasty Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Legend of the Five Rings LCG: Bonds of Blood Dynasty'
+    Encontrados 0 resultados.
+  > Probando query: 'Legend of the Five Rings LCG'
+    Encontrados 0 resultados.
+  > Probando query: 'Legend'
+    Encontrados 1895 resultados.
+    - Candidato: [259342] Die Legende der Irrlichter (Conf: 11.1%, Score: 28.6)
+    - Candidato: [433610] 2D6 Legendary Dungeon (Conf: 0.0%, Score: 30.6)
+    - Candidato: [162543] +6 Bag O' Munchkin Legends (Conf: 11.1%, Score: 18.7)
+    - Candidato: [313761] 8 Bit Attack: Mythic Legends (Conf: 11.1%, Score: 17.9)
+    - Candidato: [369311] A Nagy Jü legendája: Bajnok promó (Conf: 0.0%, Score: 28.9)
+    - Candidato: [8790] Activity Original Legend (Conf: 11.1%, Score: 16.0)
+    - Candidato: [24997] Advanced Legendary Battles (Conf: 0.0%, Score: 26.0)
+    - Candidato: [441522] The Adventures of Conan: Legend of Cimmeria Solo Mode (Conf: 33.3%, Score: 36.9)
+    - Candidato: [83697] Agricola Das legendäre Forst-Deck (Conf: 0.0%, Score: 31.0)
+    - Candidato: [86457] Agricola: Das legendäre Forst-Deck – Horst der Holzhacker (Conf: 0.0%, Score: 28.6)
+    - Candidato: [132590] Agricola: Das legendäre Forst-Deck – Peruanische Inquisition (Conf: 0.0%, Score: 31.5)
+    - Candidato: [23199] Alias: Legends (Conf: 11.1%, Score: 21.9)
+    - Candidato: [452737] All Time Wrestling: Rumble in Abu Dhabi – Rumble Legends Pack (Conf: 11.1%, Score: 16.5)
+    - Candidato: [127398] Andor legendái (Conf: 11.1%, Score: 21.5)
+    - Candidato: [437974] Andor legendái: Távoli föld (Conf: 11.1%, Score: 31.2)
+    - Candidato: [447474] Andor legendái: Távoli föld – A Mhouri (Conf: 11.1%, Score: 30.2)
+    - Candidato: [136986] Andor: La Légende de Gardétoile (Conf: 11.1%, Score: 32.1)
+    - Candidato: [255682] Andor: Les Légendes Oubliées "Esprits Ancestraux" (Conf: 11.1%, Score: 33.0)
+    - Candidato: [317370] Andor: Les Légendes Oubliées "Âges sombres" (Conf: 11.1%, Score: 30.8)
+    - Candidato: [338853] Animals and Legends Card Game (Conf: 11.1%, Score: 30.0)
+    - Candidato: [380681] Apex Legends: The Board Game (Conf: 22.2%, Score: 41.0)
+    - Candidato: [410265] Apex Legends: The Board Game – Board 1 Expansion (Conf: 22.2%, Score: 39.6)
+    - Candidato: [410267] Apex Legends: The Board Game – Loba Expansion (Conf: 22.2%, Score: 34.4)
+    - Candidato: [410266] Apex Legends: The Board Game – Solo and Co-op Expansion (Conf: 22.2%, Score: 31.1)
+    - Candidato: [410264] Apex Legends: The Board Game – Squad 1 Expansion (Conf: 22.2%, Score: 33.3)
+GANADOR: ID 441522 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gunship: First Strike! - Carriers Expansion' ---
+Estrategias: ['Gunship', 'Gunship: First Strike!', 'Gunship: First Strike! - Carriers Expansion', 'Gunship: First Strike! - Carriers']
+  > Probando query: 'Gunship: First Strike! - Carriers Expansion'
+    Encontrados 0 resultados.
+  > Probando query: 'Gunship: First Strike! - Carriers'
+    Encontrados 0 resultados.
+  > Probando query: 'Gunship: First Strike!'
+    Encontrados 5 resultados.
+    - Candidato: [109215] Gunship: First Strike! (Conf: 75.0%, Score: 81.6)
+    - Candidato: [121529] Gunship: First Strike! X-perimental Weapons (Conf: 75.0%, Score: 71.4)
+    - Candidato: [140062] Gunship: First Strike! – Magna Armor (Conf: 75.0%, Score: 78.7)
+    - Candidato: [121529] Gunship: First Strike! X-perimental Weapons (Conf: 75.0%, Score: 71.4)
+    - Candidato: [140062] Gunship: First Strike! – Magna Armor (Conf: 75.0%, Score: 78.7)
+  > Probando query: 'Gunship'
+    Encontrados 54 resultados.
+    - Candidato: [396241] Defeat the Threat!   THE FIRST GUNSHIP (Conf: 50.0%, Score: 21.9)
+    - Candidato: [401983] Firebirds: Gunship (Conf: 25.0%, Score: 30.4)
+    - Candidato: [14399] Gunship 2000 (Conf: 25.0%, Score: 39.0)
+    - Candidato: [219667] Gunship Crew: A Solitaire Game of Helicopter Gunship Combat in Viet Nam (1965-1973). (Conf: 25.0%, Score: 31.2)
+    - Candidato: [175390] Gunship Platoon: A Solitaire Game of Helicopter Gunship Combat in Vietnam (1965-1973). (Conf: 25.0%, Score: 30.6)
+    - Candidato: [144021] Gunship: Afterburners! (Conf: 25.0%, Score: 57.1)
+    - Candidato: [146635] Gunship: Anti-Fighter Turret Promo (Conf: 25.0%, Score: 45.2)
+    - Candidato: [146649] Gunship: Arsenal! (Conf: 25.0%, Score: 54.5)
+    - Candidato: [121531] Gunship: Asteroids! (Conf: 25.0%, Score: 56.5)
+    - Candidato: [457817] Gunship: Champions! (Conf: 25.0%, Score: 43.5)
+    - Candidato: [121532] Gunship: Crewmates! (Conf: 25.0%, Score: 43.5)
+    - Candidato: [109215] Gunship: First Strike! (Conf: 75.0%, Score: 81.6)
+    - Candidato: [121529] Gunship: First Strike! X-perimental Weapons (Conf: 75.0%, Score: 71.4)
+    - Candidato: [140062] Gunship: First Strike! – Magna Armor (Conf: 75.0%, Score: 78.7)
+    - Candidato: [154757] Gunship: Green and White Carriers (Conf: 50.0%, Score: 65.6)
+    - Candidato: [137559] Gunship: Mk II (Conf: 25.0%, Score: 47.6)
+    - Candidato: [457815] Gunship: Mk II – Ground Attack Version (Conf: 25.0%, Score: 46.9)
+    - Candidato: [143980] Gunship: Tactical Bomber / Fortress (Conf: 25.0%, Score: 45.9)
+    - Candidato: [299243] Star Wars: X-Wing (Second Edition) – HMP Droid Gunship Expansion Pack (Conf: 25.0%, Score: 23.7)
+    - Candidato: [299242] Star Wars: X-Wing (Second Edition) – LAAT/i Gunship Expansion Pack (Conf: 25.0%, Score: 24.4)
+    - Candidato: [223423] Star Wars: X-Wing Miniatures Game – Auzituck Gunship Expansion Pack (Conf: 25.0%, Score: 23.7)
+    - Candidato: [144021] Gunship: Afterburners! (Conf: 25.0%, Score: 57.1)
+    - Candidato: [146635] Gunship: Anti-Fighter Turret Promo (Conf: 25.0%, Score: 45.2)
+    - Candidato: [146649] Gunship: Arsenal! (Conf: 25.0%, Score: 54.5)
+    - Candidato: [121531] Gunship: Asteroids! (Conf: 25.0%, Score: 56.5)
+GANADOR: ID 109215 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Summoner Wars: Tundra Orcs Second Summoner Faction Deck' ---
+Estrategias: ['Summoner Wars: Tundra Orcs Second Summoner Faction Deck', 'Summoner', 'Summoner Wars']
+  > Probando query: 'Summoner Wars: Tundra Orcs Second Summoner Faction Deck'
+    Encontrados 0 resultados.
+  > Probando query: 'Summoner Wars'
+    Encontrados 141 resultados.
+    - Candidato: [58281] Summoner Wars (Conf: 28.6%, Score: 38.8)
+    - Candidato: [332800] Summoner Wars (Second Edition) (Conf: 42.9%, Score: 63.4)
+    - Candidato: [376864] Summoner Wars (Second Edition): Ashia the Silent Promo Card (Conf: 42.9%, Score: 50.9)
+    - Candidato: [374552] Summoner Wars (Second Edition): Blacksaber Promo Card (Conf: 42.9%, Score: 55.8)
+    - Candidato: [355869] Summoner Wars (Second Edition): Brub Promo Card (Conf: 42.9%, Score: 57.1)
+    - Candidato: [423543] Summoner Wars (Second Edition): Chosen Grove Faction Deck (Conf: 71.4%, Score: 70.4)
+    - Candidato: [348354] Summoner Wars (Second Edition): Cloaks Faction Deck (Conf: 71.4%, Score: 70.6)
+    - Candidato: [394895] Summoner Wars (Second Edition): Crimson Order Faction Deck (Conf: 71.4%, Score: 69.7)
+    - Candidato: [403745] Summoner Wars (Second Edition): Deepwood Groaks Faction Deck (Conf: 71.4%, Score: 68.5)
+    - Candidato: [459974] Summoner Wars (Second Edition): Drakesun Rebellion Faction Deck (Conf: 71.4%, Score: 66.7)
+    - Candidato: [361382] Summoner Wars (Second Edition): Eternal Council Faction Deck (Conf: 71.4%, Score: 68.5)
+    - Candidato: [361330] Summoner Wars (Second Edition): Fungal Dwarves Faction Deck (Conf: 71.4%, Score: 67.3)
+    - Candidato: [459975] Summoner Wars (Second Edition): Guild Dwarves Faction Deck (Conf: 71.4%, Score: 67.9)
+    - Candidato: [378470] Summoner Wars (Second Edition): High Elves Faction Deck (Conf: 71.4%, Score: 69.8)
+    - Candidato: [432910] Summoner Wars (Second Edition): Isle Vekkid Faction Deck (Conf: 71.4%, Score: 69.2)
+    - Candidato: [374551] Summoner Wars (Second Edition): Khan Queso Promo Card (Conf: 42.9%, Score: 53.8)
+    - Candidato: [394896] Summoner Wars (Second Edition): Mountain Vargath Faction Deck (Conf: 71.4%, Score: 67.9)
+    - Candidato: [370269] Summoner Wars (Second Edition): Obsidian Dwarves Faction Deck (Conf: 71.4%, Score: 66.1)
+    - Candidato: [423912] Summoner Wars (Second Edition): Red Sun Rising (Conf: 42.9%, Score: 57.7)
+    - Candidato: [370268] Summoner Wars (Second Edition): Sand Goblins Faction Deck (Conf: 71.4%, Score: 66.7)
+    - Candidato: [375413] Summoner Wars (Second Edition): Shadow Elves Faction Deck (Conf: 71.4%, Score: 68.5)
+    - Candidato: [412860] Summoner Wars (Second Edition): Shimmersea Fae Faction Deck (Conf: 71.4%, Score: 70.9)
+    - Candidato: [432911] Summoner Wars (Second Edition): Spectral Conclave Faction Deck (Conf: 71.4%, Score: 67.3)
+    - Candidato: [339263] Summoner Wars (Second Edition): Starter Set (Conf: 42.9%, Score: 59.6)
+    - Candidato: [412861] Summoner Wars (Second Edition): Storm Goblins Faction Deck (Conf: 71.4%, Score: 67.9)
+  > Probando query: 'Summoner'
+    Encontrados 272 resultados.
+    - Candidato: [191660] Age of Summoners (Conf: 14.3%, Score: 34.3)
+    - Candidato: [426344] Aventuria: Summoner of the Elements (Conf: 14.3%, Score: 40.9)
+    - Candidato: [182617] BattleCON: Takeshi Weapon Summoner (Conf: 14.3%, Score: 34.5)
+    - Candidato: [69092] Chezz Tactic Summoner Master (Conf: 14.3%, Score: 46.3)
+    - Candidato: [423389] Demon Summoner (Conf: 14.3%, Score: 35.3)
+    - Candidato: [252544] Dice Summoners (Conf: 14.3%, Score: 29.4)
+    - Candidato: [464218] Dragon Summoners (Conf: 14.3%, Score: 40.0)
+    - Candidato: [150513] Dwarven Miner: Summoner Patron Card (Conf: 14.3%, Score: 45.5)
+    - Candidato: [356370] グレート・サマナー (Great Summoner) (Conf: 14.3%, Score: 35.3)
+    - Candidato: [380337] Llamas Unleased: Llama Summoner Promo Card (Conf: 14.3%, Score: 46.3)
+    - Candidato: [453087] Not Enough Mana: Spellsmiths & Summoners (Conf: 14.3%, Score: 35.2)
+    - Candidato: [255383] Overworld: Summoners (Conf: 14.3%, Score: 43.8)
+    - Candidato: [217385] Pathfinder Adventure Card Game: Class Deck – Summoner (Conf: 28.6%, Score: 38.5)
+    - Candidato: [415128] Piri Piri Summoners (Conf: 14.3%, Score: 32.9)
+    - Candidato: [173959] The Red Dragon Inn: Allies – Zariah the Summoner (Conf: 14.3%, Score: 38.4)
+    - Candidato: [469337] The Rondo of Summoners (Conf: 14.3%, Score: 36.8)
+    - Candidato: [262222] Six Sided Summoner (Conf: 14.3%, Score: 38.9)
+    - Candidato: [381197] Six Sided Summoner (Conf: 14.3%, Score: 38.9)
+    - Candidato: [205798] The Summoner (Conf: 14.3%, Score: 30.3)
+    - Candidato: [345098] Summoner Duel (Conf: 14.3%, Score: 32.8)
+    - Candidato: [33869] Summoner Master (Conf: 14.3%, Score: 40.6)
+    - Candidato: [41144] Summoner Trinity (Conf: 14.3%, Score: 31.4)
+    - Candidato: [58281] Summoner Wars (Conf: 28.6%, Score: 38.8)
+    - Candidato: [332800] Summoner Wars (Second Edition) (Conf: 42.9%, Score: 63.4)
+    - Candidato: [376864] Summoner Wars (Second Edition): Ashia the Silent Promo Card (Conf: 42.9%, Score: 50.9)
+GANADOR: ID 412860 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gunship: First Strike! - Upgrade Decks Expansion' ---
+Estrategias: ['Gunship: First Strike! - Upgrade Decks', 'Gunship: First Strike! - Upgrade Decks Expansion', 'Gunship: First Strike!', 'Gunship']
+  > Probando query: 'Gunship: First Strike! - Upgrade Decks Expansion'
+    Encontrados 0 resultados.
+  > Probando query: 'Gunship: First Strike! - Upgrade Decks'
+    Encontrados 0 resultados.
+  > Probando query: 'Gunship: First Strike!'
+    Encontrados 5 resultados.
+    - Candidato: [109215] Gunship: First Strike! (Conf: 60.0%, Score: 74.1)
+    - Candidato: [121529] Gunship: First Strike! X-perimental Weapons (Conf: 60.0%, Score: 69.3)
+    - Candidato: [140062] Gunship: First Strike! – Magna Armor (Conf: 60.0%, Score: 69.7)
+    - Candidato: [121529] Gunship: First Strike! X-perimental Weapons (Conf: 60.0%, Score: 69.3)
+    - Candidato: [140062] Gunship: First Strike! – Magna Armor (Conf: 60.0%, Score: 69.7)
+  > Probando query: 'Gunship'
+    Encontrados 54 resultados.
+    - Candidato: [396241] Defeat the Threat!   THE FIRST GUNSHIP (Conf: 40.0%, Score: 20.3)
+    - Candidato: [401983] Firebirds: Gunship (Conf: 20.0%, Score: 27.5)
+    - Candidato: [14399] Gunship 2000 (Conf: 20.0%, Score: 34.8)
+    - Candidato: [219667] Gunship Crew: A Solitaire Game of Helicopter Gunship Combat in Viet Nam (1965-1973). (Conf: 20.0%, Score: 29.8)
+    - Candidato: [175390] Gunship Platoon: A Solitaire Game of Helicopter Gunship Combat in Vietnam (1965-1973). (Conf: 20.0%, Score: 27.6)
+    - Candidato: [144021] Gunship: Afterburners! (Conf: 20.0%, Score: 40.7)
+    - Candidato: [146635] Gunship: Anti-Fighter Turret Promo (Conf: 20.0%, Score: 41.8)
+    - Candidato: [146649] Gunship: Arsenal! (Conf: 20.0%, Score: 49.0)
+    - Candidato: [121531] Gunship: Asteroids! (Conf: 20.0%, Score: 43.1)
+    - Candidato: [457817] Gunship: Champions! (Conf: 20.0%, Score: 39.2)
+    - Candidato: [121532] Gunship: Crewmates! (Conf: 20.0%, Score: 39.2)
+    - Candidato: [109215] Gunship: First Strike! (Conf: 60.0%, Score: 74.1)
+    - Candidato: [121529] Gunship: First Strike! X-perimental Weapons (Conf: 60.0%, Score: 69.3)
+    - Candidato: [140062] Gunship: First Strike! – Magna Armor (Conf: 60.0%, Score: 69.7)
+    - Candidato: [154757] Gunship: Green and White Carriers (Conf: 20.0%, Score: 33.3)
+    - Candidato: [137559] Gunship: Mk II (Conf: 20.0%, Score: 42.6)
+    - Candidato: [457815] Gunship: Mk II – Ground Attack Version (Conf: 20.0%, Score: 34.8)
+    - Candidato: [143980] Gunship: Tactical Bomber / Fortress (Conf: 20.0%, Score: 42.4)
+    - Candidato: [299243] Star Wars: X-Wing (Second Edition) – HMP Droid Gunship Expansion Pack (Conf: 20.0%, Score: 28.6)
+    - Candidato: [299242] Star Wars: X-Wing (Second Edition) – LAAT/i Gunship Expansion Pack (Conf: 20.0%, Score: 29.5)
+    - Candidato: [223423] Star Wars: X-Wing Miniatures Game – Auzituck Gunship Expansion Pack (Conf: 20.0%, Score: 28.6)
+    - Candidato: [144021] Gunship: Afterburners! (Conf: 20.0%, Score: 40.7)
+    - Candidato: [146635] Gunship: Anti-Fighter Turret Promo (Conf: 20.0%, Score: 41.8)
+    - Candidato: [146649] Gunship: Arsenal! (Conf: 20.0%, Score: 49.0)
+    - Candidato: [121531] Gunship: Asteroids! (Conf: 20.0%, Score: 43.1)
+GANADOR: ID 109215 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'XenoShyft: Onslaught - Premium Folding Lane Boards' ---
+Estrategias: ['XenoShyft: Onslaught - Premium Folding Lane Boards', 'XenoShyft: Onslaught', 'XenoShyft']
+  > Probando query: 'XenoShyft: Onslaught - Premium Folding Lane Boards'
+    Encontrados 0 resultados.
+  > Probando query: 'XenoShyft: Onslaught'
+    Encontrados 13 resultados.
+    - Candidato: [159109] XenoShyft: Onslaught (Conf: 33.3%, Score: 57.6)
+    - Candidato: [177526] XenoShyft: Onslaught – 6-Player Add-On (Conf: 33.3%, Score: 58.5)
+    - Candidato: [191054] XenoShyft: Onslaught – Game Night Kit #1 (Conf: 33.3%, Score: 55.4)
+    - Candidato: [183860] XenoShyft: Onslaught – Hive Expansion (Conf: 33.3%, Score: 59.3)
+    - Candidato: [181324] XenoShyft: Onslaught – Jin Khan (Conf: 33.3%, Score: 66.7)
+    - Candidato: [177527] XenoShyft: Onslaught – Kickstarter Exclusive Card Packs (Conf: 33.3%, Score: 58.6)
+    - Candidato: [177525] XenoShyft: Onslaught – R.O.D. "Ravage Or Detonate" (Conf: 33.3%, Score: 63.7)
+    - Candidato: [177526] XenoShyft: Onslaught – 6-Player Add-On (Conf: 33.3%, Score: 58.5)
+    - Candidato: [191054] XenoShyft: Onslaught – Game Night Kit #1 (Conf: 33.3%, Score: 55.4)
+    - Candidato: [183860] XenoShyft: Onslaught – Hive Expansion (Conf: 33.3%, Score: 59.3)
+    - Candidato: [181324] XenoShyft: Onslaught – Jin Khan (Conf: 33.3%, Score: 66.7)
+    - Candidato: [177527] XenoShyft: Onslaught – Kickstarter Exclusive Card Packs (Conf: 33.3%, Score: 58.6)
+    - Candidato: [177525] XenoShyft: Onslaught – R.O.D. "Ravage Or Detonate" (Conf: 33.3%, Score: 63.7)
+  > Probando query: 'XenoShyft'
+    Encontrados 31 resultados.
+    - Candidato: [189660] XenoShyft: Dreadmire (Conf: 16.7%, Score: 45.5)
+    - Candidato: [217904] XenoShyft: Dreadmire – Brood Expansion (Conf: 16.7%, Score: 48.8)
+    - Candidato: [217905] XenoShyft: Dreadmire – Kickstarter Card Pack (Conf: 16.7%, Score: 43.2)
+    - Candidato: [297491] XenoShyft: Dreadmire – NorTec Elite (Conf: 16.7%, Score: 45.6)
+    - Candidato: [217458] XenoShyft: Forbidden Sciences (Conf: 16.7%, Score: 45.3)
+    - Candidato: [166506] XenoShyft: Grafting Lab Expansion (Conf: 16.7%, Score: 50.6)
+    - Candidato: [192356] XenoShyft: Immolation (Conf: 16.7%, Score: 35.8)
+    - Candidato: [199740] XenoShyft: Oathkeeper Promo Card (Conf: 16.7%, Score: 53.8)
+    - Candidato: [159109] XenoShyft: Onslaught (Conf: 33.3%, Score: 57.6)
+    - Candidato: [177526] XenoShyft: Onslaught – 6-Player Add-On (Conf: 33.3%, Score: 58.5)
+    - Candidato: [191054] XenoShyft: Onslaught – Game Night Kit #1 (Conf: 33.3%, Score: 55.4)
+    - Candidato: [183860] XenoShyft: Onslaught – Hive Expansion (Conf: 33.3%, Score: 59.3)
+    - Candidato: [181324] XenoShyft: Onslaught – Jin Khan (Conf: 33.3%, Score: 66.7)
+    - Candidato: [177527] XenoShyft: Onslaught – Kickstarter Exclusive Card Packs (Conf: 33.3%, Score: 58.6)
+    - Candidato: [177525] XenoShyft: Onslaught – R.O.D. "Ravage Or Detonate" (Conf: 33.3%, Score: 63.7)
+    - Candidato: [166507] XenoShyft: Psychogenics Lab Expansion (Conf: 16.7%, Score: 43.4)
+    - Candidato: [217904] XenoShyft: Dreadmire – Brood Expansion (Conf: 16.7%, Score: 48.8)
+    - Candidato: [217905] XenoShyft: Dreadmire – Kickstarter Card Pack (Conf: 16.7%, Score: 43.2)
+    - Candidato: [297491] XenoShyft: Dreadmire – NorTec Elite (Conf: 16.7%, Score: 45.6)
+    - Candidato: [217458] XenoShyft: Forbidden Sciences (Conf: 16.7%, Score: 45.3)
+    - Candidato: [166506] XenoShyft: Grafting Lab Expansion (Conf: 16.7%, Score: 50.6)
+    - Candidato: [192356] XenoShyft: Immolation (Conf: 16.7%, Score: 35.8)
+    - Candidato: [199740] XenoShyft: Oathkeeper Promo Card (Conf: 16.7%, Score: 53.8)
+    - Candidato: [177526] XenoShyft: Onslaught – 6-Player Add-On (Conf: 33.3%, Score: 58.5)
+    - Candidato: [191054] XenoShyft: Onslaught – Game Night Kit #1 (Conf: 33.3%, Score: 55.4)
+GANADOR: ID 181324 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Littoral Commander first second print' ---
+Estrategias: ['Littoral Commander first second print', 'Littoral']
+  > Probando query: 'Littoral Commander first second print'
+    Encontrados 0 resultados.
+  > Probando query: 'Littoral'
+    Encontrados 7 resultados.
+    - Candidato: [322308] L' Apéro Jeu du Littoral (Conf: 20.0%, Score: 26.7)
+    - Candidato: [406660] Littoral (Conf: 20.0%, Score: 35.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+    - Candidato: [355516] Littoral Commander: Indo-Pacific (Conf: 40.0%, Score: 64.7)
+    - Candidato: [389099] Littoral Commander: The Baltic (Conf: 40.0%, Score: 63.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+GANADOR: ID 460369 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Compile Unidad Auxiliar 02' ---
+Estrategias: ['Compile Unidad Auxiliar 02', 'Compile']
+  > Probando query: 'Compile Unidad Auxiliar 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Compile'
+    Encontrados 27 resultados.
+    - Candidato: [361235] Compile (Conf: 25.0%, Score: 42.4)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [406652] Compile: Main 1 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [440606] Compile: Main 2 (Conf: 25.0%, Score: 55.0)
+    - Candidato: [469090] Compile: Main 3 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [238016] Complex Atomic Compilers (Conf: 25.0%, Score: 32.0)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+GANADOR: ID 440921 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Wooden Mountain' ---
+Estrategias: ['Silverfrost Wooden Mountain', 'Silverfrost']
+  > Probando query: 'Silverfrost Wooden Mountain'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 33.3%, Score: 46.8)
+GANADOR: ID 436821 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Resource Vessels Upgrade' ---
+Estrategias: ['Silverfrost', 'Silverfrost Resource Vessels Upgrade']
+  > Probando query: 'Silverfrost Resource Vessels Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 25.0%, Score: 39.3)
+GANADOR: ID 436821 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Everdell Essentials Upgrade' ---
+Estrategias: ['Silverfrost Everdell Essentials Upgrade', 'Silverfrost']
+  > Probando query: 'Silverfrost Everdell Essentials Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 50.0%, Score: 37.3)
+GANADOR: ID 436821 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Lobos Solitarios' ---
+Estrategias: ['Lobos Solitarios', 'Lobos']
+  > Probando query: 'Lobos Solitarios'
+    Encontrados 0 resultados.
+  > Probando query: 'Lobos'
+    Encontrados 18 resultados.
+    - Candidato: [8109] The Battle of Lobositz (Conf: 0.0%, Score: 36.8)
+    - Candidato: [113252] Battle of Lobositz, October 1, 1756 (Conf: 0.0%, Score: 32.7)
+    - Candidato: [41301] Dados Lobos (Conf: 50.0%, Score: 37.0)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [368058] Lobos (Conf: 50.0%, Score: 47.6)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+    - Candidato: [17536] Lobositz: First Battle of the Seven Years War (Conf: 0.0%, Score: 33.3)
+    - Candidato: [364904] Mystery Party in the Box: El cuento de los lobos Crepusculares (Conf: 50.0%, Score: 28.6)
+    - Candidato: [311912] Sombra de Lobos (Conf: 50.0%, Score: 32.3)
+    - Candidato: [219100] Uboot: Lobos de la Kriegsmarine (Conf: 50.0%, Score: 43.5)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+GANADOR: ID 368058 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flores Escarchadas' ---
+Estrategias: ['Flores Escarchadas', 'Flores']
+  > Probando query: 'Flores Escarchadas'
+    Encontrados 0 resultados.
+  > Probando query: 'Flores'
+    Encontrados 29 resultados.
+    - Candidato: [450300] 50 flores (Conf: 50.0%, Score: 44.4)
+    - Candidato: [347421] Las Abejas: Flores Color Miel (Conf: 50.0%, Score: 34.8)
+    - Candidato: [374720] Disney Princess: Floresta Encantada (Conf: 50.0%, Score: 50.0)
+    - Candidato: [257614] Esy Floresy (Conf: 50.0%, Score: 41.4)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [295944] EXIT: O Jogo – A Floresta Encantada (Conf: 50.0%, Score: 52.0)
+    - Candidato: [346205] Exploradores da Floresta (Conf: 50.0%, Score: 33.3)
+    - Candidato: [433521] Festival da Floresta (Conf: 50.0%, Score: 36.8)
+    - Candidato: [137476] Las flores de colores de Laura (Conf: 50.0%, Score: 50.0)
+    - Candidato: [401501] Floresta (Conf: 50.0%, Score: 53.8)
+    - Candidato: [13904] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [333386] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [204592] A Floresta Misteriosa (Conf: 50.0%, Score: 51.3)
+    - Candidato: [36363] Formando Flores (Conf: 50.0%, Score: 36.4)
+    - Candidato: [189603] El hada de las flores (Conf: 50.0%, Score: 30.8)
+    - Candidato: [36567] Jardin de flores (Conf: 50.0%, Score: 35.3)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+    - Candidato: [38750] El Parchís de las Flores (Conf: 50.0%, Score: 28.6)
+    - Candidato: [102875] O Senhor dos Anéis: Card Game – Retorno à Floresta das Trevas (Conf: 50.0%, Score: 26.3)
+    - Candidato: [339533] Tussie Mussie: Flores Naranjas (Conf: 50.0%, Score: 51.1)
+    - Candidato: [391163] Vida na Floresta (Conf: 50.0%, Score: 41.2)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+GANADOR: ID 333386 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Decrypto Transmisión Segura' ---
+Estrategias: ['Decrypto', 'Decrypto Transmisión Segura']
+  > Probando query: 'Decrypto Transmisión Segura'
+    Encontrados 0 resultados.
+  > Probando query: 'Decrypto'
+    Encontrados 10 resultados.
+    - Candidato: [65952] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [225694] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+GANADOR: ID 273938 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Balsa Salvaje' ---
+Estrategias: ['Balsa Salvaje', 'Balsa']
+  > Probando query: 'Balsa Salvaje'
+    Encontrados 0 resultados.
+  > Probando query: 'Balsa'
+    Encontrados 3 resultados.
+    - Candidato: [418273] La Balsa (Conf: 50.0%, Score: 47.6)
+GANADOR: ID 418273 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Vástagos sangre Arkham Horror 2026' ---
+Estrategias: ['Vástagos sangre Arkham Horror 2026', 'Vástagos']
+  > Probando query: 'Vástagos sangre Arkham Horror 2026'
+    Encontrados 0 resultados.
+  > Probando query: 'Vástagos'
+    Encontrados 4 resultados.
+    - Candidato: [299800] Escape Tales: Vástagos de Wyrmwood (Conf: 20.0%, Score: 44.8)
+GANADOR: ID 299800 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['No temeré ningún mal Marvel Champions', 'temeré']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    Encontrados 0 resultados.
+  > Probando query: 'temeré'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rukus' ---
+Estrategias: ['Rukus']
+  > Probando query: 'Rukus'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ["GCSE - The GC's Secondary Education Game", "GCSE - The GC's Secondary Education", 'GCSE']
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs Pizza Thief', 'Fuzzballs']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'TMI' ---
+Estrategias: ['TMI']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Uncoated' ---
+Estrategias: ['Uncoated']
+  > Probando query: 'Uncoated'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Concordia - DUPLICATE PENDING DELETION' ---
+Estrategias: ['Concordia', 'Concordia - DUPLICATE PENDING DELETION']
+  > Probando query: 'Concordia - DUPLICATE PENDING DELETION'
+    Encontrados 0 resultados.
+  > Probando query: 'Concordia'
+    Encontrados 29 resultados.
+    - Candidato: [124361] Concordia (Conf: 25.0%, Score: 40.0)
+    - Candidato: [256916] Concordia Venus (Conf: 25.0%, Score: 47.1)
+    - Candidato: [283362] Concordia Venus: Balearica / Italia (Conf: 25.0%, Score: 50.0)
+    - Candidato: [209574] Concordia: 8 Forum Cards mini-expansion (Conf: 25.0%, Score: 56.8)
+    - Candidato: [232917] Concordia: Aegyptus / Creta (Conf: 25.0%, Score: 46.7)
+    - Candidato: [283177] Concordia: Balearica / Cyprus (Conf: 25.0%, Score: 51.6)
+    - Candidato: [165023] Concordia: Britannia / Germania (Conf: 25.0%, Score: 46.9)
+    - Candidato: [208364] Concordia: Gallia / Corsica (Conf: 25.0%, Score: 46.7)
+    - Candidato: [469672] Concordia: Mare Nostrum (Conf: 25.0%, Score: 51.7)
+    - Candidato: [380917] Concordia: Roma / Sicilia (Conf: 25.0%, Score: 44.8)
+    - Candidato: [181084] Concordia: Salsa (Conf: 25.0%, Score: 47.1)
+    - Candidato: [325490] Concordia: Solitaria (Conf: 25.0%, Score: 50.9)
+    - Candidato: [465819] Concordia: Special Edition (Conf: 25.0%, Score: 59.0)
+    - Candidato: [262711] Concordia: Venus (Expansion) (Conf: 25.0%, Score: 52.5)
+    - Candidato: [283362] Concordia Venus: Balearica / Italia (Conf: 25.0%, Score: 50.0)
+    - Candidato: [209574] Concordia: 8 Forum Cards mini-expansion (Conf: 25.0%, Score: 56.8)
+    - Candidato: [232917] Concordia: Aegyptus / Creta (Conf: 25.0%, Score: 46.7)
+    - Candidato: [283177] Concordia: Balearica / Cyprus (Conf: 25.0%, Score: 51.6)
+    - Candidato: [165023] Concordia: Britannia / Germania (Conf: 25.0%, Score: 46.9)
+    - Candidato: [208364] Concordia: Gallia / Corsica (Conf: 25.0%, Score: 46.7)
+    - Candidato: [469672] Concordia: Mare Nostrum (Conf: 25.0%, Score: 51.7)
+    - Candidato: [380917] Concordia: Roma / Sicilia (Conf: 25.0%, Score: 44.8)
+    - Candidato: [181084] Concordia: Salsa (Conf: 25.0%, Score: 47.1)
+    - Candidato: [325490] Concordia: Solitaria (Conf: 25.0%, Score: 50.9)
+    - Candidato: [262711] Concordia: Venus (Expansion) (Conf: 25.0%, Score: 52.5)
+GANADOR: ID 465819 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Menstruation Crustacean Lobster Heating Pad' ---
+Estrategias: ['Menstruation', 'Menstruation Crustacean Lobster Heating Pad']
+  > Probando query: 'Menstruation Crustacean Lobster Heating Pad'
+    Encontrados 0 resultados.
+  > Probando query: 'Menstruation'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Muffin Time - 2021 Edition (Inc. Both Expansions)' ---
+Estrategias: ['Muffin Time - 2021 Edition (Inc. Both Expansions)', 'Muffin Time', 'Muffin Time - 2021', 'Muffin']
+  > Probando query: 'Muffin Time - 2021 Edition (Inc. Both Expansions)'
+    Encontrados 0 resultados.
+  > Probando query: 'Muffin Time - 2021'
+    Encontrados 0 resultados.
+  > Probando query: 'Muffin Time'
+    Encontrados 8 resultados.
+    - Candidato: [286735] Muffin Time (Conf: 66.7%, Score: 81.5)
+    - Candidato: [345027] Muffin Time: Deluxe Edition (Conf: 66.7%, Score: 57.1)
+    - Candidato: [317615] Muffin Time: Kickstarter Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313909] Muffin Time: Pie Flavour Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313908] Muffin Time: Rainbow Pack (Conf: 66.7%, Score: 60.0)
+    - Candidato: [317615] Muffin Time: Kickstarter Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313909] Muffin Time: Pie Flavour Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313908] Muffin Time: Rainbow Pack (Conf: 66.7%, Score: 60.0)
+  > Probando query: 'Muffin'
+    Encontrados 24 resultados.
+    - Candidato: [101332] Hello Kitty Muffinsspelet (Conf: 0.0%, Score: 34.1)
+    - Candidato: [371331] Just Desserts: Zucchini Muffin Promo (Conf: 33.3%, Score: 31.4)
+    - Candidato: [374673] Milly Muffin (Conf: 33.3%, Score: 42.9)
+    - Candidato: [299870] Mini Muffin Match Up (Conf: 33.3%, Score: 50.0)
+    - Candidato: [31788] Muffin (Conf: 33.3%, Score: 54.5)
+    - Candidato: [164391] Muffin Games (Conf: 33.3%, Score: 64.3)
+    - Candidato: [282676] Muffin Mythos (Conf: 33.3%, Score: 55.2)
+    - Candidato: [286735] Muffin Time (Conf: 66.7%, Score: 81.5)
+    - Candidato: [345027] Muffin Time: Deluxe Edition (Conf: 66.7%, Score: 57.1)
+    - Candidato: [317615] Muffin Time: Kickstarter Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313909] Muffin Time: Pie Flavour Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313908] Muffin Time: Rainbow Pack (Conf: 66.7%, Score: 60.0)
+    - Candidato: [462701] Muffin's Kitchen (Conf: 33.3%, Score: 56.2)
+    - Candidato: [407187] Muffin's Magical Kingdom (Conf: 33.3%, Score: 45.0)
+    - Candidato: [220359] Muffinki (Conf: 33.3%, Score: 58.3)
+    - Candidato: [282443] Muffins Among Us (Conf: 33.3%, Score: 56.2)
+    - Candidato: [282674] Muffins Among Us: Food Truck Edition (Conf: 33.3%, Score: 35.3)
+    - Candidato: [19875] Pin the Tail on Muffin (Conf: 33.3%, Score: 31.6)
+    - Candidato: [371331] Just Desserts: Zucchini Muffin Promo (Conf: 33.3%, Score: 31.4)
+    - Candidato: [317615] Muffin Time: Kickstarter Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313909] Muffin Time: Pie Flavour Pack (Conf: 66.7%, Score: 54.5)
+    - Candidato: [313908] Muffin Time: Rainbow Pack (Conf: 66.7%, Score: 60.0)
+GANADOR: ID 286735 con 66.7% confianza.
+--------------------------------------------------

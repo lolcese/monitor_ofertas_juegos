@@ -12374,3 +12374,137 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-06-01 20:27:04
+[main 4f2e785] Actualización 2026-06-01 20:27:04
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 108 files changed, 2732 insertions(+), 6 deletions(-)
+ create mode 100644 assets/images/aachen__first_to_fall.jpg
+ create mode 100644 assets/images/arnhem_the_farthest_bridge.jpg
+ create mode 100644 assets/images/arsuf__lionheart_vs__saladin.jpg
+ create mode 100644 assets/images/asl_winter_offensive_2026_bonus_17.jpg
+ create mode 100644 assets/images/ato_53_rome__inc_.jpg
+ create mode 100644 assets/images/battle_of_the_scheldt__the_devil_s_moat.jpg
+ create mode 100644 assets/images/cthulhu_death_may_die.jpg
+ create mode 100644 assets/images/custer_s_final_campaign.jpg
+ create mode 100644 assets/images/dragon_eclipse_stretch_goals.jpg
+ create mode 100644 assets/images/dragon_eclipse_untamed_arena.jpg
+ create mode 100644 assets/images/finspan.jpg
+ create mode 100644 assets/images/goose_green__bagged_.jpg
+ create mode 100644 assets/images/hero_realms.jpg
+ create mode 100644 assets/images/hero_realms_perdici_n_thandar.jpg
+ create mode 100644 assets/images/iwo__bloodbath_in_the_bonins.jpg
+ create mode 100644 assets/images/lebanon_82__operation_peace_for_galilee.jpg
+ create mode 100644 assets/images/littoral_commander_second.jpg
+ create mode 100644 assets/images/long_range_desert_group__special_operations_against_rommel.jpg
+ create mode 100644 assets/images/meuse_argonne.jpg
+ create mode 100644 assets/images/mortain_counterattack__the_drive_to_avranches.jpg
+ create mode 100644 assets/images/navegantes_catan.jpg
+ create mode 100644 assets/images/paper_wars_109_baltic_freikorps_1919.jpg
+ create mode 100644 assets/images/paper_wars_110_red_partisans.jpg
+ create mode 100644 assets/images/pea_ridge__st_louis__then_huzzah.jpg
+ create mode 100644 assets/images/poland_defiant.jpg
+ create mode 100644 assets/images/river_plate___denmark_strait.jpg
+ create mode 100644 assets/images/showdown__the_coming_indo_pakistani_war.jpg
+ create mode 100644 assets/images/silenze.jpg
+ create mode 100644 assets/images/space_empires_replicators__2025_reprint_.jpg
+ create mode 100644 assets/images/strategy___tactics_quarterly_30_mediterranean_campaign_1941_1942.jpg
+ create mode 100644 assets/images/suez_1916__the_ottomans_strike.jpg
+ create mode 100644 assets/images/tannenberg__east_prussia__august_1914.jpg
+ create mode 100644 assets/images/vae_victis_186_bataille_marne_1914.jpg
+ create mode 100644 assets/images/vimy_ridge.jpg
+ create mode 100644 assets/images/yanks_asl_module_3.jpg
+ create mode 100644 public/assets/images/aachen__first_to_fall.jpg
+ create mode 100644 public/assets/images/arnhem_the_farthest_bridge.jpg
+ create mode 100644 public/assets/images/arsuf__lionheart_vs__saladin.jpg
+ create mode 100644 public/assets/images/asl_winter_offensive_2026_bonus_17.jpg
+ create mode 100644 public/assets/images/ato_53_rome__inc_.jpg
+ create mode 100644 public/assets/images/bataille_quatre_bras_zipbag.jpg
+ create mode 100644 public/assets/images/battalion_s3_operations_and_training.jpg
+ create mode 100644 public/assets/images/battle_of_the_scheldt__the_devil_s_moat.jpg
+ create mode 100644 public/assets/images/battles_in_the_east_3_drive_to_sea_and_pomerania.jpg
+ create mode 100644 public/assets/images/battles_in_the_east_4_mius_river_and_vitebsk.jpg
+ create mode 100644 public/assets/images/berlin_fall_of_the_reich_1945.jpg
+ create mode 100644 public/assets/images/beyond_valor_ed_asl_module_1.jpg
+ create mode 100644 public/assets/images/bottle_imp.jpg
+ create mode 100644 public/assets/images/burma_1942_45.jpg
+ create mode 100644 public/assets/images/civoluci_n.jpg
+ create mode 100644 public/assets/images/combat_.jpg
+ create mode 100644 public/assets/images/combat_commander__normandy.jpg
+ create mode 100644 public/assets/images/combat_commander_europe_mediterranean.jpg
+ create mode 100644 public/assets/images/cthulhu_dark_providence.jpg
+ create mode 100644 public/assets/images/cthulhu_death_may_die.jpg
+ create mode 100644 public/assets/images/custer_s_final_campaign.jpg
+ create mode 100644 public/assets/images/dorfromantik.jpg
+ create mode 100644 public/assets/images/dragon_eclipse_stretch_goals.jpg
+ create mode 100644 public/assets/images/dragon_eclipse_untamed_arena.jpg
+ create mode 100644 public/assets/images/el_valle_eternidad.jpg
+ create mode 100644 public/assets/images/finspan.jpg
+ create mode 100644 public/assets/images/goose_green__bagged_.jpg
+ create mode 100644 public/assets/images/hero_realms.jpg
+ create mode 100644 public/assets/images/hero_realms_perdici_n_thandar.jpg
+ create mode 100644 public/assets/images/imperial_elegy.jpg
+ create mode 100644 public/assets/images/iwo__bloodbath_in_the_bonins.jpg
+ create mode 100644 public/assets/images/kremlin.jpg
+ create mode 100644 public/assets/images/lebanon_82__operation_peace_for_galilee.jpg
+ delete mode 100644 public/assets/images/littoral_commander_print.jpg
+ create mode 100644 public/assets/images/littoral_commander_second.jpg
+ create mode 100644 public/assets/images/long_range_desert_group__special_operations_against_rommel.jpg
+ create mode 100644 public/assets/images/manila_savage_streets.jpg
+ create mode 100644 public/assets/images/merrill_s_marauders__commandos_in_burma_1943_1944.jpg
+ create mode 100644 public/assets/images/meuse_argonne.jpg
+ create mode 100644 public/assets/images/modern_tactics_1_afghanistan.jpg
+ create mode 100644 public/assets/images/mortain_counterattack__the_drive_to_avranches.jpg
+ create mode 100644 public/assets/images/navegantes_catan.jpg
+ create mode 100644 public/assets/images/paper_wars_109_baltic_freikorps_1919.jpg
+ create mode 100644 public/assets/images/paper_wars_110_red_partisans.jpg
+ create mode 100644 public/assets/images/paper_wars_111_fire_and_sword.jpg
+ create mode 100644 public/assets/images/pea_ridge__st_louis__then_huzzah.jpg
+ create mode 100644 public/assets/images/pixies_flower_power.jpg
+ create mode 100644 public/assets/images/poland_defiant.jpg
+ create mode 100644 public/assets/images/river_plate___denmark_strait.jpg
+ create mode 100644 public/assets/images/showdown__the_coming_indo_pakistani_war.jpg
+ create mode 100644 public/assets/images/silent_victory.jpg
+ create mode 100644 public/assets/images/silenze.jpg
+ create mode 100644 public/assets/images/smart_10_paquete_ampliaci_n.jpg
+ create mode 100644 public/assets/images/space_empires_replicators__2025_reprint_.jpg
+ create mode 100644 public/assets/images/steel_fury_at_z_moly.jpg
+ create mode 100644 public/assets/images/strategy___tactics_quarterly_30_mediterranean_campaign_1941_1942.jpg
+ create mode 100644 public/assets/images/suez_1916__the_ottomans_strike.jpg
+ create mode 100644 public/assets/images/tannenberg__east_prussia__august_1914.jpg
+ create mode 100644 public/assets/images/task_force_carrier_battles_in_the_pacific.jpg
+ create mode 100644 public/assets/images/the_jaws_of_victory.jpg
+ create mode 100644 public/assets/images/the_mediterranean_struggle_for_europe_vol__3.jpg
+ create mode 100644 public/assets/images/traces_of_victory.jpg
+ create mode 100644 public/assets/images/vae_victis_186_bataille_marne_1914.jpg
+ create mode 100644 public/assets/images/verdun_1916_steel_inferno_reprint.jpg
+ create mode 100644 public/assets/images/vikings_scourge_of_the_north.jpg
+ create mode 100644 public/assets/images/vimy_ridge.jpg
+ create mode 100644 public/assets/images/yanks_asl_module_3.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   d43438e..4f2e785  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== PLANETON CATALOG: INICIO (2026-06-01 20:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Planeton Catálogo Completo ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (20:27:09) ===
