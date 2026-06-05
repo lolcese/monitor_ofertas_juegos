@@ -99462,3 +99462,435 @@ Estrategias: ['Menstruation', 'Menstruation Crustacean Lobster Heating Pad']
     Encontrados 0 resultados.
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Jumo' ---
+Estrategias: ['Jumo']
+  > Probando query: 'Jumo'
+    Encontrados 4 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Eisenhorn - Le Recueil' ---
+Estrategias: ['W40K : Eisenhorn -  Recueil', 'W40K : Eisenhorn - Le Recueil', 'W40K', 'W40K : Eisenhorn']
+  > Probando query: 'W40K : Eisenhorn - Le Recueil'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Eisenhorn -  Recueil'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Eisenhorn'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Evidemment !?' ---
+Estrategias: ['Evidemment', 'Evidemment !?']
+  > Probando query: 'Evidemment !?'
+    Encontrados 0 resultados.
+  > Probando query: 'Evidemment'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Combomino' ---
+Estrategias: ['Combomino']
+  > Probando query: 'Combomino'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamstergeddon' ---
+Estrategias: ['Hamstergeddon']
+  > Probando query: 'Hamstergeddon'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cranium Craze! Card Game' ---
+Estrategias: ['Cranium', 'Cranium Craze! Card Game', 'Cranium Craze! Card']
+  > Probando query: 'Cranium Craze! Card Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Cranium Craze! Card'
+    Encontrados 0 resultados.
+  > Probando query: 'Cranium'
+    Encontrados 78 resultados.
+    - Candidato: [891] Cranium (Conf: 33.3%, Score: 56.0)
+    - Candidato: [379178] Cranium 25th Anniversary Edition (Conf: 33.3%, Score: 48.0)
+    - Candidato: [12876] Cranium Balloon Lagoon (Conf: 33.3%, Score: 55.0)
+    - Candidato: [30208] Cranium Ballpark Blast (Conf: 33.3%, Score: 55.0)
+    - Candidato: [134873] Cranium Bible Edition (Conf: 33.3%, Score: 56.4)
+    - Candidato: [379179] Cranium Big Brain Detective Game (Conf: 33.3%, Score: 52.0)
+    - Candidato: [35563] Cranium Bingo Bunch (Conf: 33.3%, Score: 48.6)
+    - Candidato: [55238] Cranium Bloom: Let's Play Count & Cook Game (Conf: 33.3%, Score: 41.4)
+    - Candidato: [55240] Cranium Bloom: Let's Play Neighborhood Memory Game (Conf: 33.3%, Score: 32.8)
+    - Candidato: [55241] Cranium Bloom: Let's Play Neighborhood Sounds Bingo Game (Conf: 33.3%, Score: 30.1)
+    - Candidato: [55243] Cranium Bloom: Let's Play Sandwich Stacker Cookout Game (Conf: 33.3%, Score: 36.1)
+    - Candidato: [55244] Cranium Bloom: Let's Play Sandwich Stacker Lunchtime Game (Conf: 33.3%, Score: 35.1)
+    - Candidato: [55245] Cranium Bloom: Let's Play Shop & Match Game (Conf: 33.3%, Score: 37.9)
+    - Candidato: [6854] Cranium Booster Box 1 (Conf: 33.3%, Score: 51.3)
+    - Candidato: [9443] Cranium Booster Box 2 (Conf: 33.3%, Score: 51.3)
+    - Candidato: [103402] Cranium Brain Breaks (Conf: 33.3%, Score: 63.2)
+    - Candidato: [17962] Cranium Bumparena (Conf: 33.3%, Score: 57.1)
+    - Candidato: [6420] Cranium Cadoo (Conf: 33.3%, Score: 71.0)
+    - Candidato: [14454] Cranium Cadoo Booster Box (Conf: 33.3%, Score: 51.2)
+    - Candidato: [88608] Cranium Cards (Conf: 66.7%, Score: 77.4)
+    - Candidato: [5718] Cranium Cariboo (Conf: 33.3%, Score: 66.7)
+    - Candidato: [37934] Cranium Cloodle (Conf: 33.3%, Score: 60.6)
+    - Candidato: [8860] Cranium Conga (Conf: 33.3%, Score: 64.5)
+    - Candidato: [6013] Cranium Cosmo (Conf: 33.3%, Score: 58.1)
+    - Candidato: [204069] Cranium Dark (Conf: 33.3%, Score: 66.7)
+GANADOR: ID 88608 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Agemonia: Metal Coins' ---
+Estrategias: ['Agemonia', 'Agemonia: Metal Coins']
+  > Probando query: 'Agemonia: Metal Coins'
+    Encontrados 0 resultados.
+  > Probando query: 'Agemonia'
+    Encontrados 17 resultados.
+    - Candidato: [270871] Agemonia (Conf: 33.3%, Score: 57.1)
+    - Candidato: [377053] Agemonia: Gaming Den Promo Card (Conf: 33.3%, Score: 52.0)
+    - Candidato: [381198] Agemonia: Man Versus Figurine Promo Card (Conf: 33.3%, Score: 44.1)
+    - Candidato: [441082] Agemonia: New Heroes (Conf: 33.3%, Score: 66.7)
+    - Candidato: [441079] Agemonia: New Little Things (Conf: 33.3%, Score: 69.6)
+    - Candidato: [441076] Agemonia: Stronger Enemies (Conf: 33.3%, Score: 53.3)
+    - Candidato: [370861] Agemonia: Talents & Rituals (Conf: 33.3%, Score: 68.2)
+    - Candidato: [455655] Agemonia: The Breach Expansion (Conf: 33.3%, Score: 57.1)
+    - Candidato: [455657] Agemonia: Witches of Durgane (Conf: 33.3%, Score: 51.1)
+    - Candidato: [377053] Agemonia: Gaming Den Promo Card (Conf: 33.3%, Score: 52.0)
+    - Candidato: [381198] Agemonia: Man Versus Figurine Promo Card (Conf: 33.3%, Score: 44.1)
+    - Candidato: [441082] Agemonia: New Heroes (Conf: 33.3%, Score: 66.7)
+    - Candidato: [441079] Agemonia: New Little Things (Conf: 33.3%, Score: 69.6)
+    - Candidato: [441076] Agemonia: Stronger Enemies (Conf: 33.3%, Score: 53.3)
+    - Candidato: [370861] Agemonia: Talents & Rituals (Conf: 33.3%, Score: 68.2)
+    - Candidato: [455655] Agemonia: The Breach Expansion (Conf: 33.3%, Score: 57.1)
+    - Candidato: [455657] Agemonia: Witches of Durgane (Conf: 33.3%, Score: 51.1)
+GANADOR: ID 441079 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Diplomacy: The Golden Blade Card Game' ---
+Estrategias: ['Diplomacy: The Golden Blade Card', 'Diplomacy: The Golden Blade Card Game', 'Diplomacy']
+  > Probando query: 'Diplomacy: The Golden Blade Card Game'
+    Encontrados 0 resultados.
+  > Probando query: 'Diplomacy: The Golden Blade Card'
+    Encontrados 0 resultados.
+  > Probando query: 'Diplomacy'
+    Encontrados 81 resultados.
+    - Candidato: [423194] Beasts and Diplomacy (Conf: 20.0%, Score: 35.3)
+    - Candidato: [467196] Beasts and Diplomacy: The Almanac (Conf: 40.0%, Score: 57.1)
+    - Candidato: [297786] Beatles Diplomacy: Strategic Analysis & Simulation of a Pop Group's Rise to the Top (Conf: 40.0%, Score: 27.0)
+    - Candidato: [250] Colonial Diplomacy (Conf: 20.0%, Score: 36.7)
+    - Candidato: [483] Diplomacy (Conf: 20.0%, Score: 45.0)
+    - Candidato: [54113] Diplomacy Games and Variants (Conf: 20.0%, Score: 54.2)
+    - Candidato: [95273] Diplomacy: 1900 Variant (Conf: 20.0%, Score: 49.1)
+    - Candidato: [9119] Diplomacy: Ard-Ri Variant (Conf: 40.0%, Score: 47.3)
+    - Candidato: [9095] Diplomacy: Classical Variant (Conf: 20.0%, Score: 51.7)
+    - Candidato: [430814] Diplomacy: Era of Empire (Conf: 20.0%, Score: 55.6)
+    - Candidato: [4007] Diplomacy: Federation Variant (Conf: 20.0%, Score: 57.6)
+    - Candidato: [9120] Diplomacy: Hundred Variant (Conf: 20.0%, Score: 53.6)
+    - Candidato: [455903] Diplomacy: The Golden Blade (Conf: 80.0%, Score: 91.2)
+    - Candidato: [341165] Dune: A Game of Conquest and Diplomacy (Conf: 20.0%, Score: 26.5)
+    - Candidato: [133265] Gunboat Diplomacy (Conf: 20.0%, Score: 37.5)
+    - Candidato: [32697] The H. V. Kaltenborn Game of Diplomacy (Conf: 40.0%, Score: 26.9)
+    - Candidato: [29870] Here I Stand: 2-Player Diplomacy Deck (Conf: 20.0%, Score: 38.8)
+    - Candidato: [213749] Imperial Settlers: Diplomacy Promo Tiles (Conf: 20.0%, Score: 34.3)
+    - Candidato: [447464] Modern Diplomacy (Conf: 20.0%, Score: 38.3)
+    - Candidato: [255987] Musket Diplomacy (Conf: 20.0%, Score: 38.3)
+    - Candidato: [23304] "Oh My God! There's An Axe In My Head." The Game of International Diplomacy  (Conf: 40.0%, Score: 17.6)
+    - Candidato: [417174] Revenge: The Diplomacy Sandbox Card Game (Conf: 60.0%, Score: 45.7)
+    - Candidato: [210498] Uruk II: Promokarte Diplomatie/Diplomacy (Conf: 20.0%, Score: 25.7)
+    - Candidato: [444105] Victory by Any Means: The Strategic Game of Interstellar Exploration, Diplomacy, & Conquest (Conf: 40.0%, Score: 18.8)
+    - Candidato: [302191] War Chess: Diplomacy of the Three Kingdoms (Conf: 40.0%, Score: 50.0)
+GANADOR: ID 455903 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'YRO' ---
+Estrategias: ['YRO']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Earth Under Siege: Flashpoint - Sculpted Tokens' ---
+Estrategias: ['Earth Under Siege: Flashpoint', 'Earth', 'Earth Under Siege: Flashpoint - Sculpted Tokens', 'Earth Under Siege', 'Earth Under Siege: Flashpoint - Sculpted']
+  > Probando query: 'Earth Under Siege: Flashpoint - Sculpted Tokens'
+    Encontrados 0 resultados.
+  > Probando query: 'Earth Under Siege: Flashpoint - Sculpted'
+    Encontrados 0 resultados.
+  > Probando query: 'Earth Under Siege: Flashpoint'
+    Encontrados 7 resultados.
+    - Candidato: [337973] Earth Under Siege: Flashpoint (Conf: 80.0%, Score: 86.2)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 80.0%, Score: 74.7)
+    - Candidato: [428067] Earth Under Siege: Flashpoint – Operative Expansion (Conf: 80.0%, Score: 70.6)
+    - Candidato: [428065] Earth Under Siege: Flashpoint – World Killer Expansion (Conf: 80.0%, Score: 68.2)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 80.0%, Score: 74.7)
+    - Candidato: [428067] Earth Under Siege: Flashpoint – Operative Expansion (Conf: 80.0%, Score: 70.6)
+    - Candidato: [428065] Earth Under Siege: Flashpoint – World Killer Expansion (Conf: 80.0%, Score: 68.2)
+  > Probando query: 'Earth Under Siege'
+    Encontrados 9 resultados.
+    - Candidato: [337973] Earth Under Siege: Flashpoint (Conf: 80.0%, Score: 86.2)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 80.0%, Score: 74.7)
+    - Candidato: [428067] Earth Under Siege: Flashpoint – Operative Expansion (Conf: 80.0%, Score: 70.6)
+    - Candidato: [428065] Earth Under Siege: Flashpoint – World Killer Expansion (Conf: 80.0%, Score: 68.2)
+    - Candidato: [469299] Earth Under Siege: Warzone (Conf: 60.0%, Score: 71.0)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 80.0%, Score: 74.7)
+    - Candidato: [428067] Earth Under Siege: Flashpoint – Operative Expansion (Conf: 80.0%, Score: 70.6)
+    - Candidato: [428065] Earth Under Siege: Flashpoint – World Killer Expansion (Conf: 80.0%, Score: 68.2)
+  > Probando query: 'Earth'
+    ERROR: HTTPSConnectionPool(host='boardgamegeek.com', port=443): Read timed out. (read timeout=15)
+GANADOR: ID 337973 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'World's Smallest Games: Barrel of Monkeys' ---
+Estrategias: ["World's Smallest Games: Barrel of Monkeys", 'World', "World's Smallest Games"]
+  > Probando query: 'World's Smallest Games: Barrel of Monkeys'
+    Encontrados 0 resultados.
+  > Probando query: 'World's Smallest Games'
+    Encontrados 0 resultados.
+  > Probando query: 'World'
+    ERROR: HTTPSConnectionPool(host='boardgamegeek.com', port=443): Read timed out. (read timeout=15)
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Realms Deckbuilding Game' ---
+Estrategias: ['Star Realms Deckbuilding', 'Star Realms Deckbuilding Game', 'Star']
+  > Probando query: 'Star Realms Deckbuilding Game'
+    Encontrados 1 resultados.
+  > Probando query: 'Star Realms Deckbuilding'
+    Encontrados 1 resultados.
+  > Probando query: 'Star'
+    ERROR: HTTPSConnectionPool(host='boardgamegeek.com', port=443): Read timed out. (read timeout=15)
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Littoral Commander first second print' ---
+Estrategias: ['Littoral Commander first second print', 'Littoral']
+  > Probando query: 'Littoral Commander first second print'
+    Encontrados 0 resultados.
+  > Probando query: 'Littoral'
+    Encontrados 7 resultados.
+    - Candidato: [322308] L' Apéro Jeu du Littoral (Conf: 20.0%, Score: 26.7)
+    - Candidato: [406660] Littoral (Conf: 20.0%, Score: 35.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+    - Candidato: [355516] Littoral Commander: Indo-Pacific (Conf: 40.0%, Score: 64.7)
+    - Candidato: [389099] Littoral Commander: The Baltic (Conf: 40.0%, Score: 63.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+GANADOR: ID 460369 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Compile Unidad Auxiliar 02' ---
+Estrategias: ['Compile', 'Compile Unidad Auxiliar 02']
+  > Probando query: 'Compile Unidad Auxiliar 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Compile'
+    Encontrados 27 resultados.
+    - Candidato: [361235] Compile (Conf: 25.0%, Score: 42.4)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [406652] Compile: Main 1 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [440606] Compile: Main 2 (Conf: 25.0%, Score: 55.0)
+    - Candidato: [469090] Compile: Main 3 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [238016] Complex Atomic Compilers (Conf: 25.0%, Score: 32.0)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+GANADOR: ID 440921 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Wooden Mountain' ---
+Estrategias: ['Silverfrost Wooden Mountain', 'Silverfrost']
+  > Probando query: 'Silverfrost Wooden Mountain'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 33.3%, Score: 46.8)
+GANADOR: ID 436821 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Resource Vessels Upgrade' ---
+Estrategias: ['Silverfrost Resource Vessels Upgrade', 'Silverfrost']
+  > Probando query: 'Silverfrost Resource Vessels Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 25.0%, Score: 39.3)
+GANADOR: ID 436821 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Everdell Essentials Upgrade' ---
+Estrategias: ['Silverfrost', 'Silverfrost Everdell Essentials Upgrade']
+  > Probando query: 'Silverfrost Everdell Essentials Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 50.0%, Score: 37.3)
+GANADOR: ID 436821 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Lobos Solitarios' ---
+Estrategias: ['Lobos', 'Lobos Solitarios']
+  > Probando query: 'Lobos Solitarios'
+    Encontrados 0 resultados.
+  > Probando query: 'Lobos'
+    Encontrados 18 resultados.
+    - Candidato: [8109] The Battle of Lobositz (Conf: 0.0%, Score: 36.8)
+    - Candidato: [113252] Battle of Lobositz, October 1, 1756 (Conf: 0.0%, Score: 32.7)
+    - Candidato: [41301] Dados Lobos (Conf: 50.0%, Score: 37.0)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [368058] Lobos (Conf: 50.0%, Score: 47.6)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+    - Candidato: [17536] Lobositz: First Battle of the Seven Years War (Conf: 0.0%, Score: 33.3)
+    - Candidato: [364904] Mystery Party in the Box: El cuento de los lobos Crepusculares (Conf: 50.0%, Score: 28.6)
+    - Candidato: [311912] Sombra de Lobos (Conf: 50.0%, Score: 32.3)
+    - Candidato: [219100] Uboot: Lobos de la Kriegsmarine (Conf: 50.0%, Score: 43.5)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+GANADOR: ID 368058 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flores Escarchadas' ---
+Estrategias: ['Flores Escarchadas', 'Flores']
+  > Probando query: 'Flores Escarchadas'
+    Encontrados 0 resultados.
+  > Probando query: 'Flores'
+    Encontrados 29 resultados.
+    - Candidato: [450300] 50 flores (Conf: 50.0%, Score: 44.4)
+    - Candidato: [347421] Las Abejas: Flores Color Miel (Conf: 50.0%, Score: 34.8)
+    - Candidato: [374720] Disney Princess: Floresta Encantada (Conf: 50.0%, Score: 50.0)
+    - Candidato: [257614] Esy Floresy (Conf: 50.0%, Score: 41.4)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [295944] EXIT: O Jogo – A Floresta Encantada (Conf: 50.0%, Score: 52.0)
+    - Candidato: [346205] Exploradores da Floresta (Conf: 50.0%, Score: 33.3)
+    - Candidato: [433521] Festival da Floresta (Conf: 50.0%, Score: 36.8)
+    - Candidato: [137476] Las flores de colores de Laura (Conf: 50.0%, Score: 50.0)
+    - Candidato: [401501] Floresta (Conf: 50.0%, Score: 53.8)
+    - Candidato: [13904] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [333386] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [204592] A Floresta Misteriosa (Conf: 50.0%, Score: 51.3)
+    - Candidato: [36363] Formando Flores (Conf: 50.0%, Score: 36.4)
+    - Candidato: [189603] El hada de las flores (Conf: 50.0%, Score: 30.8)
+    - Candidato: [36567] Jardin de flores (Conf: 50.0%, Score: 35.3)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+    - Candidato: [38750] El Parchís de las Flores (Conf: 50.0%, Score: 28.6)
+    - Candidato: [102875] O Senhor dos Anéis: Card Game – Retorno à Floresta das Trevas (Conf: 50.0%, Score: 26.3)
+    - Candidato: [339533] Tussie Mussie: Flores Naranjas (Conf: 50.0%, Score: 51.1)
+    - Candidato: [391163] Vida na Floresta (Conf: 50.0%, Score: 41.2)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+GANADOR: ID 333386 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Decrypto Transmisión Segura' ---
+Estrategias: ['Decrypto Transmisión Segura', 'Decrypto']
+  > Probando query: 'Decrypto Transmisión Segura'
+    Encontrados 0 resultados.
+  > Probando query: 'Decrypto'
+    Encontrados 10 resultados.
+    - Candidato: [65952] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [225694] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+GANADOR: ID 273938 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Balsa Salvaje' ---
+Estrategias: ['Balsa Salvaje', 'Balsa']
+  > Probando query: 'Balsa Salvaje'
+    Encontrados 0 resultados.
+  > Probando query: 'Balsa'
+    Encontrados 3 resultados.
+    - Candidato: [418273] La Balsa (Conf: 50.0%, Score: 47.6)
+GANADOR: ID 418273 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Vástagos sangre Arkham Horror 2026' ---
+Estrategias: ['Vástagos', 'Vástagos sangre Arkham Horror 2026']
+  > Probando query: 'Vástagos sangre Arkham Horror 2026'
+    Encontrados 0 resultados.
+  > Probando query: 'Vástagos'
+    Encontrados 4 resultados.
+    - Candidato: [299800] Escape Tales: Vástagos de Wyrmwood (Conf: 20.0%, Score: 44.8)
+GANADOR: ID 299800 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['No temeré ningún mal Marvel Champions', 'temeré']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    Encontrados 0 resultados.
+  > Probando query: 'temeré'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rukus' ---
+Estrategias: ['Rukus']
+  > Probando query: 'Rukus'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ["GCSE - The GC's Secondary Education Game", "GCSE - The GC's Secondary Education", 'GCSE']
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Uncoated' ---
+Estrategias: ['Uncoated']
+  > Probando query: 'Uncoated'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs Pizza Thief', 'Fuzzballs']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'TMI' ---
+Estrategias: ['TMI']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Menstruation Crustacean Lobster Heating Pad' ---
+Estrategias: ['Menstruation', 'Menstruation Crustacean Lobster Heating Pad']
+  > Probando query: 'Menstruation Crustacean Lobster Heating Pad'
+    Encontrados 0 resultados.
+  > Probando query: 'Menstruation'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Pandemic Legacy Season Zero' ---
+Estrategias: ['Pandemic Legacy Season Zero', 'Pandemic']
+  > Probando query: 'Pandemic Legacy Season Zero'
+    Encontrados 0 resultados.
+  > Probando query: 'Pandemic'
+    Encontrados 59 resultados.
+    - Candidato: [375090] 3rd World Labour: Pandemic Edition (Conf: 25.0%, Score: 40.0)
+    - Candidato: [329712] American Pandemic: The Party Card Game (Conf: 25.0%, Score: 40.6)
+    - Candidato: [307384] Clinic: Deluxe Edition – COVID-19 Pandemic (Conf: 25.0%, Score: 24.2)
+    - Candidato: [374540] HE.R.O: The Pandemic (Conf: 25.0%, Score: 34.8)
+    - Candidato: [30549] Pandemic (Conf: 25.0%, Score: 45.7)
+    - Candidato: [429445] Pandemic Iberia: Festival (Conf: 25.0%, Score: 43.1)
+    - Candidato: [314040] Pandemic Legacy: Season 0 (Conf: 75.0%, Score: 90.2)
+    - Candidato: [161936] Pandemic Legacy: Season 1 (Conf: 75.0%, Score: 90.2)
+    - Candidato: [221107] Pandemic Legacy: Season 2 (Conf: 75.0%, Score: 90.2)
+    - Candidato: [466784] The Pandemic Wars (Conf: 25.0%, Score: 50.0)
+    - Candidato: [157789] Pandemic: Contagion (Conf: 25.0%, Score: 57.8)
+    - Candidato: [192153] Pandemic: Czas Cthulhu (Conf: 25.0%, Score: 54.2)
+    - Candidato: [260428] Pandemic: Fall of Rome (Conf: 25.0%, Score: 62.5)
+    - Candidato: [205666] Pandemic: Gen Con 2016 Promos – Z-Force Team Member/Game Convention (Conf: 25.0%, Score: 39.6)
+    - Candidato: [446028] Pandemic: Government Shutdown (Conf: 25.0%, Score: 50.9)
+    - Candidato: [329670] Pandemic: Hot Zone – Europe (Conf: 25.0%, Score: 62.7)
+    - Candidato: [301919] Pandemic: Hot Zone – North America (Conf: 25.0%, Score: 51.7)
+    - Candidato: [198928] Pandemic: Iberia (Conf: 25.0%, Score: 52.4)
+    - Candidato: [137136] Pandemic: In the Lab (Conf: 25.0%, Score: 52.2)
+    - Candidato: [446025] Pandemic: Isolation (Conf: 25.0%, Score: 53.3)
+    - Candidato: [40849] Pandemic: On the Brink (Conf: 25.0%, Score: 58.3)
+    - Candidato: [185403] Pandemic: Promo Roles (Conf: 25.0%, Score: 51.1)
+    - Candidato: [280789] Pandemic: Rapid Response (Conf: 25.0%, Score: 48.0)
+    - Candidato: [234671] Pandemic: Rising Tide (Conf: 25.0%, Score: 42.6)
+    - Candidato: [168703] Pandemic: State of Emergency (Conf: 25.0%, Score: 48.1)
+GANADOR: ID 314040 con 75.0% confianza.
+--------------------------------------------------
