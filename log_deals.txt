@@ -104394,3 +104394,75 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-06-08 08:14:02
+[main c2364b0] Actualización 2026-06-08 08:14:02
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 3805 insertions(+), 5 deletions(-)
+ create mode 100644 assets/images/quacks_of_quedlinburg.jpg
+ create mode 100644 public/assets/images/colour_field.jpg
+ create mode 100644 public/assets/images/crime_zoom__bird_of_ill_omen.jpg
+ create mode 100644 public/assets/images/donkey_valley.jpg
+ create mode 100644 public/assets/images/fast_food_fury.jpg
+ create mode 100644 public/assets/images/ninja_master____japanese_box___english_instructions_.jpg
+ create mode 100644 public/assets/images/pessoa.jpg
+ create mode 100644 public/assets/images/quacks_of_quedlinburg.jpg
+ create mode 100644 public/assets/images/tokkuri_taking.jpg
+ create mode 100644 public/assets/images/trickerion_board_game__dahlgaard_s_academy_expansion.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   1eb1b63..c2364b0  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== MONITOR DEALS: INICIO (2026-06-08 08:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Phili Flash ---
+
+--- Phili Occasions ---
+
+--- Phili Private ---
+
+--- Phili Preorder ---
+
+--- MM Daily ---
+
+--- MM Sales ---
+
+--- MM Backrooms ---
+
+--- MM Clearance ---
+
+--- MM GameOn ---
+
+--- MM LastChance ---
+
+--- MM Markdown ---
+
+--- MM Preorder ---
+
+--- Planeton Ofertas ---
+
+--- Planeton Preorder ---
+
+--- Zatu Sale ---
+
+--- Zatu Outlet ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (08:14:07) ===
