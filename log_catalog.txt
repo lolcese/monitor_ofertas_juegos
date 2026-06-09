@@ -14655,3 +14655,60 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-06-08 20:20:44
+[main 881ad77] Actualización 2026-06-08 20:20:44
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 31 files changed, 2779 insertions(+), 6 deletions(-)
+ create mode 100644 assets/images/a_watch_edici_n.jpg
+ create mode 100644 assets/images/bananagrams.jpg
+ create mode 100644 assets/images/exit_conspiraci_n_venecia.jpg
+ create mode 100644 assets/images/feed_the_kraken_edici_n.jpg
+ create mode 100644 assets/images/for_a_crown__.jpg
+ create mode 100644 assets/images/kronologic_cuzco_1450.jpg
+ create mode 100644 assets/images/skull.jpg
+ create mode 100644 assets/images/successors__cuarta_edici_n_.jpg
+ create mode 100644 assets/images/trickster_takeover_scenario.jpg
+ create mode 100644 public/assets/images/a_watch_edici_n.jpg
+ create mode 100644 public/assets/images/bananagrams.jpg
+ create mode 100644 public/assets/images/brass_lancashire.jpg
+ create mode 100644 public/assets/images/castles_of_burgundy_special_espa_ol.jpg
+ create mode 100644 public/assets/images/cities.jpg
+ create mode 100644 public/assets/images/colt_express_happy.jpg
+ create mode 100644 public/assets/images/exit_conspiraci_n_venecia.jpg
+ create mode 100644 public/assets/images/feed_the_kraken_edici_n.jpg
+ create mode 100644 public/assets/images/for_a_crown__.jpg
+ create mode 100644 public/assets/images/forest_shuffle_dartmoor.jpg
+ create mode 100644 public/assets/images/kronologic_cuzco_1450.jpg
+ create mode 100644 public/assets/images/kronologic_par_s_1920___escenarios_iv_y_v.jpg
+ create mode 100644 public/assets/images/machi_koro_2.jpg
+ create mode 100644 public/assets/images/skull.jpg
+ create mode 100644 public/assets/images/successors__cuarta_edici_n_.jpg
+ create mode 100644 public/assets/images/trickster_takeover_scenario.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   c2364b0..881ad77  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== PLANETON CATALOG: INICIO (2026-06-08 20:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Planeton Catálogo Completo ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (20:20:49) ===
