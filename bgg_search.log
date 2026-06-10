@@ -102285,3 +102285,756 @@ Estrategias: ['Gamophobia']
     Encontrados 0 resultados.
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Modulotoc jeu de Tock et Tac Tick' ---
+Estrategias: ['Modulotoc   Tock et Tac Tick', 'Modulotoc', 'Modulotoc jeu de Tock et Tac Tick']
+  > Probando query: 'Modulotoc jeu de Tock et Tac Tick'
+    Encontrados 0 resultados.
+  > Probando query: 'Modulotoc   Tock et Tac Tick'
+    Encontrados 0 resultados.
+  > Probando query: 'Modulotoc'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Boite secrète 1 - The House' ---
+Estrategias: ['Boite secrète 1 - The House', 'Boite secrète 1', 'Boite']
+  > Probando query: 'Boite secrète 1 - The House'
+    Encontrados 0 resultados.
+  > Probando query: 'Boite secrète 1'
+    Encontrados 0 resultados.
+  > Probando query: 'Boite'
+    Encontrados 73 resultados.
+    - Candidato: [143951] 5 Piliers: Boîte Fun (Conf: 20.0%, Score: 31.8)
+    - Candidato: [434305] La 7e Citadelle: Boîte Collectionneur Saison 2 (Conf: 20.0%, Score: 31.4)
+    - Candidato: [378890] The Binding of Isaac: Four Souls Requiem – Boîte Ultimate Collector (Conf: 40.0%, Score: 24.7)
+    - Candidato: [411302] Boite de Ouf by Odah et Dako (Conf: 20.0%, Score: 41.5)
+    - Candidato: [165] La Boite Magique (Conf: 20.0%, Score: 34.1)
+    - Candidato: [199864] La Boite à culture geek (Conf: 20.0%, Score: 45.8)
+    - Candidato: [28068] La Boite à Dés (Conf: 20.0%, Score: 35.9)
+    - Candidato: [451774] La Boîte aux Lettres (Conf: 20.0%, Score: 44.4)
+    - Candidato: [190598] La boîte de la langue française (Conf: 20.0%, Score: 28.6)
+    - Candidato: [132076] La Boîte à Bac (Conf: 20.0%, Score: 35.9)
+    - Candidato: [131746] La Boîte à culture générale (Conf: 20.0%, Score: 46.2)
+    - Candidato: [132081] La Boîte à Enquêtes Criminelles (Conf: 20.0%, Score: 46.4)
+    - Candidato: [131745] La boîte à questions (Conf: 20.0%, Score: 44.4)
+    - Candidato: [131739] La boîte à questions Asterix (Conf: 20.0%, Score: 34.0)
+    - Candidato: [131740] La Boîte à questions insolites (Conf: 20.0%, Score: 36.4)
+    - Candidato: [131738] La boîte à questions WWE (Conf: 20.0%, Score: 32.7)
+    - Candidato: [131737] La Boîte à Quiz (Conf: 20.0%, Score: 40.0)
+    - Candidato: [131743] La boîte à Quiz junior (Conf: 20.0%, Score: 29.8)
+    - Candidato: [116468] La Boîte à énigmes (Conf: 20.0%, Score: 32.6)
+    - Candidato: [131741] La Boîte à énigmes  spéciale police scientifique (Conf: 20.0%, Score: 41.7)
+    - Candidato: [131744] La Boîte à énigmes junior (Conf: 20.0%, Score: 32.0)
+    - Candidato: [132077] La boîte à énigmes mathématiques (Conf: 20.0%, Score: 45.6)
+    - Candidato: [131742] La Boîte à énigmes pas si scientifiques que ça (Conf: 20.0%, Score: 31.0)
+    - Candidato: [132078] La boîte à énigmes vampiriques (Conf: 20.0%, Score: 32.7)
+    - Candidato: [327132] La Boîte: Quelle est votre destination ? (Conf: 20.0%, Score: 38.7)
+GANADOR: ID 378890 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Connect 4 XXL' ---
+Estrategias: ['Connect 4 XXL', 'Connect']
+  > Probando query: 'Connect 4 XXL'
+    Encontrados 0 resultados.
+  > Probando query: 'Connect'
+    Encontrados 281 resultados.
+    - Candidato: [170040] 3D Connect (Conf: 33.3%, Score: 60.9)
+    - Candidato: [3656] 3D Connect Four (Conf: 33.3%, Score: 57.1)
+    - Candidato: [41896] Activity Connection! (Conf: 33.3%, Score: 43.8)
+    - Candidato: [123504] Airlines Europe: New Bonus Connections (Conf: 0.0%, Score: 28.0)
+    - Candidato: [13552] Associations: The Game of Quick Connections (Conf: 0.0%, Score: 25.5)
+    - Candidato: [397437] Barrage: The Colorado Connection (Conf: 33.3%, Score: 31.8)
+    - Candidato: [373960] Berlin Connection (Conf: 33.3%, Score: 46.7)
+    - Candidato: [432264] Biblical Connections (Conf: 0.0%, Score: 42.4)
+    - Candidato: [287383] Book of Mormon Connection (Conf: 33.3%, Score: 36.8)
+    - Candidato: [243612] Brain Connect (Conf: 33.3%, Score: 53.8)
+    - Candidato: [300278] Canada Connections Card Game (Conf: 0.0%, Score: 43.9)
+    - Candidato: [296226] Candy Land Connect 4 (Conf: 66.7%, Score: 54.5)
+    - Candidato: [64352] Cardinal Connections (Conf: 0.0%, Score: 42.4)
+    - Candidato: [367946] Carnival Connect (Conf: 33.3%, Score: 48.3)
+    - Candidato: [368114] Cascadia: Ecosystem Connections Tantrum House Season 8 Promo Cards (Conf: 0.0%, Score: 23.1)
+    - Candidato: [451387] Catan Connect (Conf: 33.3%, Score: 53.8)
+    - Candidato: [458587] Chaos Connections (Conf: 0.0%, Score: 46.7)
+    - Candidato: [104272] Chaotic Connections (Conf: 0.0%, Score: 43.8)
+    - Candidato: [375654] Color Connect (Conf: 33.3%, Score: 53.8)
+    - Candidato: [100376] Color Connection Maze (Conf: 33.3%, Score: 47.1)
+    - Candidato: [2573] Connect (Conf: 33.3%, Score: 70.0)
+    - Candidato: [177880] Connect 4 & More (Conf: 66.7%, Score: 74.1)
+    - Candidato: [65262] Connect 4 (Revised Edition) (Conf: 66.7%, Score: 52.6)
+    - Candidato: [318293] Connect 4 (Revised Second Edition) (Conf: 66.7%, Score: 44.4)
+    - Candidato: [135084] Connect 4 Cut The Rope (Conf: 66.7%, Score: 57.1)
+GANADOR: ID 177880 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Draconis Invasion: Glory Expansion Power Tokens' ---
+Estrategias: ['Draconis', 'Draconis Invasion: Glory Power', 'Draconis Invasion: Glory Expansion Power Tokens', 'Draconis Invasion']
+  > Probando query: 'Draconis Invasion: Glory Expansion Power Tokens'
+    Encontrados 0 resultados.
+  > Probando query: 'Draconis Invasion: Glory Power'
+    Encontrados 0 resultados.
+  > Probando query: 'Draconis Invasion'
+    Encontrados 13 resultados.
+    - Candidato: [188178] Draconis Invasion (Conf: 50.0%, Score: 73.9)
+    - Candidato: [262147] Draconis Invasion: Add-On Pack (Conf: 50.0%, Score: 72.4)
+    - Candidato: [358312] Draconis Invasion: Glory (Conf: 75.0%, Score: 88.5)
+    - Candidato: [262146] Draconis Invasion: Hero Pledge Promo Cards (Conf: 50.0%, Score: 65.7)
+    - Candidato: [262149] Draconis Invasion: Victory Pledge Promo Cards (Conf: 50.0%, Score: 68.5)
+    - Candidato: [262150] Draconis Invasion: Warrior Pledge Promo Cards (Conf: 50.0%, Score: 65.8)
+    - Candidato: [240095] Draconis Invasion: Wrath (Conf: 50.0%, Score: 73.1)
+    - Candidato: [262147] Draconis Invasion: Add-On Pack (Conf: 50.0%, Score: 72.4)
+    - Candidato: [358312] Draconis Invasion: Glory (Conf: 75.0%, Score: 88.5)
+    - Candidato: [262146] Draconis Invasion: Hero Pledge Promo Cards (Conf: 50.0%, Score: 65.7)
+    - Candidato: [262149] Draconis Invasion: Victory Pledge Promo Cards (Conf: 50.0%, Score: 68.5)
+    - Candidato: [262150] Draconis Invasion: Warrior Pledge Promo Cards (Conf: 50.0%, Score: 65.8)
+    - Candidato: [240095] Draconis Invasion: Wrath (Conf: 50.0%, Score: 73.1)
+  > Probando query: 'Draconis'
+    Encontrados 63 resultados.
+    - Candidato: [92379] BattleTech Field Manual: Draconis Combine (Conf: 25.0%, Score: 34.8)
+    - Candidato: [470792] BattleTech: Hot Spots – Draconis Reach (Conf: 25.0%, Score: 31.2)
+    - Candidato: [351069] BattleTech: Objectives – Draconis Combine (Conf: 25.0%, Score: 35.8)
+    - Candidato: [351781] BattleTech: Technical Readout – 3145 Draconis Combine (Conf: 25.0%, Score: 30.4)
+    - Candidato: [11622] Colony Delta: Earth vs. Sigma Draconis – A Colony World in the Balance (Conf: 25.0%, Score: 29.5)
+    - Candidato: [429024] Draconis 8 (Conf: 25.0%, Score: 46.2)
+    - Candidato: [188178] Draconis Invasion (Conf: 50.0%, Score: 73.9)
+    - Candidato: [262147] Draconis Invasion: Add-On Pack (Conf: 50.0%, Score: 72.4)
+    - Candidato: [358312] Draconis Invasion: Glory (Conf: 75.0%, Score: 88.5)
+    - Candidato: [262146] Draconis Invasion: Hero Pledge Promo Cards (Conf: 50.0%, Score: 65.7)
+    - Candidato: [262149] Draconis Invasion: Victory Pledge Promo Cards (Conf: 50.0%, Score: 68.5)
+    - Candidato: [262150] Draconis Invasion: Warrior Pledge Promo Cards (Conf: 50.0%, Score: 65.8)
+    - Candidato: [240095] Draconis Invasion: Wrath (Conf: 50.0%, Score: 73.1)
+    - Candidato: [60087] House Kurita: The Draconis Combine (Conf: 25.0%, Score: 38.7)
+    - Candidato: [8475] Tempus Draconis (Conf: 25.0%, Score: 36.4)
+    - Candidato: [92379] BattleTech Field Manual: Draconis Combine (Conf: 25.0%, Score: 34.8)
+    - Candidato: [470792] BattleTech: Hot Spots – Draconis Reach (Conf: 25.0%, Score: 31.2)
+    - Candidato: [351069] BattleTech: Objectives – Draconis Combine (Conf: 25.0%, Score: 35.8)
+    - Candidato: [351781] BattleTech: Technical Readout – 3145 Draconis Combine (Conf: 25.0%, Score: 30.4)
+    - Candidato: [262147] Draconis Invasion: Add-On Pack (Conf: 50.0%, Score: 72.4)
+    - Candidato: [358312] Draconis Invasion: Glory (Conf: 75.0%, Score: 88.5)
+    - Candidato: [262146] Draconis Invasion: Hero Pledge Promo Cards (Conf: 50.0%, Score: 65.7)
+    - Candidato: [262149] Draconis Invasion: Victory Pledge Promo Cards (Conf: 50.0%, Score: 68.5)
+    - Candidato: [262150] Draconis Invasion: Warrior Pledge Promo Cards (Conf: 50.0%, Score: 65.8)
+    - Candidato: [240095] Draconis Invasion: Wrath (Conf: 50.0%, Score: 73.1)
+GANADOR: ID 358312 con 75.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Senjutsu : Légendes du Japon' ---
+Estrategias: ['Senjutsu : Légendes du Japon', 'Senjutsu']
+  > Probando query: 'Senjutsu : Légendes du Japon'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu'
+    Encontrados 18 resultados.
+    - Candidato: [343900] Senjutsu: Battle For Japan (Conf: 25.0%, Score: 66.7)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 50.7)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 50.0%, Score: 64.7)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 47.9)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 48.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 48.6)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 47.2)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 45.3)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 53.7)
+    - Candidato: [7064] Senjutsu: Dynamic Samurai Combat (Conf: 25.0%, Score: 45.6)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 50.7)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 50.0%, Score: 64.7)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 47.9)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 48.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 48.6)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 47.2)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 45.3)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 53.7)
+GANADOR: ID 359043 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Senjutsu : L'Ombre Sous l'Acier' ---
+Estrategias: ["Senjutsu : L'Ombre Sous l'Acier", 'Senjutsu']
+  > Probando query: 'Senjutsu : L'Ombre Sous l'Acier'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu'
+    Encontrados 18 resultados.
+    - Candidato: [343900] Senjutsu: Battle For Japan (Conf: 20.0%, Score: 55.6)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 20.0%, Score: 48.6)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 20.0%, Score: 39.4)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 20.0%, Score: 48.6)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 20.0%, Score: 41.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 20.0%, Score: 51.9)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 20.0%, Score: 50.7)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 20.0%, Score: 46.2)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 20.0%, Score: 37.1)
+    - Candidato: [7064] Senjutsu: Dynamic Samurai Combat (Conf: 20.0%, Score: 46.7)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 20.0%, Score: 48.6)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 20.0%, Score: 39.4)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 20.0%, Score: 48.6)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 20.0%, Score: 41.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 20.0%, Score: 51.9)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 20.0%, Score: 50.7)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 20.0%, Score: 46.2)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 20.0%, Score: 37.1)
+GANADOR: ID 343900 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Senjutsu : Tempête en Approche' ---
+Estrategias: ['Senjutsu : Tempête en Approche', 'Senjutsu : Tempête  Approche', 'Senjutsu']
+  > Probando query: 'Senjutsu : Tempête en Approche'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu : Tempête  Approche'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu'
+    Encontrados 18 resultados.
+    - Candidato: [343900] Senjutsu: Battle For Japan (Conf: 33.3%, Score: 60.0)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 33.3%, Score: 54.5)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 33.3%, Score: 47.8)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 33.3%, Score: 48.6)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 33.3%, Score: 46.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 33.3%, Score: 32.9)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 33.3%, Score: 47.9)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 33.3%, Score: 45.9)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 33.3%, Score: 57.6)
+    - Candidato: [7064] Senjutsu: Dynamic Samurai Combat (Conf: 33.3%, Score: 35.7)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 33.3%, Score: 54.5)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 33.3%, Score: 47.8)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 33.3%, Score: 48.6)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 33.3%, Score: 46.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 33.3%, Score: 32.9)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 33.3%, Score: 47.9)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 33.3%, Score: 45.9)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 33.3%, Score: 57.6)
+GANADOR: ID 343900 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Senjutsu : Un Loup aux portes' ---
+Estrategias: ['Senjutsu : Un Loup aux portes', 'Senjutsu : Un Loup  portes', 'Senjutsu']
+  > Probando query: 'Senjutsu : Un Loup aux portes'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu : Un Loup  portes'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu'
+    Encontrados 18 resultados.
+    - Candidato: [343900] Senjutsu: Battle For Japan (Conf: 25.0%, Score: 50.0)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 40.6)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 25.0%, Score: 43.1)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 41.2)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 42.3)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 39.4)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 43.5)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 44.4)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 43.8)
+    - Candidato: [7064] Senjutsu: Dynamic Samurai Combat (Conf: 25.0%, Score: 48.1)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 40.6)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 25.0%, Score: 43.1)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 41.2)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 42.3)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 39.4)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 43.5)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 44.4)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 43.8)
+GANADOR: ID 343900 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Senjutsu : La Rencontre de Deux Mondes' ---
+Estrategias: ['Senjutsu : La Rencontre de Deux Mondes', 'Senjutsu :  Rencontre  Deux Mondes', 'Senjutsu']
+  > Probando query: 'Senjutsu : La Rencontre de Deux Mondes'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu :  Rencontre  Deux Mondes'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu'
+    Encontrados 18 resultados.
+    - Candidato: [343900] Senjutsu: Battle For Japan (Conf: 25.0%, Score: 50.9)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 39.4)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 25.0%, Score: 38.9)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 40.0)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 43.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 46.2)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 44.7)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 40.5)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 45.1)
+    - Candidato: [7064] Senjutsu: Dynamic Samurai Combat (Conf: 25.0%, Score: 42.6)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 39.4)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 25.0%, Score: 38.9)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 40.0)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 43.6)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 46.2)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 44.7)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 40.5)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 45.1)
+GANADOR: ID 343900 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Senjutsu : Fantôme Dans La Nuit' ---
+Estrategias: ['Senjutsu', 'Senjutsu : Fantôme Dans La Nuit', 'Senjutsu : Fantôme Dans  Nuit']
+  > Probando query: 'Senjutsu : Fantôme Dans La Nuit'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu : Fantôme Dans  Nuit'
+    Encontrados 0 resultados.
+  > Probando query: 'Senjutsu'
+    Encontrados 18 resultados.
+    - Candidato: [343900] Senjutsu: Battle For Japan (Conf: 25.0%, Score: 47.1)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 53.7)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 25.0%, Score: 47.1)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 42.3)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 54.1)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 51.4)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 47.2)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 50.7)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 47.8)
+    - Candidato: [7064] Senjutsu: Dynamic Samurai Combat (Conf: 25.0%, Score: 49.1)
+    - Candidato: [419965] Senjutsu: Battle For Japan – Daimyo's Castle (Conf: 25.0%, Score: 53.7)
+    - Candidato: [359043] Senjutsu: Battle For Japan – Legends of Japan (Conf: 25.0%, Score: 47.1)
+    - Candidato: [349470] Senjutsu: Battle For Japan – The Gathering Storm (Conf: 25.0%, Score: 42.3)
+    - Candidato: [349468] Senjutsu: Battle For Japan – The Ghost in the Night (Conf: 25.0%, Score: 54.1)
+    - Candidato: [349493] Senjutsu: Battle For Japan – The Shadow Under Steel (Conf: 25.0%, Score: 51.4)
+    - Candidato: [359042] Senjutsu: Battle For Japan – The Wolf At The Door (Conf: 25.0%, Score: 47.2)
+    - Candidato: [359041] Senjutsu: Battle For Japan – When Two Worlds Collide (Conf: 25.0%, Score: 50.7)
+    - Candidato: [381141] Senjutsu: Battle For Japan – Winds of Change (Conf: 25.0%, Score: 47.8)
+GANADOR: ID 349468 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kawanakajima 1561 - Battles of the Sengoku Jidai Volume 3' ---
+Estrategias: ['Kawanakajima 1561', 'Kawanakajima', 'Kawanakajima 1561 - Battles of the Sengoku Jidai Volume 3']
+  > Probando query: 'Kawanakajima 1561 - Battles of the Sengoku Jidai Volume 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Kawanakajima 1561'
+    Encontrados 3 resultados.
+    - Candidato: [412812] The Battle of Kawanakajima 1561 (Conf: 55.6%, Score: 39.5)
+    - Candidato: [39189] Kawanakajima 1561 (Conf: 22.2%, Score: 47.2)
+    - Candidato: [462290] Kawanakajima 1561 (Conf: 22.2%, Score: 47.2)
+  > Probando query: 'Kawanakajima'
+    Encontrados 12 resultados.
+    - Candidato: [410262] Battle Break: Sengoku Tactics – Kawanakajima's Decisive Battle (Conf: 33.3%, Score: 35.1)
+    - Candidato: [85229] Battle of Kawanakajima (Conf: 33.3%, Score: 31.2)
+    - Candidato: [412812] The Battle of Kawanakajima 1561 (Conf: 55.6%, Score: 39.5)
+    - Candidato: [6028] Epoch Wargame Electronics #5: The Battle of Kawanakajima (Conf: 44.4%, Score: 22.0)
+    - Candidato: [164927] Fierce Battle! Kawanakajima (Conf: 22.2%, Score: 29.6)
+    - Candidato: [39189] Kawanakajima 1561 (Conf: 22.2%, Score: 47.2)
+    - Candidato: [462290] Kawanakajima 1561 (Conf: 22.2%, Score: 47.2)
+    - Candidato: [71189] Kawanakajima Gunki (Conf: 11.1%, Score: 43.8)
+    - Candidato: [24326] Kenshin vs Shingen: Battle of Kawanakajima (Conf: 33.3%, Score: 25.0)
+    - Candidato: [139221] Shingen vs Kenshin: Blood bath at Kawanakajima (Conf: 11.1%, Score: 24.0)
+    - Candidato: [63007] Shogun: Takeda Kawanakajima 1553-1564 (Conf: 11.1%, Score: 35.2)
+    - Candidato: [331306] 川中島 (Kawanakajima) (Conf: 11.1%, Score: 35.8)
+GANADOR: ID 412812 con 55.6% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Négociateur Prise d'Otages - Extension 3: Lieutenant Jackson' ---
+Estrategias: ["Négociateur Prise d'Otages", "Négociateur Prise d'Otages -  3: Lieutenant Jackson", "Négociateur Prise d'Otages -  3", "Négociateur Prise d'Otages - Extension 3: Lieutenant Jackson", 'Négociateur']
+  > Probando query: 'Négociateur Prise d'Otages - Extension 3: Lieutenant Jackson'
+    Encontrados 0 resultados.
+  > Probando query: 'Négociateur Prise d'Otages -  3: Lieutenant Jackson'
+    Encontrados 0 resultados.
+  > Probando query: 'Négociateur Prise d'Otages -  3'
+    Encontrados 2 resultados.
+    - Candidato: [182398] Négociateur Prise d'Otages: Extension n°3 (Conf: 71.4%, Score: 78.2)
+    - Candidato: [182398] Négociateur Prise d'Otages: Extension n°3 (Conf: 71.4%, Score: 78.2)
+  > Probando query: 'Négociateur Prise d'Otages'
+    Encontrados 11 resultados.
+    - Candidato: [343013] Négociateur Prise d'Otages: Edition Collector Intégrale (Conf: 57.1%, Score: 65.3)
+    - Candidato: [172637] Négociateur Prise d'Otages: Extension n°1 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [172638] Négociateur Prise d'Otages: Extension n°2 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [182398] Négociateur Prise d'Otages: Extension n°3 (Conf: 71.4%, Score: 78.2)
+    - Candidato: [182399] Négociateur Prise d'Otages: Extension n°4 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [134253] Négociateur: Prise d'otages (Conf: 57.1%, Score: 71.2)
+    - Candidato: [198707] Négociateur: Prise d'Otages – Vague de Crimes (Conf: 57.1%, Score: 69.7)
+    - Candidato: [172637] Négociateur Prise d'Otages: Extension n°1 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [172638] Négociateur Prise d'Otages: Extension n°2 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [182398] Négociateur Prise d'Otages: Extension n°3 (Conf: 71.4%, Score: 78.2)
+    - Candidato: [182399] Négociateur Prise d'Otages: Extension n°4 (Conf: 57.1%, Score: 78.2)
+  > Probando query: 'Négociateur'
+    Encontrados 11 resultados.
+    - Candidato: [343013] Négociateur Prise d'Otages: Edition Collector Intégrale (Conf: 57.1%, Score: 65.3)
+    - Candidato: [172637] Négociateur Prise d'Otages: Extension n°1 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [172638] Négociateur Prise d'Otages: Extension n°2 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [182398] Négociateur Prise d'Otages: Extension n°3 (Conf: 71.4%, Score: 78.2)
+    - Candidato: [182399] Négociateur Prise d'Otages: Extension n°4 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [134253] Négociateur: Prise d'otages (Conf: 57.1%, Score: 71.2)
+    - Candidato: [198707] Négociateur: Prise d'Otages – Vague de Crimes (Conf: 57.1%, Score: 69.7)
+    - Candidato: [172637] Négociateur Prise d'Otages: Extension n°1 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [172638] Négociateur Prise d'Otages: Extension n°2 (Conf: 57.1%, Score: 78.2)
+    - Candidato: [182398] Négociateur Prise d'Otages: Extension n°3 (Conf: 71.4%, Score: 78.2)
+    - Candidato: [182399] Négociateur Prise d'Otages: Extension n°4 (Conf: 57.1%, Score: 78.2)
+GANADOR: ID 182398 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Evidemment !?' ---
+Estrategias: ['Evidemment !?', 'Evidemment']
+  > Probando query: 'Evidemment !?'
+    Encontrados 0 resultados.
+  > Probando query: 'Evidemment'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hogaboo!' ---
+Estrategias: ['Hogaboo!', 'Hogaboo']
+  > Probando query: 'Hogaboo!'
+    Encontrados 0 resultados.
+  > Probando query: 'Hogaboo'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Génial - Challenge' ---
+Estrategias: ['Génial - Challenge', 'Génial']
+  > Probando query: 'Génial - Challenge'
+    Encontrados 0 resultados.
+  > Probando query: 'Génial'
+    Encontrados 24 resultados.
+    - Candidato: [172248] The Big Bang Theory: Das geniale Spiel (Conf: 50.0%, Score: 30.2)
+    - Candidato: [374597] Diuna: Imperium – Piter, Genialny Doradca (Conf: 50.0%, Score: 34.0)
+    - Candidato: [9674] Einfach Genial (Conf: 50.0%, Score: 40.0)
+    - Candidato: [36745] Einfach Genial (Conf: 50.0%, Score: 40.0)
+    - Candidato: [406305] Einfach Genial 3D (Conf: 50.0%, Score: 42.4)
+    - Candidato: [32876] Einfach Genial Junior (Conf: 50.0%, Score: 43.2)
+    - Candidato: [32025] Einfach Genial Knobelspass (Conf: 50.0%, Score: 38.1)
+    - Candidato: [39699] Einfach Genial: Das Kartenspiel (Conf: 50.0%, Score: 47.8)
+    - Candidato: [117987] Einfach Genial: Das Würfelspiel (Conf: 50.0%, Score: 43.5)
+    - Candidato: [22484] Einfach Genial: Reiseedition (Conf: 50.0%, Score: 41.9)
+    - Candidato: [455211] Gemeinsam Genial (Conf: 50.0%, Score: 37.5)
+    - Candidato: [16973] Genial daneben: Das Spiel (Conf: 50.0%, Score: 55.0)
+    - Candidato: [20757] Genial daneben: Das Spiel – Zusatzfragen (Conf: 50.0%, Score: 45.3)
+    - Candidato: [40830] Genial Spezial (Conf: 50.0%, Score: 60.0)
+    - Candidato: [351287] Genialt frågespel: Logik (Conf: 50.0%, Score: 51.3)
+    - Candidato: [37167] KABILA Genial (Conf: 50.0%, Score: 41.4)
+    - Candidato: [95372] Simpel, aber genial (Conf: 50.0%, Score: 35.3)
+    - Candidato: [470984] Sudoku: Das absolut geniale Zahlen-Puzzle-Spiel (Conf: 50.0%, Score: 38.7)
+    - Candidato: [84838] Yomi: Wave 1 – Max Geiger: Geniale Orologiaio (Conf: 50.0%, Score: 28.1)
+    - Candidato: [374597] Diuna: Imperium – Piter, Genialny Doradca (Conf: 50.0%, Score: 34.0)
+    - Candidato: [20757] Genial daneben: Das Spiel – Zusatzfragen (Conf: 50.0%, Score: 45.3)
+GANADOR: ID 40830 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dimension - Challenge' ---
+Estrategias: ['Dimension', 'Dimension - Challenge']
+  > Probando query: 'Dimension - Challenge'
+    Encontrados 0 resultados.
+  > Probando query: 'Dimension'
+    Encontrados 472 resultados.
+    - Candidato: [56581] 3 Dimensional Chess (Conf: 50.0%, Score: 68.4)
+    - Candidato: [34848] 3 dimensional chess (Conf: 50.0%, Score: 68.4)
+    - Candidato: [13714] 3 Dimensional Tic Tac Toe (Conf: 50.0%, Score: 54.5)
+    - Candidato: [16387] 3 Dimensional Tik Tak Toe (Conf: 50.0%, Score: 54.5)
+    - Candidato: [675] 4th Dimension (Conf: 50.0%, Score: 56.2)
+    - Candidato: [40392] 5°Dimension Playing Card Game (Conf: 50.0%, Score: 58.3)
+    - Candidato: [4505] The 9th Dimension Tarot (Conf: 50.0%, Score: 52.4)
+    - Candidato: [424976] Adventure Games: Family – Dimension Fünf-Sieben (Conf: 50.0%, Score: 38.1)
+    - Candidato: [206223] AFTERSHOCK: Expansion #1 – Gender Dimensions of Humanitarian Assistance and Disaster Relief (Conf: 50.0%, Score: 26.4)
+    - Candidato: [165189] Altaria: Clash of Dimensions (Conf: 50.0%, Score: 39.1)
+    - Candidato: [264255] Alternate Dimension (Conf: 50.0%, Score: 47.4)
+    - Candidato: [219054] Arkham Horror: El Juego de Cartas – Invisibles y Sin Dimensión: Paquete de Mitos (Conf: 50.0%, Score: 27.4)
+    - Candidato: [209966] Championship 3 Dimensional Baseball (Conf: 50.0%, Score: 48.1)
+    - Candidato: [183323] Chaosmos: Dimension Rip Promo Card (Conf: 50.0%, Score: 46.2)
+    - Candidato: [17686] Chess In The Third Dimension (Conf: 50.0%, Score: 38.3)
+    - Candidato: [421807] Chrono Fall: At the End of Space and Time – Zwischen den Dimensionen Promo Pack (Conf: 50.0%, Score: 23.2)
+    - Candidato: [54165] Clash of the Princes (Conf: 0.0%, Score: 15.4)
+    - Candidato: [262023] Deep Madness: Dimension Rift Epic Monster (Conf: 50.0%, Score: 40.7)
+    - Candidato: [17581] Dimension (Conf: 50.0%, Score: 64.3)
+    - Candidato: [153318] Dimension (Conf: 50.0%, Score: 64.3)
+    - Candidato: [20867] Dimension 0 (Conf: 50.0%, Score: 66.7)
+    - Candidato: [36476] Dimension Defender (Conf: 50.0%, Score: 70.3)
+    - Candidato: [5204] Dimension Demons (Conf: 50.0%, Score: 68.6)
+    - Candidato: [136630] Dimension Six (Conf: 50.0%, Score: 62.5)
+    - Candidato: [72118] Dimension X (Conf: 50.0%, Score: 66.7)
+GANADOR: ID 36476 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ubongo - Challenge' ---
+Estrategias: ['Ubongo', 'Ubongo - Challenge']
+  > Probando query: 'Ubongo - Challenge'
+    Encontrados 1 resultados.
+  > Probando query: 'Ubongo'
+    Encontrados 26 resultados.
+    - Candidato: [16986] Ubongo (Conf: 50.0%, Score: 54.5)
+    - Candidato: [46396] Ubongo 3D (Conf: 50.0%, Score: 56.0)
+    - Candidato: [35055] Ubongo Extrem: Craxy Expansion (Conf: 50.0%, Score: 48.9)
+    - Candidato: [31479] Ubongo Extreme (Conf: 50.0%, Score: 60.0)
+    - Candidato: [41291] Ubongo Extreme: Fun-Size Edition (Conf: 50.0%, Score: 42.6)
+    - Candidato: [361048] Ubongo Lines (Conf: 50.0%, Score: 64.3)
+    - Candidato: [28258] Ubongo Mini (Conf: 50.0%, Score: 59.3)
+    - Candidato: [314402] Ubongo Mini Demo (Conf: 50.0%, Score: 50.0)
+    - Candidato: [404649] Ubongo Shimo (Conf: 50.0%, Score: 57.1)
+    - Candidato: [118553] Ubongo Trigo (Conf: 50.0%, Score: 57.1)
+    - Candidato: [467047] Ubongo! Flex (Conf: 50.0%, Score: 66.7)
+    - Candidato: [266421] Ubongo! Fun-Size Edition (Conf: 50.0%, Score: 46.2)
+    - Candidato: [118568] Ubongo! Junior (Conf: 50.0%, Score: 55.2)
+    - Candidato: [217229] Ubongo! Junior 3-D (Conf: 50.0%, Score: 48.5)
+    - Candidato: [191059] Ubongo! Junior Mitbringspiel (Conf: 50.0%, Score: 46.5)
+    - Candidato: [269971] Ubongo!: 3-D Family (Conf: 50.0%, Score: 54.5)
+    - Candidato: [93472] Ubongo: Das Kartenspiel (Conf: 50.0%, Score: 57.9)
+    - Candidato: [136285] Ubongo: Das Würfelspiel (Conf: 50.0%, Score: 52.6)
+    - Candidato: [66117] Ubongo: Die Erweiterung für 5-6 Spieler (Conf: 50.0%, Score: 33.3)
+    - Candidato: [412858] Ubongo: Die Schule der magischen Tiere – Der Film (Conf: 50.0%, Score: 41.9)
+    - Candidato: [34969] Ubongo: Duel (Conf: 50.0%, Score: 59.3)
+    - Candidato: [180595] Ubongo: Star Wars – Das Erwachen der Macht (Conf: 50.0%, Score: 43.6)
+    - Candidato: [396252] ウボンゴ ポケモン (Ubongo Pokémon) (Conf: 50.0%, Score: 60.0)
+    - Candidato: [35055] Ubongo Extrem: Craxy Expansion (Conf: 50.0%, Score: 48.9)
+    - Candidato: [66117] Ubongo: Die Erweiterung für 5-6 Spieler (Conf: 50.0%, Score: 33.3)
+GANADOR: ID 467047 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Jungle Bluff' ---
+Estrategias: ['Jungle Bluff', 'Jungle']
+  > Probando query: 'Jungle Bluff'
+    Encontrados 0 resultados.
+  > Probando query: 'Jungle'
+    Encontrados 530 resultados.
+    - Candidato: [220463] '65: Alone in the Jungle (Conf: 50.0%, Score: 35.3)
+    - Candidato: [188325] '65: Squad-Level Combat in the Jungles of Vietnam (Conf: 50.0%, Score: 27.1)
+    - Candidato: [163595] 8-bit Action Hero: Jungle Adventures (Conf: 50.0%, Score: 34.0)
+    - Candidato: [32912] ABC: In the Jungle (Conf: 50.0%, Score: 41.4)
+    - Candidato: [123417] African Junglehunt (Conf: 0.0%, Score: 46.7)
+    - Candidato: [120304] Alley Oop Jungle Game (Conf: 50.0%, Score: 42.4)
+    - Candidato: [297262] Amazing Jungle Run (Conf: 50.0%, Score: 53.3)
+    - Candidato: [23943] Animal Friends: Jungle Party (Conf: 50.0%, Score: 35.9)
+    - Candidato: [32124] Animaux de la jungle: Cache & Cache (Conf: 50.0%, Score: 31.8)
+    - Candidato: [286224] Back to the Jungle (Conf: 50.0%, Score: 40.0)
+    - Candidato: [183705] Balazoo Jungle (Conf: 50.0%, Score: 46.2)
+    - Candidato: [306280] Bali: Jungle of Jembrana (Conf: 50.0%, Score: 45.7)
+    - Candidato: [433658] Barbaric: Into the Lost Jungle (Conf: 50.0%, Score: 29.3)
+    - Candidato: [63013] Blood and Jungle (Conf: 50.0%, Score: 42.9)
+    - Candidato: [26276] Book of Mormon Jungle Journey (Conf: 50.0%, Score: 39.0)
+    - Candidato: [218577] Bubble Jungle (Conf: 50.0%, Score: 48.0)
+    - Candidato: [105133] Call of Cthulhu: The Card Game – The Breathing Jungle  Asylum Pack (Conf: 50.0%, Score: 24.3)
+    - Candidato: [3947] Cannibal Pygmies in the Jungle of Doom (Conf: 50.0%, Score: 32.0)
+    - Candidato: [7043] Concrete Jungle (Conf: 50.0%, Score: 44.4)
+    - Candidato: [312112] Corrugated Jungle (Conf: 50.0%, Score: 41.4)
+    - Candidato: [142345] Croco Jungle Jeu (Conf: 50.0%, Score: 57.1)
+    - Candidato: [91666] Crossboule: Jungle (Conf: 50.0%, Score: 41.4)
+    - Candidato: [303650] Disney Jungle Cruise Adventure Game (Conf: 50.0%, Score: 34.0)
+    - Candidato: [40660] Disney's The Jungle Book 2 Animal Noises (Conf: 50.0%, Score: 34.6)
+    - Candidato: [311541] Escape Room: The Game – Family Edition: The Jungle (Conf: 50.0%, Score: 20.7)
+GANADOR: ID 142345 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Combomino' ---
+Estrategias: ['Combomino']
+  > Probando query: 'Combomino'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamstergeddon' ---
+Estrategias: ['Hamstergeddon']
+  > Probando query: 'Hamstergeddon'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'YRO' ---
+Estrategias: ['YRO']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Littoral Commander first second print' ---
+Estrategias: ['Littoral Commander first second print', 'Littoral']
+  > Probando query: 'Littoral Commander first second print'
+    Encontrados 0 resultados.
+  > Probando query: 'Littoral'
+    Encontrados 7 resultados.
+    - Candidato: [322308] L' Apéro Jeu du Littoral (Conf: 20.0%, Score: 26.7)
+    - Candidato: [406660] Littoral (Conf: 20.0%, Score: 35.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+    - Candidato: [355516] Littoral Commander: Indo-Pacific (Conf: 40.0%, Score: 64.7)
+    - Candidato: [389099] Littoral Commander: The Baltic (Conf: 40.0%, Score: 63.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+GANADOR: ID 460369 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battle of Legends Volumen 3' ---
+Estrategias: ['Battle of Legends Volumen 3', 'Battle']
+  > Probando query: 'Battle of Legends Volumen 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Battle'
+    Encontrados 2047 resultados.
+    - Candidato: [470004] +PlusOut!! Battle Points (Conf: 20.0%, Score: 41.7)
+    - Candidato: [22921] 007 Underwater Battle from Thunderball (Conf: 20.0%, Score: 36.9)
+    - Candidato: [21628] 1 on 1 Adventure Gamebooks: Battle for the Ancient Robot (Conf: 20.0%, Score: 34.1)
+    - Candidato: [37568] 100 Pipers: Battle of the Clans (Conf: 40.0%, Score: 45.6)
+    - Candidato: [155122] 1066, Tears to Many Mothers: The Battle of Hastings (Conf: 40.0%, Score: 31.6)
+    - Candidato: [97652] 1066: Battle of Hastings Card Game (Conf: 40.0%, Score: 50.0)
+    - Candidato: [22407] 1066: The Battle of Hastings (Conf: 40.0%, Score: 44.4)
+    - Candidato: [33484] 1066: The Battle of Hastings in 3D (Conf: 40.0%, Score: 53.3)
+    - Candidato: [175920] 1066: The Year of Three Battles (Conf: 40.0%, Score: 24.6)
+    - Candidato: [30561] 1644: Rules for Battles of the English Civil War (Second Edition) (Conf: 40.0%, Score: 38.2)
+    - Candidato: [255936] 1676: Miniatures Skirmish Battles in the Time of King Philip's War (Conf: 40.0%, Score: 28.3)
+    - Candidato: [469666] 1809: Blunders on the Danube (and elsewhere) – Wargame Scenarios for Piquet's Field of Battle (Conf: 40.0%, Score: 10.4)
+    - Candidato: [416749] 1813: The Battles for Germany – Six Wargame Scenarios for General d'Armee (Conf: 20.0%, Score: 35.1)
+    - Candidato: [312748] 1815, Scum of the Earth: The Battle of Waterloo Card Game (Conf: 40.0%, Score: 34.1)
+    - Candidato: [217645] 1831 For our freedom and yours: Battle of Grochow (Conf: 40.0%, Score: 32.0)
+    - Candidato: [54543] 1871: The Battle of Dorking (Conf: 40.0%, Score: 41.5)
+    - Candidato: [307255] 18th Century Wars of Absolutism: Rules for Land Battles (Conf: 40.0%, Score: 17.3)
+    - Candidato: [307256] 18th Century Wars of Absolutism: Rules for Naval Battles (Conf: 40.0%, Score: 17.1)
+    - Candidato: [307526] 1914: The First Battles in the West – Great War Scenarios 2 (Conf: 20.0%, Score: 33.7)
+    - Candidato: [391728] 1940: Swallows of Death – Moroccan Troops in the Battle of France (Conf: 40.0%, Score: 24.7)
+    - Candidato: [317858] 1942: Battle for the Mediterranean (Conf: 20.0%, Score: 46.7)
+    - Candidato: [313002] 1944: Battle of the Bulge (Conf: 40.0%, Score: 51.0)
+    - Candidato: [416751] 1944: The Battle for Normandy (Conf: 20.0%, Score: 40.0)
+    - Candidato: [324595] 1st Battle of El Alamein (Conf: 40.0%, Score: 62.7)
+    - Candidato: [171] 2020 Battle for The White House Chess Set (Conf: 20.0%, Score: 41.2)
+GANADOR: ID 324595 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Compile Unidad Auxiliar 02' ---
+Estrategias: ['Compile', 'Compile Unidad Auxiliar 02']
+  > Probando query: 'Compile Unidad Auxiliar 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Compile'
+    Encontrados 27 resultados.
+    - Candidato: [361235] Compile (Conf: 25.0%, Score: 42.4)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [406652] Compile: Main 1 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [440606] Compile: Main 2 (Conf: 25.0%, Score: 55.0)
+    - Candidato: [469090] Compile: Main 3 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [238016] Complex Atomic Compilers (Conf: 25.0%, Score: 32.0)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+GANADOR: ID 440921 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Wooden Mountain' ---
+Estrategias: ['Silverfrost Wooden Mountain', 'Silverfrost']
+  > Probando query: 'Silverfrost Wooden Mountain'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 33.3%, Score: 46.8)
+GANADOR: ID 436821 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Resource Vessels Upgrade' ---
+Estrategias: ['Silverfrost Resource Vessels Upgrade', 'Silverfrost']
+  > Probando query: 'Silverfrost Resource Vessels Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 25.0%, Score: 39.3)
+GANADOR: ID 436821 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Everdell Essentials Upgrade' ---
+Estrategias: ['Silverfrost Everdell Essentials Upgrade', 'Silverfrost']
+  > Probando query: 'Silverfrost Everdell Essentials Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 50.0%, Score: 37.3)
+GANADOR: ID 436821 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Lobos Solitarios' ---
+Estrategias: ['Lobos Solitarios', 'Lobos']
+  > Probando query: 'Lobos Solitarios'
+    Encontrados 0 resultados.
+  > Probando query: 'Lobos'
+    Encontrados 18 resultados.
+    - Candidato: [8109] The Battle of Lobositz (Conf: 0.0%, Score: 36.8)
+    - Candidato: [113252] Battle of Lobositz, October 1, 1756 (Conf: 0.0%, Score: 32.7)
+    - Candidato: [41301] Dados Lobos (Conf: 50.0%, Score: 37.0)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [368058] Lobos (Conf: 50.0%, Score: 47.6)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+    - Candidato: [17536] Lobositz: First Battle of the Seven Years War (Conf: 0.0%, Score: 33.3)
+    - Candidato: [364904] Mystery Party in the Box: El cuento de los lobos Crepusculares (Conf: 50.0%, Score: 28.6)
+    - Candidato: [311912] Sombra de Lobos (Conf: 50.0%, Score: 32.3)
+    - Candidato: [219100] Uboot: Lobos de la Kriegsmarine (Conf: 50.0%, Score: 43.5)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+GANADOR: ID 368058 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flores Escarchadas' ---
+Estrategias: ['Flores Escarchadas', 'Flores']
+  > Probando query: 'Flores Escarchadas'
+    Encontrados 0 resultados.
+  > Probando query: 'Flores'
+    Encontrados 29 resultados.
+    - Candidato: [450300] 50 flores (Conf: 50.0%, Score: 44.4)
+    - Candidato: [347421] Las Abejas: Flores Color Miel (Conf: 50.0%, Score: 34.8)
+    - Candidato: [374720] Disney Princess: Floresta Encantada (Conf: 50.0%, Score: 50.0)
+    - Candidato: [257614] Esy Floresy (Conf: 50.0%, Score: 41.4)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [295944] EXIT: O Jogo – A Floresta Encantada (Conf: 50.0%, Score: 52.0)
+    - Candidato: [346205] Exploradores da Floresta (Conf: 50.0%, Score: 33.3)
+    - Candidato: [433521] Festival da Floresta (Conf: 50.0%, Score: 36.8)
+    - Candidato: [137476] Las flores de colores de Laura (Conf: 50.0%, Score: 50.0)
+    - Candidato: [401501] Floresta (Conf: 50.0%, Score: 53.8)
+    - Candidato: [13904] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [333386] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [204592] A Floresta Misteriosa (Conf: 50.0%, Score: 51.3)
+    - Candidato: [36363] Formando Flores (Conf: 50.0%, Score: 36.4)
+    - Candidato: [189603] El hada de las flores (Conf: 50.0%, Score: 30.8)
+    - Candidato: [36567] Jardin de flores (Conf: 50.0%, Score: 35.3)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+    - Candidato: [38750] El Parchís de las Flores (Conf: 50.0%, Score: 28.6)
+    - Candidato: [102875] O Senhor dos Anéis: Card Game – Retorno à Floresta das Trevas (Conf: 50.0%, Score: 26.3)
+    - Candidato: [339533] Tussie Mussie: Flores Naranjas (Conf: 50.0%, Score: 51.1)
+    - Candidato: [391163] Vida na Floresta (Conf: 50.0%, Score: 41.2)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+GANADOR: ID 333386 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Decrypto Transmisión Segura' ---
+Estrategias: ['Decrypto Transmisión Segura', 'Decrypto']
+  > Probando query: 'Decrypto Transmisión Segura'
+    Encontrados 0 resultados.
+  > Probando query: 'Decrypto'
+    Encontrados 10 resultados.
+    - Candidato: [65952] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [225694] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+GANADOR: ID 273938 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Balsa Salvaje' ---
+Estrategias: ['Balsa Salvaje', 'Balsa']
+  > Probando query: 'Balsa Salvaje'
+    Encontrados 0 resultados.
+  > Probando query: 'Balsa'
+    Encontrados 3 resultados.
+    - Candidato: [418273] La Balsa (Conf: 50.0%, Score: 47.6)
+GANADOR: ID 418273 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Vástagos sangre Arkham Horror 2026' ---
+Estrategias: ['Vástagos', 'Vástagos sangre Arkham Horror 2026']
+  > Probando query: 'Vástagos sangre Arkham Horror 2026'
+    Encontrados 0 resultados.
+  > Probando query: 'Vástagos'
+    Encontrados 4 resultados.
+    - Candidato: [299800] Escape Tales: Vástagos de Wyrmwood (Conf: 20.0%, Score: 44.8)
+GANADOR: ID 299800 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['No temeré ningún mal Marvel Champions', 'temeré']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    Encontrados 0 resultados.
+  > Probando query: 'temeré'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Uncoated' ---
+Estrategias: ['Uncoated']
+  > Probando query: 'Uncoated'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rukus' ---
+Estrategias: ['Rukus']
+  > Probando query: 'Rukus'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ['GCSE', "GCSE - The GC's Secondary Education Game", "GCSE - The GC's Secondary Education"]
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs Pizza Thief', 'Fuzzballs']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'TMI' ---
+Estrategias: ['TMI']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
