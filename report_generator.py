@@ -320,6 +320,9 @@ def write_html(path, data, title, is_catalog=False):
     <div class="header">
         <h1>{title}</h1>
         <div class="subtitle">Generado el {now_str} • {len(data)} juegos monitoreados</div>
+        <div style="margin-top: 8px; font-size: 0.85em; color: #7f8c8d; font-weight: 500;">
+            📨 Cualquier inconveniente comunicarse con <a href="https://t.me/Luis_Olcese" target="_blank" style="color: #2980b9; text-decoration: underline; font-weight: bold;">@Luis_Olcese</a> en Telegram.
+        </div>
         {nav_btn}
     </div>
     {cookie_alert_html}
@@ -348,9 +351,6 @@ def write_html(path, data, title, is_catalog=False):
             <div class="col col-rank" onclick="resort('rnk')" style="cursor:pointer">Rank ⇅</div>
         </div>
         <div id="virtual-scroll-container"><div id="virtual-scroll-content"></div></div>
-    </div>
-    <div style="text-align: center; margin-top: 20px; font-size: 0.85em; color: #7f8c8d; font-weight: 500; padding: 10px 0;">
-        📨 Cualquier inconveniente comunicarse con <b>Luis_Olcese</b> en Telegram.
     </div>
     <script>
         const allOffers = {json.dumps(data)};
