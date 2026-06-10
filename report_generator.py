@@ -222,35 +222,37 @@ def write_html(path, data, title, is_catalog=False):
     
     t_counts = get_source_counts()
 
-    nav_btn = f'<a href="planeton.html" class="nav-extra-btn">🌍 VER CATÁLOGO PLANETON ({stats["PL"]})</a>' if not is_catalog else '<a href="index.html" class="nav-extra-btn">🏠 VOLVER A OFERTAS</a>'
+    nav_btn = ""
 
     sum_h = '<div class="summary-wrapper">'
     if not is_catalog:
         # SUMARIO MULTITIENDA
-        sum_h += '<div class="summary-card"><img src="assets/Logo_Philibert.png" class="sum-logo"><h3>FR Philibert</h3><div class="sum-badges">'
+        sum_h += '<div class="summary-card"><div class="card-header-row"><img src="assets/Logo_Philibert.png" class="sum-logo"><h3>FR Philibert</h3></div><div class="sum-badges">'
         for k, l in [('flash','FLASH'),('occasion','OCCASION'),('private','PRIVÉE'),('preorder','PRE-ORDER')]:
             c = t_counts.get(k, 0)
             if c > 0: sum_h += f'<span class="badge-{k}" onclick="filterBySource(\'{k}\')">{l}: {c}</span>'
-        sum_h += '</div><div style="font-size: 0.75em; color: #7f8c8d; margin-top: 8px;">*Precios con IVA (TVA) ya descontado</div></div>'
-        sum_h += '<div class="summary-card"><img src="assets/miniaturemarket_logo.jpeg" class="sum-logo"><h3>US Miniature Market</h3><div class="sum-badges">'
+        sum_h += '</div><div style="font-size: 0.65em; color: #7f8c8d; margin-top: 4px;">*Precios con IVA (TVA) ya descontado</div></div>'
+        sum_h += '<div class="summary-card"><div class="card-header-row"><img src="assets/miniaturemarket_logo.jpeg" class="sum-logo"><h3>US Miniature Market</h3></div><div class="sum-badges">'
         for k, l in [('mm_deals','DEALS'),('mm_clearance','CLEARANCE'),('mm_backdoor','BACKROOMS'),('mm_preorder','PRE-ORDER')]:
             c = t_counts.get(k, 0)
             if c > 0: sum_h += f'<span class="badge-{k.replace("mm_","mm-")}" onclick="filterBySource(\'{k}\')">{l}: {c}</span>'
         sum_h += '</div></div>'
-        sum_h += '<div class="summary-card"><img src="assets/planeton_logo.jpg" class="sum-logo"><h3>Planeton (Ofertas)</h3><div class="sum-badges">'
+        sum_h += '<div class="summary-card"><div class="card-header-row"><img src="assets/planeton_logo.jpg" class="sum-logo"><h3>Planeton (Ofertas)</h3></div><div class="sum-badges">'
         c_p = t_counts.get('planeton', 0); c_p_pre = t_counts.get('planeton_preorder', 0)
         if c_p > 0: sum_h += f'<span class="badge-planeton" onclick="filterBySource(\'planeton\')">OFERTAS: {c_p}</span>'
         if c_p_pre > 0: sum_h += f'<span class="badge-mm-preorder" onclick="filterBySource(\'planeton_preorder\')">RESERVAS: {c_p_pre}</span>'
+        sum_h += f'<a href="planeton.html" class="badge-catalog-link" style="background: linear-gradient(135deg, #e67e22, #f39c12); color: white; padding: 3px 8px; border-radius: 6px; font-weight: bold; font-size: 0.72em; text-decoration: none; border: 1px solid #d35400; display: inline-flex; align-items: center; gap: 3px; box-shadow: 0 2px 4px rgba(230,126,34,0.2);">📖 CATÁLOGO ({stats["PL"]})</a>'
         sum_h += '</div></div>'
-        sum_h += '<div class="summary-card"><img src="assets/zatu_logo.png" class="sum-logo"><h3>UK Zatu Games</h3><div class="sum-badges">'
+        sum_h += '<div class="summary-card"><div class="card-header-row"><img src="assets/zatu_logo.png" class="sum-logo"><h3>UK Zatu Games</h3></div><div class="sum-badges">'
         c_z = t_counts.get('zatu_sale', 0); c_z_out = t_counts.get('zatu_outlet', 0)
         if c_z > 0: sum_h += f'<span class="badge-zatu-sale" onclick="filterBySource(\'zatu_sale\')">OFERTAS: {c_z}</span>'
         if c_z_out > 0: sum_h += f'<span class="badge-zatu-outlet" onclick="filterBySource(\'zatu_outlet\')">OUTLET: {c_z_out}</span>'
         sum_h += '</div></div>'
     else:
         # SUMARIO SOLO PLANETON
-        sum_h += '<div class="summary-card" style="min-width: 50%"><img src="assets/planeton_logo.jpg" class="sum-logo"><h3>CATÁLOGO PLANETON</h3><div class="sum-badges">'
-        sum_h += f'<span class="badge-planeton" style="padding:10px 20px; font-size:1em">Total Juegos en Catálogo: {len(data)}</span>'
+        sum_h += '<div class="summary-card" style="min-width: 50%"><div class="card-header-row"><img src="assets/planeton_logo.jpg" class="sum-logo"><h3>CATÁLOGO PLANETON</h3></div><div class="sum-badges">'
+        sum_h += f'<span class="badge-planeton" style="padding:6px 12px; font-size:0.9em; cursor:default">Total Juegos: {len(data)}</span>'
+        sum_h += f'<a href="index.html" class="badge-back-link" style="background: #34495e; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 0.95em; text-decoration: none; border: 1px solid #2c3e50; display: inline-flex; align-items: center; gap: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">🏠 VOLVER A OFERTAS</a>'
         sum_h += '</div></div>'
     sum_h += '</div>'
 
@@ -264,11 +266,15 @@ def write_html(path, data, title, is_catalog=False):
         .nav-extra-btn:hover {{ transform: scale(1.05); background: #d35400; }}
         
         .container {{ background: var(--card); border-radius: 15px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); padding: 25px; margin: auto; max-width: 1500px; }}
-        .summary-wrapper {{ display: flex; justify-content: center; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; }}
-        .summary-card {{ background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 12px; padding: 15px; min-width: 250px; text-align: center; }}
-        .sum-logo {{ height: 20px; margin-bottom: 10px; }}
-        .sum-badges {{ display: flex; justify-content: center; gap: 5px; flex-wrap: wrap; }}
-        .sum-badges span {{ padding: 4px 10px; border-radius: 6px; font-weight: bold; font-size: 0.8em; cursor: pointer; color: white; }}
+        .summary-wrapper {{ display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }}
+        .summary-card {{ background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 12px; padding: 10px 12px; min-width: 180px; max-width: 320px; flex: 1; text-align: center; display: flex; flex-direction: column; justify-content: center; }}
+        .card-header-row {{ display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 6px; }}
+        .summary-card h3 {{ margin: 0; font-size: 0.9em; font-weight: 700; color: #2c3e50; }}
+        .sum-logo {{ height: 18px; display: block; }}
+        .sum-badges {{ display: flex; justify-content: center; gap: 4px; flex-wrap: wrap; }}
+        .sum-badges span {{ padding: 3px 8px; border-radius: 6px; font-weight: bold; font-size: 0.72em; cursor: pointer; color: white; }}
+        .badge-catalog-link:hover {{ transform: scale(1.05); filter: brightness(1.1); transition: 0.2s; }}
+        .badge-back-link:hover {{ transform: scale(1.05); filter: brightness(1.1); transition: 0.2s; }}
         
         #virtual-scroll-container {{ height: 750px; overflow-y: auto; position: relative; border-radius: 0 0 10px 10px; background: #fff; border: 1px solid #ddd; border-top: none; }}
         #virtual-scroll-content {{ position: relative; }}
@@ -342,6 +348,9 @@ def write_html(path, data, title, is_catalog=False):
             <div class="col col-rank" onclick="resort('rnk')" style="cursor:pointer">Rank ⇅</div>
         </div>
         <div id="virtual-scroll-container"><div id="virtual-scroll-content"></div></div>
+    </div>
+    <div style="text-align: center; margin-top: 20px; font-size: 0.85em; color: #7f8c8d; font-weight: 500; padding: 10px 0;">
+        📨 Cualquier inconveniente comunicarse con <b>Luis_Olcese</b> en Telegram.
     </div>
     <script>
         const allOffers = {json.dumps(data)};
