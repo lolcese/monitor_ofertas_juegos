@@ -54,6 +54,27 @@ class ScraperLauncher:
         
         self.load_logos()
         
+        # Sincronizar cookie de Philibert automáticamente si estamos en Windows y no es válida la actual
+        if os.name == 'nt':
+            cookie_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'philibert_cookie.txt')
+            status_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'philibert_cookie_status.txt')
+            
+            should_sync = True
+            if os.path.exists(cookie_file) and os.path.exists(status_file):
+                try:
+                    with open(status_file, 'r', encoding='utf-8') as sf:
+                        if sf.read().strip() == "VALID":
+                            should_sync = False
+                except:
+                    pass
+                    
+            if should_sync:
+                try:
+                    from actualizar_cookie_remota import main as sync_cookie
+                    sync_cookie()
+                except Exception as e:
+                    print(f"Sincronización de cookie de Philibert omitida: {e}")
+        
         # --- UI LAYOUT ---
         main_frame = tk.Frame(root, bg=self.colors["bg"])
         main_frame.pack(fill=tk.BOTH, expand=True, padx=15, pady=10)

@@ -1,12 +1,19 @@
 import sys
+import os
 import datetime
+
+# Reconfigurar salida estándar para soportar caracteres unicode en consolas de Windows
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except AttributeError:
+    pass
 import requests
 import time
 import re
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
-    HEADERS_PHILI, save_deal, NOISE_RE, IGNORE_KEYWORDS, COOKIE
+    HEADERS_PHILI, save_deal, NOISE_RE, IGNORE_KEYWORDS, COOKIE, BASE_DIR
 )
 
 # Configuración específica de Philibert
@@ -44,12 +51,15 @@ def scrape_philibert(source_key):
     
     init_db()
     
-    conn = get_db_connection()
-    try:
-        with conn:
-            conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
-    finally:
-        conn.close()
+    # Si no es venta privada, borramos hoy directamente.
+    # Si es venta privada, esperaremos a verificar la validez de la cookie antes de borrar.
+    if source_key != 'private':
+        conn = get_db_connection()
+        try:
+            with conn:
+                conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
+        finally:
+            conn.close()
 
     p = 1
     seen = set()
@@ -65,6 +75,34 @@ def scrape_philibert(source_key):
             if res.status_code != 200: break
             
             soup = BeautifulSoup(res.content, 'html.parser')
+            items = soup.select('.product-card')
+            
+            if source_key == 'private' and p == 1:
+                status_file = os.path.join(BASE_DIR, 'philibert_cookie_status.txt')
+                discounted_cards = len(soup.select('.product-card__price--old'))
+                
+                # Si hay productos pero ninguno tiene descuento, la cookie no sirve
+                if len(items) > 0 and discounted_cards == 0:
+                    print("\n[!] ALERTA: La cookie de Philibert ha expirado o es inválida (descuento 0 en todos los productos).")
+                    print("[!] Abortando raspado de ventas privadas para no borrar ni sobreescribir con datos incorrectos.\n")
+                    try:
+                        with open(status_file, 'w', encoding='utf-8') as sf:
+                            sf.write("INVALID")
+                    except: pass
+                    return  # Abortar sin guardar nada
+                else:
+                    try:
+                        with open(status_file, 'w', encoding='utf-8') as sf:
+                            sf.write("VALID")
+                    except: pass
+                    
+                    # Cookie válida: procedemos a limpiar los registros de hoy de esta sección
+                    conn = get_db_connection()
+                    try:
+                        with conn:
+                            conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
+                    finally:
+                        conn.close()
             items = soup.select('.product-card')
             if not items: break
                 

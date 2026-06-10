@@ -198,6 +198,23 @@ def write_html(path, data, title, is_catalog=False):
     today_iso = datetime.date.today().isoformat()
     now_str = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
     
+    # Comprobar estado de la cookie de Philibert
+    cookie_alert_html = ""
+    status_file = os.path.join(BASE_DIR, 'philibert_cookie_status.txt')
+    if os.path.exists(status_file):
+        try:
+            with open(status_file, 'r', encoding='utf-8') as sf:
+                status = sf.read().strip()
+                if status == "INVALID":
+                    cookie_alert_html = """
+    <div class="cookie-alert" style="background: rgba(231, 76, 60, 0.12); border: 1px solid rgba(231, 76, 60, 0.3); color: #c0392b; padding: 14px 20px; border-radius: 12px; text-align: center; max-width: 900px; margin: 10px auto 25px; font-weight: 500; display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 0.95em; box-shadow: 0 4px 15px rgba(231, 76, 60, 0.05);">
+        <span style="font-size: 1.2em;">⚠️</span>
+        <span>La cookie de sesión de <b>Philibert</b> ha expirado en el servidor. Los precios de <b>Ventes Privées</b> se están mostrando sin descuento. Abre el panel local en tu PC para sincronizarla automáticamente.</span>
+    </div>
+"""
+        except:
+            pass
+    
     # Calcular contadores para la cabecera
     stats = {'PH': 0, 'MI': 0, 'PL': 0, 'ZT': 0}
     for it in data:
@@ -299,6 +316,7 @@ def write_html(path, data, title, is_catalog=False):
         <div class="subtitle">Generado el {now_str} • {len(data)} juegos monitoreados</div>
         {nav_btn}
     </div>
+    {cookie_alert_html}
     <button class="back-to-top" onclick="window.scrollToTop()" title="Volver arriba">↑</button>
     <div class="container">
         {sum_h}

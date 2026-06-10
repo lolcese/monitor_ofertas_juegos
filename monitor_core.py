@@ -15,6 +15,26 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(BASE_DIR, '.env'))
 TOKEN = os.getenv('token')
 COOKIE = os.getenv('PHILIBERT_COOKIE')
+cookie_file = os.path.join(BASE_DIR, 'philibert_cookie.txt')
+if os.path.exists(cookie_file):
+    try:
+        with open(cookie_file, 'r', encoding='utf-8') as f:
+            file_cookie = f.read().strip()
+            if file_cookie:
+                key = os.getenv('PHILIBERT_COOKIE_KEY')
+                if key:
+                    try:
+                        from cryptography.fernet import Fernet
+                        fernet = Fernet(key.encode('utf-8'))
+                        decrypted = fernet.decrypt(file_cookie.encode('utf-8'))
+                        COOKIE = decrypted.decode('utf-8')
+                    except Exception as e:
+                        print(f"[ERROR] No se pudo desencriptar la cookie con la clave de tu .env: {e}")
+                else:
+                    # Fallback si no está configurada la encriptación
+                    COOKIE = file_cookie
+    except Exception as e:
+        print(f"[ERROR] Error al cargar la cookie de Philibert: {e}")
 BGG_CACHE_DB = os.path.join(BASE_DIR, 'bgg_cache.db')
 IMG_DIR = os.path.join(BASE_DIR, 'assets', 'images')
 LOG_HTML_PATH = os.path.join(BASE_DIR, 'coincidencias_fallidas.html')
