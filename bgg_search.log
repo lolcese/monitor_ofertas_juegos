@@ -103048,3 +103048,505 @@ Estrategias: ['Modulotoc jeu de Tock et Tac Tick', 'Modulotoc', 'Modulotoc   Toc
     Encontrados 0 resultados.
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Modulotoc jeu de Tock et Tac Tick' ---
+Estrategias: ['Modulotoc jeu de Tock et Tac Tick', 'Modulotoc   Tock et Tac Tick', 'Modulotoc']
+  > Probando query: 'Modulotoc jeu de Tock et Tac Tick'
+    Encontrados 0 resultados.
+  > Probando query: 'Modulotoc   Tock et Tac Tick'
+    Encontrados 0 resultados.
+  > Probando query: 'Modulotoc'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Mon Premier Mille Bornes - Pat Patrouille' ---
+Estrategias: ['Mon Premier Mille Bornes', 'Mon Premier Mille Bornes - Pat Patrouille', 'Premier']
+  > Probando query: 'Mon Premier Mille Bornes - Pat Patrouille'
+    Encontrados 0 resultados.
+  > Probando query: 'Mon Premier Mille Bornes'
+    Encontrados 0 resultados.
+  > Probando query: 'Premier'
+    Encontrados 202 resultados.
+    - Candidato: [11749] 4 Premiers Jeux (Conf: 16.7%, Score: 40.7)
+    - Candidato: [434305] The 7th Citadel: Le Premier Jardin (Conf: 16.7%, Score: 30.6)
+    - Candidato: [332247] Advanced Premier Soccer (Conf: 16.7%, Score: 38.7)
+    - Candidato: [157482] Android: Netrunner – Premier Contact (Conf: 16.7%, Score: 41.7)
+    - Candidato: [18116] The Ann Arbor Game: Premier Edition (Conf: 16.7%, Score: 35.6)
+    - Candidato: [218208] Les Aventuriers du Rail: Mon Premier Voyage (Conf: 33.3%, Score: 32.1)
+    - Candidato: [159206] Brainbox: Mes premières Maths (Conf: 16.7%, Score: 41.8)
+    - Candidato: [26090] Butagaz (Le Tour de France du premier butane français) (Conf: 16.7%, Score: 35.2)
+    - Candidato: [22924] Card Football: Premiere Edition (Conf: 16.7%, Score: 37.7)
+    - Candidato: [264052] Circadiens: Premières Lueurs (Conf: 16.7%, Score: 39.4)
+    - Candidato: [324333] Le Cliché du Siècle: Avant-Première (Conf: 16.7%, Score: 27.4)
+    - Candidato: [19526] Elasund: La Première Cité (Conf: 16.7%, Score: 38.1)
+    - Candidato: [206943] EXIT: The Game – The Secret of the Premiere (Conf: 16.7%, Score: 27.8)
+    - Candidato: [34277] Gisborne: Les Premiers Cartographes (Conf: 16.7%, Score: 41.1)
+    - Candidato: [3439] HeroClix Hypertime:  Premier Edition Game (Conf: 16.7%, Score: 30.8)
+    - Candidato: [423561] HeroQuest: Premières Lueurs (Conf: 16.7%, Score: 40.0)
+    - Candidato: [5381] How to Host a Murder: The Hollywood Premiere of Powar and Greede (Conf: 16.7%, Score: 39.2)
+    - Candidato: [291844] Jak żyć Panie Premierze? (Conf: 16.7%, Score: 32.3)
+    - Candidato: [20002] Krimi Total Fall 2: Im Schatten der Premiere (Conf: 16.7%, Score: 29.3)
+    - Candidato: [423831] Ma Première Aventure: Au coeur de la Jungle (Conf: 16.7%, Score: 32.1)
+    - Candidato: [362010] Ma Première Aventure: Au Vol-Oeuf ! (Conf: 16.7%, Score: 39.4)
+    - Candidato: [249768] Ma Première Aventure: En Quête du Dragon (Conf: 16.7%, Score: 33.3)
+    - Candidato: [307361] Ma Première Aventure: L'Odyssée du Phobos (Conf: 16.7%, Score: 35.4)
+    - Candidato: [400269] Ma Première Aventure: La Bibliothèque Infinie (Conf: 16.7%, Score: 36.1)
+    - Candidato: [361983] Ma Première Aventure: La course des Casse-Tout (Conf: 16.7%, Score: 47.6)
+GANADOR: ID 218208 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Star Wars Unlimited : Bataille d'intro - Hoth' ---
+Estrategias: ["Star Wars Unlimited : Bataille d'intro", "Star Wars Unlimited : Bataille d'intro - Hoth", 'Star Wars Unlimited', 'Star']
+  > Probando query: 'Star Wars Unlimited : Bataille d'intro - Hoth'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited : Bataille d'intro'
+    Encontrados 0 resultados.
+  > Probando query: 'Star Wars Unlimited'
+    Encontrados 20 resultados.
+    - Candidato: [387866] Star Wars: Unlimited (Conf: 42.9%, Score: 63.3)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 42.9%, Score: 69.3)
+    - Candidato: [452742] Star Wars: Unlimited – Intro Battle: Hoth (Conf: 71.4%, Score: 76.9)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 42.9%, Score: 63.3)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 42.9%, Score: 64.2)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 42.9%, Score: 59.7)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 42.9%, Score: 58.5)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 42.9%, Score: 63.3)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 42.9%, Score: 61.2)
+    - Candidato: [464363] Star Wars: Unlimited – A Lawless Time (Conf: 42.9%, Score: 69.3)
+    - Candidato: [438395] Star Wars: Unlimited – Jump to Lightspeed (Conf: 42.9%, Score: 63.3)
+    - Candidato: [446975] Star Wars: Unlimited – Legends of the Force (Conf: 42.9%, Score: 64.2)
+    - Candidato: [452741] Star Wars: Unlimited – Secrets of Power (Conf: 42.9%, Score: 59.7)
+    - Candidato: [419398] Star Wars: Unlimited – Shadows of the Galaxy (Conf: 42.9%, Score: 58.5)
+    - Candidato: [419397] Star Wars: Unlimited – Spark of Rebellion (Conf: 42.9%, Score: 63.3)
+    - Candidato: [429505] Star Wars: Unlimited – Twilight of the Republic (Conf: 42.9%, Score: 61.2)
+  > Probando query: 'Star'
+    ERROR: HTTPSConnectionPool(host='boardgamegeek.com', port=443): Read timed out. (read timeout=15)
+GANADOR: ID 452742 con 71.4% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Seas of Havoc: Captain's Deluxe Edition' ---
+Estrategias: ["Seas of Havoc: Captain's", 'Seas', 'Seas of Havoc', "Seas of Havoc: Captain's Deluxe Edition"]
+  > Probando query: 'Seas of Havoc: Captain's Deluxe Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Seas of Havoc: Captain's'
+    Encontrados 0 resultados.
+  > Probando query: 'Seas of Havoc'
+    Encontrados 3 resultados.
+    - Candidato: [343525] Seas of Havoc (Conf: 60.0%, Score: 72.2)
+    - Candidato: [446611] Seas of Havoc: First Mates (Conf: 60.0%, Score: 70.8)
+    - Candidato: [446611] Seas of Havoc: First Mates (Conf: 60.0%, Score: 70.8)
+  > Probando query: 'Seas'
+    Encontrados 1643 resultados.
+    - Candidato: [243287] 100 Swords: Season 2 Promo Pack (Conf: 0.0%, Score: 26.4)
+    - Candidato: [334364] 15 Days: Feathers & Lag Season (Conf: 0.0%, Score: 24.0)
+    - Candidato: [335523] 15 Days: Mid-season (Conf: 0.0%, Score: 29.3)
+    - Candidato: [73312] 4 Seasons (Conf: 0.0%, Score: 43.8)
+    - Candidato: [213304] 4 Seasons (Conf: 0.0%, Score: 43.8)
+    - Candidato: [401706] The 7 Seas (Conf: 20.0%, Score: 24.2)
+    - Candidato: [355940] 7 Seas (Conf: 20.0%, Score: 27.6)
+    - Candidato: [455340] The 7 Seas: All-In Box (Conf: 20.0%, Score: 40.9)
+    - Candidato: [393926] 7 Seas: The Pirate King (Conf: 20.0%, Score: 44.4)
+    - Candidato: [434305] The 7th Citadel: Season 2 Collector's Box (Conf: 20.0%, Score: 31.7)
+    - Candidato: [467136] 9 Cards: Season 1 (Conf: 0.0%, Score: 35.9)
+    - Candidato: [467887] 9 Cards: Season 2 (Conf: 0.0%, Score: 35.9)
+    - Candidato: [468657] 9 Cards: Season 3 (Conf: 0.0%, Score: 35.9)
+    - Candidato: [26661] A B Seas (Conf: 20.0%, Score: 25.8)
+    - Candidato: [465615] Adventurous: Cursed Seas (Conf: 20.0%, Score: 17.4)
+    - Candidato: [330005] AEGIS: Season 2 (Conf: 0.0%, Score: 37.8)
+    - Candidato: [38641] Agricola: Through the Seasons (Conf: 0.0%, Score: 27.5)
+    - Candidato: [354898] Agropolis: Seasons (Conf: 0.0%, Score: 35.0)
+    - Candidato: [69244] All-Season Basketball (Conf: 0.0%, Score: 36.4)
+    - Candidato: [373124] Aqua Garden: Seaside Cottage Expansion (Conf: 0.0%, Score: 33.3)
+    - Candidato: [365641] ArchRavels: Awards Season (Conf: 0.0%, Score: 25.5)
+    - Candidato: [345394] Armada: Seas Aflame Supplement (Conf: 20.0%, Score: 34.6)
+    - Candidato: [418430] Armada: Seas of Dread Supplement (Conf: 40.0%, Score: 40.7)
+    - Candidato: [370893] Ascendia: Seasons of Thargos (Conf: 20.0%, Score: 48.0)
+    - Candidato: [452141] Asteriated Adventures: Duel – Season 2 (Conf: 0.0%, Score: 24.1)
+GANADOR: ID 343525 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rank King' ---
+Estrategias: ['Rank King', 'Rank']
+  > Probando query: 'Rank King'
+    Encontrados 0 resultados.
+  > Probando query: 'Rank'
+    Encontrados 86 resultados.
+    - Candidato: [105354] The American Civil War: A Rank & File Supplement (Conf: 50.0%, Score: 25.9)
+    - Candidato: [7720] Die Borgia: Ränkespiele in der Renaissance (Conf: 0.0%, Score: 28.0)
+    - Candidato: [41808] The Fallacy of Rank (Conf: 50.0%, Score: 28.6)
+    - Candidato: [446569] Fantasy Rank Master (Conf: 50.0%, Score: 35.7)
+    - Candidato: [420370] First to Worst: The Party Game About How Your Friends and Family Rank Things (Conf: 50.0%, Score: 19.0)
+    - Candidato: [369508] Football Final Ranking: England (Conf: 0.0%, Score: 35.9)
+    - Candidato: [159553] From The Ranks To Field Marshal (Conf: 50.0%, Score: 30.0)
+    - Candidato: [66759] Front Rank...Fire! (Conf: 50.0%, Score: 50.0)
+    - Candidato: [198669] Global Ranking (Conf: 0.0%, Score: 60.9)
+    - Candidato: [142121] Guildhall: Neue Ränkespiele (Conf: 0.0%, Score: 28.6)
+    - Candidato: [81445] Hyves Ranking Game (Conf: 0.0%, Score: 51.9)
+    - Candidato: [458497] In the Ranks The Great Australian Military Game (Conf: 50.0%, Score: 28.6)
+    - Candidato: [198479] Japan Ranking! (Conf: 0.0%, Score: 63.6)
+    - Candidato: [85172] Little Busters-EX: DOTABATA Ranking Battle (Conf: 0.0%, Score: 28.0)
+    - Candidato: [466956] Lost Ranks (Conf: 50.0%, Score: 42.1)
+    - Candidato: [13642] Louis XIV: Ränkespiele am Hofe des Sonnenkönigs (Conf: 0.0%, Score: 29.1)
+    - Candidato: [358204] Munchkin Warhammer 40,000: Rank and Vile (Conf: 50.0%, Score: 25.0)
+    - Candidato: [113456] Packs Of War Each Rank (Conf: 50.0%, Score: 25.8)
+    - Candidato: [41082] Rank (Conf: 50.0%, Score: 61.5)
+    - Candidato: [272485] Rank & File (Conf: 50.0%, Score: 66.7)
+    - Candidato: [60217] Rank & File: Horse & Musket Rules 1740~1900 (Conf: 50.0%, Score: 25.5)
+    - Candidato: [70492] Rank 'Em (Conf: 50.0%, Score: 62.5)
+    - Candidato: [248267] Rank Card Game (Conf: 50.0%, Score: 52.2)
+    - Candidato: [362114] The Rank Game (Conf: 50.0%, Score: 54.5)
+    - Candidato: [450484] The Rank Game On-the-Go: Culture Vulture (Conf: 50.0%, Score: 29.2)
+GANADOR: ID 272485 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Behind Shot - Magie et Potions' ---
+Estrategias: ['Behind', 'Behind Shot - Magie et Potions', 'Behind Shot']
+  > Probando query: 'Behind Shot - Magie et Potions'
+    Encontrados 0 resultados.
+  > Probando query: 'Behind Shot'
+    Encontrados 0 resultados.
+  > Probando query: 'Behind'
+    Encontrados 265 resultados.
+    - Candidato: [5431] Agatha Christie: Behind the Screen (Conf: 20.0%, Score: 39.3)
+    - Candidato: [240322] Annapurna: Leave No Trace Behind (Conf: 20.0%, Score: 20.3)
+    - Candidato: [149716] ASL Comp: Bandenkrieg – Hell Behind the Eastern Front (Conf: 20.0%, Score: 38.5)
+    - Candidato: [333526] ASL Comp: Behind Utah Beach – The Battle for Hill 30 and Chef du Pont (Conf: 20.0%, Score: 34.0)
+    - Candidato: [143616] ATS TT: Bandenkrieg – Hell Behind the Eastern Front (Conf: 20.0%, Score: 39.5)
+    - Candidato: [247566] ATS: Behind Utah Beach – The Battles for Hill 30 and Chef du Pont (Conf: 20.0%, Score: 35.6)
+    - Candidato: [318384] Battle Force: Behind the Front (Conf: 20.0%, Score: 42.1)
+    - Candidato: [10890] Behind (Conf: 20.0%, Score: 35.3)
+    - Candidato: [423787] Behind (Conf: 20.0%, Score: 35.3)
+    - Candidato: [52506] Behind Closed Doors (Conf: 20.0%, Score: 46.8)
+    - Candidato: [291689] Behind Closed Doors: Res Life Training (Conf: 20.0%, Score: 49.2)
+    - Candidato: [17489] Behind Every Good Man (Conf: 20.0%, Score: 49.0)
+    - Candidato: [201680] Behind Football (Conf: 20.0%, Score: 46.5)
+    - Candidato: [455173] Behind Gold (Conf: 20.0%, Score: 41.0)
+    - Candidato: [5426] Behind the "8" Ball (Conf: 20.0%, Score: 48.9)
+    - Candidato: [42799] Behind the 8 Ball (Conf: 20.0%, Score: 48.9)
+    - Candidato: [96583] Behind the 8 Ball (Conf: 20.0%, Score: 48.9)
+    - Candidato: [42473] Behind The 9 (Conf: 20.0%, Score: 50.0)
+    - Candidato: [315442] Behind the Bleachers (Conf: 20.0%, Score: 50.0)
+    - Candidato: [308486] Behind the Dungeon (Conf: 20.0%, Score: 56.5)
+    - Candidato: [356964] Behind the Five Seals (Conf: 20.0%, Score: 53.1)
+    - Candidato: [99446] Behind The Glass (Conf: 20.0%, Score: 50.0)
+    - Candidato: [68079] Behind the Lens (Conf: 20.0%, Score: 60.5)
+    - Candidato: [467573] Behind the Lens: Photographing Earth (Conf: 20.0%, Score: 50.8)
+    - Candidato: [150898] Behind the Lines (Conf: 20.0%, Score: 54.5)
+GANADOR: ID 68079 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Dobble Kpop Demon Hunters' ---
+Estrategias: ['Dobble Kpop Demon Hunters', 'Dobble']
+  > Probando query: 'Dobble Kpop Demon Hunters'
+    Encontrados 0 resultados.
+  > Probando query: 'Dobble'
+    Encontrados 13 resultados.
+    - Candidato: [63268] Dobble (Conf: 25.0%, Score: 38.7)
+    - Candidato: [375753] Dobble Access+ (Conf: 25.0%, Score: 47.4)
+    - Candidato: [448778] Dobble CATAN (Conf: 25.0%, Score: 43.2)
+    - Candidato: [381429] Dobble Connect (Conf: 25.0%, Score: 56.4)
+    - Candidato: [431838] Dobble Giant (Conf: 25.0%, Score: 48.6)
+    - Candidato: [451322] Dobble The Lord of the Rings (Conf: 25.0%, Score: 45.3)
+    - Candidato: [117995] Dobble: 1,2,3 (Conf: 25.0%, Score: 48.6)
+    - Candidato: [340354] Dobble: 360° (Conf: 25.0%, Score: 40.0)
+    - Candidato: [382419] Dobble: Disney 100 Years of Wonder (Conf: 25.0%, Score: 41.4)
+    - Candidato: [125048] Dobble: Free Demo Version (Conf: 50.0%, Score: 65.3)
+GANADOR: ID 125048 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Evidemment !?' ---
+Estrategias: ['Evidemment', 'Evidemment !?']
+  > Probando query: 'Evidemment !?'
+    Encontrados 0 resultados.
+  > Probando query: 'Evidemment'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hogaboo!' ---
+Estrategias: ['Hogaboo!', 'Hogaboo']
+  > Probando query: 'Hogaboo!'
+    Encontrados 0 resultados.
+  > Probando query: 'Hogaboo'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Social Amis' ---
+Estrategias: ['Social Amis', 'Social']
+  > Probando query: 'Social Amis'
+    Encontrados 0 resultados.
+  > Probando query: 'Social'
+    Encontrados 143 resultados.
+    - Candidato: [277670] Among Cultists: A Social Deduction Thriller (Conf: 50.0%, Score: 30.2)
+    - Candidato: [159457] Anti-Social (Conf: 50.0%, Score: 54.5)
+    - Candidato: [286090] The Calling: A Cthulean Social Deduction Game (Conf: 50.0%, Score: 32.7)
+    - Candidato: [167759] Captoons: The Game of Comic Foreplay and Social Intercourse (Conf: 50.0%, Score: 26.1)
+    - Candidato: [344599] Corona Chase: The Social Distancing Education Game (Conf: 50.0%, Score: 30.0)
+    - Candidato: [217578] Coup: Socialist (Conf: 0.0%, Score: 64.0)
+    - Candidato: [382611] Deer Lord!: Socially Awkward (Conf: 50.0%, Score: 43.2)
+    - Candidato: [143520] Escape From Monster Mansion: A Social Adventure (Conf: 50.0%, Score: 28.1)
+    - Candidato: [375461] Gorilla Warfare: A social deduction battle royale (Conf: 50.0%, Score: 27.1)
+    - Candidato: [225167] Human Punishment: Social Deduction 2.0 (Conf: 50.0%, Score: 33.3)
+    - Candidato: [284748] Human Punishment: Social Deduction 2.0 – Brettspielblog promo card (Conf: 50.0%, Score: 21.6)
+    - Candidato: [268801] Human Punishment: Social Deduction 2.0 – Con V Tion promo card (Conf: 50.0%, Score: 22.9)
+    - Candidato: [257787] Human Punishment: Social Deduction 2.0 – Project: Hell Gate (Conf: 50.0%, Score: 24.2)
+    - Candidato: [364573] Human Punishment: Social Deduction 2.0 – The Beginning Promo Cards (Conf: 50.0%, Score: 24.3)
+    - Candidato: [292864] Human Punishment: Social Deduction 2.0 – Weishaupt KI (Conf: 50.0%, Score: 29.5)
+    - Candidato: [300284] Ice Cream Social (Conf: 50.0%, Score: 44.4)
+    - Candidato: [216740] It's time to pulverize the socialism (Conf: 0.0%, Score: 34.0)
+    - Candidato: [62134] The Last Straw!: A Board Game on the Social Determinants of Health (Conf: 50.0%, Score: 26.7)
+    - Candidato: [130597] Like: The Social Game (Conf: 50.0%, Score: 58.1)
+    - Candidato: [286126] Monopoly: Socialism (Conf: 0.0%, Score: 55.2)
+    - Candidato: [31211] Our Town Sparkles / Social Responsibility Game (Conf: 50.0%, Score: 32.7)
+    - Candidato: [91424] Plan Social (Conf: 50.0%, Score: 54.5)
+    - Candidato: [412543] The Profiler: A Social Deduction Game (Conf: 50.0%, Score: 38.3)
+    - Candidato: [283771] Social Bingo (Conf: 50.0%, Score: 69.6)
+    - Candidato: [16242] Social Circles (Conf: 50.0%, Score: 72.0)
+GANADOR: ID 16242 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Combomino' ---
+Estrategias: ['Combomino']
+  > Probando query: 'Combomino'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamstergeddon' ---
+Estrategias: ['Hamstergeddon']
+  > Probando query: 'Hamstergeddon'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'YRO' ---
+Estrategias: ['YRO']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Littoral Commander first second print' ---
+Estrategias: ['Littoral', 'Littoral Commander first second print']
+  > Probando query: 'Littoral Commander first second print'
+    Encontrados 0 resultados.
+  > Probando query: 'Littoral'
+    Encontrados 7 resultados.
+    - Candidato: [322308] L' Apéro Jeu du Littoral (Conf: 20.0%, Score: 26.7)
+    - Candidato: [406660] Littoral (Conf: 20.0%, Score: 35.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+    - Candidato: [355516] Littoral Commander: Indo-Pacific (Conf: 40.0%, Score: 64.7)
+    - Candidato: [389099] Littoral Commander: The Baltic (Conf: 40.0%, Score: 63.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+GANADOR: ID 460369 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Battle of Legends Volumen 3' ---
+Estrategias: ['Battle of Legends Volumen 3', 'Battle']
+  > Probando query: 'Battle of Legends Volumen 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Battle'
+    Encontrados 2047 resultados.
+    - Candidato: [470004] +PlusOut!! Battle Points (Conf: 20.0%, Score: 41.7)
+    - Candidato: [22921] 007 Underwater Battle from Thunderball (Conf: 20.0%, Score: 36.9)
+    - Candidato: [21628] 1 on 1 Adventure Gamebooks: Battle for the Ancient Robot (Conf: 20.0%, Score: 34.1)
+    - Candidato: [37568] 100 Pipers: Battle of the Clans (Conf: 40.0%, Score: 45.6)
+    - Candidato: [155122] 1066, Tears to Many Mothers: The Battle of Hastings (Conf: 40.0%, Score: 31.6)
+    - Candidato: [97652] 1066: Battle of Hastings Card Game (Conf: 40.0%, Score: 50.0)
+    - Candidato: [22407] 1066: The Battle of Hastings (Conf: 40.0%, Score: 44.4)
+    - Candidato: [33484] 1066: The Battle of Hastings in 3D (Conf: 40.0%, Score: 53.3)
+    - Candidato: [175920] 1066: The Year of Three Battles (Conf: 40.0%, Score: 24.6)
+    - Candidato: [30561] 1644: Rules for Battles of the English Civil War (Second Edition) (Conf: 40.0%, Score: 38.2)
+    - Candidato: [255936] 1676: Miniatures Skirmish Battles in the Time of King Philip's War (Conf: 40.0%, Score: 28.3)
+    - Candidato: [469666] 1809: Blunders on the Danube (and elsewhere) – Wargame Scenarios for Piquet's Field of Battle (Conf: 40.0%, Score: 10.4)
+    - Candidato: [416749] 1813: The Battles for Germany – Six Wargame Scenarios for General d'Armee (Conf: 20.0%, Score: 35.1)
+    - Candidato: [312748] 1815, Scum of the Earth: The Battle of Waterloo Card Game (Conf: 40.0%, Score: 34.1)
+    - Candidato: [217645] 1831 For our freedom and yours: Battle of Grochow (Conf: 40.0%, Score: 32.0)
+    - Candidato: [54543] 1871: The Battle of Dorking (Conf: 40.0%, Score: 41.5)
+    - Candidato: [307255] 18th Century Wars of Absolutism: Rules for Land Battles (Conf: 40.0%, Score: 17.3)
+    - Candidato: [307256] 18th Century Wars of Absolutism: Rules for Naval Battles (Conf: 40.0%, Score: 17.1)
+    - Candidato: [307526] 1914: The First Battles in the West – Great War Scenarios 2 (Conf: 20.0%, Score: 33.7)
+    - Candidato: [391728] 1940: Swallows of Death – Moroccan Troops in the Battle of France (Conf: 40.0%, Score: 24.7)
+    - Candidato: [317858] 1942: Battle for the Mediterranean (Conf: 20.0%, Score: 46.7)
+    - Candidato: [313002] 1944: Battle of the Bulge (Conf: 40.0%, Score: 51.0)
+    - Candidato: [416751] 1944: The Battle for Normandy (Conf: 20.0%, Score: 40.0)
+    - Candidato: [324595] 1st Battle of El Alamein (Conf: 40.0%, Score: 62.7)
+    - Candidato: [171] 2020 Battle for The White House Chess Set (Conf: 20.0%, Score: 41.2)
+GANADOR: ID 324595 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Compile Unidad Auxiliar 02' ---
+Estrategias: ['Compile Unidad Auxiliar 02', 'Compile']
+  > Probando query: 'Compile Unidad Auxiliar 02'
+    Encontrados 0 resultados.
+  > Probando query: 'Compile'
+    Encontrados 27 resultados.
+    - Candidato: [361235] Compile (Conf: 25.0%, Score: 42.4)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [406652] Compile: Main 1 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [440606] Compile: Main 2 (Conf: 25.0%, Score: 55.0)
+    - Candidato: [469090] Compile: Main 3 (Conf: 25.0%, Score: 50.0)
+    - Candidato: [238016] Complex Atomic Compilers (Conf: 25.0%, Score: 32.0)
+    - Candidato: [417813] Compile: Aux  1 (Conf: 25.0%, Score: 61.5)
+    - Candidato: [440921] Compile: Aux 2 (Conf: 25.0%, Score: 66.7)
+    - Candidato: [469091] Compile: Aux 3 (Conf: 25.0%, Score: 61.5)
+GANADOR: ID 440921 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Wooden Mountain' ---
+Estrategias: ['Silverfrost', 'Silverfrost Wooden Mountain']
+  > Probando query: 'Silverfrost Wooden Mountain'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 33.3%, Score: 46.8)
+GANADOR: ID 436821 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Resource Vessels Upgrade' ---
+Estrategias: ['Silverfrost Resource Vessels Upgrade', 'Silverfrost']
+  > Probando query: 'Silverfrost Resource Vessels Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 25.0%, Score: 39.3)
+GANADOR: ID 436821 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Silverfrost Everdell Essentials Upgrade' ---
+Estrategias: ['Silverfrost', 'Silverfrost Everdell Essentials Upgrade']
+  > Probando query: 'Silverfrost Everdell Essentials Upgrade'
+    Encontrados 0 resultados.
+  > Probando query: 'Silverfrost'
+    Encontrados 1 resultados.
+    - Candidato: [436821] Everdell Silverfrost (Conf: 50.0%, Score: 37.3)
+GANADOR: ID 436821 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Lobos Solitarios' ---
+Estrategias: ['Lobos Solitarios', 'Lobos']
+  > Probando query: 'Lobos Solitarios'
+    Encontrados 0 resultados.
+  > Probando query: 'Lobos'
+    Encontrados 18 resultados.
+    - Candidato: [8109] The Battle of Lobositz (Conf: 0.0%, Score: 36.8)
+    - Candidato: [113252] Battle of Lobositz, October 1, 1756 (Conf: 0.0%, Score: 32.7)
+    - Candidato: [41301] Dados Lobos (Conf: 50.0%, Score: 37.0)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [368058] Lobos (Conf: 50.0%, Score: 47.6)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+    - Candidato: [17536] Lobositz: First Battle of the Seven Years War (Conf: 0.0%, Score: 33.3)
+    - Candidato: [364904] Mystery Party in the Box: El cuento de los lobos Crepusculares (Conf: 50.0%, Score: 28.6)
+    - Candidato: [311912] Sombra de Lobos (Conf: 50.0%, Score: 32.3)
+    - Candidato: [219100] Uboot: Lobos de la Kriegsmarine (Conf: 50.0%, Score: 43.5)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+GANADOR: ID 368058 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flores Escarchadas' ---
+Estrategias: ['Flores Escarchadas', 'Flores']
+  > Probando query: 'Flores Escarchadas'
+    Encontrados 0 resultados.
+  > Probando query: 'Flores'
+    Encontrados 29 resultados.
+    - Candidato: [450300] 50 flores (Conf: 50.0%, Score: 44.4)
+    - Candidato: [347421] Las Abejas: Flores Color Miel (Conf: 50.0%, Score: 34.8)
+    - Candidato: [374720] Disney Princess: Floresta Encantada (Conf: 50.0%, Score: 50.0)
+    - Candidato: [257614] Esy Floresy (Conf: 50.0%, Score: 41.4)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [295944] EXIT: O Jogo – A Floresta Encantada (Conf: 50.0%, Score: 52.0)
+    - Candidato: [346205] Exploradores da Floresta (Conf: 50.0%, Score: 33.3)
+    - Candidato: [433521] Festival da Floresta (Conf: 50.0%, Score: 36.8)
+    - Candidato: [137476] Las flores de colores de Laura (Conf: 50.0%, Score: 50.0)
+    - Candidato: [401501] Floresta (Conf: 50.0%, Score: 53.8)
+    - Candidato: [13904] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [333386] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [204592] A Floresta Misteriosa (Conf: 50.0%, Score: 51.3)
+    - Candidato: [36363] Formando Flores (Conf: 50.0%, Score: 36.4)
+    - Candidato: [189603] El hada de las flores (Conf: 50.0%, Score: 30.8)
+    - Candidato: [36567] Jardin de flores (Conf: 50.0%, Score: 35.3)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+    - Candidato: [38750] El Parchís de las Flores (Conf: 50.0%, Score: 28.6)
+    - Candidato: [102875] O Senhor dos Anéis: Card Game – Retorno à Floresta das Trevas (Conf: 50.0%, Score: 26.3)
+    - Candidato: [339533] Tussie Mussie: Flores Naranjas (Conf: 50.0%, Score: 51.1)
+    - Candidato: [391163] Vida na Floresta (Conf: 50.0%, Score: 41.2)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+GANADOR: ID 333386 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Decrypto Transmisión Segura' ---
+Estrategias: ['Decrypto Transmisión Segura', 'Decrypto']
+  > Probando query: 'Decrypto Transmisión Segura'
+    Encontrados 0 resultados.
+  > Probando query: 'Decrypto'
+    Encontrados 10 resultados.
+    - Candidato: [65952] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [225694] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+GANADOR: ID 273938 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Balsa Salvaje' ---
+Estrategias: ['Balsa Salvaje', 'Balsa']
+  > Probando query: 'Balsa Salvaje'
+    Encontrados 0 resultados.
+  > Probando query: 'Balsa'
+    Encontrados 3 resultados.
+    - Candidato: [418273] La Balsa (Conf: 50.0%, Score: 47.6)
+GANADOR: ID 418273 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Vástagos sangre Arkham Horror 2026' ---
+Estrategias: ['Vástagos sangre Arkham Horror 2026', 'Vástagos']
+  > Probando query: 'Vástagos sangre Arkham Horror 2026'
+    Encontrados 0 resultados.
+  > Probando query: 'Vástagos'
+    Encontrados 4 resultados.
+    - Candidato: [299800] Escape Tales: Vástagos de Wyrmwood (Conf: 20.0%, Score: 44.8)
+GANADOR: ID 299800 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['No temeré ningún mal Marvel Champions', 'temeré']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    Encontrados 0 resultados.
+  > Probando query: 'temeré'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rukus' ---
+Estrategias: ['Rukus']
+  > Probando query: 'Rukus'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Uncoated' ---
+Estrategias: ['Uncoated']
+  > Probando query: 'Uncoated'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ['GCSE', "GCSE - The GC's Secondary Education Game", "GCSE - The GC's Secondary Education"]
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs Pizza Thief', 'Fuzzballs']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'TMI' ---
+Estrategias: ['TMI']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
