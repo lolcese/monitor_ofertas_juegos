@@ -125968,3 +125968,118 @@ Limpiando y optimizando base de datos...
 Mantenimiento finalizado.
 --- INICIANDO DESPLIEGUE A GITHUB PAGES ---
 > Ejecutando: git add .
+> Ejecutando: git commit -m Actualización 2026-06-15 08:19:27
+[main 4b67d92] Actualización 2026-06-15 08:19:27
+ Committer: Luis Olcese <lolcese@tulip>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que sean correctos.
+Tú puedes suprimir este mensaje configurándolos de forma explícita:
+
+    git config --global user.name "Tu nombre"
+    git config --global user.email you@example.com
+
+Tras hacer esto, puedes arreglar tu identidad para este commit con:
+
+    git commit --amend --reset-author
+
+ 58 files changed, 3234 insertions(+), 4 deletions(-)
+ create mode 100644 assets/images/last_lantern.jpg
+ create mode 100644 assets/images/meat_master.jpg
+ create mode 100644 assets/images/monsdrawsity__back_for_more_refresh_pack.jpg
+ create mode 100644 assets/images/monsdrawsity__best_of_the_bestiary_expansion.jpg
+ create mode 100644 assets/images/monsdrawsity__my_lil__monsters.jpg
+ create mode 100644 assets/images/monsdrawsity__mythos_promo_pack.jpg
+ create mode 100644 assets/images/monsdrawsity__plants_expansion.jpg
+ create mode 100644 assets/images/monsdrawsity__science_refresh_pack.jpg
+ create mode 100644 assets/images/monsdrawsity__susd_draws___technically_difficult_expansion.jpg
+ create mode 100644 assets/images/monsdrawsity__terrorsaurs_refresh_pack.jpg
+ create mode 100644 assets/images/monsdrawsity__unusual_suspects.jpg
+ create mode 100644 assets/images/mythwind__sprites___sprouts_event_card_pack.jpg
+ create mode 100644 assets/images/mythwind_sprites___sprouts__magical_miniatures__mythdrop_.jpg
+ create mode 100644 assets/images/rubber_paper_scissors.jpg
+ create mode 100644 assets/images/salad_master.jpg
+ create mode 100644 assets/images/sprites___sprouts__deluxe_edition_.jpg
+ create mode 100644 assets/images/sprites___sprouts__standard_edition_.jpg
+ create mode 100644 assets/images/sprites___sprouts__wacky_weather_pack.jpg
+ create mode 100644 assets/images/sprocketforge__mini_expansion.jpg
+ create mode 100644 assets/images/tend__marker_pack.jpg
+ create mode 100644 assets/images/touch_it__dungeon.jpg
+ create mode 100644 assets/images/touch_it__marine_life.jpg
+ create mode 100644 assets/images/touch_it__pop_culture.jpg
+ create mode 100644 public/assets/images/avalon_hill_betrayal_legacy.jpg
+ create mode 100644 public/assets/images/bidibirdy.jpg
+ delete mode 100644 public/assets/images/dominion_2nd_edition___big_box.jpg
+ create mode 100644 public/assets/images/don_quixote__the_ingenious_hidalgo.jpg
+ create mode 100644 public/assets/images/eko.jpg
+ create mode 100644 public/assets/images/g_i__joe_deck_building_game__silent_interlude_expansion.jpg
+ create mode 100644 public/assets/images/last_lantern.jpg
+ create mode 100644 public/assets/images/meat_master.jpg
+ delete mode 100644 public/assets/images/menstruation_crustacean_lobster_heating_pad.jpg
+ create mode 100644 public/assets/images/monsdrawsity__back_for_more_refresh_pack.jpg
+ create mode 100644 public/assets/images/monsdrawsity__best_of_the_bestiary_expansion.jpg
+ create mode 100644 public/assets/images/monsdrawsity__my_lil__monsters.jpg
+ create mode 100644 public/assets/images/monsdrawsity__mythos_promo_pack.jpg
+ create mode 100644 public/assets/images/monsdrawsity__plants_expansion.jpg
+ create mode 100644 public/assets/images/monsdrawsity__science_refresh_pack.jpg
+ create mode 100644 public/assets/images/monsdrawsity__susd_draws___technically_difficult_expansion.jpg
+ create mode 100644 public/assets/images/monsdrawsity__terrorsaurs_refresh_pack.jpg
+ create mode 100644 public/assets/images/monsdrawsity__unusual_suspects.jpg
+ create mode 100644 public/assets/images/mythwind__sprites___sprouts_event_card_pack.jpg
+ create mode 100644 public/assets/images/mythwind_sprites___sprouts__magical_miniatures__mythdrop_.jpg
+ create mode 100644 public/assets/images/rubber_paper_scissors.jpg
+ create mode 100644 public/assets/images/salad_master.jpg
+ create mode 100644 public/assets/images/sprites___sprouts__deluxe_edition_.jpg
+ create mode 100644 public/assets/images/sprites___sprouts__standard_edition_.jpg
+ create mode 100644 public/assets/images/sprites___sprouts__wacky_weather_pack.jpg
+ create mode 100644 public/assets/images/sprocketforge__mini_expansion.jpg
+ create mode 100644 public/assets/images/tend__marker_pack.jpg
+ create mode 100644 public/assets/images/touch_it__dungeon.jpg
+ create mode 100644 public/assets/images/touch_it__marine_life.jpg
+ create mode 100644 public/assets/images/touch_it__pop_culture.jpg
+
+> Ejecutando: git push
+To https://github.com/lolcese/monitor_ofertas_juegos.git
+   6dfb8d6..4b67d92  main -> main
+
+--- (!) DESPLIEGUE COMPLETADO CON ÉXITO (!) ---
+En unos minutos los cambios estarán vivos en tu GitHub Pages.
+=== MONITOR DEALS: INICIO (2026-06-15 08:00:01) ===
+--- Sincronizando desde GitHub ---
+
+--- Phili Flash ---
+
+--- Phili Occasions ---
+
+--- Phili Private ---
+
+--- Phili Preorder ---
+
+--- MM Daily ---
+
+--- MM Sales ---
+
+--- MM Backrooms ---
+
+--- MM Clearance ---
+
+--- MM GameOn ---
+
+--- MM LastChance ---
+
+--- MM Markdown ---
+
+--- MM Preorder ---
+
+--- Planeton Ofertas ---
+
+--- Planeton Preorder ---
+
+--- Zatu Sale ---
+
+--- Zatu Outlet ---
+
+--- Generando Reporte ---
+
+--- Publicando en GitHub ---
+
+=== FINALIZADO (08:19:33) ===
