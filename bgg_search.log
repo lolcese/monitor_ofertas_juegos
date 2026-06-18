@@ -107475,3 +107475,924 @@ Estrategias: ['Gamophobia']
     Encontrados 0 resultados.
 FALLIDO: No se encontró ninguna coincidencia.
 --------------------------------------------------
+--- INICIO BÚSQUEDA: 'Bibock Original' ---
+Estrategias: ['Bibock Original', 'Bibock']
+  > Probando query: 'Bibock Original'
+    Encontrados 0 resultados.
+  > Probando query: 'Bibock'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Modulotoc jeu de Tock et Tac Tick' ---
+Estrategias: ['Modulotoc jeu de Tock et Tac Tick', 'Modulotoc   Tock et Tac Tick', 'Modulotoc']
+  > Probando query: 'Modulotoc jeu de Tock et Tac Tick'
+    Encontrados 0 resultados.
+  > Probando query: 'Modulotoc   Tock et Tac Tick'
+    Encontrados 0 resultados.
+  > Probando query: 'Modulotoc'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'CaZ'BaL' ---
+Estrategias: ["CaZ'BaL"]
+  > Probando query: 'CaZ'BaL'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'S.T.A.L.K.E.R - Core Pledge (Sundrop)' ---
+Estrategias: ['S.T.A.L.K.E.R', 'S.T.A.L.K.E.R - Core Pledge (Sundrop)', 'Core', 'S.T.A.L.K.E.R - Core Pledge']
+  > Probando query: 'S.T.A.L.K.E.R - Core Pledge (Sundrop)'
+    Encontrados 0 resultados.
+  > Probando query: 'S.T.A.L.K.E.R - Core Pledge'
+    Encontrados 0 resultados.
+  > Probando query: 'S.T.A.L.K.E.R'
+    Encontrados 24 resultados.
+    - Candidato: [381246] S.T.A.L.K.E.R. The Board Game (Conf: 77.8%, Score: 64.2)
+    - Candidato: [435997] S.T.A.L.K.E.R. The Board Game: Duty & Freedom Faction Pack (Conf: 77.8%, Score: 48.1)
+    - Candidato: [457860] S.T.A.L.K.E.R. The Board Game: Maps & Stickers Recharge Pack (Conf: 77.8%, Score: 46.9)
+    - Candidato: [435008] S.T.A.L.K.E.R. The Board Game: Monster Hunter (Conf: 77.8%, Score: 52.9)
+    - Candidato: [432693] S.T.A.L.K.E.R. The Board Game: Personal Stories (Conf: 77.8%, Score: 60.0)
+    - Candidato: [435994] S.T.A.L.K.E.R. The Board Game: Stretch Goals Box (Conf: 77.8%, Score: 53.5)
+    - Candidato: [435998] S.T.A.L.K.E.R. The Board Game: Zone Companions (Conf: 77.8%, Score: 49.3)
+    - Candidato: [459859] S.T.A.L.K.E.R. The Board Game: Zone Hidden Riches (Conf: 77.8%, Score: 52.8)
+    - Candidato: [435995] S.T.A.L.K.E.R. The Board Game: Zone Survival Mode (Conf: 77.8%, Score: 50.0)
+    - Candidato: [435997] S.T.A.L.K.E.R. The Board Game: Duty & Freedom Faction Pack (Conf: 77.8%, Score: 48.1)
+    - Candidato: [457860] S.T.A.L.K.E.R. The Board Game: Maps & Stickers Recharge Pack (Conf: 77.8%, Score: 46.9)
+    - Candidato: [435008] S.T.A.L.K.E.R. The Board Game: Monster Hunter (Conf: 77.8%, Score: 52.9)
+    - Candidato: [432693] S.T.A.L.K.E.R. The Board Game: Personal Stories (Conf: 77.8%, Score: 60.0)
+    - Candidato: [435994] S.T.A.L.K.E.R. The Board Game: Stretch Goals Box (Conf: 77.8%, Score: 53.5)
+    - Candidato: [435998] S.T.A.L.K.E.R. The Board Game: Zone Companions (Conf: 77.8%, Score: 49.3)
+    - Candidato: [459859] S.T.A.L.K.E.R. The Board Game: Zone Hidden Riches (Conf: 77.8%, Score: 52.8)
+    - Candidato: [435995] S.T.A.L.K.E.R. The Board Game: Zone Survival Mode (Conf: 77.8%, Score: 50.0)
+  > Probando query: 'Core'
+    Encontrados 1060 resultados.
+    - Candidato: [194456] 1879: Minis Corebook (Conf: 0.0%, Score: 27.3)
+    - Candidato: [467724] 1918: Spring Offensive – Core Rulebook (Conf: 11.1%, Score: 36.7)
+    - Candidato: [297805] Action Stations: Atlantic – Tactical WWII Naval Combat Game: Core Rules (Conf: 11.1%, Score: 30.4)
+    - Candidato: [383014] The Aetherial War Card Game: Chaos and Consequences Core Set (Conf: 11.1%, Score: 26.2)
+    - Candidato: [414818] The Aetherial War Card Game: Chaos and Consequences Core Set – Ally Expansion (Conf: 11.1%, Score: 22.2)
+    - Candidato: [414817] The Aetherial War Card Game: Chaos and Consequences Core Set – Brutal Enemy Expansion (Conf: 11.1%, Score: 20.6)
+    - Candidato: [414819] The Aetherial War Card Game: Chaos and Consequences Core Set – Hidden Agenda Expansion (Conf: 11.1%, Score: 25.9)
+    - Candidato: [414820] The Aetherial War Card Game: Chaos and Consequences Core Set – Omega Expansion (Conf: 11.1%, Score: 22.0)
+    - Candidato: [282182] Aetherium: House Ikaru Core Book (Conf: 11.1%, Score: 35.7)
+    - Candidato: [193111] Aetherium: House Ikaru Core Collective (Conf: 11.1%, Score: 41.9)
+    - Candidato: [282186] Aetherium: RezX Core Book (Conf: 11.1%, Score: 40.8)
+    - Candidato: [282183] Aetherium: RezX Core Collective (Conf: 11.1%, Score: 47.3)
+    - Candidato: [282691] Aetherium: Rhommox Core Book (Conf: 11.1%, Score: 38.5)
+    - Candidato: [282188] Aetherium: Rhommox Core Collective (Conf: 11.1%, Score: 44.8)
+    - Candidato: [295008] Aetherium: Wardens of Tianran Core Book (Conf: 11.1%, Score: 34.9)
+    - Candidato: [295005] Aetherium: Wardens of Tianran Core Collective (Conf: 11.1%, Score: 40.6)
+    - Candidato: [383881] Alien Frontiers: Data Core Expansion Pack (Conf: 11.1%, Score: 33.8)
+    - Candidato: [37397] Alta Tensione: Cina/Corea (Conf: 11.1%, Score: 36.7)
+    - Candidato: [342234] Apocalypse Zombie: Core Set (Conf: 11.1%, Score: 39.2)
+    - Candidato: [442359] AracKhan Wars: The Song of Destiny Core-Box (Conf: 11.1%, Score: 32.8)
+    - Candidato: [359609] Arkham Horror: The Card Game (Revised Core Set) (Conf: 11.1%, Score: 43.5)
+    - Candidato: [451840] Armored Advance: Core Rules (Conf: 11.1%, Score: 43.1)
+    - Candidato: [157470] Arsenal: Arena Combat – Core Set (Conf: 11.1%, Score: 40.7)
+    - Candidato: [35991] Artifact Core Rules (Conf: 11.1%, Score: 45.5)
+    - Candidato: [184979] ATS Core Module: All American I – Capture of the La Fiere Bridge 1944 (Conf: 11.1%, Score: 26.4)
+GANADOR: ID 381246 con 77.8% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'The Last Spell: Apocalypse Pledge' ---
+Estrategias: ['Last', 'The Last Spell: Apocalypse Pledge', 'The Last Spell']
+  > Probando query: 'The Last Spell: Apocalypse Pledge'
+    Encontrados 0 resultados.
+  > Probando query: 'The Last Spell'
+    Encontrados 15 resultados.
+    - Candidato: [385274] The Last Spell: The Board Game (Conf: 60.0%, Score: 59.0)
+    - Candidato: [463130] The Last Spell: The Board Game – Carnage Unleashed Expansion (Conf: 60.0%, Score: 53.9)
+    - Candidato: [463131] The Last Spell: The Board Game – Lt. Lamasse (Conf: 60.0%, Score: 55.6)
+    - Candidato: [462473] The Last Spell: The Board Game – Sinister Shadow Expansion (Conf: 60.0%, Score: 41.4)
+    - Candidato: [463132] The Last Spell: The Board Game – The Twins Expansion (Conf: 60.0%, Score: 44.4)
+    - Candidato: [462478] The Last Spell: The Board Game – Whispers of War Expansion (Conf: 60.0%, Score: 46.0)
+    - Candidato: [339361] Last Stand at Mistham: A Campaign for Sellswords and Spellslingers (Conf: 20.0%, Score: 26.8)
+    - Candidato: [463130] The Last Spell: The Board Game – Carnage Unleashed Expansion (Conf: 60.0%, Score: 53.9)
+    - Candidato: [463131] The Last Spell: The Board Game – Lt. Lamasse (Conf: 60.0%, Score: 55.6)
+    - Candidato: [462473] The Last Spell: The Board Game – Sinister Shadow Expansion (Conf: 60.0%, Score: 41.4)
+    - Candidato: [463132] The Last Spell: The Board Game – The Twins Expansion (Conf: 60.0%, Score: 44.4)
+    - Candidato: [462478] The Last Spell: The Board Game – Whispers of War Expansion (Conf: 60.0%, Score: 46.0)
+    - Candidato: [339361] Last Stand at Mistham: A Campaign for Sellswords and Spellslingers (Conf: 20.0%, Score: 26.8)
+  > Probando query: 'Last'
+    Encontrados 1510 resultados.
+    - Candidato: [40688] 10 Years - Treasure Chest - Precious Expansions to 7 Rio Treasures of the Last 10 Years (Conf: 40.0%, Score: 17.4)
+    - Candidato: [62802] 1871: Last Stand at Surbiton (Conf: 20.0%, Score: 33.9)
+    - Candidato: [13299] 1918: Imperial Germany's Last Chance (Conf: 20.0%, Score: 23.9)
+    - Candidato: [8693] 1918: Operation Michel, Germany's Last Chance in the West (Conf: 40.0%, Score: 34.5)
+    - Candidato: [383123] 1940: The Last Days of May -- A Panzer Grenadier Campaign Study (Conf: 40.0%, Score: 35.2)
+    - Candidato: [416270] 1987: The Last War (Conf: 40.0%, Score: 40.8)
+    - Candidato: [280256] 1995: Milosevic's Last Gamble (Conf: 20.0%, Score: 33.3)
+    - Candidato: [393305] 50 Clues: The Last Journey (Conf: 40.0%, Score: 38.6)
+    - Candidato: [363680] Adventure Realms: The Last Fantasy (Conf: 40.0%, Score: 33.8)
+    - Candidato: [413267] Aeon Trespass: Last Stand of the Gegenees Mini Expansion (Conf: 40.0%, Score: 34.5)
+    - Candidato: [346609] After the Last Sky: The First Intifada 1987-1993 (Conf: 40.0%, Score: 35.4)
+    - Candidato: [218683] Alesia: Last Stand of the Gauls (Conf: 40.0%, Score: 41.9)
+    - Candidato: [237360] All Your Base: Last Of Last – The Card Game (Conf: 40.0%, Score: 36.1)
+    - Candidato: [369520] ALL-FATHERS: Ra's Last Journey (Conf: 20.0%, Score: 36.1)
+    - Candidato: [112878] Ammo Domini: Fight for Europe to the Last Bullet (Conf: 40.0%, Score: 30.4)
+    - Candidato: [421045] Any Last Words? (Conf: 20.0%, Score: 30.4)
+    - Candidato: [224890] Arc of the Kaiser's Last Raider (Conf: 40.0%, Score: 31.7)
+    - Candidato: [133338] 'Attack of the Boogeymen' Supplement (fan expansion for Last Night on Earth) (Conf: 40.0%, Score: 21.2)
+    - Candidato: [181254] Attack on Titan: The Last Stand (Conf: 40.0%, Score: 38.7)
+    - Candidato: [333664] ATTLO: Avoid Taking The Last One (Conf: 40.0%, Score: 31.7)
+    - Candidato: [331017] Avatar: The Last Airbender Oh, My Cabbages! (Conf: 40.0%, Score: 44.4)
+    - Candidato: [22469] Avatar: The Last Airbender Trading Card Game (Conf: 40.0%, Score: 40.0)
+    - Candidato: [331015] Avatar: The Last Airbender Uncle Iroh's Dream (Conf: 40.0%, Score: 36.8)
+    - Candidato: [416284] Avatar: The Last Airbender – Aang's Destiny (Conf: 40.0%, Score: 38.9)
+    - Candidato: [393492] Avatar: The Last Airbender – Crossroads of Destiny (Conf: 40.0%, Score: 30.4)
+GANADOR: ID 385274 con 60.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'HacKClaD – Base Game' ---
+Estrategias: ['HacKClaD – Base', 'HacKClaD', 'HacKClaD – Base Game']
+  > Probando query: 'HacKClaD – Base Game'
+    Encontrados 0 resultados.
+  > Probando query: 'HacKClaD – Base'
+    Encontrados 0 resultados.
+  > Probando query: 'HacKClaD'
+    Encontrados 4 resultados.
+    - Candidato: [352228] HacKClaD (Conf: 50.0%, Score: 76.2)
+    - Candidato: [465034] HacKClaD.DeltA (Conf: 50.0%, Score: 74.1)
+    - Candidato: [381803] HacKClaD: CROSS FATE (Conf: 50.0%, Score: 68.8)
+    - Candidato: [381803] HacKClaD: CROSS FATE (Conf: 50.0%, Score: 68.8)
+GANADOR: ID 352228 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ashes Ascendancy: All In Bundle' ---
+Estrategias: ['Ashes', 'Ashes Ascendancy: All In Bundle', 'Ashes Ascendancy', 'Ashes Ascendancy: All In']
+  > Probando query: 'Ashes Ascendancy: All In Bundle'
+    Encontrados 0 resultados.
+  > Probando query: 'Ashes Ascendancy: All In'
+    Encontrados 0 resultados.
+  > Probando query: 'Ashes Ascendancy'
+    Encontrados 3 resultados.
+    - Candidato: [437290] Ashes Ascendancy (Conf: 50.0%, Score: 82.1)
+    - Candidato: [472285] Ashes Ascendancy: Natural Magic Expansion (Conf: 50.0%, Score: 69.8)
+    - Candidato: [472285] Ashes Ascendancy: Natural Magic Expansion (Conf: 50.0%, Score: 69.8)
+  > Probando query: 'Ashes'
+    Encontrados 295 resultados.
+    - Candidato: [143521] Amid The Ashes (Conf: 25.0%, Score: 27.0)
+    - Candidato: [440816] AracKhan Wars: A Trail of Ashes (Conf: 25.0%, Score: 18.9)
+    - Candidato: [342958] Ashes (Conf: 25.0%, Score: 35.7)
+    - Candidato: [450286] Ashes & Amber (Conf: 25.0%, Score: 47.1)
+    - Candidato: [437290] Ashes Ascendancy (Conf: 50.0%, Score: 82.1)
+    - Candidato: [472285] Ashes Ascendancy: Natural Magic Expansion (Conf: 50.0%, Score: 69.8)
+    - Candidato: [6888] The Ashes of Empire (Conf: 25.0%, Score: 38.1)
+    - Candidato: [41542] The Ashes of Empire: Das Science-Fiction Brettspiel (Conf: 25.0%, Score: 35.6)
+    - Candidato: [400289] Ashes Reborn: Red Rains – The Blight of Neverset (Conf: 25.0%, Score: 26.5)
+    - Candidato: [375374] Ashes Reborn: Red Rains – The Corpse of Viros (Conf: 25.0%, Score: 27.7)
+    - Candidato: [455768] Ashes Reborn: Red Rains – The End of Argaia (Conf: 25.0%, Score: 44.4)
+    - Candidato: [431716] Ashes Reborn: Red Rains – The Flood of Moon Cove (Conf: 25.0%, Score: 26.5)
+    - Candidato: [383633] Ashes Reborn: Red Rains – The Frostwild Scourge (Conf: 25.0%, Score: 29.9)
+    - Candidato: [413918] Ashes Reborn: Red Rains – The Siege of Lordswall (Conf: 25.0%, Score: 38.2)
+    - Candidato: [423909] Ashes Reborn: Red Rains – The Spawn of Shadowreck (Conf: 25.0%, Score: 26.1)
+    - Candidato: [167400] Ashes Reborn: Rise of the Phoenixborn (Conf: 25.0%, Score: 33.9)
+    - Candidato: [353178] Ashes Reborn: The Artist of Dreams (Conf: 25.0%, Score: 39.3)
+    - Candidato: [235600] Ashes Reborn: The Boy Among Wolves (Conf: 25.0%, Score: 42.9)
+    - Candidato: [327364] Ashes Reborn: The Breaker of Fate (Conf: 25.0%, Score: 32.7)
+    - Candidato: [189633] Ashes Reborn: The Children of Blackcloud (Conf: 25.0%, Score: 32.3)
+    - Candidato: [251502] Ashes Reborn: The Demons of Darmas (Conf: 25.0%, Score: 28.6)
+    - Candidato: [201900] Ashes Reborn: The Duchess of Deception (Conf: 25.0%, Score: 33.3)
+    - Candidato: [189634] Ashes Reborn: The Frostdale Giants (Conf: 25.0%, Score: 35.7)
+    - Candidato: [256115] Ashes Reborn: The Ghost Guardian (Conf: 25.0%, Score: 37.0)
+    - Candidato: [235599] Ashes Reborn: The Goddess of Ishra (Conf: 25.0%, Score: 35.7)
+GANADOR: ID 437290 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Trickerion - Pack d'Amélioration Edition Anniversaire' ---
+Estrategias: ["Trickerion -  d'Amélioration  Anniversaire", "Trickerion - Pack d'Amélioration Edition Anniversaire", 'Trickerion']
+  > Probando query: 'Trickerion - Pack d'Amélioration Edition Anniversaire'
+    Encontrados 0 resultados.
+  > Probando query: 'Trickerion -  d'Amélioration  Anniversaire'
+    Encontrados 0 resultados.
+  > Probando query: 'Trickerion'
+    Encontrados 21 resultados.
+    - Candidato: [388381] Rolling Realms: Trickerion Promo Pack (Conf: 25.0%, Score: 35.1)
+    - Candidato: [441548] Trickerion: Anniversary Edition (Conf: 50.0%, Score: 61.8)
+    - Candidato: [441341] Trickerion: Arcane Arts (Conf: 25.0%, Score: 53.3)
+    - Candidato: [255668] Trickerion: Collector's Edition (Conf: 25.0%, Score: 52.9)
+    - Candidato: [290975] Trickerion: Collector's Upgrade Pack (Conf: 25.0%, Score: 46.6)
+    - Candidato: [244358] Trickerion: Dahlgaard's Academy (Conf: 25.0%, Score: 44.1)
+    - Candidato: [172659] Trickerion: Dahlgaard's Gifts (Conf: 25.0%, Score: 48.5)
+    - Candidato: [255743] Trickerion: Dawn of Technology (Conf: 25.0%, Score: 47.8)
+    - Candidato: [163068] Trickerion: Legends of Illusion (Conf: 25.0%, Score: 50.0)
+    - Candidato: [340374] Trickerion: Legends of Illusion – Kickstarter Exclusive Legend Box (Conf: 25.0%, Score: 45.5)
+    - Candidato: [266238] Trickerion: The Secret Workshop (Conf: 25.0%, Score: 47.1)
+    - Candidato: [388381] Rolling Realms: Trickerion Promo Pack (Conf: 25.0%, Score: 35.1)
+    - Candidato: [441341] Trickerion: Arcane Arts (Conf: 25.0%, Score: 53.3)
+    - Candidato: [290975] Trickerion: Collector's Upgrade Pack (Conf: 25.0%, Score: 46.6)
+    - Candidato: [244358] Trickerion: Dahlgaard's Academy (Conf: 25.0%, Score: 44.1)
+    - Candidato: [172659] Trickerion: Dahlgaard's Gifts (Conf: 25.0%, Score: 48.5)
+    - Candidato: [255743] Trickerion: Dawn of Technology (Conf: 25.0%, Score: 47.8)
+    - Candidato: [266238] Trickerion: The Secret Workshop (Conf: 25.0%, Score: 47.1)
+GANADOR: ID 441548 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Space Kraken - Epic Edition' ---
+Estrategias: ['Space Kraken', 'Space Kraken - Epic', 'Space', 'Space Kraken - Epic Edition']
+  > Probando query: 'Space Kraken - Epic Edition'
+    Encontrados 0 resultados.
+  > Probando query: 'Space Kraken - Epic'
+    Encontrados 0 resultados.
+  > Probando query: 'Space Kraken'
+    Encontrados 2 resultados.
+    - Candidato: [336031] Space Kraken (Conf: 66.7%, Score: 82.8)
+  > Probando query: 'Space'
+    Encontrados 2284 resultados.
+    - Candidato: [439703] 2001: A Space Odyssey | The Board Game (Conf: 33.3%, Score: 34.6)
+    - Candidato: [754] 2001: The space age game (Conf: 33.3%, Score: 50.0)
+    - Candidato: [208662] 2349: Space Prospectors (Conf: 33.3%, Score: 46.2)
+    - Candidato: [424739] 2525: Spaceships and skytrains (Conf: 0.0%, Score: 43.5)
+    - Candidato: [303719] 4 Space Potatoes (Conf: 33.3%, Score: 48.5)
+    - Candidato: [192733] 5150: Fringe Space (Conf: 33.3%, Score: 29.4)
+    - Candidato: [165238] 97 Cent Space Battle (Conf: 33.3%, Score: 43.2)
+    - Candidato: [463806] Ace of Spades: Ace of Base and Ace of Space (Conf: 33.3%, Score: 16.9)
+    - Candidato: [7262] Ace Trump Game: Space Rockets (Conf: 33.3%, Score: 40.0)
+    - Candidato: [305044] Across a Deadly Space (Conf: 33.3%, Score: 26.3)
+    - Candidato: [8630] Advanced Space Crusade (Conf: 33.3%, Score: 46.2)
+    - Candidato: [158978] Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess (Conf: 33.3%, Score: 19.0)
+    - Candidato: [157420] Age of Space (Conf: 33.3%, Score: 34.5)
+    - Candidato: [101080] Age of Steam Expansion: Outer Space & Reversteam (Conf: 33.3%, Score: 25.8)
+    - Candidato: [383064] AI Space Puzzle (Conf: 33.3%, Score: 43.8)
+    - Candidato: [403153] AI Space Puzzle Bonus Pack: Extreme Scenarios (Conf: 33.3%, Score: 36.1)
+    - Candidato: [418955] AI Space Puzzle: Czarna seria (Conf: 33.3%, Score: 44.4)
+    - Candidato: [255729] Albedo: Space Pirates! (Conf: 33.3%, Score: 48.6)
+    - Candidato: [85964] Alien Frontiers: Space Crane (Conf: 33.3%, Score: 40.9)
+    - Candidato: [22555] Alien Race in Outer Space (Conf: 33.3%, Score: 23.8)
+    - Candidato: [8046] Alien Space Battle Manual (Conf: 33.3%, Score: 42.9)
+    - Candidato: [31138] Amazing Space Venture (Conf: 33.3%, Score: 47.4)
+    - Candidato: [291384] Ambitions of Space (Conf: 33.3%, Score: 28.6)
+    - Candidato: [258493] Amerika: Silverbird – Germany's Space Plane (Conf: 33.3%, Score: 28.1)
+    - Candidato: [207267] Among the Stars: Space Farms (Conf: 33.3%, Score: 31.8)
+GANADOR: ID 336031 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kiditop - Pack Chamois 60 Pièces' ---
+Estrategias: ['Kiditop - Pack Chamois 60 Pièces', 'Kiditop', 'Kiditop -  Chamois 60 Pièces']
+  > Probando query: 'Kiditop - Pack Chamois 60 Pièces'
+    Encontrados 0 resultados.
+  > Probando query: 'Kiditop -  Chamois 60 Pièces'
+    Encontrados 0 resultados.
+  > Probando query: 'Kiditop'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kiditop - Pack Renard 36 Pièces' ---
+Estrategias: ['Kiditop - Pack Renard 36 Pièces', 'Kiditop -  Renard 36 Pièces', 'Kiditop']
+  > Probando query: 'Kiditop - Pack Renard 36 Pièces'
+    Encontrados 0 resultados.
+  > Probando query: 'Kiditop -  Renard 36 Pièces'
+    Encontrados 0 resultados.
+  > Probando query: 'Kiditop'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Kiditop - Pack Marmotte 12 Pièces' ---
+Estrategias: ['Kiditop -  Marmotte 12 Pièces', 'Kiditop - Pack Marmotte 12 Pièces', 'Kiditop']
+  > Probando query: 'Kiditop - Pack Marmotte 12 Pièces'
+    Encontrados 0 resultados.
+  > Probando query: 'Kiditop -  Marmotte 12 Pièces'
+    Encontrados 0 resultados.
+  > Probando query: 'Kiditop'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Décors - Set de Zone de Terrain' ---
+Estrategias: ['W40K : Décors - Set de Zone de Terrain', 'W40K : Décors -   Zone  Terrain', 'W40K', 'W40K : Décors']
+  > Probando query: 'W40K : Décors - Set de Zone de Terrain'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Décors -   Zone  Terrain'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Décors'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Sceau Capitulaire - Pile de Missions 2026-27' ---
+Estrategias: ['W40K', 'W40K : Sceau Capitulaire - Pile  Missions 2026-27', 'W40K : Sceau Capitulaire', 'W40K : Sceau Capitulaire - Pile de Missions 2026-27']
+  > Probando query: 'W40K : Sceau Capitulaire - Pile de Missions 2026-27'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Sceau Capitulaire - Pile  Missions 2026-27'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Sceau Capitulaire'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Grotsnik - Eul' Frappadok' ---
+Estrategias: ['W40K : Grotsnik', 'W40K', "W40K : Grotsnik - Eul' Frappadok"]
+  > Probando query: 'W40K : Grotsnik - Eul' Frappadok'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Grotsnik'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rubik's Pulse' ---
+Estrategias: ["Rubik's Pulse", 'Rubik']
+  > Probando query: 'Rubik's Pulse'
+    Encontrados 0 resultados.
+  > Probando query: 'Rubik'
+    Encontrados 25 resultados.
+    - Candidato: [240130] Rubik's Battle (Conf: 66.7%, Score: 74.1)
+    - Candidato: [30382] Rubik's Brain Game (Conf: 66.7%, Score: 58.1)
+    - Candidato: [283609] Rubik's Cage (Conf: 66.7%, Score: 72.0)
+    - Candidato: [378068] Rubik's Capture (Conf: 66.7%, Score: 78.6)
+    - Candidato: [47327] Rubik's Card Game (Conf: 66.7%, Score: 60.0)
+    - Candidato: [13973] Rubik's Checkers Challenge (Conf: 66.7%, Score: 51.3)
+    - Candidato: [7801] Rubik's Cube Card Game (Conf: 66.7%, Score: 57.1)
+    - Candidato: [407654] Rubik's Cube It (Conf: 66.7%, Score: 71.4)
+    - Candidato: [3081] Rubik's Flip (Conf: 66.7%, Score: 72.0)
+    - Candidato: [9734] Rubik's Game (Conf: 66.7%, Score: 72.0)
+    - Candidato: [5167] Rubik's Illusion (Conf: 66.7%, Score: 69.0)
+    - Candidato: [10060] Rubik's Infinity (Conf: 66.7%, Score: 55.2)
+    - Candidato: [37493] Rubik's Line Up (Conf: 66.7%, Score: 64.3)
+    - Candidato: [285512] Rubik's Match (Conf: 66.7%, Score: 61.5)
+    - Candidato: [323301] Rubik's Perplexus Hybrid (Conf: 66.7%, Score: 59.5)
+    - Candidato: [614] Rubik's Race (Conf: 66.7%, Score: 72.0)
+    - Candidato: [464418] Rubik's Revenge: The Card Game (Conf: 66.7%, Score: 42.9)
+    - Candidato: [32601] Rubik's Revolution (Conf: 66.7%, Score: 58.1)
+GANADOR: ID 378068 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rubik's Tetris' ---
+Estrategias: ["Rubik's Tetris", 'Rubik']
+  > Probando query: 'Rubik's Tetris'
+    Encontrados 0 resultados.
+  > Probando query: 'Rubik'
+    Encontrados 25 resultados.
+    - Candidato: [240130] Rubik's Battle (Conf: 66.7%, Score: 71.4)
+    - Candidato: [30382] Rubik's Brain Game (Conf: 66.7%, Score: 56.2)
+    - Candidato: [283609] Rubik's Cage (Conf: 66.7%, Score: 69.2)
+    - Candidato: [378068] Rubik's Capture (Conf: 66.7%, Score: 69.0)
+    - Candidato: [47327] Rubik's Card Game (Conf: 66.7%, Score: 58.1)
+    - Candidato: [13973] Rubik's Checkers Challenge (Conf: 66.7%, Score: 55.0)
+    - Candidato: [7801] Rubik's Cube Card Game (Conf: 66.7%, Score: 55.6)
+    - Candidato: [407654] Rubik's Cube It (Conf: 66.7%, Score: 62.1)
+    - Candidato: [3081] Rubik's Flip (Conf: 66.7%, Score: 69.2)
+    - Candidato: [9734] Rubik's Game (Conf: 66.7%, Score: 69.2)
+    - Candidato: [5167] Rubik's Illusion (Conf: 66.7%, Score: 66.7)
+    - Candidato: [10060] Rubik's Infinity (Conf: 66.7%, Score: 60.0)
+    - Candidato: [37493] Rubik's Line Up (Conf: 66.7%, Score: 62.1)
+    - Candidato: [285512] Rubik's Match (Conf: 66.7%, Score: 66.7)
+    - Candidato: [323301] Rubik's Perplexus Hybrid (Conf: 66.7%, Score: 57.9)
+    - Candidato: [614] Rubik's Race (Conf: 66.7%, Score: 69.2)
+    - Candidato: [464418] Rubik's Revenge: The Card Game (Conf: 66.7%, Score: 51.2)
+    - Candidato: [32601] Rubik's Revolution (Conf: 66.7%, Score: 62.5)
+GANADOR: ID 240130 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: '4D Build Pokémon - Evoli' ---
+Estrategias: ['Build', '4D Build Pokémon', '4D Build Pokémon - Evoli']
+  > Probando query: '4D Build Pokémon - Evoli'
+    Encontrados 0 resultados.
+  > Probando query: '4D Build Pokémon'
+    Encontrados 0 resultados.
+  > Probando query: 'Build'
+    Encontrados 1373 resultados.
+    - Candidato: [190024] 100 Swords: The Chroma Dragon's Dungeon Builder Set (Conf: 25.0%, Score: 25.0)
+    - Candidato: [190026] 100 Swords: The Darkness Dungeon Builder Set (Conf: 25.0%, Score: 27.7)
+    - Candidato: [216576] 100 Swords: The Gardenin' Elm's Dungeon Builder Set (Conf: 25.0%, Score: 25.4)
+    - Candidato: [190020] 100 Swords: The Glowing Plasmapede's Dungeon Builder Set (Conf: 25.0%, Score: 23.4)
+    - Candidato: [213270] 100 Swords: The Great Garuda's Dungeon Builder Set (Conf: 25.0%, Score: 25.4)
+    - Candidato: [216577] 100 Swords: The Heads of the Hydra Dungeon Builder Set (Conf: 25.0%, Score: 24.0)
+    - Candidato: [213271] 100 Swords: The Hive Empress's Dungeon Builder Set (Conf: 25.0%, Score: 25.4)
+    - Candidato: [190022] 100 Swords: The Magic Computer's Dungeon Builder Set (Conf: 25.0%, Score: 24.7)
+    - Candidato: [7823] 1837: Rail Building in the Austro-Hungarian Empire (Conf: 0.0%, Score: 33.8)
+    - Candidato: [245223] 1883: Building Railroads in Northern Italy (Conf: 0.0%, Score: 38.1)
+    - Candidato: [37081] 18IA: Building Iowa's Railroads (Conf: 0.0%, Score: 34.6)
+    - Candidato: [114386] 18PA: The Dawn of Rail – Empire Building From The Seaboard to the Ohio (Conf: 0.0%, Score: 33.7)
+    - Candidato: [377721] 99 More BUILDZI Towers (Conf: 25.0%, Score: 40.9)
+    - Candidato: [211171] Above and Below: G@mebox Building Promo Card (Conf: 0.0%, Score: 40.0)
+    - Candidato: [208201] Above and Below: Watch It Played Building Promo Card (Conf: 0.0%, Score: 35.6)
+    - Candidato: [352843] Adventure Builder (Conf: 25.0%, Score: 41.0)
+    - Candidato: [261591] Age of Towers: Building Set (Conf: 0.0%, Score: 33.3)
+    - Candidato: [145355] Agricola: All Creatures Big and Small – Even More Buildings Big and Small (Conf: 0.0%, Score: 21.7)
+    - Candidato: [130752] Agricola: All Creatures Big and Small – More Buildings Big and Small (Conf: 0.0%, Score: 23.0)
+    - Candidato: [430259] Alhambra: Building Sites (Conf: 0.0%, Score: 35.6)
+    - Candidato: [252420] Alhambra: Designers' Expansion – Alhambra Zoo / Buildings of Power / Travelling Craftsmen (Conf: 0.0%, Score: 29.1)
+    - Candidato: [252424] Alhambra: Designers' Expansion – Extensions / The New Building Ground (Conf: 0.0%, Score: 23.5)
+    - Candidato: [276836] Alhambra: Designers' Expansion – The Personal Building Markets / Caliph's Guidlines / Treasures (Conf: 0.0%, Score: 23.9)
+    - Candidato: [109139] Alhambra: Queenie 1 – The Magical Buildings (Conf: 0.0%, Score: 22.6)
+    - Candidato: [149274] Amerigo Queenie 3: Special Production Buildings and Tokens (Conf: 0.0%, Score: 30.4)
+GANADOR: ID 352843 con 25.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'W40K : Armageddon - La Saison du Feu' ---
+Estrategias: ['W40K', 'W40K : Armageddon -  Saison du Feu', 'W40K : Armageddon', 'W40K : Armageddon - La Saison du Feu']
+  > Probando query: 'W40K : Armageddon - La Saison du Feu'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Armageddon -  Saison du Feu'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K : Armageddon'
+    Encontrados 0 resultados.
+  > Probando query: 'W40K'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Nemesis: Retaliation - Space Cats' ---
+Estrategias: ['Nemesis: Retaliation', 'Nemesis: Retaliation - Space Cats', 'Nemesis']
+  > Probando query: 'Nemesis: Retaliation - Space Cats'
+    Encontrados 0 resultados.
+  > Probando query: 'Nemesis: Retaliation'
+    Encontrados 13 resultados.
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 57.1)
+    - Candidato: [381248] Nemesis: Retaliation (Conf: 50.0%, Score: 77.6)
+    - Candidato: [408420] Nemesis: Retaliation – Sangrevores Expansion (Conf: 50.0%, Score: 67.6)
+    - Candidato: [411053] Nemesis: Retaliation – Stretch Goals (Conf: 50.0%, Score: 73.0)
+    - Candidato: [408263] Nemesis: Retaliation – Support Squad Expansion (Conf: 50.0%, Score: 65.8)
+    - Candidato: [406962] Nemesis: Retaliation – Untold Stories #4 (Conf: 50.0%, Score: 69.7)
+    - Candidato: [407821] Nemesis: Retaliation – Xyrians Expansion (Conf: 50.0%, Score: 71.6)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 57.1)
+    - Candidato: [408420] Nemesis: Retaliation – Sangrevores Expansion (Conf: 50.0%, Score: 67.6)
+    - Candidato: [411053] Nemesis: Retaliation – Stretch Goals (Conf: 50.0%, Score: 73.0)
+    - Candidato: [408263] Nemesis: Retaliation – Support Squad Expansion (Conf: 50.0%, Score: 65.8)
+    - Candidato: [406962] Nemesis: Retaliation – Untold Stories #4 (Conf: 50.0%, Score: 69.7)
+    - Candidato: [407821] Nemesis: Retaliation – Xyrians Expansion (Conf: 50.0%, Score: 71.6)
+  > Probando query: 'Nemesis'
+    Encontrados 203 resultados.
+    - Candidato: [200959] 1813: Napoleon's Nemesis (Conf: 25.0%, Score: 26.4)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 25.0%, Score: 29.8)
+    - Candidato: [434325] Aeon Trespass: Doom of Pythagora's Nemesis Expansion (Conf: 25.0%, Score: 32.1)
+    - Candidato: [434327] Aeon Trespass: Lelegean Justice Nemesis Expansion (Conf: 25.0%, Score: 33.3)
+    - Candidato: [434320] Aeon Trespass: Prime Nietzschean Major Nemesis (Conf: 25.0%, Score: 18.7)
+    - Candidato: [381298] Animus: Nemesis (Conf: 25.0%, Score: 31.8)
+    - Candidato: [328271] Core Worlds: Nemesis (Conf: 25.0%, Score: 28.6)
+    - Candidato: [362882] DC Deck-Building Game: Nemesis Promo Pack (Conf: 25.0%, Score: 40.0)
+    - Candidato: [409575] Divinity Original Sin: Nemesis Expansion (Conf: 25.0%, Score: 37.7)
+    - Candidato: [366788] Doctor Who: Nemesis (Conf: 25.0%, Score: 29.2)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 25.0%, Score: 34.2)
+    - Candidato: [10667] Hybrid: Expansion 1 – Nemesis (Conf: 25.0%, Score: 25.0)
+    - Candidato: [213016] Kreus: Châtiment de Némésis (Conf: 25.0%, Score: 25.0)
+    - Candidato: [190566] Krosmaster: Arena – Nemesis Samurai (Conf: 25.0%, Score: 35.5)
+    - Candidato: [244912] Lords of Hellas: Nemesis Promo Adrestia (Conf: 25.0%, Score: 38.2)
+    - Candidato: [239751] Magic: The Gathering – Nemesis (Conf: 25.0%, Score: 24.6)
+    - Candidato: [292488] Mystic Vale: Nemesis (Conf: 25.0%, Score: 28.6)
+    - Candidato: [259133] Mythic Wars: Nemesis (Conf: 25.0%, Score: 28.6)
+    - Candidato: [3481] Nemesis (Conf: 25.0%, Score: 37.8)
+    - Candidato: [20818] Nemesis (Conf: 25.0%, Score: 37.8)
+    - Candidato: [167355] Nemesis (Conf: 25.0%, Score: 37.8)
+    - Candidato: [406548] Nemesis Collectible Card Game (Conf: 25.0%, Score: 50.8)
+    - Candidato: [210233] The Nemesis Crown (Conf: 25.0%, Score: 46.8)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 57.1)
+    - Candidato: [295927] Nemesis: Achievement Cards (Conf: 25.0%, Score: 54.5)
+GANADOR: ID 381248 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Nemesis: Retaliation - Terrain Pack' ---
+Estrategias: ['Nemesis', 'Nemesis: Retaliation', 'Nemesis: Retaliation - Terrain', 'Nemesis: Retaliation - Terrain Pack']
+  > Probando query: 'Nemesis: Retaliation - Terrain Pack'
+    Encontrados 0 resultados.
+  > Probando query: 'Nemesis: Retaliation - Terrain'
+    Encontrados 0 resultados.
+  > Probando query: 'Nemesis: Retaliation'
+    Encontrados 13 resultados.
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 66.7%, Score: 59.3)
+    - Candidato: [381248] Nemesis: Retaliation (Conf: 66.7%, Score: 82.6)
+    - Candidato: [408420] Nemesis: Retaliation – Sangrevores Expansion (Conf: 66.7%, Score: 73.5)
+    - Candidato: [411053] Nemesis: Retaliation – Stretch Goals (Conf: 66.7%, Score: 76.7)
+    - Candidato: [408263] Nemesis: Retaliation – Support Squad Expansion (Conf: 66.7%, Score: 71.4)
+    - Candidato: [406962] Nemesis: Retaliation – Untold Stories #4 (Conf: 66.7%, Score: 69.8)
+    - Candidato: [407821] Nemesis: Retaliation – Xyrians Expansion (Conf: 66.7%, Score: 75.0)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 66.7%, Score: 59.3)
+    - Candidato: [408420] Nemesis: Retaliation – Sangrevores Expansion (Conf: 66.7%, Score: 73.5)
+    - Candidato: [411053] Nemesis: Retaliation – Stretch Goals (Conf: 66.7%, Score: 76.7)
+    - Candidato: [408263] Nemesis: Retaliation – Support Squad Expansion (Conf: 66.7%, Score: 71.4)
+    - Candidato: [406962] Nemesis: Retaliation – Untold Stories #4 (Conf: 66.7%, Score: 69.8)
+    - Candidato: [407821] Nemesis: Retaliation – Xyrians Expansion (Conf: 66.7%, Score: 75.0)
+  > Probando query: 'Nemesis'
+    Encontrados 203 resultados.
+    - Candidato: [200959] 1813: Napoleon's Nemesis (Conf: 33.3%, Score: 28.0)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 33.3%, Score: 31.8)
+    - Candidato: [434325] Aeon Trespass: Doom of Pythagora's Nemesis Expansion (Conf: 33.3%, Score: 33.3)
+    - Candidato: [434327] Aeon Trespass: Lelegean Justice Nemesis Expansion (Conf: 33.3%, Score: 34.7)
+    - Candidato: [434320] Aeon Trespass: Prime Nietzschean Major Nemesis (Conf: 33.3%, Score: 19.4)
+    - Candidato: [381298] Animus: Nemesis (Conf: 33.3%, Score: 34.1)
+    - Candidato: [328271] Core Worlds: Nemesis (Conf: 33.3%, Score: 30.4)
+    - Candidato: [362882] DC Deck-Building Game: Nemesis Promo Pack (Conf: 33.3%, Score: 29.9)
+    - Candidato: [409575] Divinity Original Sin: Nemesis Expansion (Conf: 33.3%, Score: 39.4)
+    - Candidato: [366788] Doctor Who: Nemesis (Conf: 33.3%, Score: 31.1)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 33.3%, Score: 35.6)
+    - Candidato: [10667] Hybrid: Expansion 1 – Nemesis (Conf: 33.3%, Score: 26.4)
+    - Candidato: [213016] Kreus: Châtiment de Némésis (Conf: 33.3%, Score: 26.4)
+    - Candidato: [190566] Krosmaster: Arena – Nemesis Samurai (Conf: 33.3%, Score: 40.7)
+    - Candidato: [244912] Lords of Hellas: Nemesis Promo Adrestia (Conf: 33.3%, Score: 40.0)
+    - Candidato: [239751] Magic: The Gathering – Nemesis (Conf: 33.3%, Score: 25.9)
+    - Candidato: [292488] Mystic Vale: Nemesis (Conf: 33.3%, Score: 30.4)
+    - Candidato: [259133] Mythic Wars: Nemesis (Conf: 33.3%, Score: 30.4)
+    - Candidato: [3481] Nemesis (Conf: 33.3%, Score: 41.2)
+    - Candidato: [20818] Nemesis (Conf: 33.3%, Score: 41.2)
+    - Candidato: [167355] Nemesis (Conf: 33.3%, Score: 41.2)
+    - Candidato: [406548] Nemesis Collectible Card Game (Conf: 33.3%, Score: 46.4)
+    - Candidato: [210233] The Nemesis Crown (Conf: 33.3%, Score: 50.0)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 66.7%, Score: 59.3)
+    - Candidato: [295927] Nemesis: Achievement Cards (Conf: 33.3%, Score: 34.6)
+GANADOR: ID 381248 con 66.7% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Nemesis: Retaliation - Alternative Queen' ---
+Estrategias: ['Nemesis: Retaliation', 'Nemesis', 'Nemesis: Retaliation - Alternative Queen']
+  > Probando query: 'Nemesis: Retaliation - Alternative Queen'
+    Encontrados 0 resultados.
+  > Probando query: 'Nemesis: Retaliation'
+    Encontrados 13 resultados.
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 57.1)
+    - Candidato: [381248] Nemesis: Retaliation (Conf: 50.0%, Score: 67.9)
+    - Candidato: [408420] Nemesis: Retaliation – Sangrevores Expansion (Conf: 50.0%, Score: 66.7)
+    - Candidato: [411053] Nemesis: Retaliation – Stretch Goals (Conf: 50.0%, Score: 62.9)
+    - Candidato: [408263] Nemesis: Retaliation – Support Squad Expansion (Conf: 50.0%, Score: 65.0)
+    - Candidato: [406962] Nemesis: Retaliation – Untold Stories #4 (Conf: 50.0%, Score: 65.8)
+    - Candidato: [407821] Nemesis: Retaliation – Xyrians Expansion (Conf: 50.0%, Score: 67.6)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 57.1)
+    - Candidato: [408420] Nemesis: Retaliation – Sangrevores Expansion (Conf: 50.0%, Score: 66.7)
+    - Candidato: [411053] Nemesis: Retaliation – Stretch Goals (Conf: 50.0%, Score: 62.9)
+    - Candidato: [408263] Nemesis: Retaliation – Support Squad Expansion (Conf: 50.0%, Score: 65.0)
+    - Candidato: [406962] Nemesis: Retaliation – Untold Stories #4 (Conf: 50.0%, Score: 65.8)
+    - Candidato: [407821] Nemesis: Retaliation – Xyrians Expansion (Conf: 50.0%, Score: 67.6)
+  > Probando query: 'Nemesis'
+    Encontrados 203 resultados.
+    - Candidato: [200959] 1813: Napoleon's Nemesis (Conf: 25.0%, Score: 23.3)
+    - Candidato: [466594] 20 Strong: Nemesis (Conf: 25.0%, Score: 25.9)
+    - Candidato: [434325] Aeon Trespass: Doom of Pythagora's Nemesis Expansion (Conf: 25.0%, Score: 29.5)
+    - Candidato: [434327] Aeon Trespass: Lelegean Justice Nemesis Expansion (Conf: 25.0%, Score: 30.6)
+    - Candidato: [434320] Aeon Trespass: Prime Nietzschean Major Nemesis (Conf: 25.0%, Score: 17.1)
+    - Candidato: [381298] Animus: Nemesis (Conf: 25.0%, Score: 27.5)
+    - Candidato: [328271] Core Worlds: Nemesis (Conf: 25.0%, Score: 25.0)
+    - Candidato: [362882] DC Deck-Building Game: Nemesis Promo Pack (Conf: 25.0%, Score: 26.0)
+    - Candidato: [409575] Divinity Original Sin: Nemesis Expansion (Conf: 25.0%, Score: 34.2)
+    - Candidato: [366788] Doctor Who: Nemesis (Conf: 25.0%, Score: 25.5)
+    - Candidato: [438984] Earth Under Siege: Flashpoint – Nemesis Expansion (Conf: 25.0%, Score: 31.3)
+    - Candidato: [10667] Hybrid: Expansion 1 – Nemesis (Conf: 25.0%, Score: 22.2)
+    - Candidato: [213016] Kreus: Châtiment de Némésis (Conf: 25.0%, Score: 22.2)
+    - Candidato: [190566] Krosmaster: Arena – Nemesis Samurai (Conf: 25.0%, Score: 31.9)
+    - Candidato: [244912] Lords of Hellas: Nemesis Promo Adrestia (Conf: 25.0%, Score: 34.7)
+    - Candidato: [239751] Magic: The Gathering – Nemesis (Conf: 25.0%, Score: 21.9)
+    - Candidato: [292488] Mystic Vale: Nemesis (Conf: 25.0%, Score: 25.0)
+    - Candidato: [259133] Mythic Wars: Nemesis (Conf: 25.0%, Score: 25.0)
+    - Candidato: [3481] Nemesis (Conf: 25.0%, Score: 31.8)
+    - Candidato: [20818] Nemesis (Conf: 25.0%, Score: 31.8)
+    - Candidato: [167355] Nemesis (Conf: 25.0%, Score: 31.8)
+    - Candidato: [406548] Nemesis Collectible Card Game (Conf: 25.0%, Score: 45.5)
+    - Candidato: [210233] The Nemesis Crown (Conf: 25.0%, Score: 40.7)
+    - Candidato: [451355] Nemesis Retaliation: Exertion Mini-expansion Promo Pack (Conf: 50.0%, Score: 57.1)
+    - Candidato: [295927] Nemesis: Achievement Cards (Conf: 25.0%, Score: 41.9)
+GANADOR: ID 381248 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Cubz' ---
+Estrategias: ['Cubz']
+  > Probando query: 'Cubz'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Evidemment !?' ---
+Estrategias: ['Evidemment', 'Evidemment !?']
+  > Probando query: 'Evidemment !?'
+    Encontrados 0 resultados.
+  > Probando query: 'Evidemment'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Blingo' ---
+Estrategias: ['Blingo']
+  > Probando query: 'Blingo'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Match My Freak' ---
+Estrategias: ['Match My Freak', 'Match']
+  > Probando query: 'Match My Freak'
+    Encontrados 0 resultados.
+  > Probando query: 'Match'
+    Encontrados 547 resultados.
+    - Candidato: [340816] 101: le match (Conf: 33.3%, Score: 38.5)
+    - Candidato: [83270] ABeeC Match Game (Conf: 33.3%, Score: 53.3)
+    - Candidato: [13079] Addition Matching Caps (Conf: 0.0%, Score: 38.9)
+    - Candidato: [7688] Aggies Matching Game (Conf: 0.0%, Score: 47.1)
+    - Candidato: [74158] Alphabet Match Me (Conf: 33.3%, Score: 51.6)
+    - Candidato: [187891] Animal Match Puzzle Cards (Conf: 33.3%, Score: 41.0)
+    - Candidato: [11777] Animal Mix and Match (Conf: 33.3%, Score: 29.4)
+    - Candidato: [310785] Arthur's Match 'Em Up! Game (Conf: 33.3%, Score: 46.2)
+    - Candidato: [229413] Aurora Strike Wrestling Group: Dark Match (Conf: 33.3%, Score: 18.5)
+    - Candidato: [130723] Banana Matcho (Conf: 33.3%, Score: 37.0)
+    - Candidato: [34734] Barbie Flip-'N-Match (Conf: 33.3%, Score: 30.3)
+    - Candidato: [137454] Bat Match (Conf: 33.3%, Score: 43.5)
+    - Candidato: [12787] BBC Match Of The Day: Football Trivia (Conf: 33.3%, Score: 44.0)
+    - Candidato: [166646] The Beautiful Match (Conf: 33.3%, Score: 30.3)
+    - Candidato: [420321] Biały Zamek: Matcha (Conf: 33.3%, Score: 37.5)
+    - Candidato: [23390] Bible Action Heroes Matching Game (Conf: 0.0%, Score: 34.0)
+    - Candidato: [348948] Bible Animals: Click Clack Match (Conf: 33.3%, Score: 22.2)
+    - Candidato: [236739] Bible Books: Match (Conf: 33.3%, Score: 32.3)
+    - Candidato: [348949] Bible Match It Link It (Conf: 33.3%, Score: 44.4)
+    - Candidato: [31814] Bible Match Ups (Conf: 33.3%, Score: 41.4)
+    - Candidato: [74045] Bible Match-A-Verse, Book of Psalms (Conf: 33.3%, Score: 29.2)
+    - Candidato: [314010] Big Match (Conf: 33.3%, Score: 43.5)
+    - Candidato: [16952] The Big Match Football Game (Conf: 33.3%, Score: 39.0)
+    - Candidato: [350847] Big Western Match: Flipper (Conf: 33.3%, Score: 41.0)
+    - Candidato: [279981] Blood Bowl (2016 Edition): Match Inducements Card Pack (Conf: 33.3%, Score: 33.8)
+GANADOR: ID 83270 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hogaboo!' ---
+Estrategias: ['Hogaboo!', 'Hogaboo']
+  > Probando query: 'Hogaboo!'
+    Encontrados 0 resultados.
+  > Probando query: 'Hogaboo'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Combomino' ---
+Estrategias: ['Combomino']
+  > Probando query: 'Combomino'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Hamstergeddon' ---
+Estrategias: ['Hamstergeddon']
+  > Probando query: 'Hamstergeddon'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Stack O' Cats: Short Stacks' ---
+Estrategias: ['Stack', "Stack O' Cats: Short Stacks", "Stack O' Cats"]
+  > Probando query: 'Stack O' Cats: Short Stacks'
+    Encontrados 0 resultados.
+  > Probando query: 'Stack O' Cats'
+    Encontrados 1 resultados.
+    - Candidato: [427942] Stack O' Cats (Conf: 80.0%, Score: 64.9)
+  > Probando query: 'Stack'
+    Encontrados 222 resultados.
+    - Candidato: [242214] 5 Stack (Conf: 40.0%, Score: 37.5)
+    - Candidato: [230890] Animal upon Animal: Memory Stacking (Conf: 0.0%, Score: 47.5)
+    - Candidato: [236556] Artifact Stack (Conf: 40.0%, Score: 51.3)
+    - Candidato: [65425] Astro Stack (Conf: 40.0%, Score: 50.0)
+    - Candidato: [343120] Barely Balanced: The Stunt Stacking Game – Troublemakers Expansion (Conf: 0.0%, Score: 22.7)
+    - Candidato: [276282] Blockers: The Stacking Game (Conf: 0.0%, Score: 43.1)
+    - Candidato: [191205] Bygg en stack (Conf: 40.0%, Score: 36.8)
+    - Candidato: [368752] Cactus Stack (Conf: 40.0%, Score: 54.1)
+    - Candidato: [2922] Chair Stacking Game (Conf: 0.0%, Score: 36.4)
+    - Candidato: [446156] Chonk Stack (Conf: 40.0%, Score: 50.0)
+    - Candidato: [403799] Chop Stacks (Conf: 40.0%, Score: 55.6)
+    - Candidato: [43346] Chunk Stacker (Conf: 20.0%, Score: 42.1)
+    - Candidato: [11836] Code Stack! (Conf: 40.0%, Score: 45.7)
+    - Candidato: [421024] COLOR STACK (Conf: 40.0%, Score: 55.6)
+    - Candidato: [455413] Color Stack Match! (Conf: 40.0%, Score: 42.9)
+    - Candidato: [3656] Connect 4 Stackers (Conf: 20.0%, Score: 41.9)
+    - Candidato: [172033] Crab Stack (Conf: 40.0%, Score: 40.0)
+    - Candidato: [459285] Crack & Stack (Conf: 40.0%, Score: 50.0)
+    - Candidato: [55243] Cranium Bloom: Let's Play Sandwich Stacker Cookout Game (Conf: 20.0%, Score: 30.4)
+    - Candidato: [55244] Cranium Bloom: Let's Play Sandwich Stacker Lunchtime Game (Conf: 20.0%, Score: 29.6)
+    - Candidato: [29449] Death Stacks (Conf: 40.0%, Score: 54.1)
+    - Candidato: [218640] Dice Stack (Conf: 40.0%, Score: 40.0)
+    - Candidato: [416860] Dice Stackers (Conf: 20.0%, Score: 42.1)
+    - Candidato: [332840] Disney Tsum Tsum  Stacking Dice Game (Conf: 0.0%, Score: 40.0)
+    - Candidato: [217323] Disney Tsum Tsum Mancala Super Stack (Conf: 40.0%, Score: 45.9)
+GANADOR: ID 427942 con 80.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gwent: Legendary Ballad Heroes - Monsters' ---
+Estrategias: ['Gwent', 'Gwent: Legendary Ballad Heroes', 'Gwent: Legendary Ballad Heroes - Monsters']
+  > Probando query: 'Gwent: Legendary Ballad Heroes - Monsters'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent: Legendary Ballad Heroes'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent'
+    Encontrados 7 resultados.
+    - Candidato: [178147] Gwent: Monsters and Scoia'tael (Conf: 40.0%, Score: 41.8)
+    - Candidato: [209530] Gwent: Nilfgaard and Northern Realms (Conf: 20.0%, Score: 43.8)
+    - Candidato: [434222] Gwent: The Legendary Card Game (Conf: 40.0%, Score: 59.7)
+GANADOR: ID 434222 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gwent: Legendary Ballad Heroes - Nilfgaard' ---
+Estrategias: ['Gwent', 'Gwent: Legendary Ballad Heroes - Nilfgaard', 'Gwent: Legendary Ballad Heroes']
+  > Probando query: 'Gwent: Legendary Ballad Heroes - Nilfgaard'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent: Legendary Ballad Heroes'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent'
+    Encontrados 7 resultados.
+    - Candidato: [178147] Gwent: Monsters and Scoia'tael (Conf: 20.0%, Score: 38.2)
+    - Candidato: [209530] Gwent: Nilfgaard and Northern Realms (Conf: 40.0%, Score: 40.5)
+    - Candidato: [434222] Gwent: The Legendary Card Game (Conf: 40.0%, Score: 55.9)
+GANADOR: ID 434222 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gwent: Legendary Ballad Heroes - Scoia'Tael' ---
+Estrategias: ['Gwent', "Gwent: Legendary Ballad Heroes - Scoia'Tael", 'Gwent: Legendary Ballad Heroes']
+  > Probando query: 'Gwent: Legendary Ballad Heroes - Scoia'Tael'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent: Legendary Ballad Heroes'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent'
+    Encontrados 7 resultados.
+    - Candidato: [178147] Gwent: Monsters and Scoia'tael (Conf: 50.0%, Score: 58.0)
+    - Candidato: [209530] Gwent: Nilfgaard and Northern Realms (Conf: 16.7%, Score: 42.7)
+    - Candidato: [434222] Gwent: The Legendary Card Game (Conf: 33.3%, Score: 58.0)
+GANADOR: ID 178147 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gwent: Legendary Ballad Heroes - Skellige' ---
+Estrategias: ['Gwent: Legendary Ballad Heroes - Skellige', 'Gwent', 'Gwent: Legendary Ballad Heroes']
+  > Probando query: 'Gwent: Legendary Ballad Heroes - Skellige'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent: Legendary Ballad Heroes'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent'
+    Encontrados 7 resultados.
+    - Candidato: [178147] Gwent: Monsters and Scoia'tael (Conf: 20.0%, Score: 38.8)
+    - Candidato: [209530] Gwent: Nilfgaard and Northern Realms (Conf: 20.0%, Score: 43.8)
+    - Candidato: [434222] Gwent: The Legendary Card Game (Conf: 40.0%, Score: 59.7)
+GANADOR: ID 434222 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gwent: Legendary Ballad Heroes - Northern Realms' ---
+Estrategias: ['Gwent', 'Gwent: Legendary Ballad Heroes - Northern Realms', 'Gwent: Legendary Ballad Heroes']
+  > Probando query: 'Gwent: Legendary Ballad Heroes - Northern Realms'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent: Legendary Ballad Heroes'
+    Encontrados 0 resultados.
+  > Probando query: 'Gwent'
+    Encontrados 7 resultados.
+    - Candidato: [178147] Gwent: Monsters and Scoia'tael (Conf: 16.7%, Score: 35.1)
+    - Candidato: [209530] Gwent: Nilfgaard and Northern Realms (Conf: 50.0%, Score: 65.0)
+    - Candidato: [434222] Gwent: The Legendary Card Game (Conf: 33.3%, Score: 54.1)
+GANADOR: ID 209530 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Littoral Commander first second print' ---
+Estrategias: ['Littoral', 'Littoral Commander first second print']
+  > Probando query: 'Littoral Commander first second print'
+    Encontrados 0 resultados.
+  > Probando query: 'Littoral'
+    Encontrados 7 resultados.
+    - Candidato: [322308] L' Apéro Jeu du Littoral (Conf: 20.0%, Score: 26.7)
+    - Candidato: [406660] Littoral (Conf: 20.0%, Score: 35.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+    - Candidato: [355516] Littoral Commander: Indo-Pacific (Conf: 40.0%, Score: 64.7)
+    - Candidato: [389099] Littoral Commander: The Baltic (Conf: 40.0%, Score: 63.6)
+    - Candidato: [460369] Littoral Commander: Australia (Conf: 40.0%, Score: 70.8)
+GANADOR: ID 460369 con 40.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Unmatched Battle of Legends Volumen 3' ---
+Estrategias: ['Unmatched Battle of Legends Volumen 3', 'Unmatched']
+  > Probando query: 'Unmatched Battle of Legends Volumen 3'
+    Encontrados 0 resultados.
+  > Probando query: 'Unmatched'
+    Encontrados 36 resultados.
+    - Candidato: [381297] Unmatched Adventures: Tales to Amaze (Conf: 16.7%, Score: 55.6)
+    - Candidato: [425276] Unmatched Adventures: Teenage Mutant Ninja Turtles (Conf: 16.7%, Score: 37.2)
+    - Candidato: [429397] Unmatched Adventures: Teenage Mutant Ninja Turtles – Shredder and Krang (Conf: 16.7%, Score: 40.0)
+    - Candidato: [295564] Unmatched Game System (Conf: 16.7%, Score: 51.7)
+    - Candidato: [274637] Unmatched: Battle of Legends, Volume One (Conf: 83.3%, Score: 93.3)
+    - Candidato: [439765] Unmatched: Battle of Legends, Volume Three (Conf: 83.3%, Score: 90.9)
+    - Candidato: [335764] Unmatched: Battle of Legends, Volume Two (Conf: 83.3%, Score: 93.3)
+    - Candidato: [383467] Unmatched: Brains and Brawn (Conf: 16.7%, Score: 54.0)
+    - Candidato: [279645] Unmatched: Bruce Lee (Conf: 16.7%, Score: 57.1)
+    - Candidato: [315060] Unmatched: Buffy the Vampire Slayer (Conf: 16.7%, Score: 47.9)
+    - Candidato: [294484] Unmatched: Cobble & Fog (Conf: 16.7%, Score: 56.1)
+    - Candidato: [335386] Unmatched: Deadpool (Conf: 16.7%, Score: 50.9)
+    - Candidato: [326937] Unmatched: For King and Country (Conf: 16.7%, Score: 50.7)
+    - Candidato: [326934] Unmatched: Hell's Kitchen (Conf: 16.7%, Score: 42.6)
+    - Candidato: [451703] Unmatched: Hellboy (Conf: 16.7%, Score: 44.4)
+    - Candidato: [354544] Unmatched: Houdini vs. The Genie (Conf: 16.7%, Score: 50.7)
+    - Candidato: [284778] Unmatched: Jurassic Park – Dr. Sattler vs. T. Rex (Conf: 16.7%, Score: 47.5)
+    - Candidato: [284777] Unmatched: Jurassic Park – InGen vs Raptors (Conf: 16.7%, Score: 49.4)
+    - Candidato: [428308] Unmatched: Lee vs Ali (Conf: 16.7%, Score: 56.1)
+    - Candidato: [325635] Unmatched: Little Red Riding Hood vs. Beowulf (Conf: 16.7%, Score: 52.5)
+    - Candidato: [326933] Unmatched: Redemption Row (Conf: 16.7%, Score: 45.9)
+    - Candidato: [274638] Unmatched: Robin Hood vs. Bigfoot (Conf: 16.7%, Score: 50.0)
+    - Candidato: [415945] Unmatched: Slings and Arrows (Conf: 16.7%, Score: 43.8)
+    - Candidato: [451527] Unmatched: Stars and Stripes (Conf: 16.7%, Score: 50.0)
+    - Candidato: [383469] Unmatched: Sun's Origin (Conf: 16.7%, Score: 47.5)
+GANADOR: ID 335764 con 83.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Lobos Solitarios' ---
+Estrategias: ['Lobos', 'Lobos Solitarios']
+  > Probando query: 'Lobos Solitarios'
+    Encontrados 0 resultados.
+  > Probando query: 'Lobos'
+    Encontrados 18 resultados.
+    - Candidato: [8109] The Battle of Lobositz (Conf: 0.0%, Score: 36.8)
+    - Candidato: [113252] Battle of Lobositz, October 1, 1756 (Conf: 0.0%, Score: 32.7)
+    - Candidato: [41301] Dados Lobos (Conf: 50.0%, Score: 37.0)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [368058] Lobos (Conf: 50.0%, Score: 47.6)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+    - Candidato: [17536] Lobositz: First Battle of the Seven Years War (Conf: 0.0%, Score: 33.3)
+    - Candidato: [364904] Mystery Party in the Box: El cuento de los lobos Crepusculares (Conf: 50.0%, Score: 28.6)
+    - Candidato: [311912] Sombra de Lobos (Conf: 50.0%, Score: 32.3)
+    - Candidato: [219100] Uboot: Lobos de la Kriegsmarine (Conf: 50.0%, Score: 43.5)
+    - Candidato: [189169] Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte (Conf: 50.0%, Score: 19.5)
+    - Candidato: [58961] Juego de Tronos: El Juego de Cartas – Lobos del Norte (Conf: 50.0%, Score: 24.2)
+    - Candidato: [166326] Juego de Tronos: El Juego de Cartas – Tiempo de Lobos (Conf: 50.0%, Score: 15.2)
+    - Candidato: [221882] Lobositz: Expansion Kit (Conf: 0.0%, Score: 52.6)
+GANADOR: ID 368058 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Flores Escarchadas' ---
+Estrategias: ['Flores Escarchadas', 'Flores']
+  > Probando query: 'Flores Escarchadas'
+    Encontrados 0 resultados.
+  > Probando query: 'Flores'
+    Encontrados 29 resultados.
+    - Candidato: [450300] 50 flores (Conf: 50.0%, Score: 44.4)
+    - Candidato: [347421] Las Abejas: Flores Color Miel (Conf: 50.0%, Score: 34.8)
+    - Candidato: [374720] Disney Princess: Floresta Encantada (Conf: 50.0%, Score: 50.0)
+    - Candidato: [257614] Esy Floresy (Conf: 50.0%, Score: 41.4)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [295944] EXIT: O Jogo – A Floresta Encantada (Conf: 50.0%, Score: 52.0)
+    - Candidato: [346205] Exploradores da Floresta (Conf: 50.0%, Score: 33.3)
+    - Candidato: [433521] Festival da Floresta (Conf: 50.0%, Score: 36.8)
+    - Candidato: [137476] Las flores de colores de Laura (Conf: 50.0%, Score: 50.0)
+    - Candidato: [401501] Floresta (Conf: 50.0%, Score: 53.8)
+    - Candidato: [13904] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [333386] Floresta Encantada (Conf: 50.0%, Score: 72.2)
+    - Candidato: [204592] A Floresta Misteriosa (Conf: 50.0%, Score: 51.3)
+    - Candidato: [36363] Formando Flores (Conf: 50.0%, Score: 36.4)
+    - Candidato: [189603] El hada de las flores (Conf: 50.0%, Score: 30.8)
+    - Candidato: [36567] Jardin de flores (Conf: 50.0%, Score: 35.3)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+    - Candidato: [38750] El Parchís de las Flores (Conf: 50.0%, Score: 28.6)
+    - Candidato: [102875] O Senhor dos Anéis: Card Game – Retorno à Floresta das Trevas (Conf: 50.0%, Score: 26.3)
+    - Candidato: [339533] Tussie Mussie: Flores Naranjas (Conf: 50.0%, Score: 51.1)
+    - Candidato: [391163] Vida na Floresta (Conf: 50.0%, Score: 41.2)
+    - Candidato: [291182] Esy Floresy: Kwiaciarnia (Conf: 50.0%, Score: 53.7)
+    - Candidato: [443080] Kódem TCG: Flores y Tumbas (Conf: 50.0%, Score: 41.9)
+    - Candidato: [100221] Nightfall: Lisaveta Florescu Promo (Conf: 50.0%, Score: 31.4)
+GANADOR: ID 333386 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Decrypto Transmisión Segura' ---
+Estrategias: ['Decrypto Transmisión Segura', 'Decrypto']
+  > Probando query: 'Decrypto Transmisión Segura'
+    Encontrados 0 resultados.
+  > Probando query: 'Decrypto'
+    Encontrados 10 resultados.
+    - Candidato: [65952] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [225694] Decrypto (Conf: 33.3%, Score: 45.7)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+    - Candidato: [249122] Decrypto: AI Serial – Bruno Cathala 01 (Conf: 33.3%, Score: 51.6)
+    - Candidato: [248872] Decrypto: AI Serial – Rob Daviau 01 (Conf: 33.3%, Score: 50.8)
+    - Candidato: [273938] Decrypto: Expansion #01 – Laserdrive (Conf: 33.3%, Score: 64.4)
+    - Candidato: [280470] Decrypto: Klingon (Conf: 33.3%, Score: 55.8)
+GANADOR: ID 273938 con 33.3% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Balsa Salvaje' ---
+Estrategias: ['Balsa Salvaje', 'Balsa']
+  > Probando query: 'Balsa Salvaje'
+    Encontrados 0 resultados.
+  > Probando query: 'Balsa'
+    Encontrados 3 resultados.
+    - Candidato: [418273] La Balsa (Conf: 50.0%, Score: 47.6)
+GANADOR: ID 418273 con 50.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Vástagos sangre Arkham Horror 2026' ---
+Estrategias: ['Vástagos sangre Arkham Horror 2026', 'Vástagos']
+  > Probando query: 'Vástagos sangre Arkham Horror 2026'
+    Encontrados 0 resultados.
+  > Probando query: 'Vástagos'
+    Encontrados 4 resultados.
+    - Candidato: [299800] Escape Tales: Vástagos de Wyrmwood (Conf: 20.0%, Score: 44.8)
+GANADOR: ID 299800 con 20.0% confianza.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Ito' ---
+Estrategias: ['Ito']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'No temeré ningún mal Marvel Champions' ---
+Estrategias: ['No temeré ningún mal Marvel Champions', 'temeré']
+  > Probando query: 'No temeré ningún mal Marvel Champions'
+    Encontrados 0 resultados.
+  > Probando query: 'temeré'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Rukus' ---
+Estrategias: ['Rukus']
+  > Probando query: 'Rukus'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Uncoated' ---
+Estrategias: ['Uncoated']
+  > Probando query: 'Uncoated'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Fuzzballs Pizza Thief' ---
+Estrategias: ['Fuzzballs Pizza Thief', 'Fuzzballs']
+  > Probando query: 'Fuzzballs Pizza Thief'
+    Encontrados 0 resultados.
+  > Probando query: 'Fuzzballs'
+    Encontrados 1 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'GCSE - The GC's Secondary Education Game' ---
+Estrategias: ["GCSE - The GC's Secondary Education Game", 'GCSE', "GCSE - The GC's Secondary Education"]
+  > Probando query: 'GCSE - The GC's Secondary Education Game'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE - The GC's Secondary Education'
+    Encontrados 0 resultados.
+  > Probando query: 'GCSE'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'TMI' ---
+Estrategias: ['TMI']
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
+--- INICIO BÚSQUEDA: 'Gamophobia' ---
+Estrategias: ['Gamophobia']
+  > Probando query: 'Gamophobia'
+    Encontrados 0 resultados.
+FALLIDO: No se encontró ninguna coincidencia.
+--------------------------------------------------
