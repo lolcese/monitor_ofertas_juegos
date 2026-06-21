@@ -5,11 +5,17 @@
 *.db-journal
 *.sqlite
 
-# # Informes y Logs
-# *.txt
-# *.md
+# Informes y Logs
+*.log
+log_*.txt
+*_results.txt
+diag_output.txt
+scrape_log.txt
+output_test_phili*.txt
 
 # Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+venv/
+
