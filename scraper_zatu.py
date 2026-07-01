@@ -87,8 +87,20 @@ def scrape_zatu(source_key):
                 p_old = p_old_tag.text.strip() if p_old_tag else p_new
                 
                 # Limpiar texto extra en p_old (a veces dice "RRP: £XX.XX")
-                p_old = re.search(r'£\s*\d+[.,]\d+', p_old)
-                p_old = p_old.group(0) if p_old else p_new
+                p_old_search = re.search(r'£\s*\d+[.,]\d+', p_old)
+                p_old = p_old_search.group(0) if p_old_search else p_new
+
+                # Descontar el 20% de VAT (impuesto del Reino Unido) para pedidos internacionales
+                def remove_vat(price_str):
+                    match = re.search(r'\d+(?:\.\d+)?', price_str.replace(',', '.'))
+                    if match:
+                        val = float(match.group(0))
+                        val_no_vat = val / 1.20
+                        return f"£{val_no_vat:.2f}"
+                    return price_str
+
+                p_new = remove_vat(p_new)
+                p_old = remove_vat(p_old)
                 
                 img_tag = item.select_one('.product-card__image img')
                 img_url = ""
