@@ -58,7 +58,22 @@ def sync_images_to_public():
     conn = get_db_connection()
     try:
         cursor = conn.cursor()
-        cursor.execute("SELECT DISTINCT image_local FROM deals WHERE image_local IS NOT NULL AND image_local != '' AND date_found >= date('now', '-7 days')")
+        query = """
+        SELECT DISTINCT t.image_local
+        FROM (
+            SELECT d.image_local, d.url, d.deal_source, d.item_name,
+                   ROW_NUMBER() OVER (PARTITION BY d.url ORDER BY CAST(REPLACE(REPLACE(REPLACE(d.price, '€', ''), '$', ''), '£', '') AS FLOAT) ASC) as rn
+            FROM deals d
+            INNER JOIN (
+                SELECT deal_source, MAX(date_found) as latest_date 
+                FROM deals 
+                GROUP BY deal_source
+            ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
+        ) t
+        LEFT JOIN bgg_mapping m ON t.item_name = m.item_name
+        WHERE t.rn = 1 AND (m.bgg_id IS NULL OR m.bgg_id NOT IN ('IGNORED', 'WAITING')) AND t.image_local IS NOT NULL AND t.image_local != ''
+        """
+        cursor.execute(query)
         active_imgs = [r[0] for r in cursor.fetchall()]
         active_set = set(active_imgs)
         for img in active_imgs:
