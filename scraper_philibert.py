@@ -1,6 +1,7 @@
 import sys
 import os
 import datetime
+import json
 
 # Reconfigurar salida estándar para soportar caracteres unicode en consolas de Windows
 try:
@@ -62,200 +63,253 @@ def scrape_philibert(source_key):
         finally:
             conn.close()
 
-    p = 1
-    seen = set()
-    while p < 15:
-        if p == 1:
-            url = url_base
-        else:
-            url = f"{url_base}?p={p}"
-        
-        print(f"-> [PHILIBERT] Página {p} - Cargando...")
+    url_targets = [url_base]
+    if source_key == 'flash':
+        print("[PHILIBERT] Verificando si 'flash' es una página de categorías o lista directa...")
         try:
-            res = requests.get(url, headers=HEADERS_PHILI, timeout=15)
-            if res.status_code != 200: break
+            res = requests.get(url_base, headers=HEADERS_PHILI, timeout=15)
+            if res.status_code == 200:
+                soup = BeautifulSoup(res.content, 'html.parser')
+                items = soup.select('#product-list .product-card')
+                if not items:
+                    sub_urls = []
+                    for a in soup.find_all('a', href=True):
+                        href = a['href']
+                        href_clean = href.split('?')[0]
+                        if re.search(r'/fr/\d+-(?:soldes|flash-sales)', href_clean, re.I):
+                            # Evitar categorías que no sean de juegos de mesa (juegos de rol, miniaturas, accesorios, etc.)
+                            if any(kw in href_clean.lower() for kw in ['jeux-de-role', 'jeux-de-figurines', 'accessoires', 'peinture', 'role', 'figurines']):
+                                continue
+                            full_url = href
+                            if not full_url.startswith('http'):
+                                full_url = "https://www.philibertnet.com" + href
+                            if full_url not in sub_urls:
+                                sub_urls.append(full_url)
+                    if sub_urls:
+                        print(f"[PHILIBERT] Encontradas {len(sub_urls)} sub-páginas de ofertas:")
+                        for s_url in sub_urls:
+                            print(f"  - {s_url}")
+                        url_targets = sub_urls
+        except Exception as e:
+            print(f"[PHILIBERT] Error al verificar landing page: {e}")
+
+    seen = set()
+    for target in url_targets:
+        print(f"\n[PHILIBERT] Procesando ofertas de: {target}")
+        p = 1
+        while p < 15:
+            if p == 1:
+                url = target
+            else:
+                separator = "&" if "?" in target else "?"
+                url = f"{target}{separator}p={p}"
             
-            soup = BeautifulSoup(res.content, 'html.parser')
-            items = soup.select('#product-list .product-card')
-            
-            if source_key == 'private' and p == 1:
-                status_file = os.path.join(BASE_DIR, 'philibert_cookie_status.txt')
+            print(f"-> [PHILIBERT] Página {p} - Cargando...")
+            try:
+                res = requests.get(url, headers=HEADERS_PHILI, timeout=15)
+                if res.status_code != 200: break
                 
-                # Verificación fiable de sesión iniciada consultando la página de cuenta (evita cache de Cloudflare)
-                is_logged_in = False
-                try:
-                    verify_res = requests.get("https://www.philibertnet.com/fr/mon-compte", headers=HEADERS_PHILI, timeout=12)
-                    if verify_res.status_code == 200:
-                        is_logged_in = "deconnexion" in verify_res.text.lower() or "déconnexion" in verify_res.text.lower()
-                except Exception as e:
-                    print(f"[PHILIBERT] Error al verificar la sesión en mon-compte: {e}")
-                    is_logged_in = True  # En caso de error de red, asumimos que sigue siendo válida para no abortar
+                soup = BeautifulSoup(res.content, 'html.parser')
+                items = soup.select('#product-list .product-card')
                 
-                # Si hay productos pero no estamos logueados, la cookie no sirve
-                if len(items) > 0 and not is_logged_in:
-                    print("\n[!] ALERTA: La cookie de Philibert ha expirado o es inválida (no se detectó sesión iniciada en mon-compte).")
-                    print("[!] Abortando raspado de ventas privadas para no borrar ni sobreescribir con datos incorrectos.\n")
-                    try:
-                        with open(status_file, 'w', encoding='utf-8') as sf:
-                            sf.write("INVALID")
-                    except: pass
-                    return  # Abortar sin guardar nada
-                else:
-                    try:
-                        with open(status_file, 'w', encoding='utf-8') as sf:
-                            sf.write("VALID")
-                    except: pass
+                if source_key == 'private' and p == 1:
+                    status_file = os.path.join(BASE_DIR, 'philibert_cookie_status.txt')
                     
-                    # Cookie válida: procedemos a limpiar los registros de hoy de esta sección
+                    # Verificación fiable de sesión iniciada consultando la página de cuenta (evita cache de Cloudflare)
+                    is_logged_in = False
+                    try:
+                        verify_res = requests.get("https://www.philibertnet.com/fr/mon-compte", headers=HEADERS_PHILI, timeout=12)
+                        if verify_res.status_code == 200:
+                            is_logged_in = "deconnexion" in verify_res.text.lower() or "déconnexion" in verify_res.text.lower()
+                    except Exception as e:
+                        print(f"[PHILIBERT] Error al verificar la sesión en mon-compte: {e}")
+                        is_logged_in = True  # En caso de error de red, asumimos que sigue siendo válida para no abortar
+                    
+                    # Si hay productos pero no estamos logueados, la cookie no sirve
+                    if len(items) > 0 and not is_logged_in:
+                        print("\n[!] ALERTA: La cookie de Philibert ha expirado o es inválida (no se detectó sesión iniciada en mon-compte).")
+                        print("[!] Abortando raspado de ventas privadas para no borrar ni sobreescribir con datos incorrectos.\n")
+                        try:
+                            with open(status_file, 'w', encoding='utf-8') as sf:
+                                sf.write("INVALID")
+                        except: pass
+                        return  # Abortar sin guardar nada
+                    else:
+                        try:
+                            with open(status_file, 'w', encoding='utf-8') as sf:
+                                sf.write("VALID")
+                        except: pass
+                        
+                        # Cookie válida: procedemos a limpiar los registros de hoy de esta sección
+                        conn = get_db_connection()
+                        try:
+                            with conn:
+                                conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
+                        finally:
+                            conn.close()
+                items = soup.select('#product-list .product-card')
+                if not items: break
+                    
+                found_new = False
+                for item in items:
+                    a_tag = item.select_one('.product-card__title')
+                    if not a_tag: continue
+                    u = a_tag['href']
+                    if u.startswith('/'):
+                        u = "https://www.philibertnet.com" + u
+                        
+                    name = a_tag.text.strip()
+                    # LIMPIEZA DE RUIDO
+                    name = re.sub(r' - Occasion|\(Last Chance\)|\(Clearance\)|\(New Arrival\)|\(Preorder\)', '', name, flags=re.I).strip()
+                    
+                    # FILTRO DE PALABRAS IGNORADAS
+                    if any(k.lower() in name.lower() for k in IGNORE_KEYWORDS):
+                        continue
+                    
+                    # 1. Filtro rápido por Data Layer Event de Philibert (Evita juegos de rol, figuras, accesorios, pintura)
+                    data_attr = item.get('data-datalayer-event')
+                    if data_attr:
+                        try:
+                            data = json.loads(data_attr)
+                            cats = [str(data.get(f'item_category{suffix}', '')).lower() for suffix in ['', '2', '3', '4']]
+                            all_cats_str = " | ".join(cats)
+                            
+                            if any(kw in all_cats_str for kw in ['jeux de rôle', 'jeux de role', ' jdr', 'peinture', 'figurine', 'jeux de figurine', 'accessoire', 'pinceau', 'modélisme', 'modelisme', 'terrains', 'scénographie', 'puzzles', 'puzzle']):
+                                print(f"      [FILTER] Philibert Filtro DataLayer Cat: {all_cats_str} para {name}")
+                                conn_id = get_db_connection()
+                                try:
+                                    with conn_id:
+                                        conn_id.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", (name, 'IGNORED', 100, today))
+                                except: pass
+                                finally: conn_id.close()
+                                continue
+                        except Exception as ex:
+                            pass
+                    
+                    # FILTRO DE CATEGORÍA & CACHÉ DE IGNORADOS (OPTIMIZADO)
+                    conn_id = get_db_connection()
+                    is_rpg = False
+                    try:
+                        exists = conn_id.execute("SELECT bgg_id FROM bgg_mapping WHERE item_name=?", (name,)).fetchone()
+                        
+                        if exists and exists[0] == 'IGNORED':
+                            continue
+                            
+                        if not exists:
+                            # Solo entramos al detalle si no lo conocemos
+                            try:
+                                res_p = requests.get(u, headers=HEADERS_PHILI, timeout=8)
+                                if res_p.status_code == 200:
+                                    p_soup = BeautifulSoup(res_p.content, 'html.parser')
+                                    bc = p_soup.select_one('.breadcrumb')
+                                    if bc:
+                                        text = bc.text.lower()
+                                        # Palabras clave de categorías que NO son juegos de mesa
+                                        if any(kw in text for kw in ['jeux de rôle', 'wargames de figurines', 'accessoires', 'peinture', 'modélisme', 'pinceaux', 'scénographie', 'terrains']):
+                                            is_rpg = True
+                                            cat_display = bc.text.replace('\n', ' ').strip().split('/')[-1].strip()
+                                            print(f"      [FILTER] Philibert Filtro Categoría: {cat_display}")
+                                            with conn_id:
+                                                conn_id.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", (name, 'IGNORED', 100, today))
+                            except: pass
+                    finally:
+                        conn_id.close()
+                    
+                    if is_rpg: continue
+    
+                    if u in seen: continue
+                    seen.add(u)
+                    found_new = True
+                    
+                    print(f"   [ITEM] Philibert Procesando: {name}")
+                    
+                    p_new_tag = item.select_one('.product-card__price')
+                    p_old_tag = item.select_one('.product-card__price--old')
+                    
+                    # Fallback if both are the same or one is missing
+                    p_new = p_new_tag.text.strip() if p_new_tag else "0€"
+                    p_old = p_old_tag.text.strip() if p_old_tag else p_new
+                    
+                    if REMOVE_FRENCH_VAT:
+                        try:
+                            vn = float(p_new.replace('€', '').replace(',', '.').strip())
+                            vo = float(p_old.replace('€', '').replace(',', '.').strip())
+                            p_new = f"{vn / 1.20:.2f} €".replace('.', ',')
+                            p_old = f"{vo / 1.20:.2f} €".replace('.', ',')
+                        except:
+                            pass
+                    
+                    img_tag = item.select_one('img.product-card__thumb')
+                    img_url = img_tag['src'] if img_tag else ""
+    
+                    # 5. Mapeo BGG - OPTIMIZACION TOTAL & RESPETO A MANUALES
+                    id_b = None
+                    conf = 0
+                    is_final = False
+                    
+                    conn_c = get_db_connection()
+                    try:
+                        m_res = conn_c.execute("SELECT bgg_id, confidence, candidate_id FROM bgg_mapping WHERE item_name = ?", (name,)).fetchone()
+                        if m_res:
+                            bid_c, conf_c, cand_c = m_res
+                            # 1. Si es WAITING, IGNORED o MANUAL (100%), lo usamos tal cual y marcamos como final
+                            if bid_c in ['WAITING', 'IGNORED'] or conf_c == 100:
+                                id_b, conf = bid_c, conf_c
+                                is_final = True
+                            # 2. Si es un éxito automatizado previo (ID real + datos descargados)
+                            elif str(bid_c).isdigit():
+                                g_res = conn_c.execute("SELECT bgg_id FROM games WHERE bgg_id = ?", (bid_c,)).fetchone()
+                                if g_res: id_b, conf = bid_c, conf_c
+                            # 3. Sugerencia previa
+                            elif cand_c:
+                                id_b, conf = (cand_c, conf_c)
+                    finally: conn_c.close()
+    
+                    if not id_b and not is_final:
+                        id_b, conf = fetch_bgg_id(name, u, source=source_key)
+                        if id_b and str(id_b).isdigit() and conf >= 95:
+                            fetch_details(id_b)
+    
+                    # Clasificación Final
+                    if not is_final:
+                        if id_b in ['WAITING', 'IGNORED']:
+                            final_id = id_b
+                        else:
+                            final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else 'N/A'
+                        
+                        cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
+                        
+                        conn_u = get_db_connection()
+                        try:
+                            with conn_u:
+                                conn_u.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
+                        finally: conn_u.close()
+                        id_b = final_id
+    
+                    if id_b in ["IGNORED", "WAITING"]: continue
+    
                     conn = get_db_connection()
                     try:
                         with conn:
-                            conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
+                            # is_expansion check
+                            is_exp = any(k in name.lower() for k in ['extension','expansion','erweiterung','pack'])
+                            save_deal(conn, name, p_new, p_old, u, False, is_exp, source_key, "", img_url)
+                            
+                            if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
+                                rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
+                                conn.execute('''
+                                    INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
+                                    VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                                ''', (id_b, name, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
                     finally:
                         conn.close()
-            items = soup.select('#product-list .product-card')
-            if not items: break
                 
-            found_new = False
-            for item in items:
-                a_tag = item.select_one('.product-card__title')
-                if not a_tag: continue
-                u = a_tag['href']
-                if u.startswith('/'):
-                    u = "https://www.philibertnet.com" + u
-                    
-                name = a_tag.text.strip()
-                # LIMPIEZA DE RUIDO
-                name = re.sub(r' - Occasion|\(Last Chance\)|\(Clearance\)|\(New Arrival\)|\(Preorder\)', '', name, flags=re.I).strip()
-                
-                # FILTRO DE PALABRAS IGNORADAS
-                if any(k.lower() in name.lower() for k in IGNORE_KEYWORDS):
-                    continue
-                
-                # FILTRO DE CATEGORÍA & CACHÉ DE IGNORADOS (OPTIMIZADO)
-                conn_id = get_db_connection()
-                is_rpg = False
-                try:
-                    exists = conn_id.execute("SELECT bgg_id FROM bgg_mapping WHERE item_name=?", (name,)).fetchone()
-                    
-                    if exists and exists[0] == 'IGNORED':
-                        continue
-                        
-                    if not exists:
-                        # Solo entramos al detalle si no lo conocemos
-                        try:
-                            res_p = requests.get(u, headers=HEADERS_PHILI, timeout=8)
-                            if res_p.status_code == 200:
-                                p_soup = BeautifulSoup(res_p.content, 'html.parser')
-                                bc = p_soup.select_one('.breadcrumb')
-                                if bc:
-                                    text = bc.text.lower()
-                                    # Palabras clave de categorías que NO son juegos de mesa
-                                    if any(kw in text for kw in ['jeux de rôle', 'wargames de figurines', 'accessoires', 'peinture', 'modélisme', 'pinceaux', 'scénographie', 'terrains']):
-                                        is_rpg = True
-                                        cat_display = bc.text.replace('\n', ' ').strip().split('/')[-1].strip()
-                                        print(f"      [FILTER] Philibert Filtro Categoría: {cat_display}")
-                                        with conn_id:
-                                            conn_id.execute("INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search) VALUES (?,?,?,?)", (name, 'IGNORED', 100, today))
-                        except: pass
-                finally:
-                    conn_id.close()
-                
-                if is_rpg: continue
-
-                if u in seen: continue
-                seen.add(u)
-                found_new = True
-                
-                print(f"   [ITEM] Philibert Procesando: {name}")
-                
-                p_new_tag = item.select_one('.product-card__price')
-                p_old_tag = item.select_one('.product-card__price--old')
-                
-                # Fallback if both are the same or one is missing
-                p_new = p_new_tag.text.strip() if p_new_tag else "0€"
-                p_old = p_old_tag.text.strip() if p_old_tag else p_new
-                
-                if REMOVE_FRENCH_VAT:
-                    try:
-                        vn = float(p_new.replace('€', '').replace(',', '.').strip())
-                        vo = float(p_old.replace('€', '').replace(',', '.').strip())
-                        p_new = f"{vn / 1.20:.2f} €".replace('.', ',')
-                        p_old = f"{vo / 1.20:.2f} €".replace('.', ',')
-                    except:
-                        pass
-                
-                img_tag = item.select_one('img.product-card__thumb')
-                img_url = img_tag['src'] if img_tag else ""
-
-                # 5. Mapeo BGG - OPTIMIZACION TOTAL & RESPETO A MANUALES
-                id_b = None
-                conf = 0
-                is_final = False
-                
-                conn_c = get_db_connection()
-                try:
-                    m_res = conn_c.execute("SELECT bgg_id, confidence, candidate_id FROM bgg_mapping WHERE item_name = ?", (name,)).fetchone()
-                    if m_res:
-                        bid_c, conf_c, cand_c = m_res
-                        # 1. Si es WAITING, IGNORED o MANUAL (100%), lo usamos tal cual y marcamos como final
-                        if bid_c in ['WAITING', 'IGNORED'] or conf_c == 100:
-                            id_b, conf = bid_c, conf_c
-                            is_final = True
-                        # 2. Si es un éxito automatizado previo (ID real + datos descargados)
-                        elif str(bid_c).isdigit():
-                            g_res = conn_c.execute("SELECT bgg_id FROM games WHERE bgg_id = ?", (bid_c,)).fetchone()
-                            if g_res: id_b, conf = bid_c, conf_c
-                        # 3. Sugerencia previa
-                        elif cand_c:
-                            id_b, conf = (cand_c, conf_c)
-                finally: conn_c.close()
-
-                if not id_b and not is_final:
-                    id_b, conf = fetch_bgg_id(name, u, source=source_key)
-                    if id_b and str(id_b).isdigit() and conf >= 95:
-                        fetch_details(id_b)
-
-                # Clasificación Final
-                if not is_final:
-                    if id_b in ['WAITING', 'IGNORED']:
-                        final_id = id_b
-                    else:
-                        final_id = id_b if (conf >= 95 and str(id_b).isdigit()) else 'N/A'
-                    
-                    cand_id = id_b if (conf < 95 and str(id_b).isdigit()) else None
-                    
-                    conn_u = get_db_connection()
-                    try:
-                        with conn_u:
-                            conn_u.execute('INSERT OR REPLACE INTO bgg_mapping (item_name, bgg_id, confidence, last_search, candidate_id) VALUES (?,?,?,?,?)', (name, final_id, conf, today, cand_id))
-                    finally: conn_u.close()
-                    id_b = final_id
-
-                if id_b in ["IGNORED", "WAITING"]: continue
-
-                conn = get_db_connection()
-                try:
-                    with conn:
-                        # is_expansion check
-                        is_exp = any(k in name.lower() for k in ['extension','expansion','erweiterung','pack'])
-                        save_deal(conn, name, p_new, p_old, u, False, is_exp, source_key, "", img_url)
-                        
-                        if id_b and not conn.execute('SELECT bgg_id FROM games WHERE bgg_id=?', (id_b,)).fetchone():
-                            rat, rnk, gt, l_dep, o_name, wgt, minp, maxp, bestp = fetch_details(id_b)
-                            conn.execute('''
-                                INSERT OR REPLACE INTO games (bgg_id, name, rating, rank, type, last_updated, language_dependency, original_name, weight, min_players, max_players, best_players) 
-                                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
-                            ''', (id_b, name, rat, rnk, gt, today, l_dep, o_name, wgt, minp, maxp, bestp))
-                finally:
-                    conn.close()
-            
-            if not found_new: break
-            p += 1
-            time.sleep(1)
-        except Exception as e:
-            print(f"Error: {e}")
-            break
+                if not found_new: break
+                p += 1
+                time.sleep(1)
+            except Exception as e:
+                print(f"Error: {e}")
+                break
 
     # Guardar registro de la corrida exitosa
     update_last_run(source_key)

@@ -3,6 +3,7 @@ import datetime
 import requests
 import time
 import re
+import urllib.request
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
@@ -41,13 +42,14 @@ def scrape_zatu(source_key):
     while p < max_pages:
         separator = "&" if "?" in url_base else "?"
         url = f"{url_base}{separator}page={p}"
-        
         print(f"-> [ZATU] Página {p} - Cargando...")
         try:
-            res = requests.get(url, headers=HEADERS_GENERIC, timeout=15)
-            if res.status_code != 200: break
+            req = urllib.request.Request(url, headers=HEADERS_GENERIC)
+            with urllib.request.urlopen(req, timeout=15) as res:
+                if res.status != 200: break
+                html_content = res.read()
             
-            soup = BeautifulSoup(res.content, 'html.parser')
+            soup = BeautifulSoup(html_content, 'html.parser')
             
             # DETECTAR FIN DE PAGINACIÓN (Zatu devuelve cards vacías/ocultas al final)
             if "No products match those filters" in soup.get_text():
