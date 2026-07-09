@@ -67,8 +67,13 @@ def generate_inactive_report():
         FROM deals d
         LEFT JOIN bgg_mapping m ON d.item_name = m.item_name
         LEFT JOIN games g ON m.bgg_id = g.bgg_id
-        WHERE d.date_found < (SELECT MAX(date_found) FROM deals d2 WHERE d2.deal_source = d.deal_source)
-        AND d.item_name NOT IN (SELECT d3.item_name FROM deals d3 WHERE d3.date_found = (SELECT MAX(date_found) FROM deals d4 WHERE d4.deal_source = d3.deal_source))
+        WHERE d.date_found < COALESCE((SELECT last_run FROM scraper_runs WHERE scraper_runs.deal_source = d.deal_source), (SELECT MAX(date_found) FROM deals d2 WHERE d2.deal_source = d.deal_source))
+        AND d.item_name NOT IN (
+            SELECT d3.item_name FROM deals d3 WHERE d3.date_found = COALESCE(
+                (SELECT last_run FROM scraper_runs WHERE scraper_runs.deal_source = d3.deal_source),
+                (SELECT MAX(date_found) FROM deals d4 WHERE d4.deal_source = d3.deal_source)
+            )
+        )
         GROUP BY d.item_name
         ORDER BY last_seen DESC
         LIMIT 500

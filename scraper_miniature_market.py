@@ -6,7 +6,8 @@ import re
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
-    save_deal, NOISE_RE, IGNORE_KEYWORDS, HEADERS_GENERIC
+    save_deal, NOISE_RE, IGNORE_KEYWORDS, HEADERS_GENERIC,
+    update_last_run
 )
 
 SITE_NAME = 'Miniature Market'
@@ -196,6 +197,9 @@ def scrape_mm(source_key):
         except Exception as e:
             print(f"Error scraping MM: {e}")
             break
+
+    # Guardar registro de la corrida exitosa
+    update_last_run(source_tag)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

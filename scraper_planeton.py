@@ -5,7 +5,8 @@ import re
 import time
 from monitor_core import (
     get_db_connection, fetch_bgg_id, fetch_details, 
-    save_deal, NOISE_RE, IGNORE_KEYWORDS, HEADERS_GENERIC
+    save_deal, NOISE_RE, IGNORE_KEYWORDS, HEADERS_GENERIC,
+    update_last_run
 )
 
 # URLs de Planeton Games
@@ -168,6 +169,9 @@ def scrape_planeton(target='planeton'):
         time.sleep(3) # Cooldown entre páginas
 
     print(f"\n[OK] [PLANETON] {target} finalizado. Total: {total_new}")
+    
+    # Guardar registro de la corrida exitosa
+    update_last_run(source_tag)
 
 if __name__ == "__main__":
     import sys

@@ -218,7 +218,12 @@ class ScraperLauncher:
         try:
             from monitor_core import get_db_connection
             conn = get_db_connection()
-            rows = conn.execute("SELECT deal_source, MAX(date_found) FROM deals GROUP BY deal_source").fetchall(); conn.close()
+            rows = conn.execute("""
+                SELECT s.deal_source, COALESCE(r.last_run, MAX(s.date_found))
+                FROM deals s
+                LEFT JOIN scraper_runs r ON s.deal_source = r.deal_source
+                GROUP BY s.deal_source
+            """).fetchall(); conn.close()
             dates = {row[0]: row[1] for row in rows}
             mapping = {'flash': self.lbl_flash, 'occasion': self.lbl_occasion, 'private': self.lbl_private, 'preorder': self.lbl_phili_pre,
                        'mm_daily': self.lbl_mm_daily, 'mm_sales': self.lbl_mm_sales, 'mm_backrooms': self.lbl_mm_backrooms, 'mm_clearance': self.lbl_mm_clearance, 

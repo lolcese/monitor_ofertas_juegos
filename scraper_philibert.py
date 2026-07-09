@@ -13,7 +13,8 @@ import re
 from bs4 import BeautifulSoup
 from monitor_core import (
     get_db_connection, init_db, fetch_bgg_id, fetch_details, 
-    HEADERS_PHILI, save_deal, NOISE_RE, IGNORE_KEYWORDS, COOKIE, BASE_DIR
+    HEADERS_PHILI, save_deal, NOISE_RE, IGNORE_KEYWORDS, COOKIE, BASE_DIR,
+    update_last_run
 )
 
 # Configuración específica de Philibert
@@ -255,6 +256,9 @@ def scrape_philibert(source_key):
         except Exception as e:
             print(f"Error: {e}")
             break
+
+    # Guardar registro de la corrida exitosa
+    update_last_run(source_key)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

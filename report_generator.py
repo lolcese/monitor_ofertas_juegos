@@ -65,8 +65,11 @@ def sync_images_to_public():
                    ROW_NUMBER() OVER (PARTITION BY d.url ORDER BY CAST(REPLACE(REPLACE(REPLACE(d.price, '€', ''), '$', ''), '£', '') AS FLOAT) ASC) as rn
             FROM deals d
             INNER JOIN (
-                SELECT deal_source, MAX(date_found) as latest_date 
-                FROM deals 
+                SELECT deal_source, COALESCE(
+                    (SELECT last_run FROM scraper_runs WHERE scraper_runs.deal_source = s.deal_source),
+                    MAX(date_found)
+                ) as latest_date 
+                FROM deals s
                 GROUP BY deal_source
             ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
         ) t
@@ -118,8 +121,11 @@ def generate_report():
                    ROW_NUMBER() OVER (PARTITION BY d.url ORDER BY CAST(REPLACE(REPLACE(REPLACE(d.price, '€', ''), '$', ''), '£', '') AS FLOAT) ASC) as rn
             FROM deals d
             INNER JOIN (
-                SELECT deal_source, MAX(date_found) as latest_date 
-                FROM deals 
+                SELECT deal_source, COALESCE(
+                    (SELECT last_run FROM scraper_runs WHERE scraper_runs.deal_source = s.deal_source),
+                    MAX(date_found)
+                ) as latest_date 
+                FROM deals s
                 GROUP BY deal_source
             ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
         ) t
@@ -196,8 +202,11 @@ def get_source_counts():
         SELECT d.deal_source, COUNT(*) 
         FROM deals d
         INNER JOIN (
-            SELECT deal_source, MAX(date_found) as latest_date 
-            FROM deals 
+            SELECT deal_source, COALESCE(
+                (SELECT last_run FROM scraper_runs WHERE scraper_runs.deal_source = s.deal_source),
+                MAX(date_found)
+            ) as latest_date 
+            FROM deals s
             GROUP BY deal_source
         ) latest ON d.deal_source = latest.deal_source AND d.date_found = latest.latest_date
         GROUP BY d.deal_source

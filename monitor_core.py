@@ -307,6 +307,17 @@ def init_db():
             
             conn.execute('CREATE TABLE IF NOT EXISTS bgg_mapping (item_name TEXT PRIMARY KEY, bgg_id TEXT, confidence FLOAT, last_search DATE, candidate_id TEXT)')
             conn.execute('CREATE TABLE IF NOT EXISTS games (bgg_id TEXT PRIMARY KEY, name TEXT, rating TEXT, rank TEXT, type TEXT, last_updated DATE, language_dependency TEXT, original_name TEXT, weight TEXT, min_players INTEGER, max_players INTEGER, best_players TEXT)')
+            conn.execute('CREATE TABLE IF NOT EXISTS scraper_runs (deal_source TEXT PRIMARY KEY, last_run DATE)')
             conn.execute('CREATE INDEX IF NOT EXISTS idx_mapping_name ON bgg_mapping(item_name)')
     finally:
         conn.close()
+
+def update_last_run(deal_source):
+    today = datetime.date.today().isoformat()
+    conn = get_db_connection()
+    try:
+        with conn:
+            conn.execute('INSERT OR REPLACE INTO scraper_runs (deal_source, last_run) VALUES (?, ?)', (deal_source, today))
+    finally:
+        conn.close()
+
