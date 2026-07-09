@@ -75,15 +75,24 @@ def scrape_philibert(source_key):
             if res.status_code != 200: break
             
             soup = BeautifulSoup(res.content, 'html.parser')
-            items = soup.select('.product-card')
+            items = soup.select('#product-list .product-card')
             
             if source_key == 'private' and p == 1:
                 status_file = os.path.join(BASE_DIR, 'philibert_cookie_status.txt')
-                discounted_cards = len(soup.select('.product-card__price--old'))
                 
-                # Si hay productos pero ninguno tiene descuento, la cookie no sirve
-                if len(items) > 0 and discounted_cards == 0:
-                    print("\n[!] ALERTA: La cookie de Philibert ha expirado o es inválida (descuento 0 en todos los productos).")
+                # Verificación fiable de sesión iniciada consultando la página de cuenta (evita cache de Cloudflare)
+                is_logged_in = False
+                try:
+                    verify_res = requests.get("https://www.philibertnet.com/fr/mon-compte", headers=HEADERS_PHILI, timeout=12)
+                    if verify_res.status_code == 200:
+                        is_logged_in = "deconnexion" in verify_res.text.lower() or "déconnexion" in verify_res.text.lower()
+                except Exception as e:
+                    print(f"[PHILIBERT] Error al verificar la sesión en mon-compte: {e}")
+                    is_logged_in = True  # En caso de error de red, asumimos que sigue siendo válida para no abortar
+                
+                # Si hay productos pero no estamos logueados, la cookie no sirve
+                if len(items) > 0 and not is_logged_in:
+                    print("\n[!] ALERTA: La cookie de Philibert ha expirado o es inválida (no se detectó sesión iniciada en mon-compte).")
                     print("[!] Abortando raspado de ventas privadas para no borrar ni sobreescribir con datos incorrectos.\n")
                     try:
                         with open(status_file, 'w', encoding='utf-8') as sf:
@@ -103,7 +112,7 @@ def scrape_philibert(source_key):
                             conn.execute('DELETE FROM deals WHERE date_found=? AND deal_source=?', (today, source_key))
                     finally:
                         conn.close()
-            items = soup.select('.product-card')
+            items = soup.select('#product-list .product-card')
             if not items: break
                 
             found_new = False
