@@ -96,6 +96,14 @@ def main():
         f.write(content_to_write)
     print(f"[+] Cookie guardada localmente en: {local_file}")
     
+    # Actualizar estado de la cookie a VALID
+    status_file = os.path.join(BASE_DIR, 'philibert_cookie_status.txt')
+    try:
+        with open(status_file, 'w', encoding='utf-8') as sf:
+            sf.write("VALID")
+    except Exception:
+        pass
+    
     # Enviar al servidor remoto usando SCP
     if SSH_HOST == "ip_o_host_servidor" or SSH_USER == "usuario_servidor":
         print("\n[i] Nota: Si deseas subirla automáticamente al servidor remoto sin pasar por GitHub,")
