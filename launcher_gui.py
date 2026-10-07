@@ -265,13 +265,13 @@ class ScraperLauncher:
         threading.Thread(target=worker, daemon=True).start()
 
     def run_all_scrapers(self):
+        # Tareas para sincronización global (EXCLUYE Catálogo Planeton y MM Sales por volumen/lentitud)
         tasks = [
             ("Phili Flash", [sys.executable, "scraper_philibert.py", "flash"]),
             ("Phili Occasions", [sys.executable, "scraper_philibert.py", "occasion"]),
             ("Phili Private", [sys.executable, "scraper_philibert.py", "private"]),
             ("Phili Preorder", [sys.executable, "scraper_philibert.py", "preorder"]),
             ("MM Daily", [sys.executable, "scraper_miniature_market.py", "daily"]),
-            ("MM Sales", [sys.executable, "scraper_miniature_market.py", "sales"]),
             ("MM Backrooms", [sys.executable, "scraper_miniature_market.py", "backrooms"]),
             ("MM Clearance", [sys.executable, "scraper_miniature_market.py", "clearance"]),
             ("MM GameOn", [sys.executable, "scraper_miniature_market.py", "gameon"]),
