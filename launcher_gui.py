@@ -54,26 +54,7 @@ class ScraperLauncher:
         
         self.load_logos()
         
-        # Sincronizar cookie de Philibert automáticamente si estamos en Windows y no es válida la actual
-        if os.name == 'nt':
-            cookie_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'philibert_cookie.txt')
-            status_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'philibert_cookie_status.txt')
-            
-            should_sync = True
-            if os.path.exists(cookie_file) and os.path.exists(status_file):
-                try:
-                    with open(status_file, 'r', encoding='utf-8') as sf:
-                        if sf.read().strip() == "VALID":
-                            should_sync = False
-                except:
-                    pass
-                    
-            if should_sync:
-                try:
-                    from actualizar_cookie_remota import main as sync_cookie
-                    sync_cookie()
-                except Exception as e:
-                    print(f"Sincronización de cookie de Philibert omitida: {e}")
+        # Layout principal de la UI
         
         # --- UI LAYOUT ---
         main_frame = tk.Frame(root, bg=self.colors["bg"])
@@ -139,7 +120,16 @@ class ScraperLauncher:
     def create_phili_card(self, parent):
         card = tk.LabelFrame(parent, text=" 🇫🇷 PHILIBERT ", bg=self.colors["card"], fg=self.colors["text"], font=("Segoe UI", 10, "bold"), padx=10, pady=5, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
         card.pack(fill=tk.X, pady=(0, 10))
-        if self.logos["phili"]: tk.Label(card, image=self.logos["phili"], bg=self.colors["card"]).grid(row=0, column=0, columnspan=3, pady=(0,5))
+        
+        # Fila superior con logo y botón de gestión de Cookie
+        header_row = tk.Frame(card, bg=self.colors["card"])
+        header_row.grid(row=0, column=0, columnspan=3, sticky="ew", pady=(0, 5))
+        if self.logos["phili"]:
+            tk.Label(header_row, image=self.logos["phili"], bg=self.colors["card"]).pack(side=tk.LEFT)
+        
+        self.btn_cookie = tk.Button(header_row, text="🔑 Cookie", font=("Segoe UI", 8, "bold"), padx=6, pady=2, relief="flat", cursor="hand2", command=self.open_cookie_modal)
+        self.btn_cookie.pack(side=tk.RIGHT)
+        self.update_cookie_btn_status()
         
         tasks = [("FLASH Sales", "flash", "#f1c40f", "black", "lbl_flash"), ("Occasions", "occasion", "#8e44ad", "white", "lbl_occasion"), 
                  ("Ventes Privées", "private", "#2c3e50", "white", "lbl_private"), ("Précommandes", "preorder", "#16a085", "white", "lbl_phili_pre")]
@@ -232,6 +222,99 @@ class ScraperLauncher:
                        'zatu_sale': self.lbl_zatu, 'zatu_outlet': self.lbl_zatu_out}
             for key, lbl in mapping.items(): lbl.config(text=f"S: {dates.get(key, 'N/A')}")
         except: pass
+        self.update_cookie_btn_status()
+
+    def update_cookie_btn_status(self):
+        if not hasattr(self, 'btn_cookie'): return
+        status_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'philibert_cookie_status.txt')
+        status = "DESCONOCIDO"
+        if os.path.exists(status_file):
+            try:
+                with open(status_file, 'r', encoding='utf-8') as sf:
+                    status = sf.read().strip()
+            except: pass
+        
+        if status == "VALID":
+            self.btn_cookie.config(text="🔑 Cookie: Válida ●", bg="#27ae60", fg="white")
+        else:
+            self.btn_cookie.config(text="🔑 Cookie: Expirada ●", bg="#e74c3c", fg="white")
+
+    def open_cookie_modal(self):
+        modal = tk.Toplevel(self.root)
+        modal.title("Gestor de Cookie de Philibert")
+        modal.geometry("540x450")
+        modal.configure(bg=self.colors["bg"])
+        modal.transient(self.root)
+        modal.grab_set()
+
+        frame = tk.Frame(modal, bg=self.colors["bg"], padx=15, pady=15)
+        frame.pack(fill=tk.BOTH, expand=True)
+
+        tk.Label(frame, text="Configuración de Cookie (Philibert)", font=("Segoe UI", 12, "bold"), bg=self.colors["bg"], fg=self.colors["text"]).pack(anchor="w")
+        
+        lbl_info = tk.Label(frame, text="Pega el JSON exportado (Cookie-Editor / EditThisCookie) o el string 'name=val; ...':", font=("Segoe UI", 9), bg=self.colors["bg"], fg="#6c757d", justify=tk.LEFT)
+        lbl_info.pack(anchor="w", pady=(5, 5))
+
+        txt_cookie = scrolledtext.ScrolledText(frame, height=8, font=("Consolas", 9), wrap=tk.WORD, relief="flat", highlightthickness=1, highlightbackground=self.colors["border"])
+        txt_cookie.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+
+        lbl_msg = tk.Label(frame, text="", font=("Segoe UI", 9), bg=self.colors["bg"], fg="#2c3e50", wraplength=500, justify=tk.LEFT)
+        lbl_msg.pack(fill=tk.X, pady=(0, 10))
+
+        status_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'philibert_cookie_status.txt')
+        curr_status = "DESCONOCIDO"
+        if os.path.exists(status_file):
+            try:
+                with open(status_file, 'r', encoding='utf-8') as sf:
+                    curr_status = sf.read().strip()
+            except: pass
+        if curr_status == "VALID":
+            lbl_msg.config(text="● Estado actual: VÁLIDA (Sesión activa)", fg=self.colors["success"])
+        else:
+            lbl_msg.config(text="● Estado actual: EXPIRADA / INVÁLIDA (Requiere actualización)", fg=self.colors["danger"])
+
+        btn_row = tk.Frame(frame, bg=self.colors["bg"])
+        btn_row.pack(fill=tk.X)
+
+        def run_test_current():
+            lbl_msg.config(text="⏳ Probando cookie actual contra Philibert...", fg="#f39c12")
+            modal.update_idletasks()
+            def worker():
+                from actualizar_cookie_remota import verify_philibert_session
+                import monitor_core
+                cookie_to_test = monitor_core.COOKIE
+                ok, msg = verify_philibert_session(cookie_to_test)
+                color = self.colors["success"] if ok else self.colors["danger"]
+                self.root.after(0, lambda: [
+                    lbl_msg.config(text=f"{'✔' if ok else '✖'} {msg}", fg=color),
+                    self.update_cookie_btn_status()
+                ])
+            import threading
+            threading.Thread(target=worker, daemon=True).start()
+
+        def run_save(push_git=False):
+            val = txt_cookie.get("1.0", tk.END).strip()
+            if not val:
+                lbl_msg.config(text="⚠ Pega primero la cookie en el cuadro de texto.", fg=self.colors["danger"])
+                return
+            action_desc = "Guardando, verificando y subiendo a GitHub..." if push_git else "Guardando y verificando localmente..."
+            lbl_msg.config(text=f"⏳ {action_desc}", fg="#f39c12")
+            modal.update_idletasks()
+            def worker():
+                from actualizar_cookie_remota import save_and_sync_cookie
+                ok, msg = save_and_sync_cookie(val, push_to_github=push_git)
+                color = self.colors["success"] if ok else self.colors["danger"]
+                self.root.after(0, lambda: [
+                    lbl_msg.config(text=f"{'✔' if ok else '✖'} {msg}", fg=color),
+                    self.update_cookie_btn_status(),
+                    self.log(f"[COOKIE] {msg}")
+                ])
+            import threading
+            threading.Thread(target=worker, daemon=True).start()
+
+        tk.Button(btn_row, text="🔍 Probar Actual", font=("Segoe UI", 8, "bold"), bg="#6c757d", fg="white", relief="flat", padx=8, pady=6, cursor="hand2", command=run_test_current).pack(side=tk.LEFT, padx=2)
+        tk.Button(btn_row, text="💾 Guardar Local", font=("Segoe UI", 8, "bold"), bg="#3498db", fg="white", relief="flat", padx=8, pady=6, cursor="hand2", command=lambda: run_save(False)).pack(side=tk.LEFT, padx=2)
+        tk.Button(btn_row, text="🚀 Guardar y Subir a GitHub", font=("Segoe UI", 8, "bold"), bg=self.colors["success"], fg="white", relief="flat", padx=10, pady=6, cursor="hand2", command=lambda: run_save(True)).pack(side=tk.RIGHT, padx=2)
 
     def log(self, text, clear=False):
         if clear:

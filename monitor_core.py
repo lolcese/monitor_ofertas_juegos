@@ -29,10 +29,15 @@ if os.path.exists(cookie_file):
                         decrypted = fernet.decrypt(file_cookie.encode('utf-8'))
                         COOKIE = decrypted.decode('utf-8')
                     except Exception as e:
-                        print(f"[ERROR] No se pudo desencriptar la cookie con la clave de tu .env: {e}")
+                        if "=" in file_cookie and not file_cookie.startswith("gAAAAA"):
+                            COOKIE = file_cookie
+                        else:
+                            print(f"[ERROR] No se pudo desencriptar la cookie con la clave de tu .env: {e}")
                 else:
-                    # Fallback si no está configurada la encriptación
-                    COOKIE = file_cookie
+                    if file_cookie.startswith("gAAAAA"):
+                        print("[ERROR] philibert_cookie.txt está cifrado pero falta PHILIBERT_COOKIE_KEY en tu .env")
+                    else:
+                        COOKIE = file_cookie
     except Exception as e:
         print(f"[ERROR] Error al cargar la cookie de Philibert: {e}")
 BGG_CACHE_DB = os.path.join(BASE_DIR, 'bgg_cache.db')
@@ -53,7 +58,10 @@ HEADERS_GENERIC = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
 }
 
-HEADERS_BGG = HEADERS_GENERIC.copy()
+HEADERS_BGG = {
+    "User-Agent": "BGG-Offer-Monitor/1.0",
+    "Accept": "application/xml, text/xml, */*"
+}
 if TOKEN: HEADERS_BGG["Authorization"] = f"Bearer {TOKEN}"
 
 HEADERS_PHILI = HEADERS_GENERIC.copy()
